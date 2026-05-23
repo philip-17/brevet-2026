@@ -1,0 +1,365 @@
+{
+  "subjectId": "histoire-geo",
+  "lessons": {
+    "premiere-guerre-mondiale": {
+      "title": "Première Guerre mondiale",
+      "intro": "La Première Guerre mondiale, de 1914 à 1918, est un conflit d'une violence inédite qui marque la fin du dix-neuvième siècle politique et transforme profondément l'Europe et le monde.",
+      "sections": [
+        {
+          "title": "Les origines du conflit",
+          "content": "L'Europe en 1914 est divisée en deux alliances rivales : la Triple Entente, qui réunit la France, le Royaume-Uni et la Russie, et la Triple Alliance, qui rassemble l'Allemagne, l'Autriche-Hongrie et l'Italie. Les tensions nationalistes et coloniales sont vives. L'attentat de Sarajevo, le 28 juin 1914, où l'archiduc François-Ferdinand, héritier du trône d'Autriche-Hongrie, est assassiné par un nationaliste serbe, déclenche un engrenage de déclarations de guerre. En quelques semaines, toute l'Europe entre en guerre."
+        },
+        {
+          "title": "Les grandes phases de la guerre",
+          "content": "De 1914 à 1915, c'est d'abord la guerre de mouvement, puis la guerre s'enlise rapidement dans les tranchées sur le front occidental. L'année 1916 est marquée par les grandes batailles d'usure comme Verdun, qui dure presque toute l'année, et la Somme. En 1917, la Russie quitte la guerre après la révolution bolchevique menée par Lénine, tandis que les États-Unis entrent dans le conflit aux côtés des Alliés. En 1918, leur arrivée massive précipite la victoire alliée. L'armistice est signé le 11 novembre 1918 à Rethondes."
+        },
+        {
+          "title": "Une guerre totale et une violence de masse",
+          "content": "La Première Guerre mondiale est une guerre totale : elle mobilise toutes les ressources des États, des soldats au front aux civils à l'arrière, hommes et femmes confondus. Les soldats français, surnommés les Poilus, subissent une violence inédite dans les tranchées : artillerie de masse, gaz toxiques, mitrailleuses. Le bilan est terrible : près de 10 millions de morts, dont 1,4 million de Français, et des millions de blessés, parfois défigurés, appelés les Gueules cassées."
+        },
+        {
+          "title": "Un nouveau monde au sortir de la guerre",
+          "content": "Le traité de Versailles, signé le 28 juin 1919, met officiellement fin à la guerre. Il impose à l'Allemagne, jugée responsable, des sanctions très lourdes : pertes territoriales, paiement de réparations, limitation de son armée. Quatre empires disparaissent : allemand, austro-hongrois, ottoman et russe. La carte de l'Europe est redessinée. La Société des Nations est créée pour préserver la paix, mais le ressentiment allemand prépare déjà de futurs conflits."
+        }
+      ],
+      "keyPoints": [
+        "1914-1918 : durée du conflit",
+        "Attentat de Sarajevo : 28 juin 1914",
+        "Bataille de Verdun : 1916",
+        "Révolution russe : octobre 1917",
+        "Armistice : 11 novembre 1918",
+        "Traité de Versailles : 28 juin 1919"
+      ]
+    },
+    "entre-deux-guerres-totalitarismes": {
+      "title": "Entre-deux-guerres et régimes totalitaires",
+      "intro": "Entre 1918 et 1939, l'Europe traverse une période de profonds bouleversements. Trois régimes totalitaires s'affirment : le communisme en URSS, le fascisme en Italie et le nazisme en Allemagne. Ils menacent les démocraties fragilisées par la crise économique de 1929.",
+      "sections": [
+        {
+          "title": "L'URSS de Staline, un totalitarisme communiste",
+          "content": "Après la mort de Lénine en 1924, Staline prend progressivement le pouvoir en URSS. Il met en place une dictature totalitaire fondée sur le parti unique, le culte de la personnalité et une terreur de masse. Il collectivise de force l'agriculture, ce qui provoque des famines meurtrières, comme en Ukraine en 1933. Les opposants sont déportés dans des camps de travail forcé appelés goulags. La police politique surveille toute la société."
+        },
+        {
+          "title": "L'Italie fasciste de Mussolini",
+          "content": "En octobre 1922, après la Marche sur Rome, Benito Mussolini, surnommé le Duce, prend le pouvoir en Italie. Il instaure peu à peu un régime fasciste : parti unique, propagande, encadrement de la jeunesse, violence contre les opposants. Le fascisme glorifie la nation, la force et la guerre. C'est le premier régime totalitaire d'Europe occidentale, qui servira de modèle au nazisme."
+        },
+        {
+          "title": "L'Allemagne nazie de Hitler",
+          "content": "Affaiblie par le traité de Versailles et la crise de 1929, l'Allemagne sombre dans le chômage. Adolf Hitler, chef du parti nazi, est nommé chancelier le 30 janvier 1933. Il met fin à la République de Weimar et instaure une dictature totalitaire, le Troisième Reich. Sa doctrine est raciste et antisémite. Les lois de Nuremberg, en 1935, privent les Juifs de la citoyenneté allemande. La nuit de Cristal, en novembre 1938, marque le passage à des violences massives contre les Juifs."
+        },
+        {
+          "title": "La France des années trente et le Front populaire",
+          "content": "En France, la crise économique des années trente fragilise la République. Face à la montée des ligues d'extrême droite, les partis de gauche s'unissent et remportent les élections en mai 1936. Le Front populaire, dirigé par Léon Blum, met en place de grandes réformes sociales : congés payés de quinze jours, semaine de 40 heures, conventions collectives. C'est une avancée majeure pour les ouvriers, mais le gouvernement chute rapidement."
+        }
+      ],
+      "keyPoints": [
+        "Marche sur Rome de Mussolini : octobre 1922",
+        "Mort de Lénine et arrivée de Staline : 1924",
+        "Hitler chancelier : 30 janvier 1933",
+        "Lois de Nuremberg : 1935",
+        "Front populaire en France : 1936",
+        "Trois totalitarismes : communisme, fascisme, nazisme"
+      ]
+    },
+    "seconde-guerre-mondiale": {
+      "title": "Seconde Guerre mondiale et Shoah",
+      "intro": "De 1939 à 1945, la Seconde Guerre mondiale est le conflit le plus meurtrier de l'histoire, avec environ 60 millions de morts. Elle est marquée par des crimes contre l'humanité d'une ampleur inédite, en particulier le génocide des Juifs et des Tsiganes.",
+      "sections": [
+        {
+          "title": "Une guerre mondiale et idéologique",
+          "content": "Le 1er septembre 1939, l'Allemagne nazie envahit la Pologne, déclenchant la Seconde Guerre mondiale. La France et le Royaume-Uni déclarent la guerre à l'Allemagne deux jours plus tard. En 1940, la France est rapidement vaincue. La guerre devient mondiale en 1941 avec l'invasion de l'URSS par Hitler et l'attaque japonaise sur Pearl Harbor, qui fait entrer les États-Unis dans le conflit. Deux camps s'opposent : les Alliés contre les forces de l'Axe."
+        },
+        {
+          "title": "La France occupée et le régime de Vichy",
+          "content": "Après la défaite de juin 1940, la France est divisée en deux zones. Le maréchal Pétain, à la tête du régime de Vichy à partir du 10 juillet 1940, choisit la collaboration avec l'Allemagne nazie. Sa devise remplace celle de la République : Travail, Famille, Patrie. Le régime persécute les Juifs et participe à leur déportation. Depuis Londres, le général Charles de Gaulle lance l'Appel du 18 juin 1940 et organise la France libre. En France, la Résistance se structure peu à peu, notamment grâce à Jean Moulin."
+        },
+        {
+          "title": "Le génocide des Juifs et des Tsiganes",
+          "content": "À partir de 1941, les nazis décident d'exterminer systématiquement les Juifs d'Europe : c'est la Shoah, aussi appelée Solution finale. Les Juifs sont d'abord assassinés par balles par les Einsatzgruppen sur le front de l'Est, puis déportés dans des camps d'extermination, comme Auschwitz-Birkenau en Pologne, où ils sont gazés. Environ six millions de Juifs sont assassinés, ainsi que des centaines de milliers de Tsiganes. C'est un crime contre l'humanité d'une ampleur sans précédent."
+        },
+        {
+          "title": "La victoire des Alliés et la fin du conflit",
+          "content": "À partir de 1942, la guerre tourne en faveur des Alliés avec les victoires de Stalingrad et d'El-Alamein. Le débarquement allié en Normandie, le 6 juin 1944, marque le début de la libération de l'Europe occidentale. Paris est libérée en août 1944. L'Allemagne capitule le 8 mai 1945. Dans le Pacifique, le Japon capitule le 2 septembre 1945, après les bombardements atomiques d'Hiroshima et Nagasaki. Le procès de Nuremberg juge les dirigeants nazis pour crimes contre l'humanité."
+        }
+      ],
+      "keyPoints": [
+        "Invasion de la Pologne : 1er septembre 1939",
+        "Appel du général de Gaulle : 18 juin 1940",
+        "Shoah : environ 6 millions de Juifs assassinés",
+        "Débarquement de Normandie : 6 juin 1944",
+        "Capitulation allemande : 8 mai 1945",
+        "Capitulation japonaise : 2 septembre 1945"
+      ]
+    },
+    "france-1945-nos-jours": {
+      "title": "France de 1945 à nos jours",
+      "intro": "Depuis 1945, la France connaît de profondes transformations politiques, économiques et sociales. Elle passe de la Quatrième à la Cinquième République, modernise son économie et fait face à de nouveaux défis dans une société qui se transforme rapidement.",
+      "sections": [
+        {
+          "title": "La refondation de la République après 1945",
+          "content": "À la Libération, le Gouvernement provisoire dirigé par le général de Gaulle met en place de grandes réformes. Les femmes obtiennent le droit de vote par ordonnance du 21 avril 1944 et votent pour la première fois en 1945. La Sécurité sociale est créée en 1945 pour protéger les Français face à la maladie, la vieillesse ou le chômage. La Quatrième République est proclamée en 1946, mais elle est marquée par une grande instabilité gouvernementale."
+        },
+        {
+          "title": "La naissance de la Cinquième République",
+          "content": "La guerre d'Algérie provoque une crise majeure en 1958. Le général de Gaulle revient au pouvoir et fait adopter une nouvelle Constitution, le 4 octobre 1958, qui fonde la Cinquième République. Le président de la République obtient des pouvoirs renforcés. En 1962, le suffrage universel direct pour l'élection présidentielle est adopté par référendum. De Gaulle est élu président au suffrage universel direct en 1965. La Ve République donne une grande stabilité aux institutions."
+        },
+        {
+          "title": "Les Trente Glorieuses et Mai 68",
+          "content": "De 1945 à 1975, la France connaît une période de forte croissance économique appelée les Trente Glorieuses. Le niveau de vie augmente, la société se modernise, la consommation de masse se développe. Mais en mai 1968, une grande contestation éclate. Le mouvement étudiant, parti de Nanterre, est rejoint par une grève générale ouvrière. Mai 68 aboutit aux accords de Grenelle, qui augmentent les salaires, et marque une transformation profonde des mœurs et de la société française."
+        },
+        {
+          "title": "Les alternances politiques et la construction européenne",
+          "content": "En mai 1981, François Mitterrand devient le premier président socialiste de la Cinquième République. Il abolit la peine de mort en 1981 et instaure les congés payés à cinq semaines. La France connaît plusieurs alternances politiques et cohabitations. Elle s'engage dans la construction européenne et adopte l'euro, mis en circulation le 1er janvier 2002. Aujourd'hui, la France fait face à de nouveaux défis : mondialisation, terrorisme, transition écologique."
+        }
+      ],
+      "keyPoints": [
+        "Droit de vote des femmes : 21 avril 1944",
+        "Création de la Sécurité sociale : 1945",
+        "Constitution de la Ve République : 4 octobre 1958",
+        "Mai 68 : mouvement social et culturel",
+        "Mitterrand premier président socialiste : 1981",
+        "Mise en circulation de l'euro : 1er janvier 2002"
+      ]
+    },
+    "decolonisation-guerre-froide": {
+      "title": "Décolonisation et Guerre froide",
+      "intro": "De 1945 à 1991, le monde est divisé en deux blocs rivaux : l'Ouest, dirigé par les États-Unis, et l'Est, dirigé par l'URSS. Cette Guerre froide se déroule en même temps que la décolonisation, qui voit naître de nombreux nouveaux États en Afrique et en Asie.",
+      "sections": [
+        {
+          "title": "Un monde divisé en deux blocs",
+          "content": "Dès 1947, les anciens alliés de la Seconde Guerre mondiale se divisent. Les États-Unis, démocratie capitaliste, et l'URSS, dictature communiste, deviennent rivaux. Winston Churchill évoque dès 1946 un rideau de fer qui sépare l'Europe en deux. Chaque camp se dote d'alliances militaires : l'OTAN pour l'Ouest en 1949, le pacte de Varsovie pour l'Est en 1955. C'est la Guerre froide : les deux superpuissances s'affrontent sans guerre directe, mais par pays interposés."
+        },
+        {
+          "title": "Berlin, symbole de la Guerre froide",
+          "content": "La ville de Berlin, divisée en quatre zones d'occupation depuis 1945, est au cœur des tensions. En 1948, l'URSS organise un blocus de Berlin-Ouest. Dans la nuit du 12 au 13 août 1961, le mur de Berlin est construit par la RDA pour empêcher les Allemands de l'Est de fuir à l'Ouest. Il devient le symbole de la division du monde. Le mur tombe finalement le 9 novembre 1989, marquant la fin de la Guerre froide. L'URSS disparaît en décembre 1991."
+        },
+        {
+          "title": "Des crises sans guerre directe",
+          "content": "La Guerre froide est marquée par plusieurs crises graves. La guerre de Corée, de 1950 à 1953, oppose Corée du Nord communiste et Corée du Sud soutenue par les États-Unis. En octobre 1962, la crise des missiles de Cuba oppose Kennedy à Khrouchtchev et le monde frôle la guerre nucléaire. L'URSS finit par retirer ses missiles. La guerre du Vietnam, dans les années 1960 et 1970, est un autre conflit majeur de cette période."
+        },
+        {
+          "title": "La décolonisation de l'Afrique et de l'Asie",
+          "content": "Après 1945, les peuples colonisés réclament leur indépendance. En Asie, l'Inde devient indépendante en 1947. La France subit deux guerres coloniales : la guerre d'Indochine, de 1946 à 1954, perdue à Diên Biên Phu, et surtout la guerre d'Algérie, de 1954 à 1962. Cette dernière, particulièrement violente, se termine par les accords d'Évian du 18 mars 1962 et l'indépendance de l'Algérie le 5 juillet 1962. En Afrique noire, la plupart des colonies françaises deviennent indépendantes en 1960."
+        }
+      ],
+      "keyPoints": [
+        "Rideau de fer évoqué par Churchill : 1946",
+        "Construction du mur de Berlin : 13 août 1961",
+        "Crise des missiles de Cuba : octobre 1962",
+        "Guerre d'Algérie : 1954-1962",
+        "Indépendance de l'Algérie : 5 juillet 1962",
+        "Chute du mur de Berlin : 9 novembre 1989"
+      ]
+    },
+    "france-union-europeenne": {
+      "title": "La France et l'Union européenne",
+      "intro": "Depuis 1957, la France participe activement à la construction européenne. L'Union européenne est aujourd'hui une organisation politique et économique unique au monde, qui rassemble 27 États membres autour de valeurs et de projets communs.",
+      "sections": [
+        {
+          "title": "Les origines de la construction européenne",
+          "content": "Après la Seconde Guerre mondiale, des hommes politiques comme Robert Schuman, Jean Monnet ou Konrad Adenauer souhaitent rapprocher la France et l'Allemagne pour éviter une nouvelle guerre. En 1951, la Communauté européenne du charbon et de l'acier est créée. Le traité de Rome, signé le 25 mars 1957, fonde la Communauté économique européenne, ou CEE, entre six pays : France, Allemagne, Italie, Belgique, Pays-Bas et Luxembourg. C'est le début d'un grand marché commun."
+        },
+        {
+          "title": "De la CEE à l'Union européenne",
+          "content": "Au fil des décennies, la CEE s'élargit à de nouveaux pays et approfondit son intégration. Le traité de Maastricht, signé le 7 février 1992, crée l'Union européenne. Il prévoit la mise en place d'une monnaie unique : l'euro, qui entre en circulation le 1er janvier 2002. Aujourd'hui, après le départ du Royaume-Uni en 2020, appelé Brexit, l'Union européenne compte 27 États membres. Vingt d'entre eux utilisent l'euro."
+        },
+        {
+          "title": "Les institutions et la citoyenneté européenne",
+          "content": "L'Union européenne possède ses propres institutions. La Commission européenne, à Bruxelles, propose les lois. Le Parlement européen, à Strasbourg, est élu au suffrage universel direct tous les cinq ans par les citoyens européens. Le Conseil européen réunit les chefs d'État. Tout Français est aussi citoyen européen : il peut circuler, étudier et travailler librement dans les autres pays membres, grâce notamment à l'espace Schengen créé en 1985."
+        },
+        {
+          "title": "La France au cœur de l'Union européenne",
+          "content": "La France est un pays fondateur et un moteur de l'Union européenne avec l'Allemagne. Strasbourg, symbole de la réconciliation franco-allemande, abrite le Parlement européen. Mais la construction européenne fait aussi débat : en 2005, les Français rejettent par référendum le projet de Constitution européenne. Aujourd'hui, l'Union européenne doit relever de grands défis : crises économiques, migrations, transition écologique et place dans la mondialisation."
+        }
+      ],
+      "keyPoints": [
+        "Traité de Rome et création de la CEE : 25 mars 1957",
+        "Espace Schengen : 1985",
+        "Traité de Maastricht et création de l'UE : 7 février 1992",
+        "Entrée en circulation de l'euro : 1er janvier 2002",
+        "Brexit effectif : 31 janvier 2020",
+        "27 États membres dans l'UE aujourd'hui"
+      ]
+    },
+    "aires-urbaines-espaces-ruraux": {
+      "title": "Aires urbaines et espaces ruraux français",
+      "intro": "La France est un pays fortement urbanisé : environ 85 pour cent des Français vivent dans une aire urbaine. Le territoire français est marqué par de profondes inégalités entre les grandes métropoles dynamiques et certains espaces ruraux fragilisés.",
+      "sections": [
+        {
+          "title": "Une France de plus en plus urbaine",
+          "content": "Une aire urbaine se compose d'une ville-centre, de sa banlieue et d'une couronne périurbaine. La France compte plus de 30 grandes aires urbaines. La plus peuplée est Paris, avec environ 13 millions d'habitants, soit près d'un cinquième de la population française. Viennent ensuite Lyon, Marseille, Toulouse, Bordeaux et Lille. Les aires urbaines concentrent la population, les emplois et les activités économiques."
+        },
+        {
+          "title": "La métropolisation et la périurbanisation",
+          "content": "Les grandes villes, appelées métropoles, concentrent les fonctions de commandement : sièges des entreprises, universités, transports, culture. C'est le phénomène de métropolisation. Autour des villes, les espaces ruraux deviennent peu à peu résidentiels : les habitants s'installent en périphérie, où les logements sont moins chers, mais continuent de travailler en ville. C'est la périurbanisation, qui transforme le paysage et consomme beaucoup d'espace agricole."
+        },
+        {
+          "title": "Des espaces ruraux contrastés",
+          "content": "Tous les espaces ruraux ne se ressemblent pas. Certains, situés près des villes ou attractifs sur le plan touristique, comme le littoral ou les zones de montagne, sont dynamiques et gagnent des habitants. D'autres, plus isolés, perdent au contraire des habitants et des services publics. C'est ce qu'on appelle la diagonale du vide, qui traverse la France des Ardennes aux Landes, et qui regroupe les territoires les moins densément peuplés."
+        },
+        {
+          "title": "Aménager le territoire",
+          "content": "Pour réduire les inégalités, l'État aménage le territoire. Il développe les transports comme le TGV et les autoroutes, qui rapprochent les régions. Des politiques soutiennent les zones rurales en difficulté et les quartiers populaires des banlieues, parfois marqués par le chômage et la pauvreté. L'objectif est d'assurer un développement plus équilibré du territoire français, tout en préservant l'environnement."
+        }
+      ],
+      "keyPoints": [
+        "Environ 85 pour cent des Français vivent en aire urbaine",
+        "Paris : environ 13 millions d'habitants",
+        "Métropolisation : concentration dans les grandes villes",
+        "Périurbanisation : extension des villes sur les campagnes",
+        "Diagonale du vide : territoires ruraux peu peuplés",
+        "Aménagement du territoire par l'État"
+      ]
+    },
+    "france-mondialisation": {
+      "title": "La France et la mondialisation",
+      "intro": "La France est l'une des grandes puissances mondiales et joue un rôle actif dans la mondialisation. Elle s'appuie sur ses entreprises, ses ports, ses aéroports, son rayonnement culturel et ses territoires d'outre-mer pour rester présente sur tous les continents.",
+      "sections": [
+        {
+          "title": "Une puissance mondiale de premier plan",
+          "content": "La France fait partie des dix premières puissances économiques mondiales, autour de la septième place. Elle est membre du G7, du G20 et siège de manière permanente au Conseil de sécurité de l'ONU. Sa langue, le français, est parlée par environ 300 millions de personnes dans le monde, notamment dans la Francophonie. La France est aussi la première destination touristique mondiale, avec plus de 80 millions de visiteurs chaque année."
+        },
+        {
+          "title": "Les portes d'entrée de la mondialisation",
+          "content": "La France s'intègre à la mondialisation grâce à plusieurs interfaces. Les grands ports comme Marseille-Fos, premier port français en tonnage, et Le Havre, premier pour le trafic de conteneurs, sont des points de passage essentiels pour les marchandises. L'aéroport Roissy-Charles-de-Gaulle, près de Paris, est le premier aéroport français et un grand hub européen. Paris est aussi une métropole mondiale, qui concentre sièges sociaux, finance et activités touristiques."
+        },
+        {
+          "title": "La présence française dans le monde",
+          "content": "La France dispose de territoires d'outre-mer répartis sur tous les océans : la Guadeloupe, la Martinique, la Guyane, La Réunion, Mayotte, mais aussi la Nouvelle-Calédonie et la Polynésie française. Ces territoires donnent à la France la deuxième plus grande zone économique exclusive maritime du monde. Les DROM, Départements et Régions d'Outre-Mer, font partie intégrante de la République française et de l'Union européenne."
+        },
+        {
+          "title": "Les défis de la mondialisation",
+          "content": "La mondialisation apporte à la France des opportunités mais aussi des difficultés. Certaines industries ont fermé en raison de la concurrence internationale, comme dans le Nord ou la Lorraine. C'est la désindustrialisation. Mais d'autres secteurs sont très compétitifs, comme l'aéronautique avec Airbus, le luxe, l'agroalimentaire ou la pharmacie. La France doit aussi relever les défis de la transition écologique et de la place de l'Europe face aux nouvelles puissances mondiales."
+        }
+      ],
+      "keyPoints": [
+        "France : autour de la septième puissance économique mondiale",
+        "Première destination touristique mondiale",
+        "Premier port français en tonnage : Marseille-Fos",
+        "Premier aéroport français : Roissy-Charles-de-Gaulle",
+        "DROM présents sur tous les océans",
+        "Membre permanent du Conseil de sécurité de l'ONU"
+      ]
+    },
+    "espaces-productifs": {
+      "title": "Espaces productifs français",
+      "intro": "Les espaces productifs français sont les territoires où se déroulent les activités économiques. Ils sont organisés en trois grands secteurs : l'agriculture, l'industrie et les services. Leur localisation est inégale et évolue avec la mondialisation.",
+      "sections": [
+        {
+          "title": "Les espaces agricoles",
+          "content": "La France est la première puissance agricole de l'Union européenne. Les grandes plaines céréalières du Bassin parisien, comme la Beauce et la Brie, ainsi que le Nord, sont les espaces agricoles les plus productifs. Ils utilisent une agriculture intensive et très mécanisée. L'élevage est important dans l'Ouest, en Bretagne et en Normandie. La vigne, dans les régions de Bordeaux, de Bourgogne ou de Champagne, est tournée vers l'exportation. L'agriculture biologique se développe également."
+        },
+        {
+          "title": "Les espaces industriels",
+          "content": "L'industrie française a beaucoup changé. Les vieilles régions industrielles du Nord et de Lorraine, autrefois centrées sur le charbon et la sidérurgie, ont connu une crise et une désindustrialisation. Aujourd'hui, l'industrie se concentre dans des espaces de haute technologie, appelés technopôles, comme Sophia Antipolis près de Nice ou Saclay près de Paris. Toulouse, en Occitanie, est la capitale européenne de l'aéronautique, avec Airbus. L'industrie automobile est encore présente, mais elle se transforme."
+        },
+        {
+          "title": "Les espaces de services et le tourisme",
+          "content": "Les services représentent près de 80 pour cent des emplois en France. Ils sont concentrés dans les grandes villes, surtout à Paris. Le tourisme est une activité majeure : la France est la première destination touristique mondiale. Les espaces les plus visités sont Paris et l'Île-de-France, le littoral méditerranéen et la Côte d'Azur, les Alpes en hiver, mais aussi des sites comme le Mont-Saint-Michel ou les châteaux de la Loire. Le tourisme génère des emplois mais peut aussi fragiliser l'environnement."
+        },
+        {
+          "title": "Des espaces productifs intégrés à la mondialisation",
+          "content": "Les espaces productifs français sont fortement connectés à la mondialisation. Ils s'appuient sur les ports, les aéroports, les autoroutes et les lignes à grande vitesse pour exporter leurs productions et accueillir des investissements étrangers. Mais certains territoires profitent davantage que d'autres de cette ouverture, ce qui creuse les inégalités entre les régions dynamiques, comme l'Île-de-France ou la façade atlantique, et les territoires en difficulté."
+        }
+      ],
+      "keyPoints": [
+        "France : première puissance agricole de l'UE",
+        "Bassin parisien et Nord : grandes plaines céréalières",
+        "Toulouse : capitale européenne de l'aéronautique (Airbus)",
+        "Sophia Antipolis : grand technopôle français",
+        "Services : près de 80 pour cent des emplois",
+        "France : première destination touristique mondiale"
+      ]
+    },
+    "institutions-5e-republique": {
+      "title": "Institutions de la Cinquième République",
+      "intro": "La Cinquième République est le régime politique de la France depuis le 4 octobre 1958. Sa Constitution organise les pouvoirs et fixe les règles du fonctionnement démocratique. Elle se caractérise par un exécutif fort, autour du président de la République.",
+      "sections": [
+        {
+          "title": "Le président de la République",
+          "content": "Le président de la République est élu pour cinq ans au suffrage universel direct depuis la révision constitutionnelle de 2000, qui a instauré le quinquennat. Avant 2002, son mandat durait sept ans. Il est le chef de l'État, garant de la Constitution et de l'indépendance nationale. Il nomme le Premier ministre, peut dissoudre l'Assemblée nationale et il est le chef des armées. Il réside au palais de l'Élysée."
+        },
+        {
+          "title": "Le gouvernement et le Premier ministre",
+          "content": "Le Premier ministre est nommé par le président de la République. Il dirige le gouvernement, composé des ministres, et conduit la politique de la nation. Le gouvernement prépare et applique les lois. Il est responsable devant l'Assemblée nationale, qui peut le renverser par une motion de censure. Le Premier ministre réside à l'hôtel Matignon. Lorsque la majorité de l'Assemblée nationale est opposée au président, on parle de cohabitation."
+        },
+        {
+          "title": "Le Parlement et le pouvoir législatif",
+          "content": "Le Parlement vote les lois et contrôle le gouvernement. Il est composé de deux assemblées. L'Assemblée nationale compte 577 députés élus pour cinq ans au suffrage universel direct. Le Sénat compte 348 sénateurs élus pour six ans au suffrage universel indirect par des grands électeurs. En cas de désaccord entre les deux chambres, c'est l'Assemblée nationale qui a le dernier mot. Le Parlement vote aussi le budget de l'État."
+        },
+        {
+          "title": "Les citoyens et le contrôle démocratique",
+          "content": "En France, le droit de vote est ouvert à tous les citoyens à partir de 18 ans depuis 1974. Les Français élisent leurs représentants à toutes les échelles : conseillers municipaux, départementaux, régionaux, députés, président. Ils peuvent aussi être consultés directement par référendum. Le Conseil constitutionnel veille au respect de la Constitution. La justice est indépendante du pouvoir politique."
+        }
+      ],
+      "keyPoints": [
+        "Constitution de la Ve République : 4 octobre 1958",
+        "Président élu pour 5 ans depuis 2000 (quinquennat)",
+        "577 députés à l'Assemblée nationale",
+        "348 sénateurs au Sénat",
+        "Droit de vote à 18 ans depuis 1974",
+        "Parlement vote les lois et le budget"
+      ]
+    },
+    "symboles-valeurs-republique": {
+      "title": "Symboles et valeurs de la République",
+      "intro": "La République française repose sur des valeurs et des symboles qui rassemblent les citoyens autour d'une histoire et d'un projet communs. Ces symboles, nés en grande partie de la Révolution française, sont aujourd'hui inscrits dans la Constitution.",
+      "sections": [
+        {
+          "title": "La devise et les valeurs républicaines",
+          "content": "La devise de la République française est Liberté, Égalité, Fraternité. Elle est née pendant la Révolution française, à la fin du dix-huitième siècle, et a été définitivement adoptée sous la Troisième République. La liberté garantit à chacun la possibilité d'agir, de penser et de s'exprimer librement. L'égalité signifie que tous les citoyens sont égaux devant la loi. La fraternité incite à la solidarité entre les membres de la communauté nationale."
+        },
+        {
+          "title": "Le drapeau, l'hymne et la fête nationale",
+          "content": "Le drapeau tricolore bleu, blanc, rouge est né en 1789 pendant la Révolution. Il associe le blanc, couleur du roi, aux couleurs de la ville de Paris. La Marseillaise, écrite par Rouget de Lisle en 1792, devient l'hymne national en 1879. La fête nationale est célébrée le 14 juillet depuis 1880. Elle commémore deux événements : la prise de la Bastille en 1789 et la fête de la Fédération en 1790. Ces symboles sont présents lors des cérémonies officielles."
+        },
+        {
+          "title": "Marianne, figure de la République",
+          "content": "Marianne est la figure allégorique qui représente la République française. Elle apparaît pendant la Révolution française. Elle est souvent représentée avec un bonnet phrygien, symbole de la liberté, et parfois avec une couronne de lauriers ou un drapeau. Son visage orne les pièces de monnaie, les timbres et les mairies de France. Régulièrement, des personnalités françaises servent de modèle pour sculpter Marianne, comme Brigitte Bardot ou Catherine Deneuve."
+        },
+        {
+          "title": "Une République indivisible, démocratique, laïque et sociale",
+          "content": "L'article premier de la Constitution de 1958 définit la France comme une République indivisible, laïque, démocratique et sociale. Indivisible signifie qu'il n'y a qu'une seule nation. Démocratique signifie que le pouvoir vient du peuple. Laïque signifie que l'État est neutre envers les religions. Sociale signifie que l'État protège ses citoyens et lutte contre les inégalités. Ces principes guident l'ensemble de la vie politique et sociale française."
+        }
+      ],
+      "keyPoints": [
+        "Devise : Liberté, Égalité, Fraternité",
+        "Drapeau tricolore : 1789",
+        "Marseillaise écrite par Rouget de Lisle : 1792",
+        "Fête nationale le 14 juillet depuis 1880",
+        "Marianne : figure allégorique de la République",
+        "République indivisible, laïque, démocratique et sociale"
+      ]
+    },
+    "droits-devoirs-laicite": {
+      "title": "Droits, devoirs et laïcité",
+      "intro": "En France, chaque citoyen possède des droits qui lui sont garantis, mais il a aussi des devoirs envers la République. La laïcité, principe fondamental, garantit la liberté de conscience et la neutralité de l'État envers les religions.",
+      "sections": [
+        {
+          "title": "Les droits fondamentaux des citoyens",
+          "content": "Les droits fondamentaux des Français trouvent leur origine dans la Déclaration des droits de l'homme et du citoyen du 26 août 1789. Ce texte affirme que les hommes naissent libres et égaux en droits. Il proclame des libertés fondamentales : liberté d'expression, d'opinion, de réunion, de circulation. Ces droits ont été élargis au fil du temps : droit à l'éducation, droit au travail, droit à la santé, droit de vote pour les femmes en 1944. La Déclaration de 1789 fait aujourd'hui partie du bloc de constitutionnalité."
+        },
+        {
+          "title": "Les devoirs des citoyens",
+          "content": "À côté de leurs droits, les citoyens ont des devoirs envers la République. Ils doivent respecter les lois et la Constitution. Ils doivent payer les impôts pour financer les services publics. Ils ont le devoir de respecter les autres, leurs opinions et leurs croyances. Ils peuvent être appelés à être jurés d'assises. Depuis 1997, le service militaire obligatoire a été remplacé par la Journée Défense et Citoyenneté, à laquelle tous les jeunes Français de 17 ans participent."
+        },
+        {
+          "title": "La laïcité, un principe fondamental",
+          "content": "La laïcité est un principe essentiel de la République française. La loi de séparation des Églises et de l'État, votée le 9 décembre 1905, en pose les bases. L'État ne reconnaît, ne salarie ni ne subventionne aucun culte. La laïcité garantit la liberté de conscience : chacun peut croire ou ne pas croire. Elle assure aussi la neutralité de l'État et l'égalité des citoyens, quelle que soit leur religion. La laïcité n'est pas hostile aux religions, mais protège la liberté de chacun."
+        },
+        {
+          "title": "La laïcité à l'école et dans la société",
+          "content": "L'école publique joue un rôle central dans la transmission des valeurs républicaines. Depuis la loi du 15 mars 2004, le port de signes religieux ostensibles est interdit dans les écoles publiques. Les enseignants doivent rester neutres. La laïcité permet à tous les élèves d'apprendre ensemble, dans le respect des différences. Plus largement, dans la société française, la liberté religieuse est garantie tant qu'elle respecte les lois et l'ordre public."
+        }
+      ],
+      "keyPoints": [
+        "Déclaration des droits de l'homme et du citoyen : 26 août 1789",
+        "Loi de séparation des Églises et de l'État : 9 décembre 1905",
+        "Laïcité : liberté de conscience et neutralité de l'État",
+        "Loi sur les signes religieux à l'école : 15 mars 2004",
+        "Droits et devoirs des citoyens",
+        "Journée Défense et Citoyenneté à 17 ans"
+      ]
+    }
+  }
+}

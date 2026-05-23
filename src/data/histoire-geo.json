@@ -1,0 +1,446 @@
+{
+  "id": "histoire-geo",
+  "label": "Histoire-Géo-EMC",
+  "emoji": "🏛️",
+  "color": "#f59e0b",
+  "chapters": [
+    {
+      "id": "premiere-guerre-mondiale",
+      "title": "Première Guerre mondiale",
+      "questions": [
+        {
+          "question": "En quelle année commence la Première Guerre mondiale ?",
+          "choices": ["1912", "1914", "1916", "1918"],
+          "correctIndex": 1,
+          "explanation": "La Première Guerre mondiale débute le 28 juillet 1914 après l'assassinat de l'archiduc François-Ferdinand à Sarajevo le 28 juin 1914."
+        },
+        {
+          "question": "Quelle bataille de 1916 est devenue un symbole de la guerre de tranchées en France ?",
+          "choices": ["Bataille de la Marne", "Bataille de Verdun", "Bataille de la Somme", "Bataille du Chemin des Dames"],
+          "correctIndex": 1,
+          "explanation": "La bataille de Verdun (février-décembre 1916) opposa Français et Allemands et fit environ 300 000 morts. Elle est devenue le symbole de la violence de masse."
+        },
+        {
+          "question": "Quel traité met fin à la Première Guerre mondiale ?",
+          "choices": ["Traité de Vienne", "Traité de Versailles", "Traité de Rome", "Traité de Berlin"],
+          "correctIndex": 1,
+          "explanation": "Le traité de Versailles, signé le 28 juin 1919, met officiellement fin à la guerre et impose des sanctions très lourdes à l'Allemagne."
+        },
+        {
+          "question": "Comment appelle-t-on les soldats français de la Première Guerre mondiale ?",
+          "choices": ["Les Sans-culottes", "Les Poilus", "Les Tommies", "Les Sammies"],
+          "correctIndex": 1,
+          "explanation": "Les soldats français sont surnommés les 'Poilus' en raison de leur apparence dans les tranchées (barbes, moustaches)."
+        },
+        {
+          "question": "Quel événement marque la sortie de la Russie de la guerre en 1917 ?",
+          "choices": ["L'entrée en guerre des États-Unis", "La révolution russe", "Le traité de Brest-Litovsk", "La mort du tsar Nicolas II"],
+          "correctIndex": 1,
+          "explanation": "La révolution russe d'octobre 1917 amène les bolcheviks au pouvoir. Lénine signe le traité de Brest-Litovsk en mars 1918, retirant la Russie du conflit."
+        },
+        {
+          "question": "Quand l'armistice de la Première Guerre mondiale est-il signé ?",
+          "choices": ["11 novembre 1917", "11 novembre 1918", "8 mai 1918", "14 juillet 1918"],
+          "correctIndex": 1,
+          "explanation": "L'armistice est signé le 11 novembre 1918 à Rethondes, mettant fin aux combats. Cette date est aujourd'hui un jour férié en France."
+        }
+      ]
+    },
+    {
+      "id": "entre-deux-guerres-totalitarismes",
+      "title": "Entre-deux-guerres et régimes totalitaires",
+      "questions": [
+        {
+          "question": "Qui prend le pouvoir en URSS après la mort de Lénine en 1924 ?",
+          "choices": ["Trotski", "Staline", "Khrouchtchev", "Brejnev"],
+          "correctIndex": 1,
+          "explanation": "Staline prend progressivement le pouvoir après la mort de Lénine en 1924 et établit une dictature totalitaire jusqu'à sa mort en 1953."
+        },
+        {
+          "question": "Comment s'appellent les camps de travail forcé soviétiques ?",
+          "choices": ["Gulags", "Stalags", "Kolkhozes", "Sovkhozes"],
+          "correctIndex": 0,
+          "explanation": "Les goulags étaient des camps de travail forcé en URSS où étaient déportés les opposants politiques sous Staline."
+        },
+        {
+          "question": "En quelle année Hitler devient-il chancelier d'Allemagne ?",
+          "choices": ["1923", "1929", "1933", "1939"],
+          "correctIndex": 2,
+          "explanation": "Hitler est nommé chancelier le 30 janvier 1933 par le président Hindenburg, puis instaure progressivement une dictature totalitaire (le IIIe Reich)."
+        },
+        {
+          "question": "Quelles lois nazies de 1935 privent les Juifs de leurs droits ?",
+          "choices": ["Lois de Weimar", "Lois de Nuremberg", "Lois de Munich", "Lois de Vichy"],
+          "correctIndex": 1,
+          "explanation": "Les lois de Nuremberg (1935) privent les Juifs de la citoyenneté allemande et interdisent les mariages entre Juifs et non-Juifs."
+        },
+        {
+          "question": "Qui dirige l'Italie fasciste à partir de 1922 ?",
+          "choices": ["Victor-Emmanuel III", "Benito Mussolini", "Giuseppe Garibaldi", "Francisco Franco"],
+          "correctIndex": 1,
+          "explanation": "Mussolini, le 'Duce', prend le pouvoir en Italie après la Marche sur Rome en octobre 1922 et instaure un régime fasciste."
+        },
+        {
+          "question": "Quel gouvernement français de 1936 met en place les congés payés ?",
+          "choices": ["Le Bloc national", "Le Cartel des gauches", "Le Front populaire", "L'Union sacrée"],
+          "correctIndex": 2,
+          "explanation": "Le Front populaire (alliance des gauches dirigée par Léon Blum) accède au pouvoir en mai 1936 et instaure les congés payés (15 jours) et la semaine de 40 heures."
+        }
+      ]
+    },
+    {
+      "id": "seconde-guerre-mondiale",
+      "title": "Seconde Guerre mondiale et Shoah",
+      "questions": [
+        {
+          "question": "Quel événement déclenche la Seconde Guerre mondiale ?",
+          "choices": ["L'invasion de la France", "L'invasion de la Pologne", "L'attaque de Pearl Harbor", "L'Anschluss"],
+          "correctIndex": 1,
+          "explanation": "L'invasion de la Pologne par l'Allemagne nazie le 1er septembre 1939 déclenche la Seconde Guerre mondiale. La France et le Royaume-Uni déclarent la guerre le 3 septembre."
+        },
+        {
+          "question": "Qui lance l'Appel du 18 juin 1940 depuis Londres ?",
+          "choices": ["Philippe Pétain", "Charles de Gaulle", "Jean Moulin", "Pierre Mendès France"],
+          "correctIndex": 1,
+          "explanation": "Le général Charles de Gaulle appelle à la résistance depuis la BBC à Londres le 18 juin 1940, créant la France libre."
+        },
+        {
+          "question": "Quel régime collaborationniste dirige la France de 1940 à 1944 ?",
+          "choices": ["Le régime de Vichy", "La République de Bordeaux", "Le gouvernement de Sigmaringen", "La République de Lyon"],
+          "correctIndex": 0,
+          "explanation": "Le régime de Vichy, dirigé par le maréchal Pétain à partir du 10 juillet 1940, collabore avec l'Allemagne nazie. Sa devise est 'Travail, Famille, Patrie'."
+        },
+        {
+          "question": "Comment appelle-t-on l'extermination des Juifs par les nazis ?",
+          "choices": ["La Solution finale ou Shoah", "Le Génocide arménien", "Les Pogroms", "La Nuit de Cristal"],
+          "correctIndex": 0,
+          "explanation": "La Shoah (ou 'Solution finale') désigne le génocide des Juifs d'Europe par les nazis, qui fit environ 6 millions de victimes (1941-1945)."
+        },
+        {
+          "question": "Quel est le plus grand camp d'extermination nazi ?",
+          "choices": ["Dachau", "Buchenwald", "Auschwitz-Birkenau", "Bergen-Belsen"],
+          "correctIndex": 2,
+          "explanation": "Auschwitz-Birkenau (en Pologne) est le plus grand camp de concentration et d'extermination nazi. Plus d'un million de personnes y ont été assassinées, principalement des Juifs."
+        },
+        {
+          "question": "Quand a lieu le débarquement de Normandie ?",
+          "choices": ["6 juin 1942", "6 juin 1944", "8 mai 1944", "15 août 1944"],
+          "correctIndex": 1,
+          "explanation": "Le débarquement de Normandie (Opération Overlord) a lieu le 6 juin 1944 ('D-Day'). Il marque le début de la libération de l'Europe occidentale."
+        },
+        {
+          "question": "Quel jour marque la capitulation de l'Allemagne nazie ?",
+          "choices": ["6 juin 1944", "11 novembre 1944", "8 mai 1945", "2 septembre 1945"],
+          "correctIndex": 2,
+          "explanation": "L'Allemagne nazie capitule le 8 mai 1945. C'est aujourd'hui un jour férié en France marquant la victoire des Alliés en Europe."
+        }
+      ]
+    },
+    {
+      "id": "france-1945-nos-jours",
+      "title": "France de 1945 à nos jours",
+      "questions": [
+        {
+          "question": "Quand les femmes obtiennent-elles le droit de vote en France ?",
+          "choices": ["1936", "1944", "1946", "1958"],
+          "correctIndex": 1,
+          "explanation": "Le droit de vote des femmes en France est instauré par une ordonnance du général de Gaulle le 21 avril 1944. Elles votent pour la première fois en 1945."
+        },
+        {
+          "question": "En quelle année débute la Cinquième République ?",
+          "choices": ["1945", "1946", "1958", "1969"],
+          "correctIndex": 2,
+          "explanation": "La Cinquième République est fondée en 1958 par Charles de Gaulle, qui devient son premier président. La constitution est adoptée le 4 octobre 1958."
+        },
+        {
+          "question": "Quel événement marque le printemps 1968 en France ?",
+          "choices": ["La crise des missiles", "Mai 68", "La guerre d'Algérie", "Les accords de Grenelle uniquement"],
+          "correctIndex": 1,
+          "explanation": "Mai 68 est un mouvement étudiant et ouvrier de contestation sociale, politique et culturelle. Il aboutit aux accords de Grenelle (hausses de salaires)."
+        },
+        {
+          "question": "Qui est le premier président élu au suffrage universel direct sous la Ve République ?",
+          "choices": ["Vincent Auriol", "René Coty", "Charles de Gaulle", "Georges Pompidou"],
+          "correctIndex": 2,
+          "explanation": "Charles de Gaulle est élu au suffrage universel direct en 1965, après la révision constitutionnelle de 1962."
+        },
+        {
+          "question": "Qui est le premier président socialiste de la Ve République ?",
+          "choices": ["François Mitterrand", "Lionel Jospin", "François Hollande", "Pierre Mauroy"],
+          "correctIndex": 0,
+          "explanation": "François Mitterrand est élu président en mai 1981, devenant le premier président socialiste de la Ve République (deux mandats : 1981-1995)."
+        },
+        {
+          "question": "En quelle année l'euro est-il mis en circulation en France ?",
+          "choices": ["1999", "2000", "2002", "2005"],
+          "correctIndex": 2,
+          "explanation": "L'euro entre en circulation sous forme de pièces et billets le 1er janvier 2002, remplaçant le franc."
+        }
+      ]
+    },
+    {
+      "id": "decolonisation-guerre-froide",
+      "title": "Décolonisation et Guerre froide",
+      "questions": [
+        {
+          "question": "Que symbolise le 'rideau de fer' évoqué par Churchill en 1946 ?",
+          "choices": ["La frontière franco-allemande", "La séparation entre l'Europe de l'Ouest et de l'Est", "La fin de l'Empire britannique", "Le blocus de Berlin"],
+          "correctIndex": 1,
+          "explanation": "Le 'rideau de fer' est l'expression utilisée par Winston Churchill en 1946 pour décrire la séparation entre les démocraties occidentales et le bloc communiste soviétique."
+        },
+        {
+          "question": "Quand le mur de Berlin est-il construit ?",
+          "choices": ["1949", "1961", "1968", "1989"],
+          "correctIndex": 1,
+          "explanation": "Le mur de Berlin est construit dans la nuit du 12 au 13 août 1961 par la RDA pour empêcher les Allemands de l'Est de fuir vers Berlin-Ouest."
+        },
+        {
+          "question": "Quand le mur de Berlin tombe-t-il ?",
+          "choices": ["9 novembre 1989", "3 octobre 1990", "25 décembre 1991", "8 mai 1989"],
+          "correctIndex": 0,
+          "explanation": "Le mur de Berlin tombe le 9 novembre 1989, symbole de la fin de la Guerre froide. L'URSS disparaît en décembre 1991."
+        },
+        {
+          "question": "Quelle guerre marque la décolonisation française en Afrique du Nord (1954-1962) ?",
+          "choices": ["Guerre d'Indochine", "Guerre d'Algérie", "Guerre du Maroc", "Guerre de Tunisie"],
+          "correctIndex": 1,
+          "explanation": "La guerre d'Algérie (1954-1962) se termine par les accords d'Évian (18 mars 1962) et l'indépendance de l'Algérie le 5 juillet 1962."
+        },
+        {
+          "question": "Quelle crise de 1962 a failli déclencher une guerre nucléaire ?",
+          "choices": ["Crise du canal de Suez", "Crise des fusées de Cuba", "Crise de Berlin", "Guerre de Corée"],
+          "correctIndex": 1,
+          "explanation": "La crise des missiles de Cuba (octobre 1962) opposa Kennedy et Khrouchtchev. L'URSS retira ses missiles de Cuba, évitant une guerre nucléaire."
+        }
+      ]
+    },
+    {
+      "id": "france-union-europeenne",
+      "title": "La France et l'Union Européenne",
+      "questions": [
+        {
+          "question": "Quel traité fonde la Communauté économique européenne en 1957 ?",
+          "choices": ["Traité de Maastricht", "Traité de Rome", "Traité de Lisbonne", "Traité de Paris"],
+          "correctIndex": 1,
+          "explanation": "Le traité de Rome, signé le 25 mars 1957, fonde la CEE (Communauté économique européenne) entre 6 pays dont la France."
+        },
+        {
+          "question": "Quel traité de 1992 crée l'Union européenne ?",
+          "choices": ["Traité de Rome", "Traité de Maastricht", "Traité de Nice", "Traité de Schengen"],
+          "correctIndex": 1,
+          "explanation": "Le traité de Maastricht, signé le 7 février 1992, crée l'Union européenne (UE) et prépare la monnaie unique (euro)."
+        },
+        {
+          "question": "Combien d'États membres compte l'Union européenne depuis le Brexit ?",
+          "choices": ["25", "27", "28", "30"],
+          "correctIndex": 1,
+          "explanation": "Depuis le Brexit (sortie effective du Royaume-Uni le 31 janvier 2020), l'UE compte 27 États membres."
+        },
+        {
+          "question": "Où se trouve le Parlement européen ?",
+          "choices": ["Bruxelles", "Strasbourg", "Francfort", "Luxembourg"],
+          "correctIndex": 1,
+          "explanation": "Le siège officiel du Parlement européen est à Strasbourg, mais il se réunit aussi à Bruxelles. C'est un symbole de la réconciliation franco-allemande."
+        },
+        {
+          "question": "Quel espace permet la libre circulation des personnes en Europe ?",
+          "choices": ["L'espace Schengen", "L'espace euro", "Le marché unique", "L'OTAN"],
+          "correctIndex": 0,
+          "explanation": "L'espace Schengen, créé en 1985, supprime les contrôles aux frontières intérieures entre les pays signataires."
+        }
+      ]
+    },
+    {
+      "id": "aires-urbaines-espaces-ruraux",
+      "title": "Aires urbaines et espaces ruraux français",
+      "questions": [
+        {
+          "question": "Quelle est l'aire urbaine la plus peuplée de France ?",
+          "choices": ["Lyon", "Marseille", "Paris", "Lille"],
+          "correctIndex": 2,
+          "explanation": "L'aire urbaine de Paris compte environ 13 millions d'habitants, soit près de 20% de la population française."
+        },
+        {
+          "question": "Comment appelle-t-on l'extension des villes sur les espaces ruraux ?",
+          "choices": ["Urbanisation", "Périurbanisation", "Métropolisation", "Désertification"],
+          "correctIndex": 1,
+          "explanation": "La périurbanisation désigne l'extension des villes au-delà de leurs banlieues, créant des couronnes résidentielles dans les espaces ruraux."
+        },
+        {
+          "question": "Quel pourcentage de Français vivent en ville (en aires urbaines) ?",
+          "choices": ["Environ 50%", "Environ 70%", "Environ 85%", "Environ 95%"],
+          "correctIndex": 2,
+          "explanation": "Environ 85% des Français vivent dans une aire urbaine, ce qui montre la forte urbanisation du territoire français."
+        },
+        {
+          "question": "Comment appelle-t-on les espaces ruraux qui perdent des habitants ?",
+          "choices": ["Diagonale du vide", "Zone tampon", "Banlieue rouge", "Hinterland"],
+          "correctIndex": 0,
+          "explanation": "La 'diagonale du vide' (ou diagonale des faibles densités) traverse la France des Ardennes aux Landes et désigne les territoires ruraux peu peuplés."
+        },
+        {
+          "question": "Qu'est-ce qu'une métropole ?",
+          "choices": ["Une grande ville qui concentre les activités de commandement", "Un petit village rural", "Une banlieue résidentielle", "Une station balnéaire"],
+          "correctIndex": 0,
+          "explanation": "Une métropole est une grande ville qui concentre les fonctions de commandement (économiques, politiques, culturelles) et exerce une influence sur un vaste territoire."
+        }
+      ]
+    },
+    {
+      "id": "france-mondialisation",
+      "title": "La France et la mondialisation",
+      "questions": [
+        {
+          "question": "Quel est le premier port français en tonnage ?",
+          "choices": ["Le Havre", "Marseille-Fos", "Dunkerque", "Nantes-Saint-Nazaire"],
+          "correctIndex": 1,
+          "explanation": "Le port de Marseille-Fos est le premier port français en tonnage. Le Havre est le premier pour les conteneurs."
+        },
+        {
+          "question": "Que sont les DROM ?",
+          "choices": ["Des départements et régions d'outre-mer", "Des organisations européennes", "Des zones franches", "Des associations rurales"],
+          "correctIndex": 0,
+          "explanation": "Les DROM (Départements et Régions d'Outre-Mer) sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Ils permettent à la France d'être présente sur tous les océans."
+        },
+        {
+          "question": "Quel aéroport est le premier aéroport français ?",
+          "choices": ["Orly", "Roissy-Charles-de-Gaulle", "Marseille-Provence", "Nice-Côte d'Azur"],
+          "correctIndex": 1,
+          "explanation": "Roissy-Charles-de-Gaulle est le premier aéroport français et un hub majeur en Europe, ce qui en fait une porte d'entrée de la mondialisation."
+        },
+        {
+          "question": "Quelle est la place de la France dans l'économie mondiale ?",
+          "choices": ["1ère puissance économique", "Parmi les 10 premières puissances", "20ème puissance mondiale", "50ème puissance mondiale"],
+          "correctIndex": 1,
+          "explanation": "La France fait partie des 10 premières puissances économiques mondiales (environ 7ème), grâce à ses industries, son tourisme et ses services."
+        }
+      ]
+    },
+    {
+      "id": "espaces-productifs",
+      "title": "Espaces productifs français",
+      "questions": [
+        {
+          "question": "Où se situe le 'Croissant fertile' agricole français ?",
+          "choices": ["Centre de la France", "Bassin parisien et Nord", "Massif central", "Alpes"],
+          "correctIndex": 1,
+          "explanation": "Les grands espaces agricoles productifs se trouvent dans le Bassin parisien, le Nord (Beauce, Brie) et l'Ouest, grâce à des sols fertiles et une mécanisation poussée."
+        },
+        {
+          "question": "Quelle région est spécialisée dans l'aéronautique ?",
+          "choices": ["Île-de-France", "Provence-Alpes-Côte d'Azur", "Occitanie (Toulouse)", "Bretagne"],
+          "correctIndex": 2,
+          "explanation": "Toulouse, en Occitanie, est la capitale européenne de l'aéronautique avec Airbus. C'est un espace productif de haute technologie."
+        },
+        {
+          "question": "Qu'est-ce qu'un technopôle ?",
+          "choices": ["Une centrale nucléaire", "Un site qui concentre activités de haute technologie et recherche", "Un port industriel", "Une zone agricole"],
+          "correctIndex": 1,
+          "explanation": "Un technopôle est un site regroupant entreprises de haute technologie, universités et centres de recherche (ex: Sophia Antipolis près de Nice)."
+        },
+        {
+          "question": "Quel espace touristique français accueille le plus de visiteurs ?",
+          "choices": ["Les Alpes", "Paris et l'Île-de-France", "La Côte d'Azur", "Les Pyrénées"],
+          "correctIndex": 1,
+          "explanation": "Paris est la première destination touristique mondiale. La France est le 1er pays touristique mondial avec plus de 80 millions de visiteurs par an."
+        }
+      ]
+    },
+    {
+      "id": "institutions-5e-republique",
+      "title": "Institutions de la Ve République",
+      "questions": [
+        {
+          "question": "Pour combien d'années le président de la République est-il élu ?",
+          "choices": ["3 ans", "5 ans", "7 ans", "10 ans"],
+          "correctIndex": 1,
+          "explanation": "Le président de la République est élu pour 5 ans au suffrage universel direct depuis la réforme du quinquennat de 2000 (auparavant 7 ans)."
+        },
+        {
+          "question": "Qui nomme le Premier ministre ?",
+          "choices": ["L'Assemblée nationale", "Le président de la République", "Le Sénat", "Le Conseil constitutionnel"],
+          "correctIndex": 1,
+          "explanation": "Le Premier ministre est nommé par le président de la République. Il dirige le gouvernement et est responsable devant l'Assemblée nationale."
+        },
+        {
+          "question": "Combien de députés siègent à l'Assemblée nationale ?",
+          "choices": ["348", "577", "925", "1000"],
+          "correctIndex": 1,
+          "explanation": "L'Assemblée nationale compte 577 députés élus pour 5 ans au suffrage universel direct. Le Sénat compte 348 sénateurs."
+        },
+        {
+          "question": "Qui vote les lois en France ?",
+          "choices": ["Le président seul", "Le Parlement (Assemblée + Sénat)", "Le gouvernement", "Le Conseil constitutionnel"],
+          "correctIndex": 1,
+          "explanation": "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois. C'est le pouvoir législatif de la Ve République."
+        },
+        {
+          "question": "Quel est l'âge minimum pour voter en France ?",
+          "choices": ["16 ans", "18 ans", "20 ans", "21 ans"],
+          "correctIndex": 1,
+          "explanation": "L'âge minimum pour voter en France est de 18 ans depuis 1974 (auparavant 21 ans)."
+        }
+      ]
+    },
+    {
+      "id": "symboles-valeurs-republique",
+      "title": "Symboles et valeurs de la République",
+      "questions": [
+        {
+          "question": "Quelle est la devise de la République française ?",
+          "choices": ["Travail, Famille, Patrie", "Liberté, Égalité, Fraternité", "Un pour tous, tous pour un", "Honneur et Patrie"],
+          "correctIndex": 1,
+          "explanation": "La devise 'Liberté, Égalité, Fraternité' est née pendant la Révolution française et est inscrite dans la Constitution de la Ve République."
+        },
+        {
+          "question": "Quel est l'hymne national français ?",
+          "choices": ["Le Chant du départ", "La Marseillaise", "Le Chant des partisans", "Ça ira"],
+          "correctIndex": 1,
+          "explanation": "La Marseillaise, écrite par Rouget de Lisle en 1792, est l'hymne national français depuis 1879."
+        },
+        {
+          "question": "Quelle est la fête nationale française ?",
+          "choices": ["1er mai", "8 mai", "14 juillet", "11 novembre"],
+          "correctIndex": 2,
+          "explanation": "Le 14 juillet est la fête nationale française depuis 1880. Elle commémore la prise de la Bastille (1789) et la fête de la Fédération (1790)."
+        },
+        {
+          "question": "Quel personnage symbolise la République française ?",
+          "choices": ["Marianne", "Jeanne d'Arc", "Vercingétorix", "Napoléon"],
+          "correctIndex": 0,
+          "explanation": "Marianne est la figure allégorique de la République française. Elle est représentée avec un bonnet phrygien, symbole de liberté."
+        }
+      ]
+    },
+    {
+      "id": "droits-devoirs-laicite",
+      "title": "Droits, devoirs et laïcité",
+      "questions": [
+        {
+          "question": "En quelle année est votée la loi de séparation des Églises et de l'État ?",
+          "choices": ["1789", "1881", "1905", "1958"],
+          "correctIndex": 2,
+          "explanation": "La loi de séparation des Églises et de l'État du 9 décembre 1905 instaure la laïcité en France. L'État ne reconnaît, ne salarie ni ne subventionne aucun culte."
+        },
+        {
+          "question": "Que signifie la laïcité ?",
+          "choices": ["Interdire toutes les religions", "La neutralité de l'État face aux religions", "Imposer une religion d'État", "Favoriser une religion"],
+          "correctIndex": 1,
+          "explanation": "La laïcité est la neutralité de l'État vis-à-vis des religions, garantissant la liberté de conscience et l'égalité des citoyens quelle que soit leur croyance."
+        },
+        {
+          "question": "Quel devoir n'est PAS imposé aux citoyens français ?",
+          "choices": ["Payer les impôts", "Respecter les lois", "Aller à la messe", "Être juré d'assises si désigné"],
+          "correctIndex": 2,
+          "explanation": "La France est un État laïque : aucune pratique religieuse n'est obligatoire. Les autres options sont des devoirs civiques imposés par la loi."
+        },
+        {
+          "question": "Quel texte de 1789 affirme les droits fondamentaux ?",
+          "choices": ["La Constitution de 1958", "La Déclaration des droits de l'homme et du citoyen", "Le Code civil", "La Charte de l'environnement"],
+          "correctIndex": 1,
+          "explanation": "La Déclaration des droits de l'homme et du citoyen du 26 août 1789 proclame les droits fondamentaux (liberté, égalité, propriété, sûreté). Elle fait partie du bloc de constitutionnalité."
+        }
+      ]
+    }
+  ]
+}

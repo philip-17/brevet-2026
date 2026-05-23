@@ -1,0 +1,303 @@
+{
+  "subjectId": "maths",
+  "lessons": {
+    "pythagore": {
+      "title": "Théorème de Pythagore",
+      "intro": "Le théorème de Pythagore est l'un des théorèmes les plus célèbres des mathématiques. Il permet de calculer la longueur d'un côté dans un triangle rectangle quand on connaît les deux autres. Attention, il ne s'applique qu'aux triangles rectangles.",
+      "sections": [
+        {
+          "title": "Énoncé du théorème",
+          "content": "Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des deux autres côtés. Autrement dit, si un triangle ABC est rectangle en A, alors BC au carré est égal à AB au carré plus AC au carré. L'hypoténuse, c'est toujours le côté le plus long, celui qui est opposé à l'angle droit."
+        },
+        {
+          "title": "Calculer l'hypoténuse",
+          "content": "Prenons un triangle ABC rectangle en A avec AB qui mesure 3 centimètres et AC qui mesure 4 centimètres. On applique le théorème : BC au carré est égal à 3 au carré plus 4 au carré, soit 9 plus 16, ce qui donne 25. Donc BC est égal à la racine carrée de 25, c'est-à-dire 5 centimètres."
+        },
+        {
+          "title": "Calculer un côté de l'angle droit",
+          "content": "Si on connaît l'hypoténuse et un autre côté, on fait une soustraction. Par exemple, si BC mesure 10 et AB mesure 6, alors AC au carré est égal à 10 au carré moins 6 au carré, soit 100 moins 36, ce qui donne 64. Donc AC est égal à la racine carrée de 64, c'est-à-dire 8."
+        },
+        {
+          "title": "La réciproque du théorème",
+          "content": "La réciproque sert à démontrer qu'un triangle est rectangle. Si dans un triangle, le carré du plus grand côté est égal à la somme des carrés des deux autres côtés, alors ce triangle est rectangle. Par exemple, pour un triangle de côtés 5, 12 et 13 : 5 au carré plus 12 au carré donne 25 plus 144 égale 169, et 13 au carré égale aussi 169. Donc le triangle est rectangle."
+        },
+        {
+          "title": "La contraposée",
+          "content": "Si le carré du plus grand côté n'est pas égal à la somme des carrés des deux autres côtés, alors le triangle n'est pas rectangle. C'est utile pour prouver qu'un triangle n'est pas rectangle."
+        }
+      ],
+      "keyPoints": [
+        "Le théorème s'applique uniquement aux triangles rectangles",
+        "L'hypoténuse est le côté le plus long, opposé à l'angle droit",
+        "Formule : hypoténuse au carré égale la somme des carrés des deux autres côtés",
+        "La réciproque permet de prouver qu'un triangle est rectangle",
+        "Toujours bien identifier l'hypoténuse avant d'écrire l'égalité"
+      ]
+    },
+    "thales": {
+      "title": "Théorème de Thalès",
+      "intro": "Le théorème de Thalès permet de calculer des longueurs dans une configuration avec des droites parallèles. Il est très utile en géométrie et apparaît souvent au Brevet, notamment dans les exercices de proportionnalité géométrique.",
+      "sections": [
+        {
+          "title": "La configuration de Thalès",
+          "content": "On utilise Thalès quand deux droites sécantes en un point A sont coupées par deux droites parallèles. Concrètement, dans un triangle ABC, si M est un point sur le segment AB et N un point sur le segment AC, et que la droite MN est parallèle à la droite BC, alors on peut appliquer le théorème de Thalès."
+        },
+        {
+          "title": "Énoncé du théorème",
+          "content": "Dans cette configuration, les longueurs sont proportionnelles. On écrit l'égalité des trois rapports suivants : AM sur AB est égal à AN sur AC est égal à MN sur BC. Attention à bien respecter l'ordre des points : on part toujours du sommet commun, ici A."
+        },
+        {
+          "title": "Exemple de calcul",
+          "content": "Si AB mesure 8, AM mesure 6 et AC mesure 12, on cherche AN. On écrit AM sur AB égale AN sur AC, donc 6 sur 8 égale AN sur 12. En faisant un produit en croix, AN égale 12 multiplié par 6, divisé par 8, ce qui donne 9."
+        },
+        {
+          "title": "La réciproque de Thalès",
+          "content": "La réciproque sert à prouver que deux droites sont parallèles. Si les points A, M, B sont alignés et les points A, N, C sont alignés dans le même ordre, et si AM sur AB est égal à AN sur AC, alors les droites MN et BC sont parallèles. Attention, il faut vraiment que les points soient dans le même ordre."
+        },
+        {
+          "title": "Astuce pratique",
+          "content": "Pour bien écrire les rapports de Thalès, on peut faire un tableau de proportionnalité avec les longueurs du petit triangle en haut et les longueurs du grand triangle en bas. Cela évite les erreurs d'écriture."
+        }
+      ],
+      "keyPoints": [
+        "Il faut deux droites parallèles dans une configuration triangulaire",
+        "Égalité des trois rapports : AM sur AB égale AN sur AC égale MN sur BC",
+        "La réciproque permet de démontrer le parallélisme",
+        "Toujours partir du sommet commun pour écrire les rapports",
+        "Vérifier que les points sont alignés dans le même ordre"
+      ]
+    },
+    "trigonometrie": {
+      "title": "Trigonométrie",
+      "intro": "La trigonométrie permet de calculer des longueurs et des angles dans un triangle rectangle. On utilise trois fonctions principales : le cosinus, le sinus et la tangente. C'est un outil incontournable au Brevet.",
+      "sections": [
+        {
+          "title": "Vocabulaire du triangle rectangle",
+          "content": "Dans un triangle rectangle, on a trois côtés. L'hypoténuse est le côté le plus long, opposé à l'angle droit. Pour un angle aigu donné, le côté opposé est celui qui ne touche pas cet angle, et le côté adjacent est celui qui touche l'angle, sans être l'hypoténuse."
+        },
+        {
+          "title": "Les trois formules",
+          "content": "Le cosinus d'un angle est égal au côté adjacent divisé par l'hypoténuse. Le sinus d'un angle est égal au côté opposé divisé par l'hypoténuse. La tangente d'un angle est égale au côté opposé divisé par le côté adjacent. Pour mémoriser, on utilise le moyen mnémotechnique CAH SOH TOA : Cosinus égale Adjacent sur Hypoténuse, Sinus égale Opposé sur Hypoténuse, Tangente égale Opposé sur Adjacent."
+        },
+        {
+          "title": "Calculer une longueur",
+          "content": "Si on connaît un angle et un côté, on peut calculer un autre côté. Par exemple, dans un triangle rectangle avec un angle de 60 degrés et une hypoténuse de 10, pour trouver le côté opposé on écrit : sinus de 60 degrés égale opposé divisé par 10. Donc opposé égale 10 multiplié par sinus de 60 degrés, ce qui donne environ 8,66."
+        },
+        {
+          "title": "Calculer un angle",
+          "content": "Si on connaît deux côtés, on peut trouver un angle en utilisant les touches inverses de la calculatrice, notées cosinus moins un, sinus moins un et tangente moins un. Par exemple, si cosinus de x est égal à 0,5, alors x est égal à 60 degrés."
+        },
+        {
+          "title": "Valeurs remarquables",
+          "content": "Il y a quelques valeurs à connaître par cœur. Sinus de 30 degrés vaut un demi. Cosinus de 60 degrés vaut un demi. Sinus de 45 degrés est égal à cosinus de 45 degrés. La calculatrice doit toujours être en mode degré pour le Brevet."
+        }
+      ],
+      "keyPoints": [
+        "Uniquement dans un triangle rectangle",
+        "CAH SOH TOA : Cosinus Adjacent Hypoténuse, Sinus Opposé Hypoténuse, Tangente Opposé Adjacent",
+        "Bien identifier l'angle de référence avant de nommer les côtés",
+        "La calculatrice doit être en mode degré",
+        "Utiliser les touches inverses pour trouver un angle"
+      ]
+    },
+    "equations": {
+      "title": "Équations et inéquations",
+      "intro": "Une équation est une égalité avec une inconnue, le plus souvent notée x. Résoudre une équation, c'est trouver toutes les valeurs de x qui rendent l'égalité vraie. Une inéquation, c'est la même chose mais avec une inégalité.",
+      "sections": [
+        {
+          "title": "Résoudre une équation du premier degré",
+          "content": "On veut isoler x dans un membre de l'équation. Par exemple, pour résoudre 2x plus 5 égale 11, on commence par enlever 5 des deux côtés, ce qui donne 2x égale 6. Puis on divise par 2 des deux côtés, ce qui donne x égale 3. La solution est donc x égale 3."
+        },
+        {
+          "title": "Équations avec x dans les deux membres",
+          "content": "Quand x apparaît des deux côtés, on regroupe les termes en x d'un côté et les nombres de l'autre. Par exemple, pour 3x moins 7 égale 2x plus 5, on enlève 2x des deux côtés, ce qui donne x moins 7 égale 5. Puis on ajoute 7, ce qui donne x égale 12."
+        },
+        {
+          "title": "Équations produits",
+          "content": "Une équation produit est de la forme A multiplié par B égale 0. La règle est simple : un produit est nul si et seulement si l'un de ses facteurs est nul. Par exemple, pour résoudre x moins 2 multiplié par x plus 3 égale 0, on obtient deux solutions : x égale 2 ou x égale moins 3."
+        },
+        {
+          "title": "Résoudre une inéquation",
+          "content": "On procède comme pour une équation, mais attention : quand on multiplie ou divise par un nombre négatif, on doit changer le sens de l'inégalité. Par exemple, moins 2x est supérieur à 6 : on divise par moins 2 et l'inégalité s'inverse, on obtient x est inférieur à moins 3."
+        },
+        {
+          "title": "Résoudre un problème",
+          "content": "Pour résoudre un problème avec une équation, on suit trois étapes. D'abord, on choisit l'inconnue et on l'appelle x. Ensuite, on met le problème en équation en traduisant l'énoncé. Enfin, on résout l'équation et on conclut par une phrase."
+        }
+      ],
+      "keyPoints": [
+        "Isoler l'inconnue x d'un côté de l'équation",
+        "Ce qu'on fait à un membre, on le fait à l'autre",
+        "Équation produit nul : un des facteurs est nul",
+        "Inéquation : inverser le sens si on multiplie ou divise par un négatif",
+        "Toujours conclure par une phrase quand c'est un problème"
+      ]
+    },
+    "calcul-litteral": {
+      "title": "Calcul littéral",
+      "intro": "Le calcul littéral consiste à manipuler des expressions avec des lettres. On apprend à développer, factoriser et réduire ces expressions. Les identités remarquables sont des formules très utiles à connaître par cœur.",
+      "sections": [
+        {
+          "title": "Développer une expression",
+          "content": "Développer, c'est transformer un produit en somme. On utilise la distributivité. Par exemple, 3 multiplié par x plus 4 se développe en 3x plus 12. Pour deux parenthèses, par exemple x plus 2 multiplié par x plus 3, on développe chaque terme avec chaque terme : x au carré plus 3x plus 2x plus 6, soit x au carré plus 5x plus 6."
+        },
+        {
+          "title": "Factoriser une expression",
+          "content": "Factoriser, c'est l'inverse de développer : on transforme une somme en produit. On cherche un facteur commun. Par exemple, dans 4x plus 8, le facteur commun est 4, donc on écrit 4 multiplié par x plus 2. Factoriser est très utile pour résoudre des équations produits."
+        },
+        {
+          "title": "Identités remarquables : les carrés",
+          "content": "Il y a deux identités à connaître par cœur. Premièrement, a plus b au carré égale a au carré plus 2ab plus b au carré. Par exemple, x plus 5 au carré donne x au carré plus 10x plus 25. Deuxièmement, a moins b au carré égale a au carré moins 2ab plus b au carré. Par exemple, 2x moins 3 au carré donne 4x au carré moins 12x plus 9."
+        },
+        {
+          "title": "Identité remarquable : la différence de carrés",
+          "content": "La troisième identité remarquable est a au carré moins b au carré égale a moins b multiplié par a plus b. Elle sert beaucoup pour factoriser. Par exemple, x au carré moins 9, c'est x au carré moins 3 au carré, donc cela se factorise en x moins 3 multiplié par x plus 3."
+        },
+        {
+          "title": "Réduire une expression",
+          "content": "Réduire, c'est regrouper les termes de même nature. Les x avec les x, les x au carré avec les x au carré, et les nombres avec les nombres. Par exemple, 3x plus 5 plus 2x moins 1 se réduit en 5x plus 4."
+        }
+      ],
+      "keyPoints": [
+        "Développer : produit vers somme, on distribue",
+        "Factoriser : somme vers produit, on cherche un facteur commun",
+        "Identité 1 : a plus b au carré égale a carré plus 2ab plus b carré",
+        "Identité 2 : a moins b au carré égale a carré moins 2ab plus b carré",
+        "Identité 3 : a carré moins b carré égale a moins b multiplié par a plus b"
+      ]
+    },
+    "fractions-puissances": {
+      "title": "Fractions et puissances",
+      "intro": "Les fractions et les puissances sont des outils de base en mathématiques. Maîtriser leurs règles de calcul est essentiel pour réussir le Brevet, notamment dans la partie calcul numérique.",
+      "sections": [
+        {
+          "title": "Additionner des fractions",
+          "content": "Pour additionner ou soustraire deux fractions, il faut d'abord les mettre au même dénominateur. Par exemple, pour calculer 2 tiers plus 1 sixième, on transforme 2 tiers en 4 sixièmes en multipliant numérateur et dénominateur par 2. On obtient alors 4 sixièmes plus 1 sixième égale 5 sixièmes."
+        },
+        {
+          "title": "Multiplier et diviser des fractions",
+          "content": "Pour multiplier deux fractions, on multiplie les numérateurs entre eux et les dénominateurs entre eux. Pour diviser par une fraction, on multiplie par son inverse. Par exemple, diviser par 2 tiers revient à multiplier par 3 demis. On pense toujours à simplifier le résultat à la fin."
+        },
+        {
+          "title": "Règles sur les puissances",
+          "content": "Pour multiplier deux puissances de même base, on additionne les exposants. Par exemple, 2 puissance 3 multiplié par 2 puissance 4 égale 2 puissance 7. Pour diviser, on soustrait les exposants. Et quand on élève une puissance à une autre puissance, on multiplie les exposants : 3 au carré puissance 4 égale 3 puissance 8."
+        },
+        {
+          "title": "Puissances particulières",
+          "content": "Tout nombre non nul élevé à la puissance 0 vaut 1. Un nombre à la puissance moins n est égal à 1 divisé par ce nombre à la puissance n. Par exemple, 10 puissance moins 3 égale 1 sur 1000, soit 0,001."
+        },
+        {
+          "title": "Notation scientifique",
+          "content": "La notation scientifique permet d'écrire les très grands ou très petits nombres simplement. Un nombre en notation scientifique s'écrit sous la forme a multiplié par 10 puissance n, où a est un nombre entre 1 et 10, et n est un entier. Par exemple, 0,00045 s'écrit 4,5 multiplié par 10 puissance moins 4."
+        }
+      ],
+      "keyPoints": [
+        "Pour additionner des fractions : même dénominateur d'abord",
+        "Multiplier les puissances de même base : on additionne les exposants",
+        "Puissance de puissance : on multiplie les exposants",
+        "Tout nombre à la puissance 0 vaut 1",
+        "Notation scientifique : un nombre entre 1 et 10 multiplié par une puissance de 10"
+      ]
+    },
+    "stats-probas": {
+      "title": "Statistiques et probabilités",
+      "intro": "Les statistiques permettent d'analyser des données, tandis que les probabilités étudient le hasard. Ces deux chapitres sont très présents au Brevet, souvent dans des exercices concrets de la vie quotidienne.",
+      "sections": [
+        {
+          "title": "La moyenne",
+          "content": "La moyenne d'une série de valeurs s'obtient en additionnant toutes les valeurs puis en divisant par le nombre de valeurs. Par exemple, pour les notes 10, 12, 14 et 16, la moyenne est 10 plus 12 plus 14 plus 16 divisé par 4, ce qui donne 52 divisé par 4, soit 13."
+        },
+        {
+          "title": "La médiane et l'étendue",
+          "content": "Pour trouver la médiane, on range les valeurs dans l'ordre croissant. La médiane est la valeur du milieu. Pour 5 valeurs comme 2, 4, 5, 7 et 9, la médiane est la troisième valeur, c'est-à-dire 5. L'étendue est la différence entre la plus grande et la plus petite valeur. Pour la série 3, 7, 9, 12 et 15, l'étendue est 15 moins 3, soit 12."
+        },
+        {
+          "title": "Calculer une probabilité",
+          "content": "La probabilité d'un événement est égale au nombre de cas favorables divisé par le nombre total de cas possibles. Par exemple, la probabilité d'obtenir un 6 en lançant un dé à six faces est 1 sur 6, car il y a un seul cas favorable sur six possibles. Une probabilité est toujours comprise entre 0 et 1."
+        },
+        {
+          "title": "Probabilités et expériences à plusieurs étapes",
+          "content": "Quand on enchaîne deux expériences indépendantes, on multiplie les probabilités. Par exemple, la probabilité d'obtenir deux fois pile en lançant deux fois une pièce est un demi multiplié par un demi, soit un quart. On peut aussi représenter la situation avec un arbre de probabilités."
+        },
+        {
+          "title": "Vocabulaire utile",
+          "content": "Un événement certain a une probabilité de 1, un événement impossible a une probabilité de 0. Deux événements sont contraires si l'un est exactement la négation de l'autre. La somme des probabilités d'un événement et de son contraire vaut toujours 1."
+        }
+      ],
+      "keyPoints": [
+        "Moyenne : somme des valeurs divisée par le nombre de valeurs",
+        "Médiane : valeur du milieu après avoir rangé dans l'ordre croissant",
+        "Étendue : différence entre la plus grande et la plus petite valeur",
+        "Probabilité : cas favorables divisés par cas possibles",
+        "Probabilités enchaînées : on multiplie le long des branches d'un arbre"
+      ]
+    },
+    "fonctions": {
+      "title": "Fonctions linéaires et affines",
+      "intro": "Une fonction est une relation qui à un nombre x associe un autre nombre noté f de x. Au collège, on étudie surtout les fonctions linéaires et affines. Elles sont à la base de nombreux problèmes du Brevet.",
+      "sections": [
+        {
+          "title": "Fonction linéaire",
+          "content": "Une fonction linéaire est de la forme f de x égale ax, où a est un nombre fixé appelé coefficient. Sa représentation graphique est une droite qui passe par l'origine du repère. Les fonctions linéaires sont utilisées pour modéliser les situations de proportionnalité."
+        },
+        {
+          "title": "Fonction affine",
+          "content": "Une fonction affine est de la forme f de x égale ax plus b. Le nombre a est le coefficient directeur, et b est l'ordonnée à l'origine. Sa représentation graphique est une droite. Quand b est nul, on retrouve une fonction linéaire."
+        },
+        {
+          "title": "Calculer une image",
+          "content": "L'image d'un nombre par une fonction, c'est le résultat quand on remplace x par ce nombre. Par exemple, pour la fonction f de x égale 3x plus 2, l'image de 4 est f de 4, c'est-à-dire 3 multiplié par 4 plus 2, ce qui donne 14."
+        },
+        {
+          "title": "Calculer un antécédent",
+          "content": "Trouver un antécédent, c'est trouver la valeur de x dont l'image est un nombre donné. Cela revient à résoudre une équation. Par exemple, pour f de x égale moins 2x plus 5, l'antécédent de 1 se trouve en résolvant moins 2x plus 5 égale 1, ce qui donne x égale 2."
+        },
+        {
+          "title": "Lecture graphique",
+          "content": "Sur un graphique, pour lire l'image d'un nombre x, on part de x sur l'axe horizontal, on monte jusqu'à la courbe, puis on lit la valeur sur l'axe vertical. Pour un antécédent, c'est l'inverse : on part de la valeur sur l'axe vertical et on lit le x correspondant."
+        }
+      ],
+      "keyPoints": [
+        "Fonction linéaire : f de x égale ax, droite passant par l'origine",
+        "Fonction affine : f de x égale ax plus b, droite quelconque",
+        "Coefficient directeur a : indique l'inclinaison de la droite",
+        "Ordonnée à l'origine b : c'est la valeur de f en 0",
+        "Trouver un antécédent revient à résoudre une équation"
+      ]
+    },
+    "espace-volumes": {
+      "title": "Géométrie dans l'espace et volumes",
+      "intro": "La géométrie dans l'espace s'intéresse aux solides en trois dimensions : cubes, pavés, cylindres, pyramides, cônes et boules. Il faut connaître les formules de volume de chaque solide pour le Brevet.",
+      "sections": [
+        {
+          "title": "Volume d'un cube et d'un pavé droit",
+          "content": "Le volume d'un cube d'arête a est égal à a au cube, c'est-à-dire a multiplié par a multiplié par a. Par exemple, un cube de 4 centimètres d'arête a un volume de 64 centimètres cubes. Pour un pavé droit, le volume est égal à Longueur multipliée par largeur multipliée par hauteur."
+        },
+        {
+          "title": "Volume d'un cylindre",
+          "content": "Un cylindre est composé de deux disques identiques reliés par une surface courbe. Son volume est égal à pi multiplié par le rayon au carré multiplié par la hauteur. En clair, c'est l'aire du disque de base multipliée par la hauteur."
+        },
+        {
+          "title": "Volume d'une pyramide et d'un cône",
+          "content": "Pour une pyramide ou un cône, le volume est égal à un tiers multiplié par l'aire de la base multipliée par la hauteur. Pour une pyramide de base carrée de côté 6 et de hauteur 10, le volume est un tiers multiplié par 36 multiplié par 10, soit 120. Pour un cône, l'aire de la base est pi multiplié par le rayon au carré."
+        },
+        {
+          "title": "Volume d'une boule",
+          "content": "Le volume d'une boule de rayon r est égal à quatre tiers multiplié par pi multiplié par le rayon au cube. C'est une formule à retenir absolument. On utilise pi égal environ 3,14 ou la touche pi de la calculatrice."
+        },
+        {
+          "title": "Sections et agrandissement",
+          "content": "Quand on coupe un solide par un plan, on obtient une section qui peut être un disque, un rectangle ou un triangle selon le solide. Lors d'un agrandissement de coefficient k, les longueurs sont multipliées par k, les aires par k au carré, et les volumes par k au cube."
+        }
+      ],
+      "keyPoints": [
+        "Volume du cube : arête au cube",
+        "Volume du pavé droit : longueur fois largeur fois hauteur",
+        "Volume du cylindre : pi fois rayon au carré fois hauteur",
+        "Pyramide et cône : un tiers fois aire de la base fois hauteur",
+        "Boule : quatre tiers fois pi fois rayon au cube",
+        "Agrandissement de coefficient k : volumes multipliés par k au cube"
+      ]
+    }
+  }
+}

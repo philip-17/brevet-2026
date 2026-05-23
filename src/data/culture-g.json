@@ -1,0 +1,410 @@
+{
+  "id": "culture-g",
+  "label": "Culture Générale",
+  "emoji": "🌍",
+  "color": "#8b5cf6",
+  "chapters": [
+    {
+      "id": "geographie-monde",
+      "title": "Géographie du monde",
+      "questions": [
+        {
+          "question": "Quelle est la capitale de l'Australie ?",
+          "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+          "correctIndex": 2,
+          "explanation": "Canberra est la capitale de l'Australie, même si Sydney est la plus grande ville du pays."
+        },
+        {
+          "question": "Quel est le plus long fleuve du monde ?",
+          "choices": ["L'Amazone", "Le Nil", "Le Yangtsé", "Le Mississippi"],
+          "correctIndex": 1,
+          "explanation": "Le Nil mesure environ 6 650 km. L'Amazone est cependant le plus puissant en débit."
+        },
+        {
+          "question": "Quel pays a pour capitale Helsinki ?",
+          "choices": ["La Suède", "La Norvège", "Le Danemark", "La Finlande"],
+          "correctIndex": 3,
+          "explanation": "Helsinki est la capitale de la Finlande, située au bord de la mer Baltique."
+        },
+        {
+          "question": "Sur quel continent se trouve le désert du Kalahari ?",
+          "choices": ["Asie", "Afrique", "Amérique du Sud", "Australie"],
+          "correctIndex": 1,
+          "explanation": "Le Kalahari est un vaste désert d'Afrique australe, partagé entre le Botswana, la Namibie et l'Afrique du Sud."
+        },
+        {
+          "question": "Quel est le plus petit pays du monde ?",
+          "choices": ["Monaco", "Le Vatican", "Saint-Marin", "Liechtenstein"],
+          "correctIndex": 1,
+          "explanation": "Le Vatican fait seulement 0,44 km² et abrite le siège de l'Église catholique."
+        },
+        {
+          "question": "Combien y a-t-il d'océans sur Terre ?",
+          "choices": ["3", "4", "5", "6"],
+          "correctIndex": 2,
+          "explanation": "On compte 5 océans : Pacifique, Atlantique, Indien, Arctique et Austral (Antarctique)."
+        },
+        {
+          "question": "Le mont Everest se trouve dans quelle chaîne de montagnes ?",
+          "choices": ["Les Andes", "Les Alpes", "L'Himalaya", "Les Rocheuses"],
+          "correctIndex": 2,
+          "explanation": "L'Everest, point culminant à 8 849 m, se trouve dans l'Himalaya entre le Népal et la Chine."
+        }
+      ]
+    },
+    {
+      "id": "histoire-mondiale",
+      "title": "Histoire mondiale",
+      "questions": [
+        {
+          "question": "En quelle année a eu lieu la chute du mur de Berlin ?",
+          "choices": ["1987", "1989", "1991", "1993"],
+          "correctIndex": 1,
+          "explanation": "Le mur de Berlin est tombé le 9 novembre 1989, marquant la fin de la Guerre froide."
+        },
+        {
+          "question": "Quel empereur romain a fait construire un mur en Grande-Bretagne ?",
+          "choices": ["Néron", "Hadrien", "César", "Trajan"],
+          "correctIndex": 1,
+          "explanation": "Le mur d'Hadrien, construit vers 122 ap. J.-C., marquait la frontière nord de l'Empire romain."
+        },
+        {
+          "question": "Qui a peint le plafond de la chapelle Sixtine ?",
+          "choices": ["Léonard de Vinci", "Raphaël", "Michel-Ange", "Botticelli"],
+          "correctIndex": 2,
+          "explanation": "Michel-Ange a peint la voûte de la chapelle Sixtine entre 1508 et 1512 pour le pape Jules II."
+        },
+        {
+          "question": "Quelle civilisation a construit Machu Picchu ?",
+          "choices": ["Les Mayas", "Les Aztèques", "Les Incas", "Les Olmèques"],
+          "correctIndex": 2,
+          "explanation": "Machu Picchu, dans les Andes péruviennes, a été construite au XVe siècle par la civilisation inca."
+        },
+        {
+          "question": "Qui était le premier homme à marcher sur la Lune ?",
+          "choices": ["Buzz Aldrin", "Youri Gagarine", "Neil Armstrong", "Michael Collins"],
+          "correctIndex": 2,
+          "explanation": "Neil Armstrong a posé le pied sur la Lune le 21 juillet 1969 lors de la mission Apollo 11."
+        },
+        {
+          "question": "En quelle année Christophe Colomb a-t-il atteint l'Amérique ?",
+          "choices": ["1453", "1492", "1515", "1453"],
+          "correctIndex": 1,
+          "explanation": "Christophe Colomb a abordé les Bahamas en 1492, ouvrant l'ère des grandes découvertes."
+        },
+        {
+          "question": "Quelle reine d'Égypte a régné en s'alliant à Jules César et Marc Antoine ?",
+          "choices": ["Néfertiti", "Hatchepsout", "Cléopâtre VII", "Néfertari"],
+          "correctIndex": 2,
+          "explanation": "Cléopâtre VII fut la dernière reine de l'Égypte ptolémaïque, morte en 30 av. J.-C."
+        }
+      ]
+    },
+    {
+      "id": "sciences-inventions",
+      "title": "Sciences et inventions",
+      "questions": [
+        {
+          "question": "Qui a découvert la pénicilline ?",
+          "choices": ["Louis Pasteur", "Alexander Fleming", "Marie Curie", "Albert Einstein"],
+          "correctIndex": 1,
+          "explanation": "Alexander Fleming a découvert la pénicilline en 1928, premier antibiotique moderne."
+        },
+        {
+          "question": "Combien Marie Curie a-t-elle reçu de prix Nobel ?",
+          "choices": ["1", "2", "3", "4"],
+          "correctIndex": 1,
+          "explanation": "Marie Curie a reçu le Nobel de physique (1903) et de chimie (1911), seule femme à en avoir reçu dans deux sciences différentes."
+        },
+        {
+          "question": "Qui a formulé la théorie de la relativité ?",
+          "choices": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+          "correctIndex": 1,
+          "explanation": "Albert Einstein a publié la relativité restreinte en 1905 et la relativité générale en 1915."
+        },
+        {
+          "question": "Quel scientifique a énoncé la loi de la gravitation universelle ?",
+          "choices": ["Galilée", "Copernic", "Newton", "Kepler"],
+          "correctIndex": 2,
+          "explanation": "Isaac Newton a publié sa loi de la gravitation universelle en 1687 dans les Principia."
+        },
+        {
+          "question": "Quelle planète est la plus proche du Soleil ?",
+          "choices": ["Vénus", "Mars", "Mercure", "Terre"],
+          "correctIndex": 2,
+          "explanation": "Mercure est la planète la plus proche du Soleil, à environ 58 millions de km."
+        },
+        {
+          "question": "Qui a inventé l'imprimerie en Europe au XVe siècle ?",
+          "choices": ["Léonard de Vinci", "Gutenberg", "Galilée", "Copernic"],
+          "correctIndex": 1,
+          "explanation": "Johannes Gutenberg a inventé l'imprimerie à caractères mobiles vers 1450, révolutionnant la diffusion du savoir."
+        }
+      ]
+    },
+    {
+      "id": "arts-litterature",
+      "title": "Arts et littérature",
+      "questions": [
+        {
+          "question": "Qui a peint La Joconde ?",
+          "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+          "correctIndex": 2,
+          "explanation": "Léonard de Vinci a peint la Joconde (Mona Lisa) vers 1503-1519. Elle est exposée au Louvre."
+        },
+        {
+          "question": "Qui a écrit Les Misérables ?",
+          "choices": ["Émile Zola", "Victor Hugo", "Alexandre Dumas", "Gustave Flaubert"],
+          "correctIndex": 1,
+          "explanation": "Victor Hugo a publié Les Misérables en 1862, un chef-d'œuvre du roman français."
+        },
+        {
+          "question": "Quel peintre est connu pour son tableau La Nuit étoilée ?",
+          "choices": ["Monet", "Van Gogh", "Picasso", "Cézanne"],
+          "correctIndex": 1,
+          "explanation": "Vincent Van Gogh a peint La Nuit étoilée en 1889 depuis l'asile de Saint-Rémy-de-Provence."
+        },
+        {
+          "question": "Qui est l'auteur de la pièce Roméo et Juliette ?",
+          "choices": ["Molière", "Shakespeare", "Racine", "Corneille"],
+          "correctIndex": 1,
+          "explanation": "William Shakespeare a écrit Roméo et Juliette vers 1597, l'une des plus célèbres tragédies de l'amour."
+        },
+        {
+          "question": "Quel mouvement artistique est associé à Claude Monet ?",
+          "choices": ["Le cubisme", "Le surréalisme", "L'impressionnisme", "Le romantisme"],
+          "correctIndex": 2,
+          "explanation": "Claude Monet est l'un des fondateurs de l'impressionnisme, mouvement né en France à la fin du XIXe siècle."
+        },
+        {
+          "question": "Qui a écrit Le Petit Prince ?",
+          "choices": ["Antoine de Saint-Exupéry", "Jules Verne", "Albert Camus", "Marcel Pagnol"],
+          "correctIndex": 0,
+          "explanation": "Antoine de Saint-Exupéry a publié Le Petit Prince en 1943. C'est l'un des livres les plus traduits au monde."
+        }
+      ]
+    },
+    {
+      "id": "cinema-musique",
+      "title": "Cinéma et musique",
+      "questions": [
+        {
+          "question": "Qui a composé La Symphonie n°9 'Ode à la joie' ?",
+          "choices": ["Mozart", "Bach", "Beethoven", "Chopin"],
+          "correctIndex": 2,
+          "explanation": "Ludwig van Beethoven a composé sa 9e Symphonie en 1824. L'Ode à la joie est l'hymne européen."
+        },
+        {
+          "question": "Qui a réalisé les films de la saga Star Wars originale ?",
+          "choices": ["Steven Spielberg", "George Lucas", "James Cameron", "Ridley Scott"],
+          "correctIndex": 1,
+          "explanation": "George Lucas a créé l'univers Star Wars, dont le premier film est sorti en 1977."
+        },
+        {
+          "question": "Quel compositeur autrichien est mort à 35 ans après avoir composé Don Giovanni ?",
+          "choices": ["Haydn", "Mozart", "Schubert", "Strauss"],
+          "correctIndex": 1,
+          "explanation": "Wolfgang Amadeus Mozart, génie précoce, est mort en 1791 à Vienne, laissant plus de 600 œuvres."
+        },
+        {
+          "question": "Quel groupe britannique a sorti l'album Abbey Road en 1969 ?",
+          "choices": ["The Rolling Stones", "Queen", "The Beatles", "Pink Floyd"],
+          "correctIndex": 2,
+          "explanation": "Abbey Road est le 11e album studio des Beatles, célèbre pour sa pochette du passage piéton."
+        },
+        {
+          "question": "Qui a réalisé le film Le Voyage dans la Lune (1902) ?",
+          "choices": ["Louis Lumière", "Georges Méliès", "Charlie Chaplin", "Sergueï Eisenstein"],
+          "correctIndex": 1,
+          "explanation": "Georges Méliès, pionnier des effets spéciaux, a réalisé ce film fondateur du cinéma fantastique."
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "title": "Sport",
+      "questions": [
+        {
+          "question": "Tous les combien d'années ont lieu les Jeux Olympiques d'été ?",
+          "choices": ["2 ans", "3 ans", "4 ans", "5 ans"],
+          "correctIndex": 2,
+          "explanation": "Les JO d'été ont lieu tous les 4 ans depuis leur renaissance moderne en 1896 à Athènes."
+        },
+        {
+          "question": "Dans quel pays sont nés les Jeux Olympiques antiques ?",
+          "choices": ["Italie", "Égypte", "Grèce", "Turquie"],
+          "correctIndex": 2,
+          "explanation": "Les JO antiques sont nés à Olympie, en Grèce, vers 776 av. J.-C., en l'honneur de Zeus."
+        },
+        {
+          "question": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
+          "choices": ["10", "11", "12", "9"],
+          "correctIndex": 1,
+          "explanation": "Une équipe de football aligne 11 joueurs sur le terrain, dont un gardien de but."
+        },
+        {
+          "question": "Quel sportif est surnommé 'la foudre' (Lightning Bolt) ?",
+          "choices": ["Carl Lewis", "Usain Bolt", "Michael Johnson", "Justin Gatlin"],
+          "correctIndex": 1,
+          "explanation": "Usain Bolt, sprinter jamaïcain, détient les records du monde du 100 m (9,58 s) et du 200 m."
+        },
+        {
+          "question": "Quel pays a remporté la première Coupe du monde de football en 1930 ?",
+          "choices": ["Le Brésil", "L'Italie", "L'Uruguay", "L'Argentine"],
+          "correctIndex": 2,
+          "explanation": "L'Uruguay, pays hôte, a remporté la première Coupe du monde en battant l'Argentine 4-2."
+        }
+      ]
+    },
+    {
+      "id": "mythologie",
+      "title": "Mythologie",
+      "questions": [
+        {
+          "question": "Qui est le roi des dieux dans la mythologie grecque ?",
+          "choices": ["Poséidon", "Hadès", "Zeus", "Apollon"],
+          "correctIndex": 2,
+          "explanation": "Zeus règne sur l'Olympe et le ciel. Son équivalent romain est Jupiter."
+        },
+        {
+          "question": "Quel héros grec a tué le Minotaure dans le labyrinthe ?",
+          "choices": ["Hercule", "Persée", "Thésée", "Achille"],
+          "correctIndex": 2,
+          "explanation": "Thésée a tué le Minotaure grâce au fil d'Ariane qui lui permit de sortir du labyrinthe de Crète."
+        },
+        {
+          "question": "Dans la mythologie nordique, qui est le dieu du tonnerre ?",
+          "choices": ["Odin", "Loki", "Thor", "Freyr"],
+          "correctIndex": 2,
+          "explanation": "Thor, fils d'Odin, est le dieu du tonnerre, armé du marteau Mjölnir."
+        },
+        {
+          "question": "Quel dieu égyptien a une tête de chacal ?",
+          "choices": ["Râ", "Horus", "Anubis", "Osiris"],
+          "correctIndex": 2,
+          "explanation": "Anubis, à tête de chacal, est le dieu de la momification et des morts dans l'Égypte ancienne."
+        },
+        {
+          "question": "Combien de travaux Héraclès (Hercule) a-t-il dû accomplir ?",
+          "choices": ["7", "10", "12", "15"],
+          "correctIndex": 2,
+          "explanation": "Héraclès a accompli 12 travaux pour expier le meurtre de ses enfants, dont tuer le lion de Némée."
+        },
+        {
+          "question": "Quel est le nom du cheval ailé de la mythologie grecque ?",
+          "choices": ["Centaure", "Pégase", "Cerbère", "Sphinx"],
+          "correctIndex": 1,
+          "explanation": "Pégase, né du sang de Méduse, est un cheval ailé dompté par le héros Bellérophon."
+        }
+      ]
+    },
+    {
+      "id": "nature-animaux",
+      "title": "Nature et animaux",
+      "questions": [
+        {
+          "question": "Quel est l'animal terrestre le plus rapide du monde ?",
+          "choices": ["Le lion", "Le guépard", "L'antilope", "Le cheval"],
+          "correctIndex": 1,
+          "explanation": "Le guépard peut atteindre 110 km/h en quelques secondes, mais seulement sur de courtes distances."
+        },
+        {
+          "question": "Quel est le plus grand mammifère du monde ?",
+          "choices": ["L'éléphant d'Afrique", "La baleine bleue", "Le cachalot", "La girafe"],
+          "correctIndex": 1,
+          "explanation": "La baleine bleue peut atteindre 30 m de long et 170 tonnes, plus gros animal ayant jamais existé."
+        },
+        {
+          "question": "Combien de cœurs possède une pieuvre ?",
+          "choices": ["1", "2", "3", "4"],
+          "correctIndex": 2,
+          "explanation": "La pieuvre a 3 cœurs : deux pour les branchies et un pour le reste du corps. Son sang est bleu !"
+        },
+        {
+          "question": "Quel est le seul mammifère capable de voler ?",
+          "choices": ["L'écureuil volant", "La chauve-souris", "Le colibri", "Le pangolin"],
+          "correctIndex": 1,
+          "explanation": "La chauve-souris est le seul mammifère qui vole vraiment. L'écureuil volant ne fait que planer."
+        },
+        {
+          "question": "Quel arbre peut vivre plus de 4 000 ans ?",
+          "choices": ["Le chêne", "Le séquoia", "Le pin Bristlecone", "Le baobab"],
+          "correctIndex": 2,
+          "explanation": "Le pin Bristlecone (Pinus longaeva) des USA peut dépasser 4 800 ans, parmi les êtres vivants les plus vieux."
+        }
+      ]
+    },
+    {
+      "id": "langues-cultures",
+      "title": "Langues et cultures du monde",
+      "questions": [
+        {
+          "question": "Quelle est la langue la plus parlée au monde comme langue maternelle ?",
+          "choices": ["L'anglais", "L'espagnol", "Le mandarin", "L'hindi"],
+          "correctIndex": 2,
+          "explanation": "Le mandarin compte environ 920 millions de locuteurs natifs, principalement en Chine."
+        },
+        {
+          "question": "Dans quel pays célèbre-t-on la fête de Holi, la fête des couleurs ?",
+          "choices": ["Chine", "Thaïlande", "Inde", "Japon"],
+          "correctIndex": 2,
+          "explanation": "Holi est une fête hindoue célébrée en Inde au printemps. On se lance des poudres colorées."
+        },
+        {
+          "question": "Quel alphabet est utilisé en Russie ?",
+          "choices": ["Latin", "Cyrillique", "Arabe", "Grec"],
+          "correctIndex": 1,
+          "explanation": "Le russe utilise l'alphabet cyrillique, inspiré du grec, créé au IXe siècle par les moines Cyrille et Méthode."
+        },
+        {
+          "question": "Le mot 'algèbre' vient de quelle langue ?",
+          "choices": ["Latin", "Grec", "Arabe", "Hébreu"],
+          "correctIndex": 2,
+          "explanation": "'Algèbre' vient de l'arabe 'al-jabr', titre d'un livre du mathématicien Al-Khwarizmi au IXe siècle."
+        },
+        {
+          "question": "Dans quel pays trouve-t-on la cité interdite ?",
+          "choices": ["Japon", "Inde", "Chine", "Vietnam"],
+          "correctIndex": 2,
+          "explanation": "La Cité interdite, à Pékin, fut la résidence des empereurs chinois pendant près de 500 ans."
+        }
+      ]
+    },
+    {
+      "id": "logique-enigmes",
+      "title": "Logique et énigmes culturelles",
+      "questions": [
+        {
+          "question": "Combien de côtés possède un hexagone ?",
+          "choices": ["5", "6", "7", "8"],
+          "correctIndex": 1,
+          "explanation": "Un hexagone a 6 côtés. Le préfixe 'hexa' vient du grec et signifie 'six'."
+        },
+        {
+          "question": "Quel est le chiffre romain représentant 50 ?",
+          "choices": ["X", "L", "C", "D"],
+          "correctIndex": 1,
+          "explanation": "L = 50, C = 100, D = 500, M = 1000. Un système de numération hérité des Romains."
+        },
+        {
+          "question": "Combien de touches possède un piano standard ?",
+          "choices": ["76", "88", "92", "100"],
+          "correctIndex": 1,
+          "explanation": "Un piano standard a 88 touches : 52 blanches et 36 noires, couvrant plus de 7 octaves."
+        },
+        {
+          "question": "Combien de couleurs y a-t-il dans un arc-en-ciel selon Newton ?",
+          "choices": ["5", "6", "7", "8"],
+          "correctIndex": 2,
+          "explanation": "Newton a décrit 7 couleurs : rouge, orange, jaune, vert, bleu, indigo, violet."
+        },
+        {
+          "question": "Quelle est la valeur approximative du nombre Pi (π) ?",
+          "choices": ["2,71", "3,14", "1,61", "4,20"],
+          "correctIndex": 1,
+          "explanation": "Pi vaut environ 3,14159... C'est le rapport entre la circonférence d'un cercle et son diamètre."
+        }
+      ]
+    }
+  ]
+}

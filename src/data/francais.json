@@ -1,0 +1,326 @@
+{
+  "id": "francais",
+  "label": "Français",
+  "emoji": "📖",
+  "color": "#ef4444",
+  "chapters": [
+    {
+      "id": "figures-de-style",
+      "title": "Figures de style",
+      "questions": [
+        {
+          "question": "Quelle figure de style est utilisée dans : 'Il pleut des cordes' ?",
+          "choices": ["Métaphore", "Hyperbole", "Comparaison", "Personnification"],
+          "correctIndex": 1,
+          "explanation": "Une hyperbole est une exagération. 'Des cordes' exagère l'intensité de la pluie."
+        },
+        {
+          "question": "Dans 'Cette femme est belle comme le jour', de quelle figure s'agit-il ?",
+          "choices": ["Métaphore", "Comparaison", "Métonymie", "Allégorie"],
+          "correctIndex": 1,
+          "explanation": "La présence de l'outil de comparaison 'comme' indique une comparaison."
+        },
+        {
+          "question": "Quelle figure de style trouve-t-on dans 'Le vent hurlait dans la nuit' ?",
+          "choices": ["Métaphore", "Hyperbole", "Personnification", "Oxymore"],
+          "correctIndex": 2,
+          "explanation": "On attribue au vent une action humaine (hurler) : c'est une personnification."
+        },
+        {
+          "question": "'Cette obscure clarté qui tombe des étoiles' (Corneille) est :",
+          "choices": ["Une métaphore", "Un oxymore", "Une anaphore", "Une litote"],
+          "correctIndex": 1,
+          "explanation": "L'oxymore associe deux mots de sens contraire : 'obscure' et 'clarté'."
+        },
+        {
+          "question": "Quelle figure de style est utilisée dans : 'Je meurs de soif' ?",
+          "choices": ["Litote", "Hyperbole", "Métonymie", "Euphémisme"],
+          "correctIndex": 1,
+          "explanation": "L'hyperbole exagère la réalité pour produire un effet d'insistance."
+        },
+        {
+          "question": "Dans 'Boire un verre', quelle figure de style est utilisée ?",
+          "choices": ["Métaphore", "Métonymie", "Comparaison", "Périphrase"],
+          "correctIndex": 1,
+          "explanation": "La métonymie désigne le contenu (la boisson) par le contenant (le verre)."
+        },
+        {
+          "question": "'Pour qui sont ces serpents qui sifflent sur vos têtes ?' (Racine) contient :",
+          "choices": ["Une assonance", "Une allitération en S", "Une anaphore", "Une métaphore"],
+          "correctIndex": 1,
+          "explanation": "La répétition du son 'S' dans le vers imite le sifflement des serpents : allitération."
+        },
+        {
+          "question": "Quelle figure consiste à répéter un mot en début de plusieurs phrases ou vers ?",
+          "choices": ["Allitération", "Anaphore", "Assonance", "Antithèse"],
+          "correctIndex": 1,
+          "explanation": "L'anaphore est la répétition d'un même mot ou groupe de mots en début de phrase/vers."
+        }
+      ]
+    },
+    {
+      "id": "conjugaison",
+      "title": "Conjugaison",
+      "questions": [
+        {
+          "question": "Quelle est la forme correcte du verbe 'aller' au passé simple, 3e personne du pluriel ?",
+          "choices": ["Ils allaient", "Ils allèrent", "Ils sont allés", "Ils iront"],
+          "correctIndex": 1,
+          "explanation": "Au passé simple, 'aller' donne : ils allèrent (3e personne du pluriel)."
+        },
+        {
+          "question": "Conjuguez 'finir' au subjonctif présent, 1ère personne du singulier :",
+          "choices": ["Que je finis", "Que je finisse", "Que je finirai", "Que je finissais"],
+          "correctIndex": 1,
+          "explanation": "Au subjonctif présent : que je finisse, que tu finisses, qu'il finisse..."
+        },
+        {
+          "question": "Quel temps est utilisé dans 'Quand il eut terminé, il partit' ?",
+          "choices": ["Plus-que-parfait", "Passé antérieur", "Passé composé", "Imparfait"],
+          "correctIndex": 1,
+          "explanation": "'Il eut terminé' est au passé antérieur, employé avec un passé simple ('il partit')."
+        },
+        {
+          "question": "Le conditionnel passé de 'voir' à la 1ère personne du singulier est :",
+          "choices": ["J'aurais vu", "J'avais vu", "Je verrais", "J'eus vu"],
+          "correctIndex": 0,
+          "explanation": "Conditionnel passé = auxiliaire au conditionnel présent + participe passé : j'aurais vu."
+        },
+        {
+          "question": "Dans la phrase 'Si j'avais su, je serais venu', quel est le temps de 'j'avais su' ?",
+          "choices": ["Imparfait", "Plus-que-parfait", "Passé composé", "Conditionnel passé"],
+          "correctIndex": 1,
+          "explanation": "'J'avais su' = auxiliaire avoir à l'imparfait + participe passé = plus-que-parfait."
+        },
+        {
+          "question": "Quelle est la bonne concordance ? 'Il m'a dit qu'il ___ heureux.'",
+          "choices": ["est", "était", "soit", "serait"],
+          "correctIndex": 1,
+          "explanation": "Après un verbe au passé ('a dit'), on utilise l'imparfait pour exprimer la simultanéité."
+        },
+        {
+          "question": "Le futur antérieur de 'manger' à la 2e personne du singulier est :",
+          "choices": ["Tu mangeras", "Tu auras mangé", "Tu avais mangé", "Tu eus mangé"],
+          "correctIndex": 1,
+          "explanation": "Futur antérieur = auxiliaire au futur simple + participe passé : tu auras mangé."
+        }
+      ]
+    },
+    {
+      "id": "grammaire",
+      "title": "Grammaire",
+      "questions": [
+        {
+          "question": "Dans 'Le chat noir dort', quelle est la fonction de 'noir' ?",
+          "choices": ["Sujet", "Épithète", "Attribut", "COD"],
+          "correctIndex": 1,
+          "explanation": "'Noir' est un adjectif épithète qui qualifie directement le nom 'chat'."
+        },
+        {
+          "question": "Quelle est la nature du mot 'rapidement' ?",
+          "choices": ["Adjectif", "Adverbe", "Préposition", "Conjonction"],
+          "correctIndex": 1,
+          "explanation": "'Rapidement' est un adverbe qui modifie le verbe (en -ment)."
+        },
+        {
+          "question": "Dans 'Je sais que tu viendras', 'que tu viendras' est une proposition :",
+          "choices": ["Subordonnée relative", "Subordonnée conjonctive complétive", "Indépendante", "Principale"],
+          "correctIndex": 1,
+          "explanation": "Introduite par 'que' après un verbe d'opinion, c'est une subordonnée complétive COD."
+        },
+        {
+          "question": "Dans 'Le livre que j'ai lu est passionnant', 'que j'ai lu' est une :",
+          "choices": ["Subordonnée relative", "Subordonnée complétive", "Subordonnée circonstancielle", "Proposition principale"],
+          "correctIndex": 0,
+          "explanation": "'Que' est un pronom relatif reprenant 'livre' : subordonnée relative."
+        },
+        {
+          "question": "Quelle est la fonction de 'à Paris' dans 'Je vais à Paris' ?",
+          "choices": ["COD", "COI", "Complément circonstanciel de lieu", "Attribut"],
+          "correctIndex": 2,
+          "explanation": "'À Paris' indique où l'on va : complément circonstanciel de lieu."
+        },
+        {
+          "question": "Quelle est la nature de 'celui-ci' ?",
+          "choices": ["Pronom personnel", "Pronom démonstratif", "Pronom relatif", "Adjectif démonstratif"],
+          "correctIndex": 1,
+          "explanation": "'Celui-ci' est un pronom démonstratif qui désigne un objet ou une personne."
+        }
+      ]
+    },
+    {
+      "id": "orthographe",
+      "title": "Orthographe",
+      "questions": [
+        {
+          "question": "Choisissez la bonne orthographe : 'Il ___ allé au cinéma hier.'",
+          "choices": ["c'est", "s'est", "ses", "ces"],
+          "correctIndex": 1,
+          "explanation": "'S'est' = pronom réfléchi + verbe être (il s'est = il est, à la voix pronominale)."
+        },
+        {
+          "question": "Quelle est la bonne forme ? 'Les fleurs que j'ai ___.'",
+          "choices": ["cueilli", "cueillis", "cueillies", "cueillit"],
+          "correctIndex": 2,
+          "explanation": "Avec 'avoir', le participe passé s'accorde avec le COD ('que', féminin pluriel) placé avant."
+        },
+        {
+          "question": "'___ va-t-il aujourd'hui ?' Quel mot manque ?",
+          "choices": ["Ou", "Où", "Ous", "Oux"],
+          "correctIndex": 1,
+          "explanation": "'Où' avec accent grave indique le lieu ou pose une question de lieu."
+        },
+        {
+          "question": "Choisissez : 'Je préfère le thé ___ le café.'",
+          "choices": ["a", "à", "as", "â"],
+          "correctIndex": 1,
+          "explanation": "'À' avec accent est une préposition. 'A' sans accent est le verbe avoir conjugué."
+        },
+        {
+          "question": "Quelle phrase est correctement orthographiée ?",
+          "choices": ["Quelle belle journée !", "Quel belle journée !", "Quelles belle journée !", "Quels belle journée !"],
+          "correctIndex": 0,
+          "explanation": "'Quelle' s'accorde avec 'journée' (féminin singulier)."
+        },
+        {
+          "question": "'Ils se sont ___ la main.' Comment accorder ?",
+          "choices": ["serré", "serrés", "serrée", "serrées"],
+          "correctIndex": 0,
+          "explanation": "Avec un verbe pronominal, pas d'accord si le COD ('la main') est placé après le verbe."
+        }
+      ]
+    },
+    {
+      "id": "analyse-de-texte",
+      "title": "Analyse de texte",
+      "questions": [
+        {
+          "question": "Quel registre exprime une émotion personnelle intense (amour, mélancolie) ?",
+          "choices": ["Tragique", "Comique", "Lyrique", "Épique"],
+          "correctIndex": 2,
+          "explanation": "Le registre lyrique exprime les sentiments intimes du poète ou narrateur."
+        },
+        {
+          "question": "Le registre tragique suscite chez le lecteur :",
+          "choices": ["Le rire", "La terreur et la pitié", "L'admiration", "L'indifférence"],
+          "correctIndex": 1,
+          "explanation": "Selon Aristote, la tragédie suscite la terreur et la pitié (catharsis)."
+        },
+        {
+          "question": "Quel type de discours rapporte les paroles entre guillemets ?",
+          "choices": ["Discours direct", "Discours indirect", "Discours indirect libre", "Discours narrativisé"],
+          "correctIndex": 0,
+          "explanation": "Le discours direct rapporte les paroles telles quelles, entre guillemets."
+        },
+        {
+          "question": "Dans 'Il dit qu'il viendrait', quel type de discours est utilisé ?",
+          "choices": ["Direct", "Indirect", "Indirect libre", "Narrativisé"],
+          "correctIndex": 1,
+          "explanation": "Le discours indirect intègre les paroles dans une subordonnée (sans guillemets)."
+        },
+        {
+          "question": "Le point de vue où le narrateur sait tout (pensées, passé...) est :",
+          "choices": ["Interne", "Externe", "Omniscient", "Subjectif"],
+          "correctIndex": 2,
+          "explanation": "Le point de vue omniscient permet de tout savoir sur les personnages."
+        },
+        {
+          "question": "Quel registre cherche à faire rire avec finesse et critique ?",
+          "choices": ["Pathétique", "Satirique", "Lyrique", "Épique"],
+          "correctIndex": 1,
+          "explanation": "Le registre satirique critique avec ironie et humour les défauts d'une société."
+        },
+        {
+          "question": "Le registre pathétique cherche à :",
+          "choices": ["Faire rire", "Émouvoir, susciter la pitié", "Effrayer", "Faire admirer"],
+          "correctIndex": 1,
+          "explanation": "Le registre pathétique vise à émouvoir le lecteur, à provoquer la compassion."
+        }
+      ]
+    },
+    {
+      "id": "versification",
+      "title": "Versification",
+      "questions": [
+        {
+          "question": "Combien de syllabes compte un alexandrin ?",
+          "choices": ["8", "10", "12", "14"],
+          "correctIndex": 2,
+          "explanation": "L'alexandrin est un vers de 12 syllabes, généralement avec une césure à l'hémistiche (6/6)."
+        },
+        {
+          "question": "Un vers de 10 syllabes s'appelle :",
+          "choices": ["Octosyllabe", "Décasyllabe", "Alexandrin", "Heptasyllabe"],
+          "correctIndex": 1,
+          "explanation": "Le décasyllabe est un vers de 10 syllabes, fréquent au Moyen Âge et à la Renaissance."
+        },
+        {
+          "question": "Une strophe de 4 vers se nomme :",
+          "choices": ["Tercet", "Quatrain", "Quintil", "Sizain"],
+          "correctIndex": 1,
+          "explanation": "Le quatrain est une strophe composée de 4 vers."
+        },
+        {
+          "question": "Des rimes disposées ABAB sont des rimes :",
+          "choices": ["Plates", "Croisées", "Embrassées", "Suivies"],
+          "correctIndex": 1,
+          "explanation": "Les rimes croisées (ou alternées) suivent le schéma ABAB."
+        },
+        {
+          "question": "Des rimes disposées ABBA sont des rimes :",
+          "choices": ["Plates", "Croisées", "Embrassées", "Suivies"],
+          "correctIndex": 2,
+          "explanation": "Les rimes embrassées suivent le schéma ABBA : la rime A entoure la rime B."
+        },
+        {
+          "question": "Une rime est dite 'riche' lorsqu'elle a :",
+          "choices": ["1 son commun", "2 sons communs", "3 sons communs ou plus", "Aucun son commun"],
+          "correctIndex": 2,
+          "explanation": "Une rime riche partage au moins 3 sons communs (ex : 'fortune' / 'importune')."
+        }
+      ]
+    },
+    {
+      "id": "vocabulaire",
+      "title": "Vocabulaire",
+      "questions": [
+        {
+          "question": "Quel mot est synonyme de 'courageux' ?",
+          "choices": ["Lâche", "Vaillant", "Timide", "Hésitant"],
+          "correctIndex": 1,
+          "explanation": "'Vaillant' est un synonyme de 'courageux' (qui a du courage, brave)."
+        },
+        {
+          "question": "Quel est l'antonyme de 'généreux' ?",
+          "choices": ["Charitable", "Bienveillant", "Avare", "Aimable"],
+          "correctIndex": 2,
+          "explanation": "'Avare' (qui ne veut pas donner) est l'antonyme de 'généreux'."
+        },
+        {
+          "question": "Quel mot appartient au champ lexical de la peur ?",
+          "choices": ["Effroi", "Joie", "Sérénité", "Plaisir"],
+          "correctIndex": 0,
+          "explanation": "'Effroi' désigne une grande peur, il appartient au champ lexical de la peur."
+        },
+        {
+          "question": "L'étymologie du mot 'philosophie' vient :",
+          "choices": ["Du latin", "Du grec", "De l'arabe", "De l'anglais"],
+          "correctIndex": 1,
+          "explanation": "'Philosophie' vient du grec 'philos' (ami) et 'sophia' (sagesse) : amour de la sagesse."
+        },
+        {
+          "question": "Quel est le sens du préfixe 'anti-' dans 'antivirus' ?",
+          "choices": ["Avant", "Contre", "Avec", "Après"],
+          "correctIndex": 1,
+          "explanation": "Le préfixe 'anti-' (du grec) signifie 'contre' : un antivirus lutte contre les virus."
+        },
+        {
+          "question": "Quel mot est un homonyme de 'verre' ?",
+          "choices": ["Vert", "Vers", "Ver", "Tous les trois"],
+          "correctIndex": 3,
+          "explanation": "Verre, vert, vers et ver sont tous des homonymes (même prononciation, sens différents)."
+        }
+      ]
+    }
+  ]
+}

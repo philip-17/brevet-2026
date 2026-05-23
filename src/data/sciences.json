@@ -1,0 +1,1984 @@
+{
+  "id": "sciences",
+  "label": "Sciences",
+  "emoji": "🔬",
+  "color": "#10b981",
+  "chapters": [
+    {
+      "id": "pack-pc-matiere",
+      "title": "🆕 Pack PC — Matière (atomes, ions, pH, réactions)",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "De quoi est constitue un atome ?",
+          "choices": [
+            "Un noyau et des electrons",
+            "Un noyau et des neutrons",
+            "Des protons et des neutrons uniquement",
+            "Des electrons uniquement"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un atome est compose d'un noyau central (contenant protons et neutrons) autour duquel gravitent des electrons."
+        },
+        {
+          "question": "Quelle est la charge electrique globale d'un atome ?",
+          "choices": [
+            "Neutre (zero)",
+            "Positive",
+            "Negative",
+            "Cela depend de l'atome"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un atome est electriquement neutre car il possede autant de protons (charges +) que d'electrons (charges -)."
+        },
+        {
+          "question": "Le noyau d'un atome est constitue de :",
+          "choices": [
+            "Protons et neutrons",
+            "Protons et electrons",
+            "Neutrons et electrons",
+            "Protons uniquement"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le noyau contient les nucleons : protons (charges +) et neutrons (neutres). Les electrons sont autour du noyau."
+        },
+        {
+          "question": "Quelle est la charge electrique d'un proton ?",
+          "choices": [
+            "Positive (+)",
+            "Negative (-)",
+            "Neutre",
+            "Variable"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le proton porte une charge electrique elementaire positive."
+        },
+        {
+          "question": "Quelle est la charge electrique d'un electron ?",
+          "choices": [
+            "Negative (-)",
+            "Positive (+)",
+            "Neutre",
+            "Nulle"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'electron porte une charge electrique elementaire negative, opposee a celle du proton."
+        },
+        {
+          "question": "La taille d'un atome est de l'ordre de :",
+          "choices": [
+            "0,1 nm (10^-10 m)",
+            "1 cm",
+            "1 mm",
+            "1 micrometre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un atome mesure environ 0,1 nanometre soit 10^-10 m. Son noyau est environ 100 000 fois plus petit."
+        },
+        {
+          "question": "Le noyau est combien de fois plus petit que l'atome ?",
+          "choices": [
+            "Environ 100 000 fois",
+            "10 fois",
+            "2 fois",
+            "Ils ont la meme taille"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le noyau a un diametre environ 100 000 fois plus petit que celui de l'atome : la matiere est essentiellement constituee de vide."
+        },
+        {
+          "question": "Le numero atomique Z d'un element correspond a :",
+          "choices": [
+            "Son nombre de protons",
+            "Son nombre de neutrons",
+            "Son nombre total d'electrons + protons",
+            "Sa masse atomique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le numero atomique Z est le nombre de protons du noyau. Il caracterise l'element chimique."
+        },
+        {
+          "question": "Pourquoi un atome est-il electriquement neutre ?",
+          "choices": [
+            "Nombre de protons = nombre d'electrons",
+            "Il n'a pas de neutrons",
+            "Il est tres petit",
+            "Par hasard"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les charges positives des protons et negatives des electrons se compensent exactement."
+        },
+        {
+          "question": "Une molecule est :",
+          "choices": [
+            "Un assemblage de plusieurs atomes lies",
+            "Un seul atome",
+            "Un ion uniquement",
+            "Un electron"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une molecule est formee par la liaison de plusieurs atomes (identiques ou differents)."
+        },
+        {
+          "question": "La formule chimique de l'eau est :",
+          "choices": [
+            "H2O",
+            "HO2",
+            "H2O2",
+            "OH"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une molecule d'eau contient 2 atomes d'hydrogene (H) et 1 atome d'oxygene (O)."
+        },
+        {
+          "question": "La formule du dioxygene est :",
+          "choices": [
+            "O2",
+            "O",
+            "O3",
+            "2O"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le dioxygene est forme de 2 atomes d'oxygene lies : O2. L'ozone est O3."
+        },
+        {
+          "question": "Un cation (ion positif) est obtenu quand un atome :",
+          "choices": [
+            "Perd un ou plusieurs electrons",
+            "Gagne un ou plusieurs electrons",
+            "Perd un proton",
+            "Gagne un neutron"
+          ],
+          "correctIndex": 0,
+          "explanation": "En perdant des electrons (charges -), il reste un exces de charges + : l'atome devient un cation."
+        },
+        {
+          "question": "Un anion (ion negatif) est obtenu quand un atome :",
+          "choices": [
+            "Gagne un ou plusieurs electrons",
+            "Perd un electron",
+            "Perd un proton",
+            "Gagne un neutron"
+          ],
+          "correctIndex": 0,
+          "explanation": "En captant des electrons, l'atome a plus de charges - que de charges + : il devient un anion."
+        },
+        {
+          "question": "Quel est le symbole de l'ion sodium ?",
+          "choices": [
+            "Na+",
+            "Na-",
+            "Na2+",
+            "Cl-"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'atome de sodium perd 1 electron et devient le cation Na+."
+        },
+        {
+          "question": "Quel est le symbole de l'ion chlorure ?",
+          "choices": [
+            "Cl-",
+            "Cl+",
+            "Cl2-",
+            "ClO-"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'atome de chlore capte 1 electron et devient l'anion Cl- (ion chlorure)."
+        },
+        {
+          "question": "Symbole de l'ion cuivre II :",
+          "choices": [
+            "Cu2+",
+            "Cu-",
+            "Cu+",
+            "Cu2-"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'ion cuivre II porte 2 charges positives : Cu2+. Il donne sa couleur bleue aux solutions."
+        },
+        {
+          "question": "Symbole de l'ion fer III :",
+          "choices": [
+            "Fe3+",
+            "Fe2+",
+            "Fe-",
+            "Fe3-"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le fer III a perdu 3 electrons : Fe3+. Il est responsable de la couleur rouille."
+        },
+        {
+          "question": "Test pour identifier les ions chlorure Cl- :",
+          "choices": [
+            "Nitrate d'argent : precipite blanc qui noircit a la lumiere",
+            "Soude : precipite bleu",
+            "Soude : precipite vert",
+            "BBT : couleur jaune"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le nitrate d'argent forme avec Cl- un precipite blanc de chlorure d'argent qui noircit a la lumiere."
+        },
+        {
+          "question": "Test pour identifier les ions cuivre Cu2+ :",
+          "choices": [
+            "Ajout de soude : precipite bleu",
+            "Nitrate d'argent : precipite blanc",
+            "Soude : precipite vert",
+            "Soude : precipite rouille"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les ions Cu2+ reagissent avec la soude (hydroxyde de sodium) pour donner un precipite bleu d'hydroxyde de cuivre."
+        },
+        {
+          "question": "Test pour identifier les ions fer II (Fe2+) :",
+          "choices": [
+            "Soude : precipite vert",
+            "Soude : precipite bleu",
+            "Soude : precipite rouille",
+            "Nitrate d'argent : precipite blanc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les ions Fe2+ donnent avec la soude un precipite vert d'hydroxyde de fer II."
+        },
+        {
+          "question": "Test pour identifier les ions fer III (Fe3+) :",
+          "choices": [
+            "Soude : precipite rouille (orange)",
+            "Soude : precipite bleu",
+            "Soude : precipite vert",
+            "Nitrate d'argent : precipite blanc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les ions Fe3+ donnent avec la soude un precipite couleur rouille d'hydroxyde de fer III."
+        },
+        {
+          "question": "L'echelle de pH va de :",
+          "choices": [
+            "0 a 14",
+            "0 a 10",
+            "1 a 7",
+            "-7 a 7"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'echelle de pH s'etend de 0 (tres acide) a 14 (tres basique), avec 7 = neutre."
+        },
+        {
+          "question": "Une solution est dite acide si :",
+          "choices": [
+            "pH < 7",
+            "pH = 7",
+            "pH > 7",
+            "pH > 14"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une solution acide a un pH strictement inferieur a 7."
+        },
+        {
+          "question": "Une solution est basique si :",
+          "choices": [
+            "pH > 7",
+            "pH < 7",
+            "pH = 7",
+            "pH = 0"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une solution basique a un pH strictement superieur a 7."
+        },
+        {
+          "question": "Une solution neutre a un pH de :",
+          "choices": [
+            "7",
+            "0",
+            "14",
+            "1"
+          ],
+          "correctIndex": 0,
+          "explanation": "pH = 7 correspond a une solution neutre (comme l'eau pure)."
+        },
+        {
+          "question": "Plus le pH est proche de 0, plus la solution est :",
+          "choices": [
+            "Acide",
+            "Basique",
+            "Neutre",
+            "Salee"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un pH bas (proche de 0) correspond a une solution tres acide."
+        },
+        {
+          "question": "Quand on dilue une solution acide avec de l'eau, son pH :",
+          "choices": [
+            "Augmente et se rapproche de 7",
+            "Diminue vers 0",
+            "Reste constant",
+            "Devient negatif"
+          ],
+          "correctIndex": 0,
+          "explanation": "La dilution diminue la concentration en ions H+, donc le pH augmente vers 7 (mais ne le depasse jamais)."
+        },
+        {
+          "question": "Quand on dilue une solution basique, son pH :",
+          "choices": [
+            "Diminue et tend vers 7",
+            "Augmente vers 14",
+            "Reste constant",
+            "Devient negatif"
+          ],
+          "correctIndex": 0,
+          "explanation": "La dilution diminue la concentration en ions OH-, donc le pH diminue vers 7 (sans l'atteindre)."
+        },
+        {
+          "question": "Les ions responsables du caractere acide d'une solution sont :",
+          "choices": [
+            "Les ions hydrogene H+",
+            "Les ions hydroxyde OH-",
+            "Les ions sodium Na+",
+            "Les ions chlorure Cl-"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une solution acide contient plus d'ions H+ que d'ions OH-."
+        },
+        {
+          "question": "Les ions responsables du caractere basique d'une solution sont :",
+          "choices": [
+            "Les ions hydroxyde OH-",
+            "Les ions H+",
+            "Les ions Cu2+",
+            "Les ions Na+"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une solution basique contient plus d'ions OH- que d'ions H+."
+        },
+        {
+          "question": "Le BBT (bleu de bromothymol) en milieu acide prend la couleur :",
+          "choices": [
+            "Jaune",
+            "Bleue",
+            "Verte",
+            "Rouge"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le BBT est jaune en milieu acide, vert en milieu neutre, bleu en milieu basique."
+        },
+        {
+          "question": "Le BBT en milieu basique est :",
+          "choices": [
+            "Bleu",
+            "Jaune",
+            "Vert",
+            "Incolore"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le BBT vire au bleu en presence d'une solution basique (pH > 7)."
+        },
+        {
+          "question": "Dans une equation chimique, les substances de depart sont appelees :",
+          "choices": [
+            "Reactifs",
+            "Produits",
+            "Catalyseurs",
+            "Solvants"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les reactifs sont a gauche de la fleche, les produits a droite."
+        },
+        {
+          "question": "Dans une equation, les substances obtenues sont :",
+          "choices": [
+            "Les produits",
+            "Les reactifs",
+            "Les ions",
+            "Les precipites"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les produits sont les nouvelles especes formees lors de la reaction."
+        },
+        {
+          "question": "Lors d'une reaction chimique, qu'est-ce qui se conserve ?",
+          "choices": [
+            "La masse totale et les elements chimiques",
+            "Seulement le volume",
+            "Seulement les molecules",
+            "Seulement les atomes d'oxygene"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est la loi de Lavoisier : 'Rien ne se perd, rien ne se cree, tout se transforme'. La masse totale et chaque type d'atome sont conserves."
+        },
+        {
+          "question": "Equation de la combustion complete du carbone :",
+          "choices": [
+            "C + O2 -> CO2",
+            "C + O -> CO2",
+            "2C + O2 -> 2CO",
+            "C + H2O -> CO + H2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un atome de carbone reagit avec une molecule de dioxygene pour donner une molecule de dioxyde de carbone."
+        },
+        {
+          "question": "Equation equilibree de la combustion complete du methane :",
+          "choices": [
+            "CH4 + 2 O2 -> CO2 + 2 H2O",
+            "CH4 + O2 -> CO + H2O",
+            "CH4 + 3 O2 -> 2 CO2 + 2 H2O",
+            "CH4 + O2 -> CH4O2"
+          ],
+          "correctIndex": 0,
+          "explanation": "On verifie : 1 C / 1 C, 4 H / 4 H, 4 O / 4 O. L'equation est bien equilibree."
+        },
+        {
+          "question": "Une combustion incomplete peut produire :",
+          "choices": [
+            "Du monoxyde de carbone CO (toxique)",
+            "Uniquement du dioxygene",
+            "Uniquement de l'eau",
+            "De l'azote"
+          ],
+          "correctIndex": 0,
+          "explanation": "En cas de manque de dioxygene, la combustion produit du CO, gaz inodore et tres toxique."
+        },
+        {
+          "question": "Le test du dioxyde de carbone (CO2) :",
+          "choices": [
+            "Trouble l'eau de chaux",
+            "Rallume une buchette",
+            "Fait un bruit 'pop' avec une flamme",
+            "Decolore l'eau"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le CO2 trouble l'eau de chaux (limpide au depart) en formant un precipite blanc de carbonate de calcium."
+        },
+        {
+          "question": "Test du dioxygene (O2) :",
+          "choices": [
+            "Ravive une buchette incandescente",
+            "Trouble l'eau de chaux",
+            "Fait un bruit 'pop'",
+            "Donne une flamme bleue"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le dioxygene rallume une buchette en combustion incomplete (incandescente)."
+        },
+        {
+          "question": "Test du dihydrogene (H2) :",
+          "choices": [
+            "Produit une detonation (aboiement) en presence d'une flamme",
+            "Trouble l'eau de chaux",
+            "Ravive une buchette",
+            "Decolore l'eau"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le H2 reagit avec le O2 de l'air et provoque une petite detonation caracteristique."
+        },
+        {
+          "question": "La reaction entre le fer et l'acide chlorhydrique produit :",
+          "choices": [
+            "Du dihydrogene et des ions fer II (Fe2+)",
+            "Du dioxygene",
+            "De l'eau uniquement",
+            "Aucune reaction"
+          ],
+          "correctIndex": 0,
+          "explanation": "Fe + 2 H+ -> Fe2+ + H2. L'acide attaque le fer, produit un degagement de H2 et une solution verte de Fe2+."
+        }
+      ]
+    },
+    {
+      "id": "pack-pc-mouvement",
+      "title": "🆕 Pack PC — Mouvement & interactions",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "Le mouvement d'un objet depend :",
+          "choices": [
+            "Du referentiel choisi pour l'etudier",
+            "Uniquement de sa masse",
+            "Uniquement de sa forme",
+            "De rien : il est absolu"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un meme objet peut etre en mouvement ou immobile selon le referentiel : c'est la relativite du mouvement."
+        },
+        {
+          "question": "Une trajectoire rectiligne est :",
+          "choices": [
+            "Une droite",
+            "Un cercle",
+            "Une courbe quelconque",
+            "Une spirale"
+          ],
+          "correctIndex": 0,
+          "explanation": "Rectiligne = en ligne droite. Curviligne = courbe, circulaire = cercle."
+        },
+        {
+          "question": "Une trajectoire circulaire est :",
+          "choices": [
+            "Un cercle (ou arc de cercle)",
+            "Une droite",
+            "Une parabole",
+            "Un point"
+          ],
+          "correctIndex": 0,
+          "explanation": "La trajectoire circulaire correspond a un mouvement le long d'un cercle."
+        },
+        {
+          "question": "La formule de la vitesse moyenne est :",
+          "choices": [
+            "v = d / t",
+            "v = t / d",
+            "v = d x t",
+            "v = d + t"
+          ],
+          "correctIndex": 0,
+          "explanation": "La vitesse est la distance parcourue divisee par la duree du parcours."
+        },
+        {
+          "question": "Pour convertir des km/h en m/s, on :",
+          "choices": [
+            "Divise par 3,6",
+            "Multiplie par 3,6",
+            "Divise par 60",
+            "Multiplie par 1000"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 km = 1000 m et 1 h = 3600 s, donc 1 km/h = 1000/3600 = 1/3,6 m/s."
+        },
+        {
+          "question": "Convertis 36 km/h en m/s :",
+          "choices": [
+            "10 m/s",
+            "36 m/s",
+            "100 m/s",
+            "3,6 m/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "36 / 3,6 = 10 m/s."
+        },
+        {
+          "question": "Convertis 20 m/s en km/h :",
+          "choices": [
+            "72 km/h",
+            "20 km/h",
+            "200 km/h",
+            "7,2 km/h"
+          ],
+          "correctIndex": 0,
+          "explanation": "Pour passer de m/s a km/h, on multiplie par 3,6 : 20 x 3,6 = 72 km/h."
+        },
+        {
+          "question": "Un cycliste parcourt 30 km en 1 h 30 min. Quelle est sa vitesse moyenne ?",
+          "choices": [
+            "20 km/h",
+            "30 km/h",
+            "45 km/h",
+            "15 km/h"
+          ],
+          "correctIndex": 0,
+          "explanation": "v = d/t = 30 km / 1,5 h = 20 km/h."
+        },
+        {
+          "question": "Un mouvement uniforme est un mouvement ou :",
+          "choices": [
+            "La vitesse est constante",
+            "La vitesse augmente",
+            "La vitesse diminue",
+            "L'objet est immobile"
+          ],
+          "correctIndex": 0,
+          "explanation": "Uniforme = vitesse constante au cours du temps."
+        },
+        {
+          "question": "Un mouvement accelere est un mouvement ou :",
+          "choices": [
+            "La vitesse augmente au cours du temps",
+            "La vitesse diminue",
+            "La vitesse est nulle",
+            "La vitesse est constante"
+          ],
+          "correctIndex": 0,
+          "explanation": "Accelere = vitesse qui augmente. Ralenti (decelere) = vitesse qui diminue."
+        },
+        {
+          "question": "Une force est representee par :",
+          "choices": [
+            "Un vecteur (fleche)",
+            "Un scalaire",
+            "Une longueur seulement",
+            "Une couleur"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une force est representee par un vecteur, caracterise par un point d'application, une direction, un sens et une valeur."
+        },
+        {
+          "question": "L'unite de la force est :",
+          "choices": [
+            "Le newton (N)",
+            "Le joule (J)",
+            "Le watt (W)",
+            "Le pascal (Pa)"
+          ],
+          "correctIndex": 0,
+          "explanation": "La force se mesure en newtons (N), du nom d'Isaac Newton."
+        },
+        {
+          "question": "Quelles sont les 4 caracteristiques d'une force ?",
+          "choices": [
+            "Point d'application, direction, sens, valeur",
+            "Masse, vitesse, acceleration, temps",
+            "Temps, distance, vitesse, masse",
+            "Forme, couleur, taille, poids"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une force est entierement decrite par ces 4 elements : ou elle s'applique, sa droite d'action, son orientation et son intensite."
+        },
+        {
+          "question": "Quel exemple correspond a une action de contact ?",
+          "choices": [
+            "Une raquette frappant une balle",
+            "La Terre attirant la Lune",
+            "Un aimant attirant du fer a distance",
+            "Le Soleil sur la Terre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une action de contact necessite un contact physique entre les deux objets."
+        },
+        {
+          "question": "Quel exemple correspond a une action a distance ?",
+          "choices": [
+            "L'attraction d'un clou par un aimant eloigne",
+            "Une main qui pousse une porte",
+            "Un marteau sur un clou",
+            "Un pied sur un ballon"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les forces magnetiques, gravitationnelles et electriques agissent a distance, sans contact."
+        },
+        {
+          "question": "Quelle est la difference entre poids et masse ?",
+          "choices": [
+            "La masse est en kg, le poids en N ; le poids depend de l'astre, pas la masse",
+            "Aucune difference",
+            "La masse est en N, le poids en kg",
+            "Le poids ne change jamais"
+          ],
+          "correctIndex": 0,
+          "explanation": "La masse est une quantite de matiere (kg), invariable. Le poids est la force exercee par un astre sur l'objet (N), variable selon l'astre."
+        },
+        {
+          "question": "Formule du poids :",
+          "choices": [
+            "P = m x g",
+            "P = m / g",
+            "P = m + g",
+            "P = m au carre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le poids P (N) est egal a la masse m (kg) multipliee par l'intensite de la pesanteur g (N/kg)."
+        },
+        {
+          "question": "Sur Terre, l'intensite de la pesanteur g vaut environ :",
+          "choices": [
+            "9,8 N/kg (environ 10)",
+            "1,6 N/kg",
+            "100 N/kg",
+            "0 N/kg"
+          ],
+          "correctIndex": 0,
+          "explanation": "g ~ 9,8 N/kg sur Terre. On utilise souvent 10 N/kg pour simplifier les calculs."
+        },
+        {
+          "question": "Poids d'un objet de 5 kg sur Terre (g = 10 N/kg) :",
+          "choices": [
+            "50 N",
+            "0,5 N",
+            "5 N",
+            "500 N"
+          ],
+          "correctIndex": 0,
+          "explanation": "P = m x g = 5 x 10 = 50 N."
+        },
+        {
+          "question": "La masse d'un astronaute sur la Lune est :",
+          "choices": [
+            "La meme que sur Terre",
+            "6 fois plus petite",
+            "6 fois plus grande",
+            "Nulle"
+          ],
+          "correctIndex": 0,
+          "explanation": "La masse est une grandeur invariable : elle ne depend pas de l'astre. Seul le poids change."
+        },
+        {
+          "question": "Le poids d'un astronaute sur la Lune est :",
+          "choices": [
+            "Environ 6 fois plus faible que sur Terre",
+            "Identique a celui sur Terre",
+            "6 fois plus fort",
+            "Nul"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sur la Lune, g ~ 1,6 N/kg, soit environ 6 fois moins que sur Terre. Le poids est donc environ 6 fois plus faible."
+        },
+        {
+          "question": "La gravitation est une interaction :",
+          "choices": [
+            "Attractive entre objets ayant une masse",
+            "Repulsive",
+            "Magnetique",
+            "Electrique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tous les objets ayant une masse s'attirent mutuellement. C'est l'interaction gravitationnelle."
+        },
+        {
+          "question": "Plus deux corps sont eloignes, plus la force gravitationnelle :",
+          "choices": [
+            "Diminue",
+            "Augmente",
+            "Reste constante",
+            "Devient nulle instantanement"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'intensite de la gravitation diminue rapidement avec la distance (en 1/d^2)."
+        },
+        {
+          "question": "Plus la masse des corps est grande, plus la force gravitationnelle est :",
+          "choices": [
+            "Grande",
+            "Petite",
+            "Identique",
+            "Nulle"
+          ],
+          "correctIndex": 0,
+          "explanation": "La force d'attraction gravitationnelle est proportionnelle au produit des masses."
+        }
+      ]
+    },
+    {
+      "id": "pack-pc-energie",
+      "title": "🆕 Pack PC — Énergie & conversions",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "L'unite d'energie dans le Systeme International est :",
+          "choices": [
+            "Le joule (J)",
+            "Le watt (W)",
+            "Le newton (N)",
+            "Le Wh"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'energie se mesure en joules. Le Wh (wattheure) est une unite pratique : 1 Wh = 3600 J."
+        },
+        {
+          "question": "Formule de l'energie cinetique :",
+          "choices": [
+            "Ec = (1/2) x m x v^2",
+            "Ec = m x v",
+            "Ec = m x g x h",
+            "Ec = m x v^2"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'energie cinetique vaut la moitie de la masse multipliee par la vitesse au carre."
+        },
+        {
+          "question": "Si la vitesse d'un objet double, son energie cinetique :",
+          "choices": [
+            "Est multipliee par 4",
+            "Est doublee",
+            "Est divisee par 2",
+            "Reste la meme"
+          ],
+          "correctIndex": 0,
+          "explanation": "Comme v est au carre dans la formule, doubler v multiplie Ec par 2^2 = 4. C'est pourquoi la vitesse est si dangereuse en voiture."
+        },
+        {
+          "question": "Si la masse d'un objet double (a vitesse constante), son energie cinetique :",
+          "choices": [
+            "Est doublee",
+            "Est multipliee par 4",
+            "Est divisee par 2",
+            "Reste la meme"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ec est proportionnelle a la masse : doubler m double Ec."
+        },
+        {
+          "question": "Energie cinetique d'une voiture de 1000 kg roulant a 10 m/s :",
+          "choices": [
+            "50 000 J",
+            "10 000 J",
+            "100 000 J",
+            "5 000 J"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ec = 0,5 x 1000 x 10^2 = 0,5 x 1000 x 100 = 50 000 J."
+        },
+        {
+          "question": "Un objet en hauteur possede :",
+          "choices": [
+            "De l'energie potentielle de pesanteur",
+            "De l'energie cinetique uniquement",
+            "Aucune energie",
+            "Uniquement de l'energie chimique"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'energie potentielle de pesanteur depend de l'altitude. Elle peut se convertir en energie cinetique lors d'une chute."
+        },
+        {
+          "question": "L'unite de puissance est :",
+          "choices": [
+            "Le watt (W)",
+            "Le joule (J)",
+            "Le newton (N)",
+            "Le kWh"
+          ],
+          "correctIndex": 0,
+          "explanation": "La puissance se mesure en watts (W). 1 W = 1 J/s."
+        },
+        {
+          "question": "Relation entre puissance, energie et temps :",
+          "choices": [
+            "P = E / t",
+            "P = E x t",
+            "P = t / E",
+            "E = P / t"
+          ],
+          "correctIndex": 0,
+          "explanation": "La puissance est l'energie consommee (ou fournie) par unite de temps : P = E/t."
+        },
+        {
+          "question": "1 kWh correspond a combien de joules ?",
+          "choices": [
+            "3 600 000 J",
+            "1 000 J",
+            "3 600 J",
+            "60 J"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 kWh = 1000 W x 3600 s = 3 600 000 J = 3,6 MJ."
+        },
+        {
+          "question": "Energie consommee par un appareil de 100 W pendant 2 heures :",
+          "choices": [
+            "200 Wh = 0,2 kWh",
+            "50 Wh",
+            "200 W",
+            "2 kWh"
+          ],
+          "correctIndex": 0,
+          "explanation": "E = P x t = 100 W x 2 h = 200 Wh = 0,2 kWh."
+        },
+        {
+          "question": "Energie consommee par un radiateur de 2000 W allume 3 h :",
+          "choices": [
+            "6 kWh",
+            "6 W",
+            "2 kWh",
+            "600 Wh"
+          ],
+          "correctIndex": 0,
+          "explanation": "E = 2000 W x 3 h = 6000 Wh = 6 kWh."
+        },
+        {
+          "question": "Une source d'energie renouvelable est :",
+          "choices": [
+            "Le vent (eolien)",
+            "Le petrole",
+            "Le charbon",
+            "L'uranium"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les energies renouvelables se reconstituent rapidement : soleil, vent, eau, biomasse, geothermie."
+        },
+        {
+          "question": "Une source d'energie non renouvelable est :",
+          "choices": [
+            "Le gaz naturel",
+            "Le solaire",
+            "L'hydraulique",
+            "La biomasse"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les energies fossiles (petrole, gaz, charbon) et l'uranium sont non renouvelables a l'echelle humaine."
+        },
+        {
+          "question": "Le principe de conservation de l'energie dit que :",
+          "choices": [
+            "L'energie ne se cree pas, ne se perd pas, elle se transforme",
+            "L'energie disparait avec le temps",
+            "L'energie se cree a partir de rien",
+            "L'energie augmente toujours"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'energie totale d'un systeme isole se conserve. Elle change seulement de forme."
+        },
+        {
+          "question": "Une chaine energetique represente :",
+          "choices": [
+            "Les conversions d'energie successives dans un systeme",
+            "Une liste d'aliments",
+            "Le poids des objets",
+            "Le mouvement uniquement"
+          ],
+          "correctIndex": 0,
+          "explanation": "La chaine energetique montre, par des fleches, comment l'energie passe d'une forme a une autre dans un dispositif."
+        },
+        {
+          "question": "Une lampe convertit principalement l'energie electrique en :",
+          "choices": [
+            "Energie lumineuse (et un peu thermique)",
+            "Energie chimique",
+            "Energie nucleaire",
+            "Energie mecanique uniquement"
+          ],
+          "correctIndex": 0,
+          "explanation": "La lampe convertit l'energie electrique en lumiere (utile) et chaleur (pertes)."
+        },
+        {
+          "question": "Une eolienne convertit :",
+          "choices": [
+            "L'energie cinetique du vent en energie electrique",
+            "L'energie chimique en electrique",
+            "L'energie nucleaire en thermique",
+            "L'energie solaire directement en mecanique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le vent fait tourner les pales (energie cinetique) puis un alternateur produit de l'electricite."
+        },
+        {
+          "question": "Une centrale hydraulique utilise :",
+          "choices": [
+            "L'energie de l'eau (potentielle puis cinetique)",
+            "Le petrole",
+            "Le vent",
+            "Le soleil directement"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'eau d'un barrage convertit son energie potentielle de pesanteur en energie cinetique, puis en electricite via une turbine."
+        },
+        {
+          "question": "Un panneau photovoltaique convertit :",
+          "choices": [
+            "L'energie lumineuse en energie electrique",
+            "L'energie thermique en mecanique",
+            "L'energie chimique en lumineuse",
+            "L'energie nucleaire en electrique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les cellules photovoltaiques transforment directement la lumiere en electricite."
+        },
+        {
+          "question": "Dans une centrale thermique, l'energie chimique du combustible est convertie en :",
+          "choices": [
+            "Energie thermique, puis mecanique, puis electrique",
+            "Directement en energie electrique",
+            "En energie lumineuse uniquement",
+            "En energie nucleaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "Combustion -> chaleur -> vapeur d'eau qui fait tourner une turbine (mecanique) -> alternateur (electrique)."
+        }
+      ]
+    },
+    {
+      "id": "pack-pc-signaux",
+      "title": "🆕 Pack PC — Signaux (lumière, son)",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "La vitesse de la lumiere dans le vide est d'environ :",
+          "choices": [
+            "300 000 km/s (3 x 10^8 m/s)",
+            "340 m/s",
+            "3 000 km/s",
+            "1 km/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est la vitesse limite dans l'Univers : c = 299 792 458 m/s, arrondie a 300 000 km/s."
+        },
+        {
+          "question": "La vitesse du son dans l'air est d'environ :",
+          "choices": [
+            "340 m/s",
+            "3 x 10^8 m/s",
+            "1500 m/s",
+            "30 m/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le son se propage a environ 340 m/s dans l'air a 20 degres Celsius."
+        },
+        {
+          "question": "Le son a besoin pour se propager :",
+          "choices": [
+            "D'un milieu materiel (air, eau, solide)",
+            "De rien : il se propage dans le vide",
+            "D'une source lumineuse",
+            "De chaleur"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le son est une vibration de la matiere. Il ne se propage pas dans le vide (contrairement a la lumiere)."
+        },
+        {
+          "question": "La lumiere peut se propager :",
+          "choices": [
+            "Dans le vide",
+            "Uniquement dans l'eau",
+            "Uniquement dans l'air",
+            "Uniquement dans le verre"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est pour cela que la lumiere du Soleil et des etoiles peut nous parvenir a travers l'espace."
+        },
+        {
+          "question": "Le son est plus rapide :",
+          "choices": [
+            "Dans l'eau que dans l'air",
+            "Dans le vide que dans l'air",
+            "Dans l'air que dans l'eau",
+            "Dans rien"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plus le milieu est dense (et rigide), plus le son va vite : environ 1500 m/s dans l'eau, 5000 m/s dans l'acier."
+        },
+        {
+          "question": "Pendant un orage, on voit l'eclair avant d'entendre le tonnerre parce que :",
+          "choices": [
+            "La lumiere va beaucoup plus vite que le son",
+            "L'eclair est plus chaud",
+            "Le tonnerre arrive toujours apres",
+            "Le son n'existe pas"
+          ],
+          "correctIndex": 0,
+          "explanation": "La lumiere arrive quasi instantanement (300 000 km/s) alors que le son met environ 3 s pour parcourir 1 km."
+        },
+        {
+          "question": "Si tu entends le tonnerre 6 secondes apres avoir vu l'eclair, l'orage est a environ :",
+          "choices": [
+            "2 km",
+            "6 km",
+            "600 m",
+            "20 km"
+          ],
+          "correctIndex": 0,
+          "explanation": "d = v_son x t = 340 x 6 ~ 2040 m, soit environ 2 km."
+        },
+        {
+          "question": "Une annee-lumiere est :",
+          "choices": [
+            "La distance parcourue par la lumiere en un an",
+            "Une duree d'un an",
+            "Une vitesse",
+            "Une masse"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est une unite de distance utilisee en astronomie : 1 al ~ 9,46 x 10^15 m."
+        },
+        {
+          "question": "La distance Terre-Soleil vaut environ 150 millions de km. La lumiere du Soleil nous parvient en :",
+          "choices": [
+            "Environ 8 minutes",
+            "1 seconde",
+            "24 heures",
+            "1 an"
+          ],
+          "correctIndex": 0,
+          "explanation": "t = d/v = 150 000 000 / 300 000 = 500 s ~ 8 min 20 s."
+        },
+        {
+          "question": "La frequence d'un son est :",
+          "choices": [
+            "Le nombre de vibrations par seconde, exprime en Hz",
+            "La vitesse de propagation",
+            "La distance parcourue",
+            "Le volume sonore"
+          ],
+          "correctIndex": 0,
+          "explanation": "La frequence f indique combien de vibrations se produisent en une seconde."
+        },
+        {
+          "question": "L'unite de la frequence est :",
+          "choices": [
+            "Le hertz (Hz)",
+            "Le decibel (dB)",
+            "Le newton (N)",
+            "Le watt (W)"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 Hz correspond a une vibration par seconde."
+        },
+        {
+          "question": "Plus la frequence d'un son est grande, plus le son est :",
+          "choices": [
+            "Aigu",
+            "Grave",
+            "Faible",
+            "Fort"
+          ],
+          "correctIndex": 0,
+          "explanation": "Frequence elevee = son aigu (ex : sifflet). Frequence basse = son grave (ex : grosse caisse)."
+        },
+        {
+          "question": "Relation entre frequence f et periode T d'un signal :",
+          "choices": [
+            "f = 1 / T",
+            "f = T",
+            "f = T au carre",
+            "f = T / 2"
+          ],
+          "correctIndex": 0,
+          "explanation": "La frequence est l'inverse de la periode. Si T = 0,01 s alors f = 100 Hz."
+        }
+      ]
+    },
+    {
+      "id": "systeme-nerveux",
+      "title": "Système nerveux et perception (SVT)",
+      "questions": [
+        {
+          "question": "Quel organe est le centre nerveux principal du corps humain ?",
+          "choices": [
+            "Le cœur",
+            "Le cerveau",
+            "Les poumons",
+            "Le foie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le cerveau est l'organe central du système nerveux : il reçoit, traite les informations et commande les réactions de l'organisme."
+        },
+        {
+          "question": "Quelle cellule transmet les messages nerveux ?",
+          "choices": [
+            "Le globule rouge",
+            "Le neurone",
+            "Le lymphocyte",
+            "L'ovocyte"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le neurone est la cellule spécialisée du système nerveux qui transmet les messages nerveux sous forme de signaux électriques."
+        },
+        {
+          "question": "Comment appelle-t-on la zone de communication entre deux neurones ?",
+          "choices": [
+            "L'axone",
+            "Le dendrite",
+            "La synapse",
+            "Le noyau"
+          ],
+          "correctIndex": 2,
+          "explanation": "La synapse est la zone de contact entre deux neurones où le message nerveux est transmis grâce à des neurotransmetteurs."
+        },
+        {
+          "question": "Quel organe permet de percevoir la lumière ?",
+          "choices": [
+            "L'oreille",
+            "L'œil",
+            "Le nez",
+            "La peau"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'œil est l'organe sensoriel de la vision : il capte la lumière grâce à la rétine et transmet l'information au cerveau via le nerf optique."
+        },
+        {
+          "question": "Quel comportement peut perturber le fonctionnement du système nerveux ?",
+          "choices": [
+            "Manger des légumes",
+            "Dormir 8 heures",
+            "Consommer de l'alcool",
+            "Faire du sport"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'alcool, comme d'autres drogues, perturbe la transmission des messages nerveux au niveau des synapses et altère les capacités du cerveau."
+        },
+        {
+          "question": "Combien de paires de nerfs partent de la moelle épinière chez l'humain ?",
+          "choices": [
+            "12 paires",
+            "24 paires",
+            "31 paires",
+            "50 paires"
+          ],
+          "correctIndex": 2,
+          "explanation": "31 paires de nerfs rachidiens partent de la moelle épinière et innervent le corps. Ils transmettent les informations entre le corps et le cerveau."
+        }
+      ]
+    },
+    {
+      "id": "reproduction",
+      "title": "Reproduction humaine et puberté (SVT)",
+      "questions": [
+        {
+          "question": "À quel âge débute généralement la puberté ?",
+          "choices": [
+            "Entre 3 et 5 ans",
+            "Entre 10 et 16 ans",
+            "Entre 20 et 25 ans",
+            "Entre 30 et 35 ans"
+          ],
+          "correctIndex": 1,
+          "explanation": "La puberté débute en général entre 10 et 16 ans. Elle marque le passage de l'enfance à l'âge adulte avec l'acquisition de la capacité à se reproduire."
+        },
+        {
+          "question": "Quelle cellule reproductrice est produite par les testicules ?",
+          "choices": [
+            "L'ovule",
+            "Le spermatozoïde",
+            "Le zygote",
+            "L'embryon"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les testicules produisent les spermatozoïdes, qui sont les cellules reproductrices mâles (gamètes mâles)."
+        },
+        {
+          "question": "Où se déroule la fécondation chez la femme ?",
+          "choices": [
+            "Dans l'utérus",
+            "Dans le vagin",
+            "Dans la trompe utérine",
+            "Dans l'ovaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "La fécondation a lieu dans la trompe utérine (trompe de Fallope), lorsque le spermatozoïde rencontre l'ovule."
+        },
+        {
+          "question": "Comment s'appelle la cellule issue de la fécondation ?",
+          "choices": [
+            "L'embryon",
+            "Le fœtus",
+            "La cellule-œuf (zygote)",
+            "Le gamète"
+          ],
+          "correctIndex": 2,
+          "explanation": "La cellule-œuf, ou zygote, est la première cellule du nouvel être vivant formée par la fusion d'un spermatozoïde et d'un ovule."
+        },
+        {
+          "question": "Quelle hormone féminine est produite par les ovaires ?",
+          "choices": [
+            "La testostérone",
+            "L'insuline",
+            "Les œstrogènes",
+            "L'adrénaline"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les ovaires produisent les œstrogènes et la progestérone, hormones sexuelles féminines responsables des caractères sexuels et du cycle menstruel."
+        },
+        {
+          "question": "Quelle est la durée moyenne du cycle menstruel ?",
+          "choices": [
+            "7 jours",
+            "14 jours",
+            "28 jours",
+            "60 jours"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le cycle menstruel dure en moyenne 28 jours, avec l'ovulation vers le 14e jour."
+        }
+      ]
+    },
+    {
+      "id": "immunite",
+      "title": "Système immunitaire (SVT)",
+      "questions": [
+        {
+          "question": "Quelles cellules sont responsables de la défense immunitaire ?",
+          "choices": [
+            "Les globules rouges",
+            "Les plaquettes",
+            "Les globules blancs (leucocytes)",
+            "Les neurones"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les globules blancs, ou leucocytes, sont les cellules du système immunitaire qui défendent l'organisme contre les micro-organismes étrangers."
+        },
+        {
+          "question": "Qu'est-ce qu'un antigène ?",
+          "choices": [
+            "Une cellule du corps",
+            "Une molécule étrangère reconnue par le système immunitaire",
+            "Un médicament",
+            "Un type de vaccin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un antigène est une molécule étrangère (souvent à la surface d'un microbe) qui déclenche une réponse immunitaire dans l'organisme."
+        },
+        {
+          "question": "Que produisent les lymphocytes B ?",
+          "choices": [
+            "Des hormones",
+            "Des anticorps",
+            "Des globules rouges",
+            "De l'insuline"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les lymphocytes B produisent des anticorps, protéines spécifiques qui se fixent sur les antigènes pour neutraliser les agents pathogènes."
+        },
+        {
+          "question": "Sur quel principe repose la vaccination ?",
+          "choices": [
+            "Tuer tous les microbes",
+            "Stimuler la mémoire immunitaire",
+            "Remplacer le sang",
+            "Renforcer les os"
+          ],
+          "correctIndex": 1,
+          "explanation": "La vaccination consiste à introduire un antigène atténué pour stimuler le système immunitaire et créer une mémoire immunitaire durable."
+        },
+        {
+          "question": "Quel micro-organisme est responsable du SIDA ?",
+          "choices": [
+            "Une bactérie",
+            "Le virus VIH",
+            "Un champignon",
+            "Un parasite"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le VIH (Virus de l'Immunodéficience Humaine) attaque les lymphocytes T4, affaiblissant progressivement le système immunitaire."
+        },
+        {
+          "question": "Quel médicament permet de lutter contre les bactéries ?",
+          "choices": [
+            "L'antiviral",
+            "L'antibiotique",
+            "Le vaccin",
+            "L'antihistaminique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les antibiotiques sont des médicaments efficaces contre les bactéries. Ils sont inefficaces contre les virus."
+        }
+      ]
+    },
+    {
+      "id": "genetique",
+      "title": "Génétique : ADN, chromosomes, hérédité (SVT)",
+      "questions": [
+        {
+          "question": "Où se trouve l'information génétique dans une cellule ?",
+          "choices": [
+            "Dans la membrane",
+            "Dans le cytoplasme",
+            "Dans le noyau",
+            "Dans les mitochondries uniquement"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'information génétique est principalement contenue dans le noyau de la cellule, sous forme d'ADN organisé en chromosomes."
+        },
+        {
+          "question": "Combien de chromosomes possède une cellule humaine (sauf gamètes) ?",
+          "choices": [
+            "23",
+            "46",
+            "48",
+            "92"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les cellules humaines contiennent 46 chromosomes, soit 23 paires, dont une paire de chromosomes sexuels."
+        },
+        {
+          "question": "Quelle est la signification de l'ADN ?",
+          "choices": [
+            "Acide DésoxyriboNucléique",
+            "Atome De Noyau",
+            "Acide De Nutrition",
+            "Action Du Noyau"
+          ],
+          "correctIndex": 0,
+          "explanation": "ADN signifie Acide DésoxyriboNucléique. C'est la molécule qui porte l'information génétique de tous les êtres vivants."
+        },
+        {
+          "question": "Qu'est-ce qu'un gène ?",
+          "choices": [
+            "Un type de cellule",
+            "Un fragment d'ADN porteur d'une information",
+            "Un organe",
+            "Un chromosome entier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un gène est un fragment d'ADN qui contient l'information pour fabriquer une protéine ou déterminer un caractère."
+        },
+        {
+          "question": "Quelle paire de chromosomes détermine le sexe masculin ?",
+          "choices": [
+            "XX",
+            "YY",
+            "XY",
+            "XO"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le sexe masculin est déterminé par la présence d'un chromosome X et d'un chromosome Y (XY). Le sexe féminin correspond à XX."
+        },
+        {
+          "question": "Combien de chromosomes contient un gamète humain ?",
+          "choices": [
+            "23",
+            "46",
+            "92",
+            "12"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les gamètes (spermatozoïdes et ovules) contiennent 23 chromosomes, soit la moitié des chromosomes d'une cellule normale."
+        }
+      ]
+    },
+    {
+      "id": "evolution",
+      "title": "Évolution des êtres vivants (SVT)",
+      "questions": [
+        {
+          "question": "Qui est le scientifique célèbre pour la théorie de l'évolution ?",
+          "choices": [
+            "Isaac Newton",
+            "Charles Darwin",
+            "Louis Pasteur",
+            "Albert Einstein"
+          ],
+          "correctIndex": 1,
+          "explanation": "Charles Darwin (1809-1882) a proposé la théorie de l'évolution par sélection naturelle dans son ouvrage 'L'Origine des espèces' en 1859."
+        },
+        {
+          "question": "Qu'est-ce qu'un fossile ?",
+          "choices": [
+            "Une roche moderne",
+            "Un reste ou trace d'un être vivant ancien",
+            "Un type de minéral",
+            "Un animal vivant rare"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un fossile est un reste ou une trace d'organisme ayant vécu il y a longtemps, conservé dans les roches sédimentaires."
+        },
+        {
+          "question": "Quel mécanisme permet l'évolution des espèces selon Darwin ?",
+          "choices": [
+            "La création divine",
+            "La sélection naturelle",
+            "La génération spontanée",
+            "La mutation volontaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "La sélection naturelle favorise la survie et la reproduction des individus les mieux adaptés à leur environnement."
+        },
+        {
+          "question": "Quel est l'ancêtre commun probable de l'Homme et du chimpanzé ?",
+          "choices": [
+            "Un poisson",
+            "Un primate disparu",
+            "Un reptile",
+            "Un dinosaure"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'Homme et le chimpanzé partagent un ancêtre commun, un primate disparu ayant vécu il y a environ 7 millions d'années."
+        },
+        {
+          "question": "Qu'est-ce qu'une mutation génétique ?",
+          "choices": [
+            "Une maladie infectieuse",
+            "Une modification de l'ADN",
+            "Un mouvement migratoire",
+            "Un changement de comportement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une mutation est une modification de la séquence d'ADN. Elle constitue une source de diversité génétique et un moteur de l'évolution."
+        }
+      ]
+    },
+    {
+      "id": "atomes-molecules",
+      "title": "Atomes, molécules, ions (Physique-Chimie)",
+      "questions": [
+        {
+          "question": "De quoi est constituée la matière ?",
+          "choices": [
+            "De cellules",
+            "D'atomes",
+            "De pixels",
+            "De fibres"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toute la matière est constituée d'atomes, particules extrêmement petites qui peuvent se combiner pour former des molécules."
+        },
+        {
+          "question": "Quel est le symbole chimique de l'oxygène ?",
+          "choices": [
+            "Or",
+            "O",
+            "Ox",
+            "Og"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'oxygène a pour symbole chimique O. La molécule de dioxygène présente dans l'air s'écrit O2."
+        },
+        {
+          "question": "Qu'est-ce qu'un ion ?",
+          "choices": [
+            "Un atome neutre",
+            "Un atome ayant gagné ou perdu un ou plusieurs électrons",
+            "Une molécule d'eau",
+            "Un noyau atomique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un ion est un atome (ou groupe d'atomes) qui a gagné des électrons (anion, charge négative) ou perdu des électrons (cation, charge positive)."
+        },
+        {
+          "question": "Quelle est la formule chimique de l'eau ?",
+          "choices": [
+            "O2",
+            "H2O",
+            "CO2",
+            "NaCl"
+          ],
+          "correctIndex": 1,
+          "explanation": "La molécule d'eau est composée de 2 atomes d'hydrogène (H) et 1 atome d'oxygène (O), d'où la formule H2O."
+        },
+        {
+          "question": "Quelles particules composent un atome ?",
+          "choices": [
+            "Cellules et noyaux",
+            "Protons, neutrons et électrons",
+            "Molécules et ions",
+            "Étoiles et planètes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un atome est composé d'un noyau (contenant protons et neutrons) entouré d'électrons qui gravitent autour."
+        },
+        {
+          "question": "Quel ion donne le goût salé au sel de table ?",
+          "choices": [
+            "L'ion calcium Ca2+",
+            "L'ion sodium Na+",
+            "L'ion hydrogène H+",
+            "L'ion sulfate SO42-"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le sel de table (NaCl) est composé d'ions sodium Na+ et d'ions chlorure Cl-. C'est le sodium qui apporte le goût salé caractéristique."
+        }
+      ]
+    },
+    {
+      "id": "reactions-chimiques",
+      "title": "Réactions chimiques (Physique-Chimie)",
+      "questions": [
+        {
+          "question": "Quel gaz est nécessaire à une combustion ?",
+          "choices": [
+            "Le diazote",
+            "Le dioxygène",
+            "Le dioxyde de carbone",
+            "L'hydrogène"
+          ],
+          "correctIndex": 1,
+          "explanation": "La combustion nécessite un combustible, une source de chaleur et du dioxygène (O2), qui est le comburant."
+        },
+        {
+          "question": "Quel gaz est produit par la combustion du carbone ?",
+          "choices": [
+            "Le dioxygène",
+            "Le dioxyde de carbone (CO2)",
+            "Le diazote",
+            "L'hydrogène"
+          ],
+          "correctIndex": 1,
+          "explanation": "La combustion complète du carbone produit du dioxyde de carbone (CO2) selon l'équation : C + O2 → CO2."
+        },
+        {
+          "question": "Que se conserve-t-il lors d'une réaction chimique ?",
+          "choices": [
+            "Rien",
+            "La masse totale et les atomes",
+            "La couleur uniquement",
+            "La température"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lors d'une réaction chimique, la masse totale et le nombre d'atomes de chaque élément se conservent (loi de Lavoisier)."
+        },
+        {
+          "question": "Comment appelle-t-on les substances présentes avant la réaction ?",
+          "choices": [
+            "Les produits",
+            "Les réactifs",
+            "Les catalyseurs",
+            "Les ions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les réactifs sont les substances présentes avant la réaction, qui se transforment en produits au cours de la réaction chimique."
+        },
+        {
+          "question": "Quel test permet de détecter le dioxyde de carbone ?",
+          "choices": [
+            "La bûchette enflammée",
+            "L'eau de chaux qui se trouble",
+            "Le sulfate de cuivre",
+            "Le papier pH"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le dioxyde de carbone (CO2) trouble l'eau de chaux, qui devient blanche laiteuse. C'est le test caractéristique du CO2."
+        },
+        {
+          "question": "Quelle est la nature d'une solution dont le pH est inférieur à 7 ?",
+          "choices": [
+            "Basique",
+            "Neutre",
+            "Acide",
+            "Salée"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une solution dont le pH est inférieur à 7 est acide. À pH = 7 elle est neutre, et au-dessus de 7 elle est basique."
+        }
+      ]
+    },
+    {
+      "id": "energie",
+      "title": "Énergie : formes et conversions (Physique-Chimie)",
+      "questions": [
+        {
+          "question": "Quelle est l'unité de mesure de l'énergie dans le système international ?",
+          "choices": [
+            "Le watt (W)",
+            "Le joule (J)",
+            "Le volt (V)",
+            "L'ampère (A)"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'énergie se mesure en joules (J) dans le système international. Le watt est l'unité de puissance (1 W = 1 J/s)."
+        },
+        {
+          "question": "Quelle énergie possède un objet en mouvement ?",
+          "choices": [
+            "L'énergie chimique",
+            "L'énergie cinétique",
+            "L'énergie thermique",
+            "L'énergie nucléaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'énergie cinétique est l'énergie liée au mouvement d'un objet. Elle dépend de la masse et de la vitesse de l'objet."
+        },
+        {
+          "question": "Quelle source d'énergie est renouvelable ?",
+          "choices": [
+            "Le pétrole",
+            "Le charbon",
+            "Le solaire",
+            "L'uranium"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le solaire est une énergie renouvelable car le Soleil est une source quasi inépuisable à l'échelle humaine."
+        },
+        {
+          "question": "Quelle est l'unité de mesure de la tension électrique ?",
+          "choices": [
+            "L'ampère (A)",
+            "Le volt (V)",
+            "L'ohm (Ω)",
+            "Le watt (W)"
+          ],
+          "correctIndex": 1,
+          "explanation": "La tension électrique se mesure en volts (V) avec un voltmètre, branché en dérivation aux bornes du composant."
+        },
+        {
+          "question": "Quelle est la relation entre puissance, énergie et temps ?",
+          "choices": [
+            "E = P × t",
+            "P = E × t",
+            "t = P × E",
+            "E = P + t"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'énergie est le produit de la puissance par le temps : E (J) = P (W) × t (s). En pratique on utilise souvent le kWh."
+        },
+        {
+          "question": "Dans une centrale hydroélectrique, quelle conversion d'énergie a lieu ?",
+          "choices": [
+            "Chimique → électrique",
+            "Mécanique de l'eau → électrique",
+            "Thermique → mécanique",
+            "Solaire → chimique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans une centrale hydroélectrique, l'énergie mécanique de l'eau qui chute fait tourner une turbine reliée à un alternateur qui produit de l'électricité."
+        }
+      ]
+    },
+    {
+      "id": "lumiere-son",
+      "title": "Lumière et son (Physique-Chimie)",
+      "questions": [
+        {
+          "question": "Quelle est la vitesse de la lumière dans le vide ?",
+          "choices": [
+            "340 m/s",
+            "300 000 km/s",
+            "1 000 km/h",
+            "150 millions de km"
+          ],
+          "correctIndex": 1,
+          "explanation": "La lumière se propage à environ 300 000 km/s dans le vide. C'est la vitesse maximale dans l'univers."
+        },
+        {
+          "question": "Quelle est la vitesse approximative du son dans l'air ?",
+          "choices": [
+            "340 m/s",
+            "3 000 m/s",
+            "300 000 km/s",
+            "1 m/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le son se propage à environ 340 m/s dans l'air à 20 °C. Sa vitesse dépend du milieu (plus rapide dans les solides et liquides)."
+        },
+        {
+          "question": "Le son peut-il se propager dans le vide ?",
+          "choices": [
+            "Oui, toujours",
+            "Non, il a besoin d'un milieu matériel",
+            "Seulement la nuit",
+            "Seulement dans l'eau"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le son est une onde mécanique qui nécessite un milieu matériel (air, eau, solide) pour se propager. Il ne peut pas se propager dans le vide."
+        },
+        {
+          "question": "Qu'est-ce qu'une année-lumière ?",
+          "choices": [
+            "Une unité de temps",
+            "Une distance parcourue par la lumière en un an",
+            "L'âge du Soleil",
+            "La durée d'un jour terrestre"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une année-lumière est la distance parcourue par la lumière en un an, soit environ 9 461 milliards de kilomètres."
+        },
+        {
+          "question": "Quelle grandeur caractérise la hauteur d'un son ?",
+          "choices": [
+            "L'amplitude",
+            "La fréquence",
+            "La couleur",
+            "La masse"
+          ],
+          "correctIndex": 1,
+          "explanation": "La hauteur d'un son est caractérisée par sa fréquence en hertz (Hz). Plus la fréquence est élevée, plus le son est aigu."
+        }
+      ]
+    },
+    {
+      "id": "systeme-solaire",
+      "title": "Système solaire et gravitation (Physique-Chimie)",
+      "questions": [
+        {
+          "question": "Combien de planètes compte le système solaire ?",
+          "choices": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le système solaire compte 8 planètes : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune."
+        },
+        {
+          "question": "Qu'est-ce que le poids d'un objet ?",
+          "choices": [
+            "Sa masse en kg",
+            "La force d'attraction gravitationnelle exercée sur lui",
+            "Sa taille",
+            "Son volume"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le poids est la force d'attraction gravitationnelle qui s'exerce sur un objet. Il se mesure en newtons (N) avec un dynamomètre."
+        },
+        {
+          "question": "Sur la Lune, comparé à la Terre, le poids d'un objet est :",
+          "choices": [
+            "Identique",
+            "Environ 6 fois plus petit",
+            "2 fois plus grand",
+            "Nul"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sur la Lune, la gravité est environ 6 fois plus faible que sur Terre. La masse reste identique mais le poids est divisé par 6 environ."
+        },
+        {
+          "question": "Quelle est la relation entre poids P et masse m ?",
+          "choices": [
+            "P = m / g",
+            "P = m × g",
+            "P = m + g",
+            "P = g / m"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le poids est donné par P = m × g, où g ≈ 9,8 N/kg sur Terre. Le poids est en newtons (N) et la masse en kilogrammes (kg)."
+        },
+        {
+          "question": "Quelle est l'étoile la plus proche de la Terre ?",
+          "choices": [
+            "La Lune",
+            "Vénus",
+            "Le Soleil",
+            "Sirius"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le Soleil est l'étoile la plus proche de la Terre, située à environ 150 millions de kilomètres (1 unité astronomique)."
+        }
+      ]
+    },
+    {
+      "id": "programmation",
+      "title": "Programmation et algorithmes (Technologie)",
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un algorithme ?",
+          "choices": [
+            "Un logiciel payant",
+            "Une suite d'instructions pour résoudre un problème",
+            "Un type d'ordinateur",
+            "Un langage de programmation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un algorithme est une suite finie et ordonnée d'instructions permettant de résoudre un problème ou d'accomplir une tâche."
+        },
+        {
+          "question": "Quel logiciel de programmation utilise des blocs colorés ?",
+          "choices": [
+            "Word",
+            "Scratch",
+            "Excel",
+            "Photoshop"
+          ],
+          "correctIndex": 1,
+          "explanation": "Scratch est un langage de programmation visuel utilisant des blocs colorés, idéal pour apprendre la programmation."
+        },
+        {
+          "question": "Qu'est-ce qu'une boucle en programmation ?",
+          "choices": [
+            "Une erreur",
+            "Une instruction qui se répète",
+            "Une variable",
+            "Un type de fichier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une boucle est une structure permettant de répéter plusieurs fois un ensemble d'instructions, par exemple une boucle 'répéter' ou 'tant que'."
+        },
+        {
+          "question": "À quoi sert une instruction conditionnelle 'si...alors' ?",
+          "choices": [
+            "À faire une boucle infinie",
+            "À exécuter une action selon une condition",
+            "À stocker une valeur",
+            "À effacer la mémoire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une instruction conditionnelle 'si...alors...sinon' permet d'exécuter une action différente selon qu'une condition est vraie ou fausse."
+        },
+        {
+          "question": "Qu'est-ce qu'une variable en programmation ?",
+          "choices": [
+            "Un bouton sur l'écran",
+            "Un emplacement mémoire qui stocke une valeur",
+            "Une couleur",
+            "Un fichier image"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une variable est un espace dans la mémoire de l'ordinateur identifié par un nom, qui permet de stocker une valeur pouvant changer."
+        }
+      ]
+    },
+    {
+      "id": "domotique",
+      "title": "Domotique et objets connectés (Technologie)",
+      "questions": [
+        {
+          "question": "Qu'est-ce que la domotique ?",
+          "choices": [
+            "L'étude des animaux",
+            "L'ensemble des technologies automatisant l'habitat",
+            "Une nouvelle religion",
+            "Un sport"
+          ],
+          "correctIndex": 1,
+          "explanation": "La domotique regroupe les technologies qui permettent de programmer et d'automatiser des équipements de la maison (lumière, chauffage, volets...)."
+        },
+        {
+          "question": "Qu'est-ce qu'un objet connecté ?",
+          "choices": [
+            "Un objet qui se branche sur secteur",
+            "Un objet capable de communiquer via un réseau",
+            "Un objet en métal",
+            "Un objet recyclable"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un objet connecté est un dispositif capable d'échanger des données avec d'autres appareils via un réseau (Wi-Fi, Bluetooth, Internet)."
+        },
+        {
+          "question": "Quel composant permet à un système domotique de détecter une présence ?",
+          "choices": [
+            "Un actionneur",
+            "Un capteur",
+            "Une LED",
+            "Un câble"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un capteur (de mouvement, de présence) permet de détecter un événement et transmet l'information au système qui peut alors réagir."
+        },
+        {
+          "question": "Quel élément exécute une action dans un système automatisé ?",
+          "choices": [
+            "Le capteur",
+            "L'actionneur",
+            "Le programme",
+            "Le mot de passe"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'actionneur (moteur, lampe, vérin...) est le composant qui exécute une action physique en réponse à une commande du système."
+        }
+      ]
+    },
+    {
+      "id": "chaines-energie-information",
+      "title": "Chaîne d'énergie et d'information (Technologie)",
+      "questions": [
+        {
+          "question": "Quels sont les trois éléments principaux d'une chaîne d'énergie ?",
+          "choices": [
+            "Alimenter, distribuer, convertir",
+            "Lire, écrire, copier",
+            "Voir, entendre, parler",
+            "Créer, supprimer, modifier"
+          ],
+          "correctIndex": 0,
+          "explanation": "La chaîne d'énergie comprend les fonctions : alimenter (source), distribuer, convertir et transmettre l'énergie jusqu'à l'action finale."
+        },
+        {
+          "question": "Quels sont les éléments principaux d'une chaîne d'information ?",
+          "choices": [
+            "Acquérir, traiter, communiquer",
+            "Couper, coller, supprimer",
+            "Allumer, chauffer, éclairer",
+            "Tourner, glisser, freiner"
+          ],
+          "correctIndex": 0,
+          "explanation": "La chaîne d'information comprend les fonctions : acquérir l'information (capteurs), traiter (unité de calcul) et communiquer le résultat."
+        },
+        {
+          "question": "Dans une voiture électrique, quelle conversion d'énergie a lieu au niveau du moteur ?",
+          "choices": [
+            "Chimique → thermique",
+            "Électrique → mécanique",
+            "Lumineuse → thermique",
+            "Sonore → électrique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le moteur électrique d'une voiture convertit l'énergie électrique stockée dans la batterie en énergie mécanique permettant le déplacement."
+        },
+        {
+          "question": "À quoi sert le microcontrôleur dans un système programmé ?",
+          "choices": [
+            "À stocker l'eau",
+            "À traiter les informations et commander les actionneurs",
+            "À produire de la chaleur",
+            "À éclairer la pièce"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le microcontrôleur est le cerveau du système : il reçoit les informations des capteurs, les traite selon son programme et commande les actionneurs."
+        }
+      ]
+    }
+  ]
+}

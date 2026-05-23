@@ -1,0 +1,374 @@
+{
+  "id": "maths",
+  "label": "Mathématiques",
+  "emoji": "📐",
+  "color": "#3b82f6",
+  "chapters": [
+    {
+      "id": "pythagore",
+      "title": "Théorème de Pythagore",
+      "questions": [
+        {
+          "question": "Dans un triangle rectangle dont les côtés de l'angle droit mesurent 3 cm et 4 cm, combien mesure l'hypoténuse ?",
+          "choices": ["5 cm", "6 cm", "7 cm", "25 cm"],
+          "correctIndex": 0,
+          "explanation": "D'après Pythagore : 3² + 4² = 9 + 16 = 25 = 5². L'hypoténuse mesure donc 5 cm."
+        },
+        {
+          "question": "Un triangle ABC est rectangle en A. Si AB = 6 cm et AC = 8 cm, quelle est la longueur de BC ?",
+          "choices": ["10 cm", "12 cm", "14 cm", "100 cm"],
+          "correctIndex": 0,
+          "explanation": "BC² = AB² + AC² = 36 + 64 = 100, donc BC = √100 = 10 cm."
+        },
+        {
+          "question": "Un triangle a pour côtés 5, 12 et 13. Est-il rectangle ?",
+          "choices": ["Oui, car 5² + 12² = 13²", "Non", "Oui, car 5 + 12 = 17", "On ne peut pas savoir"],
+          "correctIndex": 0,
+          "explanation": "5² + 12² = 25 + 144 = 169 = 13². D'après la réciproque de Pythagore, le triangle est rectangle."
+        },
+        {
+          "question": "Dans un triangle rectangle, l'hypoténuse mesure 10 cm et un côté mesure 6 cm. Quelle est la longueur de l'autre côté ?",
+          "choices": ["8 cm", "4 cm", "16 cm", "14 cm"],
+          "correctIndex": 0,
+          "explanation": "x² = 10² - 6² = 100 - 36 = 64, donc x = 8 cm."
+        },
+        {
+          "question": "Quelle égalité permet de prouver qu'un triangle ABC est rectangle en A ?",
+          "choices": ["BC² = AB² + AC²", "AB² = BC² + AC²", "AB + AC = BC", "AB × AC = BC"],
+          "correctIndex": 0,
+          "explanation": "Si BC² = AB² + AC², alors d'après la réciproque de Pythagore, le triangle est rectangle en A (BC étant l'hypoténuse)."
+        },
+        {
+          "question": "Un triangle a pour côtés 4, 5 et 6. Est-il rectangle ?",
+          "choices": ["Non, car 4² + 5² ≠ 6²", "Oui", "Oui, car 4 + 5 > 6", "Impossible à déterminer"],
+          "correctIndex": 0,
+          "explanation": "4² + 5² = 16 + 25 = 41 alors que 6² = 36. Comme 41 ≠ 36, le triangle n'est pas rectangle."
+        }
+      ]
+    },
+    {
+      "id": "thales",
+      "title": "Théorème de Thalès",
+      "questions": [
+        {
+          "question": "Dans une configuration de Thalès, si AB = 4, AC = 6 et AM = 2 (M sur [AB]), combien vaut AN (N sur [AC]) ?",
+          "choices": ["3", "4", "2", "12"],
+          "correctIndex": 0,
+          "explanation": "AM/AB = AN/AC donne 2/4 = AN/6, donc AN = 6 × 2/4 = 3."
+        },
+        {
+          "question": "Le théorème de Thalès s'applique quand :",
+          "choices": ["Deux droites sont coupées par deux droites parallèles", "Un triangle est rectangle", "Deux droites sont perpendiculaires", "Trois points sont alignés"],
+          "correctIndex": 0,
+          "explanation": "Le théorème de Thalès concerne deux droites sécantes coupées par deux droites parallèles."
+        },
+        {
+          "question": "Dans un triangle ABC, M est sur [AB] et N sur [AC]. Si AM/AB = 1/3 et AN/AC = 1/3, que peut-on dire de (MN) et (BC) ?",
+          "choices": ["Elles sont parallèles", "Elles sont perpendiculaires", "Elles sont sécantes", "On ne peut rien dire"],
+          "correctIndex": 0,
+          "explanation": "D'après la réciproque de Thalès, comme AM/AB = AN/AC et que A, M, B et A, N, C sont alignés dans le même ordre, (MN) est parallèle à (BC)."
+        },
+        {
+          "question": "Dans une configuration de Thalès, si AB = 8, AM = 6 et AC = 12, combien vaut AN ?",
+          "choices": ["9", "10", "8", "6"],
+          "correctIndex": 0,
+          "explanation": "AM/AB = AN/AC : 6/8 = AN/12, donc AN = 12 × 6/8 = 9."
+        },
+        {
+          "question": "Quel rapport est correct dans une configuration de Thalès avec (MN) parallèle à (BC) ?",
+          "choices": ["AM/AB = AN/AC = MN/BC", "AM/AB = MN/AC", "AM/MB = AN/AC", "AB/AM = AC/MN"],
+          "correctIndex": 0,
+          "explanation": "Dans la configuration de Thalès, les trois rapports AM/AB, AN/AC et MN/BC sont égaux."
+        }
+      ]
+    },
+    {
+      "id": "trigonometrie",
+      "title": "Trigonométrie",
+      "questions": [
+        {
+          "question": "Dans un triangle rectangle, le cosinus d'un angle aigu est égal à :",
+          "choices": ["côté adjacent / hypoténuse", "côté opposé / hypoténuse", "côté opposé / côté adjacent", "hypoténuse / côté adjacent"],
+          "correctIndex": 0,
+          "explanation": "cos(angle) = adjacent / hypoténuse. Moyen mnémotechnique : CAH SOH TOA."
+        },
+        {
+          "question": "Dans un triangle rectangle, le sinus d'un angle aigu est égal à :",
+          "choices": ["côté opposé / hypoténuse", "côté adjacent / hypoténuse", "côté opposé / côté adjacent", "hypoténuse / côté opposé"],
+          "correctIndex": 0,
+          "explanation": "sin(angle) = opposé / hypoténuse (SOH)."
+        },
+        {
+          "question": "Dans un triangle rectangle, la tangente d'un angle aigu est égale à :",
+          "choices": ["côté opposé / côté adjacent", "côté adjacent / côté opposé", "opposé / hypoténuse", "adjacent / hypoténuse"],
+          "correctIndex": 0,
+          "explanation": "tan(angle) = opposé / adjacent (TOA)."
+        },
+        {
+          "question": "Dans un triangle rectangle ABC en A, AB = 3, BC = 5. Que vaut cos(B) ?",
+          "choices": ["3/5", "4/5", "5/3", "3/4"],
+          "correctIndex": 0,
+          "explanation": "Pour l'angle B, AB est le côté adjacent et BC l'hypoténuse. Donc cos(B) = 3/5."
+        },
+        {
+          "question": "Si sin(x) = 0,5, combien vaut x (angle aigu) ?",
+          "choices": ["30°", "45°", "60°", "90°"],
+          "correctIndex": 0,
+          "explanation": "sin(30°) = 0,5. C'est une valeur remarquable à connaître."
+        },
+        {
+          "question": "Dans un triangle rectangle, un angle aigu mesure 60° et l'hypoténuse mesure 10. Quelle est la longueur du côté opposé à cet angle ?",
+          "choices": ["Environ 8,66", "5", "10", "6"],
+          "correctIndex": 0,
+          "explanation": "sin(60°) = opposé / 10, donc opposé = 10 × sin(60°) ≈ 10 × 0,866 ≈ 8,66."
+        }
+      ]
+    },
+    {
+      "id": "equations",
+      "title": "Équations et inéquations",
+      "questions": [
+        {
+          "question": "Quelle est la solution de l'équation 2x + 5 = 11 ?",
+          "choices": ["x = 3", "x = 8", "x = 6", "x = 2"],
+          "correctIndex": 0,
+          "explanation": "2x = 11 - 5 = 6, donc x = 6/2 = 3."
+        },
+        {
+          "question": "Quelle est la solution de l'équation 3x - 7 = 2x + 5 ?",
+          "choices": ["x = 12", "x = -2", "x = 2", "x = -12"],
+          "correctIndex": 0,
+          "explanation": "3x - 2x = 5 + 7, donc x = 12."
+        },
+        {
+          "question": "Quelle est la solution de l'inéquation x + 3 < 7 ?",
+          "choices": ["x < 4", "x > 4", "x < 10", "x > 10"],
+          "correctIndex": 0,
+          "explanation": "x < 7 - 3, donc x < 4."
+        },
+        {
+          "question": "Résoudre : 5x = 0",
+          "choices": ["x = 0", "x = 5", "x = -5", "Pas de solution"],
+          "correctIndex": 0,
+          "explanation": "Un produit est nul si l'un des facteurs est nul. Comme 5 ≠ 0, alors x = 0."
+        },
+        {
+          "question": "Résoudre l'équation produit : (x - 2)(x + 3) = 0",
+          "choices": ["x = 2 ou x = -3", "x = -2 ou x = 3", "x = 2 et x = 3", "x = 6"],
+          "correctIndex": 0,
+          "explanation": "Un produit est nul si et seulement si l'un de ses facteurs est nul : x - 2 = 0 ou x + 3 = 0."
+        },
+        {
+          "question": "Résoudre : -2x > 6",
+          "choices": ["x < -3", "x > -3", "x > 3", "x < 3"],
+          "correctIndex": 0,
+          "explanation": "On divise par -2 et on inverse le sens de l'inégalité : x < -3."
+        }
+      ]
+    },
+    {
+      "id": "calcul-litteral",
+      "title": "Calcul littéral",
+      "questions": [
+        {
+          "question": "Développer : 3(x + 4)",
+          "choices": ["3x + 12", "3x + 4", "x + 12", "3x × 12"],
+          "correctIndex": 0,
+          "explanation": "On distribue 3 à chaque terme : 3 × x + 3 × 4 = 3x + 12."
+        },
+        {
+          "question": "Développer : (x + 2)(x + 3)",
+          "choices": ["x² + 5x + 6", "x² + 6x + 5", "x² + 6", "2x + 6"],
+          "correctIndex": 0,
+          "explanation": "(x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6."
+        },
+        {
+          "question": "Factoriser : 4x + 8",
+          "choices": ["4(x + 2)", "4(x + 8)", "2(2x + 4)", "x(4 + 8)"],
+          "correctIndex": 0,
+          "explanation": "Le facteur commun est 4 : 4x + 8 = 4(x + 2)."
+        },
+        {
+          "question": "Développer : (x + 5)² ",
+          "choices": ["x² + 10x + 25", "x² + 25", "x² + 5x + 25", "2x + 10"],
+          "correctIndex": 0,
+          "explanation": "Identité remarquable : (a+b)² = a² + 2ab + b², donc (x+5)² = x² + 10x + 25."
+        },
+        {
+          "question": "Factoriser : x² - 9",
+          "choices": ["(x - 3)(x + 3)", "(x - 9)(x + 1)", "(x - 3)²", "x(x - 9)"],
+          "correctIndex": 0,
+          "explanation": "Identité remarquable : a² - b² = (a-b)(a+b), donc x² - 9 = (x-3)(x+3)."
+        },
+        {
+          "question": "Développer : (2x - 3)²",
+          "choices": ["4x² - 12x + 9", "4x² + 9", "4x² - 9", "2x² - 12x + 9"],
+          "correctIndex": 0,
+          "explanation": "(a-b)² = a² - 2ab + b² : (2x)² - 2×2x×3 + 3² = 4x² - 12x + 9."
+        }
+      ]
+    },
+    {
+      "id": "fractions-puissances",
+      "title": "Fractions et puissances",
+      "questions": [
+        {
+          "question": "Combien vaut 2/3 + 1/6 ?",
+          "choices": ["5/6", "3/9", "1/2", "3/6"],
+          "correctIndex": 0,
+          "explanation": "On met au même dénominateur : 2/3 = 4/6, puis 4/6 + 1/6 = 5/6."
+        },
+        {
+          "question": "Combien vaut 2³ × 2⁴ ?",
+          "choices": ["2⁷", "2¹²", "4⁷", "2¹"],
+          "correctIndex": 0,
+          "explanation": "Quand on multiplie des puissances de même base, on additionne les exposants : 2³ × 2⁴ = 2^(3+4) = 2⁷."
+        },
+        {
+          "question": "Combien vaut (3²)⁴ ?",
+          "choices": ["3⁸", "3⁶", "3¹⁶", "9⁴"],
+          "correctIndex": 0,
+          "explanation": "Quand on élève une puissance à une puissance, on multiplie les exposants : (3²)⁴ = 3^(2×4) = 3⁸."
+        },
+        {
+          "question": "Écrire 0,00045 en notation scientifique :",
+          "choices": ["4,5 × 10⁻⁴", "4,5 × 10⁴", "45 × 10⁻⁵", "0,45 × 10⁻³"],
+          "correctIndex": 0,
+          "explanation": "0,00045 = 4,5 × 10⁻⁴ (on déplace la virgule de 4 rangs vers la droite)."
+        },
+        {
+          "question": "Combien vaut 5⁰ ?",
+          "choices": ["1", "0", "5", "Indéfini"],
+          "correctIndex": 0,
+          "explanation": "Tout nombre non nul élevé à la puissance 0 vaut 1."
+        }
+      ]
+    },
+    {
+      "id": "stats-probas",
+      "title": "Statistiques et probabilités",
+      "questions": [
+        {
+          "question": "Quelle est la probabilité d'obtenir un 6 en lançant un dé équilibré à 6 faces ?",
+          "choices": ["1/6", "1/2", "6/6", "1/3"],
+          "correctIndex": 0,
+          "explanation": "Il y a 1 cas favorable (le 6) sur 6 cas possibles, donc la probabilité est 1/6."
+        },
+        {
+          "question": "On tire une carte dans un jeu de 32 cartes. Quelle est la probabilité d'obtenir un cœur ?",
+          "choices": ["1/4", "1/8", "1/32", "1/2"],
+          "correctIndex": 0,
+          "explanation": "Il y a 8 cœurs sur 32 cartes, donc P = 8/32 = 1/4."
+        },
+        {
+          "question": "Quelle est la médiane de la série : 2, 4, 5, 7, 9 ?",
+          "choices": ["5", "4", "7", "5,4"],
+          "correctIndex": 0,
+          "explanation": "Pour 5 valeurs ordonnées, la médiane est la 3ème valeur, soit 5."
+        },
+        {
+          "question": "Quelle est la moyenne des notes : 10, 12, 14, 16 ?",
+          "choices": ["13", "12", "14", "15"],
+          "correctIndex": 0,
+          "explanation": "Moyenne = (10 + 12 + 14 + 16) / 4 = 52 / 4 = 13."
+        },
+        {
+          "question": "Quelle est l'étendue de la série : 3, 7, 9, 12, 15 ?",
+          "choices": ["12", "15", "9", "3"],
+          "correctIndex": 0,
+          "explanation": "Étendue = valeur maximale - valeur minimale = 15 - 3 = 12."
+        },
+        {
+          "question": "On lance deux fois une pièce équilibrée. Quelle est la probabilité d'obtenir deux fois pile ?",
+          "choices": ["1/4", "1/2", "1/3", "2/4"],
+          "correctIndex": 0,
+          "explanation": "P(pile) × P(pile) = 1/2 × 1/2 = 1/4."
+        }
+      ]
+    },
+    {
+      "id": "fonctions",
+      "title": "Fonctions linéaires et affines",
+      "questions": [
+        {
+          "question": "Une fonction linéaire est de la forme :",
+          "choices": ["f(x) = ax", "f(x) = ax + b", "f(x) = a/x", "f(x) = x²"],
+          "correctIndex": 0,
+          "explanation": "Une fonction linéaire est de la forme f(x) = ax, avec a le coefficient directeur. Sa représentation passe par l'origine."
+        },
+        {
+          "question": "Une fonction affine est de la forme :",
+          "choices": ["f(x) = ax + b", "f(x) = ax", "f(x) = a × b", "f(x) = x + a"],
+          "correctIndex": 0,
+          "explanation": "Une fonction affine est de la forme f(x) = ax + b, où a est le coefficient directeur et b l'ordonnée à l'origine."
+        },
+        {
+          "question": "Soit f(x) = 3x + 2. Combien vaut f(4) ?",
+          "choices": ["14", "12", "9", "10"],
+          "correctIndex": 0,
+          "explanation": "f(4) = 3 × 4 + 2 = 12 + 2 = 14."
+        },
+        {
+          "question": "Soit f une fonction linéaire telle que f(2) = 6. Quel est le coefficient ?",
+          "choices": ["3", "2", "6", "12"],
+          "correctIndex": 0,
+          "explanation": "f(x) = ax, donc f(2) = 2a = 6, d'où a = 3."
+        },
+        {
+          "question": "La représentation graphique d'une fonction affine est :",
+          "choices": ["Une droite", "Une parabole", "Une courbe", "Un cercle"],
+          "correctIndex": 0,
+          "explanation": "La représentation graphique d'une fonction affine f(x) = ax + b est une droite."
+        },
+        {
+          "question": "Pour f(x) = -2x + 5, quel est l'antécédent de 1 ?",
+          "choices": ["2", "1", "-2", "3"],
+          "correctIndex": 0,
+          "explanation": "On résout -2x + 5 = 1, soit -2x = -4, donc x = 2."
+        }
+      ]
+    },
+    {
+      "id": "espace-volumes",
+      "title": "Géométrie dans l'espace et volumes",
+      "questions": [
+        {
+          "question": "Quel est le volume d'un cube d'arête 4 cm ?",
+          "choices": ["64 cm³", "16 cm³", "48 cm³", "12 cm³"],
+          "correctIndex": 0,
+          "explanation": "V = a³ = 4³ = 64 cm³."
+        },
+        {
+          "question": "Quel est le volume d'un pavé droit de dimensions 3 × 4 × 5 cm ?",
+          "choices": ["60 cm³", "12 cm³", "47 cm³", "120 cm³"],
+          "correctIndex": 0,
+          "explanation": "V = L × l × h = 3 × 4 × 5 = 60 cm³."
+        },
+        {
+          "question": "Quelle est la formule du volume d'un cylindre de rayon r et de hauteur h ?",
+          "choices": ["π × r² × h", "2π × r × h", "π × r × h", "(4/3) × π × r³"],
+          "correctIndex": 0,
+          "explanation": "Le volume d'un cylindre est V = π × r² × h (aire du disque × hauteur)."
+        },
+        {
+          "question": "Quelle est la formule du volume d'une boule de rayon r ?",
+          "choices": ["(4/3) × π × r³", "π × r²", "4 × π × r²", "(1/3) × π × r³"],
+          "correctIndex": 0,
+          "explanation": "V = (4/3) × π × r³ pour une boule."
+        },
+        {
+          "question": "Quel est le volume d'une pyramide de base carrée de côté 6 cm et de hauteur 10 cm ?",
+          "choices": ["120 cm³", "360 cm³", "60 cm³", "180 cm³"],
+          "correctIndex": 0,
+          "explanation": "V = (1/3) × aire_base × hauteur = (1/3) × 36 × 10 = 120 cm³."
+        },
+        {
+          "question": "Quelle est la formule du volume d'un cône de rayon r et de hauteur h ?",
+          "choices": ["(1/3) × π × r² × h", "π × r² × h", "(4/3) × π × r³", "2 × π × r × h"],
+          "correctIndex": 0,
+          "explanation": "V = (1/3) × π × r² × h pour un cône."
+        }
+      ]
+    }
+  ]
+}

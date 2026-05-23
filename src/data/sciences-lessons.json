@@ -1,0 +1,399 @@
+{
+  "subjectId": "sciences",
+  "lessons": {
+    "systeme-nerveux": {
+      "title": "Système nerveux et perception",
+      "intro": "Le système nerveux est le système de communication et de commande de notre corps. Il nous permet de percevoir notre environnement grâce aux organes des sens et d'y répondre en commandant les muscles.",
+      "sections": [
+        {
+          "title": "Organisation du système nerveux",
+          "content": "Le système nerveux est composé du système nerveux central, qui comprend le cerveau et la moelle épinière, et du système nerveux périphérique formé par tous les nerfs. Le cerveau est l'organe central qui traite les informations et prend les décisions. La moelle épinière, située dans la colonne vertébrale, transmet les messages et gère certains réflexes."
+        },
+        {
+          "title": "Le neurone, cellule du système nerveux",
+          "content": "Le neurone est la cellule spécialisée qui transmet les messages nerveux sous forme de signaux électriques. Il possède un corps cellulaire, des dendrites qui reçoivent les informations, et un long prolongement appelé axone qui les transmet. La zone de contact entre deux neurones s'appelle la synapse : le message y est transmis grâce à des molécules chimiques, les neurotransmetteurs."
+        },
+        {
+          "title": "Le trajet d'un message nerveux",
+          "content": "Quand on touche un objet chaud, un récepteur sensoriel dans la peau détecte le stimulus. Un message nerveux part par un nerf sensitif jusqu'au cerveau ou à la moelle épinière. Le centre nerveux analyse l'information puis envoie un ordre par un nerf moteur jusqu'aux muscles, qui sont les effecteurs. Le muscle se contracte alors pour retirer la main."
+        },
+        {
+          "title": "Les perturbations du système nerveux",
+          "content": "Le bon fonctionnement du système nerveux peut être perturbé par plusieurs facteurs. La consommation d'alcool, de drogues ou de certains médicaments modifie la transmission au niveau des synapses et altère les capacités du cerveau, comme les réflexes et la vigilance. Le manque de sommeil et le stress diminuent aussi les performances du cerveau."
+        }
+      ],
+      "keyPoints": [
+        "Le cerveau et la moelle épinière forment le système nerveux central",
+        "Le neurone est la cellule qui transmet les messages nerveux",
+        "La synapse est la zone de communication entre deux neurones",
+        "Un récepteur reçoit le stimulus, un effecteur exécute la réponse",
+        "31 paires de nerfs partent de la moelle épinière",
+        "L'alcool et les drogues perturbent les synapses"
+      ]
+    },
+    "reproduction": {
+      "title": "Reproduction humaine et puberté",
+      "intro": "La puberté marque le passage de l'enfance à l'âge adulte. Le corps se transforme et devient capable de se reproduire grâce à la production de cellules reproductrices appelées gamètes.",
+      "sections": [
+        {
+          "title": "La puberté",
+          "content": "La puberté débute entre 10 et 16 ans. Elle est déclenchée par des hormones produites par le cerveau qui agissent sur les organes reproducteurs. Chez la fille, les ovaires produisent les œstrogènes et la progestérone. Chez le garçon, les testicules produisent la testostérone. Ces hormones provoquent l'apparition des caractères sexuels secondaires comme la pilosité, le développement des seins ou la mue de la voix."
+        },
+        {
+          "title": "Les cellules reproductrices",
+          "content": "Les gamètes sont les cellules reproductrices. Les testicules produisent en continu, à partir de la puberté, les spermatozoïdes, qui sont les gamètes mâles. Les ovaires libèrent un ovule chaque mois lors de l'ovulation, c'est le gamète femelle. Ces deux cellules contiennent chacune 23 chromosomes, soit la moitié du patrimoine génétique humain."
+        },
+        {
+          "title": "Le cycle menstruel et l'ovulation",
+          "content": "Chez la femme, un cycle menstruel dure en moyenne 28 jours. Vers le 14e jour a lieu l'ovulation : un ovule est libéré par un ovaire. S'il n'y a pas de fécondation, la paroi de l'utérus se détache et est éliminée : ce sont les règles. Si une fécondation a lieu, le cycle s'interrompt et la grossesse commence."
+        },
+        {
+          "title": "De la fécondation à la naissance",
+          "content": "La fécondation a lieu dans la trompe utérine, quand un spermatozoïde rencontre l'ovule. Il se forme alors une cellule-œuf, aussi appelée zygote, qui contient 46 chromosomes. Cette cellule se divise et migre jusqu'à l'utérus où elle s'implante : c'est la nidation. L'embryon se développe puis devient un fœtus, jusqu'à la naissance environ 9 mois plus tard."
+        },
+        {
+          "title": "Maîtriser la reproduction",
+          "content": "La contraception permet d'éviter une grossesse non désirée. Il existe la pilule, le préservatif, le stérilet, etc. Le préservatif a aussi un rôle essentiel : il protège des infections sexuellement transmissibles comme le VIH responsable du SIDA."
+        }
+      ],
+      "keyPoints": [
+        "La puberté débute entre 10 et 16 ans",
+        "Les testicules produisent les spermatozoïdes, les ovaires les ovules",
+        "Le cycle menstruel dure en moyenne 28 jours",
+        "La fécondation a lieu dans la trompe utérine",
+        "La cellule-œuf contient 46 chromosomes",
+        "Le préservatif protège des grossesses et des IST"
+      ]
+    },
+    "immunite": {
+      "title": "Système immunitaire",
+      "intro": "Le système immunitaire défend notre organisme contre les micro-organismes étrangers comme les virus, les bactéries ou les champignons. Il agit grâce à différentes cellules spécialisées présentes dans le sang.",
+      "sections": [
+        {
+          "title": "Les micro-organismes",
+          "content": "Notre corps est en permanence exposé à des micro-organismes. Les bactéries sont des cellules vivantes qui peuvent être utiles ou pathogènes. Les virus sont beaucoup plus petits et ont besoin d'infecter une cellule pour se reproduire. Quand un micro-organisme franchit la peau ou les muqueuses, il pénètre dans l'organisme : c'est la contamination. Sa multiplication s'appelle l'infection."
+        },
+        {
+          "title": "Les défenses immunitaires",
+          "content": "Les globules blancs, aussi appelés leucocytes, sont les cellules du système immunitaire. Les phagocytes assurent une défense rapide et non spécifique : ils englobent et digèrent les microbes, c'est la phagocytose. Les lymphocytes assurent une défense plus lente mais très ciblée, dirigée contre un antigène précis, c'est-à-dire une molécule étrangère reconnue par l'organisme."
+        },
+        {
+          "title": "Lymphocytes et anticorps",
+          "content": "Les lymphocytes B produisent des anticorps, des protéines qui se fixent spécifiquement sur les antigènes pour les neutraliser. Les lymphocytes T détruisent directement les cellules infectées. Après une première infection, l'organisme garde une mémoire immunitaire qui lui permet de réagir beaucoup plus vite si le même microbe revient."
+        },
+        {
+          "title": "Vaccination et antibiotiques",
+          "content": "La vaccination consiste à introduire dans le corps un antigène atténué ou inactif. Le système immunitaire fabrique alors des anticorps et garde une mémoire, sans que l'on tombe malade. Les antibiotiques sont des médicaments qui tuent les bactéries ou bloquent leur multiplication. Attention : les antibiotiques ne sont pas efficaces contre les virus, comme celui de la grippe."
+        }
+      ],
+      "keyPoints": [
+        "Les globules blancs assurent la défense immunitaire",
+        "Un antigène est une molécule étrangère reconnue par le corps",
+        "Les lymphocytes B produisent des anticorps spécifiques",
+        "La vaccination crée une mémoire immunitaire durable",
+        "Les antibiotiques agissent uniquement sur les bactéries",
+        "Le virus du SIDA, le VIH, détruit les lymphocytes T4"
+      ]
+    },
+    "genetique": {
+      "title": "Génétique : ADN, chromosomes et hérédité",
+      "intro": "Toutes les cellules de notre corps contiennent l'information génétique qui détermine nos caractères héréditaires comme la couleur des yeux ou le groupe sanguin. Cette information est portée par une molécule appelée ADN.",
+      "sections": [
+        {
+          "title": "ADN et chromosomes",
+          "content": "L'information génétique est contenue dans le noyau des cellules, sous forme d'une molécule appelée ADN, qui signifie Acide DésoxyriboNucléique. L'ADN est organisé en chromosomes. Chaque cellule humaine contient 46 chromosomes, regroupés en 23 paires. La 23e paire est la paire de chromosomes sexuels : XX chez la femme et XY chez l'homme."
+        },
+        {
+          "title": "Les gènes",
+          "content": "Un gène est un petit fragment d'ADN qui porte l'information pour fabriquer une protéine ou déterminer un caractère, comme la couleur des yeux. Chaque gène existe en plusieurs versions appelées allèles. Par exemple, le gène de la couleur des yeux possède un allèle bleu et un allèle marron. C'est la combinaison des allèles hérités des deux parents qui détermine le caractère final."
+        },
+        {
+          "title": "Transmission héréditaire",
+          "content": "Les gamètes, spermatozoïdes et ovules, contiennent seulement 23 chromosomes, soit la moitié du patrimoine. Lors de la fécondation, la cellule-œuf reçoit 23 chromosomes du père et 23 de la mère, ce qui rétablit le nombre de 46. L'enfant hérite donc d'un mélange aléatoire des caractères de ses deux parents, ce qui explique la diversité au sein d'une même famille."
+        },
+        {
+          "title": "Mutations et diversité",
+          "content": "Une mutation est une modification accidentelle de la séquence d'ADN. Elle peut être sans conséquence, bénéfique ou parfois responsable d'une maladie génétique. Les mutations sont à l'origine de la diversité des allèles et constituent un moteur de l'évolution des espèces, en créant de nouvelles versions des gènes."
+        }
+      ],
+      "keyPoints": [
+        "L'information génétique est portée par l'ADN dans le noyau",
+        "Une cellule humaine contient 46 chromosomes, soit 23 paires",
+        "Un gène est un fragment d'ADN qui code pour un caractère",
+        "Les gamètes contiennent 23 chromosomes",
+        "XX correspond au sexe féminin, XY au sexe masculin",
+        "Une mutation est une modification de l'ADN"
+      ]
+    },
+    "evolution": {
+      "title": "Évolution des êtres vivants",
+      "intro": "Les espèces vivantes ne sont pas fixes : elles se transforment au cours du temps. C'est la théorie de l'évolution, proposée par Charles Darwin au 19e siècle, qui explique l'incroyable diversité du monde vivant.",
+      "sections": [
+        {
+          "title": "Les preuves de l'évolution",
+          "content": "Les fossiles sont des restes ou des traces d'êtres vivants anciens, conservés dans les roches sédimentaires. Ils prouvent que des espèces ont existé puis disparu, comme les dinosaures, et que d'autres sont apparues. L'étude des fossiles montre que les espèces actuelles descendent d'espèces plus anciennes, modifiées au cours du temps."
+        },
+        {
+          "title": "La sélection naturelle",
+          "content": "Charles Darwin a proposé en 1859 le mécanisme de la sélection naturelle. Au sein d'une espèce, les individus présentent des variations dues à des mutations. Lorsque l'environnement change, les individus les mieux adaptés survivent et se reproduisent davantage, tandis que les autres disparaissent. Leurs caractères favorables sont transmis aux générations suivantes, ce qui fait évoluer l'espèce."
+        },
+        {
+          "title": "Parentés et ancêtres communs",
+          "content": "Les êtres vivants partagent de nombreux points communs, comme un squelette interne chez les vertébrés, ce qui indique qu'ils descendent d'un même ancêtre commun. Plus deux espèces ont d'ancêtres communs récents, plus elles sont proches. Par exemple, l'Homme et le chimpanzé partagent un ancêtre commun qui a vécu il y a environ 7 millions d'années."
+        },
+        {
+          "title": "L'évolution de l'Homme",
+          "content": "La lignée humaine compte de nombreuses espèces aujourd'hui disparues, comme Australopithecus, Homo habilis ou Homo neanderthalensis. Notre espèce, Homo sapiens, est apparue en Afrique il y a environ 300 000 ans, puis s'est répandue sur toute la planète. L'évolution se poursuit encore aujourd'hui."
+        }
+      ],
+      "keyPoints": [
+        "Les fossiles témoignent de la vie passée sur Terre",
+        "Charles Darwin a proposé la théorie de l'évolution en 1859",
+        "La sélection naturelle favorise les individus les mieux adaptés",
+        "Les mutations créent de la diversité génétique",
+        "Les espèces partagent des ancêtres communs",
+        "Homo sapiens est apparu il y a environ 300 000 ans en Afrique"
+      ]
+    },
+    "atomes-molecules": {
+      "title": "Atomes, molécules et ions",
+      "intro": "Toute la matière qui nous entoure, qu'elle soit solide, liquide ou gazeuse, est constituée de particules extrêmement petites appelées atomes. Ces atomes peuvent s'associer pour former des molécules ou perdre des électrons pour former des ions.",
+      "sections": [
+        {
+          "title": "La structure de l'atome",
+          "content": "Un atome est composé d'un noyau central, qui contient des protons chargés positivement et des neutrons sans charge. Autour du noyau se trouvent les électrons, chargés négativement. Un atome est globalement neutre car il possède autant de protons que d'électrons. Chaque atome est représenté par un symbole, par exemple H pour l'hydrogène, O pour l'oxygène ou C pour le carbone."
+        },
+        {
+          "title": "Les molécules",
+          "content": "Une molécule est un assemblage de plusieurs atomes liés entre eux. On la représente par une formule chimique qui indique la nature et le nombre d'atomes. Par exemple, la molécule d'eau est constituée de deux atomes d'hydrogène et un atome d'oxygène : sa formule s'écrit H2O. Le dioxygène de l'air s'écrit O2 et le dioxyde de carbone CO2."
+        },
+        {
+          "title": "Les ions",
+          "content": "Un ion est un atome ou un groupe d'atomes qui a perdu ou gagné un ou plusieurs électrons. S'il perd des électrons, il devient un cation chargé positivement, comme l'ion sodium Na plus. S'il gagne des électrons, il devient un anion chargé négativement, comme l'ion chlorure Cl moins. Le sel de cuisine, formule NaCl, est formé d'ions sodium et chlorure."
+        },
+        {
+          "title": "Solutions acides, basiques et neutres",
+          "content": "Le pH mesure l'acidité d'une solution sur une échelle de 0 à 14. Une solution est acide si son pH est inférieur à 7, neutre si son pH est égal à 7, et basique si son pH est supérieur à 7. Les solutions acides contiennent beaucoup d'ions hydrogène H plus. L'eau pure est neutre, le jus de citron est acide, l'eau savonneuse est basique."
+        }
+      ],
+      "keyPoints": [
+        "La matière est constituée d'atomes",
+        "Un atome contient un noyau avec protons et neutrons, entouré d'électrons",
+        "Une molécule est un assemblage d'atomes liés",
+        "Un ion est un atome qui a gagné ou perdu des électrons",
+        "L'eau a pour formule H2O",
+        "Le pH mesure l'acidité : moins de 7 acide, 7 neutre, plus de 7 basique"
+      ]
+    },
+    "reactions-chimiques": {
+      "title": "Réactions chimiques",
+      "intro": "Une réaction chimique est une transformation de la matière au cours de laquelle des substances appelées réactifs se transforment en de nouvelles substances appelées produits. Les atomes ne sont ni créés ni détruits, ils se réorganisent.",
+      "sections": [
+        {
+          "title": "Réactifs et produits",
+          "content": "Lors d'une réaction chimique, les substances présentes au départ sont les réactifs et les substances formées sont les produits. On écrit l'équation de la réaction sous la forme : réactifs flèche produits. Par exemple, la combustion du carbone s'écrit : carbone plus dioxygène donne dioxyde de carbone, soit C plus O2 donne CO2."
+        },
+        {
+          "title": "La conservation de la masse",
+          "content": "Lors d'une réaction chimique, la masse totale se conserve, c'est la loi de Lavoisier. Le nombre d'atomes de chaque élément est le même avant et après la réaction. Les atomes se réorganisent simplement pour former de nouvelles molécules. C'est pourquoi une équation chimique doit toujours être équilibrée."
+        },
+        {
+          "title": "Les combustions",
+          "content": "Une combustion est une réaction chimique entre un combustible, comme le bois, le butane ou le carbone, et un comburant, le dioxygène de l'air. Elle nécessite une source de chaleur pour démarrer. La combustion complète du carbone produit du dioxyde de carbone. Si l'oxygène manque, la combustion est incomplète et produit du monoxyde de carbone, un gaz très toxique."
+        },
+        {
+          "title": "Tests d'identification",
+          "content": "Plusieurs tests permettent d'identifier les produits d'une réaction. L'eau de chaux qui se trouble en blanc laiteux révèle la présence de dioxyde de carbone. Une bûchette qui se rallume met en évidence le dioxygène. Le sulfate de cuivre anhydre, blanc, devient bleu en présence d'eau. Le papier pH permet de tester l'acidité d'une solution."
+        }
+      ],
+      "keyPoints": [
+        "Une réaction chimique transforme des réactifs en produits",
+        "La masse et le nombre d'atomes se conservent (Lavoisier)",
+        "Une combustion nécessite un combustible, un comburant et une chaleur",
+        "Le test à l'eau de chaux détecte le dioxyde de carbone",
+        "Le sulfate de cuivre détecte l'eau",
+        "Une solution acide a un pH inférieur à 7"
+      ]
+    },
+    "energie": {
+      "title": "Énergie : formes et conversions",
+      "intro": "L'énergie est partout autour de nous : pour faire bouger une voiture, chauffer une maison, éclairer une pièce. Elle existe sous différentes formes qui peuvent se transformer les unes en les autres, mais l'énergie totale se conserve toujours.",
+      "sections": [
+        {
+          "title": "Les différentes formes d'énergie",
+          "content": "Il existe plusieurs formes d'énergie. L'énergie cinétique est liée au mouvement, l'énergie de position dépend de la hauteur, l'énergie thermique est liée à la chaleur, l'énergie électrique au courant qui circule, l'énergie chimique est stockée dans la matière comme dans une pile ou des aliments, l'énergie lumineuse est portée par la lumière, et l'énergie nucléaire est libérée par le noyau des atomes."
+        },
+        {
+          "title": "Unités et mesures",
+          "content": "L'énergie se mesure en joules, de symbole J, dans le système international. Dans la vie quotidienne, on utilise aussi le kilowatt-heure, ou kWh, surtout pour l'électricité. La puissance, qui mesure la rapidité avec laquelle l'énergie est consommée ou produite, se mesure en watts, de symbole W. La relation est : énergie égale puissance multipliée par temps, soit E égale P fois t."
+        },
+        {
+          "title": "Conversions et chaînes énergétiques",
+          "content": "L'énergie ne se crée pas et ne se détruit pas, elle se transforme. Dans une centrale hydroélectrique, l'énergie mécanique de l'eau qui chute fait tourner une turbine, qui entraîne un alternateur, lequel produit de l'énergie électrique. Dans une lampe, l'énergie électrique se transforme en énergie lumineuse et thermique. Une partie de l'énergie est toujours perdue sous forme de chaleur."
+        },
+        {
+          "title": "Sources renouvelables et non renouvelables",
+          "content": "Les sources non renouvelables, comme le pétrole, le charbon, le gaz naturel ou l'uranium, existent en quantités limitées et finiront par s'épuiser. Les sources renouvelables se renouvellent constamment à l'échelle humaine : le soleil, le vent, l'eau, la biomasse ou la géothermie. Pour limiter le réchauffement climatique, il faut développer les énergies renouvelables."
+        }
+      ],
+      "keyPoints": [
+        "L'énergie se mesure en joules, la puissance en watts",
+        "Énergie égale puissance multipliée par temps",
+        "L'énergie cinétique est liée au mouvement",
+        "L'énergie totale se conserve lors des transformations",
+        "Le solaire, l'éolien et l'hydraulique sont renouvelables",
+        "Le pétrole, le charbon et l'uranium ne sont pas renouvelables"
+      ]
+    },
+    "lumiere-son": {
+      "title": "Lumière et son",
+      "intro": "La lumière et le son sont deux phénomènes qui se propagent autour de nous et que nos sens captent. Ils ont des propriétés très différentes mais permettent tous les deux de transporter des informations.",
+      "sections": [
+        {
+          "title": "La propagation de la lumière",
+          "content": "La lumière se propage en ligne droite dans un milieu transparent et homogène. Sa vitesse dans le vide est d'environ 300 000 kilomètres par seconde, c'est la vitesse la plus grande possible dans l'univers. La lumière peut traverser le vide, ce qui explique pourquoi celle du Soleil nous parvient en environ 8 minutes."
+        },
+        {
+          "title": "L'année-lumière",
+          "content": "Les distances dans l'univers sont énormes. Pour les mesurer, on utilise l'année-lumière, qui est la distance parcourue par la lumière en une année, soit environ 9 461 milliards de kilomètres. L'étoile la plus proche du Soleil, Proxima du Centaure, est située à environ 4,2 années-lumière. Voir une étoile lointaine, c'est observer son passé."
+        },
+        {
+          "title": "La propagation du son",
+          "content": "Le son est une onde mécanique : il a besoin d'un milieu matériel comme l'air, l'eau ou un solide pour se propager. Le son ne peut pas se propager dans le vide. Sa vitesse dans l'air à 20 degrés est d'environ 340 mètres par seconde, beaucoup plus lente que la lumière. C'est pourquoi lors d'un orage, on voit l'éclair avant d'entendre le tonnerre."
+        },
+        {
+          "title": "Caractéristiques d'un son",
+          "content": "Un son est caractérisé par sa fréquence, mesurée en hertz, de symbole Hz, qui détermine sa hauteur : une fréquence élevée donne un son aigu, une fréquence basse donne un son grave. L'intensité sonore, mesurée en décibels, de symbole dB, indique le volume du son. Au-dessus de 85 décibels, le bruit devient dangereux pour les oreilles."
+        }
+      ],
+      "keyPoints": [
+        "La lumière se propage à environ 300 000 km/s dans le vide",
+        "Le son se propage à environ 340 m/s dans l'air",
+        "La lumière traverse le vide, pas le son",
+        "Une année-lumière est une distance, pas une durée",
+        "La fréquence en hertz détermine la hauteur du son",
+        "Au-dessus de 85 décibels, le son est dangereux"
+      ]
+    },
+    "systeme-solaire": {
+      "title": "Système solaire et gravitation",
+      "intro": "Notre Terre fait partie du système solaire, un ensemble composé du Soleil et des objets qui gravitent autour de lui. Tous ces astres sont maintenus en orbite grâce à la force de gravitation universelle.",
+      "sections": [
+        {
+          "title": "Le système solaire",
+          "content": "Le système solaire est composé d'une étoile, le Soleil, et de 8 planètes qui tournent autour : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Les quatre premières sont les planètes rocheuses ou telluriques, les quatre autres sont des géantes gazeuses. Le système comprend aussi des satellites comme la Lune, des astéroïdes et des comètes."
+        },
+        {
+          "title": "Distances et échelles",
+          "content": "Les distances dans le système solaire sont immenses. La Terre se situe à environ 150 millions de kilomètres du Soleil, cette distance s'appelle l'unité astronomique. La lumière du Soleil met 8 minutes pour parvenir à la Terre. Le Soleil est l'étoile la plus proche de nous. La suivante, Proxima du Centaure, est à plus de 4 années-lumière."
+        },
+        {
+          "title": "La gravitation universelle",
+          "content": "Tous les objets ayant une masse s'attirent mutuellement, c'est la force de gravitation universelle. Plus les masses sont grandes et plus elles sont proches, plus la force est grande. C'est la gravitation qui maintient les planètes en orbite autour du Soleil et la Lune en orbite autour de la Terre. Sur Terre, c'est elle qui nous attire vers le sol."
+        },
+        {
+          "title": "Poids et masse",
+          "content": "Il ne faut pas confondre masse et poids. La masse mesure la quantité de matière d'un objet, elle se mesure en kilogrammes et reste la même partout dans l'univers. Le poids est la force d'attraction gravitationnelle exercée sur cet objet, il se mesure en newtons. La relation est : poids égale masse multipliée par g, soit P égale m fois g. Sur Terre, g vaut environ 9,8 newtons par kilogramme. Sur la Lune, g est 6 fois plus petit, donc le poids est divisé par 6."
+        }
+      ],
+      "keyPoints": [
+        "Le système solaire compte 8 planètes",
+        "Le Soleil est l'étoile la plus proche de la Terre",
+        "La gravitation universelle attire tous les objets entre eux",
+        "La masse se mesure en kilogrammes, le poids en newtons",
+        "Poids égale masse multipliée par g (P = m × g)",
+        "Sur Terre, g vaut environ 9,8 N/kg, sur la Lune 6 fois moins"
+      ]
+    },
+    "programmation": {
+      "title": "Programmation et algorithmes",
+      "intro": "Programmer un ordinateur ou un robot, c'est lui donner une suite d'instructions pour qu'il accomplisse une tâche précise. Cette suite d'instructions s'appelle un algorithme, écrit ensuite dans un langage de programmation.",
+      "sections": [
+        {
+          "title": "Qu'est-ce qu'un algorithme ?",
+          "content": "Un algorithme est une suite finie et ordonnée d'instructions permettant de résoudre un problème ou d'accomplir une tâche. On en utilise tous les jours, comme une recette de cuisine ou un mode d'emploi. En informatique, l'algorithme est traduit en programme grâce à un langage de programmation comme Scratch, Python ou JavaScript."
+        },
+        {
+          "title": "Les variables",
+          "content": "Une variable est un emplacement dans la mémoire de l'ordinateur, identifié par un nom, qui permet de stocker une valeur. Cette valeur peut être un nombre, du texte ou un état. Par exemple, la variable score peut contenir 0 au début d'un jeu, puis augmenter au fur et à mesure que le joueur gagne des points."
+        },
+        {
+          "title": "Les structures de contrôle",
+          "content": "Pour donner de l'intelligence à un programme, on utilise des structures de contrôle. L'instruction conditionnelle si... alors... sinon permet d'exécuter une action différente selon qu'une condition est vraie ou fausse. Par exemple : si score est supérieur à 100, alors afficher gagné, sinon afficher continue. La boucle, comme répéter ou tant que, permet de répéter plusieurs fois les mêmes instructions."
+        },
+        {
+          "title": "Scratch et la programmation visuelle",
+          "content": "Scratch est un langage de programmation visuel qui utilise des blocs colorés que l'on assemble comme un puzzle. Il permet d'apprendre les bases de la programmation : variables, boucles, conditions, événements. On peut y créer des jeux, des animations ou des histoires interactives en commandant des personnages appelés lutins."
+        }
+      ],
+      "keyPoints": [
+        "Un algorithme est une suite ordonnée d'instructions",
+        "Une variable stocke une valeur en mémoire",
+        "Une boucle répète plusieurs fois des instructions",
+        "Une instruction conditionnelle dépend d'une condition vraie ou fausse",
+        "Scratch utilise des blocs colorés assemblés en programme",
+        "Un programme est un algorithme écrit dans un langage informatique"
+      ]
+    },
+    "domotique": {
+      "title": "Domotique et objets connectés",
+      "intro": "La domotique regroupe l'ensemble des technologies qui permettent d'automatiser et de contrôler une habitation. Avec le développement d'Internet, les objets connectés deviennent de plus en plus présents dans notre quotidien.",
+      "sections": [
+        {
+          "title": "Qu'est-ce que la domotique ?",
+          "content": "La domotique vient de domus, qui signifie maison en latin, et de informatique. Elle regroupe les technologies qui permettent de programmer, d'automatiser et de contrôler à distance les équipements de la maison : éclairage, chauffage, volets roulants, alarmes, électroménager. Le but est d'améliorer le confort, la sécurité, et de réaliser des économies d'énergie."
+        },
+        {
+          "title": "Les objets connectés",
+          "content": "Un objet connecté est un dispositif capable d'échanger des données avec d'autres appareils via un réseau comme le Wi-Fi, le Bluetooth ou Internet. On trouve des montres connectées, des enceintes intelligentes, des thermostats, des caméras de surveillance. L'ensemble de ces objets forme ce qu'on appelle l'Internet des objets, ou IoT en anglais."
+        },
+        {
+          "title": "Capteurs et actionneurs",
+          "content": "Un système domotique fonctionne avec deux types de composants. Les capteurs détectent des événements ou mesurent des grandeurs physiques : capteur de présence, de température, de luminosité, d'humidité. Les actionneurs exécutent une action physique : moteur de volet, lampe, sirène d'alarme, vérin. Entre les deux, un microcontrôleur traite l'information selon son programme."
+        },
+        {
+          "title": "Avantages et limites",
+          "content": "La domotique présente de nombreux avantages : confort, gain de temps, économies d'énergie, sécurité accrue, et accessibilité pour les personnes en situation de handicap. Elle pose toutefois des questions de coût, de protection de la vie privée car beaucoup de données sont collectées, et de cybersécurité car les objets peuvent être piratés."
+        }
+      ],
+      "keyPoints": [
+        "La domotique automatise les équipements de l'habitation",
+        "Un objet connecté échange des données via un réseau",
+        "Un capteur détecte un événement et fournit une information",
+        "Un actionneur exécute une action physique",
+        "Le microcontrôleur traite l'information et commande les actionneurs",
+        "La domotique pose des questions de vie privée et de cybersécurité"
+      ]
+    },
+    "chaines-energie-information": {
+      "title": "Chaîne d'énergie et chaîne d'information",
+      "intro": "Tout objet technique programmé fonctionne grâce à deux chaînes complémentaires : la chaîne d'énergie qui fournit la puissance pour agir, et la chaîne d'information qui pilote intelligemment l'action.",
+      "sections": [
+        {
+          "title": "La chaîne d'énergie",
+          "content": "La chaîne d'énergie permet à un système de réaliser une action. Elle comprend quatre fonctions principales : alimenter, qui fournit l'énergie depuis une source comme une batterie ou le secteur ; distribuer, qui dirige l'énergie au bon moment grâce à un interrupteur ou un relais ; convertir, qui transforme l'énergie en mouvement grâce à un moteur ; et transmettre, qui transporte ce mouvement vers la partie qui agit."
+        },
+        {
+          "title": "La chaîne d'information",
+          "content": "La chaîne d'information traite les informations pour commander la chaîne d'énergie. Elle comprend trois fonctions : acquérir, grâce aux capteurs qui détectent un événement ou mesurent une grandeur ; traiter, grâce à un microcontrôleur ou un ordinateur qui analyse l'information selon un programme ; et communiquer, qui transmet le résultat soit à un utilisateur soit aux actionneurs."
+        },
+        {
+          "title": "Le microcontrôleur",
+          "content": "Le microcontrôleur est le cerveau d'un système automatisé. Il reçoit les informations des capteurs, les traite selon les instructions de son programme, puis envoie des ordres aux actionneurs. Les cartes Arduino ou micro:bit, utilisées en classe, sont des microcontrôleurs faciles à programmer. On peut leur faire allumer une LED quand un capteur détecte une présence, par exemple."
+        },
+        {
+          "title": "Exemple complet",
+          "content": "Prenons une porte automatique de magasin. Dans la chaîne d'information : le capteur de mouvement détecte une personne (acquérir), le microcontrôleur décide de l'ouvrir (traiter), et il envoie l'ordre au moteur (communiquer). Dans la chaîne d'énergie : la prise secteur alimente le système, un relais distribue l'énergie, le moteur la convertit en mouvement, et un mécanisme transmet ce mouvement à la porte qui s'ouvre."
+        }
+      ],
+      "keyPoints": [
+        "La chaîne d'énergie : alimenter, distribuer, convertir, transmettre",
+        "La chaîne d'information : acquérir, traiter, communiquer",
+        "Les capteurs acquièrent l'information",
+        "Le microcontrôleur traite l'information selon son programme",
+        "Les actionneurs réalisent l'action finale",
+        "Un moteur convertit l'énergie électrique en énergie mécanique"
+      ]
+    }
+  }
+}
