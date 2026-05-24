@@ -2,24 +2,24 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { getChapter } from '../data'
 import { recordQuizResult } from '../storage/progress'
-
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr]
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
-  }
-  return copy
-}
+import { shuffle, shuffleQuestionChoices } from '../utils/shuffle'
 
 export default function QuizPage() {
   const { subjectId, chapterId } = useParams()
   const navigate = useNavigate()
   const ctx = subjectId && chapterId ? getChapter(subjectId, chapterId) : undefined
 
+  // IMPORTANT : on shuffle UNE SEULE FOIS au montage du composant
+  // (sinon chaque re-render re-mélange et l'index saute)
+  // On mélange aussi l'ordre des CHOIX pour éviter le biais
+  // (certaines sources ont toutes les bonnes réponses en position A)
   const questions = useMemo(
-    () => (ctx ? shuffle(ctx.chapter.questions) : []),
-    [ctx]
+    () =>
+      ctx
+        ? shuffle(ctx.chapter.questions).map(shuffleQuestionChoices)
+        : [],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [subjectId, chapterId]
   )
 
   const [index, setIndex] = useState(0)

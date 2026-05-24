@@ -1,24 +1,18 @@
 import { useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { getChapter } from '../data'
-
-function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr]
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[copy[i], copy[j]] = [copy[j], copy[i]]
-  }
-  return copy
-}
+import { shuffle } from '../utils/shuffle'
 
 export default function FlashcardsPage() {
   const { subjectId, chapterId } = useParams()
   const navigate = useNavigate()
   const ctx = subjectId && chapterId ? getChapter(subjectId, chapterId) : undefined
 
+  // IMPORTANT : on shuffle UNE SEULE FOIS au montage (cf. QuizPage)
   const cards = useMemo(
     () => (ctx ? shuffle(ctx.chapter.questions) : []),
-    [ctx]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [subjectId, chapterId]
   )
 
   const [index, setIndex] = useState(0)

@@ -12,6 +12,7 @@ export interface Chapter {
   title: string
   questions: Question[]
   isNew?: boolean
+  emoji?: string
 }
 
 export interface Subject {

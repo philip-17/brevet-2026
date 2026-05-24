@@ -108,7 +108,7 @@ export default function CultureGPage() {
                 style={{ ['--delay' as never]: `${i * 60}ms` } as React.CSSProperties}
               >
                 <div className="culture-card-icon">
-                  {getThemeEmoji(chap.id, chap.title)}
+                  {chap.emoji ?? getThemeEmoji(chap.id, chap.title)}
                 </div>
                 <div className="culture-card-title">{chap.title}</div>
                 <div className="culture-card-meta">

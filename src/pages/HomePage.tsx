@@ -196,18 +196,18 @@ export default function HomePage() {
           </p>
 
           <div className="culture-themes">
-            {CULTURE_G.chapters.slice(0, 6).map((c, i) => (
+            {CULTURE_G.chapters.slice(0, 9).map((c, i) => (
               <span
                 key={c.id}
                 className="theme-chip"
                 style={{ ['--i' as never]: i } as React.CSSProperties}
               >
-                {c.title}
+                {c.emoji ?? '✨'} {c.title}
               </span>
             ))}
-            {CULTURE_G.chapters.length > 6 && (
+            {CULTURE_G.chapters.length > 9 && (
               <span className="theme-chip more">
-                +{CULTURE_G.chapters.length - 6} autres
+                +{CULTURE_G.chapters.length - 9} autres
               </span>
             )}
           </div>
