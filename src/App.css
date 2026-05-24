@@ -2290,13 +2290,19 @@
   flex-shrink: 0;
 }
 
-/* CTA wrap */
+/* CTA wrap (sous le sous-titre, plus en haut qu'avant) */
 .bb-cta-wrap {
   position: relative;
   z-index: 2;
-  padding: 0 20px;
+  padding: 24px 20px 0;
+}
+
+/* Bloc signature en bas du hero (pousse vers le bas) */
+.bb-signature-block {
+  position: relative;
+  z-index: 2;
   margin-top: auto;
-  padding-top: 28px;
+  padding: 28px 20px 0;
 }
 
 .bb-cta {

@@ -215,6 +215,54 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
         <span className="bb-sub-strong">100 % sur ton tel</span>.
       </p>
 
+      {/* ─── CTA principal (juste sous le sous-titre) ─── */}
+      <div className="bb-cta-wrap">
+        <button
+          className="bb-cta"
+          onPointerDown={() => setPressed(true)}
+          onPointerUp={() => setPressed(false)}
+          onPointerLeave={() => {
+            setPressed(false)
+            setHover(false)
+          }}
+          onMouseEnter={() => setHover(true)}
+          onClick={onStartCTA}
+          style={{
+            transform: pressed
+              ? 'scale(0.98)'
+              : hover
+                ? 'scale(1.01)'
+                : 'scale(1)',
+            boxShadow: hover
+              ? '0 14px 40px rgba(122,86,255,0.5), 0 0 0 1px rgba(255,255,255,0.15) inset'
+              : '0 8px 24px rgba(122,86,255,0.35), 0 0 0 1px rgba(255,255,255,0.1) inset',
+          }}
+        >
+          <div className="bb-cta-shimmer" />
+          <span className="bb-cta-label">Commencer à réviser</span>
+          <span className="bb-cta-icon">
+            <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
+              <path
+                d="M3 6.5h7m0 0L7 3.5M10 6.5L7 9.5"
+                stroke="#fff"
+                strokeWidth="1.6"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
+        </button>
+
+        <div className="bb-cta-meta">
+          <Link to="/stats" className="bb-cta-meta-item">
+            <span>📊</span>
+            <span>Mes stats</span>
+          </Link>
+          <span className="bb-cta-meta-sep" />
+          <span>100 % local · sans pub</span>
+        </div>
+      </div>
+
       {/* ─── Subject rotator card ─── */}
       <div className="bb-rotator">
         {BREVET_SUBJECTS.map((s, i) => {
@@ -284,53 +332,8 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
         </div>
       </div>
 
-      {/* ─── CTA + bas ─── */}
-      <div className="bb-cta-wrap">
-        <button
-          className="bb-cta"
-          onPointerDown={() => setPressed(true)}
-          onPointerUp={() => setPressed(false)}
-          onPointerLeave={() => {
-            setPressed(false)
-            setHover(false)
-          }}
-          onMouseEnter={() => setHover(true)}
-          onClick={onStartCTA}
-          style={{
-            transform: pressed
-              ? 'scale(0.98)'
-              : hover
-                ? 'scale(1.01)'
-                : 'scale(1)',
-            boxShadow: hover
-              ? '0 14px 40px rgba(122,86,255,0.5), 0 0 0 1px rgba(255,255,255,0.15) inset'
-              : '0 8px 24px rgba(122,86,255,0.35), 0 0 0 1px rgba(255,255,255,0.1) inset',
-          }}
-        >
-          <div className="bb-cta-shimmer" />
-          <span className="bb-cta-label">Commencer à réviser</span>
-          <span className="bb-cta-icon">
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none">
-              <path
-                d="M3 6.5h7m0 0L7 3.5M10 6.5L7 9.5"
-                stroke="#fff"
-                strokeWidth="1.6"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </span>
-        </button>
-
-        <div className="bb-cta-meta">
-          <Link to="/stats" className="bb-cta-meta-item">
-            <span>📊</span>
-            <span>Mes stats</span>
-          </Link>
-          <span className="bb-cta-meta-sep" />
-          <span>100 % local · sans pub</span>
-        </div>
-
+      {/* ─── Signature en bas du hero ─── */}
+      <div className="bb-signature-block">
         <div className="bb-signature">
           Made by{' '}
           <span className="bb-grad-purple-pink-static">Philip</span>
