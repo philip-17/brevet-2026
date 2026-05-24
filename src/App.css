@@ -1967,7 +1967,9 @@
   position: relative;
   overflow: hidden;
   padding-top: calc(var(--safe-top) + 16px);
-  padding-bottom: 30px;
+  /* Assez d'espace en bas pour que "Made by Philip"
+     ne soit jamais caché par le scroll hint pill */
+  padding-bottom: calc(var(--safe-bottom) + 90px);
 }
 
 .bb-hero-bg {
