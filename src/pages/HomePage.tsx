@@ -218,8 +218,7 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
       {/* ─── Subject rotator card ─── */}
       <div className="bb-rotator">
         {BREVET_SUBJECTS.map((s, i) => {
-          const offset = (i - tab + BREVET_SUBJECTS.length) % BREVET_SUBJECTS.length
-          const visible = offset < 3
+          const isActive = i === tab
           const color = DESIGN_COLORS[s.id] ?? s.color
           const totalQ = s.chapters.reduce((a, c) => a + c.questions.length, 0)
           return (
@@ -227,29 +226,25 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
               key={s.id}
               to={`/subject/${s.id}`}
               className="bb-rotator-card"
+              aria-hidden={!isActive}
               style={
                 {
-                  top: offset * 5,
-                  opacity: visible ? 1 - offset * 0.32 : 0,
-                  transform: `scale(${1 - offset * 0.04})`,
-                  background:
-                    offset === 0
-                      ? `linear-gradient(135deg, ${color}26, ${color}0d)`
-                      : 'rgba(255,255,255,0.025)',
-                  border: `1px solid ${offset === 0 ? color + '55' : 'rgba(255,255,255,0.06)'}`,
-                  zIndex: 10 - offset,
-                  boxShadow: offset === 0 ? `0 8px 30px ${color}25` : 'none',
-                  pointerEvents: offset === 0 ? 'auto' : 'none',
+                  top: 0,
+                  opacity: isActive ? 1 : 0,
+                  transform: isActive ? 'scale(1)' : 'scale(0.96)',
+                  background: `linear-gradient(135deg, ${color}26, ${color}0d)`,
+                  border: `1px solid ${color}55`,
+                  zIndex: isActive ? 10 : 1,
+                  boxShadow: `0 8px 30px ${color}25`,
+                  pointerEvents: isActive ? 'auto' : 'none',
                 } as React.CSSProperties
               }
             >
               <div
                 className="bb-rotator-emoji"
                 style={{
-                  background:
-                    offset === 0 ? color + '20' : 'rgba(255,255,255,0.04)',
-                  borderColor:
-                    offset === 0 ? color + '40' : 'rgba(255,255,255,0.06)',
+                  background: color + '20',
+                  borderColor: color + '40',
                 }}
               >
                 {s.emoji}
@@ -257,9 +252,7 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
               <div className="bb-rotator-info">
                 <div
                   className="bb-rotator-tag"
-                  style={{
-                    color: offset === 0 ? color : 'rgba(244,244,248,0.4)',
-                  }}
+                  style={{ color }}
                 >
                   Matière en vedette
                 </div>
