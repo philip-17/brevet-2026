@@ -18,7 +18,7 @@
             "Une guerre qui se termine par une victoire totale d'un camp"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une guerre qui mobilise toutes les ressources (humaines, économiques, idéologiques) d'un pays ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "Une guerre totale est un conflit qui mobilise toutes les ressources d'un pays : humaines, économiques et idéologiques. La Première Guerre mondiale (1914-1918) en est l'exemple type, avec la mobilisation de l'industrie, de la propagande et des civils. Bonne réponse : mobilisation totale des ressources."
         },
         {
           "question": "Qu'est-ce qu'un « poilu » ?",
@@ -29,7 +29,7 @@
             "Un civil réquisitionné pour creuser les tranchées"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un soldat français de la Première Guerre mondiale ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "Un poilu est un soldat français de la Première Guerre mondiale. Ce surnom vient de leur barbe et de leur apparence négligée à cause de la vie difficile dans les tranchées entre 1914 et 1918."
         },
         {
           "question": "Que désigne le mot « armistice » ?",
@@ -40,7 +40,7 @@
             "Une alliance militaire"
           ],
           "correctIndex": 2,
-          "explanation": "Réponse : « Un accord pour suspendre les combats ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "Un armistice est un accord qui suspend les combats entre deux camps, sans être un traité de paix définitif. L'armistice du 11 novembre 1918 met fin aux combats de la Première Guerre mondiale, mais c'est le traité de Versailles (1919) qui scelle la paix."
         },
         {
           "question": "Qu'est-ce qu'un génocide ?",
@@ -51,7 +51,7 @@
             "Le bombardement d'une ville"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'extermination programmée et systématique d'un peuple ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "Un génocide est l'extermination programmée et systématique d'un peuple en raison de ses origines, sa religion ou son ethnie. Le terme a été créé après la Seconde Guerre mondiale pour qualifier la Shoah, mais il s'applique aussi au génocide arménien (1915) ou au génocide des Tutsis (1994)."
         },
         {
           "question": "Le génocide arménien a eu lieu sous quel empire ?",
@@ -62,7 +62,7 @@
             "L'Empire allemand"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'Empire ottoman ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "Le génocide arménien a eu lieu en 1915-1916 sous l'Empire ottoman (l'actuelle Turquie). Environ 1,2 million d'Arméniens chrétiens ont été massacrés ou déportés dans le désert par le gouvernement Jeune-Turc."
         },
         {
           "question": "Qu'est-ce que la « guerre de position » ?",
@@ -73,7 +73,7 @@
             "Une guerre d'invasion rapide"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une guerre où les armées se font face dans des tranchées sans grand mouvement ». 🏛️ Histoire — Première Guerre mondiale."
+          "explanation": "La guerre de position est une guerre où les armées s'enterrent dans des tranchées face à face, sans avancer ni reculer significativement. Elle caractérise la Première Guerre mondiale à partir de fin 1914, notamment sur le front de l'Ouest (Verdun, Somme)."
         },
         {
           "question": "Qu'est-ce qu'un régime totalitaire ?",
@@ -84,7 +84,7 @@
             "Un régime militaire temporaire"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un régime qui contrôle tous les aspects de la vie et impose une idéologie unique ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Un régime totalitaire contrôle tous les aspects de la vie (politique, économique, culturel, privé) et impose une idéologie unique. Les exemples typiques sont le nazisme de Hitler en Allemagne, le fascisme de Mussolini en Italie et le stalinisme en URSS dans les années 1920-1930."
         },
         {
           "question": "Que désigne la « propagande » ?",
@@ -95,7 +95,7 @@
             "Un parti politique d'extrême-gauche"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « L'ensemble des moyens utilisés pour influencer l'opinion publique ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "La propagande désigne l'ensemble des moyens (affiches, journaux, radio, cinéma) utilisés pour influencer l'opinion publique et imposer une idéologie. Elle est massivement utilisée par les régimes totalitaires comme le nazisme ou le stalinisme dans l'entre-deux-guerres."
         },
         {
           "question": "Qu'est-ce qu'un « culte de la personnalité » ?",
@@ -106,7 +106,7 @@
             "Une religion d'État"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La glorification organisée et exagérée d'un chef d'État ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Le culte de la personnalité est la glorification organisée et exagérée d'un chef d'État, présenté comme un héros infaillible. Staline en URSS et Hitler en Allemagne en sont les exemples les plus connus dans les années 1930."
         },
         {
           "question": "Que signifie « antisémitisme » ?",
@@ -117,7 +117,7 @@
             "L'hostilité envers les musulmans"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'hostilité envers les Juifs ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "L'antisémitisme désigne l'hostilité, le rejet et la haine envers les Juifs. Cette idéologie ancienne est portée à son extrême par le nazisme dans les années 1930-1940, ce qui conduira à la Shoah, l'extermination de six millions de Juifs européens."
         },
         {
           "question": "Qu'est-ce que le « nazisme » ?",
@@ -128,7 +128,7 @@
             "Une doctrine économique allemande"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'idéologie nationaliste, raciste et antisémite de Hitler ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Le nazisme est l'idéologie nationaliste, raciste et antisémite mise en place par Adolf Hitler en Allemagne à partir de 1933. Elle prône la supériorité de la race aryenne et la conquête d'un espace vital, conduisant à la Seconde Guerre mondiale et à la Shoah."
         },
         {
           "question": "Qu'est-ce qu'un « kolkhoze » ?",
@@ -139,7 +139,7 @@
             "Un parti politique russe"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une exploitation agricole collective en URSS ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Un kolkhoze est une exploitation agricole collective de l'URSS où les paysans travaillent en commun la terre appartenant à l'État. Staline a imposé cette collectivisation forcée à partir de 1929, provoquant famines et déportations."
         },
         {
           "question": "Que désigne le « goulag » ?",
@@ -150,7 +150,7 @@
             "Le journal officiel du parti communiste"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le système de camps de travail forcé en URSS ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Le goulag désigne le système de camps de travail forcé en URSS, où Staline a envoyé des millions d'opposants politiques, de paysans et d'intellectuels entre 1929 et 1953. C'est l'écrivain Soljenitsyne qui a fait connaître ce système dans son livre L'Archipel du Goulag."
         },
         {
           "question": "Qu'est-ce que le Front populaire (1936) ?",
@@ -161,7 +161,7 @@
             "Un syndicat ouvrier européen"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une coalition de partis de gauche arrivée au pouvoir en France ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "Le Front populaire est une coalition de partis de gauche (socialistes, communistes, radicaux) arrivée au pouvoir en France en 1936 sous la direction de Léon Blum. Il a mis en place des avancées sociales majeures : congés payés, semaine de 40 heures, conventions collectives."
         },
         {
           "question": "Que signifie « démocratie » ?",
@@ -172,7 +172,7 @@
             "Un régime religieux"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un régime politique dans lequel le peuple détient le pouvoir ». 🏛️ Histoire — Entre-deux-guerres."
+          "explanation": "La démocratie est un régime politique dans lequel le peuple détient le pouvoir, directement ou par l'intermédiaire de représentants élus. Elle se caractérise par des élections libres, le pluralisme politique et le respect des libertés fondamentales."
         },
         {
           "question": "Qu'est-ce que la « Blitzkrieg » ?",
@@ -183,7 +183,7 @@
             "Une guerre coloniale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une guerre éclair fondée sur la rapidité des chars et de l'aviation ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "La Blitzkrieg, ou guerre éclair en allemand, est une tactique militaire fondée sur la rapidité des chars et de l'aviation pour percer le front ennemi. Les nazis l'ont utilisée avec succès en 1939-1940 pour conquérir la Pologne, puis la France en seulement six semaines."
         },
         {
           "question": "Qu'appelle-t-on la « Shoah » ?",
@@ -194,7 +194,7 @@
             "La libération des camps en 1945"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « L'extermination des Juifs d'Europe par les nazis ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "La Shoah désigne l'extermination des Juifs d'Europe par les nazis pendant la Seconde Guerre mondiale. Environ six millions de Juifs ont été assassinés, principalement par balles ou dans les chambres à gaz des camps d'extermination comme Auschwitz."
         },
         {
           "question": "Qu'est-ce qu'un camp d'extermination ?",
@@ -205,7 +205,7 @@
             "Un camp d'entraînement militaire"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un camp destiné à la mise à mort massive et industrielle de déportés ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Un camp d'extermination est un camp nazi destiné à la mise à mort massive et industrielle des déportés, surtout des Juifs et des Tsiganes. Les six principaux camps (Auschwitz-Birkenau, Treblinka, Sobibor, Belzec, Chelmno, Majdanek) étaient situés en Pologne occupée."
         },
         {
           "question": "Que désigne la « collaboration » sous Vichy ?",
@@ -216,7 +216,7 @@
             "Le soutien à la Résistance"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La coopération volontaire du régime de Vichy avec l'Allemagne nazie ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "La collaboration désigne la coopération volontaire du régime de Vichy (Pétain) avec l'Allemagne nazie entre 1940 et 1944. Elle s'est traduite par la livraison de Juifs, le STO et la lutte contre les résistants, notamment via la Milice."
         },
         {
           "question": "Qu'est-ce que la Résistance ?",
@@ -227,7 +227,7 @@
             "Une organisation syndicale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'ensemble des actions menées contre l'occupant nazi et le régime de Vichy ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "La Résistance regroupe l'ensemble des actions menées contre l'occupant nazi et le régime de Vichy entre 1940 et 1944. Elle inclut le sabotage, le renseignement, la presse clandestine et les maquis, unifiés en 1943 par Jean Moulin sous l'autorité du général de Gaulle."
         },
         {
           "question": "Qui était le chef de la France libre depuis Londres ?",
@@ -238,7 +238,7 @@
             "Jean Moulin"
           ],
           "correctIndex": 2,
-          "explanation": "Réponse : « Charles de Gaulle ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Charles de Gaulle était le chef de la France libre depuis Londres. Il a lancé l'appel du 18 juin 1940 à la BBC pour appeler les Français à continuer le combat contre l'Allemagne nazie, et a dirigé la France à la Libération."
         },
         {
           "question": "Qu'est-ce que le STO (Service du Travail Obligatoire) ?",
@@ -249,7 +249,7 @@
             "Un travail bénévole pour la Résistance"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Une obligation pour les Français d'aller travailler en Allemagne ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Le STO, ou Service du Travail Obligatoire, est instauré en 1943 par Vichy pour envoyer de force des jeunes Français travailler dans les usines allemandes. Beaucoup d'entre eux ont préféré rejoindre les maquis de la Résistance pour y échapper."
         },
         {
           "question": "Que désigne la « rafle » ?",
@@ -260,7 +260,7 @@
             "Une opération de sauvetage"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une arrestation massive et soudaine de personnes ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Une rafle est une arrestation massive et soudaine de personnes par la police. La plus tristement célèbre en France est la rafle du Vél' d'Hiv' (16-17 juillet 1942), où la police française a arrêté plus de 13 000 Juifs à Paris pour les livrer aux nazis."
         },
         {
           "question": "Qu'est-ce qu'un « crime contre l'humanité » ?",
@@ -271,7 +271,7 @@
             "Une trahison envers son pays"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un acte inhumain commis de façon systématique contre des civils, imprescriptible ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Un crime contre l'humanité est un acte inhumain (meurtre, torture, déportation) commis de façon systématique contre des civils. Cette notion juridique, créée au procès de Nuremberg en 1945, est imprescriptible : on peut juger un coupable même 50 ans après les faits."
         },
         {
           "question": "Que désigne le mot « épuration » à la Libération ?",
@@ -282,7 +282,7 @@
             "L'expulsion des immigrés"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le jugement et la sanction des collaborateurs ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "L'épuration désigne le jugement et la sanction des collaborateurs après la Libération en 1944-1945. Elle a pris des formes légales (procès, comme celui de Pétain) mais aussi sauvages (femmes tondues, exécutions sommaires)."
         },
         {
           "question": "Qu'est-ce que le débarquement ?",
@@ -293,7 +293,7 @@
             "Le départ des Allemands de France"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une opération militaire par laquelle des troupes débarquent sur une côte ennemie ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Le débarquement est une opération militaire par laquelle des troupes débarquent sur une côte ennemie. Le plus célèbre est celui du 6 juin 1944 en Normandie (jour J), qui marque le début de la libération de la France par les Alliés."
         },
         {
           "question": "Qu'est-ce que l'ONU ?",
@@ -304,7 +304,7 @@
             "Un syndicat international"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'Organisation des Nations Unies, créée en 1945 pour maintenir la paix ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "L'ONU, ou Organisation des Nations Unies, est créée le 26 juin 1945 à San Francisco pour maintenir la paix dans le monde après la Seconde Guerre mondiale. Elle remplace la SDN et regroupe aujourd'hui 193 États membres, avec son siège à New York."
         },
         {
           "question": "Qu'est-ce que le procès de Nuremberg (1945-46) ?",
@@ -315,7 +315,7 @@
             "Le procès de Pétain"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le procès des dirigeants nazis pour crimes de guerre et contre l'humanité ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Le procès de Nuremberg (1945-1946) est le procès international des principaux dirigeants nazis pour crimes de guerre et crimes contre l'humanité. Douze accusés ont été condamnés à mort, marquant la naissance d'une justice internationale."
         },
         {
           "question": "Qu'est-ce qu'un « déporté » ?",
@@ -326,7 +326,7 @@
             "Un prisonnier libéré"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une personne arrêtée et transférée de force dans un camp ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "Un déporté est une personne arrêtée et transférée de force par les nazis dans un camp de concentration ou d'extermination. Pendant la Seconde Guerre mondiale, les déportés étaient principalement des Juifs, des résistants, des Tsiganes et des opposants politiques."
         },
         {
           "question": "Qu'est-ce que la « solution finale » ?",
@@ -337,7 +337,7 @@
             "La capitulation de l'Allemagne"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le plan nazi d'extermination systématique des Juifs d'Europe ». 🏛️ Histoire — Seconde Guerre mondiale."
+          "explanation": "La solution finale est le nom donné par les nazis à leur plan d'extermination systématique des Juifs d'Europe, décidé lors de la conférence de Wannsee en janvier 1942. Elle a conduit à la mort d'environ six millions de Juifs dans la Shoah."
         },
         {
           "question": "Qu'est-ce que la Guerre froide ?",
@@ -348,7 +348,7 @@
             "Un conflit climatique mondial"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une période de tensions entre les États-Unis et l'URSS sans affrontement direct ». 🏛️ Histoire — Guerre froide."
+          "explanation": "La Guerre froide est une période de tensions entre les États-Unis et l'URSS entre 1947 et 1991, sans affrontement militaire direct mais avec une opposition idéologique, économique et par pays interposés (Corée, Vietnam, Cuba)."
         },
         {
           "question": "Que signifie « bloc » dans le contexte de la Guerre froide ?",
@@ -359,7 +359,7 @@
             "Un groupe d'îles"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Un ensemble d'États regroupés autour d'une superpuissance ». 🏛️ Histoire — Guerre froide."
+          "explanation": "Dans le contexte de la Guerre froide, un bloc désigne un ensemble d'États regroupés autour d'une superpuissance. Le bloc de l'Ouest est mené par les États-Unis (OTAN, capitalisme), et le bloc de l'Est par l'URSS (Pacte de Varsovie, communisme)."
         },
         {
           "question": "Qu'est-ce que le « rideau de fer » ?",
@@ -370,7 +370,7 @@
             "Un traité commercial"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La frontière idéologique séparant l'Europe de l'Ouest du bloc soviétique ». 🏛️ Histoire — Guerre froide."
+          "explanation": "Le rideau de fer est l'expression utilisée par Winston Churchill en 1946 pour désigner la frontière idéologique séparant l'Europe de l'Ouest (démocraties capitalistes) du bloc soviétique communiste. Le mur de Berlin (1961-1989) en est le symbole le plus connu."
         },
         {
           "question": "Qu'est-ce que l'OTAN ?",
@@ -381,7 +381,7 @@
             "Une organisation économique européenne"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une alliance militaire des pays occidentaux contre l'URSS ». 🏛️ Histoire — Guerre froide."
+          "explanation": "L'OTAN, ou Organisation du Traité de l'Atlantique Nord, est une alliance militaire créée en 1949 regroupant les pays occidentaux face à l'URSS. Elle existe toujours aujourd'hui avec 32 membres, dont la France."
         },
         {
           "question": "Qu'est-ce que la décolonisation ?",
@@ -392,7 +392,7 @@
             "Le retour des colons en métropole"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le processus d'accession à l'indépendance des anciennes colonies ». 🏛️ Histoire — Décolonisation."
+          "explanation": "La décolonisation est le processus d'accession à l'indépendance des anciennes colonies, principalement entre 1945 et 1975. Elle concerne surtout l'Asie (Inde en 1947, Indochine en 1954) et l'Afrique (Algérie en 1962, vague des indépendances africaines en 1960)."
         },
         {
           "question": "Qu'est-ce qu'une métropole (au sens colonial) ?",
@@ -403,7 +403,7 @@
             "Une capitale administrative"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'État qui possède des colonies ». 🏛️ Histoire — Décolonisation."
+          "explanation": "Au sens colonial, une métropole est l'État qui possède et administre des colonies. Par exemple, la France était la métropole de l'Algérie, du Sénégal ou de l'Indochine avant les indépendances."
         },
         {
           "question": "Qu'est-ce que le tiers-monde ?",
@@ -414,7 +414,7 @@
             "Les pays communistes d'Asie"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Les pays nouvellement indépendants et en développement, non alignés sur un bloc ». 🏛️ Histoire — Décolonisation."
+          "explanation": "Le tiers-monde est une expression créée en 1952 pour désigner les pays nouvellement indépendants et en développement, qui ne s'alignent ni sur le bloc américain ni sur le bloc soviétique. Beaucoup se sont réunis à la conférence de Bandung en 1955."
         },
         {
           "question": "Qu'est-ce que la guerre d'Algérie (1954-1962) ?",
@@ -425,7 +425,7 @@
             "Une guerre de religion"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une guerre d'indépendance contre la colonisation française ». 🏛️ Histoire — Décolonisation."
+          "explanation": "La guerre d'Algérie (1954-1962) est une guerre d'indépendance contre la colonisation française, menée par le FLN. Elle se termine par les accords d'Évian en mars 1962 et l'indépendance de l'Algérie, marquant la fin de la Quatrième République en France."
         },
         {
           "question": "Qu'est-ce que la CECA (1951) ?",
@@ -436,7 +436,7 @@
             "Une banque centrale européenne"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « La Communauté Européenne du Charbon et de l'Acier, première étape de la construction européenne ». 🏛️ Histoire — Construction européenne."
+          "explanation": "La CECA, ou Communauté Européenne du Charbon et de l'Acier, est créée en 1951 par six pays (dont la France et l'Allemagne) à l'initiative de Robert Schuman. C'est la première étape de la construction européenne, visant à éviter une nouvelle guerre en Europe."
         },
         {
           "question": "Que sont les traités de Rome (1957) ?",
@@ -447,7 +447,7 @@
             "Les accords entre l'Italie et l'Allemagne"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Les traités créant la Communauté Économique Européenne (CEE) ». 🏛️ Histoire — Construction européenne."
+          "explanation": "Les traités de Rome, signés en 1957, créent la Communauté Économique Européenne (CEE) entre six pays fondateurs. Ils établissent un marché commun, ancêtre de l'Union européenne actuelle."
         },
         {
           "question": "Qu'est-ce qu'une république ?",
@@ -458,7 +458,7 @@
             "Une fédération de provinces"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus ». 🏛️ Histoire — Ve République."
+          "explanation": "Une république est un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus par les citoyens. La France est une république depuis 1792 (avec des interruptions) et vit aujourd'hui sous la Cinquième République, fondée en 1958 par de Gaulle."
         },
         {
           "question": "Qu'est-ce qu'une constitution ?",
@@ -469,7 +469,7 @@
             "Un programme politique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le texte fondamental qui définit l'organisation des pouvoirs d'un État ». 🏛️ Histoire — Ve République."
+          "explanation": "Une constitution est le texte fondamental qui définit l'organisation des pouvoirs d'un État (exécutif, législatif, judiciaire) et les droits des citoyens. La Constitution française actuelle est celle de la Cinquième République, adoptée par référendum le 28 septembre 1958."
         },
         {
           "question": "Que désigne le « suffrage universel » ?",
@@ -480,7 +480,7 @@
             "Le vote indirect par des grands électeurs"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Le droit de vote accordé à tous les citoyens majeurs ». 🏛️ Histoire — Ve République."
+          "explanation": "Le suffrage universel désigne le droit de vote accordé à tous les citoyens majeurs, sans condition de fortune ou de sexe. En France, il est instauré pour les hommes en 1848 et étendu aux femmes en 1944 par le général de Gaulle."
         },
         {
           "question": "Qu'est-ce qu'un référendum ?",
@@ -491,7 +491,7 @@
             "Un sondage d'opinion"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Une consultation directe des citoyens par oui ou non sur une question ». 🏛️ Histoire — Ve République."
+          "explanation": "Un référendum est une consultation directe des citoyens, qui répondent par oui ou non à une question posée par le gouvernement. C'est par référendum que la Constitution de 1958 a été adoptée, et qu'en 2005 les Français ont rejeté le traité constitutionnel européen."
         },
         {
           "question": "Qu'est-ce que la cohabitation ?",
@@ -502,7 +502,7 @@
             "Une alliance internationale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une situation où le président et le Premier ministre sont de tendances politiques opposées ». 🏛️ Histoire — Ve République."
+          "explanation": "La cohabitation est une situation où le président de la République et le Premier ministre appartiennent à des tendances politiques opposées. La France a connu trois cohabitations : Mitterrand-Chirac (1986-1988), Mitterrand-Balladur (1993-1995) et Chirac-Jospin (1997-2002)."
         },
         {
           "question": "Qu'est-ce que la laïcité ?",
@@ -513,7 +513,7 @@
             "Une religion officielle d'État"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le principe de séparation des Églises et de l'État, garantissant la liberté de conscience ». 🏛️ Histoire — Ve République."
+          "explanation": "La laïcité est le principe de séparation des Églises et de l'État, garantissant la liberté de conscience et l'égalité de tous les citoyens face à la loi quelle que soit leur religion. Elle est instaurée en France par la loi du 9 décembre 1905."
         },
         {
           "question": "Que sont les « Trente Glorieuses » ?",
@@ -524,7 +524,7 @@
             "Trente ans de Ve République"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La période de forte croissance économique de 1945 à 1975 ». 🏛️ Histoire — France depuis 1945."
+          "explanation": "Les Trente Glorieuses désignent la période de forte croissance économique en France et dans les pays développés, de 1945 à 1975. Cette expression de l'économiste Jean Fourastié décrit l'essor de la société de consommation, du plein emploi et de l'État-providence."
         },
         {
           "question": "Qu'est-ce que l'État-providence ?",
@@ -535,7 +535,7 @@
             "Un État sans impôts"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un État qui prend en charge la protection sociale (santé, retraite, chômage) ». 🏛️ Histoire — France depuis 1945."
+          "explanation": "L'État-providence est un État qui prend en charge la protection sociale de ses citoyens : santé, retraite, chômage, allocations familiales. En France, il s'est construit après 1945 avec la création de la Sécurité sociale par le Conseil national de la Résistance."
         },
         {
           "question": "Qu'est-ce que la parité (en politique) ?",
@@ -546,7 +546,7 @@
             "L'équivalence entre deux monnaies"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'égalité du nombre de femmes et d'hommes dans les fonctions politiques ». 🏛️ Histoire — France depuis 1945."
+          "explanation": "En politique, la parité désigne l'égalité du nombre de femmes et d'hommes dans les fonctions politiques. Une loi française de 2000 oblige les partis à présenter autant de candidates que de candidats pour la plupart des élections."
         },
         {
           "question": "Qu'est-ce qu'un média ?",
@@ -557,7 +557,7 @@
             "Un service public d'État"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Un moyen de diffusion de l'information vers un large public ». 🏛️ Histoire — France depuis 1945."
+          "explanation": "Un média est un moyen de diffusion de l'information vers un large public : presse écrite, radio, télévision, Internet. Depuis 1945, les médias se sont multipliés, jouant un rôle central dans la démocratie comme dans la formation de l'opinion publique."
         },
         {
           "question": "Qu'est-ce que la mondialisation ?",
@@ -568,7 +568,7 @@
             "La création d'un gouvernement mondial"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La mise en relation des différentes parties du monde par l'intensification des échanges ». 🌍 Géographie — Mondialisation."
+          "explanation": "La mondialisation est la mise en relation des différentes parties du monde par l'intensification des échanges économiques, humains et culturels. Elle s'est accélérée depuis les années 1980 grâce à internet et au transport par conteneurs."
         },
         {
           "question": "Qu'est-ce qu'une FTN (Firme Transnationale) ?",
@@ -579,7 +579,7 @@
             "Une association internationale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une entreprise qui possède des activités dans plusieurs pays ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une FTN (Firme Transnationale) est une entreprise qui possède des activités et des filiales dans plusieurs pays. Apple, Toyota ou Nestlé sont de grandes FTN qui organisent leur production à l'échelle mondiale."
         },
         {
           "question": "Qu'est-ce qu'un flux ?",
@@ -590,7 +590,7 @@
             "Une montagne en formation"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un déplacement (de marchandises, de personnes, d'informations, de capitaux) ». 🌍 Géographie — Mondialisation."
+          "explanation": "Un flux est un déplacement de marchandises, de personnes, d'informations ou de capitaux entre deux lieux. Les flux maritimes représentent par exemple environ 80 pour cent du commerce mondial de marchandises."
         },
         {
           "question": "Qu'est-ce qu'un hub ?",
@@ -601,7 +601,7 @@
             "Une zone industrielle"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une plateforme de correspondance pour les flux (aérien, portuaire...) ». 🌍 Géographie — Mondialisation."
+          "explanation": "Un hub est une plateforme de correspondance qui concentre et redistribue les flux, surtout dans le transport aérien ou maritime. L'aéroport de Dubaï ou le port de Singapour sont de grands hubs mondiaux."
         },
         {
           "question": "Qu'est-ce qu'un conteneur ?",
@@ -612,7 +612,7 @@
             "Un camion de livraison"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une caisse métallique standardisée servant au transport de marchandises ». 🌍 Géographie — Mondialisation."
+          "explanation": "Un conteneur est une grande caisse métallique standardisée (mesurant souvent 20 ou 40 pieds) utilisée pour transporter des marchandises par bateau, train ou camion. Inventé dans les années 1950, il a révolutionné le commerce mondial."
         },
         {
           "question": "Que désigne la « façade maritime » ?",
@@ -623,7 +623,7 @@
             "Une plage très fréquentée"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un littoral concentrant de grands ports et des activités économiques importantes ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une façade maritime est un littoral qui concentre de grands ports et d'importantes activités économiques. La Northern Range, qui va du Havre à Hambourg, est la principale façade maritime européenne."
         },
         {
           "question": "Qu'est-ce qu'une métropole mondiale ?",
@@ -634,7 +634,7 @@
             "Une ville côtière"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une grande ville qui concentre des fonctions de commandement à l'échelle mondiale ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une métropole mondiale est une grande ville qui concentre des fonctions de commandement (économique, politique, culturel) à l'échelle de la planète. New York, Londres, Tokyo et Paris sont les principales métropoles mondiales."
         },
         {
           "question": "Qu'est-ce qu'une mégalopole ?",
@@ -645,7 +645,7 @@
             "Une ville historique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une mégalopole est un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles. La mégalopole américaine BosWash, qui va de Boston à Washington, regroupe plus de 50 millions d'habitants."
         },
         {
           "question": "Que sont les pays émergents ?",
@@ -656,7 +656,7 @@
             "Des pays insulaires récents"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Des pays connaissant une forte croissance économique et s'intégrant à la mondialisation ». 🌍 Géographie — Mondialisation."
+          "explanation": "Les pays émergents sont des pays qui connaissent une forte croissance économique et s'intègrent rapidement à la mondialisation. La Chine, l'Inde ou le Brésil en sont des exemples, souvent regroupés sous le sigle BRICS."
         },
         {
           "question": "Que désigne un « PMA » ?",
@@ -667,7 +667,7 @@
             "Un Programme Mondial d'Aide"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un Pays les Moins Avancés, pays les plus pauvres du monde ». 🌍 Géographie — Mondialisation."
+          "explanation": "Un PMA est un Pays les Moins Avancés, c'est-à-dire l'un des pays les plus pauvres du monde selon l'ONU. Ils sont une cinquantaine, principalement situés en Afrique subsaharienne (ex : Tchad, Niger, Haïti)."
         },
         {
           "question": "Qu'est-ce qu'une délocalisation ?",
@@ -678,7 +678,7 @@
             "L'agrandissement d'un site industriel"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Le déplacement d'une entreprise vers un pays où les coûts sont plus faibles ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une délocalisation est le déplacement d'une entreprise ou d'une usine vers un pays où les coûts de production sont plus faibles. Beaucoup d'usines textiles européennes ont été délocalisées en Asie ou au Maghreb."
         },
         {
           "question": "Qu'est-ce qu'une ZIP (Zone Industrialo-Portuaire) ?",
@@ -689,7 +689,7 @@
             "Une zone militaire portuaire"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un vaste espace combinant port, industries et entrepôts ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une ZIP (Zone Industrialo-Portuaire) est un vaste espace combinant un port, des industries et des entrepôts, souvent sur un littoral. Le Havre, Marseille-Fos ou Dunkerque sont les principales ZIP de France."
         },
         {
           "question": "Qu'est-ce qu'un paradis fiscal ?",
@@ -700,7 +700,7 @@
             "Un pays sans dette publique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un territoire à fiscalité très faible attirant les capitaux étrangers ». 🌍 Géographie — Mondialisation."
+          "explanation": "Un paradis fiscal est un territoire à fiscalité très faible qui attire les capitaux étrangers et les sièges sociaux d'entreprises. Les îles Caïmans, le Luxembourg ou Singapour sont souvent cités comme paradis fiscaux."
         },
         {
           "question": "Qu'est-ce qu'une migration ?",
@@ -711,7 +711,7 @@
             "Un voyage touristique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le déplacement durable de personnes d'un lieu à un autre ». 🌍 Géographie — Mondialisation."
+          "explanation": "Une migration est le déplacement durable de personnes d'un lieu à un autre, à l'intérieur d'un pays ou entre pays. On estime à environ 280 millions le nombre de migrants internationaux dans le monde."
         },
         {
           "question": "Qu'est-ce que la fracture numérique ?",
@@ -722,7 +722,7 @@
             "Le piratage informatique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Les inégalités d'accès aux technologies numériques entre territoires ou populations ». 🌍 Géographie — Mondialisation."
+          "explanation": "La fracture numérique désigne les inégalités d'accès aux technologies numériques (internet, ordinateurs) entre territoires ou populations. Elle existe entre pays riches et pays pauvres, mais aussi entre villes et campagnes."
         },
         {
           "question": "Qu'est-ce qu'une aire urbaine (ou aire d'attraction des villes) ?",
@@ -733,7 +733,7 @@
             "Un quartier résidentiel"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un ensemble formé par une ville-centre et les communes sous son influence ». 🌍 Géographie — France - territoires."
+          "explanation": "Une aire urbaine (ou aire d'attraction des villes) est un ensemble formé par une ville-centre et les communes voisines sous son influence (où vivent les gens qui y travaillent). L'aire urbaine de Paris compte plus de 12 millions d'habitants."
         },
         {
           "question": "Qu'est-ce que la périurbanisation ?",
@@ -744,7 +744,7 @@
             "L'urbanisation des centres anciens"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'extension de la ville vers ses périphéries, sous forme de lotissements ». 🌍 Géographie — France - territoires."
+          "explanation": "La périurbanisation est l'extension de la ville vers ses périphéries, sous forme de lotissements pavillonnaires. Elle entraîne de longs déplacements domicile-travail et consomme beaucoup d'espaces agricoles."
         },
         {
           "question": "Qu'est-ce que l'étalement urbain ?",
@@ -755,7 +755,7 @@
             "La rénovation urbaine"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'extension spatiale de la ville, qui consomme beaucoup d'espace ». 🌍 Géographie — France - territoires."
+          "explanation": "L'étalement urbain est l'extension spatiale de la ville qui consomme beaucoup d'espace, souvent au détriment des terres agricoles. C'est une conséquence directe de la périurbanisation et il pose des problèmes environnementaux."
         },
         {
           "question": "Qu'est-ce qu'une banlieue ?",
@@ -766,7 +766,7 @@
             "Une commune rurale isolée"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'espace urbanisé qui entoure une ville-centre ». 🌍 Géographie — France - territoires."
+          "explanation": "Une banlieue est l'espace urbanisé qui entoure la ville-centre, formant avec elle une agglomération. Les banlieues sont très variées, allant des quartiers pavillonnaires aisés aux grands ensembles HLM."
         },
         {
           "question": "Que désigne la « diagonale du vide » en France ?",
@@ -777,7 +777,7 @@
             "Une zone montagneuse touristique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une zone allant des Ardennes aux Landes peu peuplée et peu dynamique ». 🌍 Géographie — France - territoires."
+          "explanation": "La diagonale du vide est une zone allant des Ardennes aux Landes, peu peuplée et peu dynamique économiquement. La densité y est souvent inférieure à 30 habitants par km carré, contre 119 en moyenne en France."
         },
         {
           "question": "Qu'est-ce qu'un espace productif ?",
@@ -788,7 +788,7 @@
             "Un espace résidentiel"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace aménagé pour une activité économique (agricole, industrielle, de services...) ». 🌍 Géographie — France - espaces productifs."
+          "explanation": "Un espace productif est un espace aménagé pour une activité économique : agricole, industrielle, de services ou touristique. La Beauce (agriculture), Toulouse (aéronautique) ou Paris (services) sont des exemples."
         },
         {
           "question": "Qu'est-ce que l'agriculture productiviste ?",
@@ -799,7 +799,7 @@
             "Une agriculture vivrière"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une agriculture intensive cherchant un rendement maximal ». 🌍 Géographie — France - espaces productifs."
+          "explanation": "L'agriculture productiviste est une agriculture intensive cherchant un rendement maximal grâce aux machines, engrais et pesticides. Elle domine en Beauce ou en Bretagne mais pose des problèmes environnementaux."
         },
         {
           "question": "Qu'est-ce qu'un technopôle ?",
@@ -810,7 +810,7 @@
             "Un pôle touristique en montagne"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un pôle regroupant entreprises, centres de recherche et universités liés aux hautes technologies ». 🌍 Géographie — France - espaces productifs."
+          "explanation": "Un technopôle est un pôle qui regroupe entreprises, centres de recherche et universités liés aux hautes technologies. Sophia-Antipolis (près de Nice) ou la Silicon Valley aux États-Unis sont des technopôles célèbres."
         },
         {
           "question": "Qu'est-ce qu'un espace de faible densité ?",
@@ -821,7 +821,7 @@
             "Un centre urbain"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace où la population est faible par km² (moins de 30 hab/km²) ». 🌍 Géographie — France - espaces productifs."
+          "explanation": "Un espace de faible densité est un espace où la population est inférieure à environ 30 habitants par km carré. En France, cela correspond surtout aux zones rurales et montagneuses comme la Lozère ou la Creuse."
         },
         {
           "question": "Qu'est-ce que l'aménagement du territoire ?",
@@ -832,7 +832,7 @@
             "La construction de routes uniquement"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'ensemble des actions menées pour organiser un territoire et réduire les inégalités ». 🌍 Géographie — France - aménagement."
+          "explanation": "L'aménagement du territoire est l'ensemble des actions menées par l'État et les collectivités pour organiser un territoire et réduire les inégalités entre régions. Cela inclut routes, hôpitaux, écoles ou parcs naturels."
         },
         {
           "question": "Qu'est-ce qu'une collectivité territoriale ?",
@@ -843,7 +843,7 @@
             "Une entreprise publique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une circonscription administrative (commune, département, région) qui s'administre librement ». 🌍 Géographie — France - aménagement."
+          "explanation": "Une collectivité territoriale est une circonscription administrative (commune, département, région) qui s'administre librement grâce à des élus locaux. Elles ont leurs propres compétences (transports, lycées, etc.)."
         },
         {
           "question": "Qu'est-ce que la décentralisation ?",
@@ -854,7 +854,7 @@
             "La privatisation des entreprises d'État"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le transfert de compétences de l'État vers les collectivités territoriales ». 🌍 Géographie — France - aménagement."
+          "explanation": "La décentralisation est le transfert de compétences de l'État central vers les collectivités territoriales (communes, départements, régions). Les grandes lois de décentralisation datent de 1982 en France."
         },
         {
           "question": "Que désigne le mot « région » en France ?",
@@ -865,7 +865,7 @@
             "Une simple division historique sans pouvoir"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une collectivité territoriale regroupant plusieurs départements ». 🌍 Géographie — France - aménagement."
+          "explanation": "En France, une région est une collectivité territoriale qui regroupe plusieurs départements et possède des compétences propres (lycées, transports, développement économique). Depuis 2016, il y a 13 régions métropolitaines."
         },
         {
           "question": "Qu'est-ce que l'Union européenne (UE) ?",
@@ -876,7 +876,7 @@
             "Une banque européenne"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une union politique et économique regroupant 27 États européens ». 🌍 Géographie — France et UE."
+          "explanation": "L'Union européenne (UE) est une union politique et économique qui regroupe 27 États européens. Elle a été créée en 1957 par les traités de Rome et s'est progressivement élargie après la chute du mur de Berlin."
         },
         {
           "question": "Qu'est-ce que l'espace Schengen ?",
@@ -887,7 +887,7 @@
             "Une région d'Europe centrale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une zone de libre circulation des personnes entre pays européens membres ». 🌍 Géographie — France et UE."
+          "explanation": "L'espace Schengen est une zone de libre circulation des personnes entre les pays européens membres, sans contrôle aux frontières intérieures. Il regroupe 27 pays, dont la plupart des États de l'UE plus la Suisse et la Norvège."
         },
         {
           "question": "Qu'est-ce que la zone euro ?",
@@ -898,7 +898,7 @@
             "Une zone industrielle franco-allemande"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « L'ensemble des pays de l'UE ayant adopté l'euro comme monnaie ». 🌍 Géographie — France et UE."
+          "explanation": "La zone euro est l'ensemble des pays de l'UE qui ont adopté l'euro comme monnaie commune. Elle regroupe 20 pays en 2026, mais des pays comme le Danemark ou la Suède gardent leur monnaie nationale."
         },
         {
           "question": "Qu'est-ce qu'une eurorégion ?",
@@ -909,7 +909,7 @@
             "Une région agricole de l'UE"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace de coopération transfrontalière entre régions de plusieurs pays européens ». 🌍 Géographie — France et UE."
+          "explanation": "Une eurorégion est un espace de coopération transfrontalière entre régions de plusieurs pays européens, pour développer ensemble transports, économie ou culture. L'eurorégion Nouvelle-Aquitaine-Euskadi-Navarre en est un exemple."
         },
         {
           "question": "Qu'est-ce qu'une frontière ?",
@@ -920,7 +920,7 @@
             "Une barrière douanière interne"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une limite qui sépare deux États ». 🌍 Géographie — France et UE."
+          "explanation": "Une frontière est une limite qui sépare deux États souverains. Elle peut être terrestre, maritime, naturelle (fleuve, montagne) ou artificielle (tracée par un traité)."
         },
         {
           "question": "Qu'est-ce qu'un DROM (Département et Région d'Outre-mer) ?",
@@ -931,7 +931,7 @@
             "Un protectorat français"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un territoire français situé en dehors de la métropole, avec statut de département ». 🌍 Géographie — France dans le monde."
+          "explanation": "Un DROM (Département et Région d'Outre-mer) est un territoire français situé en dehors de la métropole, avec le même statut qu'un département. Il y en a cinq : Guadeloupe, Martinique, Guyane, La Réunion et Mayotte."
         },
         {
           "question": "Qu'est-ce que la francophonie ?",
@@ -942,7 +942,7 @@
             "Une institution de l'ONU"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « L'ensemble des pays et populations qui utilisent le français ». 🌍 Géographie — France dans le monde."
+          "explanation": "La francophonie est l'ensemble des pays et populations qui utilisent le français comme langue. Elle regroupe environ 320 millions de locuteurs dans le monde et 88 États membres de l'Organisation internationale de la Francophonie."
         },
         {
           "question": "Qu'est-ce que la ZEE (Zone Économique Exclusive) ?",
@@ -953,7 +953,7 @@
             "Un territoire militaire interdit"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace maritime sur lequel un État a des droits exclusifs d'exploitation ». 🌍 Géographie — France dans le monde."
+          "explanation": "La ZEE (Zone Économique Exclusive) est un espace maritime s'étendant jusqu'à 200 milles nautiques des côtes, où un État a des droits exclusifs d'exploitation (pêche, pétrole). Avec ses DROM, la France possède la deuxième plus grande ZEE du monde."
         },
         {
           "question": "Qu'est-ce qu'un État ?",
@@ -964,7 +964,7 @@
             "Un parti politique au pouvoir"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une autorité politique souveraine qui s'exerce sur un territoire et une population ». 🌍 Géographie — Géopolitique."
+          "explanation": "Un État est une autorité politique souveraine qui s'exerce sur un territoire délimité et une population. Il possède un gouvernement, des lois et des frontières reconnues internationalement."
         },
         {
           "question": "Que signifie « souveraineté » ?",
@@ -975,7 +975,7 @@
             "L'indépendance énergétique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le pouvoir suprême d'un État de décider sur son territoire ». 🌍 Géographie — Géopolitique."
+          "explanation": "La souveraineté est le pouvoir suprême d'un État de décider sur son territoire, sans dépendre d'une autre autorité. Elle s'exprime par exemple par le droit de battre monnaie ou de signer des traités."
         },
         {
           "question": "Qu'est-ce qu'une superpuissance ?",
@@ -986,7 +986,7 @@
             "Une ancienne colonie devenue très riche"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un État dominant le monde par sa puissance économique, militaire et culturelle ». 🌍 Géographie — Géopolitique."
+          "explanation": "Une superpuissance est un État qui domine le monde par sa puissance économique, militaire et culturelle. Les États-Unis sont la principale superpuissance, et la Chine est en train d'en devenir une."
         },
         {
           "question": "Qu'est-ce que le soft power ?",
@@ -997,7 +997,7 @@
             "Une diplomatie secrète"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La capacité d'influence d'un État par sa culture, ses idées, son mode de vie ». 🌍 Géographie — Géopolitique."
+          "explanation": "Le soft power est la capacité d'un État à influencer le monde par sa culture, ses idées et son mode de vie, plutôt que par la force militaire. Hollywood, McDonald's ou les séries Netflix sont des outils du soft power américain."
         },
         {
           "question": "Qu'est-ce qu'un BRICS ?",
@@ -1008,7 +1008,7 @@
             "Une monnaie internationale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un groupe de pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud) ». 🌍 Géographie — Géopolitique."
+          "explanation": "Les BRICS sont un groupe de pays émergents formé du Brésil, de la Russie, de l'Inde, de la Chine et de l'Afrique du Sud. Ils cherchent à peser davantage face aux puissances occidentales et représentent plus de 40 pour cent de la population mondiale."
         },
         {
           "question": "Qu'est-ce que le développement durable ?",
@@ -1019,7 +1019,7 @@
             "Une politique d'austérité"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un développement qui répond aux besoins présents sans compromettre ceux des générations futures ». 🌍 Géographie — Environnement."
+          "explanation": "Le développement durable est un développement qui répond aux besoins présents sans compromettre ceux des générations futures. Il combine trois objectifs : économique, social et environnemental."
         },
         {
           "question": "Qu'est-ce que la biodiversité ?",
@@ -1030,7 +1030,7 @@
             "Une diversité culturelle"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'ensemble des espèces vivantes et de leurs interactions sur Terre ». 🌍 Géographie — Environnement."
+          "explanation": "La biodiversité est l'ensemble des espèces vivantes (animaux, plantes, micro-organismes) et de leurs interactions sur Terre. Elle est aujourd'hui menacée par l'activité humaine : on parle d'une sixième extinction de masse."
         },
         {
           "question": "Qu'est-ce qu'un risque naturel ?",
@@ -1041,7 +1041,7 @@
             "Un accident de la route"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La menace que représente un phénomène naturel (séisme, inondation...) pour les populations ». 🌍 Géographie — Environnement."
+          "explanation": "Un risque naturel est la menace que représente un phénomène naturel (séisme, inondation, tempête, éruption) pour les populations et leurs biens. Le risque combine un aléa naturel et la vulnérabilité des populations exposées."
         },
         {
           "question": "Qu'est-ce qu'une ressource ?",
@@ -1052,7 +1052,7 @@
             "Un service public"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un élément naturel ou matériel utilisé pour satisfaire un besoin (eau, énergie, minerai...) ». 🌍 Géographie — Environnement."
+          "explanation": "Une ressource est un élément naturel ou matériel utilisé pour satisfaire un besoin humain : eau, énergie (pétrole, gaz), minerai, bois. Certaines ressources sont renouvelables, d'autres non."
         },
         {
           "question": "Qu'est-ce que la densité de population ?",
@@ -1063,7 +1063,7 @@
             "La proportion d'urbains"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le nombre d'habitants par kilomètre carré ». 🌍 Géographie — Démographie."
+          "explanation": "La densité de population est le nombre d'habitants par kilomètre carré. En France, la densité moyenne est d'environ 119 habitants par km carré, mais elle dépasse 21 000 à Paris."
         },
         {
           "question": "Qu'est-ce que l'exode rural ?",
@@ -1074,7 +1074,7 @@
             "Le retour des immigrés dans leur pays"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le départ massif des habitants des campagnes vers les villes ». 🌍 Géographie — Démographie."
+          "explanation": "L'exode rural est le départ massif des habitants des campagnes vers les villes, en quête d'emplois et de meilleures conditions de vie. Il a fortement marqué la France au 19e et 20e siècle, et touche aujourd'hui surtout les pays du Sud."
         },
         {
           "question": "Qu'est-ce que l'urbanisation ?",
@@ -1085,7 +1085,7 @@
             "Le développement des transports"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'augmentation de la part de la population vivant en ville ». 🌍 Géographie — Démographie."
+          "explanation": "L'urbanisation est l'augmentation de la part de la population vivant en ville. Aujourd'hui, plus de 55 pour cent de la population mondiale est urbaine, et ce sera plus de 65 pour cent en 2050."
         },
         {
           "question": "Qu'est-ce qu'un littoral ?",
@@ -1096,7 +1096,7 @@
             "Un désert côtier"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une zone de contact entre la terre et la mer ». 🌍 Géographie — Géographie générale."
+          "explanation": "Un littoral est une zone de contact entre la terre et la mer. C'est un espace très convoité, où se concentrent populations, ports, industries et tourisme : environ 60 pour cent de l'humanité vit à moins de 100 km des côtes."
         },
         {
           "question": "Qu'est-ce qu'un territoire ?",
@@ -1107,7 +1107,7 @@
             "Un parc naturel"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace approprié, organisé et aménagé par une société ». 🌍 Géographie — Géographie générale."
+          "explanation": "Un territoire est un espace approprié, organisé et aménagé par une société. Il a des limites (frontières), une identité, et résulte de l'action des hommes sur l'espace au fil du temps."
         },
         {
           "question": "Qu'est-ce que la ville-centre ?",
@@ -1118,7 +1118,7 @@
             "Un village voisin d'une grande ville"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La commune principale d'une agglomération, généralement la plus peuplée et ancienne ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La ville-centre est la commune principale d'une agglomération, généralement la plus peuplée et la plus ancienne. Paris est la ville-centre de l'agglomération parisienne, Lyon de celle de Lyon, etc."
         },
         {
           "question": "Qu'est-ce que la couronne périurbaine ?",
@@ -1129,7 +1129,7 @@
             "Le quartier le plus riche d'une ville"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La couronne périurbaine est l'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine. Ses habitants travaillent souvent en ville et font de longs trajets quotidiens."
         },
         {
           "question": "Qu'est-ce qu'une agglomération ?",
@@ -1140,7 +1140,7 @@
             "Une région administrative"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'ensemble formé par une ville-centre et ses banlieues ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une agglomération est l'ensemble formé par une ville-centre et ses banlieues, formant un espace bâti continu. L'agglomération parisienne compte environ 10 millions d'habitants."
         },
         {
           "question": "Qu'est-ce qu'un pôle urbain ?",
@@ -1151,7 +1151,7 @@
             "Un quartier résidentiel calme"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « Une ville-centre et ses banlieues offrant beaucoup d'emplois ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Un pôle urbain est une ville-centre et ses banlieues qui offrent beaucoup d'emplois et attirent les habitants des environs. Paris, Lyon, Marseille ou Toulouse sont les principaux pôles urbains français."
         },
         {
           "question": "Qu'est-ce qu'un CBD (Central Business District) ?",
@@ -1162,7 +1162,7 @@
             "Un centre administratif municipal"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Un CBD (Central Business District) est le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux. Manhattan à New York, ou La Défense à Paris (un peu décentré), en sont des exemples."
         },
         {
           "question": "Qu'est-ce que la gentrification ?",
@@ -1173,7 +1173,7 @@
             "L'augmentation du nombre d'étrangers dans un quartier"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le processus par lequel des quartiers populaires sont investis par des habitants plus aisés ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La gentrification est le processus par lequel des quartiers populaires sont investis par des habitants plus aisés, entraînant la hausse des loyers et le départ des plus pauvres. On l'observe par exemple dans le quartier de Belleville à Paris."
         },
         {
           "question": "Qu'est-ce que la ségrégation socio-spatiale ?",
@@ -1184,7 +1184,7 @@
             "Une politique de transports urbains"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La séparation dans l'espace urbain des populations selon leur catégorie sociale ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La ségrégation socio-spatiale est la séparation dans l'espace urbain des populations selon leur catégorie sociale : les riches dans certains quartiers, les pauvres dans d'autres. C'est une source d'inégalités importantes dans les grandes villes."
         },
         {
           "question": "Qu'est-ce qu'une ville nouvelle ?",
@@ -1195,7 +1195,7 @@
             "Une banlieue pavillonnaire spontanée"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Une ville créée à partir des années 1960 pour désengorger les grandes agglomérations ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une ville nouvelle est une ville créée à partir des années 1960 pour désengorger les grandes agglomérations. Autour de Paris, on a ainsi créé Cergy-Pontoise, Marne-la-Vallée ou Saint-Quentin-en-Yvelines."
         },
         {
           "question": "Qu'est-ce qu'une conurbation ?",
@@ -1206,7 +1206,7 @@
             "Le centre administratif d'une région"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une conurbation est un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent par leur étalement. Lille-Roubaix-Tourcoing en France ou la Ruhr en Allemagne sont des conurbations."
         },
         {
           "question": "Qu'est-ce qu'une friche urbaine ?",
@@ -1217,7 +1217,7 @@
             "Une zone agricole en pleine ville"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un terrain ou bâtiment abandonné en ville (souvent ancienne usine) ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une friche urbaine est un terrain ou un bâtiment abandonné en ville, souvent une ancienne usine ou gare. Ces espaces sont aujourd'hui réaménagés en logements, parcs ou quartiers culturels (ex : les anciens entrepôts de Bercy à Paris)."
         },
         {
           "question": "Qu'est-ce que la rénovation urbaine ?",
@@ -1228,7 +1228,7 @@
             "L'organisation d'événements culturels en ville"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « L'ensemble des opérations de transformation d'un quartier ancien ou dégradé ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La rénovation urbaine est l'ensemble des opérations de transformation d'un quartier ancien ou dégradé : démolition, construction, réhabilitation. En France, l'ANRU finance la rénovation des grands ensembles depuis 2003."
         },
         {
           "question": "Qu'est-ce qu'une zone pavillonnaire ?",
@@ -1239,7 +1239,7 @@
             "Un quartier d'immeubles HLM"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un quartier composé majoritairement de maisons individuelles avec jardin ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une zone pavillonnaire est un quartier composé majoritairement de maisons individuelles avec jardin. Très répandues dans les couronnes périurbaines, elles symbolisent l'idéal du logement de nombreux Français."
         },
         {
           "question": "Qu'est-ce qu'un grand ensemble (HLM) ?",
@@ -1250,7 +1250,7 @@
             "Une vaste zone commerciale"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un ensemble de grands immeubles de logements sociaux construits surtout entre 1950 et 1975 ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Un grand ensemble (HLM) est un ensemble de grands immeubles de logements sociaux, construits surtout entre 1950 et 1975 pour résoudre la crise du logement. Beaucoup sont aujourd'hui rénovés ou démolis dans le cadre de la politique de la ville."
         },
         {
           "question": "Qu'est-ce qu'un bidonville ?",
@@ -1261,7 +1261,7 @@
             "Un quartier touristique animé"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Un bidonville est un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud. La favela de Rocinha à Rio ou Dharavi à Mumbai sont parmi les plus connues."
         },
         {
           "question": "Qu'est-ce qu'un éco-quartier ?",
@@ -1272,7 +1272,7 @@
             "Un quartier exclusivement piéton du centre historique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un quartier urbain conçu selon les principes du développement durable ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Un éco-quartier est un quartier urbain conçu selon les principes du développement durable : transports doux, économies d'énergie, mixité sociale. BedZED à Londres ou Vauban à Fribourg en sont des exemples célèbres."
         },
         {
           "question": "Qu'est-ce qu'une migration pendulaire (ou navette) ?",
@@ -1283,7 +1283,7 @@
             "Un voyage à l'étranger"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le déplacement quotidien des habitants entre leur domicile et leur lieu de travail ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une migration pendulaire (ou navette) est le déplacement quotidien des habitants entre leur domicile et leur lieu de travail. Ces déplacements concernent des millions de Français chaque jour, souvent depuis le périurbain vers la ville-centre."
         },
         {
           "question": "Qu'est-ce qu'une zone commerciale périphérique ?",
@@ -1294,7 +1294,7 @@
             "Une rue piétonne touristique"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "Une zone commerciale périphérique est un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville et accessible en voiture. Très développées depuis les années 1970, elles concurrencent les commerces de centre-ville."
         },
         {
           "question": "Qu'est-ce que la métropolisation ?",
@@ -1305,7 +1305,7 @@
             "L'extension des transports régionaux"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « La concentration croissante des hommes, activités et richesses dans les grandes métropoles ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La métropolisation est la concentration croissante des hommes, des activités et des richesses dans les grandes métropoles. En France, Paris concentre à elle seule environ 30 pour cent du PIB national."
         },
         {
           "question": "Qu'est-ce que la mixité sociale ?",
@@ -1316,7 +1316,7 @@
             "L'égalité des salaires entre habitants"
           ],
           "correctIndex": 0,
-          "explanation": "Réponse : « La cohabitation, dans un même quartier, d'habitants de catégories sociales différentes ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "La mixité sociale est la cohabitation, dans un même quartier, d'habitants de catégories sociales différentes (ouvriers, employés, cadres). C'est un objectif des politiques de la ville pour lutter contre la ségrégation."
         },
         {
           "question": "Qu'est-ce que l'intercommunalité ?",
@@ -1327,7 +1327,7 @@
             "Un jumelage international"
           ],
           "correctIndex": 1,
-          "explanation": "Réponse : « Le regroupement de communes voisines pour gérer ensemble certains services (transports, déchets, eau...) ». 🌍 Géographie — Espaces de la ville."
+          "explanation": "L'intercommunalité est le regroupement de communes voisines pour gérer ensemble certains services comme les transports, les déchets ou l'eau. Les communautés de communes ou les métropoles (ex : Métropole du Grand Paris) en sont des formes."
         }
       ]
     },
