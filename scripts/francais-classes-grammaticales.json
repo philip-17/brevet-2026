@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Quelle est la classe grammaticale du mot 'rapidement' ?",
+    "choices": ["Adjectif", "Adverbe", "Nom", "Verbe"],
+    "correctIndex": 1,
+    "explanation": "Les mots terminés par -ment formés à partir d'un adjectif sont des adverbes de manière. Ils sont invariables et modifient un verbe, un adjectif ou un autre adverbe."
+  },
+  {
+    "question": "Dans la phrase 'Le chat dort sur le canapé', quelle est la classe grammaticale de 'sur' ?",
+    "choices": ["Adverbe", "Conjonction", "Préposition", "Déterminant"],
+    "correctIndex": 2,
+    "explanation": "'Sur' est une préposition : c'est un mot invariable qui introduit un complément (ici un complément de lieu) et établit un lien entre deux éléments."
+  },
+  {
+    "question": "Parmi ces mots, lequel est un déterminant possessif ?",
+    "choices": ["celui", "mon", "qui", "très"],
+    "correctIndex": 1,
+    "explanation": "'Mon' est un déterminant possessif : il accompagne un nom et indique à qui appartient ce nom. Les autres possessifs sont ma, mes, ton, ta, tes, son, sa, ses, notre, votre, leur..."
+  },
+  {
+    "question": "Dans 'Je pense que tu as raison', quelle est la nature du mot 'que' ?",
+    "choices": ["Pronom relatif", "Conjonction de subordination", "Adverbe", "Pronom interrogatif"],
+    "correctIndex": 1,
+    "explanation": "Ici 'que' introduit une proposition subordonnée complétive (complément du verbe 'pense'). C'est donc une conjonction de subordination."
+  },
+  {
+    "question": "Quel mot est une conjonction de coordination ?",
+    "choices": ["parce que", "donc", "quand", "bien que"],
+    "correctIndex": 1,
+    "explanation": "Les conjonctions de coordination sont : mais, ou, et, donc, or, ni, car (moyen mnémotechnique : Mais Où Et Donc Or Ni Car)."
+  },
+  {
+    "question": "Dans la phrase 'Le livre que je lis est passionnant', quelle est la nature de 'que' ?",
+    "choices": ["Conjonction de subordination", "Pronom relatif", "Adverbe", "Pronom interrogatif"],
+    "correctIndex": 1,
+    "explanation": "'Que' est un pronom relatif : il remplace 'le livre' (son antécédent) et introduit une proposition subordonnée relative. Il est COD du verbe 'lis'."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'hélas' ?",
+    "choices": ["Adverbe", "Interjection", "Conjonction", "Préposition"],
+    "correctIndex": 1,
+    "explanation": "'Hélas' est une interjection : c'est un mot invariable qui exprime une émotion (ici le regret ou la tristesse) et qui forme à lui seul un énoncé exclamatif."
+  },
+  {
+    "question": "Dans 'Elle court vite', quelle est la classe grammaticale de 'vite' ?",
+    "choices": ["Adjectif", "Adverbe", "Verbe", "Nom"],
+    "correctIndex": 1,
+    "explanation": "'Vite' est un adverbe de manière : il modifie le verbe 'court' en précisant comment se déroule l'action. Il est invariable."
+  },
+  {
+    "question": "Combien y a-t-il de pronoms personnels dans la phrase : 'Je te le donnerai demain' ?",
+    "choices": ["1", "2", "3", "4"],
+    "correctIndex": 2,
+    "explanation": "Il y a trois pronoms personnels : 'je' (sujet), 'te' (COI) et 'le' (COD). 'Demain' est un adverbe de temps, pas un pronom."
+  },
+  {
+    "question": "Quelle est la nature du mot 'plusieurs' dans 'Plusieurs élèves sont absents' ?",
+    "choices": ["Pronom indéfini", "Déterminant indéfini", "Adjectif", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Plusieurs' accompagne ici le nom 'élèves' : c'est donc un déterminant indéfini. Quand il remplace un nom ('Plusieurs sont venus'), il devient pronom indéfini."
+  },
+  {
+    "question": "Dans 'L'homme dont je parle est mon voisin', quelle est la nature de 'dont' ?",
+    "choices": ["Conjonction", "Préposition", "Pronom relatif", "Adverbe"],
+    "correctIndex": 2,
+    "explanation": "'Dont' est un pronom relatif : il remplace 'l'homme' (antécédent) et introduit une proposition subordonnée relative. Il équivaut à 'de qui'."
+  },
+  {
+    "question": "Quel mot est une préposition ?",
+    "choices": ["car", "malgré", "donc", "ensuite"],
+    "correctIndex": 1,
+    "explanation": "'Malgré' est une préposition : elle introduit un complément ('malgré la pluie'). 'Car' et 'donc' sont des conjonctions de coordination, 'ensuite' est un adverbe."
+  },
+  {
+    "question": "Quelle est la nature du mot souligné dans : 'Cette fleur est magnifique' (cette) ?",
+    "choices": ["Pronom démonstratif", "Déterminant démonstratif", "Adjectif", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Cette' accompagne le nom 'fleur' et le détermine en montrant. C'est donc un déterminant démonstratif (les autres sont : ce, cet, ces)."
+  },
+  {
+    "question": "Dans 'Je ne sais pas si tu viendras', quelle est la classe grammaticale de 'si' ?",
+    "choices": ["Adverbe", "Conjonction de subordination", "Préposition", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Si' introduit ici une interrogative indirecte : c'est une conjonction de subordination. Attention : dans 'il est si gentil', 'si' est adverbe d'intensité."
+  },
+  {
+    "question": "Quelle est la nature de 'leur' dans 'Je leur ai parlé' ?",
+    "choices": ["Déterminant possessif", "Pronom personnel", "Pronom possessif", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Leur' est ici un pronom personnel (COI du verbe parler), invariable. Dans 'leur maison', 'leur' serait déterminant possessif (variable : leurs maisons)."
+  },
+  {
+    "question": "Parmi ces mots, lequel est un adverbe de temps ?",
+    "choices": ["très", "ici", "hier", "beaucoup"],
+    "correctIndex": 2,
+    "explanation": "'Hier' est un adverbe de temps. 'Très' et 'beaucoup' sont des adverbes de quantité/intensité, 'ici' est un adverbe de lieu."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'foule' dans 'Une foule de gens était là' ?",
+    "choices": ["Nom collectif", "Nom abstrait", "Adjectif", "Pronom indéfini"],
+    "correctIndex": 0,
+    "explanation": "'Foule' est un nom collectif : il désigne au singulier un ensemble d'éléments. Autres exemples : équipe, troupeau, groupe, multitude."
+  },
+  {
+    "question": "Dans la phrase 'Trois élèves sont arrivés', quelle est la nature de 'trois' ?",
+    "choices": ["Adjectif qualificatif", "Déterminant numéral", "Pronom", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Trois' accompagne le nom 'élèves' et indique le nombre : c'est un déterminant numéral cardinal. Attention : 'le troisième' serait un adjectif numéral ordinal."
+  },
+  {
+    "question": "Quel est le mot invariable dans la liste suivante ?",
+    "choices": ["beau", "maison", "toujours", "courir"],
+    "correctIndex": 2,
+    "explanation": "'Toujours' est un adverbe, donc invariable. 'Beau' (adjectif) s'accorde, 'maison' (nom) peut prendre la marque du pluriel, 'courir' (verbe) se conjugue."
+  },
+  {
+    "question": "Dans 'Oh ! Quelle belle journée !', quelle est la nature de 'Oh' ?",
+    "choices": ["Adverbe", "Interjection", "Préposition", "Conjonction"],
+    "correctIndex": 1,
+    "explanation": "'Oh' est une interjection : c'est un mot ou un cri qui exprime une émotion (surprise, admiration). Les interjections sont invariables et souvent suivies d'un point d'exclamation."
+  },
+  {
+    "question": "Quelle est la nature du mot 'aucun' dans 'Aucun élève n'a répondu' ?",
+    "choices": ["Pronom indéfini", "Déterminant indéfini", "Adverbe", "Adjectif"],
+    "correctIndex": 1,
+    "explanation": "'Aucun' accompagne le nom 'élève' : c'est un déterminant indéfini. Dans 'Aucun n'a répondu', il deviendrait pronom indéfini."
+  },
+  {
+    "question": "Combien y a-t-il d'adverbes dans la phrase : 'Il marche lentement mais sûrement' ?",
+    "choices": ["1", "2", "3", "0"],
+    "correctIndex": 1,
+    "explanation": "Il y a deux adverbes : 'lentement' et 'sûrement'. 'Mais' est une conjonction de coordination, pas un adverbe."
+  },
+  {
+    "question": "Dans 'C'est le pays où je suis né', quelle est la nature de 'où' ?",
+    "choices": ["Adverbe interrogatif", "Pronom relatif", "Conjonction", "Préposition"],
+    "correctIndex": 1,
+    "explanation": "'Où' est ici un pronom relatif : il a pour antécédent 'le pays' et introduit une proposition subordonnée relative. Il peut indiquer le lieu ou le temps."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'beauté' ?",
+    "choices": ["Adjectif", "Nom abstrait", "Adverbe", "Verbe"],
+    "correctIndex": 1,
+    "explanation": "'Beauté' est un nom abstrait : il désigne une qualité, une idée qu'on ne peut pas toucher. Il est formé sur l'adjectif 'beau'."
+  },
+  {
+    "question": "Dans 'Le mien est plus beau', quelle est la nature de 'le mien' ?",
+    "choices": ["Déterminant possessif", "Pronom possessif", "Adjectif", "Nom"],
+    "correctIndex": 1,
+    "explanation": "'Le mien' est un pronom possessif : il remplace un nom (par exemple 'mon livre') et indique l'appartenance. Les pronoms possessifs sont toujours précédés d'un article défini."
+  },
+  {
+    "question": "Quel est l'auxiliaire dans la forme verbale 'nous avons mangé' ?",
+    "choices": ["nous", "avons", "mangé", "il n'y en a pas"],
+    "correctIndex": 1,
+    "explanation": "'Avons' est l'auxiliaire 'avoir' conjugué au présent. Avec 'mangé' (participe passé), il forme un temps composé : le passé composé. Les auxiliaires sont 'être' et 'avoir'."
+  },
+  {
+    "question": "Quelle est la nature du mot 'pourtant' ?",
+    "choices": ["Conjonction de coordination", "Adverbe de liaison", "Préposition", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Pourtant' est un adverbe de liaison (ou connecteur logique) exprimant l'opposition. Attention : il n'est pas une conjonction de coordination (qui sont seulement : mais, ou, et, donc, or, ni, car)."
+  },
+  {
+    "question": "Dans 'Qui a sonné à la porte ?', quelle est la nature de 'qui' ?",
+    "choices": ["Pronom relatif", "Pronom interrogatif", "Conjonction", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Qui' est ici un pronom interrogatif : il sert à poser une question sur l'identité de la personne. Dans 'L'homme qui parle...', il serait pronom relatif."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'Paris' ?",
+    "choices": ["Nom commun", "Nom propre", "Adjectif", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Paris' est un nom propre : il désigne une ville unique et prend une majuscule. Les noms propres ne sont généralement pas précédés d'un déterminant."
+  },
+  {
+    "question": "Dans 'Il parle bien que personne ne l'écoute', quelle est la nature de 'bien que' ?",
+    "choices": ["Conjonction de coordination", "Conjonction de subordination", "Adverbe", "Préposition"],
+    "correctIndex": 1,
+    "explanation": "'Bien que' est une locution conjonctive de subordination exprimant l'opposition/concession. Elle introduit une proposition subordonnée et est suivie du subjonctif."
+  },
+  {
+    "question": "Quelle est la nature de 'en' dans 'J'en veux encore' ?",
+    "choices": ["Préposition", "Pronom personnel", "Adverbe", "Déterminant"],
+    "correctIndex": 1,
+    "explanation": "Ici 'en' remplace un complément (par exemple 'du gâteau') : c'est un pronom personnel. Dans 'Je vais en France', 'en' serait une préposition."
+  },
+  {
+    "question": "Parmi ces verbes, lequel est intransitif ?",
+    "choices": ["manger", "dormir", "voir", "construire"],
+    "correctIndex": 1,
+    "explanation": "'Dormir' est un verbe intransitif : il n'admet pas de complément d'objet (on ne dort pas quelque chose). Les autres verbes sont transitifs (ils acceptent un COD)."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'eau' dans 'Je bois de l'eau' ?",
+    "choices": ["Nom dénombrable", "Nom non dénombrable", "Adjectif", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Eau' est un nom non dénombrable (ou indénombrable) : il désigne une matière qu'on ne peut pas compter unité par unité. C'est pourquoi on emploie l'article partitif 'de l'eau'."
+  },
+  {
+    "question": "Dans 'Que tu es gentil !', quelle est la nature de 'que' ?",
+    "choices": ["Pronom relatif", "Conjonction de subordination", "Adverbe exclamatif", "Déterminant"],
+    "correctIndex": 2,
+    "explanation": "Dans cette phrase exclamative, 'que' est un adverbe exclamatif d'intensité (équivalent à 'comme'). Il marque l'intensité d'un sentiment."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'rouge' dans 'une voiture rouge' ?",
+    "choices": ["Nom", "Adjectif qualificatif", "Adverbe", "Déterminant"],
+    "correctIndex": 1,
+    "explanation": "'Rouge' qualifie ici le nom 'voiture' : c'est un adjectif qualificatif. Attention : dans 'le rouge te va bien', 'rouge' devient un nom."
+  },
+  {
+    "question": "Quelle est la nature du mot 'puisque' ?",
+    "choices": ["Préposition", "Conjonction de subordination", "Adverbe", "Conjonction de coordination"],
+    "correctIndex": 1,
+    "explanation": "'Puisque' est une conjonction de subordination introduisant une proposition subordonnée de cause. Synonymes : comme, parce que, étant donné que."
+  },
+  {
+    "question": "Dans 'Il viendra demain matin', combien y a-t-il d'adverbes ?",
+    "choices": ["0", "1", "2", "3"],
+    "correctIndex": 2,
+    "explanation": "Il y a deux adverbes : 'demain' (adverbe de temps) et 'matin' (qui fonctionne ici comme adverbe de temps). Attention : 'matin' peut aussi être un nom."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'jamais' ?",
+    "choices": ["Préposition", "Adverbe de négation", "Pronom", "Conjonction"],
+    "correctIndex": 1,
+    "explanation": "'Jamais' est un adverbe de négation. Il s'emploie souvent avec 'ne' (ne...jamais). Autres adverbes de négation : pas, plus, point, guère, rien."
+  },
+  {
+    "question": "Dans 'Voici les fleurs que j'ai cueillies pour toi', quelle est la nature de 'pour' ?",
+    "choices": ["Conjonction", "Préposition", "Adverbe", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Pour' est une préposition : elle introduit le complément 'toi' (ici complément d'attribution). Les prépositions sont invariables et relient deux éléments."
+  },
+  {
+    "question": "Quelle est la nature du mot 'celui-ci' ?",
+    "choices": ["Déterminant démonstratif", "Pronom démonstratif", "Adjectif", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Celui-ci' est un pronom démonstratif : il remplace un nom en désignant ce qui est proche. Autres pronoms démonstratifs : celui, celle, ceux, celles, ce, ceci, cela, ça."
+  },
+  {
+    "question": "Quelle est la classe grammaticale de 'ne' dans 'Je ne sais pas' ?",
+    "choices": ["Pronom", "Adverbe de négation", "Préposition", "Conjonction"],
+    "correctIndex": 1,
+    "explanation": "'Ne' est un adverbe de négation. Dans la négation française, on emploie deux mots : 'ne' et 'pas' (ou plus, jamais, rien, personne...). Tous deux sont des adverbes."
+  },
+  {
+    "question": "Dans la phrase 'Le soleil brille', quelle est la nature de 'Le' ?",
+    "choices": ["Pronom personnel", "Article défini", "Article indéfini", "Article partitif"],
+    "correctIndex": 1,
+    "explanation": "'Le' est ici un article défini (déterminant) : il accompagne le nom 'soleil' et le détermine de façon précise. Les articles définis sont : le, la, les, l'."
+  },
+  {
+    "question": "Quelle est la nature du mot 'chez' ?",
+    "choices": ["Adverbe", "Préposition", "Conjonction", "Pronom"],
+    "correctIndex": 1,
+    "explanation": "'Chez' est une préposition : elle introduit un complément (chez moi, chez le médecin). Elle indique le plus souvent un lieu d'habitation ou d'activité."
+  },
+  {
+    "question": "Quelle est la différence entre 'leur' et 'leurs' ?",
+    "choices": ["Aucune", "'Leur' est pronom personnel invariable, 'leurs' est déterminant possessif au pluriel", "'Leur' est masculin, 'leurs' est féminin", "'Leur' est singulier, 'leurs' est toujours pluriel"],
+    "correctIndex": 1,
+    "explanation": "'Leur' pronom personnel (COI, devant un verbe) est toujours invariable. 'Leur'/'leurs' déterminant possessif s'accorde en nombre avec le nom qu'il accompagne (leur livre / leurs livres)."
+  },
+  {
+    "question": "Dans 'Nous sommes partis tôt', quelle est la nature de 'sommes' ?",
+    "choices": ["Verbe d'état", "Auxiliaire être", "Pronom", "Adverbe"],
+    "correctIndex": 1,
+    "explanation": "'Sommes' est ici l'auxiliaire 'être' au présent, qui forme avec 'partis' (participe passé) le passé composé du verbe 'partir'. Ce n'est pas un verbe d'état dans ce contexte."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'quel' dans 'Quel temps fait-il ?' ?",
+    "choices": ["Pronom interrogatif", "Déterminant interrogatif", "Adverbe", "Adjectif"],
+    "correctIndex": 1,
+    "explanation": "'Quel' accompagne ici le nom 'temps' : c'est un déterminant interrogatif. Il sert à poser une question portant sur le nom. Variables : quel, quelle, quels, quelles."
+  },
+  {
+    "question": "Parmi ces mots, lequel est un pronom relatif ?",
+    "choices": ["lequel", "celui", "le mien", "mon"],
+    "correctIndex": 0,
+    "explanation": "'Lequel' est un pronom relatif (qui peut aussi être interrogatif). Les principaux pronoms relatifs sont : qui, que, quoi, dont, où, lequel (et ses formes : laquelle, lesquels, lesquelles)."
+  },
+  {
+    "question": "Dans 'Marche doucement et parle bas', combien y a-t-il d'adverbes ?",
+    "choices": ["1", "2", "3", "0"],
+    "correctIndex": 1,
+    "explanation": "Il y a deux adverbes : 'doucement' (modifie 'marche') et 'bas' (modifie 'parle'). 'Et' est une conjonction de coordination, pas un adverbe."
+  },
+  {
+    "question": "Quelle est la nature du mot 'tout' dans 'Tout va bien' ?",
+    "choices": ["Adverbe", "Pronom indéfini", "Déterminant indéfini", "Adjectif"],
+    "correctIndex": 1,
+    "explanation": "Ici 'tout' est sujet du verbe 'va' : c'est un pronom indéfini. 'Tout' peut aussi être déterminant (tout le monde), adverbe (tout doucement) ou nom (le tout)."
+  },
+  {
+    "question": "Quelle est la classe grammaticale du mot 'eh bien' dans 'Eh bien, allons-y !' ?",
+    "choices": ["Conjonction", "Interjection", "Adverbe", "Préposition"],
+    "correctIndex": 1,
+    "explanation": "'Eh bien' est une locution interjective (interjection). Les interjections expriment une émotion, un sentiment ou servent à interpeller. Elles sont invariables et autonomes."
+  }
+]

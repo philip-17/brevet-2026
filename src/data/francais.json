@@ -5,6 +5,1120 @@
   "color": "#ef4444",
   "chapters": [
     {
+      "id": "classes-grammaticales",
+      "title": "🏷️ Classes grammaticales (nature des mots)",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "Quelle est la classe grammaticale du mot 'rapidement' ?",
+          "choices": [
+            "Adjectif",
+            "Adverbe",
+            "Nom",
+            "Verbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les mots terminés par -ment formés à partir d'un adjectif sont des adverbes de manière. Ils sont invariables et modifient un verbe, un adjectif ou un autre adverbe."
+        },
+        {
+          "question": "Dans la phrase 'Le chat dort sur le canapé', quelle est la classe grammaticale de 'sur' ?",
+          "choices": [
+            "Adverbe",
+            "Conjonction",
+            "Préposition",
+            "Déterminant"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Sur' est une préposition : c'est un mot invariable qui introduit un complément (ici un complément de lieu) et établit un lien entre deux éléments."
+        },
+        {
+          "question": "Parmi ces mots, lequel est un déterminant possessif ?",
+          "choices": [
+            "celui",
+            "mon",
+            "qui",
+            "très"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Mon' est un déterminant possessif : il accompagne un nom et indique à qui appartient ce nom. Les autres possessifs sont ma, mes, ton, ta, tes, son, sa, ses, notre, votre, leur..."
+        },
+        {
+          "question": "Dans 'Je pense que tu as raison', quelle est la nature du mot 'que' ?",
+          "choices": [
+            "Pronom relatif",
+            "Conjonction de subordination",
+            "Adverbe",
+            "Pronom interrogatif"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ici 'que' introduit une proposition subordonnée complétive (complément du verbe 'pense'). C'est donc une conjonction de subordination."
+        },
+        {
+          "question": "Quel mot est une conjonction de coordination ?",
+          "choices": [
+            "parce que",
+            "donc",
+            "quand",
+            "bien que"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les conjonctions de coordination sont : mais, ou, et, donc, or, ni, car (moyen mnémotechnique : Mais Où Et Donc Or Ni Car)."
+        },
+        {
+          "question": "Dans la phrase 'Le livre que je lis est passionnant', quelle est la nature de 'que' ?",
+          "choices": [
+            "Conjonction de subordination",
+            "Pronom relatif",
+            "Adverbe",
+            "Pronom interrogatif"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Que' est un pronom relatif : il remplace 'le livre' (son antécédent) et introduit une proposition subordonnée relative. Il est COD du verbe 'lis'."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'hélas' ?",
+          "choices": [
+            "Adverbe",
+            "Interjection",
+            "Conjonction",
+            "Préposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Hélas' est une interjection : c'est un mot invariable qui exprime une émotion (ici le regret ou la tristesse) et qui forme à lui seul un énoncé exclamatif."
+        },
+        {
+          "question": "Dans 'Elle court vite', quelle est la classe grammaticale de 'vite' ?",
+          "choices": [
+            "Adjectif",
+            "Adverbe",
+            "Verbe",
+            "Nom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Vite' est un adverbe de manière : il modifie le verbe 'court' en précisant comment se déroule l'action. Il est invariable."
+        },
+        {
+          "question": "Combien y a-t-il de pronoms personnels dans la phrase : 'Je te le donnerai demain' ?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 2,
+          "explanation": "Il y a trois pronoms personnels : 'je' (sujet), 'te' (COI) et 'le' (COD). 'Demain' est un adverbe de temps, pas un pronom."
+        },
+        {
+          "question": "Quelle est la nature du mot 'plusieurs' dans 'Plusieurs élèves sont absents' ?",
+          "choices": [
+            "Pronom indéfini",
+            "Déterminant indéfini",
+            "Adjectif",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Plusieurs' accompagne ici le nom 'élèves' : c'est donc un déterminant indéfini. Quand il remplace un nom ('Plusieurs sont venus'), il devient pronom indéfini."
+        },
+        {
+          "question": "Dans 'L'homme dont je parle est mon voisin', quelle est la nature de 'dont' ?",
+          "choices": [
+            "Conjonction",
+            "Préposition",
+            "Pronom relatif",
+            "Adverbe"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Dont' est un pronom relatif : il remplace 'l'homme' (antécédent) et introduit une proposition subordonnée relative. Il équivaut à 'de qui'."
+        },
+        {
+          "question": "Quel mot est une préposition ?",
+          "choices": [
+            "car",
+            "malgré",
+            "donc",
+            "ensuite"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Malgré' est une préposition : elle introduit un complément ('malgré la pluie'). 'Car' et 'donc' sont des conjonctions de coordination, 'ensuite' est un adverbe."
+        },
+        {
+          "question": "Quelle est la nature du mot souligné dans : 'Cette fleur est magnifique' (cette) ?",
+          "choices": [
+            "Pronom démonstratif",
+            "Déterminant démonstratif",
+            "Adjectif",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Cette' accompagne le nom 'fleur' et le détermine en montrant. C'est donc un déterminant démonstratif (les autres sont : ce, cet, ces)."
+        },
+        {
+          "question": "Dans 'Je ne sais pas si tu viendras', quelle est la classe grammaticale de 'si' ?",
+          "choices": [
+            "Adverbe",
+            "Conjonction de subordination",
+            "Préposition",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Si' introduit ici une interrogative indirecte : c'est une conjonction de subordination. Attention : dans 'il est si gentil', 'si' est adverbe d'intensité."
+        },
+        {
+          "question": "Quelle est la nature de 'leur' dans 'Je leur ai parlé' ?",
+          "choices": [
+            "Déterminant possessif",
+            "Pronom personnel",
+            "Pronom possessif",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Leur' est ici un pronom personnel (COI du verbe parler), invariable. Dans 'leur maison', 'leur' serait déterminant possessif (variable : leurs maisons)."
+        },
+        {
+          "question": "Parmi ces mots, lequel est un adverbe de temps ?",
+          "choices": [
+            "très",
+            "ici",
+            "hier",
+            "beaucoup"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Hier' est un adverbe de temps. 'Très' et 'beaucoup' sont des adverbes de quantité/intensité, 'ici' est un adverbe de lieu."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'foule' dans 'Une foule de gens était là' ?",
+          "choices": [
+            "Nom collectif",
+            "Nom abstrait",
+            "Adjectif",
+            "Pronom indéfini"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Foule' est un nom collectif : il désigne au singulier un ensemble d'éléments. Autres exemples : équipe, troupeau, groupe, multitude."
+        },
+        {
+          "question": "Dans la phrase 'Trois élèves sont arrivés', quelle est la nature de 'trois' ?",
+          "choices": [
+            "Adjectif qualificatif",
+            "Déterminant numéral",
+            "Pronom",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Trois' accompagne le nom 'élèves' et indique le nombre : c'est un déterminant numéral cardinal. Attention : 'le troisième' serait un adjectif numéral ordinal."
+        },
+        {
+          "question": "Quel est le mot invariable dans la liste suivante ?",
+          "choices": [
+            "beau",
+            "maison",
+            "toujours",
+            "courir"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Toujours' est un adverbe, donc invariable. 'Beau' (adjectif) s'accorde, 'maison' (nom) peut prendre la marque du pluriel, 'courir' (verbe) se conjugue."
+        },
+        {
+          "question": "Dans 'Oh ! Quelle belle journée !', quelle est la nature de 'Oh' ?",
+          "choices": [
+            "Adverbe",
+            "Interjection",
+            "Préposition",
+            "Conjonction"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Oh' est une interjection : c'est un mot ou un cri qui exprime une émotion (surprise, admiration). Les interjections sont invariables et souvent suivies d'un point d'exclamation."
+        },
+        {
+          "question": "Quelle est la nature du mot 'aucun' dans 'Aucun élève n'a répondu' ?",
+          "choices": [
+            "Pronom indéfini",
+            "Déterminant indéfini",
+            "Adverbe",
+            "Adjectif"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Aucun' accompagne le nom 'élève' : c'est un déterminant indéfini. Dans 'Aucun n'a répondu', il deviendrait pronom indéfini."
+        },
+        {
+          "question": "Combien y a-t-il d'adverbes dans la phrase : 'Il marche lentement mais sûrement' ?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "Il y a deux adverbes : 'lentement' et 'sûrement'. 'Mais' est une conjonction de coordination, pas un adverbe."
+        },
+        {
+          "question": "Dans 'C'est le pays où je suis né', quelle est la nature de 'où' ?",
+          "choices": [
+            "Adverbe interrogatif",
+            "Pronom relatif",
+            "Conjonction",
+            "Préposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Où' est ici un pronom relatif : il a pour antécédent 'le pays' et introduit une proposition subordonnée relative. Il peut indiquer le lieu ou le temps."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'beauté' ?",
+          "choices": [
+            "Adjectif",
+            "Nom abstrait",
+            "Adverbe",
+            "Verbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Beauté' est un nom abstrait : il désigne une qualité, une idée qu'on ne peut pas toucher. Il est formé sur l'adjectif 'beau'."
+        },
+        {
+          "question": "Dans 'Le mien est plus beau', quelle est la nature de 'le mien' ?",
+          "choices": [
+            "Déterminant possessif",
+            "Pronom possessif",
+            "Adjectif",
+            "Nom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Le mien' est un pronom possessif : il remplace un nom (par exemple 'mon livre') et indique l'appartenance. Les pronoms possessifs sont toujours précédés d'un article défini."
+        },
+        {
+          "question": "Quel est l'auxiliaire dans la forme verbale 'nous avons mangé' ?",
+          "choices": [
+            "nous",
+            "avons",
+            "mangé",
+            "il n'y en a pas"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Avons' est l'auxiliaire 'avoir' conjugué au présent. Avec 'mangé' (participe passé), il forme un temps composé : le passé composé. Les auxiliaires sont 'être' et 'avoir'."
+        },
+        {
+          "question": "Quelle est la nature du mot 'pourtant' ?",
+          "choices": [
+            "Conjonction de coordination",
+            "Adverbe de liaison",
+            "Préposition",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Pourtant' est un adverbe de liaison (ou connecteur logique) exprimant l'opposition. Attention : il n'est pas une conjonction de coordination (qui sont seulement : mais, ou, et, donc, or, ni, car)."
+        },
+        {
+          "question": "Dans 'Qui a sonné à la porte ?', quelle est la nature de 'qui' ?",
+          "choices": [
+            "Pronom relatif",
+            "Pronom interrogatif",
+            "Conjonction",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Qui' est ici un pronom interrogatif : il sert à poser une question sur l'identité de la personne. Dans 'L'homme qui parle...', il serait pronom relatif."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'Paris' ?",
+          "choices": [
+            "Nom commun",
+            "Nom propre",
+            "Adjectif",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Paris' est un nom propre : il désigne une ville unique et prend une majuscule. Les noms propres ne sont généralement pas précédés d'un déterminant."
+        },
+        {
+          "question": "Dans 'Il parle bien que personne ne l'écoute', quelle est la nature de 'bien que' ?",
+          "choices": [
+            "Conjonction de coordination",
+            "Conjonction de subordination",
+            "Adverbe",
+            "Préposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Bien que' est une locution conjonctive de subordination exprimant l'opposition/concession. Elle introduit une proposition subordonnée et est suivie du subjonctif."
+        },
+        {
+          "question": "Quelle est la nature de 'en' dans 'J'en veux encore' ?",
+          "choices": [
+            "Préposition",
+            "Pronom personnel",
+            "Adverbe",
+            "Déterminant"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ici 'en' remplace un complément (par exemple 'du gâteau') : c'est un pronom personnel. Dans 'Je vais en France', 'en' serait une préposition."
+        },
+        {
+          "question": "Parmi ces verbes, lequel est intransitif ?",
+          "choices": [
+            "manger",
+            "dormir",
+            "voir",
+            "construire"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Dormir' est un verbe intransitif : il n'admet pas de complément d'objet (on ne dort pas quelque chose). Les autres verbes sont transitifs (ils acceptent un COD)."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'eau' dans 'Je bois de l'eau' ?",
+          "choices": [
+            "Nom dénombrable",
+            "Nom non dénombrable",
+            "Adjectif",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Eau' est un nom non dénombrable (ou indénombrable) : il désigne une matière qu'on ne peut pas compter unité par unité. C'est pourquoi on emploie l'article partitif 'de l'eau'."
+        },
+        {
+          "question": "Dans 'Que tu es gentil !', quelle est la nature de 'que' ?",
+          "choices": [
+            "Pronom relatif",
+            "Conjonction de subordination",
+            "Adverbe exclamatif",
+            "Déterminant"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans cette phrase exclamative, 'que' est un adverbe exclamatif d'intensité (équivalent à 'comme'). Il marque l'intensité d'un sentiment."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'rouge' dans 'une voiture rouge' ?",
+          "choices": [
+            "Nom",
+            "Adjectif qualificatif",
+            "Adverbe",
+            "Déterminant"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Rouge' qualifie ici le nom 'voiture' : c'est un adjectif qualificatif. Attention : dans 'le rouge te va bien', 'rouge' devient un nom."
+        },
+        {
+          "question": "Quelle est la nature du mot 'puisque' ?",
+          "choices": [
+            "Préposition",
+            "Conjonction de subordination",
+            "Adverbe",
+            "Conjonction de coordination"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Puisque' est une conjonction de subordination introduisant une proposition subordonnée de cause. Synonymes : comme, parce que, étant donné que."
+        },
+        {
+          "question": "Dans 'Il viendra demain matin', combien y a-t-il d'adverbes ?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Il y a deux adverbes : 'demain' (adverbe de temps) et 'matin' (qui fonctionne ici comme adverbe de temps). Attention : 'matin' peut aussi être un nom."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'jamais' ?",
+          "choices": [
+            "Préposition",
+            "Adverbe de négation",
+            "Pronom",
+            "Conjonction"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Jamais' est un adverbe de négation. Il s'emploie souvent avec 'ne' (ne...jamais). Autres adverbes de négation : pas, plus, point, guère, rien."
+        },
+        {
+          "question": "Dans 'Voici les fleurs que j'ai cueillies pour toi', quelle est la nature de 'pour' ?",
+          "choices": [
+            "Conjonction",
+            "Préposition",
+            "Adverbe",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Pour' est une préposition : elle introduit le complément 'toi' (ici complément d'attribution). Les prépositions sont invariables et relient deux éléments."
+        },
+        {
+          "question": "Quelle est la nature du mot 'celui-ci' ?",
+          "choices": [
+            "Déterminant démonstratif",
+            "Pronom démonstratif",
+            "Adjectif",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Celui-ci' est un pronom démonstratif : il remplace un nom en désignant ce qui est proche. Autres pronoms démonstratifs : celui, celle, ceux, celles, ce, ceci, cela, ça."
+        },
+        {
+          "question": "Quelle est la classe grammaticale de 'ne' dans 'Je ne sais pas' ?",
+          "choices": [
+            "Pronom",
+            "Adverbe de négation",
+            "Préposition",
+            "Conjonction"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Ne' est un adverbe de négation. Dans la négation française, on emploie deux mots : 'ne' et 'pas' (ou plus, jamais, rien, personne...). Tous deux sont des adverbes."
+        },
+        {
+          "question": "Dans la phrase 'Le soleil brille', quelle est la nature de 'Le' ?",
+          "choices": [
+            "Pronom personnel",
+            "Article défini",
+            "Article indéfini",
+            "Article partitif"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Le' est ici un article défini (déterminant) : il accompagne le nom 'soleil' et le détermine de façon précise. Les articles définis sont : le, la, les, l'."
+        },
+        {
+          "question": "Quelle est la nature du mot 'chez' ?",
+          "choices": [
+            "Adverbe",
+            "Préposition",
+            "Conjonction",
+            "Pronom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Chez' est une préposition : elle introduit un complément (chez moi, chez le médecin). Elle indique le plus souvent un lieu d'habitation ou d'activité."
+        },
+        {
+          "question": "Quelle est la différence entre 'leur' et 'leurs' ?",
+          "choices": [
+            "Aucune",
+            "'Leur' est pronom personnel invariable, 'leurs' est déterminant possessif au pluriel",
+            "'Leur' est masculin, 'leurs' est féminin",
+            "'Leur' est singulier, 'leurs' est toujours pluriel"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Leur' pronom personnel (COI, devant un verbe) est toujours invariable. 'Leur'/'leurs' déterminant possessif s'accorde en nombre avec le nom qu'il accompagne (leur livre / leurs livres)."
+        },
+        {
+          "question": "Dans 'Nous sommes partis tôt', quelle est la nature de 'sommes' ?",
+          "choices": [
+            "Verbe d'état",
+            "Auxiliaire être",
+            "Pronom",
+            "Adverbe"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Sommes' est ici l'auxiliaire 'être' au présent, qui forme avec 'partis' (participe passé) le passé composé du verbe 'partir'. Ce n'est pas un verbe d'état dans ce contexte."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'quel' dans 'Quel temps fait-il ?' ?",
+          "choices": [
+            "Pronom interrogatif",
+            "Déterminant interrogatif",
+            "Adverbe",
+            "Adjectif"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Quel' accompagne ici le nom 'temps' : c'est un déterminant interrogatif. Il sert à poser une question portant sur le nom. Variables : quel, quelle, quels, quelles."
+        },
+        {
+          "question": "Parmi ces mots, lequel est un pronom relatif ?",
+          "choices": [
+            "lequel",
+            "celui",
+            "le mien",
+            "mon"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Lequel' est un pronom relatif (qui peut aussi être interrogatif). Les principaux pronoms relatifs sont : qui, que, quoi, dont, où, lequel (et ses formes : laquelle, lesquels, lesquelles)."
+        },
+        {
+          "question": "Dans 'Marche doucement et parle bas', combien y a-t-il d'adverbes ?",
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "Il y a deux adverbes : 'doucement' (modifie 'marche') et 'bas' (modifie 'parle'). 'Et' est une conjonction de coordination, pas un adverbe."
+        },
+        {
+          "question": "Quelle est la nature du mot 'tout' dans 'Tout va bien' ?",
+          "choices": [
+            "Adverbe",
+            "Pronom indéfini",
+            "Déterminant indéfini",
+            "Adjectif"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ici 'tout' est sujet du verbe 'va' : c'est un pronom indéfini. 'Tout' peut aussi être déterminant (tout le monde), adverbe (tout doucement) ou nom (le tout)."
+        },
+        {
+          "question": "Quelle est la classe grammaticale du mot 'eh bien' dans 'Eh bien, allons-y !' ?",
+          "choices": [
+            "Conjonction",
+            "Interjection",
+            "Adverbe",
+            "Préposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Eh bien' est une locution interjective (interjection). Les interjections expriment une émotion, un sentiment ou servent à interpeller. Elles sont invariables et autonomes."
+        }
+      ]
+    },
+    {
+      "id": "fonctions-grammaticales",
+      "title": "🎯 Fonctions grammaticales (rôle dans la phrase)",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "Dans la phrase 'Le chat dort sur le canapé', quel est le sujet du verbe ?",
+          "choices": [
+            "Le chat",
+            "dort",
+            "sur le canapé",
+            "le canapé"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le sujet est ce qui fait l'action du verbe. On le trouve en posant la question 'Qui est-ce qui dort ?' La reponse est 'le chat'."
+        },
+        {
+          "question": "Dans la phrase 'Marie mange une pomme', quelle est la fonction de 'une pomme' ?",
+          "choices": [
+            "Sujet",
+            "COI",
+            "COD",
+            "Attribut du sujet"
+          ],
+          "correctIndex": 2,
+          "explanation": "On pose la question 'Marie mange quoi ?' La reponse 'une pomme' est un complement d'objet direct (COD) car il est relie au verbe sans preposition."
+        },
+        {
+          "question": "Dans la phrase 'Il parle a son frere', quelle est la fonction de 'a son frere' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "Complement circonstanciel de lieu",
+            "Sujet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le groupe 'a son frere' repond a la question 'a qui ?' et est introduit par la preposition 'a'. C'est donc un complement d'objet indirect (COI)."
+        },
+        {
+          "question": "Dans 'Cette eleve est intelligente', quelle est la fonction de 'intelligente' ?",
+          "choices": [
+            "Epithete",
+            "COD",
+            "Attribut du sujet",
+            "Complement du nom"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'adjectif 'intelligente' est relie au sujet 'cette eleve' par le verbe d'etat 'est'. C'est donc un attribut du sujet."
+        },
+        {
+          "question": "Dans 'Une belle maison se dresse au loin', quelle est la fonction de 'belle' ?",
+          "choices": [
+            "Attribut du sujet",
+            "Epithete",
+            "Apposition",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'adjectif 'belle' est place directement a cote du nom 'maison', sans verbe d'etat. Il s'agit donc d'une epithete."
+        },
+        {
+          "question": "Dans 'Hier, nous sommes alles au cinema', quelle est la fonction de 'Hier' ?",
+          "choices": [
+            "Sujet",
+            "Complement circonstanciel de temps",
+            "Complement circonstanciel de lieu",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Hier' repond a la question 'quand ?'. C'est un complement circonstanciel de temps."
+        },
+        {
+          "question": "Dans 'Le livre de Pierre est sur la table', quelle est la fonction de 'de Pierre' ?",
+          "choices": [
+            "COI",
+            "Complement du nom",
+            "Attribut du sujet",
+            "Complement circonstanciel"
+          ],
+          "correctIndex": 1,
+          "explanation": "'De Pierre' complete le nom 'livre' et indique a qui appartient le livre. C'est un complement du nom (CDN)."
+        },
+        {
+          "question": "Dans 'Il pleut depuis ce matin', quelle est la nature du sujet 'il' ?",
+          "choices": [
+            "Sujet reel",
+            "Sujet impersonnel",
+            "COD",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pronom 'il' ne represente personne ici : il s'agit d'un sujet impersonnel, employe avec un verbe meteorologique."
+        },
+        {
+          "question": "Dans 'Je le vois', quelle est la fonction du pronom 'le' ?",
+          "choices": [
+            "Sujet",
+            "COD",
+            "COI",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les pronoms 'le, la, les' remplacent un COD. Ici, 'le' est complement d'objet direct du verbe 'vois'."
+        },
+        {
+          "question": "Dans 'Je lui parle', quelle est la fonction du pronom 'lui' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "Sujet",
+            "Complement d'agent"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les pronoms 'lui' et 'leur' remplacent un COI. Ici, 'lui' est complement d'objet indirect du verbe 'parle' (parler a quelqu'un)."
+        },
+        {
+          "question": "Dans 'Fatigue, l'enfant s'endormit aussitot', quelle est la fonction de 'Fatigue' ?",
+          "choices": [
+            "Epithete",
+            "Epithete detachee",
+            "Attribut du sujet",
+            "Apposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'adjectif 'Fatigue' est detache du nom 'enfant' par une virgule. Il s'agit d'une epithete detachee (ou adjectif appose)."
+        },
+        {
+          "question": "Dans 'Paris, capitale de la France, attire de nombreux touristes', quelle est la fonction de 'capitale de la France' ?",
+          "choices": [
+            "Sujet",
+            "Attribut du sujet",
+            "Apposition",
+            "COD"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le groupe nominal 'capitale de la France' designe la meme chose que 'Paris' et est detache par des virgules. C'est une apposition."
+        },
+        {
+          "question": "Dans 'La souris est mangee par le chat', quelle est la fonction de 'par le chat' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "Complement d'agent",
+            "Complement circonstanciel de moyen"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans une phrase a la voix passive, le groupe introduit par 'par' qui designe celui qui fait l'action est un complement d'agent."
+        },
+        {
+          "question": "Dans 'Pierre, viens ici !', quelle est la fonction de 'Pierre' ?",
+          "choices": [
+            "Sujet",
+            "Apostrophe",
+            "Apposition",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Pierre' designe la personne a qui l'on s'adresse. C'est une apostrophe (mot mis en apostrophe)."
+        },
+        {
+          "question": "Dans 'Il travaille pour reussir', quelle est la fonction de 'pour reussir' ?",
+          "choices": [
+            "CC de cause",
+            "CC de but",
+            "CC de moyen",
+            "CC de consequence"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Pour reussir' repond a la question 'dans quel but ?'. Introduit par 'pour' + infinitif, c'est un complement circonstanciel de but."
+        },
+        {
+          "question": "Dans 'Il est absent parce qu'il est malade', quelle est la fonction de la subordonnee ?",
+          "choices": [
+            "CC de cause",
+            "CC de but",
+            "CC de consequence",
+            "CC de condition"
+          ],
+          "correctIndex": 0,
+          "explanation": "La proposition introduite par 'parce que' indique la raison. Elle repond a 'pourquoi ?'. C'est un complement circonstanciel de cause."
+        },
+        {
+          "question": "Dans 'Il court si vite qu'il gagne toujours', la subordonnee 'qu'il gagne toujours' est :",
+          "choices": [
+            "CC de cause",
+            "CC de but",
+            "CC de consequence",
+            "CC de maniere"
+          ],
+          "correctIndex": 2,
+          "explanation": "La proposition introduite par 'si... que' exprime le resultat de l'action. C'est un complement circonstanciel de consequence."
+        },
+        {
+          "question": "Dans 'Si tu travailles, tu reussiras', quelle est la fonction de 'Si tu travailles' ?",
+          "choices": [
+            "CC de cause",
+            "CC de but",
+            "CC de condition",
+            "CC de temps"
+          ],
+          "correctIndex": 2,
+          "explanation": "La proposition introduite par 'si' indique a quelle condition l'action principale se realisera. C'est un CC de condition."
+        },
+        {
+          "question": "Dans 'Bien qu'il pleuve, nous sortons', quelle est la fonction de 'Bien qu'il pleuve' ?",
+          "choices": [
+            "CC de cause",
+            "CC de concession",
+            "CC de condition",
+            "CC de consequence"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Bien que' introduit une concession ou une opposition : l'action principale a lieu malgre un obstacle. C'est un CC de concession."
+        },
+        {
+          "question": "Dans 'Je trouve ce film passionnant', quelle est la fonction de 'passionnant' ?",
+          "choices": [
+            "Attribut du sujet",
+            "Attribut du COD",
+            "Epithete",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Passionnant' qualifie 'ce film', qui est le COD du verbe 'trouve'. C'est donc un attribut du COD."
+        },
+        {
+          "question": "Quelle est la fonction de 'rapidement' dans 'Il court rapidement' ?",
+          "choices": [
+            "CC de temps",
+            "CC de maniere",
+            "CC de lieu",
+            "Attribut du sujet"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Rapidement' repond a la question 'comment ?'. C'est un complement circonstanciel de maniere."
+        },
+        {
+          "question": "Dans 'Avec un marteau, il enfonce le clou', quelle est la fonction de 'Avec un marteau' ?",
+          "choices": [
+            "CC de maniere",
+            "CC de moyen",
+            "CC de cause",
+            "COI"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Avec un marteau' repond a la question 'avec quoi ?'. C'est un complement circonstanciel de moyen."
+        },
+        {
+          "question": "Dans 'Dans la foret, les oiseaux chantent', quelle est la fonction de 'Dans la foret' ?",
+          "choices": [
+            "CC de temps",
+            "CC de lieu",
+            "Sujet",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Dans la foret' repond a la question 'ou ?'. C'est un complement circonstanciel de lieu."
+        },
+        {
+          "question": "Dans 'Les enfants semblent fatigues', quelle est la fonction de 'fatigues' ?",
+          "choices": [
+            "Epithete",
+            "Attribut du sujet",
+            "COD",
+            "Apposition"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apres le verbe d'etat 'sembler', l'adjectif qualifie le sujet 'les enfants'. C'est un attribut du sujet."
+        },
+        {
+          "question": "Dans 'Le professeur explique la lecon aux eleves', quelle est la fonction de 'aux eleves' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "COS",
+            "CC de lieu"
+          ],
+          "correctIndex": 2,
+          "explanation": "'La lecon' est le COD du verbe 'explique'. 'Aux eleves' vient apres le COD : c'est un complement d'objet second (COS)."
+        },
+        {
+          "question": "Dans 'Vient ensuite le tour des champions', quel est le sujet ?",
+          "choices": [
+            "le tour des champions",
+            "Vient",
+            "ensuite",
+            "des champions"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le sujet est inverse (place apres le verbe). On pose 'qui est-ce qui vient ?' : la reponse est 'le tour des champions'."
+        },
+        {
+          "question": "Dans 'Je pense a mes vacances', quelle est la fonction de 'a mes vacances' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "CC de temps",
+            "CDN"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le verbe 'penser' se construit avec la preposition 'a'. 'A mes vacances' est donc un COI (penser a quelque chose)."
+        },
+        {
+          "question": "Dans 'Le chien que j'ai vu hier', quelle est la fonction de 'que' ?",
+          "choices": [
+            "Sujet",
+            "COD",
+            "COI",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pronom relatif 'que' reprend 'le chien' et est COD du verbe 'ai vu' (j'ai vu qui ? le chien)."
+        },
+        {
+          "question": "Dans 'La fille qui chante est ma soeur', quelle est la fonction de 'qui' ?",
+          "choices": [
+            "COD",
+            "Sujet",
+            "COI",
+            "Complement d'agent"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pronom relatif 'qui' est sujet du verbe 'chante' (qui est-ce qui chante ? la fille)."
+        },
+        {
+          "question": "Dans la phrase passive 'La voiture a ete reparee par le mecanicien', quel etait le sujet dans la phrase active ?",
+          "choices": [
+            "La voiture",
+            "le mecanicien",
+            "a ete reparee",
+            "par"
+          ],
+          "correctIndex": 1,
+          "explanation": "A la voix active, on dirait 'Le mecanicien a repare la voiture'. Le complement d'agent de la voix passive correspond au sujet de la voix active."
+        },
+        {
+          "question": "Quand on transforme 'Le chat mange la souris' au passif, que devient 'la souris' ?",
+          "choices": [
+            "Complement d'agent",
+            "Sujet",
+            "COD",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lors du passage actif vers passif, le COD ('la souris') devient sujet de la phrase passive : 'La souris est mangee par le chat'."
+        },
+        {
+          "question": "Dans 'Les pommes que j'ai mangees etaient delicieuses', pourquoi 'mangees' s'accorde-t-il au feminin pluriel ?",
+          "choices": [
+            "Parce que le sujet est feminin pluriel",
+            "Parce que le COD 'que' est place avant et reprend 'pommes'",
+            "Parce que le COI est avant",
+            "Parce que c'est un verbe d'etat"
+          ],
+          "correctIndex": 1,
+          "explanation": "Avec l'auxiliaire avoir, le participe passe s'accorde avec le COD si celui-ci est place avant le verbe. Ici, 'que' (= les pommes) est COD et est place avant 'ai mangees'."
+        },
+        {
+          "question": "Dans 'Elle est devenue medecin', quelle est la fonction de 'medecin' ?",
+          "choices": [
+            "COD",
+            "Attribut du sujet",
+            "Apposition",
+            "Complement du nom"
+          ],
+          "correctIndex": 1,
+          "explanation": "Apres le verbe d'etat 'devenir', le mot 'medecin' qualifie le sujet 'elle'. C'est un attribut du sujet."
+        },
+        {
+          "question": "Dans 'Il a achete un livre a sa soeur', quelle est la fonction de 'a sa soeur' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "COS",
+            "CC de lieu"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Un livre' est COD ('il a achete quoi ?'). 'A sa soeur' vient apres le COD et complete aussi le verbe : c'est un COS (complement d'objet second)."
+        },
+        {
+          "question": "Dans 'Pendant les vacances, j'ai lu trois romans', quelle est la fonction de 'Pendant les vacances' ?",
+          "choices": [
+            "CC de temps",
+            "CC de lieu",
+            "CC de maniere",
+            "Sujet"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Pendant les vacances' indique le moment de l'action et repond a 'quand ?'. C'est un CC de temps."
+        },
+        {
+          "question": "Dans 'Mon oncle, un homme genereux, habite Paris', quelle est la fonction de 'un homme genereux' ?",
+          "choices": [
+            "Sujet",
+            "Attribut",
+            "Apposition",
+            "COD"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le groupe nominal 'un homme genereux' designe la meme personne que 'mon oncle' et est detache par des virgules. C'est une apposition."
+        },
+        {
+          "question": "Dans 'Ce gateau au chocolat est delicieux', quelle est la fonction de 'au chocolat' ?",
+          "choices": [
+            "Attribut",
+            "Complement du nom",
+            "COI",
+            "Epithete"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Au chocolat' complete le nom 'gateau' (introduit par la preposition 'a'). C'est un complement du nom (CDN)."
+        },
+        {
+          "question": "Dans 'Elle leur donne des bonbons', quelle est la fonction de 'leur' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "Sujet",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pronom 'leur' (sans 's') remplace un COI : donner a quelqu'un. Il est complement d'objet indirect du verbe 'donne'."
+        },
+        {
+          "question": "Dans 'Il a achete une voiture neuve', quelle est la fonction de 'neuve' ?",
+          "choices": [
+            "Attribut du sujet",
+            "Attribut du COD",
+            "Epithete",
+            "Apposition"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Neuve' qualifie directement le nom 'voiture' sans verbe d'etat ni virgule. C'est une epithete (liee au nom)."
+        },
+        {
+          "question": "Dans 'Les eleves ecoutent attentivement le professeur', quelle est la fonction de 'attentivement' ?",
+          "choices": [
+            "CC de temps",
+            "CC de maniere",
+            "CC de lieu",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Attentivement' repond a 'comment ?'. C'est un complement circonstanciel de maniere."
+        },
+        {
+          "question": "Dans 'Malgre la pluie, nous sommes sortis', quelle est la fonction de 'Malgre la pluie' ?",
+          "choices": [
+            "CC de cause",
+            "CC de concession",
+            "CC de moyen",
+            "CC de but"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Malgre' introduit un obstacle qui n'empeche pas l'action. C'est un complement circonstanciel de concession (ou d'opposition)."
+        },
+        {
+          "question": "Dans 'Je crois qu'il a raison', quelle est la fonction de la subordonnee 'qu'il a raison' ?",
+          "choices": [
+            "COD",
+            "COI",
+            "Sujet",
+            "Attribut"
+          ],
+          "correctIndex": 0,
+          "explanation": "La proposition completive 'qu'il a raison' repond a 'je crois quoi ?'. Elle est COD du verbe 'crois'."
+        },
+        {
+          "question": "Quel mot ne peut PAS etre attribut du sujet ?",
+          "choices": [
+            "Un adjectif",
+            "Un nom",
+            "Un verbe a l'infinitif",
+            "Un adverbe de lieu"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'attribut du sujet est generalement un adjectif, un nom ou un groupe nominal, parfois un infinitif. Un adverbe de lieu indique plutot une circonstance."
+        },
+        {
+          "question": "Dans 'Il rentre chez lui', quelle est la fonction de 'chez lui' ?",
+          "choices": [
+            "COI",
+            "CC de lieu",
+            "CC de maniere",
+            "Attribut"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Chez lui' repond a la question 'ou ?'. C'est un complement circonstanciel de lieu."
+        },
+        {
+          "question": "Identifie la phrase ou 'belle' est attribut du sujet :",
+          "choices": [
+            "Une belle maison se dresse la",
+            "Cette maison est belle",
+            "La belle voiture rouge passe",
+            "J'ai vu une belle fleur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans 'Cette maison est belle', l'adjectif 'belle' est relie au sujet 'cette maison' par le verbe d'etat 'est'. C'est un attribut du sujet."
+        },
+        {
+          "question": "Dans 'Pour ses bons resultats, on l'a felicite', quelle est la fonction de 'Pour ses bons resultats' ?",
+          "choices": [
+            "CC de but",
+            "CC de cause",
+            "CC de moyen",
+            "COI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ici, 'pour' introduit la raison des felicitations. Cela repond a 'pourquoi ?'. C'est un complement circonstanciel de cause."
+        },
+        {
+          "question": "Dans 'Le voleur a ete arrete par les policiers', quel est le sujet ?",
+          "choices": [
+            "les policiers",
+            "Le voleur",
+            "par les policiers",
+            "a ete arrete"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans cette phrase passive, on pose 'qui est-ce qui a ete arrete ?'. Le sujet est 'le voleur', et 'par les policiers' est le complement d'agent."
+        },
+        {
+          "question": "Dans 'Elle ecrit une lettre a son ami avec un stylo rouge', quelle est la fonction de 'avec un stylo rouge' ?",
+          "choices": [
+            "COI",
+            "CC de moyen",
+            "CC de maniere",
+            "Complement du nom"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Avec un stylo rouge' indique l'instrument utilise pour ecrire et repond a 'avec quoi ?'. C'est un complement circonstanciel de moyen."
+        },
+        {
+          "question": "Dans 'Le tableau peint par Picasso est celebre', quelle est la fonction de 'par Picasso' ?",
+          "choices": [
+            "Complement d'agent",
+            "COI",
+            "CC de moyen",
+            "Complement du nom"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le participe 'peint' a une valeur passive : 'peint par Picasso' signifie 'qui a ete peint par Picasso'. 'Par Picasso' est donc complement d'agent."
+        },
+        {
+          "question": "Dans 'Pierre est plus grand que son frere', quelle est la fonction de 'plus grand' ?",
+          "choices": [
+            "Epithete",
+            "Attribut du sujet",
+            "Apposition",
+            "COD"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'adjectif 'grand' (au comparatif) suit le verbe d'etat 'est' et qualifie le sujet 'Pierre'. C'est un attribut du sujet."
+        }
+      ]
+    },
+    {
       "id": "figures-de-style",
       "title": "Figures de style",
       "questions": [
