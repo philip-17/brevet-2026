@@ -11,6 +11,7 @@ const DESIGN_COLORS: Record<string, string> = {
   francais: '#ff7a7a',
   'histoire-geo': '#ffc26a',
   sciences: '#7af0c2',
+  automatismes: '#22d3ee',
 }
 
 const SUBJECT_TAGS: Record<string, string> = {
@@ -18,6 +19,7 @@ const SUBJECT_TAGS: Record<string, string> = {
   francais: 'Grammaire · Texte · Brevet',
   'histoire-geo': '20e · Géopolitique · EMC',
   sciences: 'SVT · Physique · Techno',
+  automatismes: 'Réflexes · DNB 2026 · QCM',
 }
 
 // Bandeau marquee — extraits de thèmes Culture G
@@ -554,7 +556,7 @@ function BrevetSection({ totalBrevetQuestions }: { totalBrevetQuestions: number 
           <span className="bb-grad-blue-mint">ton brevet</span>
         </h2>
         <p className="bb-section-lead">
-          4 matières, {totalChapters} chapitres,{' '}
+          {BREVET_SUBJECTS.length} matières, {totalChapters} chapitres,{' '}
           <span style={{ color: '#f4f4f8' }}>{totalBrevetQuestions} questions</span>{' '}
           corrigées. Choisis ta matière et lance-toi.
         </p>

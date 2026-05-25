@@ -13,14 +13,17 @@ export default function QuizPage() {
   // (sinon chaque re-render re-mélange et l'index saute)
   // On mélange aussi l'ordre des CHOIX pour éviter le biais
   // (certaines sources ont toutes les bonnes réponses en position A)
-  const questions = useMemo(
-    () =>
-      ctx
-        ? shuffle(ctx.chapter.questions).map(shuffleQuestionChoices)
-        : [],
+  // On limite à 20 questions max par session pour éviter les quiz
+  // interminables (les chapitres d'Automatismes ont jusqu'à 175 questions)
+  const MAX_PER_SESSION = 20
+  const questions = useMemo(() => {
+    if (!ctx) return []
+    const shuffled = shuffle(ctx.chapter.questions).map(shuffleQuestionChoices)
+    return shuffled.length > MAX_PER_SESSION
+      ? shuffled.slice(0, MAX_PER_SESSION)
+      : shuffled
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [subjectId, chapterId]
-  )
+  }, [subjectId, chapterId])
 
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
