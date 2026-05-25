@@ -5,42 +5,1399 @@
   "color": "#f59e0b",
   "chapters": [
     {
+      "id": "vocab-hg-3e",
+      "title": "📚 Vocabulaire HG (120 termes officiels)",
+      "isNew": true,
+      "questions": [
+        {
+          "question": "Que signifie le terme « guerre totale » ?",
+          "choices": [
+            "Une guerre qui dure plus de 10 ans",
+            "Une guerre qui mobilise toutes les ressources (humaines, économiques, idéologiques) d'un pays",
+            "Une guerre menée sur tous les continents",
+            "Une guerre qui se termine par une victoire totale d'un camp"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une guerre qui mobilise toutes les ressources (humaines, économiques, idéologiques) d'un pays ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un « poilu » ?",
+          "choices": [
+            "Un officier allemand de la Première Guerre mondiale",
+            "Un soldat français de la Première Guerre mondiale",
+            "Un déserteur de l'armée française",
+            "Un civil réquisitionné pour creuser les tranchées"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un soldat français de la Première Guerre mondiale ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Que désigne le mot « armistice » ?",
+          "choices": [
+            "Un traité de paix définitif",
+            "Une déclaration de guerre",
+            "Un accord pour suspendre les combats",
+            "Une alliance militaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "Réponse : « Un accord pour suspendre les combats ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un génocide ?",
+          "choices": [
+            "Une bataille particulièrement meurtrière",
+            "L'extermination programmée et systématique d'un peuple",
+            "Une famine causée par la guerre",
+            "Le bombardement d'une ville"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'extermination programmée et systématique d'un peuple ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Le génocide arménien a eu lieu sous quel empire ?",
+          "choices": [
+            "L'Empire austro-hongrois",
+            "L'Empire ottoman",
+            "L'Empire russe",
+            "L'Empire allemand"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'Empire ottoman ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que la « guerre de position » ?",
+          "choices": [
+            "Une guerre menée à distance avec de l'artillerie",
+            "Une guerre où les armées se font face dans des tranchées sans grand mouvement",
+            "Une guerre navale",
+            "Une guerre d'invasion rapide"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une guerre où les armées se font face dans des tranchées sans grand mouvement ». 🏛️ Histoire — Première Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un régime totalitaire ?",
+          "choices": [
+            "Un régime démocratique strict",
+            "Un régime qui contrôle tous les aspects de la vie et impose une idéologie unique",
+            "Une monarchie absolue",
+            "Un régime militaire temporaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un régime qui contrôle tous les aspects de la vie et impose une idéologie unique ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Que désigne la « propagande » ?",
+          "choices": [
+            "L'ensemble des moyens utilisés pour influencer l'opinion publique",
+            "Une forme de gouvernement républicain",
+            "Un journal d'opposition",
+            "Un parti politique d'extrême-gauche"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « L'ensemble des moyens utilisés pour influencer l'opinion publique ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Qu'est-ce qu'un « culte de la personnalité » ?",
+          "choices": [
+            "L'admiration spontanée d'un peuple pour son dirigeant",
+            "La glorification organisée et exagérée d'un chef d'État",
+            "L'étude du caractère des hommes politiques",
+            "Une religion d'État"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La glorification organisée et exagérée d'un chef d'État ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Que signifie « antisémitisme » ?",
+          "choices": [
+            "L'hostilité envers les chrétiens",
+            "L'hostilité envers les Juifs",
+            "L'hostilité envers les étrangers en général",
+            "L'hostilité envers les musulmans"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'hostilité envers les Juifs ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Qu'est-ce que le « nazisme » ?",
+          "choices": [
+            "L'idéologie communiste de Lénine",
+            "L'idéologie nationaliste, raciste et antisémite de Hitler",
+            "Le mouvement fasciste italien",
+            "Une doctrine économique allemande"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'idéologie nationaliste, raciste et antisémite de Hitler ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Qu'est-ce qu'un « kolkhoze » ?",
+          "choices": [
+            "Un camp de prisonniers soviétique",
+            "Une exploitation agricole collective en URSS",
+            "Une usine d'armement soviétique",
+            "Un parti politique russe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une exploitation agricole collective en URSS ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Que désigne le « goulag » ?",
+          "choices": [
+            "La police politique soviétique",
+            "Le système de camps de travail forcé en URSS",
+            "Le parlement de l'URSS",
+            "Le journal officiel du parti communiste"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le système de camps de travail forcé en URSS ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Qu'est-ce que le Front populaire (1936) ?",
+          "choices": [
+            "Une alliance militaire entre la France et l'URSS",
+            "Une coalition de partis de gauche arrivée au pouvoir en France",
+            "Un mouvement d'extrême droite français",
+            "Un syndicat ouvrier européen"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une coalition de partis de gauche arrivée au pouvoir en France ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Que signifie « démocratie » ?",
+          "choices": [
+            "Un régime où le pouvoir est exercé par un seul homme",
+            "Un régime politique dans lequel le peuple détient le pouvoir",
+            "Un régime dirigé par les militaires",
+            "Un régime religieux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un régime politique dans lequel le peuple détient le pouvoir ». 🏛️ Histoire — Entre-deux-guerres."
+        },
+        {
+          "question": "Qu'est-ce que la « Blitzkrieg » ?",
+          "choices": [
+            "Une guerre de tranchées",
+            "Une guerre éclair fondée sur la rapidité des chars et de l'aviation",
+            "Une guerre civile",
+            "Une guerre coloniale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une guerre éclair fondée sur la rapidité des chars et de l'aviation ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'appelle-t-on la « Shoah » ?",
+          "choices": [
+            "L'extermination des Juifs d'Europe par les nazis",
+            "Le bombardement de Londres",
+            "L'invasion de l'URSS",
+            "La libération des camps en 1945"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « L'extermination des Juifs d'Europe par les nazis ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un camp d'extermination ?",
+          "choices": [
+            "Un camp où sont enfermés les prisonniers de guerre",
+            "Un camp destiné à la mise à mort massive et industrielle de déportés",
+            "Un camp de travail pour les civils",
+            "Un camp d'entraînement militaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un camp destiné à la mise à mort massive et industrielle de déportés ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Que désigne la « collaboration » sous Vichy ?",
+          "choices": [
+            "Le travail commun entre la France et le Royaume-Uni",
+            "La coopération volontaire du régime de Vichy avec l'Allemagne nazie",
+            "L'aide aux Juifs persécutés",
+            "Le soutien à la Résistance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La coopération volontaire du régime de Vichy avec l'Allemagne nazie ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que la Résistance ?",
+          "choices": [
+            "L'armée française régulière en 1940",
+            "L'ensemble des actions menées contre l'occupant nazi et le régime de Vichy",
+            "Le gouvernement de Vichy",
+            "Une organisation syndicale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'ensemble des actions menées contre l'occupant nazi et le régime de Vichy ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qui était le chef de la France libre depuis Londres ?",
+          "choices": [
+            "Philippe Pétain",
+            "Pierre Laval",
+            "Charles de Gaulle",
+            "Jean Moulin"
+          ],
+          "correctIndex": 2,
+          "explanation": "Réponse : « Charles de Gaulle ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que le STO (Service du Travail Obligatoire) ?",
+          "choices": [
+            "Une obligation pour les Français d'aller travailler en Allemagne",
+            "Un service militaire renforcé",
+            "Une école obligatoire pour les jeunes",
+            "Un travail bénévole pour la Résistance"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Une obligation pour les Français d'aller travailler en Allemagne ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Que désigne la « rafle » ?",
+          "choices": [
+            "Une bataille rangée entre deux armées",
+            "Une arrestation massive et soudaine de personnes",
+            "Un bombardement aérien",
+            "Une opération de sauvetage"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une arrestation massive et soudaine de personnes ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un « crime contre l'humanité » ?",
+          "choices": [
+            "Un meurtre commis en temps de paix",
+            "Un acte inhumain commis de façon systématique contre des civils, imprescriptible",
+            "Un crime économique de grande ampleur",
+            "Une trahison envers son pays"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un acte inhumain commis de façon systématique contre des civils, imprescriptible ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Que désigne le mot « épuration » à la Libération ?",
+          "choices": [
+            "Le nettoyage des villes bombardées",
+            "Le jugement et la sanction des collaborateurs",
+            "La purification de l'eau dans les villes",
+            "L'expulsion des immigrés"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le jugement et la sanction des collaborateurs ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que le débarquement ?",
+          "choices": [
+            "Le retour des soldats à la maison",
+            "Une opération militaire par laquelle des troupes débarquent sur une côte ennemie",
+            "Le déchargement de marchandises dans un port",
+            "Le départ des Allemands de France"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une opération militaire par laquelle des troupes débarquent sur une côte ennemie ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que l'ONU ?",
+          "choices": [
+            "L'Organisation Nationale Unifiée",
+            "L'Organisation des Nations Unies, créée en 1945 pour maintenir la paix",
+            "Une alliance militaire occidentale",
+            "Un syndicat international"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'Organisation des Nations Unies, créée en 1945 pour maintenir la paix ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que le procès de Nuremberg (1945-46) ?",
+          "choices": [
+            "Le procès des résistants français",
+            "Le procès des dirigeants nazis pour crimes de guerre et contre l'humanité",
+            "Un procès d'espionnage soviétique",
+            "Le procès de Pétain"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le procès des dirigeants nazis pour crimes de guerre et contre l'humanité ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce qu'un « déporté » ?",
+          "choices": [
+            "Un soldat envoyé au front",
+            "Une personne arrêtée et transférée de force dans un camp",
+            "Un réfugié politique",
+            "Un prisonnier libéré"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une personne arrêtée et transférée de force dans un camp ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que la « solution finale » ?",
+          "choices": [
+            "La fin officielle de la guerre en 1945",
+            "Le plan nazi d'extermination systématique des Juifs d'Europe",
+            "Le plan de reconstruction de l'Europe",
+            "La capitulation de l'Allemagne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le plan nazi d'extermination systématique des Juifs d'Europe ». 🏛️ Histoire — Seconde Guerre mondiale."
+        },
+        {
+          "question": "Qu'est-ce que la Guerre froide ?",
+          "choices": [
+            "Une guerre menée dans les régions polaires",
+            "Une période de tensions entre les États-Unis et l'URSS sans affrontement direct",
+            "Une guerre commerciale entre l'Europe et l'Asie",
+            "Un conflit climatique mondial"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une période de tensions entre les États-Unis et l'URSS sans affrontement direct ». 🏛️ Histoire — Guerre froide."
+        },
+        {
+          "question": "Que signifie « bloc » dans le contexte de la Guerre froide ?",
+          "choices": [
+            "Un ensemble d'États regroupés autour d'une superpuissance",
+            "Une fortification militaire",
+            "Un quartier d'une grande ville",
+            "Un groupe d'îles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Un ensemble d'États regroupés autour d'une superpuissance ». 🏛️ Histoire — Guerre froide."
+        },
+        {
+          "question": "Qu'est-ce que le « rideau de fer » ?",
+          "choices": [
+            "Une véritable barrière métallique en Europe",
+            "La frontière idéologique séparant l'Europe de l'Ouest du bloc soviétique",
+            "Un système de défense aérienne",
+            "Un traité commercial"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La frontière idéologique séparant l'Europe de l'Ouest du bloc soviétique ». 🏛️ Histoire — Guerre froide."
+        },
+        {
+          "question": "Qu'est-ce que l'OTAN ?",
+          "choices": [
+            "L'Organisation des Travailleurs d'Amérique du Nord",
+            "Une alliance militaire des pays occidentaux contre l'URSS",
+            "Un organisme de l'ONU",
+            "Une organisation économique européenne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une alliance militaire des pays occidentaux contre l'URSS ». 🏛️ Histoire — Guerre froide."
+        },
+        {
+          "question": "Qu'est-ce que la décolonisation ?",
+          "choices": [
+            "L'installation de nouvelles colonies",
+            "Le processus d'accession à l'indépendance des anciennes colonies",
+            "La modernisation des colonies",
+            "Le retour des colons en métropole"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le processus d'accession à l'indépendance des anciennes colonies ». 🏛️ Histoire — Décolonisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une métropole (au sens colonial) ?",
+          "choices": [
+            "Une grande ville moderne",
+            "L'État qui possède des colonies",
+            "Une ville colonisée",
+            "Une capitale administrative"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'État qui possède des colonies ». 🏛️ Histoire — Décolonisation."
+        },
+        {
+          "question": "Qu'est-ce que le tiers-monde ?",
+          "choices": [
+            "Les pays neutres pendant la Guerre froide",
+            "Les pays nouvellement indépendants et en développement, non alignés sur un bloc",
+            "Le troisième continent découvert",
+            "Les pays communistes d'Asie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Les pays nouvellement indépendants et en développement, non alignés sur un bloc ». 🏛️ Histoire — Décolonisation."
+        },
+        {
+          "question": "Qu'est-ce que la guerre d'Algérie (1954-1962) ?",
+          "choices": [
+            "Une guerre civile espagnole",
+            "Une guerre d'indépendance contre la colonisation française",
+            "Un conflit entre l'Algérie et le Maroc",
+            "Une guerre de religion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une guerre d'indépendance contre la colonisation française ». 🏛️ Histoire — Décolonisation."
+        },
+        {
+          "question": "Qu'est-ce que la CECA (1951) ?",
+          "choices": [
+            "La Communauté Européenne du Charbon et de l'Acier, première étape de la construction européenne",
+            "Une organisation militaire européenne",
+            "Une chambre de commerce européenne",
+            "Une banque centrale européenne"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « La Communauté Européenne du Charbon et de l'Acier, première étape de la construction européenne ». 🏛️ Histoire — Construction européenne."
+        },
+        {
+          "question": "Que sont les traités de Rome (1957) ?",
+          "choices": [
+            "Les traités créant la Communauté Économique Européenne (CEE)",
+            "Les traités de paix de 1945",
+            "Les traités fondateurs de l'ONU",
+            "Les accords entre l'Italie et l'Allemagne"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Les traités créant la Communauté Économique Européenne (CEE) ». 🏛️ Histoire — Construction européenne."
+        },
+        {
+          "question": "Qu'est-ce qu'une république ?",
+          "choices": [
+            "Un régime où le pouvoir est héréditaire",
+            "Un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus",
+            "Une dictature militaire",
+            "Une fédération de provinces"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Qu'est-ce qu'une constitution ?",
+          "choices": [
+            "Une loi fiscale",
+            "Le texte fondamental qui définit l'organisation des pouvoirs d'un État",
+            "Un règlement intérieur",
+            "Un programme politique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le texte fondamental qui définit l'organisation des pouvoirs d'un État ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Que désigne le « suffrage universel » ?",
+          "choices": [
+            "Le droit de vote accordé à tous les citoyens majeurs",
+            "Le droit de vote réservé aux hommes",
+            "Le vote des seuls propriétaires",
+            "Le vote indirect par des grands électeurs"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Le droit de vote accordé à tous les citoyens majeurs ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Qu'est-ce qu'un référendum ?",
+          "choices": [
+            "Une consultation directe des citoyens par oui ou non sur une question",
+            "Un vote au Parlement",
+            "Une élection présidentielle",
+            "Un sondage d'opinion"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Une consultation directe des citoyens par oui ou non sur une question ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Qu'est-ce que la cohabitation ?",
+          "choices": [
+            "Le fait que plusieurs partis gouvernent ensemble",
+            "Une situation où le président et le Premier ministre sont de tendances politiques opposées",
+            "Le partage du logement entre étudiants",
+            "Une alliance internationale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une situation où le président et le Premier ministre sont de tendances politiques opposées ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Qu'est-ce que la laïcité ?",
+          "choices": [
+            "L'interdiction de toutes les religions",
+            "Le principe de séparation des Églises et de l'État, garantissant la liberté de conscience",
+            "L'obligation d'avoir une religion",
+            "Une religion officielle d'État"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le principe de séparation des Églises et de l'État, garantissant la liberté de conscience ». 🏛️ Histoire — Ve République."
+        },
+        {
+          "question": "Que sont les « Trente Glorieuses » ?",
+          "choices": [
+            "Trente batailles victorieuses de l'armée française",
+            "La période de forte croissance économique de 1945 à 1975",
+            "Trente années de guerres coloniales",
+            "Trente ans de Ve République"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La période de forte croissance économique de 1945 à 1975 ». 🏛️ Histoire — France depuis 1945."
+        },
+        {
+          "question": "Qu'est-ce que l'État-providence ?",
+          "choices": [
+            "Un État dirigé par un roi bienveillant",
+            "Un État qui prend en charge la protection sociale (santé, retraite, chômage)",
+            "Un État religieux",
+            "Un État sans impôts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un État qui prend en charge la protection sociale (santé, retraite, chômage) ». 🏛️ Histoire — France depuis 1945."
+        },
+        {
+          "question": "Qu'est-ce que la parité (en politique) ?",
+          "choices": [
+            "L'égalité des salaires entre tous les fonctionnaires",
+            "L'égalité du nombre de femmes et d'hommes dans les fonctions politiques",
+            "L'égalité entre majorité et opposition",
+            "L'équivalence entre deux monnaies"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'égalité du nombre de femmes et d'hommes dans les fonctions politiques ». 🏛️ Histoire — France depuis 1945."
+        },
+        {
+          "question": "Qu'est-ce qu'un média ?",
+          "choices": [
+            "Un moyen de diffusion de l'information vers un large public",
+            "Un journal uniquement papier",
+            "Un appareil électronique",
+            "Un service public d'État"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Un moyen de diffusion de l'information vers un large public ». 🏛️ Histoire — France depuis 1945."
+        },
+        {
+          "question": "Qu'est-ce que la mondialisation ?",
+          "choices": [
+            "La domination d'un seul pays sur le monde",
+            "La mise en relation des différentes parties du monde par l'intensification des échanges",
+            "L'unification politique du monde",
+            "La création d'un gouvernement mondial"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La mise en relation des différentes parties du monde par l'intensification des échanges ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une FTN (Firme Transnationale) ?",
+          "choices": [
+            "Une entreprise locale",
+            "Une entreprise qui possède des activités dans plusieurs pays",
+            "Une entreprise d'État",
+            "Une association internationale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une entreprise qui possède des activités dans plusieurs pays ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'un flux ?",
+          "choices": [
+            "Une frontière naturelle",
+            "Un déplacement (de marchandises, de personnes, d'informations, de capitaux)",
+            "Un type de climat",
+            "Une montagne en formation"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un déplacement (de marchandises, de personnes, d'informations, de capitaux) ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'un hub ?",
+          "choices": [
+            "Un quartier d'affaires",
+            "Une plateforme de correspondance pour les flux (aérien, portuaire...)",
+            "Un type de marchandise",
+            "Une zone industrielle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une plateforme de correspondance pour les flux (aérien, portuaire...) ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'un conteneur ?",
+          "choices": [
+            "Un grand bateau de croisière",
+            "Une caisse métallique standardisée servant au transport de marchandises",
+            "Un entrepôt portuaire",
+            "Un camion de livraison"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une caisse métallique standardisée servant au transport de marchandises ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Que désigne la « façade maritime » ?",
+          "choices": [
+            "Le front de mer d'une station balnéaire",
+            "Un littoral concentrant de grands ports et des activités économiques importantes",
+            "La frontière maritime d'un pays",
+            "Une plage très fréquentée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un littoral concentrant de grands ports et des activités économiques importantes ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une métropole mondiale ?",
+          "choices": [
+            "Une capitale politique",
+            "Une grande ville qui concentre des fonctions de commandement à l'échelle mondiale",
+            "Une ville très peuplée seulement",
+            "Une ville côtière"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une grande ville qui concentre des fonctions de commandement à l'échelle mondiale ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une mégalopole ?",
+          "choices": [
+            "Une très grande ville isolée",
+            "Un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles",
+            "Un quartier d'affaires",
+            "Une ville historique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Que sont les pays émergents ?",
+          "choices": [
+            "Des pays qui viennent d'obtenir leur indépendance",
+            "Des pays connaissant une forte croissance économique et s'intégrant à la mondialisation",
+            "Des pays les plus pauvres du monde",
+            "Des pays insulaires récents"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Des pays connaissant une forte croissance économique et s'intégrant à la mondialisation ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Que désigne un « PMA » ?",
+          "choices": [
+            "Un Pays à Monnaie Africaine",
+            "Un Pays les Moins Avancés, pays les plus pauvres du monde",
+            "Un Port Maritime Actif",
+            "Un Programme Mondial d'Aide"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un Pays les Moins Avancés, pays les plus pauvres du monde ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une délocalisation ?",
+          "choices": [
+            "Le déplacement d'une entreprise vers un pays où les coûts sont plus faibles",
+            "Le déménagement d'une famille",
+            "La fermeture définitive d'une usine",
+            "L'agrandissement d'un site industriel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Le déplacement d'une entreprise vers un pays où les coûts sont plus faibles ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une ZIP (Zone Industrialo-Portuaire) ?",
+          "choices": [
+            "Une zone interdite à l'industrie",
+            "Un vaste espace combinant port, industries et entrepôts",
+            "Une zone touristique côtière",
+            "Une zone militaire portuaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un vaste espace combinant port, industries et entrepôts ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'un paradis fiscal ?",
+          "choices": [
+            "Un pays où l'on ne paye aucun impôt sur la consommation",
+            "Un territoire à fiscalité très faible attirant les capitaux étrangers",
+            "Un pays riche en ressources naturelles",
+            "Un pays sans dette publique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un territoire à fiscalité très faible attirant les capitaux étrangers ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une migration ?",
+          "choices": [
+            "Le déplacement saisonnier d'animaux uniquement",
+            "Le déplacement durable de personnes d'un lieu à un autre",
+            "Un changement de quartier dans une ville",
+            "Un voyage touristique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le déplacement durable de personnes d'un lieu à un autre ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce que la fracture numérique ?",
+          "choices": [
+            "La panne mondiale d'Internet",
+            "Les inégalités d'accès aux technologies numériques entre territoires ou populations",
+            "La rupture d'un câble sous-marin",
+            "Le piratage informatique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Les inégalités d'accès aux technologies numériques entre territoires ou populations ». 🌍 Géographie — Mondialisation."
+        },
+        {
+          "question": "Qu'est-ce qu'une aire urbaine (ou aire d'attraction des villes) ?",
+          "choices": [
+            "Le centre historique d'une ville",
+            "Un ensemble formé par une ville-centre et les communes sous son influence",
+            "Une zone industrielle de banlieue",
+            "Un quartier résidentiel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un ensemble formé par une ville-centre et les communes sous son influence ». 🌍 Géographie — France - territoires."
+        },
+        {
+          "question": "Qu'est-ce que la périurbanisation ?",
+          "choices": [
+            "Le départ massif des habitants vers les campagnes lointaines",
+            "L'extension de la ville vers ses périphéries, sous forme de lotissements",
+            "La destruction des banlieues",
+            "L'urbanisation des centres anciens"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'extension de la ville vers ses périphéries, sous forme de lotissements ». 🌍 Géographie — France - territoires."
+        },
+        {
+          "question": "Qu'est-ce que l'étalement urbain ?",
+          "choices": [
+            "La densification des centres-villes",
+            "L'extension spatiale de la ville, qui consomme beaucoup d'espace",
+            "La construction de gratte-ciels",
+            "La rénovation urbaine"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'extension spatiale de la ville, qui consomme beaucoup d'espace ». 🌍 Géographie — France - territoires."
+        },
+        {
+          "question": "Qu'est-ce qu'une banlieue ?",
+          "choices": [
+            "Une zone agricole",
+            "L'espace urbanisé qui entoure une ville-centre",
+            "Le quartier d'affaires",
+            "Une commune rurale isolée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'espace urbanisé qui entoure une ville-centre ». 🌍 Géographie — France - territoires."
+        },
+        {
+          "question": "Que désigne la « diagonale du vide » en France ?",
+          "choices": [
+            "Une zone de tempêtes fréquentes",
+            "Une zone allant des Ardennes aux Landes peu peuplée et peu dynamique",
+            "Un corridor industriel",
+            "Une zone montagneuse touristique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une zone allant des Ardennes aux Landes peu peuplée et peu dynamique ». 🌍 Géographie — France - territoires."
+        },
+        {
+          "question": "Qu'est-ce qu'un espace productif ?",
+          "choices": [
+            "Un espace consacré aux loisirs",
+            "Un espace aménagé pour une activité économique (agricole, industrielle, de services...)",
+            "Une réserve naturelle",
+            "Un espace résidentiel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace aménagé pour une activité économique (agricole, industrielle, de services...) ». 🌍 Géographie — France - espaces productifs."
+        },
+        {
+          "question": "Qu'est-ce que l'agriculture productiviste ?",
+          "choices": [
+            "Une agriculture biologique de petite échelle",
+            "Une agriculture intensive cherchant un rendement maximal",
+            "Une agriculture traditionnelle",
+            "Une agriculture vivrière"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une agriculture intensive cherchant un rendement maximal ». 🌍 Géographie — France - espaces productifs."
+        },
+        {
+          "question": "Qu'est-ce qu'un technopôle ?",
+          "choices": [
+            "Une grande usine automobile",
+            "Un pôle regroupant entreprises, centres de recherche et universités liés aux hautes technologies",
+            "Un centre commercial spécialisé",
+            "Un pôle touristique en montagne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un pôle regroupant entreprises, centres de recherche et universités liés aux hautes technologies ». 🌍 Géographie — France - espaces productifs."
+        },
+        {
+          "question": "Qu'est-ce qu'un espace de faible densité ?",
+          "choices": [
+            "Un espace très peuplé",
+            "Un espace où la population est faible par km² (moins de 30 hab/km²)",
+            "Une zone industrielle",
+            "Un centre urbain"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace où la population est faible par km² (moins de 30 hab/km²) ». 🌍 Géographie — France - espaces productifs."
+        },
+        {
+          "question": "Qu'est-ce que l'aménagement du territoire ?",
+          "choices": [
+            "La décoration d'un espace urbain",
+            "L'ensemble des actions menées pour organiser un territoire et réduire les inégalités",
+            "L'achat de terrains agricoles",
+            "La construction de routes uniquement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'ensemble des actions menées pour organiser un territoire et réduire les inégalités ». 🌍 Géographie — France - aménagement."
+        },
+        {
+          "question": "Qu'est-ce qu'une collectivité territoriale ?",
+          "choices": [
+            "Une association de quartier",
+            "Une circonscription administrative (commune, département, région) qui s'administre librement",
+            "Un service de l'État central",
+            "Une entreprise publique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une circonscription administrative (commune, département, région) qui s'administre librement ». 🌍 Géographie — France - aménagement."
+        },
+        {
+          "question": "Qu'est-ce que la décentralisation ?",
+          "choices": [
+            "Le déplacement de la capitale",
+            "Le transfert de compétences de l'État vers les collectivités territoriales",
+            "La fermeture de services publics",
+            "La privatisation des entreprises d'État"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le transfert de compétences de l'État vers les collectivités territoriales ». 🌍 Géographie — France - aménagement."
+        },
+        {
+          "question": "Que désigne le mot « région » en France ?",
+          "choices": [
+            "Un département agrandi",
+            "Une collectivité territoriale regroupant plusieurs départements",
+            "Une zone climatique",
+            "Une simple division historique sans pouvoir"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une collectivité territoriale regroupant plusieurs départements ». 🌍 Géographie — France - aménagement."
+        },
+        {
+          "question": "Qu'est-ce que l'Union européenne (UE) ?",
+          "choices": [
+            "Une alliance militaire européenne",
+            "Une union politique et économique regroupant 27 États européens",
+            "Un syndicat des travailleurs européens",
+            "Une banque européenne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une union politique et économique regroupant 27 États européens ». 🌍 Géographie — France et UE."
+        },
+        {
+          "question": "Qu'est-ce que l'espace Schengen ?",
+          "choices": [
+            "Une zone monétaire commune",
+            "Une zone de libre circulation des personnes entre pays européens membres",
+            "Une zone de libre-échange commercial mondial",
+            "Une région d'Europe centrale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une zone de libre circulation des personnes entre pays européens membres ». 🌍 Géographie — France et UE."
+        },
+        {
+          "question": "Qu'est-ce que la zone euro ?",
+          "choices": [
+            "L'ensemble des pays de l'UE ayant adopté l'euro comme monnaie",
+            "L'ensemble du continent européen",
+            "Une région économique d'Europe de l'Est",
+            "Une zone industrielle franco-allemande"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « L'ensemble des pays de l'UE ayant adopté l'euro comme monnaie ». 🌍 Géographie — France et UE."
+        },
+        {
+          "question": "Qu'est-ce qu'une eurorégion ?",
+          "choices": [
+            "Une région exclusivement française",
+            "Un espace de coopération transfrontalière entre régions de plusieurs pays européens",
+            "Une nouvelle institution européenne",
+            "Une région agricole de l'UE"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace de coopération transfrontalière entre régions de plusieurs pays européens ». 🌍 Géographie — France et UE."
+        },
+        {
+          "question": "Qu'est-ce qu'une frontière ?",
+          "choices": [
+            "Un fleuve qui traverse un pays",
+            "Une limite qui sépare deux États",
+            "Une route nationale",
+            "Une barrière douanière interne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une limite qui sépare deux États ». 🌍 Géographie — France et UE."
+        },
+        {
+          "question": "Qu'est-ce qu'un DROM (Département et Région d'Outre-mer) ?",
+          "choices": [
+            "Une ancienne colonie devenue indépendante",
+            "Un territoire français situé en dehors de la métropole, avec statut de département",
+            "Une région étrangère associée à la France",
+            "Un protectorat français"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un territoire français situé en dehors de la métropole, avec statut de département ». 🌍 Géographie — France dans le monde."
+        },
+        {
+          "question": "Qu'est-ce que la francophonie ?",
+          "choices": [
+            "L'ensemble des pays et populations qui utilisent le français",
+            "La politique étrangère de la France",
+            "Un parti politique français",
+            "Une institution de l'ONU"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « L'ensemble des pays et populations qui utilisent le français ». 🌍 Géographie — France dans le monde."
+        },
+        {
+          "question": "Qu'est-ce que la ZEE (Zone Économique Exclusive) ?",
+          "choices": [
+            "Une zone interdite au commerce",
+            "Un espace maritime sur lequel un État a des droits exclusifs d'exploitation",
+            "Une zone franche commerciale",
+            "Un territoire militaire interdit"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace maritime sur lequel un État a des droits exclusifs d'exploitation ». 🌍 Géographie — France dans le monde."
+        },
+        {
+          "question": "Qu'est-ce qu'un État ?",
+          "choices": [
+            "Une entreprise nationale",
+            "Une autorité politique souveraine qui s'exerce sur un territoire et une population",
+            "Une simple région administrative",
+            "Un parti politique au pouvoir"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une autorité politique souveraine qui s'exerce sur un territoire et une population ». 🌍 Géographie — Géopolitique."
+        },
+        {
+          "question": "Que signifie « souveraineté » ?",
+          "choices": [
+            "La richesse économique d'un pays",
+            "Le pouvoir suprême d'un État de décider sur son territoire",
+            "L'autorité d'un monarque uniquement",
+            "L'indépendance énergétique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le pouvoir suprême d'un État de décider sur son territoire ». 🌍 Géographie — Géopolitique."
+        },
+        {
+          "question": "Qu'est-ce qu'une superpuissance ?",
+          "choices": [
+            "Un pays très peuplé seulement",
+            "Un État dominant le monde par sa puissance économique, militaire et culturelle",
+            "Un pays riche en pétrole",
+            "Une ancienne colonie devenue très riche"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un État dominant le monde par sa puissance économique, militaire et culturelle ». 🌍 Géographie — Géopolitique."
+        },
+        {
+          "question": "Qu'est-ce que le soft power ?",
+          "choices": [
+            "La force militaire d'un État",
+            "La capacité d'influence d'un État par sa culture, ses idées, son mode de vie",
+            "Une technologie militaire douce",
+            "Une diplomatie secrète"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La capacité d'influence d'un État par sa culture, ses idées, son mode de vie ». 🌍 Géographie — Géopolitique."
+        },
+        {
+          "question": "Qu'est-ce qu'un BRICS ?",
+          "choices": [
+            "Un type de matériau de construction",
+            "Un groupe de pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud)",
+            "Une organisation militaire",
+            "Une monnaie internationale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un groupe de pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud) ». 🌍 Géographie — Géopolitique."
+        },
+        {
+          "question": "Qu'est-ce que le développement durable ?",
+          "choices": [
+            "Un développement uniquement économique",
+            "Un développement qui répond aux besoins présents sans compromettre ceux des générations futures",
+            "Le développement des pays riches uniquement",
+            "Une politique d'austérité"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un développement qui répond aux besoins présents sans compromettre ceux des générations futures ». 🌍 Géographie — Environnement."
+        },
+        {
+          "question": "Qu'est-ce que la biodiversité ?",
+          "choices": [
+            "Une espèce animale rare",
+            "L'ensemble des espèces vivantes et de leurs interactions sur Terre",
+            "Une réserve naturelle uniquement",
+            "Une diversité culturelle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'ensemble des espèces vivantes et de leurs interactions sur Terre ». 🌍 Géographie — Environnement."
+        },
+        {
+          "question": "Qu'est-ce qu'un risque naturel ?",
+          "choices": [
+            "Une catastrophe causée par l'homme",
+            "La menace que représente un phénomène naturel (séisme, inondation...) pour les populations",
+            "Une pollution industrielle",
+            "Un accident de la route"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La menace que représente un phénomène naturel (séisme, inondation...) pour les populations ». 🌍 Géographie — Environnement."
+        },
+        {
+          "question": "Qu'est-ce qu'une ressource ?",
+          "choices": [
+            "Un revenu mensuel",
+            "Un élément naturel ou matériel utilisé pour satisfaire un besoin (eau, énergie, minerai...)",
+            "Une aide financière de l'État",
+            "Un service public"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un élément naturel ou matériel utilisé pour satisfaire un besoin (eau, énergie, minerai...) ». 🌍 Géographie — Environnement."
+        },
+        {
+          "question": "Qu'est-ce que la densité de population ?",
+          "choices": [
+            "Le nombre total d'habitants d'un pays",
+            "Le nombre d'habitants par kilomètre carré",
+            "Le taux de natalité",
+            "La proportion d'urbains"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le nombre d'habitants par kilomètre carré ». 🌍 Géographie — Démographie."
+        },
+        {
+          "question": "Qu'est-ce que l'exode rural ?",
+          "choices": [
+            "Le déplacement de citadins vers les campagnes",
+            "Le départ massif des habitants des campagnes vers les villes",
+            "L'émigration vers l'étranger",
+            "Le retour des immigrés dans leur pays"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le départ massif des habitants des campagnes vers les villes ». 🌍 Géographie — Démographie."
+        },
+        {
+          "question": "Qu'est-ce que l'urbanisation ?",
+          "choices": [
+            "La rénovation des centres-villes",
+            "L'augmentation de la part de la population vivant en ville",
+            "La construction de routes",
+            "Le développement des transports"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'augmentation de la part de la population vivant en ville ». 🌍 Géographie — Démographie."
+        },
+        {
+          "question": "Qu'est-ce qu'un littoral ?",
+          "choices": [
+            "Une chaîne de montagnes",
+            "Une zone de contact entre la terre et la mer",
+            "Une grande plaine intérieure",
+            "Un désert côtier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une zone de contact entre la terre et la mer ». 🌍 Géographie — Géographie générale."
+        },
+        {
+          "question": "Qu'est-ce qu'un territoire ?",
+          "choices": [
+            "Une zone interdite d'accès",
+            "Un espace approprié, organisé et aménagé par une société",
+            "Un terrain agricole uniquement",
+            "Un parc naturel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace approprié, organisé et aménagé par une société ». 🌍 Géographie — Géographie générale."
+        },
+        {
+          "question": "Qu'est-ce que la ville-centre ?",
+          "choices": [
+            "Le quartier le plus récent d'une ville",
+            "La commune principale d'une agglomération, généralement la plus peuplée et ancienne",
+            "Une zone commerciale de banlieue",
+            "Un village voisin d'une grande ville"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La commune principale d'une agglomération, généralement la plus peuplée et ancienne ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la couronne périurbaine ?",
+          "choices": [
+            "Le centre historique d'une grande ville",
+            "L'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine",
+            "Une zone industrielle proche du centre",
+            "Le quartier le plus riche d'une ville"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une agglomération ?",
+          "choices": [
+            "Une commune isolée",
+            "L'ensemble formé par une ville-centre et ses banlieues",
+            "Un simple village",
+            "Une région administrative"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'ensemble formé par une ville-centre et ses banlieues ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'un pôle urbain ?",
+          "choices": [
+            "Une ville-centre et ses banlieues offrant beaucoup d'emplois",
+            "Le centre d'une zone commerciale",
+            "Une station de métro principale",
+            "Un quartier résidentiel calme"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « Une ville-centre et ses banlieues offrant beaucoup d'emplois ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'un CBD (Central Business District) ?",
+          "choices": [
+            "Un quartier résidentiel populaire",
+            "Le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux",
+            "Une zone industrielle ancienne",
+            "Un centre administratif municipal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la gentrification ?",
+          "choices": [
+            "Le départ des classes aisées vers les campagnes",
+            "Le processus par lequel des quartiers populaires sont investis par des habitants plus aisés",
+            "La construction de logements sociaux",
+            "L'augmentation du nombre d'étrangers dans un quartier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le processus par lequel des quartiers populaires sont investis par des habitants plus aisés ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la ségrégation socio-spatiale ?",
+          "choices": [
+            "La séparation des hommes et des femmes dans l'espace public",
+            "La séparation dans l'espace urbain des populations selon leur catégorie sociale",
+            "Le mélange des populations dans un même quartier",
+            "Une politique de transports urbains"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La séparation dans l'espace urbain des populations selon leur catégorie sociale ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une ville nouvelle ?",
+          "choices": [
+            "Une ville récemment fondée à l'étranger",
+            "Une ville créée à partir des années 1960 pour désengorger les grandes agglomérations",
+            "Un quartier rénové en centre-ville",
+            "Une banlieue pavillonnaire spontanée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Une ville créée à partir des années 1960 pour désengorger les grandes agglomérations ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une conurbation ?",
+          "choices": [
+            "Une ville détruite par une catastrophe",
+            "Un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent",
+            "Un village rattaché à une grande ville",
+            "Le centre administratif d'une région"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une friche urbaine ?",
+          "choices": [
+            "Un parc public récemment aménagé",
+            "Un terrain ou bâtiment abandonné en ville (souvent ancienne usine)",
+            "Un quartier neuf",
+            "Une zone agricole en pleine ville"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un terrain ou bâtiment abandonné en ville (souvent ancienne usine) ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la rénovation urbaine ?",
+          "choices": [
+            "La destruction systématique des centres anciens",
+            "L'ensemble des opérations de transformation d'un quartier ancien ou dégradé",
+            "La construction de routes neuves",
+            "L'organisation d'événements culturels en ville"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « L'ensemble des opérations de transformation d'un quartier ancien ou dégradé ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une zone pavillonnaire ?",
+          "choices": [
+            "Une zone commerciale de centre-ville",
+            "Un quartier composé majoritairement de maisons individuelles avec jardin",
+            "Une zone industrielle",
+            "Un quartier d'immeubles HLM"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un quartier composé majoritairement de maisons individuelles avec jardin ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'un grand ensemble (HLM) ?",
+          "choices": [
+            "Un complexe touristique",
+            "Un ensemble de grands immeubles de logements sociaux construits surtout entre 1950 et 1975",
+            "Un quartier d'affaires moderne",
+            "Une vaste zone commerciale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un ensemble de grands immeubles de logements sociaux construits surtout entre 1950 et 1975 ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'un bidonville ?",
+          "choices": [
+            "Un quartier résidentiel pour cadres",
+            "Un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud",
+            "Une zone industrielle abandonnée",
+            "Un quartier touristique animé"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'un éco-quartier ?",
+          "choices": [
+            "Un quartier réservé aux activités agricoles",
+            "Un quartier urbain conçu selon les principes du développement durable",
+            "Un quartier sans habitants",
+            "Un quartier exclusivement piéton du centre historique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un quartier urbain conçu selon les principes du développement durable ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une migration pendulaire (ou navette) ?",
+          "choices": [
+            "Une migration saisonnière touristique",
+            "Le déplacement quotidien des habitants entre leur domicile et leur lieu de travail",
+            "Un déménagement définitif vers une autre région",
+            "Un voyage à l'étranger"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le déplacement quotidien des habitants entre leur domicile et leur lieu de travail ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce qu'une zone commerciale périphérique ?",
+          "choices": [
+            "Un quartier commerçant historique en centre-ville",
+            "Un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville",
+            "Un marché traditionnel hebdomadaire",
+            "Une rue piétonne touristique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la métropolisation ?",
+          "choices": [
+            "La transformation d'un village en ville",
+            "La concentration croissante des hommes, activités et richesses dans les grandes métropoles",
+            "Le déclin des grandes villes",
+            "L'extension des transports régionaux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « La concentration croissante des hommes, activités et richesses dans les grandes métropoles ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que la mixité sociale ?",
+          "choices": [
+            "La cohabitation, dans un même quartier, d'habitants de catégories sociales différentes",
+            "Le mélange des âges dans un quartier",
+            "La présence de plusieurs nationalités",
+            "L'égalité des salaires entre habitants"
+          ],
+          "correctIndex": 0,
+          "explanation": "Réponse : « La cohabitation, dans un même quartier, d'habitants de catégories sociales différentes ». 🌍 Géographie — Espaces de la ville."
+        },
+        {
+          "question": "Qu'est-ce que l'intercommunalité ?",
+          "choices": [
+            "L'union de plusieurs régions",
+            "Le regroupement de communes voisines pour gérer ensemble certains services (transports, déchets, eau...)",
+            "Une association sportive entre villes",
+            "Un jumelage international"
+          ],
+          "correctIndex": 1,
+          "explanation": "Réponse : « Le regroupement de communes voisines pour gérer ensemble certains services (transports, déchets, eau...) ». 🌍 Géographie — Espaces de la ville."
+        }
+      ]
+    },
+    {
       "id": "premiere-guerre-mondiale",
       "title": "Première Guerre mondiale",
       "questions": [
         {
           "question": "En quelle année commence la Première Guerre mondiale ?",
-          "choices": ["1912", "1914", "1916", "1918"],
+          "choices": [
+            "1912",
+            "1914",
+            "1916",
+            "1918"
+          ],
           "correctIndex": 1,
           "explanation": "La Première Guerre mondiale débute le 28 juillet 1914 après l'assassinat de l'archiduc François-Ferdinand à Sarajevo le 28 juin 1914."
         },
         {
           "question": "Quelle bataille de 1916 est devenue un symbole de la guerre de tranchées en France ?",
-          "choices": ["Bataille de la Marne", "Bataille de Verdun", "Bataille de la Somme", "Bataille du Chemin des Dames"],
+          "choices": [
+            "Bataille de la Marne",
+            "Bataille de Verdun",
+            "Bataille de la Somme",
+            "Bataille du Chemin des Dames"
+          ],
           "correctIndex": 1,
           "explanation": "La bataille de Verdun (février-décembre 1916) opposa Français et Allemands et fit environ 300 000 morts. Elle est devenue le symbole de la violence de masse."
         },
         {
           "question": "Quel traité met fin à la Première Guerre mondiale ?",
-          "choices": ["Traité de Vienne", "Traité de Versailles", "Traité de Rome", "Traité de Berlin"],
+          "choices": [
+            "Traité de Vienne",
+            "Traité de Versailles",
+            "Traité de Rome",
+            "Traité de Berlin"
+          ],
           "correctIndex": 1,
           "explanation": "Le traité de Versailles, signé le 28 juin 1919, met officiellement fin à la guerre et impose des sanctions très lourdes à l'Allemagne."
         },
         {
           "question": "Comment appelle-t-on les soldats français de la Première Guerre mondiale ?",
-          "choices": ["Les Sans-culottes", "Les Poilus", "Les Tommies", "Les Sammies"],
+          "choices": [
+            "Les Sans-culottes",
+            "Les Poilus",
+            "Les Tommies",
+            "Les Sammies"
+          ],
           "correctIndex": 1,
           "explanation": "Les soldats français sont surnommés les 'Poilus' en raison de leur apparence dans les tranchées (barbes, moustaches)."
         },
         {
           "question": "Quel événement marque la sortie de la Russie de la guerre en 1917 ?",
-          "choices": ["L'entrée en guerre des États-Unis", "La révolution russe", "Le traité de Brest-Litovsk", "La mort du tsar Nicolas II"],
+          "choices": [
+            "L'entrée en guerre des États-Unis",
+            "La révolution russe",
+            "Le traité de Brest-Litovsk",
+            "La mort du tsar Nicolas II"
+          ],
           "correctIndex": 1,
           "explanation": "La révolution russe d'octobre 1917 amène les bolcheviks au pouvoir. Lénine signe le traité de Brest-Litovsk en mars 1918, retirant la Russie du conflit."
         },
         {
           "question": "Quand l'armistice de la Première Guerre mondiale est-il signé ?",
-          "choices": ["11 novembre 1917", "11 novembre 1918", "8 mai 1918", "14 juillet 1918"],
+          "choices": [
+            "11 novembre 1917",
+            "11 novembre 1918",
+            "8 mai 1918",
+            "14 juillet 1918"
+          ],
           "correctIndex": 1,
           "explanation": "L'armistice est signé le 11 novembre 1918 à Rethondes, mettant fin aux combats. Cette date est aujourd'hui un jour férié en France."
         }
@@ -52,37 +1409,67 @@
       "questions": [
         {
           "question": "Qui prend le pouvoir en URSS après la mort de Lénine en 1924 ?",
-          "choices": ["Trotski", "Staline", "Khrouchtchev", "Brejnev"],
+          "choices": [
+            "Trotski",
+            "Staline",
+            "Khrouchtchev",
+            "Brejnev"
+          ],
           "correctIndex": 1,
           "explanation": "Staline prend progressivement le pouvoir après la mort de Lénine en 1924 et établit une dictature totalitaire jusqu'à sa mort en 1953."
         },
         {
           "question": "Comment s'appellent les camps de travail forcé soviétiques ?",
-          "choices": ["Gulags", "Stalags", "Kolkhozes", "Sovkhozes"],
+          "choices": [
+            "Gulags",
+            "Stalags",
+            "Kolkhozes",
+            "Sovkhozes"
+          ],
           "correctIndex": 0,
           "explanation": "Les goulags étaient des camps de travail forcé en URSS où étaient déportés les opposants politiques sous Staline."
         },
         {
           "question": "En quelle année Hitler devient-il chancelier d'Allemagne ?",
-          "choices": ["1923", "1929", "1933", "1939"],
+          "choices": [
+            "1923",
+            "1929",
+            "1933",
+            "1939"
+          ],
           "correctIndex": 2,
           "explanation": "Hitler est nommé chancelier le 30 janvier 1933 par le président Hindenburg, puis instaure progressivement une dictature totalitaire (le IIIe Reich)."
         },
         {
           "question": "Quelles lois nazies de 1935 privent les Juifs de leurs droits ?",
-          "choices": ["Lois de Weimar", "Lois de Nuremberg", "Lois de Munich", "Lois de Vichy"],
+          "choices": [
+            "Lois de Weimar",
+            "Lois de Nuremberg",
+            "Lois de Munich",
+            "Lois de Vichy"
+          ],
           "correctIndex": 1,
           "explanation": "Les lois de Nuremberg (1935) privent les Juifs de la citoyenneté allemande et interdisent les mariages entre Juifs et non-Juifs."
         },
         {
           "question": "Qui dirige l'Italie fasciste à partir de 1922 ?",
-          "choices": ["Victor-Emmanuel III", "Benito Mussolini", "Giuseppe Garibaldi", "Francisco Franco"],
+          "choices": [
+            "Victor-Emmanuel III",
+            "Benito Mussolini",
+            "Giuseppe Garibaldi",
+            "Francisco Franco"
+          ],
           "correctIndex": 1,
           "explanation": "Mussolini, le 'Duce', prend le pouvoir en Italie après la Marche sur Rome en octobre 1922 et instaure un régime fasciste."
         },
         {
           "question": "Quel gouvernement français de 1936 met en place les congés payés ?",
-          "choices": ["Le Bloc national", "Le Cartel des gauches", "Le Front populaire", "L'Union sacrée"],
+          "choices": [
+            "Le Bloc national",
+            "Le Cartel des gauches",
+            "Le Front populaire",
+            "L'Union sacrée"
+          ],
           "correctIndex": 2,
           "explanation": "Le Front populaire (alliance des gauches dirigée par Léon Blum) accède au pouvoir en mai 1936 et instaure les congés payés (15 jours) et la semaine de 40 heures."
         }
@@ -94,43 +1481,78 @@
       "questions": [
         {
           "question": "Quel événement déclenche la Seconde Guerre mondiale ?",
-          "choices": ["L'invasion de la France", "L'invasion de la Pologne", "L'attaque de Pearl Harbor", "L'Anschluss"],
+          "choices": [
+            "L'invasion de la France",
+            "L'invasion de la Pologne",
+            "L'attaque de Pearl Harbor",
+            "L'Anschluss"
+          ],
           "correctIndex": 1,
           "explanation": "L'invasion de la Pologne par l'Allemagne nazie le 1er septembre 1939 déclenche la Seconde Guerre mondiale. La France et le Royaume-Uni déclarent la guerre le 3 septembre."
         },
         {
           "question": "Qui lance l'Appel du 18 juin 1940 depuis Londres ?",
-          "choices": ["Philippe Pétain", "Charles de Gaulle", "Jean Moulin", "Pierre Mendès France"],
+          "choices": [
+            "Philippe Pétain",
+            "Charles de Gaulle",
+            "Jean Moulin",
+            "Pierre Mendès France"
+          ],
           "correctIndex": 1,
           "explanation": "Le général Charles de Gaulle appelle à la résistance depuis la BBC à Londres le 18 juin 1940, créant la France libre."
         },
         {
           "question": "Quel régime collaborationniste dirige la France de 1940 à 1944 ?",
-          "choices": ["Le régime de Vichy", "La République de Bordeaux", "Le gouvernement de Sigmaringen", "La République de Lyon"],
+          "choices": [
+            "Le régime de Vichy",
+            "La République de Bordeaux",
+            "Le gouvernement de Sigmaringen",
+            "La République de Lyon"
+          ],
           "correctIndex": 0,
           "explanation": "Le régime de Vichy, dirigé par le maréchal Pétain à partir du 10 juillet 1940, collabore avec l'Allemagne nazie. Sa devise est 'Travail, Famille, Patrie'."
         },
         {
           "question": "Comment appelle-t-on l'extermination des Juifs par les nazis ?",
-          "choices": ["La Solution finale ou Shoah", "Le Génocide arménien", "Les Pogroms", "La Nuit de Cristal"],
+          "choices": [
+            "La Solution finale ou Shoah",
+            "Le Génocide arménien",
+            "Les Pogroms",
+            "La Nuit de Cristal"
+          ],
           "correctIndex": 0,
           "explanation": "La Shoah (ou 'Solution finale') désigne le génocide des Juifs d'Europe par les nazis, qui fit environ 6 millions de victimes (1941-1945)."
         },
         {
           "question": "Quel est le plus grand camp d'extermination nazi ?",
-          "choices": ["Dachau", "Buchenwald", "Auschwitz-Birkenau", "Bergen-Belsen"],
+          "choices": [
+            "Dachau",
+            "Buchenwald",
+            "Auschwitz-Birkenau",
+            "Bergen-Belsen"
+          ],
           "correctIndex": 2,
           "explanation": "Auschwitz-Birkenau (en Pologne) est le plus grand camp de concentration et d'extermination nazi. Plus d'un million de personnes y ont été assassinées, principalement des Juifs."
         },
         {
           "question": "Quand a lieu le débarquement de Normandie ?",
-          "choices": ["6 juin 1942", "6 juin 1944", "8 mai 1944", "15 août 1944"],
+          "choices": [
+            "6 juin 1942",
+            "6 juin 1944",
+            "8 mai 1944",
+            "15 août 1944"
+          ],
           "correctIndex": 1,
           "explanation": "Le débarquement de Normandie (Opération Overlord) a lieu le 6 juin 1944 ('D-Day'). Il marque le début de la libération de l'Europe occidentale."
         },
         {
           "question": "Quel jour marque la capitulation de l'Allemagne nazie ?",
-          "choices": ["6 juin 1944", "11 novembre 1944", "8 mai 1945", "2 septembre 1945"],
+          "choices": [
+            "6 juin 1944",
+            "11 novembre 1944",
+            "8 mai 1945",
+            "2 septembre 1945"
+          ],
           "correctIndex": 2,
           "explanation": "L'Allemagne nazie capitule le 8 mai 1945. C'est aujourd'hui un jour férié en France marquant la victoire des Alliés en Europe."
         }
@@ -142,37 +1564,67 @@
       "questions": [
         {
           "question": "Quand les femmes obtiennent-elles le droit de vote en France ?",
-          "choices": ["1936", "1944", "1946", "1958"],
+          "choices": [
+            "1936",
+            "1944",
+            "1946",
+            "1958"
+          ],
           "correctIndex": 1,
           "explanation": "Le droit de vote des femmes en France est instauré par une ordonnance du général de Gaulle le 21 avril 1944. Elles votent pour la première fois en 1945."
         },
         {
           "question": "En quelle année débute la Cinquième République ?",
-          "choices": ["1945", "1946", "1958", "1969"],
+          "choices": [
+            "1945",
+            "1946",
+            "1958",
+            "1969"
+          ],
           "correctIndex": 2,
           "explanation": "La Cinquième République est fondée en 1958 par Charles de Gaulle, qui devient son premier président. La constitution est adoptée le 4 octobre 1958."
         },
         {
           "question": "Quel événement marque le printemps 1968 en France ?",
-          "choices": ["La crise des missiles", "Mai 68", "La guerre d'Algérie", "Les accords de Grenelle uniquement"],
+          "choices": [
+            "La crise des missiles",
+            "Mai 68",
+            "La guerre d'Algérie",
+            "Les accords de Grenelle uniquement"
+          ],
           "correctIndex": 1,
           "explanation": "Mai 68 est un mouvement étudiant et ouvrier de contestation sociale, politique et culturelle. Il aboutit aux accords de Grenelle (hausses de salaires)."
         },
         {
           "question": "Qui est le premier président élu au suffrage universel direct sous la Ve République ?",
-          "choices": ["Vincent Auriol", "René Coty", "Charles de Gaulle", "Georges Pompidou"],
+          "choices": [
+            "Vincent Auriol",
+            "René Coty",
+            "Charles de Gaulle",
+            "Georges Pompidou"
+          ],
           "correctIndex": 2,
           "explanation": "Charles de Gaulle est élu au suffrage universel direct en 1965, après la révision constitutionnelle de 1962."
         },
         {
           "question": "Qui est le premier président socialiste de la Ve République ?",
-          "choices": ["François Mitterrand", "Lionel Jospin", "François Hollande", "Pierre Mauroy"],
+          "choices": [
+            "François Mitterrand",
+            "Lionel Jospin",
+            "François Hollande",
+            "Pierre Mauroy"
+          ],
           "correctIndex": 0,
           "explanation": "François Mitterrand est élu président en mai 1981, devenant le premier président socialiste de la Ve République (deux mandats : 1981-1995)."
         },
         {
           "question": "En quelle année l'euro est-il mis en circulation en France ?",
-          "choices": ["1999", "2000", "2002", "2005"],
+          "choices": [
+            "1999",
+            "2000",
+            "2002",
+            "2005"
+          ],
           "correctIndex": 2,
           "explanation": "L'euro entre en circulation sous forme de pièces et billets le 1er janvier 2002, remplaçant le franc."
         }
@@ -184,31 +1636,56 @@
       "questions": [
         {
           "question": "Que symbolise le 'rideau de fer' évoqué par Churchill en 1946 ?",
-          "choices": ["La frontière franco-allemande", "La séparation entre l'Europe de l'Ouest et de l'Est", "La fin de l'Empire britannique", "Le blocus de Berlin"],
+          "choices": [
+            "La frontière franco-allemande",
+            "La séparation entre l'Europe de l'Ouest et de l'Est",
+            "La fin de l'Empire britannique",
+            "Le blocus de Berlin"
+          ],
           "correctIndex": 1,
           "explanation": "Le 'rideau de fer' est l'expression utilisée par Winston Churchill en 1946 pour décrire la séparation entre les démocraties occidentales et le bloc communiste soviétique."
         },
         {
           "question": "Quand le mur de Berlin est-il construit ?",
-          "choices": ["1949", "1961", "1968", "1989"],
+          "choices": [
+            "1949",
+            "1961",
+            "1968",
+            "1989"
+          ],
           "correctIndex": 1,
           "explanation": "Le mur de Berlin est construit dans la nuit du 12 au 13 août 1961 par la RDA pour empêcher les Allemands de l'Est de fuir vers Berlin-Ouest."
         },
         {
           "question": "Quand le mur de Berlin tombe-t-il ?",
-          "choices": ["9 novembre 1989", "3 octobre 1990", "25 décembre 1991", "8 mai 1989"],
+          "choices": [
+            "9 novembre 1989",
+            "3 octobre 1990",
+            "25 décembre 1991",
+            "8 mai 1989"
+          ],
           "correctIndex": 0,
           "explanation": "Le mur de Berlin tombe le 9 novembre 1989, symbole de la fin de la Guerre froide. L'URSS disparaît en décembre 1991."
         },
         {
           "question": "Quelle guerre marque la décolonisation française en Afrique du Nord (1954-1962) ?",
-          "choices": ["Guerre d'Indochine", "Guerre d'Algérie", "Guerre du Maroc", "Guerre de Tunisie"],
+          "choices": [
+            "Guerre d'Indochine",
+            "Guerre d'Algérie",
+            "Guerre du Maroc",
+            "Guerre de Tunisie"
+          ],
           "correctIndex": 1,
           "explanation": "La guerre d'Algérie (1954-1962) se termine par les accords d'Évian (18 mars 1962) et l'indépendance de l'Algérie le 5 juillet 1962."
         },
         {
           "question": "Quelle crise de 1962 a failli déclencher une guerre nucléaire ?",
-          "choices": ["Crise du canal de Suez", "Crise des fusées de Cuba", "Crise de Berlin", "Guerre de Corée"],
+          "choices": [
+            "Crise du canal de Suez",
+            "Crise des fusées de Cuba",
+            "Crise de Berlin",
+            "Guerre de Corée"
+          ],
           "correctIndex": 1,
           "explanation": "La crise des missiles de Cuba (octobre 1962) opposa Kennedy et Khrouchtchev. L'URSS retira ses missiles de Cuba, évitant une guerre nucléaire."
         }
@@ -220,31 +1697,56 @@
       "questions": [
         {
           "question": "Quel traité fonde la Communauté économique européenne en 1957 ?",
-          "choices": ["Traité de Maastricht", "Traité de Rome", "Traité de Lisbonne", "Traité de Paris"],
+          "choices": [
+            "Traité de Maastricht",
+            "Traité de Rome",
+            "Traité de Lisbonne",
+            "Traité de Paris"
+          ],
           "correctIndex": 1,
           "explanation": "Le traité de Rome, signé le 25 mars 1957, fonde la CEE (Communauté économique européenne) entre 6 pays dont la France."
         },
         {
           "question": "Quel traité de 1992 crée l'Union européenne ?",
-          "choices": ["Traité de Rome", "Traité de Maastricht", "Traité de Nice", "Traité de Schengen"],
+          "choices": [
+            "Traité de Rome",
+            "Traité de Maastricht",
+            "Traité de Nice",
+            "Traité de Schengen"
+          ],
           "correctIndex": 1,
           "explanation": "Le traité de Maastricht, signé le 7 février 1992, crée l'Union européenne (UE) et prépare la monnaie unique (euro)."
         },
         {
           "question": "Combien d'États membres compte l'Union européenne depuis le Brexit ?",
-          "choices": ["25", "27", "28", "30"],
+          "choices": [
+            "25",
+            "27",
+            "28",
+            "30"
+          ],
           "correctIndex": 1,
           "explanation": "Depuis le Brexit (sortie effective du Royaume-Uni le 31 janvier 2020), l'UE compte 27 États membres."
         },
         {
           "question": "Où se trouve le Parlement européen ?",
-          "choices": ["Bruxelles", "Strasbourg", "Francfort", "Luxembourg"],
+          "choices": [
+            "Bruxelles",
+            "Strasbourg",
+            "Francfort",
+            "Luxembourg"
+          ],
           "correctIndex": 1,
           "explanation": "Le siège officiel du Parlement européen est à Strasbourg, mais il se réunit aussi à Bruxelles. C'est un symbole de la réconciliation franco-allemande."
         },
         {
           "question": "Quel espace permet la libre circulation des personnes en Europe ?",
-          "choices": ["L'espace Schengen", "L'espace euro", "Le marché unique", "L'OTAN"],
+          "choices": [
+            "L'espace Schengen",
+            "L'espace euro",
+            "Le marché unique",
+            "L'OTAN"
+          ],
           "correctIndex": 0,
           "explanation": "L'espace Schengen, créé en 1985, supprime les contrôles aux frontières intérieures entre les pays signataires."
         }
@@ -256,31 +1758,56 @@
       "questions": [
         {
           "question": "Quelle est l'aire urbaine la plus peuplée de France ?",
-          "choices": ["Lyon", "Marseille", "Paris", "Lille"],
+          "choices": [
+            "Lyon",
+            "Marseille",
+            "Paris",
+            "Lille"
+          ],
           "correctIndex": 2,
           "explanation": "L'aire urbaine de Paris compte environ 13 millions d'habitants, soit près de 20% de la population française."
         },
         {
           "question": "Comment appelle-t-on l'extension des villes sur les espaces ruraux ?",
-          "choices": ["Urbanisation", "Périurbanisation", "Métropolisation", "Désertification"],
+          "choices": [
+            "Urbanisation",
+            "Périurbanisation",
+            "Métropolisation",
+            "Désertification"
+          ],
           "correctIndex": 1,
           "explanation": "La périurbanisation désigne l'extension des villes au-delà de leurs banlieues, créant des couronnes résidentielles dans les espaces ruraux."
         },
         {
           "question": "Quel pourcentage de Français vivent en ville (en aires urbaines) ?",
-          "choices": ["Environ 50%", "Environ 70%", "Environ 85%", "Environ 95%"],
+          "choices": [
+            "Environ 50%",
+            "Environ 70%",
+            "Environ 85%",
+            "Environ 95%"
+          ],
           "correctIndex": 2,
           "explanation": "Environ 85% des Français vivent dans une aire urbaine, ce qui montre la forte urbanisation du territoire français."
         },
         {
           "question": "Comment appelle-t-on les espaces ruraux qui perdent des habitants ?",
-          "choices": ["Diagonale du vide", "Zone tampon", "Banlieue rouge", "Hinterland"],
+          "choices": [
+            "Diagonale du vide",
+            "Zone tampon",
+            "Banlieue rouge",
+            "Hinterland"
+          ],
           "correctIndex": 0,
           "explanation": "La 'diagonale du vide' (ou diagonale des faibles densités) traverse la France des Ardennes aux Landes et désigne les territoires ruraux peu peuplés."
         },
         {
           "question": "Qu'est-ce qu'une métropole ?",
-          "choices": ["Une grande ville qui concentre les activités de commandement", "Un petit village rural", "Une banlieue résidentielle", "Une station balnéaire"],
+          "choices": [
+            "Une grande ville qui concentre les activités de commandement",
+            "Un petit village rural",
+            "Une banlieue résidentielle",
+            "Une station balnéaire"
+          ],
           "correctIndex": 0,
           "explanation": "Une métropole est une grande ville qui concentre les fonctions de commandement (économiques, politiques, culturelles) et exerce une influence sur un vaste territoire."
         }
@@ -292,25 +1819,45 @@
       "questions": [
         {
           "question": "Quel est le premier port français en tonnage ?",
-          "choices": ["Le Havre", "Marseille-Fos", "Dunkerque", "Nantes-Saint-Nazaire"],
+          "choices": [
+            "Le Havre",
+            "Marseille-Fos",
+            "Dunkerque",
+            "Nantes-Saint-Nazaire"
+          ],
           "correctIndex": 1,
           "explanation": "Le port de Marseille-Fos est le premier port français en tonnage. Le Havre est le premier pour les conteneurs."
         },
         {
           "question": "Que sont les DROM ?",
-          "choices": ["Des départements et régions d'outre-mer", "Des organisations européennes", "Des zones franches", "Des associations rurales"],
+          "choices": [
+            "Des départements et régions d'outre-mer",
+            "Des organisations européennes",
+            "Des zones franches",
+            "Des associations rurales"
+          ],
           "correctIndex": 0,
           "explanation": "Les DROM (Départements et Régions d'Outre-Mer) sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Ils permettent à la France d'être présente sur tous les océans."
         },
         {
           "question": "Quel aéroport est le premier aéroport français ?",
-          "choices": ["Orly", "Roissy-Charles-de-Gaulle", "Marseille-Provence", "Nice-Côte d'Azur"],
+          "choices": [
+            "Orly",
+            "Roissy-Charles-de-Gaulle",
+            "Marseille-Provence",
+            "Nice-Côte d'Azur"
+          ],
           "correctIndex": 1,
           "explanation": "Roissy-Charles-de-Gaulle est le premier aéroport français et un hub majeur en Europe, ce qui en fait une porte d'entrée de la mondialisation."
         },
         {
           "question": "Quelle est la place de la France dans l'économie mondiale ?",
-          "choices": ["1ère puissance économique", "Parmi les 10 premières puissances", "20ème puissance mondiale", "50ème puissance mondiale"],
+          "choices": [
+            "1ère puissance économique",
+            "Parmi les 10 premières puissances",
+            "20ème puissance mondiale",
+            "50ème puissance mondiale"
+          ],
           "correctIndex": 1,
           "explanation": "La France fait partie des 10 premières puissances économiques mondiales (environ 7ème), grâce à ses industries, son tourisme et ses services."
         }
@@ -322,25 +1869,45 @@
       "questions": [
         {
           "question": "Où se situe le 'Croissant fertile' agricole français ?",
-          "choices": ["Centre de la France", "Bassin parisien et Nord", "Massif central", "Alpes"],
+          "choices": [
+            "Centre de la France",
+            "Bassin parisien et Nord",
+            "Massif central",
+            "Alpes"
+          ],
           "correctIndex": 1,
           "explanation": "Les grands espaces agricoles productifs se trouvent dans le Bassin parisien, le Nord (Beauce, Brie) et l'Ouest, grâce à des sols fertiles et une mécanisation poussée."
         },
         {
           "question": "Quelle région est spécialisée dans l'aéronautique ?",
-          "choices": ["Île-de-France", "Provence-Alpes-Côte d'Azur", "Occitanie (Toulouse)", "Bretagne"],
+          "choices": [
+            "Île-de-France",
+            "Provence-Alpes-Côte d'Azur",
+            "Occitanie (Toulouse)",
+            "Bretagne"
+          ],
           "correctIndex": 2,
           "explanation": "Toulouse, en Occitanie, est la capitale européenne de l'aéronautique avec Airbus. C'est un espace productif de haute technologie."
         },
         {
           "question": "Qu'est-ce qu'un technopôle ?",
-          "choices": ["Une centrale nucléaire", "Un site qui concentre activités de haute technologie et recherche", "Un port industriel", "Une zone agricole"],
+          "choices": [
+            "Une centrale nucléaire",
+            "Un site qui concentre activités de haute technologie et recherche",
+            "Un port industriel",
+            "Une zone agricole"
+          ],
           "correctIndex": 1,
           "explanation": "Un technopôle est un site regroupant entreprises de haute technologie, universités et centres de recherche (ex: Sophia Antipolis près de Nice)."
         },
         {
           "question": "Quel espace touristique français accueille le plus de visiteurs ?",
-          "choices": ["Les Alpes", "Paris et l'Île-de-France", "La Côte d'Azur", "Les Pyrénées"],
+          "choices": [
+            "Les Alpes",
+            "Paris et l'Île-de-France",
+            "La Côte d'Azur",
+            "Les Pyrénées"
+          ],
           "correctIndex": 1,
           "explanation": "Paris est la première destination touristique mondiale. La France est le 1er pays touristique mondial avec plus de 80 millions de visiteurs par an."
         }
@@ -352,31 +1919,56 @@
       "questions": [
         {
           "question": "Pour combien d'années le président de la République est-il élu ?",
-          "choices": ["3 ans", "5 ans", "7 ans", "10 ans"],
+          "choices": [
+            "3 ans",
+            "5 ans",
+            "7 ans",
+            "10 ans"
+          ],
           "correctIndex": 1,
           "explanation": "Le président de la République est élu pour 5 ans au suffrage universel direct depuis la réforme du quinquennat de 2000 (auparavant 7 ans)."
         },
         {
           "question": "Qui nomme le Premier ministre ?",
-          "choices": ["L'Assemblée nationale", "Le président de la République", "Le Sénat", "Le Conseil constitutionnel"],
+          "choices": [
+            "L'Assemblée nationale",
+            "Le président de la République",
+            "Le Sénat",
+            "Le Conseil constitutionnel"
+          ],
           "correctIndex": 1,
           "explanation": "Le Premier ministre est nommé par le président de la République. Il dirige le gouvernement et est responsable devant l'Assemblée nationale."
         },
         {
           "question": "Combien de députés siègent à l'Assemblée nationale ?",
-          "choices": ["348", "577", "925", "1000"],
+          "choices": [
+            "348",
+            "577",
+            "925",
+            "1000"
+          ],
           "correctIndex": 1,
           "explanation": "L'Assemblée nationale compte 577 députés élus pour 5 ans au suffrage universel direct. Le Sénat compte 348 sénateurs."
         },
         {
           "question": "Qui vote les lois en France ?",
-          "choices": ["Le président seul", "Le Parlement (Assemblée + Sénat)", "Le gouvernement", "Le Conseil constitutionnel"],
+          "choices": [
+            "Le président seul",
+            "Le Parlement (Assemblée + Sénat)",
+            "Le gouvernement",
+            "Le Conseil constitutionnel"
+          ],
           "correctIndex": 1,
           "explanation": "Le Parlement, composé de l'Assemblée nationale et du Sénat, vote les lois. C'est le pouvoir législatif de la Ve République."
         },
         {
           "question": "Quel est l'âge minimum pour voter en France ?",
-          "choices": ["16 ans", "18 ans", "20 ans", "21 ans"],
+          "choices": [
+            "16 ans",
+            "18 ans",
+            "20 ans",
+            "21 ans"
+          ],
           "correctIndex": 1,
           "explanation": "L'âge minimum pour voter en France est de 18 ans depuis 1974 (auparavant 21 ans)."
         }
@@ -388,25 +1980,45 @@
       "questions": [
         {
           "question": "Quelle est la devise de la République française ?",
-          "choices": ["Travail, Famille, Patrie", "Liberté, Égalité, Fraternité", "Un pour tous, tous pour un", "Honneur et Patrie"],
+          "choices": [
+            "Travail, Famille, Patrie",
+            "Liberté, Égalité, Fraternité",
+            "Un pour tous, tous pour un",
+            "Honneur et Patrie"
+          ],
           "correctIndex": 1,
           "explanation": "La devise 'Liberté, Égalité, Fraternité' est née pendant la Révolution française et est inscrite dans la Constitution de la Ve République."
         },
         {
           "question": "Quel est l'hymne national français ?",
-          "choices": ["Le Chant du départ", "La Marseillaise", "Le Chant des partisans", "Ça ira"],
+          "choices": [
+            "Le Chant du départ",
+            "La Marseillaise",
+            "Le Chant des partisans",
+            "Ça ira"
+          ],
           "correctIndex": 1,
           "explanation": "La Marseillaise, écrite par Rouget de Lisle en 1792, est l'hymne national français depuis 1879."
         },
         {
           "question": "Quelle est la fête nationale française ?",
-          "choices": ["1er mai", "8 mai", "14 juillet", "11 novembre"],
+          "choices": [
+            "1er mai",
+            "8 mai",
+            "14 juillet",
+            "11 novembre"
+          ],
           "correctIndex": 2,
           "explanation": "Le 14 juillet est la fête nationale française depuis 1880. Elle commémore la prise de la Bastille (1789) et la fête de la Fédération (1790)."
         },
         {
           "question": "Quel personnage symbolise la République française ?",
-          "choices": ["Marianne", "Jeanne d'Arc", "Vercingétorix", "Napoléon"],
+          "choices": [
+            "Marianne",
+            "Jeanne d'Arc",
+            "Vercingétorix",
+            "Napoléon"
+          ],
           "correctIndex": 0,
           "explanation": "Marianne est la figure allégorique de la République française. Elle est représentée avec un bonnet phrygien, symbole de liberté."
         }
@@ -418,25 +2030,45 @@
       "questions": [
         {
           "question": "En quelle année est votée la loi de séparation des Églises et de l'État ?",
-          "choices": ["1789", "1881", "1905", "1958"],
+          "choices": [
+            "1789",
+            "1881",
+            "1905",
+            "1958"
+          ],
           "correctIndex": 2,
           "explanation": "La loi de séparation des Églises et de l'État du 9 décembre 1905 instaure la laïcité en France. L'État ne reconnaît, ne salarie ni ne subventionne aucun culte."
         },
         {
           "question": "Que signifie la laïcité ?",
-          "choices": ["Interdire toutes les religions", "La neutralité de l'État face aux religions", "Imposer une religion d'État", "Favoriser une religion"],
+          "choices": [
+            "Interdire toutes les religions",
+            "La neutralité de l'État face aux religions",
+            "Imposer une religion d'État",
+            "Favoriser une religion"
+          ],
           "correctIndex": 1,
           "explanation": "La laïcité est la neutralité de l'État vis-à-vis des religions, garantissant la liberté de conscience et l'égalité des citoyens quelle que soit leur croyance."
         },
         {
           "question": "Quel devoir n'est PAS imposé aux citoyens français ?",
-          "choices": ["Payer les impôts", "Respecter les lois", "Aller à la messe", "Être juré d'assises si désigné"],
+          "choices": [
+            "Payer les impôts",
+            "Respecter les lois",
+            "Aller à la messe",
+            "Être juré d'assises si désigné"
+          ],
           "correctIndex": 2,
           "explanation": "La France est un État laïque : aucune pratique religieuse n'est obligatoire. Les autres options sont des devoirs civiques imposés par la loi."
         },
         {
           "question": "Quel texte de 1789 affirme les droits fondamentaux ?",
-          "choices": ["La Constitution de 1958", "La Déclaration des droits de l'homme et du citoyen", "Le Code civil", "La Charte de l'environnement"],
+          "choices": [
+            "La Constitution de 1958",
+            "La Déclaration des droits de l'homme et du citoyen",
+            "Le Code civil",
+            "La Charte de l'environnement"
+          ],
           "correctIndex": 1,
           "explanation": "La Déclaration des droits de l'homme et du citoyen du 26 août 1789 proclame les droits fondamentaux (liberté, égalité, propriété, sûreté). Elle fait partie du bloc de constitutionnalité."
         }

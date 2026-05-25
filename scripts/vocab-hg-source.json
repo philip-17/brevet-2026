@@ -1,0 +1,1567 @@
+{
+  "titre": "Vocabulaire Histoire-Géographie - 3e",
+  "niveau": "3e",
+  "type": "QCM chronométré",
+  "questions": [
+    {
+      "id": 1,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Que signifie le terme « guerre totale » ?",
+      "propositions": [
+        "Une guerre qui dure plus de 10 ans",
+        "Une guerre qui mobilise toutes les ressources (humaines, économiques, idéologiques) d'un pays",
+        "Une guerre menée sur tous les continents",
+        "Une guerre qui se termine par une victoire totale d'un camp"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 2,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Qu'est-ce qu'un « poilu » ?",
+      "propositions": [
+        "Un officier allemand de la Première Guerre mondiale",
+        "Un soldat français de la Première Guerre mondiale",
+        "Un déserteur de l'armée française",
+        "Un civil réquisitionné pour creuser les tranchées"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 3,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Que désigne le mot « armistice » ?",
+      "propositions": [
+        "Un traité de paix définitif",
+        "Une déclaration de guerre",
+        "Un accord pour suspendre les combats",
+        "Une alliance militaire"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 4,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Qu'est-ce qu'un génocide ?",
+      "propositions": [
+        "Une bataille particulièrement meurtrière",
+        "L'extermination programmée et systématique d'un peuple",
+        "Une famine causée par la guerre",
+        "Le bombardement d'une ville"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 5,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Le génocide arménien a eu lieu sous quel empire ?",
+      "propositions": [
+        "L'Empire austro-hongrois",
+        "L'Empire ottoman",
+        "L'Empire russe",
+        "L'Empire allemand"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 6,
+      "matiere": "histoire",
+      "theme": "Première Guerre mondiale",
+      "question": "Qu'est-ce que la « guerre de position » ?",
+      "propositions": [
+        "Une guerre menée à distance avec de l'artillerie",
+        "Une guerre où les armées se font face dans des tranchées sans grand mouvement",
+        "Une guerre navale",
+        "Une guerre d'invasion rapide"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 7,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Qu'est-ce qu'un régime totalitaire ?",
+      "propositions": [
+        "Un régime démocratique strict",
+        "Un régime qui contrôle tous les aspects de la vie et impose une idéologie unique",
+        "Une monarchie absolue",
+        "Un régime militaire temporaire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 8,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Que désigne la « propagande » ?",
+      "propositions": [
+        "L'ensemble des moyens utilisés pour influencer l'opinion publique",
+        "Une forme de gouvernement républicain",
+        "Un journal d'opposition",
+        "Un parti politique d'extrême-gauche"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 9,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Qu'est-ce qu'un « culte de la personnalité » ?",
+      "propositions": [
+        "L'admiration spontanée d'un peuple pour son dirigeant",
+        "La glorification organisée et exagérée d'un chef d'État",
+        "L'étude du caractère des hommes politiques",
+        "Une religion d'État"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 10,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Que signifie « antisémitisme » ?",
+      "propositions": [
+        "L'hostilité envers les chrétiens",
+        "L'hostilité envers les Juifs",
+        "L'hostilité envers les étrangers en général",
+        "L'hostilité envers les musulmans"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 11,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Qu'est-ce que le « nazisme » ?",
+      "propositions": [
+        "L'idéologie communiste de Lénine",
+        "L'idéologie nationaliste, raciste et antisémite de Hitler",
+        "Le mouvement fasciste italien",
+        "Une doctrine économique allemande"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 12,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Qu'est-ce qu'un « kolkhoze » ?",
+      "propositions": [
+        "Un camp de prisonniers soviétique",
+        "Une exploitation agricole collective en URSS",
+        "Une usine d'armement soviétique",
+        "Un parti politique russe"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 13,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Que désigne le « goulag » ?",
+      "propositions": [
+        "La police politique soviétique",
+        "Le système de camps de travail forcé en URSS",
+        "Le parlement de l'URSS",
+        "Le journal officiel du parti communiste"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 14,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Qu'est-ce que le Front populaire (1936) ?",
+      "propositions": [
+        "Une alliance militaire entre la France et l'URSS",
+        "Une coalition de partis de gauche arrivée au pouvoir en France",
+        "Un mouvement d'extrême droite français",
+        "Un syndicat ouvrier européen"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 15,
+      "matiere": "histoire",
+      "theme": "Entre-deux-guerres",
+      "question": "Que signifie « démocratie » ?",
+      "propositions": [
+        "Un régime où le pouvoir est exercé par un seul homme",
+        "Un régime politique dans lequel le peuple détient le pouvoir",
+        "Un régime dirigé par les militaires",
+        "Un régime religieux"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 16,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que la « Blitzkrieg » ?",
+      "propositions": [
+        "Une guerre de tranchées",
+        "Une guerre éclair fondée sur la rapidité des chars et de l'aviation",
+        "Une guerre civile",
+        "Une guerre coloniale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 17,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'appelle-t-on la « Shoah » ?",
+      "propositions": [
+        "L'extermination des Juifs d'Europe par les nazis",
+        "Le bombardement de Londres",
+        "L'invasion de l'URSS",
+        "La libération des camps en 1945"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 18,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce qu'un camp d'extermination ?",
+      "propositions": [
+        "Un camp où sont enfermés les prisonniers de guerre",
+        "Un camp destiné à la mise à mort massive et industrielle de déportés",
+        "Un camp de travail pour les civils",
+        "Un camp d'entraînement militaire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 19,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Que désigne la « collaboration » sous Vichy ?",
+      "propositions": [
+        "Le travail commun entre la France et le Royaume-Uni",
+        "La coopération volontaire du régime de Vichy avec l'Allemagne nazie",
+        "L'aide aux Juifs persécutés",
+        "Le soutien à la Résistance"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 20,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que la Résistance ?",
+      "propositions": [
+        "L'armée française régulière en 1940",
+        "L'ensemble des actions menées contre l'occupant nazi et le régime de Vichy",
+        "Le gouvernement de Vichy",
+        "Une organisation syndicale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 21,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qui était le chef de la France libre depuis Londres ?",
+      "propositions": [
+        "Philippe Pétain",
+        "Pierre Laval",
+        "Charles de Gaulle",
+        "Jean Moulin"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 22,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que le STO (Service du Travail Obligatoire) ?",
+      "propositions": [
+        "Une obligation pour les Français d'aller travailler en Allemagne",
+        "Un service militaire renforcé",
+        "Une école obligatoire pour les jeunes",
+        "Un travail bénévole pour la Résistance"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 23,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Que désigne la « rafle » ?",
+      "propositions": [
+        "Une bataille rangée entre deux armées",
+        "Une arrestation massive et soudaine de personnes",
+        "Un bombardement aérien",
+        "Une opération de sauvetage"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 24,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce qu'un « crime contre l'humanité » ?",
+      "propositions": [
+        "Un meurtre commis en temps de paix",
+        "Un acte inhumain commis de façon systématique contre des civils, imprescriptible",
+        "Un crime économique de grande ampleur",
+        "Une trahison envers son pays"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 25,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Que désigne le mot « épuration » à la Libération ?",
+      "propositions": [
+        "Le nettoyage des villes bombardées",
+        "Le jugement et la sanction des collaborateurs",
+        "La purification de l'eau dans les villes",
+        "L'expulsion des immigrés"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 26,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que le débarquement ?",
+      "propositions": [
+        "Le retour des soldats à la maison",
+        "Une opération militaire par laquelle des troupes débarquent sur une côte ennemie",
+        "Le déchargement de marchandises dans un port",
+        "Le départ des Allemands de France"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 27,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que l'ONU ?",
+      "propositions": [
+        "L'Organisation Nationale Unifiée",
+        "L'Organisation des Nations Unies, créée en 1945 pour maintenir la paix",
+        "Une alliance militaire occidentale",
+        "Un syndicat international"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 28,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que le procès de Nuremberg (1945-46) ?",
+      "propositions": [
+        "Le procès des résistants français",
+        "Le procès des dirigeants nazis pour crimes de guerre et contre l'humanité",
+        "Un procès d'espionnage soviétique",
+        "Le procès de Pétain"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 29,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce qu'un « déporté » ?",
+      "propositions": [
+        "Un soldat envoyé au front",
+        "Une personne arrêtée et transférée de force dans un camp",
+        "Un réfugié politique",
+        "Un prisonnier libéré"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 30,
+      "matiere": "histoire",
+      "theme": "Seconde Guerre mondiale",
+      "question": "Qu'est-ce que la « solution finale » ?",
+      "propositions": [
+        "La fin officielle de la guerre en 1945",
+        "Le plan nazi d'extermination systématique des Juifs d'Europe",
+        "Le plan de reconstruction de l'Europe",
+        "La capitulation de l'Allemagne"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 31,
+      "matiere": "histoire",
+      "theme": "Guerre froide",
+      "question": "Qu'est-ce que la Guerre froide ?",
+      "propositions": [
+        "Une guerre menée dans les régions polaires",
+        "Une période de tensions entre les États-Unis et l'URSS sans affrontement direct",
+        "Une guerre commerciale entre l'Europe et l'Asie",
+        "Un conflit climatique mondial"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 32,
+      "matiere": "histoire",
+      "theme": "Guerre froide",
+      "question": "Que signifie « bloc » dans le contexte de la Guerre froide ?",
+      "propositions": [
+        "Un ensemble d'États regroupés autour d'une superpuissance",
+        "Une fortification militaire",
+        "Un quartier d'une grande ville",
+        "Un groupe d'îles"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 33,
+      "matiere": "histoire",
+      "theme": "Guerre froide",
+      "question": "Qu'est-ce que le « rideau de fer » ?",
+      "propositions": [
+        "Une véritable barrière métallique en Europe",
+        "La frontière idéologique séparant l'Europe de l'Ouest du bloc soviétique",
+        "Un système de défense aérienne",
+        "Un traité commercial"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 34,
+      "matiere": "histoire",
+      "theme": "Guerre froide",
+      "question": "Qu'est-ce que l'OTAN ?",
+      "propositions": [
+        "L'Organisation des Travailleurs d'Amérique du Nord",
+        "Une alliance militaire des pays occidentaux contre l'URSS",
+        "Un organisme de l'ONU",
+        "Une organisation économique européenne"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 35,
+      "matiere": "histoire",
+      "theme": "Décolonisation",
+      "question": "Qu'est-ce que la décolonisation ?",
+      "propositions": [
+        "L'installation de nouvelles colonies",
+        "Le processus d'accession à l'indépendance des anciennes colonies",
+        "La modernisation des colonies",
+        "Le retour des colons en métropole"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 36,
+      "matiere": "histoire",
+      "theme": "Décolonisation",
+      "question": "Qu'est-ce qu'une métropole (au sens colonial) ?",
+      "propositions": [
+        "Une grande ville moderne",
+        "L'État qui possède des colonies",
+        "Une ville colonisée",
+        "Une capitale administrative"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 37,
+      "matiere": "histoire",
+      "theme": "Décolonisation",
+      "question": "Qu'est-ce que le tiers-monde ?",
+      "propositions": [
+        "Les pays neutres pendant la Guerre froide",
+        "Les pays nouvellement indépendants et en développement, non alignés sur un bloc",
+        "Le troisième continent découvert",
+        "Les pays communistes d'Asie"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 38,
+      "matiere": "histoire",
+      "theme": "Décolonisation",
+      "question": "Qu'est-ce que la guerre d'Algérie (1954-1962) ?",
+      "propositions": [
+        "Une guerre civile espagnole",
+        "Une guerre d'indépendance contre la colonisation française",
+        "Un conflit entre l'Algérie et le Maroc",
+        "Une guerre de religion"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 39,
+      "matiere": "histoire",
+      "theme": "Construction européenne",
+      "question": "Qu'est-ce que la CECA (1951) ?",
+      "propositions": [
+        "La Communauté Européenne du Charbon et de l'Acier, première étape de la construction européenne",
+        "Une organisation militaire européenne",
+        "Une chambre de commerce européenne",
+        "Une banque centrale européenne"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 40,
+      "matiere": "histoire",
+      "theme": "Construction européenne",
+      "question": "Que sont les traités de Rome (1957) ?",
+      "propositions": [
+        "Les traités créant la Communauté Économique Européenne (CEE)",
+        "Les traités de paix de 1945",
+        "Les traités fondateurs de l'ONU",
+        "Les accords entre l'Italie et l'Allemagne"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 41,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Qu'est-ce qu'une république ?",
+      "propositions": [
+        "Un régime où le pouvoir est héréditaire",
+        "Un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus",
+        "Une dictature militaire",
+        "Une fédération de provinces"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 42,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Qu'est-ce qu'une constitution ?",
+      "propositions": [
+        "Une loi fiscale",
+        "Le texte fondamental qui définit l'organisation des pouvoirs d'un État",
+        "Un règlement intérieur",
+        "Un programme politique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 43,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Que désigne le « suffrage universel » ?",
+      "propositions": [
+        "Le droit de vote accordé à tous les citoyens majeurs",
+        "Le droit de vote réservé aux hommes",
+        "Le vote des seuls propriétaires",
+        "Le vote indirect par des grands électeurs"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 44,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Qu'est-ce qu'un référendum ?",
+      "propositions": [
+        "Une consultation directe des citoyens par oui ou non sur une question",
+        "Un vote au Parlement",
+        "Une élection présidentielle",
+        "Un sondage d'opinion"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 45,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Qu'est-ce que la cohabitation ?",
+      "propositions": [
+        "Le fait que plusieurs partis gouvernent ensemble",
+        "Une situation où le président et le Premier ministre sont de tendances politiques opposées",
+        "Le partage du logement entre étudiants",
+        "Une alliance internationale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 46,
+      "matiere": "histoire",
+      "theme": "Ve République",
+      "question": "Qu'est-ce que la laïcité ?",
+      "propositions": [
+        "L'interdiction de toutes les religions",
+        "Le principe de séparation des Églises et de l'État, garantissant la liberté de conscience",
+        "L'obligation d'avoir une religion",
+        "Une religion officielle d'État"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 47,
+      "matiere": "histoire",
+      "theme": "France depuis 1945",
+      "question": "Que sont les « Trente Glorieuses » ?",
+      "propositions": [
+        "Trente batailles victorieuses de l'armée française",
+        "La période de forte croissance économique de 1945 à 1975",
+        "Trente années de guerres coloniales",
+        "Trente ans de Ve République"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 48,
+      "matiere": "histoire",
+      "theme": "France depuis 1945",
+      "question": "Qu'est-ce que l'État-providence ?",
+      "propositions": [
+        "Un État dirigé par un roi bienveillant",
+        "Un État qui prend en charge la protection sociale (santé, retraite, chômage)",
+        "Un État religieux",
+        "Un État sans impôts"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 49,
+      "matiere": "histoire",
+      "theme": "France depuis 1945",
+      "question": "Qu'est-ce que la parité (en politique) ?",
+      "propositions": [
+        "L'égalité des salaires entre tous les fonctionnaires",
+        "L'égalité du nombre de femmes et d'hommes dans les fonctions politiques",
+        "L'égalité entre majorité et opposition",
+        "L'équivalence entre deux monnaies"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 50,
+      "matiere": "histoire",
+      "theme": "France depuis 1945",
+      "question": "Qu'est-ce qu'un média ?",
+      "propositions": [
+        "Un moyen de diffusion de l'information vers un large public",
+        "Un journal uniquement papier",
+        "Un appareil électronique",
+        "Un service public d'État"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 51,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce que la mondialisation ?",
+      "propositions": [
+        "La domination d'un seul pays sur le monde",
+        "La mise en relation des différentes parties du monde par l'intensification des échanges",
+        "L'unification politique du monde",
+        "La création d'un gouvernement mondial"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 52,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une FTN (Firme Transnationale) ?",
+      "propositions": [
+        "Une entreprise locale",
+        "Une entreprise qui possède des activités dans plusieurs pays",
+        "Une entreprise d'État",
+        "Une association internationale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 53,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'un flux ?",
+      "propositions": [
+        "Une frontière naturelle",
+        "Un déplacement (de marchandises, de personnes, d'informations, de capitaux)",
+        "Un type de climat",
+        "Une montagne en formation"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 54,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'un hub ?",
+      "propositions": [
+        "Un quartier d'affaires",
+        "Une plateforme de correspondance pour les flux (aérien, portuaire...)",
+        "Un type de marchandise",
+        "Une zone industrielle"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 55,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'un conteneur ?",
+      "propositions": [
+        "Un grand bateau de croisière",
+        "Une caisse métallique standardisée servant au transport de marchandises",
+        "Un entrepôt portuaire",
+        "Un camion de livraison"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 56,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Que désigne la « façade maritime » ?",
+      "propositions": [
+        "Le front de mer d'une station balnéaire",
+        "Un littoral concentrant de grands ports et des activités économiques importantes",
+        "La frontière maritime d'un pays",
+        "Une plage très fréquentée"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 57,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une métropole mondiale ?",
+      "propositions": [
+        "Une capitale politique",
+        "Une grande ville qui concentre des fonctions de commandement à l'échelle mondiale",
+        "Une ville très peuplée seulement",
+        "Une ville côtière"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 58,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une mégalopole ?",
+      "propositions": [
+        "Une très grande ville isolée",
+        "Un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles",
+        "Un quartier d'affaires",
+        "Une ville historique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 59,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Que sont les pays émergents ?",
+      "propositions": [
+        "Des pays qui viennent d'obtenir leur indépendance",
+        "Des pays connaissant une forte croissance économique et s'intégrant à la mondialisation",
+        "Des pays les plus pauvres du monde",
+        "Des pays insulaires récents"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 60,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Que désigne un « PMA » ?",
+      "propositions": [
+        "Un Pays à Monnaie Africaine",
+        "Un Pays les Moins Avancés, pays les plus pauvres du monde",
+        "Un Port Maritime Actif",
+        "Un Programme Mondial d'Aide"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 61,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une délocalisation ?",
+      "propositions": [
+        "Le déplacement d'une entreprise vers un pays où les coûts sont plus faibles",
+        "Le déménagement d'une famille",
+        "La fermeture définitive d'une usine",
+        "L'agrandissement d'un site industriel"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 62,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une ZIP (Zone Industrialo-Portuaire) ?",
+      "propositions": [
+        "Une zone interdite à l'industrie",
+        "Un vaste espace combinant port, industries et entrepôts",
+        "Une zone touristique côtière",
+        "Une zone militaire portuaire"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 63,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'un paradis fiscal ?",
+      "propositions": [
+        "Un pays où l'on ne paye aucun impôt sur la consommation",
+        "Un territoire à fiscalité très faible attirant les capitaux étrangers",
+        "Un pays riche en ressources naturelles",
+        "Un pays sans dette publique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 64,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce qu'une migration ?",
+      "propositions": [
+        "Le déplacement saisonnier d'animaux uniquement",
+        "Le déplacement durable de personnes d'un lieu à un autre",
+        "Un changement de quartier dans une ville",
+        "Un voyage touristique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 65,
+      "matiere": "geographie",
+      "theme": "Mondialisation",
+      "question": "Qu'est-ce que la fracture numérique ?",
+      "propositions": [
+        "La panne mondiale d'Internet",
+        "Les inégalités d'accès aux technologies numériques entre territoires ou populations",
+        "La rupture d'un câble sous-marin",
+        "Le piratage informatique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 66,
+      "matiere": "geographie",
+      "theme": "France - territoires",
+      "question": "Qu'est-ce qu'une aire urbaine (ou aire d'attraction des villes) ?",
+      "propositions": [
+        "Le centre historique d'une ville",
+        "Un ensemble formé par une ville-centre et les communes sous son influence",
+        "Une zone industrielle de banlieue",
+        "Un quartier résidentiel"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 67,
+      "matiere": "geographie",
+      "theme": "France - territoires",
+      "question": "Qu'est-ce que la périurbanisation ?",
+      "propositions": [
+        "Le départ massif des habitants vers les campagnes lointaines",
+        "L'extension de la ville vers ses périphéries, sous forme de lotissements",
+        "La destruction des banlieues",
+        "L'urbanisation des centres anciens"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 68,
+      "matiere": "geographie",
+      "theme": "France - territoires",
+      "question": "Qu'est-ce que l'étalement urbain ?",
+      "propositions": [
+        "La densification des centres-villes",
+        "L'extension spatiale de la ville, qui consomme beaucoup d'espace",
+        "La construction de gratte-ciels",
+        "La rénovation urbaine"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 69,
+      "matiere": "geographie",
+      "theme": "France - territoires",
+      "question": "Qu'est-ce qu'une banlieue ?",
+      "propositions": [
+        "Une zone agricole",
+        "L'espace urbanisé qui entoure une ville-centre",
+        "Le quartier d'affaires",
+        "Une commune rurale isolée"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 70,
+      "matiere": "geographie",
+      "theme": "France - territoires",
+      "question": "Que désigne la « diagonale du vide » en France ?",
+      "propositions": [
+        "Une zone de tempêtes fréquentes",
+        "Une zone allant des Ardennes aux Landes peu peuplée et peu dynamique",
+        "Un corridor industriel",
+        "Une zone montagneuse touristique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 71,
+      "matiere": "geographie",
+      "theme": "France - espaces productifs",
+      "question": "Qu'est-ce qu'un espace productif ?",
+      "propositions": [
+        "Un espace consacré aux loisirs",
+        "Un espace aménagé pour une activité économique (agricole, industrielle, de services...)",
+        "Une réserve naturelle",
+        "Un espace résidentiel"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 72,
+      "matiere": "geographie",
+      "theme": "France - espaces productifs",
+      "question": "Qu'est-ce que l'agriculture productiviste ?",
+      "propositions": [
+        "Une agriculture biologique de petite échelle",
+        "Une agriculture intensive cherchant un rendement maximal",
+        "Une agriculture traditionnelle",
+        "Une agriculture vivrière"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 73,
+      "matiere": "geographie",
+      "theme": "France - espaces productifs",
+      "question": "Qu'est-ce qu'un technopôle ?",
+      "propositions": [
+        "Une grande usine automobile",
+        "Un pôle regroupant entreprises, centres de recherche et universités liés aux hautes technologies",
+        "Un centre commercial spécialisé",
+        "Un pôle touristique en montagne"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 74,
+      "matiere": "geographie",
+      "theme": "France - espaces productifs",
+      "question": "Qu'est-ce qu'un espace de faible densité ?",
+      "propositions": [
+        "Un espace très peuplé",
+        "Un espace où la population est faible par km² (moins de 30 hab/km²)",
+        "Une zone industrielle",
+        "Un centre urbain"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 75,
+      "matiere": "geographie",
+      "theme": "France - aménagement",
+      "question": "Qu'est-ce que l'aménagement du territoire ?",
+      "propositions": [
+        "La décoration d'un espace urbain",
+        "L'ensemble des actions menées pour organiser un territoire et réduire les inégalités",
+        "L'achat de terrains agricoles",
+        "La construction de routes uniquement"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 76,
+      "matiere": "geographie",
+      "theme": "France - aménagement",
+      "question": "Qu'est-ce qu'une collectivité territoriale ?",
+      "propositions": [
+        "Une association de quartier",
+        "Une circonscription administrative (commune, département, région) qui s'administre librement",
+        "Un service de l'État central",
+        "Une entreprise publique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 77,
+      "matiere": "geographie",
+      "theme": "France - aménagement",
+      "question": "Qu'est-ce que la décentralisation ?",
+      "propositions": [
+        "Le déplacement de la capitale",
+        "Le transfert de compétences de l'État vers les collectivités territoriales",
+        "La fermeture de services publics",
+        "La privatisation des entreprises d'État"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 78,
+      "matiere": "geographie",
+      "theme": "France - aménagement",
+      "question": "Que désigne le mot « région » en France ?",
+      "propositions": [
+        "Un département agrandi",
+        "Une collectivité territoriale regroupant plusieurs départements",
+        "Une zone climatique",
+        "Une simple division historique sans pouvoir"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 79,
+      "matiere": "geographie",
+      "theme": "France et UE",
+      "question": "Qu'est-ce que l'Union européenne (UE) ?",
+      "propositions": [
+        "Une alliance militaire européenne",
+        "Une union politique et économique regroupant 27 États européens",
+        "Un syndicat des travailleurs européens",
+        "Une banque européenne"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 80,
+      "matiere": "geographie",
+      "theme": "France et UE",
+      "question": "Qu'est-ce que l'espace Schengen ?",
+      "propositions": [
+        "Une zone monétaire commune",
+        "Une zone de libre circulation des personnes entre pays européens membres",
+        "Une zone de libre-échange commercial mondial",
+        "Une région d'Europe centrale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 81,
+      "matiere": "geographie",
+      "theme": "France et UE",
+      "question": "Qu'est-ce que la zone euro ?",
+      "propositions": [
+        "L'ensemble des pays de l'UE ayant adopté l'euro comme monnaie",
+        "L'ensemble du continent européen",
+        "Une région économique d'Europe de l'Est",
+        "Une zone industrielle franco-allemande"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 82,
+      "matiere": "geographie",
+      "theme": "France et UE",
+      "question": "Qu'est-ce qu'une eurorégion ?",
+      "propositions": [
+        "Une région exclusivement française",
+        "Un espace de coopération transfrontalière entre régions de plusieurs pays européens",
+        "Une nouvelle institution européenne",
+        "Une région agricole de l'UE"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 83,
+      "matiere": "geographie",
+      "theme": "France et UE",
+      "question": "Qu'est-ce qu'une frontière ?",
+      "propositions": [
+        "Un fleuve qui traverse un pays",
+        "Une limite qui sépare deux États",
+        "Une route nationale",
+        "Une barrière douanière interne"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 84,
+      "matiere": "geographie",
+      "theme": "France dans le monde",
+      "question": "Qu'est-ce qu'un DROM (Département et Région d'Outre-mer) ?",
+      "propositions": [
+        "Une ancienne colonie devenue indépendante",
+        "Un territoire français situé en dehors de la métropole, avec statut de département",
+        "Une région étrangère associée à la France",
+        "Un protectorat français"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 85,
+      "matiere": "geographie",
+      "theme": "France dans le monde",
+      "question": "Qu'est-ce que la francophonie ?",
+      "propositions": [
+        "L'ensemble des pays et populations qui utilisent le français",
+        "La politique étrangère de la France",
+        "Un parti politique français",
+        "Une institution de l'ONU"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 86,
+      "matiere": "geographie",
+      "theme": "France dans le monde",
+      "question": "Qu'est-ce que la ZEE (Zone Économique Exclusive) ?",
+      "propositions": [
+        "Une zone interdite au commerce",
+        "Un espace maritime sur lequel un État a des droits exclusifs d'exploitation",
+        "Une zone franche commerciale",
+        "Un territoire militaire interdit"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 87,
+      "matiere": "geographie",
+      "theme": "Géopolitique",
+      "question": "Qu'est-ce qu'un État ?",
+      "propositions": [
+        "Une entreprise nationale",
+        "Une autorité politique souveraine qui s'exerce sur un territoire et une population",
+        "Une simple région administrative",
+        "Un parti politique au pouvoir"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 88,
+      "matiere": "geographie",
+      "theme": "Géopolitique",
+      "question": "Que signifie « souveraineté » ?",
+      "propositions": [
+        "La richesse économique d'un pays",
+        "Le pouvoir suprême d'un État de décider sur son territoire",
+        "L'autorité d'un monarque uniquement",
+        "L'indépendance énergétique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 89,
+      "matiere": "geographie",
+      "theme": "Géopolitique",
+      "question": "Qu'est-ce qu'une superpuissance ?",
+      "propositions": [
+        "Un pays très peuplé seulement",
+        "Un État dominant le monde par sa puissance économique, militaire et culturelle",
+        "Un pays riche en pétrole",
+        "Une ancienne colonie devenue très riche"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 90,
+      "matiere": "geographie",
+      "theme": "Géopolitique",
+      "question": "Qu'est-ce que le soft power ?",
+      "propositions": [
+        "La force militaire d'un État",
+        "La capacité d'influence d'un État par sa culture, ses idées, son mode de vie",
+        "Une technologie militaire douce",
+        "Une diplomatie secrète"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 91,
+      "matiere": "geographie",
+      "theme": "Géopolitique",
+      "question": "Qu'est-ce qu'un BRICS ?",
+      "propositions": [
+        "Un type de matériau de construction",
+        "Un groupe de pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud)",
+        "Une organisation militaire",
+        "Une monnaie internationale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 92,
+      "matiere": "geographie",
+      "theme": "Environnement",
+      "question": "Qu'est-ce que le développement durable ?",
+      "propositions": [
+        "Un développement uniquement économique",
+        "Un développement qui répond aux besoins présents sans compromettre ceux des générations futures",
+        "Le développement des pays riches uniquement",
+        "Une politique d'austérité"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 93,
+      "matiere": "geographie",
+      "theme": "Environnement",
+      "question": "Qu'est-ce que la biodiversité ?",
+      "propositions": [
+        "Une espèce animale rare",
+        "L'ensemble des espèces vivantes et de leurs interactions sur Terre",
+        "Une réserve naturelle uniquement",
+        "Une diversité culturelle"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 94,
+      "matiere": "geographie",
+      "theme": "Environnement",
+      "question": "Qu'est-ce qu'un risque naturel ?",
+      "propositions": [
+        "Une catastrophe causée par l'homme",
+        "La menace que représente un phénomène naturel (séisme, inondation...) pour les populations",
+        "Une pollution industrielle",
+        "Un accident de la route"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 95,
+      "matiere": "geographie",
+      "theme": "Environnement",
+      "question": "Qu'est-ce qu'une ressource ?",
+      "propositions": [
+        "Un revenu mensuel",
+        "Un élément naturel ou matériel utilisé pour satisfaire un besoin (eau, énergie, minerai...)",
+        "Une aide financière de l'État",
+        "Un service public"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 96,
+      "matiere": "geographie",
+      "theme": "Démographie",
+      "question": "Qu'est-ce que la densité de population ?",
+      "propositions": [
+        "Le nombre total d'habitants d'un pays",
+        "Le nombre d'habitants par kilomètre carré",
+        "Le taux de natalité",
+        "La proportion d'urbains"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 97,
+      "matiere": "geographie",
+      "theme": "Démographie",
+      "question": "Qu'est-ce que l'exode rural ?",
+      "propositions": [
+        "Le déplacement de citadins vers les campagnes",
+        "Le départ massif des habitants des campagnes vers les villes",
+        "L'émigration vers l'étranger",
+        "Le retour des immigrés dans leur pays"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 98,
+      "matiere": "geographie",
+      "theme": "Démographie",
+      "question": "Qu'est-ce que l'urbanisation ?",
+      "propositions": [
+        "La rénovation des centres-villes",
+        "L'augmentation de la part de la population vivant en ville",
+        "La construction de routes",
+        "Le développement des transports"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 99,
+      "matiere": "geographie",
+      "theme": "Géographie générale",
+      "question": "Qu'est-ce qu'un littoral ?",
+      "propositions": [
+        "Une chaîne de montagnes",
+        "Une zone de contact entre la terre et la mer",
+        "Une grande plaine intérieure",
+        "Un désert côtier"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 100,
+      "matiere": "geographie",
+      "theme": "Géographie générale",
+      "question": "Qu'est-ce qu'un territoire ?",
+      "propositions": [
+        "Une zone interdite d'accès",
+        "Un espace approprié, organisé et aménagé par une société",
+        "Un terrain agricole uniquement",
+        "Un parc naturel"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 101,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la ville-centre ?",
+      "propositions": [
+        "Le quartier le plus récent d'une ville",
+        "La commune principale d'une agglomération, généralement la plus peuplée et ancienne",
+        "Une zone commerciale de banlieue",
+        "Un village voisin d'une grande ville"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 102,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la couronne périurbaine ?",
+      "propositions": [
+        "Le centre historique d'une grande ville",
+        "L'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine",
+        "Une zone industrielle proche du centre",
+        "Le quartier le plus riche d'une ville"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 103,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une agglomération ?",
+      "propositions": [
+        "Une commune isolée",
+        "L'ensemble formé par une ville-centre et ses banlieues",
+        "Un simple village",
+        "Une région administrative"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 104,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'un pôle urbain ?",
+      "propositions": [
+        "Une ville-centre et ses banlieues offrant beaucoup d'emplois",
+        "Le centre d'une zone commerciale",
+        "Une station de métro principale",
+        "Un quartier résidentiel calme"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 105,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'un CBD (Central Business District) ?",
+      "propositions": [
+        "Un quartier résidentiel populaire",
+        "Le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux",
+        "Une zone industrielle ancienne",
+        "Un centre administratif municipal"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 106,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la gentrification ?",
+      "propositions": [
+        "Le départ des classes aisées vers les campagnes",
+        "Le processus par lequel des quartiers populaires sont investis par des habitants plus aisés",
+        "La construction de logements sociaux",
+        "L'augmentation du nombre d'étrangers dans un quartier"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 107,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la ségrégation socio-spatiale ?",
+      "propositions": [
+        "La séparation des hommes et des femmes dans l'espace public",
+        "La séparation dans l'espace urbain des populations selon leur catégorie sociale",
+        "Le mélange des populations dans un même quartier",
+        "Une politique de transports urbains"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 108,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une ville nouvelle ?",
+      "propositions": [
+        "Une ville récemment fondée à l'étranger",
+        "Une ville créée à partir des années 1960 pour désengorger les grandes agglomérations",
+        "Un quartier rénové en centre-ville",
+        "Une banlieue pavillonnaire spontanée"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 109,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une conurbation ?",
+      "propositions": [
+        "Une ville détruite par une catastrophe",
+        "Un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent",
+        "Un village rattaché à une grande ville",
+        "Le centre administratif d'une région"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 110,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une friche urbaine ?",
+      "propositions": [
+        "Un parc public récemment aménagé",
+        "Un terrain ou bâtiment abandonné en ville (souvent ancienne usine)",
+        "Un quartier neuf",
+        "Une zone agricole en pleine ville"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 111,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la rénovation urbaine ?",
+      "propositions": [
+        "La destruction systématique des centres anciens",
+        "L'ensemble des opérations de transformation d'un quartier ancien ou dégradé",
+        "La construction de routes neuves",
+        "L'organisation d'événements culturels en ville"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 112,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une zone pavillonnaire ?",
+      "propositions": [
+        "Une zone commerciale de centre-ville",
+        "Un quartier composé majoritairement de maisons individuelles avec jardin",
+        "Une zone industrielle",
+        "Un quartier d'immeubles HLM"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 113,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'un grand ensemble (HLM) ?",
+      "propositions": [
+        "Un complexe touristique",
+        "Un ensemble de grands immeubles de logements sociaux construits surtout entre 1950 et 1975",
+        "Un quartier d'affaires moderne",
+        "Une vaste zone commerciale"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 114,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'un bidonville ?",
+      "propositions": [
+        "Un quartier résidentiel pour cadres",
+        "Un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud",
+        "Une zone industrielle abandonnée",
+        "Un quartier touristique animé"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 115,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'un éco-quartier ?",
+      "propositions": [
+        "Un quartier réservé aux activités agricoles",
+        "Un quartier urbain conçu selon les principes du développement durable",
+        "Un quartier sans habitants",
+        "Un quartier exclusivement piéton du centre historique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 116,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une migration pendulaire (ou navette) ?",
+      "propositions": [
+        "Une migration saisonnière touristique",
+        "Le déplacement quotidien des habitants entre leur domicile et leur lieu de travail",
+        "Un déménagement définitif vers une autre région",
+        "Un voyage à l'étranger"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 117,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce qu'une zone commerciale périphérique ?",
+      "propositions": [
+        "Un quartier commerçant historique en centre-ville",
+        "Un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville",
+        "Un marché traditionnel hebdomadaire",
+        "Une rue piétonne touristique"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 118,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la métropolisation ?",
+      "propositions": [
+        "La transformation d'un village en ville",
+        "La concentration croissante des hommes, activités et richesses dans les grandes métropoles",
+        "Le déclin des grandes villes",
+        "L'extension des transports régionaux"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 119,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que la mixité sociale ?",
+      "propositions": [
+        "La cohabitation, dans un même quartier, d'habitants de catégories sociales différentes",
+        "Le mélange des âges dans un quartier",
+        "La présence de plusieurs nationalités",
+        "L'égalité des salaires entre habitants"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 120,
+      "matiere": "geographie",
+      "theme": "Espaces de la ville",
+      "question": "Qu'est-ce que l'intercommunalité ?",
+      "propositions": [
+        "L'union de plusieurs régions",
+        "Le regroupement de communes voisines pour gérer ensemble certains services (transports, déchets, eau...)",
+        "Une association sportive entre villes",
+        "Un jumelage international"
+      ],
+      "bonneReponse": 1
+    }
+  ]
+}
