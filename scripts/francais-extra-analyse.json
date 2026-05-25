@@ -1,0 +1,246 @@
+{
+  "grammaire": [
+    {
+      "question": "Quelle est la nature du mot 'sous' dans 'Le chat dort sous la table' ?",
+      "choices": ["Adverbe", "Préposition", "Conjonction", "Déterminant"],
+      "correctIndex": 1,
+      "explanation": "'Sous' introduit un complément (groupe nominal) : c'est une préposition."
+    },
+    {
+      "question": "Dans 'Je veux du pain', 'du' est un déterminant :",
+      "choices": ["Défini", "Indéfini", "Partitif", "Démonstratif"],
+      "correctIndex": 2,
+      "explanation": "Le déterminant partitif (du, de la, des) désigne une quantité indéterminée d'un tout."
+    },
+    {
+      "question": "Quelle est la fonction de 'mon ami' dans 'Paul est mon ami' ?",
+      "choices": ["COD", "Sujet", "Attribut du sujet", "Complément du nom"],
+      "correctIndex": 2,
+      "explanation": "Après le verbe d'état 'être', 'mon ami' est attribut du sujet 'Paul'."
+    },
+    {
+      "question": "Dans 'L'homme dont je parle est arrivé', quel est l'antécédent de 'dont' ?",
+      "choices": ["Je", "L'homme", "Arrivé", "Il n'y en a pas"],
+      "correctIndex": 1,
+      "explanation": "Le pronom relatif 'dont' reprend 'l'homme' (parler de quelqu'un = dont)."
+    },
+    {
+      "question": "Quelle phrase est à la voix passive ?",
+      "choices": ["Le chat mange la souris.", "La souris est mangée par le chat.", "Le chat a mangé.", "Le chat mange."],
+      "correctIndex": 1,
+      "explanation": "À la voix passive, le sujet subit l'action : 'la souris' subit l'action 'manger'."
+    },
+    {
+      "question": "Combien y a-t-il de conjonctions de coordination ?",
+      "choices": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "Il y en a 7 : mais, ou, et, donc, or, ni, car (mnémo : 'mais où est donc Ornicar ?')."
+    },
+    {
+      "question": "Dans 'Sors !', quel est le type de phrase ?",
+      "choices": ["Déclarative", "Interrogative", "Exclamative", "Injonctive"],
+      "correctIndex": 3,
+      "explanation": "La phrase injonctive exprime un ordre, un conseil ou une interdiction."
+    },
+    {
+      "question": "Quelle est la nature de 'aïe' dans 'Aïe ! Je me suis fait mal.' ?",
+      "choices": ["Adverbe", "Interjection", "Conjonction", "Préposition"],
+      "correctIndex": 1,
+      "explanation": "L'interjection est un mot invariable qui exprime une émotion ou une réaction."
+    },
+    {
+      "question": "Dans 'Je lui ai donné un livre', quelle est la fonction de 'lui' ?",
+      "choices": ["COD", "COI", "Sujet", "Complément circonstanciel"],
+      "correctIndex": 1,
+      "explanation": "'Donner à quelqu'un' : 'lui' est complément d'objet indirect (COI)."
+    },
+    {
+      "question": "Dans 'Je me demande s'il viendra', la subordonnée est :",
+      "choices": ["Relative", "Conjonctive complétive", "Interrogative indirecte", "Circonstancielle"],
+      "correctIndex": 2,
+      "explanation": "Introduite par 'si' après un verbe d'interrogation, c'est une subordonnée interrogative indirecte."
+    },
+    {
+      "question": "Quel est le pronom personnel COD dans 'Il la regarde' ?",
+      "choices": ["Il", "La", "Regarde", "Aucun"],
+      "correctIndex": 1,
+      "explanation": "'La' remplace un nom féminin et est complément d'objet direct du verbe 'regarde'."
+    },
+    {
+      "question": "Dans 'Quel beau temps !', 'quel' est un déterminant :",
+      "choices": ["Démonstratif", "Possessif", "Exclamatif", "Indéfini"],
+      "correctIndex": 2,
+      "explanation": "Dans une phrase exclamative, 'quel' est un déterminant exclamatif."
+    },
+    {
+      "question": "Quelle est la nature de 'tien' dans 'Ce livre est le tien' ?",
+      "choices": ["Adjectif possessif", "Pronom possessif", "Déterminant possessif", "Pronom démonstratif"],
+      "correctIndex": 1,
+      "explanation": "'Le tien' remplace un nom : c'est un pronom possessif."
+    },
+    {
+      "question": "Dans 'Quand il pleut, je reste chez moi', la subordonnée est :",
+      "choices": ["Relative", "Complétive", "Circonstancielle de temps", "Interrogative indirecte"],
+      "correctIndex": 2,
+      "explanation": "Introduite par 'quand' (conjonction de subordination de temps), c'est une circonstancielle de temps."
+    },
+    {
+      "question": "Dans 'Il pensait : viendra-t-elle ?', quel discours est utilisé ?",
+      "choices": ["Direct", "Indirect", "Indirect libre", "Narrativisé"],
+      "correctIndex": 2,
+      "explanation": "Sans verbe introducteur ni guillemets, mais avec ponctuation expressive : discours indirect libre."
+    },
+    {
+      "question": "Quelle est la fonction de 'de mon frère' dans 'Le livre de mon frère est rouge' ?",
+      "choices": ["COI", "Complément du nom", "Attribut", "Complément circonstanciel"],
+      "correctIndex": 1,
+      "explanation": "'De mon frère' complète le nom 'livre' : c'est un complément du nom."
+    },
+    {
+      "question": "Dans 'Il a parlé clairement', 'clairement' est :",
+      "choices": ["Un adjectif qualificatif", "Un adverbe de manière", "Une préposition", "Une conjonction"],
+      "correctIndex": 1,
+      "explanation": "Les adverbes en -ment sont généralement des adverbes de manière modifiant le verbe."
+    },
+    {
+      "question": "Combien de propositions y a-t-il dans 'Il pleut et je reste à la maison' ?",
+      "choices": ["Une", "Deux indépendantes coordonnées", "Une principale et une subordonnée", "Trois"],
+      "correctIndex": 1,
+      "explanation": "Deux propositions indépendantes reliées par la conjonction de coordination 'et'."
+    },
+    {
+      "question": "Dans 'Personne n'est venu', 'personne' est un pronom :",
+      "choices": ["Personnel", "Indéfini", "Démonstratif", "Relatif"],
+      "correctIndex": 1,
+      "explanation": "'Personne', 'rien', 'quelqu'un', 'chacun' sont des pronoms indéfinis."
+    },
+    {
+      "question": "Quelle est la fonction de 'demain' dans 'Je partirai demain' ?",
+      "choices": ["COD", "Attribut", "Complément circonstanciel de temps", "Sujet"],
+      "correctIndex": 2,
+      "explanation": "'Demain' précise le moment de l'action : c'est un complément circonstanciel de temps."
+    }
+  ],
+  "analyse-de-texte": [
+    {
+      "question": "Quel type de texte raconte une histoire avec des événements qui s'enchaînent ?",
+      "choices": ["Descriptif", "Argumentatif", "Narratif", "Explicatif"],
+      "correctIndex": 2,
+      "explanation": "Le texte narratif raconte des événements organisés en une intrigue."
+    },
+    {
+      "question": "Dans le schéma narratif, qu'est-ce qui déclenche l'action ?",
+      "choices": ["La situation initiale", "L'élément perturbateur", "La résolution", "La situation finale"],
+      "correctIndex": 1,
+      "explanation": "L'élément perturbateur (ou déclencheur) rompt l'équilibre initial et lance l'action."
+    },
+    {
+      "question": "Dans le schéma actantiel, qui aide le héros dans sa quête ?",
+      "choices": ["L'opposant", "L'adjuvant", "Le destinateur", "Le destinataire"],
+      "correctIndex": 1,
+      "explanation": "L'adjuvant est l'allié qui aide le sujet (le héros) à atteindre son objet (sa quête)."
+    },
+    {
+      "question": "Le point de vue interne consiste à :",
+      "choices": ["Tout savoir des personnages", "Voir à travers un personnage", "Décrire de l'extérieur", "Ignorer les pensées"],
+      "correctIndex": 1,
+      "explanation": "Le point de vue interne donne accès aux pensées et perceptions d'UN seul personnage."
+    },
+    {
+      "question": "Quel registre vise à effrayer en mêlant le réel et le surnaturel ?",
+      "choices": ["Comique", "Lyrique", "Fantastique", "Didactique"],
+      "correctIndex": 2,
+      "explanation": "Le registre fantastique repose sur l'irruption du surnaturel dans un monde réaliste."
+    },
+    {
+      "question": "Le registre épique se caractérise par :",
+      "choices": ["L'humour", "L'amplification d'exploits héroïques", "L'expression des sentiments", "La critique sociale"],
+      "correctIndex": 1,
+      "explanation": "Le registre épique exalte les exploits, utilise l'hyperbole et glorifie le héros."
+    },
+    {
+      "question": "Quel genre théâtral mêle le rire et la critique des mœurs ?",
+      "choices": ["Tragédie", "Comédie", "Drame", "Farce"],
+      "correctIndex": 1,
+      "explanation": "La comédie cherche à faire rire en critiquant les défauts humains et sociaux."
+    },
+    {
+      "question": "Une autobiographie est un récit :",
+      "choices": ["D'aventures imaginaires", "Que l'auteur fait de sa propre vie", "D'un personnage fictif", "Sur la vie d'un autre"],
+      "correctIndex": 1,
+      "explanation": "L'autobiographie est le récit que l'auteur fait de sa propre vie (auteur = narrateur = personnage)."
+    },
+    {
+      "question": "Dans un texte argumentatif, la thèse est :",
+      "choices": ["Un exemple", "L'opinion défendue", "Un connecteur logique", "Une description"],
+      "correctIndex": 1,
+      "explanation": "La thèse est l'idée principale, l'opinion défendue par l'auteur dans son argumentation."
+    },
+    {
+      "question": "Quel connecteur logique exprime la cause ?",
+      "choices": ["Donc", "Mais", "Parce que", "Cependant"],
+      "correctIndex": 2,
+      "explanation": "'Parce que', 'car', 'puisque' sont des connecteurs logiques exprimant la cause."
+    },
+    {
+      "question": "Le portrait moral d'un personnage décrit :",
+      "choices": ["Son apparence", "Son caractère et ses valeurs", "Son vêtement", "Sa taille"],
+      "correctIndex": 1,
+      "explanation": "Le portrait moral s'intéresse au caractère, aux qualités, défauts et valeurs du personnage."
+    },
+    {
+      "question": "Le point de vue externe se caractérise par :",
+      "choices": ["L'omniscience du narrateur", "Une description objective sans accès aux pensées", "Le récit à la première personne", "L'expression des sentiments"],
+      "correctIndex": 1,
+      "explanation": "Le point de vue externe est neutre : le narrateur décrit comme une caméra, sans accès aux pensées."
+    },
+    {
+      "question": "Le registre ironique consiste à :",
+      "choices": ["Dire ce que l'on pense directement", "Dire le contraire de ce que l'on pense", "Faire pleurer le lecteur", "Décrire avec précision"],
+      "correctIndex": 1,
+      "explanation": "L'ironie consiste à dire le contraire de ce que l'on pense, souvent pour critiquer."
+    },
+    {
+      "question": "Quel genre narratif est plus court qu'un roman et a une chute ?",
+      "choices": ["Essai", "Nouvelle", "Pièce de théâtre", "Poème"],
+      "correctIndex": 1,
+      "explanation": "La nouvelle est un récit bref, souvent avec une chute (fin inattendue)."
+    },
+    {
+      "question": "Le cadre spatio-temporel désigne :",
+      "choices": ["Les personnages", "Le lieu et l'époque de l'action", "L'auteur", "Le narrateur"],
+      "correctIndex": 1,
+      "explanation": "Le cadre spatio-temporel correspond au LIEU (espace) et au MOMENT (temps) de l'action."
+    },
+    {
+      "question": "Un champ lexical est :",
+      "choices": ["Une figure de style", "Un ensemble de mots liés à un même thème", "Un type de phrase", "Un genre littéraire"],
+      "correctIndex": 1,
+      "explanation": "Un champ lexical regroupe les mots se rapportant à un même thème (ex : peur, amour, nature)."
+    },
+    {
+      "question": "Le registre polémique cherche à :",
+      "choices": ["Émouvoir doucement", "Attaquer violemment des idées", "Faire rire", "Décrire le réel"],
+      "correctIndex": 1,
+      "explanation": "Le registre polémique est combatif : il attaque vivement des idées ou des personnes."
+    },
+    {
+      "question": "Un texte explicatif sert à :",
+      "choices": ["Convaincre", "Raconter une histoire", "Faire comprendre, informer", "Donner des ordres"],
+      "correctIndex": 2,
+      "explanation": "Le texte explicatif apporte des informations pour faire comprendre un sujet (neutralité)."
+    },
+    {
+      "question": "Dans le schéma actantiel, qui pousse le héros à agir ?",
+      "choices": ["Le destinataire", "Le destinateur", "L'adjuvant", "L'opposant"],
+      "correctIndex": 1,
+      "explanation": "Le destinateur est celui (ou ce) qui pousse le sujet à entreprendre sa quête."
+    },
+    {
+      "question": "Une tonalité nostalgique exprime :",
+      "choices": ["La colère", "Le regret du passé", "L'enthousiasme", "L'indifférence"],
+      "correctIndex": 1,
+      "explanation": "La tonalité nostalgique évoque avec mélancolie le souvenir d'un passé perdu."
+    }
+  ]
+}

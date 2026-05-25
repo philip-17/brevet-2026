@@ -1,0 +1,278 @@
+{
+  "figures-de-style": [
+    {
+      "question": "Dans 'Cette ville est un labyrinthe', quelle figure de style est employée ?",
+      "choices": ["Comparaison", "Métaphore", "Métonymie", "Hyperbole"],
+      "correctIndex": 1,
+      "explanation": "La métaphore rapproche deux termes sans outil de comparaison : la ville est assimilée directement à un labyrinthe."
+    },
+    {
+      "question": "'Va, je ne te hais point' (Corneille, Le Cid) est un exemple de :",
+      "choices": ["Hyperbole", "Litote", "Euphémisme", "Antithèse"],
+      "correctIndex": 1,
+      "explanation": "La litote dit moins pour suggérer plus : 'ne pas haïr' signifie en réalité 'aimer'."
+    },
+    {
+      "question": "Quelle figure de style consiste à atténuer une réalité désagréable ?",
+      "choices": ["Hyperbole", "Litote", "Euphémisme", "Périphrase"],
+      "correctIndex": 2,
+      "explanation": "L'euphémisme adoucit une idée pénible. Ex : 'il nous a quittés' pour 'il est mort'."
+    },
+    {
+      "question": "Dans 'L'astre du jour' pour désigner le soleil, quelle figure de style est utilisée ?",
+      "choices": ["Métonymie", "Périphrase", "Synecdoque", "Métaphore"],
+      "correctIndex": 1,
+      "explanation": "La périphrase remplace un mot par un groupe de mots qui le décrit ou le caractérise."
+    },
+    {
+      "question": "'Je le vis, je rougis, je pâlis à sa vue' (Racine, Phèdre) est une :",
+      "choices": ["Anaphore", "Gradation", "Allitération", "Énumération simple"],
+      "correctIndex": 1,
+      "explanation": "La gradation présente une suite de termes d'intensité croissante (ou décroissante) : ici, l'émotion s'amplifie."
+    },
+    {
+      "question": "'Voile' employé pour désigner un bateau entier est une :",
+      "choices": ["Métonymie", "Synecdoque", "Métaphore", "Allégorie"],
+      "correctIndex": 1,
+      "explanation": "La synecdoque désigne le tout par la partie (la voile pour le bateau). C'est un cas particulier de métonymie."
+    },
+    {
+      "question": "Dans 'Les sanglots longs des violons de l'automne' (Verlaine), on entend une :",
+      "choices": ["Allitération en S", "Assonance en ON", "Anaphore", "Métonymie"],
+      "correctIndex": 1,
+      "explanation": "L'assonance est la répétition d'un son voyelle : ici, le son 'on' est répété (longs, violons, automne)."
+    },
+    {
+      "question": "'Je suis ce que je suis et je ne change pas' illustre :",
+      "choices": ["Une métaphore", "Une tautologie", "Une antithèse", "Une hyperbole"],
+      "correctIndex": 2,
+      "explanation": "Plus précisément, on observe une opposition de termes (être/changer) : c'est une antithèse, qui rapproche deux idées contraires."
+    },
+    {
+      "question": "Dans 'Paris a froid, Paris a faim' (Éluard), quelle figure est utilisée ?",
+      "choices": ["Personnification et anaphore", "Métaphore et oxymore", "Comparaison et gradation", "Synecdoque uniquement"],
+      "correctIndex": 0,
+      "explanation": "Paris (ville) ressent froid et faim : personnification. 'Paris a' est répété en début de proposition : anaphore."
+    },
+    {
+      "question": "Quelle est la différence entre métaphore et comparaison ?",
+      "choices": ["Aucune, ce sont des synonymes", "La métaphore utilise 'comme', pas la comparaison", "La comparaison utilise un outil ('comme', 'tel'), pas la métaphore", "La métaphore concerne uniquement les objets"],
+      "correctIndex": 2,
+      "explanation": "La comparaison comporte un outil de comparaison ('comme', 'tel', 'semblable à'), alors que la métaphore l'omet."
+    },
+    {
+      "question": "'Ô temps, suspends ton vol !' (Lamartine) contient :",
+      "choices": ["Une métonymie", "Une personnification", "Une litote", "Une synecdoque"],
+      "correctIndex": 1,
+      "explanation": "Le poète s'adresse au temps comme à un être vivant capable de voler : c'est une personnification."
+    },
+    {
+      "question": "Dans 'Un silence assourdissant', quelle figure est employée ?",
+      "choices": ["Hyperbole", "Oxymore", "Métaphore", "Périphrase"],
+      "correctIndex": 1,
+      "explanation": "L'oxymore associe deux termes contradictoires : un silence ne peut pas être assourdissant."
+    },
+    {
+      "question": "'Lire Victor Hugo' (au lieu de 'lire les œuvres de Victor Hugo') est une :",
+      "choices": ["Métaphore", "Métonymie", "Comparaison", "Hyperbole"],
+      "correctIndex": 1,
+      "explanation": "La métonymie remplace un terme par un autre lié logiquement : l'auteur pour son œuvre."
+    },
+    {
+      "question": "Quelle figure de style repose sur la répétition de consonnes ?",
+      "choices": ["Assonance", "Allitération", "Anaphore", "Antithèse"],
+      "correctIndex": 1,
+      "explanation": "L'allitération est la répétition d'un même son consonne. L'assonance concerne les voyelles."
+    },
+    {
+      "question": "'Il était mille fois plus rapide que l'éclair' contient :",
+      "choices": ["Une comparaison et une hyperbole", "Une métaphore seule", "Un oxymore et une litote", "Une personnification"],
+      "correctIndex": 0,
+      "explanation": "'Plus rapide que l'éclair' est une comparaison, et 'mille fois' exagère : c'est aussi une hyperbole."
+    }
+  ],
+  "versification": [
+    {
+      "question": "Un vers de 8 syllabes s'appelle :",
+      "choices": ["Heptasyllabe", "Octosyllabe", "Décasyllabe", "Hexasyllabe"],
+      "correctIndex": 1,
+      "explanation": "L'octosyllabe est un vers de 8 syllabes, très fréquent dans la poésie médiévale et lyrique."
+    },
+    {
+      "question": "Une strophe de 3 vers se nomme :",
+      "choices": ["Distique", "Tercet", "Quatrain", "Quintil"],
+      "correctIndex": 1,
+      "explanation": "Le tercet est une strophe de 3 vers. On le trouve notamment dans les sonnets."
+    },
+    {
+      "question": "Combien de vers compte un sonnet classique ?",
+      "choices": ["12", "14", "16", "10"],
+      "correctIndex": 1,
+      "explanation": "Le sonnet est composé de 14 vers : 2 quatrains suivis de 2 tercets."
+    },
+    {
+      "question": "Des rimes disposées AABB sont des rimes :",
+      "choices": ["Croisées", "Embrassées", "Plates (ou suivies)", "Mêlées"],
+      "correctIndex": 2,
+      "explanation": "Les rimes plates (ou suivies) suivent le schéma AABB : deux rimes identiques se suivent."
+    },
+    {
+      "question": "Une strophe de 2 vers se nomme :",
+      "choices": ["Distique", "Tercet", "Sizain", "Huitain"],
+      "correctIndex": 0,
+      "explanation": "Le distique est une strophe de 2 vers."
+    },
+    {
+      "question": "Qu'est-ce que l'hémistiche ?",
+      "choices": ["La fin d'un vers", "Le milieu d'un vers, marqué par la césure", "Une rime intérieure", "Une strophe de 6 vers"],
+      "correctIndex": 1,
+      "explanation": "L'hémistiche est la moitié d'un vers, séparée par la césure. Dans l'alexandrin classique, la césure est après la 6e syllabe."
+    },
+    {
+      "question": "Qu'est-ce qu'un enjambement ?",
+      "choices": ["Une rime à la césure", "Un vers qui se poursuit sur le vers suivant sans pause", "Une syllabe muette", "Une strophe coupée en deux"],
+      "correctIndex": 1,
+      "explanation": "L'enjambement est le débordement d'une phrase d'un vers sur le suivant, sans pause syntaxique forte."
+    },
+    {
+      "question": "Qu'est-ce qu'un rejet ?",
+      "choices": ["Un mot court placé en début de vers, prolongeant le sens du vers précédent", "Une rime fausse", "Un vers refusé par l'auteur", "Une strophe finale"],
+      "correctIndex": 0,
+      "explanation": "Le rejet est un mot ou court groupe placé en début de vers qui complète le sens du vers précédent."
+    },
+    {
+      "question": "Une rime est dite 'pauvre' lorsque :",
+      "choices": ["Elle n'a aucun son commun", "Elle a un seul son commun (la voyelle accentuée)", "Elle a 2 sons communs", "Elle a 3 sons ou plus en commun"],
+      "correctIndex": 1,
+      "explanation": "La rime pauvre n'a qu'un seul phonème commun, en général la voyelle finale accentuée (ex : 'ami' / 'parti')."
+    },
+    {
+      "question": "Qu'est-ce qu'une diérèse ?",
+      "choices": ["Compter deux syllabes là où on en prononce une", "Compter une syllabe au lieu de deux", "Supprimer un 'e' muet", "Ajouter une rime"],
+      "correctIndex": 0,
+      "explanation": "La diérèse sépare en deux syllabes ce qu'on prononce habituellement en une (ex : 'lion' compté li-on)."
+    },
+    {
+      "question": "Qu'est-ce qu'une synérèse ?",
+      "choices": ["Ajouter une syllabe", "Prononcer en une seule syllabe deux voyelles qu'on pourrait séparer", "Une rime intérieure", "Un type de strophe"],
+      "correctIndex": 1,
+      "explanation": "La synérèse fond en une syllabe deux voyelles qu'on pourrait séparer (contraire de la diérèse)."
+    },
+    {
+      "question": "Dans la versification classique, le 'e' muet en fin de vers :",
+      "choices": ["Se prononce toujours", "Ne se prononce pas et ne compte pas comme syllabe", "Compte double", "Compte comme une rime"],
+      "correctIndex": 1,
+      "explanation": "Le 'e' muet en fin de vers (ou devant une voyelle) ne se prononce pas et ne compte pas comme syllabe."
+    },
+    {
+      "question": "Une strophe de 6 vers s'appelle :",
+      "choices": ["Quintil", "Sizain", "Huitain", "Dizain"],
+      "correctIndex": 1,
+      "explanation": "Le sizain est une strophe de 6 vers, courante dans la poésie française."
+    },
+    {
+      "question": "Une rime est dite 'suffisante' lorsqu'elle a :",
+      "choices": ["1 son commun", "2 sons communs", "3 sons communs", "4 sons communs"],
+      "correctIndex": 1,
+      "explanation": "La rime suffisante a 2 sons communs (ex : 'parti' / 'sorti' : i + t)."
+    },
+    {
+      "question": "Qu'est-ce qu'un contre-rejet ?",
+      "choices": ["Un mot placé en fin de vers qui annonce le sens du vers suivant", "Une rime féminine", "Un vers refusé", "Un type de strophe"],
+      "correctIndex": 0,
+      "explanation": "Le contre-rejet est un mot placé en fin de vers qui appartient syntaxiquement au vers suivant, créant un effet d'attente."
+    }
+  ],
+  "vocabulaire": [
+    {
+      "question": "Quel est le synonyme de 'détester' au registre soutenu ?",
+      "choices": ["Aimer", "Apprécier", "Exécrer", "Tolérer"],
+      "correctIndex": 2,
+      "explanation": "'Exécrer' signifie détester profondément, en registre soutenu."
+    },
+    {
+      "question": "Quel est l'antonyme de 'éphémère' ?",
+      "choices": ["Bref", "Durable", "Soudain", "Fugace"],
+      "correctIndex": 1,
+      "explanation": "'Éphémère' signifie qui dure peu ; son antonyme est 'durable' (qui dure longtemps)."
+    },
+    {
+      "question": "Que signifie le préfixe 'dé-' dans 'défaire' ?",
+      "choices": ["Refaire", "Faire à l'envers, supprimer", "Faire avant", "Faire en double"],
+      "correctIndex": 1,
+      "explanation": "Le préfixe 'dé-' marque une action inverse ou négative : défaire = annuler ce qui a été fait."
+    },
+    {
+      "question": "Que signifie le suffixe '-able' dans 'mangeable' ?",
+      "choices": ["Qui a déjà été", "Qui peut être", "Qui doit être", "Qui ne peut pas être"],
+      "correctIndex": 1,
+      "explanation": "Le suffixe '-able' indique une possibilité : 'mangeable' = qui peut être mangé."
+    },
+    {
+      "question": "Les mots 'conjecture' (supposition) et 'conjoncture' (situation) sont :",
+      "choices": ["Des homonymes", "Des synonymes", "Des paronymes", "Des antonymes"],
+      "correctIndex": 2,
+      "explanation": "Les paronymes sont des mots qui se ressemblent par leur forme mais ont des sens différents."
+    },
+    {
+      "question": "Dans 'une langue de bois', le mot 'langue' est employé au sens :",
+      "choices": ["Propre", "Figuré", "Étymologique", "Concret"],
+      "correctIndex": 1,
+      "explanation": "Au sens figuré, 'langue de bois' désigne un discours stéréotypé qui évite de répondre vraiment."
+    },
+    {
+      "question": "Un mot polysémique est un mot qui :",
+      "choices": ["A un seul sens", "A plusieurs sens", "N'a aucun sens", "Est rare"],
+      "correctIndex": 1,
+      "explanation": "La polysémie est la propriété d'un mot qui possède plusieurs sens (ex : 'glace' = miroir, eau gelée, dessert)."
+    },
+    {
+      "question": "Le mot 'kiffer' appartient au registre :",
+      "choices": ["Soutenu", "Courant", "Familier", "Littéraire"],
+      "correctIndex": 2,
+      "explanation": "'Kiffer' (= aimer) appartient au registre familier, employé dans la langue parlée et décontractée."
+    },
+    {
+      "question": "Le mot 'demeure' (au sens d'habitation) appartient au registre :",
+      "choices": ["Familier", "Courant", "Soutenu", "Argotique"],
+      "correctIndex": 2,
+      "explanation": "'Demeure' est un terme soutenu pour désigner une habitation, plus élégant que 'maison'."
+    },
+    {
+      "question": "Quel mot appartient au champ lexical de la guerre ?",
+      "choices": ["Bataille", "Sérénité", "Repos", "Concorde"],
+      "correctIndex": 0,
+      "explanation": "'Bataille' évoque un affrontement armé : il appartient au champ lexical de la guerre."
+    },
+    {
+      "question": "Le mot 'maison' a-t-il une connotation positive dans 'la chaleur de la maison familiale' ?",
+      "choices": ["Non, neutre", "Oui, positive (refuge, intimité)", "Non, négative", "Oui, mais ironique"],
+      "correctIndex": 1,
+      "explanation": "La connotation est la valeur affective ou culturelle d'un mot : ici, 'maison' évoque chaleur, sécurité, famille."
+    },
+    {
+      "question": "L'étymologie du mot 'téléphone' vient :",
+      "choices": ["Du latin uniquement", "Du grec (têle = loin, phônê = voix)", "De l'arabe", "De l'italien"],
+      "correctIndex": 1,
+      "explanation": "'Téléphone' vient du grec : 'têle' (loin) et 'phônê' (voix) = voix entendue de loin."
+    },
+    {
+      "question": "Les mots 'sceau', 'seau', 'sot' et 'saut' sont :",
+      "choices": ["Des synonymes", "Des paronymes", "Des homophones", "Des antonymes"],
+      "correctIndex": 2,
+      "explanation": "Les homophones se prononcent de la même façon mais s'écrivent différemment et ont des sens distincts."
+    },
+    {
+      "question": "Que signifie le préfixe 'pré-' dans 'préhistoire' ?",
+      "choices": ["Après", "Avant", "Contre", "Avec"],
+      "correctIndex": 1,
+      "explanation": "Le préfixe 'pré-' (latin prae) signifie 'avant' : la préhistoire est la période avant l'histoire écrite."
+    },
+    {
+      "question": "Le suffixe '-tion' dans 'création' indique généralement :",
+      "choices": ["Une qualité", "Une action ou son résultat", "Une personne", "Un lieu"],
+      "correctIndex": 1,
+      "explanation": "Le suffixe '-tion' forme des noms à partir de verbes pour désigner une action ou son résultat (créer → création)."
+    }
+  ]
+}

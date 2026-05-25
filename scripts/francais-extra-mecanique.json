@@ -1,0 +1,246 @@
+{
+  "conjugaison": [
+    {
+      "question": "Conjuguez 'prendre' au présent de l'indicatif, 3e personne du pluriel :",
+      "choices": ["Ils prend", "Ils prends", "Ils prennent", "Ils prenent"],
+      "correctIndex": 2,
+      "explanation": "Au présent, 'prendre' double le 'n' aux trois personnes du pluriel : nous prenons, vous prenez, ils prennent."
+    },
+    {
+      "question": "Quelle est la forme correcte de 'faire' au futur simple, 1ère personne du singulier ?",
+      "choices": ["Je ferai", "Je ferais", "Je faisais", "Je fairai"],
+      "correctIndex": 0,
+      "explanation": "Au futur simple : je ferai (sans 's'). Avec 's' (je ferais), c'est du conditionnel présent."
+    },
+    {
+      "question": "Conjuguez 'être' à l'imparfait, 2e personne du pluriel :",
+      "choices": ["Vous étiez", "Vous étiés", "Vous êtiez", "Vous serez"],
+      "correctIndex": 0,
+      "explanation": "À l'imparfait : j'étais, tu étais, il était, nous étions, vous étiez, ils étaient."
+    },
+    {
+      "question": "Quel est le passé simple de 'venir' à la 3e personne du singulier ?",
+      "choices": ["Il venait", "Il vint", "Il vînt", "Il viendrait"],
+      "correctIndex": 1,
+      "explanation": "Au passé simple : je vins, tu vins, il vint, nous vînmes, vous vîntes, ils vinrent."
+    },
+    {
+      "question": "Dans 'Il faut que tu ___ là demain', quelle forme convient ?",
+      "choices": ["es", "sois", "seras", "serais"],
+      "correctIndex": 1,
+      "explanation": "Après 'il faut que', on emploie le subjonctif présent : que tu sois."
+    },
+    {
+      "question": "Quel est le subjonctif imparfait de 'avoir' à la 3e personne du singulier ?",
+      "choices": ["Qu'il ait", "Qu'il eût", "Qu'il aurait", "Qu'il avait"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif imparfait de 'avoir' : que j'eusse, que tu eusses, qu'il eût (avec accent circonflexe)."
+    },
+    {
+      "question": "Conjuguez 'savoir' au conditionnel présent, 1ère personne du singulier :",
+      "choices": ["Je sais", "Je saurai", "Je saurais", "Je sus"],
+      "correctIndex": 2,
+      "explanation": "Conditionnel présent de 'savoir' : je saurais (radical irrégulier 'saur-' + terminaison '-ais')."
+    },
+    {
+      "question": "Quel temps est employé dans 'Nous avions terminé avant qu'il n'arrive' ?",
+      "choices": ["Imparfait", "Plus-que-parfait", "Passé antérieur", "Passé composé"],
+      "correctIndex": 1,
+      "explanation": "'Avions terminé' = auxiliaire avoir à l'imparfait + participe passé = plus-que-parfait."
+    },
+    {
+      "question": "Mettez 'vouloir' à l'impératif présent, 2e personne du pluriel :",
+      "choices": ["Voulez", "Veuillez", "Voulu", "Vouliez"],
+      "correctIndex": 1,
+      "explanation": "L'impératif de 'vouloir' utilise une forme irrégulière : veuille, veuillons, veuillez (forme polie)."
+    },
+    {
+      "question": "Conjuguez 'croire' au présent de l'indicatif, 1ère personne du pluriel :",
+      "choices": ["Nous croyons", "Nous croions", "Nous croyions", "Nous croient"],
+      "correctIndex": 0,
+      "explanation": "Au présent : je crois, tu crois, il croit, nous croyons, vous croyez, ils croient."
+    },
+    {
+      "question": "Quelle forme correspond au passé composé pronominal correctement accordé : 'Elle s'est ___ les mains' ?",
+      "choices": ["lavé", "lavée", "lavés", "lavées"],
+      "correctIndex": 0,
+      "explanation": "Le COD 'les mains' est placé après le verbe : pas d'accord. Le 's'' est COI (à elle-même)."
+    },
+    {
+      "question": "Dans 'Si tu venais demain, nous ___ ensemble', quelle forme convient ?",
+      "choices": ["irions", "irons", "allions", "allons"],
+      "correctIndex": 0,
+      "explanation": "Après 'si' + imparfait, on emploie le conditionnel présent dans la principale : nous irions."
+    },
+    {
+      "question": "Quel est le participe passé correctement accordé : 'Les efforts qu'elle a ___' ?",
+      "choices": ["fait", "faits", "faite", "faites"],
+      "correctIndex": 1,
+      "explanation": "Avec 'avoir', accord avec le COD ('que' reprenant 'les efforts', masculin pluriel) placé avant : faits."
+    },
+    {
+      "question": "Conjuguez 'pouvoir' au passé simple, 1ère personne du singulier :",
+      "choices": ["Je pouvais", "Je pus", "Je pourrais", "Je peux"],
+      "correctIndex": 1,
+      "explanation": "Au passé simple : je pus, tu pus, il put, nous pûmes, vous pûtes, ils purent."
+    },
+    {
+      "question": "Quelle phrase est au conditionnel présent (et non au futur) ?",
+      "choices": ["Demain, je partirai à 8h.", "J'aimerais visiter Rome.", "Nous aurons fini ce soir.", "Tu reviendras vite."],
+      "correctIndex": 1,
+      "explanation": "'J'aimerais' est au conditionnel (-rais). Les autres sont au futur simple (-rai) ou futur antérieur."
+    },
+    {
+      "question": "Mettez 'devoir' au subjonctif présent, 1ère personne du pluriel :",
+      "choices": ["Que nous devons", "Que nous devions", "Que nous devrions", "Que nous dussions"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif présent de 'devoir' : que je doive, que tu doives, qu'il doive, que nous devions, que vous deviez, qu'ils doivent."
+    },
+    {
+      "question": "Quel est le plus-que-parfait de 'mettre' à la 3e personne du pluriel ?",
+      "choices": ["Ils mirent", "Ils avaient mis", "Ils ont mis", "Ils auraient mis"],
+      "correctIndex": 1,
+      "explanation": "Plus-que-parfait = auxiliaire à l'imparfait + participe passé : ils avaient mis."
+    },
+    {
+      "question": "Conjuguez 'voir' au passé composé, 2e personne du singulier :",
+      "choices": ["Tu vis", "Tu as vu", "Tu avais vu", "Tu verras"],
+      "correctIndex": 1,
+      "explanation": "Passé composé = auxiliaire 'avoir' ou 'être' au présent + participe passé : tu as vu."
+    },
+    {
+      "question": "Dans 'Je doute qu'il ___ la vérité', quelle forme convient ?",
+      "choices": ["dit", "dise", "dira", "dirait"],
+      "correctIndex": 1,
+      "explanation": "Après un verbe de doute, on utilise le subjonctif : qu'il dise (subjonctif présent de 'dire')."
+    },
+    {
+      "question": "Quel est le subjonctif passé de 'partir' à la 1ère personne du singulier ?",
+      "choices": ["Que je parte", "Que je sois parti", "Que je partisse", "Que je fusse parti"],
+      "correctIndex": 1,
+      "explanation": "Subjonctif passé = auxiliaire au subjonctif présent + participe passé : que je sois parti(e)."
+    }
+  ],
+  "orthographe": [
+    {
+      "question": "Choisissez : 'Il prend ___ livres et ___ donne à son frère.'",
+      "choices": ["ces / ses", "ses / les", "ces / les", "ses / ces"],
+      "correctIndex": 1,
+      "explanation": "'Ses' (adjectif possessif = les siens) et 'les' (pronom COD = ces livres)."
+    },
+    {
+      "question": "Quelle phrase est correcte ?",
+      "choices": ["Ils ont pris leurs affaires.", "Ils ont pris leur affaires.", "Ils on pris leurs affaires.", "Ils ont prit leurs affaires."],
+      "correctIndex": 0,
+      "explanation": "'Leurs' (adjectif possessif pluriel) s'accorde avec 'affaires' ; 'pris' (participe passé de prendre)."
+    },
+    {
+      "question": "Choisissez : 'Je ne sais pas ___ il viendra.'",
+      "choices": ["quand", "quant", "qu'en", "quant à"],
+      "correctIndex": 0,
+      "explanation": "'Quand' = à quel moment (conjonction de temps). 'Quant à' = en ce qui concerne. 'Qu'en' = que + en."
+    },
+    {
+      "question": "Quelle forme est correcte ? 'Elle est partie ___ se retourner.'",
+      "choices": ["sans", "s'en", "sang", "cent"],
+      "correctIndex": 0,
+      "explanation": "'Sans' = préposition (absence). 'S'en' = se + en (pronoms). 'Sang' = liquide. 'Cent' = nombre."
+    },
+    {
+      "question": "Choisissez : 'Il est arrivé ___ tôt que prévu.'",
+      "choices": ["plutôt", "plus tôt", "plus tot", "plutot"],
+      "correctIndex": 1,
+      "explanation": "'Plus tôt' (en deux mots) s'oppose à 'plus tard'. 'Plutôt' (un mot) signifie 'de préférence'."
+    },
+    {
+      "question": "Quelle est la bonne orthographe : 'Les chevaux ___ dans le pré.'",
+      "choices": ["broute", "broutent", "broutes", "brouttent"],
+      "correctIndex": 1,
+      "explanation": "Le sujet 'les chevaux' est au pluriel (3e personne), donc le verbe prend '-ent' : broutent."
+    },
+    {
+      "question": "Comment écrit-on le pluriel de 'bijou' ?",
+      "choices": ["bijous", "bijoux", "bijoues", "bijoue"],
+      "correctIndex": 1,
+      "explanation": "Les noms en -ou prenant un -x au pluriel : bijou, caillou, chou, genou, hibou, joujou, pou."
+    },
+    {
+      "question": "Quel est le pluriel correct de 'travail' ?",
+      "choices": ["travails", "travaux", "travailles", "travaillent"],
+      "correctIndex": 1,
+      "explanation": "Les noms en -ail font généralement leur pluriel en -aux : travail/travaux, vitrail/vitraux."
+    },
+    {
+      "question": "Choisissez la bonne forme : 'C'est lui qui ___ raison.'",
+      "choices": ["a", "à", "ai", "as"],
+      "correctIndex": 0,
+      "explanation": "'A' (verbe avoir, 3e pers. sing.) car le sujet est 'qui' qui reprend 'lui' (il)."
+    },
+    {
+      "question": "Quelle phrase est correctement écrite ?",
+      "choices": ["Peu de gens peut le faire.", "Peu de gens peuvent le faire.", "Peux de gens peuvent le faire.", "Peut de gens peuvent le faire."],
+      "correctIndex": 1,
+      "explanation": "'Peu' = adverbe de quantité. Le verbe s'accorde avec le nom 'gens' (pluriel) : peuvent."
+    },
+    {
+      "question": "Choisissez : 'Ce sont ___ amis qui partent en vacances.'",
+      "choices": ["mais", "mes", "m'est", "mets"],
+      "correctIndex": 1,
+      "explanation": "'Mes' = adjectif possessif pluriel (les miens). 'Mais' = conjonction. 'M'est' = me + est."
+    },
+    {
+      "question": "Quelle phrase est correcte ?",
+      "choices": ["Il est prêt à partir.", "Il est près à partir.", "Il est près de partir.", "Les deux sont possibles selon le sens."],
+      "correctIndex": 3,
+      "explanation": "'Prêt à' = disposé à (adjectif). 'Près de' = sur le point de (locution prépositionnelle). Les deux ont un sens valide ici."
+    },
+    {
+      "question": "Comment accorder : 'Une foule de spectateurs ___ applaudi.'",
+      "choices": ["a", "ont", "as", "avez"],
+      "correctIndex": 0,
+      "explanation": "Avec 'une foule de + nom', le verbe s'accorde généralement avec 'foule' (singulier) : a applaudi."
+    },
+    {
+      "question": "Choisissez l'orthographe correcte : 'Elle parle ___.'",
+      "choices": ["lentemant", "lentement", "lentemment", "lentemen"],
+      "correctIndex": 1,
+      "explanation": "Les adverbes formés sur un adjectif en -ent prennent -emment, mais 'lent' donne 'lentement' (adjectif en -nt non-ent)."
+    },
+    {
+      "question": "Quel est le pluriel de 'chou-fleur' ?",
+      "choices": ["des chou-fleurs", "des choux-fleur", "des choux-fleurs", "des chous-fleurs"],
+      "correctIndex": 2,
+      "explanation": "Dans un nom composé nom + nom (les deux variables), les deux prennent la marque du pluriel : choux-fleurs."
+    },
+    {
+      "question": "Choisissez : 'Je me demande ___ il pense.'",
+      "choices": ["ce que", "ce qu'", "se que", "ceux que"],
+      "correctIndex": 1,
+      "explanation": "'Ce qu'' (avec élision devant voyelle) = pronom relatif neutre = 'la chose que'."
+    },
+    {
+      "question": "Quelle phrase porte le bon accord ?",
+      "choices": ["Les enfants sont allé jouer.", "Les enfants sont allés jouer.", "Les enfants ont allé jouer.", "Les enfants sont allées jouer."],
+      "correctIndex": 1,
+      "explanation": "Avec l'auxiliaire 'être', le participe passé s'accorde avec le sujet : 'enfants' (masc. pluriel) → allés."
+    },
+    {
+      "question": "Choisissez : 'La leçon ___ il a apprise est difficile.'",
+      "choices": ["que", "qu'", "qui", "dont"],
+      "correctIndex": 1,
+      "explanation": "'Qu'' (élision de 'que') est le pronom relatif COD ; il déclenche l'accord du participe : apprise (féminin)."
+    },
+    {
+      "question": "Comment écrit-on : 'Un repas qui coûte ___ euros' ?",
+      "choices": ["deux cent", "deux cents", "deux-cent", "deux-cents"],
+      "correctIndex": 1,
+      "explanation": "'Cent' prend un 's' quand il est multiplié et non suivi d'un autre nombre : deux cents euros."
+    },
+    {
+      "question": "Quelle phrase est correctement orthographiée ?",
+      "choices": ["Ils se sont parlé toute la soirée.", "Ils se sont parlés toute la soirée.", "Ils se sont parlées toute la soirée.", "Ils se sont parler toute la soirée."],
+      "correctIndex": 0,
+      "explanation": "'Se parler' : on parle 'à quelqu'un' (COI), pas de COD avant le verbe → pas d'accord du participe passé."
+    }
+  ]
+}
