@@ -1,0 +1,188 @@
+{
+  "equations": [
+    {
+      "question": "Quelle est la solution de l'équation 4x - 9 = 7 ?",
+      "choices": ["x = 4", "x = 2", "x = -4", "x = 16"],
+      "correctIndex": 0,
+      "explanation": "On ajoute 9 des deux côtés : 4x = 16, puis on divise par 4 : x = 4."
+    },
+    {
+      "question": "Résoudre l'équation : 5(x - 2) = 3x + 4",
+      "choices": ["x = 7", "x = 3", "x = -7", "x = 1"],
+      "correctIndex": 0,
+      "explanation": "On développe : 5x - 10 = 3x + 4, donc 2x = 14 et x = 7."
+    },
+    {
+      "question": "Un rectangle a une longueur de (x + 3) cm et une largeur de x cm. Son périmètre vaut 26 cm. Combien vaut x ?",
+      "choices": ["x = 5", "x = 8", "x = 6,5", "x = 10"],
+      "correctIndex": 0,
+      "explanation": "Périmètre : 2(x + 3) + 2x = 26, soit 4x + 6 = 26, donc 4x = 20 et x = 5."
+    },
+    {
+      "question": "Résoudre l'inéquation : 3x + 5 supérieur ou égal à 14",
+      "choices": ["x supérieur ou égal à 3", "x inférieur ou égal à 3", "x supérieur ou égal à 9", "x supérieur ou égal à -3"],
+      "correctIndex": 0,
+      "explanation": "3x supérieur ou égal à 9, donc x supérieur ou égal à 3 (on divise par 3, qui est positif, sans changer le sens)."
+    },
+    {
+      "question": "Résoudre : (2x + 1)(x - 5) = 0",
+      "choices": ["x = -1/2 ou x = 5", "x = 1/2 ou x = -5", "x = -1 ou x = 5", "x = 2 ou x = 5"],
+      "correctIndex": 0,
+      "explanation": "Un produit est nul si un facteur est nul : 2x + 1 = 0 donne x = -1/2 ; x - 5 = 0 donne x = 5."
+    },
+    {
+      "question": "Léa a 3 fois l'âge de son petit frère. Dans 5 ans, la somme de leurs âges sera 38. Quel âge a le petit frère aujourd'hui ?",
+      "choices": ["7 ans", "9 ans", "6 ans", "8 ans"],
+      "correctIndex": 0,
+      "explanation": "Soit x l'âge du frère : (x + 5) + (3x + 5) = 38, soit 4x + 10 = 38, donc x = 7."
+    },
+    {
+      "question": "Résoudre : -3x + 12 = 0",
+      "choices": ["x = 4", "x = -4", "x = 12", "x = -12"],
+      "correctIndex": 0,
+      "explanation": "-3x = -12, donc x = -12 / -3 = 4."
+    },
+    {
+      "question": "Résoudre l'inéquation : -4x + 8 inférieur à 0",
+      "choices": ["x supérieur à 2", "x inférieur à 2", "x supérieur à -2", "x inférieur à -2"],
+      "correctIndex": 0,
+      "explanation": "-4x inférieur à -8 ; on divise par -4 (négatif) et on inverse le sens : x supérieur à 2."
+    },
+    {
+      "question": "La somme de trois nombres entiers consécutifs vaut 72. Quel est le plus petit ?",
+      "choices": ["23", "24", "22", "25"],
+      "correctIndex": 0,
+      "explanation": "Soit n le plus petit : n + (n+1) + (n+2) = 72, soit 3n + 3 = 72, donc n = 23."
+    },
+    {
+      "question": "Résoudre : x/3 + 2 = 5",
+      "choices": ["x = 9", "x = 21", "x = 1", "x = 15"],
+      "correctIndex": 0,
+      "explanation": "x/3 = 3, donc x = 3 fois 3 = 9."
+    }
+  ],
+  "calcul-litteral": [
+    {
+      "question": "Développer : 7(2x - 5)",
+      "choices": ["14x - 35", "14x - 5", "9x - 35", "14x + 35"],
+      "correctIndex": 0,
+      "explanation": "On distribue 7 : 7 fois 2x moins 7 fois 5 = 14x - 35."
+    },
+    {
+      "question": "Développer : (x - 4)(x + 6)",
+      "choices": ["x au carré + 2x - 24", "x au carré - 2x - 24", "x au carré + 10x - 24", "x au carré - 24"],
+      "correctIndex": 0,
+      "explanation": "x fois x + x fois 6 - 4 fois x - 4 fois 6 = x au carré + 6x - 4x - 24 = x au carré + 2x - 24."
+    },
+    {
+      "question": "Factoriser : 15x + 25",
+      "choices": ["5(3x + 5)", "5(3x + 25)", "3(5x + 25)", "x(15 + 25)"],
+      "correctIndex": 0,
+      "explanation": "Le facteur commun est 5 : 15x + 25 = 5 fois 3x + 5 fois 5 = 5(3x + 5)."
+    },
+    {
+      "question": "Développer avec l'identité remarquable : (3x + 2) au carré",
+      "choices": ["9x au carré + 12x + 4", "9x au carré + 4", "9x au carré + 6x + 4", "6x au carré + 12x + 4"],
+      "correctIndex": 0,
+      "explanation": "(a+b) au carré = a au carré + 2ab + b au carré : (3x) au carré + 2 fois 3x fois 2 + 2 au carré = 9x au carré + 12x + 4."
+    },
+    {
+      "question": "Factoriser : 49 - x au carré",
+      "choices": ["(7 - x)(7 + x)", "(x - 7)(x + 7)", "(7 - x) au carré", "(x - 49)(x + 1)"],
+      "correctIndex": 0,
+      "explanation": "Identité a au carré - b au carré = (a-b)(a+b) avec a = 7 et b = x : 49 - x au carré = (7-x)(7+x)."
+    },
+    {
+      "question": "Réduire l'expression : 5x + 3 - 2x + 7",
+      "choices": ["3x + 10", "7x + 10", "3x - 4", "10x + 3"],
+      "correctIndex": 0,
+      "explanation": "On regroupe les termes en x : 5x - 2x = 3x ; les constantes : 3 + 7 = 10. Résultat : 3x + 10."
+    },
+    {
+      "question": "Factoriser : (x + 1)(x - 3) + (x + 1)(2x + 5)",
+      "choices": ["(x + 1)(3x + 2)", "(x + 1)(3x + 8)", "(x + 1)(x + 2)", "(x + 1)(2x - 8)"],
+      "correctIndex": 0,
+      "explanation": "Facteur commun (x + 1) : (x + 1)[(x - 3) + (2x + 5)] = (x + 1)(3x + 2)."
+    },
+    {
+      "question": "Développer : (5 - 2x)(5 + 2x)",
+      "choices": ["25 - 4x au carré", "25 + 4x au carré", "25 - 20x + 4x au carré", "10 - 4x au carré"],
+      "correctIndex": 0,
+      "explanation": "Identité (a-b)(a+b) = a au carré - b au carré : 5 au carré - (2x) au carré = 25 - 4x au carré."
+    },
+    {
+      "question": "Pour x = -2, combien vaut l'expression 3x au carré - 5x + 1 ?",
+      "choices": ["23", "3", "-21", "13"],
+      "correctIndex": 0,
+      "explanation": "3 fois (-2) au carré - 5 fois (-2) + 1 = 3 fois 4 + 10 + 1 = 12 + 10 + 1 = 23."
+    },
+    {
+      "question": "Développer puis réduire : 2(x + 3) - 3(x - 4)",
+      "choices": ["-x + 18", "5x - 6", "-x + 6", "-x - 6"],
+      "correctIndex": 0,
+      "explanation": "2x + 6 - 3x + 12 = (2x - 3x) + (6 + 12) = -x + 18."
+    }
+  ],
+  "fractions-puissances": [
+    {
+      "question": "Combien vaut 5/6 - 1/4 ?",
+      "choices": ["7/12", "4/2", "1/2", "6/10"],
+      "correctIndex": 0,
+      "explanation": "Même dénominateur (12) : 5/6 = 10/12 et 1/4 = 3/12, donc 10/12 - 3/12 = 7/12."
+    },
+    {
+      "question": "Combien vaut 3/4 fois 8/9 ?",
+      "choices": ["2/3", "24/36", "11/13", "3/12"],
+      "correctIndex": 0,
+      "explanation": "3/4 fois 8/9 = 24/36, qu'on simplifie par 12 : 24/36 = 2/3."
+    },
+    {
+      "question": "Combien vaut 10 puissance 5 fois 10 puissance moins 3 ?",
+      "choices": ["10 puissance 2", "10 puissance 8", "10 puissance moins 15", "10 puissance -2"],
+      "correctIndex": 0,
+      "explanation": "On additionne les exposants : 5 + (-3) = 2, donc le résultat est 10 puissance 2 = 100."
+    },
+    {
+      "question": "Écrire 320 000 en notation scientifique :",
+      "choices": ["3,2 fois 10 puissance 5", "3,2 fois 10 puissance 6", "32 fois 10 puissance 4", "0,32 fois 10 puissance 6"],
+      "correctIndex": 0,
+      "explanation": "On déplace la virgule de 5 rangs vers la gauche : 320 000 = 3,2 fois 10 puissance 5."
+    },
+    {
+      "question": "Combien vaut 7 puissance 9 divisé par 7 puissance 6 ?",
+      "choices": ["7 puissance 3", "7 puissance 15", "7 puissance 1,5", "1 puissance 3"],
+      "correctIndex": 0,
+      "explanation": "Quotient de puissances de même base : on soustrait les exposants : 9 - 6 = 3, donc 7 puissance 3."
+    },
+    {
+      "question": "Combien vaut 2/5 divisé par 3/10 ?",
+      "choices": ["4/3", "6/50", "3/4", "1/2"],
+      "correctIndex": 0,
+      "explanation": "Diviser par une fraction revient à multiplier par son inverse : 2/5 fois 10/3 = 20/15 = 4/3."
+    },
+    {
+      "question": "Combien vaut 10 puissance moins 4 ?",
+      "choices": ["0,0001", "0,001", "-10 000", "-0,0001"],
+      "correctIndex": 0,
+      "explanation": "10 puissance moins 4 = 1 divisé par 10 puissance 4 = 1/10 000 = 0,0001."
+    },
+    {
+      "question": "Calculer A = (2 fois 10 puissance 3) fois (4 fois 10 puissance 5). Quelle est son écriture scientifique ?",
+      "choices": ["8 fois 10 puissance 8", "8 fois 10 puissance 15", "6 fois 10 puissance 8", "0,8 fois 10 puissance 9"],
+      "correctIndex": 0,
+      "explanation": "On multiplie les parties décimales : 2 fois 4 = 8, et on additionne les exposants : 3 + 5 = 8. Résultat : 8 fois 10 puissance 8."
+    },
+    {
+      "question": "Simplifier la fraction 36/48.",
+      "choices": ["3/4", "6/8", "4/3", "9/12"],
+      "correctIndex": 0,
+      "explanation": "PGCD(36, 48) = 12 : 36/12 = 3 et 48/12 = 4, donc 36/48 = 3/4."
+    },
+    {
+      "question": "Combien vaut (-3) puissance 4 ?",
+      "choices": ["81", "-81", "-12", "12"],
+      "correctIndex": 0,
+      "explanation": "L'exposant 4 est pair, donc le résultat est positif : (-3) puissance 4 = 3 fois 3 fois 3 fois 3 = 81."
+    }
+  ]
+}

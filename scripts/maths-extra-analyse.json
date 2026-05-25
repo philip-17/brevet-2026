@@ -1,0 +1,186 @@
+{
+  "stats-probas": [
+    {
+      "question": "Dans une urne, il y a 3 boules rouges, 5 boules bleues et 2 boules vertes. Quelle est la probabilité de tirer une boule bleue ?",
+      "choices": ["1/2", "5/2", "2/5", "1/5"],
+      "correctIndex": 0,
+      "explanation": "Il y a 5 boules bleues sur un total de 3 + 5 + 2 = 10 boules. Donc P = 5/10 = 1/2."
+    },
+    {
+      "question": "Quelle est la médiane de la série : 4, 8, 10, 12, 15, 18 ?",
+      "choices": ["11", "10", "12", "13"],
+      "correctIndex": 0,
+      "explanation": "Pour 6 valeurs (nombre pair), la médiane est la moyenne des 3e et 4e valeurs : (10 + 12) / 2 = 11."
+    },
+    {
+      "question": "Dans une classe de 25 élèves, 10 sont des filles. Quelle est la fréquence des filles ?",
+      "choices": ["0,4 ou 40%", "0,25 ou 25%", "10%", "0,6 ou 60%"],
+      "correctIndex": 0,
+      "explanation": "Fréquence = effectif / effectif total = 10 / 25 = 0,4, soit 40%."
+    },
+    {
+      "question": "Comment appelle-t-on l'ensemble de toutes les issues possibles d'une expérience aléatoire ?",
+      "choices": ["L'univers", "L'événement", "L'issue", "La probabilité"],
+      "correctIndex": 0,
+      "explanation": "L'univers est l'ensemble de toutes les issues possibles d'une expérience aléatoire. Pour un dé à 6 faces, l'univers est {1, 2, 3, 4, 5, 6}."
+    },
+    {
+      "question": "On lance un dé à 6 faces. Quelle est la probabilité d'obtenir un nombre pair ?",
+      "choices": ["1/2", "1/3", "2/6", "1/6"],
+      "correctIndex": 0,
+      "explanation": "Les issues favorables sont 2, 4 et 6, soit 3 issues sur 6. Donc P = 3/6 = 1/2."
+    },
+    {
+      "question": "Voici les notes de Léa : 12, 14, 8, 16, 10. Quelle est sa moyenne ?",
+      "choices": ["12", "11", "13", "14"],
+      "correctIndex": 0,
+      "explanation": "Moyenne = (12 + 14 + 8 + 16 + 10) / 5 = 60 / 5 = 12."
+    },
+    {
+      "question": "Dans un sac, on a 4 jetons numérotés de 1 à 4. On tire un jeton au hasard. Quelle est la probabilité d'obtenir un nombre supérieur à 2 ?",
+      "choices": ["1/2", "1/4", "3/4", "2/3"],
+      "correctIndex": 0,
+      "explanation": "Les nombres strictement supérieurs à 2 sont 3 et 4, soit 2 issues favorables sur 4. P = 2/4 = 1/2."
+    },
+    {
+      "question": "Quelle est l'étendue de la série : 14, 8, 22, 15, 10, 17 ?",
+      "choices": ["14", "22", "8", "10"],
+      "correctIndex": 0,
+      "explanation": "Étendue = max - min = 22 - 8 = 14."
+    },
+    {
+      "question": "On lance deux dés à 6 faces et on additionne les résultats. Quelle est la probabilité d'obtenir une somme égale à 7 ?",
+      "choices": ["6/36 soit 1/6", "1/12", "7/36", "1/2"],
+      "correctIndex": 0,
+      "explanation": "Sur 36 issues possibles, 6 donnent une somme de 7 : (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Donc P = 6/36 = 1/6."
+    },
+    {
+      "question": "Une enquête donne ces effectifs pour le nombre de frères et soeurs : 0 (5 élèves), 1 (12 élèves), 2 (8 élèves), 3 (5 élèves). Quelle est la moyenne ?",
+      "choices": ["1,43", "1,5", "2", "1"],
+      "correctIndex": 0,
+      "explanation": "Moyenne = (0 fois 5 + 1 fois 12 + 2 fois 8 + 3 fois 5) / 30 = (0 + 12 + 16 + 15) / 30 = 43 / 30 environ 1,43."
+    },
+    {
+      "question": "Une probabilité est toujours comprise entre :",
+      "choices": ["0 et 1", "-1 et 1", "0 et 100", "1 et 10"],
+      "correctIndex": 0,
+      "explanation": "Une probabilité est toujours un nombre compris entre 0 (événement impossible) et 1 (événement certain)."
+    },
+    {
+      "question": "Dans un arbre de probabilité, à chaque étape, la somme des probabilités des branches issues d'un même noeud vaut :",
+      "choices": ["1", "0", "0,5", "Cela dépend"],
+      "correctIndex": 0,
+      "explanation": "À chaque noeud d'un arbre de probabilité, la somme des probabilités des branches qui en partent est toujours égale à 1."
+    },
+    {
+      "question": "Quelle est la médiane de la série : 3, 5, 7, 8, 9, 12, 15 ?",
+      "choices": ["8", "7", "9", "8,4"],
+      "correctIndex": 0,
+      "explanation": "Pour 7 valeurs, la médiane est la 4e valeur (centrale), soit 8."
+    },
+    {
+      "question": "On lance une pièce truquée où P(pile) = 0,7. Quelle est la probabilité d'obtenir face ?",
+      "choices": ["0,3", "0,7", "0,5", "1"],
+      "correctIndex": 0,
+      "explanation": "Les événements pile et face sont contraires, donc P(face) = 1 - P(pile) = 1 - 0,7 = 0,3."
+    },
+    {
+      "question": "Dans une classe, la fréquence des élèves qui font du sport est de 0,8. S'il y a 30 élèves, combien font du sport ?",
+      "choices": ["24", "8", "30", "20"],
+      "correctIndex": 0,
+      "explanation": "Effectif = fréquence fois effectif total = 0,8 fois 30 = 24 élèves."
+    }
+  ],
+  "fonctions": [
+    {
+      "question": "Soit f(x) = 2x - 5. Quelle est l'image de 4 ?",
+      "choices": ["3", "8", "13", "-3"],
+      "correctIndex": 0,
+      "explanation": "f(4) = 2 fois 4 - 5 = 8 - 5 = 3."
+    },
+    {
+      "question": "Soit g(x) = -3x + 1. Quel est le coefficient directeur ?",
+      "choices": ["-3", "1", "3", "-1"],
+      "correctIndex": 0,
+      "explanation": "Pour une fonction affine f(x) = ax + b, le coefficient directeur est a. Ici a = -3."
+    },
+    {
+      "question": "Soit f(x) = 4x. Quel est l'antécédent de 20 ?",
+      "choices": ["5", "80", "16", "24"],
+      "correctIndex": 0,
+      "explanation": "On résout 4x = 20, donc x = 20/4 = 5."
+    },
+    {
+      "question": "Une fonction linéaire passe par le point (3 ; 12). Quel est son coefficient ?",
+      "choices": ["4", "3", "12", "9"],
+      "correctIndex": 0,
+      "explanation": "f(x) = ax avec f(3) = 12, donc 3a = 12, d'où a = 4."
+    },
+    {
+      "question": "Une fonction affine f vérifie f(0) = -2 et f(4) = 6. Quel est son coefficient directeur ?",
+      "choices": ["2", "-2", "8", "4"],
+      "correctIndex": 0,
+      "explanation": "a = (f(4) - f(0)) / (4 - 0) = (6 - (-2)) / 4 = 8 / 4 = 2."
+    },
+    {
+      "question": "La droite représentant une fonction linéaire passe toujours par :",
+      "choices": ["L'origine du repère", "Le point (1 ; 1)", "L'axe des ordonnées en b", "Aucun point particulier"],
+      "correctIndex": 0,
+      "explanation": "Pour une fonction linéaire f(x) = ax, on a f(0) = 0. La droite passe donc par l'origine (0 ; 0)."
+    },
+    {
+      "question": "Soit f(x) = 5x + 3. Quel est l'antécédent de 18 ?",
+      "choices": ["3", "5", "15", "93"],
+      "correctIndex": 0,
+      "explanation": "On résout 5x + 3 = 18, donc 5x = 15, d'où x = 3."
+    },
+    {
+      "question": "Le prix d'un taxi est de 4 euros de prise en charge plus 2 euros par km. Quelle fonction donne le prix selon la distance x ?",
+      "choices": ["f(x) = 2x + 4", "f(x) = 4x + 2", "f(x) = 2x", "f(x) = 4x"],
+      "correctIndex": 0,
+      "explanation": "Prix = 2 euros par km fois nombre de km + 4 euros fixes, soit f(x) = 2x + 4."
+    },
+    {
+      "question": "Soit f la fonction affine telle que f(x) = -x + 7. Quelle est l'image de -2 ?",
+      "choices": ["9", "5", "-9", "-5"],
+      "correctIndex": 0,
+      "explanation": "f(-2) = -(-2) + 7 = 2 + 7 = 9."
+    },
+    {
+      "question": "Dans un tableau de valeurs, on lit f(2) = 10 et f(5) = 25. Cette fonction peut-elle être linéaire ?",
+      "choices": ["Oui, car f(2)/2 = f(5)/5 = 5", "Non", "On ne peut pas savoir", "Oui, mais seulement si b = 0"],
+      "correctIndex": 0,
+      "explanation": "Pour une fonction linéaire, le rapport f(x)/x doit être constant. Ici 10/2 = 5 et 25/5 = 5. C'est bien linéaire avec a = 5."
+    },
+    {
+      "question": "La représentation graphique d'une fonction linéaire est une droite qui :",
+      "choices": ["Passe par l'origine", "Coupe l'axe des x en b", "Est horizontale", "Est verticale"],
+      "correctIndex": 0,
+      "explanation": "Pour f(x) = ax, on a f(0) = 0, donc la droite passe par l'origine du repère."
+    },
+    {
+      "question": "Soit f(x) = ax + b. Si la droite coupe l'axe des ordonnées en y = 4, alors :",
+      "choices": ["b = 4", "a = 4", "a = 0", "b = 0"],
+      "correctIndex": 0,
+      "explanation": "L'ordonnée à l'origine est f(0) = b. Si la droite coupe l'axe des y en 4, alors b = 4."
+    },
+    {
+      "question": "Une fonction affine passe par les points A(1 ; 5) et B(3 ; 11). Quel est son coefficient directeur ?",
+      "choices": ["3", "2", "6", "5"],
+      "correctIndex": 0,
+      "explanation": "a = (yB - yA) / (xB - xA) = (11 - 5) / (3 - 1) = 6 / 2 = 3."
+    },
+    {
+      "question": "La grandeur y est proportionnelle à x avec un coefficient 2,5. Si x = 8, que vaut y ?",
+      "choices": ["20", "10,5", "5,5", "16"],
+      "correctIndex": 0,
+      "explanation": "y = 2,5 fois x = 2,5 fois 8 = 20. C'est une fonction linéaire f(x) = 2,5x."
+    },
+    {
+      "question": "Soit f(x) = -2x + 6. Pour quelle valeur de x a-t-on f(x) = 0 ?",
+      "choices": ["x = 3", "x = -3", "x = 6", "x = 2"],
+      "correctIndex": 0,
+      "explanation": "On résout -2x + 6 = 0, donc -2x = -6, d'où x = 3. C'est l'abscisse du point d'intersection avec l'axe des x."
+    }
+  ]
+}

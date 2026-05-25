@@ -1,0 +1,250 @@
+{
+  "pythagore": [
+    {
+      "question": "Une échelle de 5 mètres est posée contre un mur. Son pied est à 3 mètres du mur. À quelle hauteur l'échelle touche-t-elle le mur ?",
+      "choices": ["4 mètres", "2 mètres", "8 mètres", "16 mètres"],
+      "correctIndex": 0,
+      "explanation": "On applique Pythagore : hauteur au carré égale 5 au carré moins 3 au carré, soit 25 - 9 = 16. La hauteur vaut donc 4 mètres."
+    },
+    {
+      "question": "Dans le théorème de Pythagore, comment appelle-t-on le plus grand côté du triangle rectangle ?",
+      "choices": ["L'hypoténuse", "Le côté adjacent", "La médiane", "La diagonale"],
+      "correctIndex": 0,
+      "explanation": "L'hypoténuse est le côté opposé à l'angle droit, et c'est toujours le plus long des trois côtés d'un triangle rectangle."
+    },
+    {
+      "question": "Un triangle a pour côtés 7 cm, 24 cm et 25 cm. Est-il rectangle ?",
+      "choices": ["Oui, car 7 au carré plus 24 au carré égale 25 au carré", "Non, ce n'est pas un triangle", "Non, car 7 + 24 différent de 25", "On ne peut pas le savoir"],
+      "correctIndex": 0,
+      "explanation": "7 au carré + 24 au carré = 49 + 576 = 625, et 25 au carré = 625. D'après la réciproque de Pythagore, le triangle est rectangle."
+    },
+    {
+      "question": "Dans un carré de côté 6 cm, quelle est la longueur de la diagonale ? (valeur approchée)",
+      "choices": ["Environ 8,49 cm", "12 cm", "6 cm", "36 cm"],
+      "correctIndex": 0,
+      "explanation": "La diagonale au carré = 6 au carré + 6 au carré = 72. Donc diagonale = racine carrée de 72, soit environ 8,49 cm."
+    },
+    {
+      "question": "Que dit la contraposée du théorème de Pythagore ?",
+      "choices": ["Si le carré du plus grand côté n'est pas égal à la somme des carrés des deux autres, alors le triangle n'est pas rectangle", "Tout triangle est rectangle", "Si un triangle est rectangle alors il est isocèle", "La somme des angles vaut 360 degrés"],
+      "correctIndex": 0,
+      "explanation": "La contraposée permet de prouver qu'un triangle n'est PAS rectangle si l'égalité de Pythagore n'est pas vérifiée."
+    },
+    {
+      "question": "Un terrain rectangulaire mesure 40 m de long et 30 m de large. Quelle est la longueur de sa diagonale ?",
+      "choices": ["50 m", "70 m", "35 m", "60 m"],
+      "correctIndex": 0,
+      "explanation": "Diagonale au carré = 40 au carré + 30 au carré = 1600 + 900 = 2500. Donc diagonale = 50 m."
+    },
+    {
+      "question": "Dans un triangle rectangle, l'hypoténuse mesure 17 cm et un côté de l'angle droit 8 cm. Que mesure l'autre côté ?",
+      "choices": ["15 cm", "9 cm", "25 cm", "12 cm"],
+      "correctIndex": 0,
+      "explanation": "Autre côté au carré = 17 au carré - 8 au carré = 289 - 64 = 225. Donc l'autre côté mesure 15 cm."
+    },
+    {
+      "question": "Parmi ces triplets, lequel est un triplet pythagoricien ?",
+      "choices": ["(9, 12, 15)", "(2, 3, 4)", "(5, 6, 7)", "(10, 11, 12)"],
+      "correctIndex": 0,
+      "explanation": "9 au carré + 12 au carré = 81 + 144 = 225 = 15 au carré. C'est un multiple du triplet (3, 4, 5)."
+    },
+    {
+      "question": "Un bateau navigue 12 km vers l'est puis 5 km vers le nord. À quelle distance du point de départ se trouve-t-il (à vol d'oiseau) ?",
+      "choices": ["13 km", "17 km", "7 km", "60 km"],
+      "correctIndex": 0,
+      "explanation": "Distance au carré = 12 au carré + 5 au carré = 144 + 25 = 169. Donc la distance vaut 13 km."
+    },
+    {
+      "question": "Pour appliquer la réciproque du théorème de Pythagore, on compare :",
+      "choices": ["Le carré du plus grand côté à la somme des carrés des deux autres", "La somme des trois côtés à 180", "Les trois angles entre eux", "Le périmètre à l'aire"],
+      "correctIndex": 0,
+      "explanation": "La réciproque consiste à vérifier si le carré du plus grand côté est égal à la somme des carrés des deux autres côtés."
+    }
+  ],
+  "thales": [
+    {
+      "question": "Dans une configuration de Thalès avec (MN) parallèle à (BC), si AM = 3, MB = 6 et MN = 4, combien vaut BC ?",
+      "choices": ["12", "8", "6", "10"],
+      "correctIndex": 0,
+      "explanation": "AB = AM + MB = 9. AM/AB = MN/BC donne 3/9 = 4/BC, donc BC = 4 × 9 / 3 = 12."
+    },
+    {
+      "question": "Comment s'appelle la version du théorème de Thalès qui permet de prouver que deux droites sont parallèles ?",
+      "choices": ["La réciproque du théorème de Thalès", "La contraposée de Pythagore", "Le théorème direct", "Le corollaire de Thalès"],
+      "correctIndex": 0,
+      "explanation": "La réciproque de Thalès permet de démontrer le parallélisme à partir d'une égalité de rapports."
+    },
+    {
+      "question": "Dans un triangle ABC, M sur [AB] avec AM = 2 et AB = 5, N sur [AC] avec AN = 3 et AC = 8. Les droites (MN) et (BC) sont-elles parallèles ?",
+      "choices": ["Non, car 2/5 différent de 3/8", "Oui", "Oui, car les points sont alignés", "Impossible à savoir"],
+      "correctIndex": 0,
+      "explanation": "2/5 = 0,4 et 3/8 = 0,375. Les rapports ne sont pas égaux donc d'après la contraposée de Thalès, (MN) n'est pas parallèle à (BC)."
+    },
+    {
+      "question": "Dans un triangle ABC, (MN) est parallèle à (BC) avec M sur [AB] et N sur [AC]. Si AM = 4, AB = 10 et BC = 15, combien vaut MN ?",
+      "choices": ["6", "9", "7,5", "12"],
+      "correctIndex": 0,
+      "explanation": "AM/AB = MN/BC donne 4/10 = MN/15, donc MN = 15 × 4 / 10 = 6."
+    },
+    {
+      "question": "Pour appliquer le théorème de Thalès, il faut :",
+      "choices": ["Deux droites sécantes coupées par deux droites parallèles", "Trois côtés égaux", "Un angle droit", "Une bissectrice"],
+      "correctIndex": 0,
+      "explanation": "Le théorème de Thalès s'applique dans une configuration de deux droites sécantes coupées par deux droites parallèles."
+    },
+    {
+      "question": "Dans une configuration papillon (Thalès avec point de croisement), si OA = 3, OB = 4, OA' = 6 et que (AB) et (A'B') sont parallèles, combien vaut OB' ?",
+      "choices": ["8", "5", "7", "12"],
+      "correctIndex": 0,
+      "explanation": "OA/OA' = OB/OB' donne 3/6 = 4/OB', donc OB' = 4 × 6 / 3 = 8."
+    },
+    {
+      "question": "Si dans un triangle ABC on a AM/AB = AN/AC = 2/3, quel est le coefficient de réduction entre les triangles AMN et ABC ?",
+      "choices": ["2/3", "3/2", "4/9", "1/3"],
+      "correctIndex": 0,
+      "explanation": "Le coefficient de réduction est le rapport AM/AB, soit 2/3. C'est aussi le rapport MN/BC."
+    },
+    {
+      "question": "Dans un triangle ABC, M sur [AB] et N sur [AC] tels que AM = 2, AB = 6, AN = 3, AC = 9. Que peut-on dire de (MN) et (BC) ?",
+      "choices": ["Elles sont parallèles", "Elles sont perpendiculaires", "Elles sont confondues", "Elles se coupent en A"],
+      "correctIndex": 0,
+      "explanation": "AM/AB = 2/6 = 1/3 et AN/AC = 3/9 = 1/3. Les rapports sont égaux et les points alignés dans le même ordre, donc (MN) parallèle à (BC)."
+    },
+    {
+      "question": "Un poteau mesure 1,80 m et son ombre 1,20 m. Au même moment, l'ombre d'un arbre mesure 8 m. Quelle est la hauteur de l'arbre ?",
+      "choices": ["12 m", "10 m", "8 m", "14,40 m"],
+      "correctIndex": 0,
+      "explanation": "Par Thalès, hauteur arbre / hauteur poteau = ombre arbre / ombre poteau, soit h / 1,80 = 8 / 1,20, donc h = 12 m."
+    },
+    {
+      "question": "Dans une configuration de Thalès, à quoi correspond le côté MN dans les rapports ?",
+      "choices": ["Au petit côté du triangle correspondant au grand côté BC", "À l'hypoténuse", "À la médiane", "À une diagonale"],
+      "correctIndex": 0,
+      "explanation": "MN est le côté du petit triangle AMN qui correspond au côté BC du grand triangle ABC. On a AM/AB = AN/AC = MN/BC."
+    }
+  ],
+  "trigonometrie": [
+    {
+      "question": "Dans un triangle rectangle, quel moyen mnémotechnique aide à retenir les formules trigonométriques ?",
+      "choices": ["SOH-CAH-TOA", "PEMDAS", "FOIL", "BODMAS"],
+      "correctIndex": 0,
+      "explanation": "SOH : Sinus = Opposé / Hypoténuse. CAH : Cosinus = Adjacent / Hypoténuse. TOA : Tangente = Opposé / Adjacent."
+    },
+    {
+      "question": "Dans un triangle rectangle, si l'hypoténuse mesure 13 cm et le côté adjacent à un angle 5 cm, que vaut le cosinus de cet angle ?",
+      "choices": ["5/13", "13/5", "12/13", "5/12"],
+      "correctIndex": 0,
+      "explanation": "Cosinus = adjacent / hypoténuse = 5/13."
+    },
+    {
+      "question": "Combien vaut cos(0°) ?",
+      "choices": ["1", "0", "0,5", "Indéfini"],
+      "correctIndex": 0,
+      "explanation": "Le cosinus de 0 degré vaut 1. C'est une valeur remarquable à connaître."
+    },
+    {
+      "question": "Combien vaut sin(90°) ?",
+      "choices": ["1", "0", "0,5", "Infini"],
+      "correctIndex": 0,
+      "explanation": "Le sinus de 90 degrés vaut 1. C'est une valeur remarquable."
+    },
+    {
+      "question": "Dans un triangle rectangle, si tan(angle) = 1, combien mesure cet angle ?",
+      "choices": ["45°", "30°", "60°", "90°"],
+      "correctIndex": 0,
+      "explanation": "Tan(45°) = 1 car le côté opposé est égal au côté adjacent. C'est une valeur remarquable."
+    },
+    {
+      "question": "Dans un triangle rectangle ABC en A, on cherche l'angle B. L'hypoténuse mesure 10 et le côté opposé à B mesure 6. Quelle fonction trigonométrique utiliser ?",
+      "choices": ["Sinus", "Cosinus", "Tangente", "Aucune"],
+      "correctIndex": 0,
+      "explanation": "On a l'opposé et l'hypoténuse, donc on utilise le sinus : sin(B) = 6/10 = 0,6."
+    },
+    {
+      "question": "Le cosinus d'un angle aigu est toujours :",
+      "choices": ["Compris entre 0 et 1", "Plus grand que 1", "Négatif", "Égal à l'angle"],
+      "correctIndex": 0,
+      "explanation": "Pour un angle aigu (entre 0 et 90 degrés), le cosinus est strictement compris entre 0 et 1."
+    },
+    {
+      "question": "Une rampe d'accès fait 5 m de long et s'élève à 1 m. Quel est le sinus de l'angle d'inclinaison ?",
+      "choices": ["0,2", "0,5", "5", "1"],
+      "correctIndex": 0,
+      "explanation": "Sinus de l'angle = hauteur / longueur de la rampe = 1/5 = 0,2."
+    },
+    {
+      "question": "Dans un triangle rectangle, on connaît un angle aigu de 35° et le côté adjacent qui mesure 8 cm. Quelle formule donne l'hypoténuse ?",
+      "choices": ["Hypoténuse = 8 / cos(35°)", "Hypoténuse = 8 × cos(35°)", "Hypoténuse = 8 / sin(35°)", "Hypoténuse = 8 × tan(35°)"],
+      "correctIndex": 0,
+      "explanation": "cos(35°) = adjacent / hypoténuse, donc hypoténuse = adjacent / cos(35°) = 8 / cos(35°)."
+    },
+    {
+      "question": "Dans un triangle rectangle, si cos(angle) = 0,8, que vaut sin(angle) ? (relation pythagoricienne)",
+      "choices": ["0,6", "0,2", "1,8", "0,8"],
+      "correctIndex": 0,
+      "explanation": "On utilise la relation cos au carré + sin au carré = 1. Donc sin au carré = 1 - 0,64 = 0,36, soit sin = 0,6."
+    }
+  ],
+  "espace-volumes": [
+    {
+      "question": "Quel est le volume d'une boule de rayon 3 cm (valeur exacte en fonction de pi) ?",
+      "choices": ["36 pi cm cube", "12 pi cm cube", "27 pi cm cube", "9 pi cm cube"],
+      "correctIndex": 0,
+      "explanation": "V = (4/3) × pi × r au cube = (4/3) × pi × 27 = 36 pi cm cube."
+    },
+    {
+      "question": "Si on multiplie par 3 l'arête d'un cube, par combien est multiplié son volume ?",
+      "choices": ["27", "9", "3", "6"],
+      "correctIndex": 0,
+      "explanation": "Le volume est proportionnel au cube du coefficient. Si l'arête est multipliée par 3, le volume est multiplié par 3 au cube = 27."
+    },
+    {
+      "question": "Quel solide a une base circulaire et un sommet pointu ?",
+      "choices": ["Le cône", "Le cylindre", "La sphère", "Le prisme"],
+      "correctIndex": 0,
+      "explanation": "Le cône a une base circulaire (un disque) et un sommet unique. Son volume est (1/3) × pi × r au carré × h."
+    },
+    {
+      "question": "Une section d'une sphère par un plan est :",
+      "choices": ["Un disque", "Un carré", "Un triangle", "Une ellipse"],
+      "correctIndex": 0,
+      "explanation": "La section d'une sphère par un plan est toujours un disque (un cercle plein)."
+    },
+    {
+      "question": "Quel est le volume d'un cylindre de rayon 5 cm et de hauteur 10 cm ? (valeur exacte)",
+      "choices": ["250 pi cm cube", "50 pi cm cube", "100 pi cm cube", "500 pi cm cube"],
+      "correctIndex": 0,
+      "explanation": "V = pi × r au carré × h = pi × 25 × 10 = 250 pi cm cube."
+    },
+    {
+      "question": "Si on multiplie par 2 toutes les dimensions d'un pavé droit, par combien est multipliée son aire ?",
+      "choices": ["4", "2", "8", "16"],
+      "correctIndex": 0,
+      "explanation": "L'aire est proportionnelle au carré du coefficient. Si les dimensions sont multipliées par 2, l'aire est multipliée par 2 au carré = 4."
+    },
+    {
+      "question": "Une pyramide à base carrée de côté 6 cm a une hauteur de 5 cm. Quel est son volume ?",
+      "choices": ["60 cm cube", "180 cm cube", "30 cm cube", "120 cm cube"],
+      "correctIndex": 0,
+      "explanation": "V = (1/3) × aire de la base × hauteur = (1/3) × 36 × 5 = 60 cm cube."
+    },
+    {
+      "question": "Quelle est la section d'un cylindre par un plan parallèle à sa base ?",
+      "choices": ["Un disque identique à la base", "Un rectangle", "Une ellipse", "Un triangle"],
+      "correctIndex": 0,
+      "explanation": "Une section d'un cylindre par un plan parallèle à sa base est un disque identique à la base."
+    },
+    {
+      "question": "Un cône a un rayon de base de 4 cm et une hauteur de 9 cm. Quel est son volume exact ?",
+      "choices": ["48 pi cm cube", "36 pi cm cube", "144 pi cm cube", "12 pi cm cube"],
+      "correctIndex": 0,
+      "explanation": "V = (1/3) × pi × r au carré × h = (1/3) × pi × 16 × 9 = 48 pi cm cube."
+    },
+    {
+      "question": "Si on agrandit une figure 3D avec un coefficient k, par quoi est multiplié le volume ?",
+      "choices": ["k au cube", "k au carré", "k", "3 fois k"],
+      "correctIndex": 0,
+      "explanation": "Lors d'un agrandissement de coefficient k, les longueurs sont multipliées par k, les aires par k au carré et les volumes par k au cube."
+    }
+  ]
+}
