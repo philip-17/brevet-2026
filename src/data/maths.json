@@ -12137,6 +12137,5541 @@
       ]
     },
     {
+      "id": "auto-nombres-calculs",
+      "title": "🔢 Nombres et calculs",
+      "section": "automatismes",
+      "questions": [
+        {
+          "question": "Quelle est l'écriture décimale de 1/2 ?",
+          "choices": [
+            "1,5",
+            "0,5",
+            "0,25",
+            "0,2"
+          ],
+          "correctIndex": 1,
+          "explanation": "1/2 = 0,5"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 1/4 ?",
+          "choices": [
+            "0,4",
+            "0,125",
+            "0,5",
+            "0,25"
+          ],
+          "correctIndex": 3,
+          "explanation": "1/4 = 0,25"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 3/4 ?",
+          "choices": [
+            "0,43",
+            "1,33",
+            "0,34",
+            "0,75"
+          ],
+          "correctIndex": 3,
+          "explanation": "3/4 = 0,75"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 1/10 ?",
+          "choices": [
+            "10",
+            "0,01",
+            "0,1",
+            "1"
+          ],
+          "correctIndex": 2,
+          "explanation": "1/10 = 0,1"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 3/2 ?",
+          "choices": [
+            "0,66",
+            "2/3",
+            "3,2",
+            "1,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "3/2 = 1,5"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 5/2 ?",
+          "choices": [
+            "1,5",
+            "0,4",
+            "2,5",
+            "5,2"
+          ],
+          "correctIndex": 2,
+          "explanation": "5/2 = 2,5"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 4/2 ?",
+          "choices": [
+            "2",
+            "4,2",
+            "8",
+            "0,5"
+          ],
+          "correctIndex": 0,
+          "explanation": "4/2 = 2"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 100/100 ?",
+          "choices": [
+            "100",
+            "0,1",
+            "10",
+            "1"
+          ],
+          "correctIndex": 3,
+          "explanation": "100/100 = 1"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 7/1 ?",
+          "choices": [
+            "7",
+            "1/7",
+            "0,7",
+            "1,7"
+          ],
+          "correctIndex": 0,
+          "explanation": "7/1 = 7"
+        },
+        {
+          "question": "Quelle est l'écriture décimale de 1/5 ?",
+          "choices": [
+            "0,5",
+            "0,2",
+            "0,15",
+            "5"
+          ],
+          "correctIndex": 1,
+          "explanation": "1/5 = 0,2"
+        },
+        {
+          "question": "Combien fait 3,5 + 2,8 ?",
+          "choices": [
+            "6,03",
+            "5,3",
+            "6,3",
+            "6,13"
+          ],
+          "correctIndex": 2,
+          "explanation": "3,5 + 2,8 = 6,3"
+        },
+        {
+          "question": "Combien fait 7,2 − 4,5 ?",
+          "choices": [
+            "3,3",
+            "2,7",
+            "2,8",
+            "2,3"
+          ],
+          "correctIndex": 1,
+          "explanation": "7,2 − 4,5 = 2,7"
+        },
+        {
+          "question": "Combien fait 0,6 + 0,7 ?",
+          "choices": [
+            "1,4",
+            "0,13",
+            "1,3",
+            "1,03"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,6 + 0,7 = 1,3"
+        },
+        {
+          "question": "Combien fait 12,5 − 7,8 ?",
+          "choices": [
+            "5,7",
+            "5,3",
+            "4,3",
+            "4,7"
+          ],
+          "correctIndex": 3,
+          "explanation": "12,5 − 7,8 = 4,7"
+        },
+        {
+          "question": "Combien fait 2,5 × 4 ?",
+          "choices": [
+            "6,5",
+            "10",
+            "12",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "2,5 × 4 = 10"
+        },
+        {
+          "question": "Combien fait 0,5 × 6 ?",
+          "choices": [
+            "30",
+            "0,3",
+            "3",
+            "2,5"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,5 × 6 = 3"
+        },
+        {
+          "question": "Combien fait 0,1 × 0,1 ?",
+          "choices": [
+            "0,01",
+            "1",
+            "0,1",
+            "0,2"
+          ],
+          "correctIndex": 0,
+          "explanation": "0,1 × 0,1 = 0,01"
+        },
+        {
+          "question": "Combien fait 1,2 × 0,5 ?",
+          "choices": [
+            "1,7",
+            "0,06",
+            "0,6",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "1,2 × 0,5 = 0,6"
+        },
+        {
+          "question": "Combien fait −3 + 5 ?",
+          "choices": [
+            "−2",
+            "2",
+            "8",
+            "−8"
+          ],
+          "correctIndex": 1,
+          "explanation": "−3 + 5 = 2"
+        },
+        {
+          "question": "Combien fait −7 + 4 ?",
+          "choices": [
+            "−3",
+            "11",
+            "−11",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "−7 + 4 = −3"
+        },
+        {
+          "question": "Combien fait −2,5 + 1,5 ?",
+          "choices": [
+            "1",
+            "−1",
+            "4",
+            "−4"
+          ],
+          "correctIndex": 1,
+          "explanation": "−2,5 + 1,5 = −1"
+        },
+        {
+          "question": "Combien fait −4 − 3 ?",
+          "choices": [
+            "−1",
+            "1",
+            "7",
+            "−7"
+          ],
+          "correctIndex": 3,
+          "explanation": "−4 − 3 = −7"
+        },
+        {
+          "question": "Combien fait −3 − (−5) ?",
+          "choices": [
+            "−2",
+            "2",
+            "8",
+            "−8"
+          ],
+          "correctIndex": 1,
+          "explanation": "−3 − (−5) = 2"
+        },
+        {
+          "question": "Combien fait −2 × (−3) ?",
+          "choices": [
+            "−5",
+            "5",
+            "−6",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "−2 × (−3) = 6"
+        },
+        {
+          "question": "Combien fait −4 × 2,5 ?",
+          "choices": [
+            "10",
+            "−1,5",
+            "1,5",
+            "−10"
+          ],
+          "correctIndex": 3,
+          "explanation": "−4 × 2,5 = −10"
+        },
+        {
+          "question": "Simplifier la fraction 6/8.",
+          "choices": [
+            "3/4",
+            "2/3",
+            "6/4",
+            "1/2"
+          ],
+          "correctIndex": 0,
+          "explanation": "6/8 simplifiée donne 3/4 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 9/12.",
+          "choices": [
+            "3/4",
+            "9/4",
+            "1/2",
+            "2/3"
+          ],
+          "correctIndex": 0,
+          "explanation": "9/12 simplifiée donne 3/4 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 10/15.",
+          "choices": [
+            "10/5",
+            "3/5",
+            "2/3",
+            "5/3"
+          ],
+          "correctIndex": 2,
+          "explanation": "10/15 simplifiée donne 2/3 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 14/21.",
+          "choices": [
+            "7/3",
+            "1/3",
+            "2/3",
+            "3/7"
+          ],
+          "correctIndex": 2,
+          "explanation": "14/21 simplifiée donne 2/3 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 18/24.",
+          "choices": [
+            "18/4",
+            "6/8",
+            "3/4",
+            "9/12"
+          ],
+          "correctIndex": 2,
+          "explanation": "18/24 simplifiée donne 3/4 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 25/100.",
+          "choices": [
+            "5/20",
+            "1/2",
+            "1/4",
+            "2/5"
+          ],
+          "correctIndex": 2,
+          "explanation": "25/100 simplifiée donne 1/4 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Simplifier la fraction 45/60.",
+          "choices": [
+            "4/5",
+            "9/15",
+            "3/4",
+            "3/5"
+          ],
+          "correctIndex": 2,
+          "explanation": "45/60 simplifiée donne 3/4 (on divise haut et bas par le PGCD)."
+        },
+        {
+          "question": "Combien fait 1/2 + 1/4 ?",
+          "choices": [
+            "2/6",
+            "1/6",
+            "2/4",
+            "3/4"
+          ],
+          "correctIndex": 3,
+          "explanation": "Au même dénominateur : 2/4 + 1/4 = 3/4."
+        },
+        {
+          "question": "Combien fait 2/3 + 1/6 ?",
+          "choices": [
+            "3/6",
+            "5/6",
+            "1/2",
+            "3/9"
+          ],
+          "correctIndex": 1,
+          "explanation": "2/3 = 4/6 ; 4/6 + 1/6 = 5/6."
+        },
+        {
+          "question": "Combien fait 3/4 − 1/2 ?",
+          "choices": [
+            "1/2",
+            "1/4",
+            "2/4",
+            "2/2"
+          ],
+          "correctIndex": 1,
+          "explanation": "3/4 − 2/4 = 1/4."
+        },
+        {
+          "question": "Combien fait 5/6 − 1/3 ?",
+          "choices": [
+            "4/6",
+            "1/2",
+            "4/3",
+            "5/3"
+          ],
+          "correctIndex": 1,
+          "explanation": "5/6 − 2/6 = 3/6 = 1/2."
+        },
+        {
+          "question": "Combien fait 2/3 × 3/4 ?",
+          "choices": [
+            "5/12",
+            "2/4",
+            "1/2",
+            "6/7"
+          ],
+          "correctIndex": 2,
+          "explanation": "2/3 × 3/4 = 6/12 = 1/2."
+        },
+        {
+          "question": "Combien fait 3/5 × 10/9 ?",
+          "choices": [
+            "3/9",
+            "2/3",
+            "30/14",
+            "13/14"
+          ],
+          "correctIndex": 1,
+          "explanation": "(3×10)/(5×9) = 30/45 = 2/3."
+        },
+        {
+          "question": "Combien fait 1/2 ÷ 1/4 ?",
+          "choices": [
+            "4",
+            "1/8",
+            "1/2",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "1/2 ÷ 1/4 = 1/2 × 4 = 2."
+        },
+        {
+          "question": "Quelle fraction est la plus grande : 2/3 ou 3/5 ?",
+          "choices": [
+            "3/5",
+            "On ne peut pas comparer",
+            "Elles sont égales",
+            "2/3"
+          ],
+          "correctIndex": 3,
+          "explanation": "2/3 = 10/15 et 3/5 = 9/15, donc 2/3 > 3/5."
+        },
+        {
+          "question": "Parmi 5/6, 7/8 et 3/4, laquelle est la plus grande ?",
+          "choices": [
+            "7/8",
+            "Elles sont égales",
+            "5/6",
+            "3/4"
+          ],
+          "correctIndex": 0,
+          "explanation": "Au dénominateur 24 : 20/24, 21/24, 18/24. La plus grande est 21/24 = 7/8."
+        },
+        {
+          "question": "Quelle fraction est égale à 0,75 ?",
+          "choices": [
+            "5/7",
+            "7/5",
+            "3/5",
+            "3/4"
+          ],
+          "correctIndex": 3,
+          "explanation": "0,75 = 75/100 = 3/4."
+        },
+        {
+          "question": "Parmi ces fractions, laquelle est égale à 1 ?",
+          "choices": [
+            "1/8",
+            "8/8",
+            "8/16",
+            "16/8"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une fraction vaut 1 quand numérateur = dénominateur."
+        },
+        {
+          "question": "Combien fait 7/10 − 1/5 ?",
+          "choices": [
+            "1/2",
+            "5/10",
+            "6/10",
+            "6/5"
+          ],
+          "correctIndex": 0,
+          "explanation": "7/10 − 2/10 = 5/10 = 1/2."
+        },
+        {
+          "question": "Combien fait 4/9 × 3/8 ?",
+          "choices": [
+            "7/17",
+            "1/6",
+            "12/17",
+            "12/72"
+          ],
+          "correctIndex": 1,
+          "explanation": "(4×3)/(9×8) = 12/72 = 1/6."
+        },
+        {
+          "question": "Combien vaut le tiers de 18 ?",
+          "choices": [
+            "6",
+            "12",
+            "9",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "18 ÷ 3 = 6."
+        },
+        {
+          "question": "Combien vaut le quart de 12 ?",
+          "choices": [
+            "3",
+            "6",
+            "4",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "12 ÷ 4 = 3."
+        },
+        {
+          "question": "Combien vaut la moitié de 50 ?",
+          "choices": [
+            "30",
+            "20",
+            "100",
+            "25"
+          ],
+          "correctIndex": 3,
+          "explanation": "50 ÷ 2 = 25."
+        },
+        {
+          "question": "Combien vaut les 2/3 de 27 ?",
+          "choices": [
+            "13,5",
+            "9",
+            "20",
+            "18"
+          ],
+          "correctIndex": 3,
+          "explanation": "27 ÷ 3 × 2 = 18."
+        },
+        {
+          "question": "Combien vaut les 3/5 de 40 ?",
+          "choices": [
+            "24",
+            "12",
+            "30",
+            "20"
+          ],
+          "correctIndex": 0,
+          "explanation": "40 ÷ 5 × 3 = 24."
+        },
+        {
+          "question": "Combien vaut les 3/4 de 60 ?",
+          "choices": [
+            "15",
+            "20",
+            "45",
+            "40"
+          ],
+          "correctIndex": 2,
+          "explanation": "60 ÷ 4 × 3 = 45."
+        },
+        {
+          "question": "Combien font 100 % de 75 ?",
+          "choices": [
+            "150",
+            "75",
+            "0",
+            "1"
+          ],
+          "correctIndex": 1,
+          "explanation": "100 % d'un nombre, c'est le nombre lui-même."
+        },
+        {
+          "question": "Combien font 50 % de 80 ?",
+          "choices": [
+            "50",
+            "40",
+            "30",
+            "20"
+          ],
+          "correctIndex": 1,
+          "explanation": "50 % = la moitié ; 80 ÷ 2 = 40."
+        },
+        {
+          "question": "Combien font 25 % de 60 ?",
+          "choices": [
+            "12",
+            "30",
+            "15",
+            "20"
+          ],
+          "correctIndex": 2,
+          "explanation": "25 % = le quart ; 60 ÷ 4 = 15."
+        },
+        {
+          "question": "Combien font 10 % de 250 ?",
+          "choices": [
+            "25",
+            "100",
+            "250",
+            "2,5"
+          ],
+          "correctIndex": 0,
+          "explanation": "10 % = un dixième ; 250 ÷ 10 = 25."
+        },
+        {
+          "question": "Combien font 1 % de 800 ?",
+          "choices": [
+            "0,8",
+            "100",
+            "80",
+            "8"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 % = un centième ; 800 ÷ 100 = 8."
+        },
+        {
+          "question": "Combien font 75 % de 200 ?",
+          "choices": [
+            "150",
+            "175",
+            "50",
+            "125"
+          ],
+          "correctIndex": 0,
+          "explanation": "75 % = 3/4 ; 200 × 3 ÷ 4 = 150."
+        },
+        {
+          "question": "Parmi ces écritures, laquelle n'est PAS égale à 1,5 ?",
+          "choices": [
+            "3/2",
+            "1 + 1/2",
+            "15/100",
+            "150 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "1,5 = 3/2 = 150 % = 1 + 1/2 ; 15/100 = 0,15."
+        },
+        {
+          "question": "Quelle écriture est égale à 0,5 ?",
+          "choices": [
+            "5 %",
+            "5/100",
+            "1/5",
+            "50 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "0,5 = 1/2 = 50 %."
+        },
+        {
+          "question": "120 % est égal à :",
+          "choices": [
+            "0,12",
+            "1,2",
+            "12",
+            "120/10"
+          ],
+          "correctIndex": 1,
+          "explanation": "120 % = 120/100 = 1,2."
+        },
+        {
+          "question": "6/5 est égal à :",
+          "choices": [
+            "1,5",
+            "1,2",
+            "5,6",
+            "6,5"
+          ],
+          "correctIndex": 1,
+          "explanation": "6/5 = 12/10 = 1,2."
+        },
+        {
+          "question": "Quelle écriture est égale à 0,25 ?",
+          "choices": [
+            "1/25",
+            "25/10",
+            "1/4",
+            "2,5 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,25 = 25/100 = 1/4 = 25 %."
+        },
+        {
+          "question": "Parmi ces écritures, laquelle est égale à 2,5 ?",
+          "choices": [
+            "5/2",
+            "2/5",
+            "25/100",
+            "250 %"
+          ],
+          "correctIndex": 0,
+          "explanation": "2,5 = 25/10 = 5/2 = 250 %."
+        },
+        {
+          "question": "1 + 3/4 est égal à :",
+          "choices": [
+            "1,3",
+            "1,34",
+            "1,75",
+            "4,3"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 + 0,75 = 1,75."
+        },
+        {
+          "question": "Combien vaut 2 + 1/2 + 1/4 ?",
+          "choices": [
+            "2,12",
+            "2,75",
+            "3,4",
+            "2,3"
+          ],
+          "correctIndex": 1,
+          "explanation": "2 + 0,5 + 0,25 = 2,75."
+        },
+        {
+          "question": "Écriture scientifique de 1 500 :",
+          "choices": [
+            "1,5 × 10³",
+            "1,5 × 10⁻³",
+            "0,15 × 10⁴",
+            "15 × 10²"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 500 = 1,5 × 1 000 = 1,5 × 10³."
+        },
+        {
+          "question": "Écriture scientifique de 23 000 :",
+          "choices": [
+            "23 × 10³",
+            "2,3 × 10³",
+            "0,23 × 10⁵",
+            "2,3 × 10⁴"
+          ],
+          "correctIndex": 3,
+          "explanation": "23 000 = 2,3 × 10 000 = 2,3 × 10⁴."
+        },
+        {
+          "question": "Écriture scientifique de 0,007 :",
+          "choices": [
+            "7 × 10³",
+            "7 × 10⁻²",
+            "7 × 10⁻³",
+            "0,7 × 10⁻²"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,007 = 7 × 0,001 = 7 × 10⁻³."
+        },
+        {
+          "question": "Écriture scientifique de 0,025 :",
+          "choices": [
+            "2,5 × 10²",
+            "0,25 × 10⁻¹",
+            "25 × 10⁻³",
+            "2,5 × 10⁻²"
+          ],
+          "correctIndex": 3,
+          "explanation": "0,025 = 2,5 × 0,01 = 2,5 × 10⁻²."
+        },
+        {
+          "question": "Écriture scientifique de 340 000 000 :",
+          "choices": [
+            "3,4 × 10⁷",
+            "0,34 × 10⁹",
+            "3,4 × 10⁸",
+            "34 × 10⁷"
+          ],
+          "correctIndex": 2,
+          "explanation": "340 000 000 = 3,4 × 10⁸ (8 chiffres après le premier)."
+        },
+        {
+          "question": "Forme décimale de 5 × 10⁴ :",
+          "choices": [
+            "50 000",
+            "5 000",
+            "500 000",
+            "0,0005"
+          ],
+          "correctIndex": 0,
+          "explanation": "5 × 10 000 = 50 000."
+        },
+        {
+          "question": "Forme décimale de 3,2 × 10² :",
+          "choices": [
+            "320",
+            "0,032",
+            "3 200",
+            "32"
+          ],
+          "correctIndex": 0,
+          "explanation": "3,2 × 100 = 320."
+        },
+        {
+          "question": "Forme décimale de 1,5 × 10⁻² :",
+          "choices": [
+            "0,15",
+            "0,0015",
+            "0,015",
+            "150"
+          ],
+          "correctIndex": 2,
+          "explanation": "1,5 × 0,01 = 0,015."
+        },
+        {
+          "question": "Forme décimale de 6 × 10⁻³ :",
+          "choices": [
+            "6 000",
+            "0,06",
+            "0,006",
+            "60"
+          ],
+          "correctIndex": 2,
+          "explanation": "6 × 0,001 = 0,006."
+        },
+        {
+          "question": "Laquelle de ces écritures est en notation scientifique ?",
+          "choices": [
+            "0,314 × 10⁶",
+            "314 × 10³",
+            "3,14 × 10⁵",
+            "31,4 × 10⁴"
+          ],
+          "correctIndex": 2,
+          "explanation": "Notation scientifique : 1 ≤ a < 10. Seul 3,14 convient."
+        },
+        {
+          "question": "Écriture scientifique de 0,0006 :",
+          "choices": [
+            "0,6 × 10⁻³",
+            "60 × 10⁻⁵",
+            "6 × 10⁴",
+            "6 × 10⁻⁴"
+          ],
+          "correctIndex": 3,
+          "explanation": "0,0006 = 6 × 0,0001 = 6 × 10⁻⁴."
+        },
+        {
+          "question": "Écriture scientifique de 47 000 000 :",
+          "choices": [
+            "4,7 × 10⁷",
+            "47 × 10⁶",
+            "4,7 × 10⁶",
+            "0,47 × 10⁸"
+          ],
+          "correctIndex": 0,
+          "explanation": "47 000 000 = 4,7 × 10⁷."
+        },
+        {
+          "question": "Combien vaut 3² ?",
+          "choices": [
+            "33",
+            "9",
+            "12",
+            "6"
+          ],
+          "correctIndex": 1,
+          "explanation": "3² = 3×3 = 9."
+        },
+        {
+          "question": "Combien vaut 5² ?",
+          "choices": [
+            "10",
+            "55",
+            "25",
+            "20"
+          ],
+          "correctIndex": 2,
+          "explanation": "5² = 5×5 = 25."
+        },
+        {
+          "question": "Combien vaut 6² ?",
+          "choices": [
+            "30",
+            "36",
+            "66",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "6² = 6×6 = 36."
+        },
+        {
+          "question": "Combien vaut 7² ?",
+          "choices": [
+            "77",
+            "49",
+            "21",
+            "14"
+          ],
+          "correctIndex": 1,
+          "explanation": "7² = 7×7 = 49."
+        },
+        {
+          "question": "Combien vaut 8² ?",
+          "choices": [
+            "16",
+            "64",
+            "56",
+            "72"
+          ],
+          "correctIndex": 1,
+          "explanation": "8² = 8×8 = 64."
+        },
+        {
+          "question": "Combien vaut 9² ?",
+          "choices": [
+            "81",
+            "18",
+            "99",
+            "27"
+          ],
+          "correctIndex": 0,
+          "explanation": "9² = 9×9 = 81."
+        },
+        {
+          "question": "Combien vaut 10² ?",
+          "choices": [
+            "20",
+            "110",
+            "100",
+            "1000"
+          ],
+          "correctIndex": 2,
+          "explanation": "10² = 10×10 = 100."
+        },
+        {
+          "question": "Combien vaut 11² ?",
+          "choices": [
+            "131",
+            "22",
+            "111",
+            "121"
+          ],
+          "correctIndex": 3,
+          "explanation": "11² = 11×11 = 121."
+        },
+        {
+          "question": "Combien vaut 12² ?",
+          "choices": [
+            "144",
+            "122",
+            "24",
+            "164"
+          ],
+          "correctIndex": 0,
+          "explanation": "12² = 12×12 = 144."
+        },
+        {
+          "question": "Combien vaut 4² ?",
+          "choices": [
+            "16",
+            "8",
+            "24",
+            "44"
+          ],
+          "correctIndex": 0,
+          "explanation": "4² = 4×4 = 16."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible par 3 ?",
+          "choices": [
+            "126",
+            "131",
+            "140",
+            "122"
+          ],
+          "correctIndex": 0,
+          "explanation": "1+2+6 = 9, divisible par 3 donc 126 l'est."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible par 9 ?",
+          "choices": [
+            "175",
+            "200",
+            "189",
+            "100"
+          ],
+          "correctIndex": 2,
+          "explanation": "1+8+9 = 18, divisible par 9 donc 189 l'est."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible par 5 ?",
+          "choices": [
+            "247",
+            "245",
+            "249",
+            "251"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un nombre divisible par 5 finit par 0 ou 5."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible par 2 ET par 5 ?",
+          "choices": [
+            "195",
+            "182",
+            "180",
+            "175"
+          ],
+          "correctIndex": 2,
+          "explanation": "Divisible par 2 ET 5 = divisible par 10 = finit par 0."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible par 9 ?",
+          "choices": [
+            "323",
+            "320",
+            "324",
+            "330"
+          ],
+          "correctIndex": 2,
+          "explanation": "3+2+4 = 9, divisible par 9."
+        },
+        {
+          "question": "Le nombre 234 est-il divisible par 3 ?",
+          "choices": [
+            "Oui, car il est pair",
+            "Non, car il finit par 4",
+            "Non, car >100",
+            "Oui, car 2+3+4=9"
+          ],
+          "correctIndex": 3,
+          "explanation": "Critère de 3 : somme des chiffres divisible par 3. 2+3+4=9 ✓."
+        },
+        {
+          "question": "Lequel de ces nombres N'EST PAS divisible par 2 ?",
+          "choices": [
+            "460",
+            "458",
+            "457",
+            "456"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un nombre divisible par 2 finit par 0,2,4,6,8."
+        },
+        {
+          "question": "Parmi 144, 145, 146, 147, lequel est divisible par 9 ?",
+          "choices": [
+            "147",
+            "144",
+            "146",
+            "145"
+          ],
+          "correctIndex": 1,
+          "explanation": "1+4+4=9 ✓."
+        },
+        {
+          "question": "Quel est le plus petit nombre supérieur à 100 divisible par 9 ?",
+          "choices": [
+            "101",
+            "105",
+            "108",
+            "109"
+          ],
+          "correctIndex": 2,
+          "explanation": "1+0+8 = 9, et c'est le 1er > 100."
+        },
+        {
+          "question": "Lequel de ces nombres est divisible à la fois par 2, 3 et 5 ?",
+          "choices": [
+            "75",
+            "100",
+            "120",
+            "150"
+          ],
+          "correctIndex": 3,
+          "explanation": "Divisible par 2,3,5 = divisible par 30. 150 = 30×5."
+        },
+        {
+          "question": "Quel est le double de 13 ?",
+          "choices": [
+            "169",
+            "23",
+            "26",
+            "15"
+          ],
+          "correctIndex": 2,
+          "explanation": "2 × 13 = 26."
+        },
+        {
+          "question": "Quel est le triple de 7 ?",
+          "choices": [
+            "14",
+            "49",
+            "10",
+            "21"
+          ],
+          "correctIndex": 3,
+          "explanation": "3 × 7 = 21."
+        },
+        {
+          "question": "Quelle est la moitié de 84 ?",
+          "choices": [
+            "82",
+            "168",
+            "42",
+            "44"
+          ],
+          "correctIndex": 2,
+          "explanation": "84 ÷ 2 = 42."
+        },
+        {
+          "question": "Quel est le successeur de 99 ?",
+          "choices": [
+            "999",
+            "98",
+            "199",
+            "100"
+          ],
+          "correctIndex": 3,
+          "explanation": "Successeur = nombre suivant : 99 + 1 = 100."
+        },
+        {
+          "question": "Quel est le prédécesseur de 100 ?",
+          "choices": [
+            "99",
+            "101",
+            "10",
+            "98"
+          ],
+          "correctIndex": 0,
+          "explanation": "Prédécesseur = nombre précédent : 100 − 1 = 99."
+        },
+        {
+          "question": "Quel est le carré de 11 ?",
+          "choices": [
+            "111",
+            "22",
+            "131",
+            "121"
+          ],
+          "correctIndex": 3,
+          "explanation": "11² = 121."
+        },
+        {
+          "question": "Quel est le carré du successeur de 5 ?",
+          "choices": [
+            "26",
+            "30",
+            "36",
+            "25"
+          ],
+          "correctIndex": 2,
+          "explanation": "Successeur de 5 = 6 ; 6² = 36."
+        },
+        {
+          "question": "Quel est le double du carré de 4 ?",
+          "choices": [
+            "64",
+            "32",
+            "16",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "4² = 16 ; double = 32."
+        },
+        {
+          "question": "Quel est le triple de la moitié de 20 ?",
+          "choices": [
+            "15",
+            "60",
+            "10",
+            "30"
+          ],
+          "correctIndex": 3,
+          "explanation": "Moitié de 20 = 10 ; triple = 30."
+        },
+        {
+          "question": "Quel est le carré du prédécesseur de 10 ?",
+          "choices": [
+            "99",
+            "100",
+            "81",
+            "121"
+          ],
+          "correctIndex": 2,
+          "explanation": "Prédécesseur de 10 = 9 ; 9² = 81."
+        },
+        {
+          "question": "Simplifier 3x + 2x.",
+          "choices": [
+            "5x²",
+            "23x",
+            "5x",
+            "6x"
+          ],
+          "correctIndex": 2,
+          "explanation": "On additionne les coefficients : 3 + 2 = 5."
+        },
+        {
+          "question": "Simplifier 7x − 4x.",
+          "choices": [
+            "3x",
+            "74x",
+            "11x",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "7x − 4x = (7−4)x = 3x."
+        },
+        {
+          "question": "Simplifier 4a − a + 2a.",
+          "choices": [
+            "3a",
+            "7a",
+            "5a",
+            "6a"
+          ],
+          "correctIndex": 2,
+          "explanation": "4a − 1a + 2a = 5a."
+        },
+        {
+          "question": "Simplifier x + x + x.",
+          "choices": [
+            "x+3",
+            "x³",
+            "3x²",
+            "3x"
+          ],
+          "correctIndex": 3,
+          "explanation": "x + x + x = 3 × x = 3x."
+        },
+        {
+          "question": "Simplifier x × x × x.",
+          "choices": [
+            "3x",
+            "x²",
+            "x+x+x",
+            "x³"
+          ],
+          "correctIndex": 3,
+          "explanation": "x × x × x = x³."
+        },
+        {
+          "question": "Simplifier 2x × 3y.",
+          "choices": [
+            "6xy",
+            "5xy",
+            "6x+y",
+            "23xy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Coefficients : 2×3=6 ; lettres : x×y=xy."
+        },
+        {
+          "question": "Simplifier 5a × 2a.",
+          "choices": [
+            "10a²",
+            "10a",
+            "7a²",
+            "7a"
+          ],
+          "correctIndex": 0,
+          "explanation": "5×2 = 10 ; a × a = a². Donc 10a²."
+        },
+        {
+          "question": "Simplifier 3x + 5 + 2x − 1.",
+          "choices": [
+            "5x − 4",
+            "10x + 4",
+            "5x + 6",
+            "5x + 4"
+          ],
+          "correctIndex": 3,
+          "explanation": "3x + 2x = 5x ; 5 − 1 = 4."
+        },
+        {
+          "question": "Simplifier 4a + 3b + 2a − b.",
+          "choices": [
+            "6ab",
+            "6a + 4b",
+            "8ab",
+            "6a + 2b"
+          ],
+          "correctIndex": 3,
+          "explanation": "4a + 2a = 6a ; 3b − b = 2b."
+        },
+        {
+          "question": "Simplifier x² + 2x² + x².",
+          "choices": [
+            "4x²",
+            "4x⁶",
+            "4x³",
+            "3x²"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 + 2 + 1 = 4, donc 4x²."
+        },
+        {
+          "question": "Simplifier 6x − 2x + x.",
+          "choices": [
+            "5x",
+            "3x",
+            "9x",
+            "8x"
+          ],
+          "correctIndex": 0,
+          "explanation": "6 − 2 + 1 = 5."
+        },
+        {
+          "question": "Simplifier 2(x + 3) + x.",
+          "choices": [
+            "2x + 3 + x",
+            "2x + 6 + x",
+            "3x + 6",
+            "3x + 3"
+          ],
+          "correctIndex": 2,
+          "explanation": "2(x+3) = 2x + 6 ; + x = 3x + 6."
+        },
+        {
+          "question": "Simplifier 3a × 2b × 4.",
+          "choices": [
+            "24a+b",
+            "24ab",
+            "9a+b",
+            "9ab"
+          ],
+          "correctIndex": 1,
+          "explanation": "3×2×4 = 24 ; a×b = ab."
+        },
+        {
+          "question": "Simplifier (2x)² .",
+          "choices": [
+            "2x²",
+            "2x",
+            "4x²",
+            "4x"
+          ],
+          "correctIndex": 2,
+          "explanation": "(2x)² = 2² × x² = 4x²."
+        },
+        {
+          "question": "Simplifier 5x − 3 − 2x − 4.",
+          "choices": [
+            "3x + 7",
+            "7x − 7",
+            "3x − 7",
+            "3x − 1"
+          ],
+          "correctIndex": 2,
+          "explanation": "5x − 2x = 3x ; −3 − 4 = −7."
+        },
+        {
+          "question": "Si x = 3, combien vaut 2x + 5 ?",
+          "choices": [
+            "10",
+            "13",
+            "11",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "2×3 + 5 = 6 + 5 = 11."
+        },
+        {
+          "question": "Si a = 2, combien vaut a² − 3 ?",
+          "choices": [
+            "7",
+            "−1",
+            "4",
+            "1"
+          ],
+          "correctIndex": 3,
+          "explanation": "2² − 3 = 4 − 3 = 1."
+        },
+        {
+          "question": "Si x = 4, combien vaut 3x − 7 ?",
+          "choices": [
+            "19",
+            "5",
+            "1",
+            "12"
+          ],
+          "correctIndex": 1,
+          "explanation": "3×4 − 7 = 12 − 7 = 5."
+        },
+        {
+          "question": "Si x = −2, combien vaut 5x ?",
+          "choices": [
+            "−10",
+            "3",
+            "10",
+            "−3"
+          ],
+          "correctIndex": 0,
+          "explanation": "5 × (−2) = −10."
+        },
+        {
+          "question": "Si x = 5, combien vaut x² + x ?",
+          "choices": [
+            "35",
+            "10",
+            "30",
+            "25"
+          ],
+          "correctIndex": 2,
+          "explanation": "25 + 5 = 30."
+        },
+        {
+          "question": "Si a = 3 et b = 4, combien vaut a + b² ?",
+          "choices": [
+            "7",
+            "19",
+            "49",
+            "14"
+          ],
+          "correctIndex": 1,
+          "explanation": "3 + 16 = 19."
+        },
+        {
+          "question": "Si x = 2, combien vaut 4x² ?",
+          "choices": [
+            "64",
+            "16",
+            "4",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "4 × 2² = 4 × 4 = 16."
+        },
+        {
+          "question": "Si x = −1, combien vaut x² + 2x + 1 ?",
+          "choices": [
+            "4",
+            "1",
+            "0",
+            "−1"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 − 2 + 1 = 0."
+        },
+        {
+          "question": "Si x = 3 et y = −2, combien vaut 2x − y ?",
+          "choices": [
+            "10",
+            "4",
+            "8",
+            "−4"
+          ],
+          "correctIndex": 2,
+          "explanation": "2×3 − (−2) = 6 + 2 = 8."
+        },
+        {
+          "question": "Si a = 4, combien vaut (a + 1)² ?",
+          "choices": [
+            "16",
+            "21",
+            "17",
+            "25"
+          ],
+          "correctIndex": 3,
+          "explanation": "(4+1)² = 5² = 25."
+        },
+        {
+          "question": "Si x = 10, combien vaut x² − 10x ?",
+          "choices": [
+            "20",
+            "10",
+            "0",
+            "100"
+          ],
+          "correctIndex": 2,
+          "explanation": "100 − 100 = 0."
+        },
+        {
+          "question": "Si x = 2, combien vaut x³ ?",
+          "choices": [
+            "6",
+            "9",
+            "8",
+            "23"
+          ],
+          "correctIndex": 2,
+          "explanation": "2³ = 2×2×2 = 8."
+        },
+        {
+          "question": "Si x = 5, combien vaut (2x − 3)/2 ?",
+          "choices": [
+            "7",
+            "13",
+            "4",
+            "3,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "(10−3)/2 = 7/2 = 3,5."
+        },
+        {
+          "question": "Si a = −3, combien vaut a² ?",
+          "choices": [
+            "6",
+            "9",
+            "−9",
+            "−6"
+          ],
+          "correctIndex": 1,
+          "explanation": "(−3)² = 9 (un carré est toujours positif)."
+        },
+        {
+          "question": "Si x = 0, combien vaut 7x² + 3x + 5 ?",
+          "choices": [
+            "5",
+            "8",
+            "0",
+            "12"
+          ],
+          "correctIndex": 0,
+          "explanation": "7×0 + 3×0 + 5 = 5."
+        },
+        {
+          "question": "Développer 3(x + 2).",
+          "choices": [
+            "3x + 6",
+            "5x",
+            "3x + 2",
+            "x + 6"
+          ],
+          "correctIndex": 0,
+          "explanation": "3×x + 3×2 = 3x + 6."
+        },
+        {
+          "question": "Développer 2(x − 5).",
+          "choices": [
+            "−3x",
+            "2x − 10",
+            "2x + 5",
+            "x − 10"
+          ],
+          "correctIndex": 1,
+          "explanation": "2x − 10."
+        },
+        {
+          "question": "Développer 5(2x + 3).",
+          "choices": [
+            "7x + 8",
+            "10x + 15",
+            "2x + 15",
+            "10x + 3"
+          ],
+          "correctIndex": 1,
+          "explanation": "5×2x + 5×3 = 10x + 15."
+        },
+        {
+          "question": "Développer −2(x + 4).",
+          "choices": [
+            "−2x + 8",
+            "2x − 8",
+            "−2x + 4",
+            "−2x − 8"
+          ],
+          "correctIndex": 3,
+          "explanation": "−2×x + (−2)×4 = −2x − 8."
+        },
+        {
+          "question": "Développer x(x + 3).",
+          "choices": [
+            "x² + 3x",
+            "x² + 3",
+            "x + 3x",
+            "3x²"
+          ],
+          "correctIndex": 0,
+          "explanation": "x×x + x×3 = x² + 3x."
+        },
+        {
+          "question": "Développer (x + 1)(x + 2).",
+          "choices": [
+            "x² + 3x + 2",
+            "2x + 3",
+            "x² + 2x + 1",
+            "x² + 2"
+          ],
+          "correctIndex": 0,
+          "explanation": "x×x + x×2 + 1×x + 1×2 = x² + 3x + 2."
+        },
+        {
+          "question": "Développer (x + 3)² .",
+          "choices": [
+            "x² + 3x + 9",
+            "x² + 6x + 3",
+            "x² + 9",
+            "x² + 6x + 9"
+          ],
+          "correctIndex": 3,
+          "explanation": "(a+b)² = a² + 2ab + b² → x² + 6x + 9."
+        },
+        {
+          "question": "Développer (x − 2)(x + 2).",
+          "choices": [
+            "x² − 4",
+            "x² − 2x − 4",
+            "x² + 4",
+            "x² − 4x"
+          ],
+          "correctIndex": 0,
+          "explanation": "Identité (a−b)(a+b) = a² − b² → x² − 4."
+        },
+        {
+          "question": "Factoriser 4x + 8.",
+          "choices": [
+            "2(2x + 4)",
+            "4(x + 8)",
+            "x(4 + 8)",
+            "4(x + 2)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Facteur commun 4 : 4x + 8 = 4(x + 2)."
+        },
+        {
+          "question": "Factoriser 6x − 9.",
+          "choices": [
+            "6(x − 9)",
+            "3(2x + 3)",
+            "(6−9)x",
+            "3(2x − 3)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Facteur commun 3 : 6x − 9 = 3(2x − 3)."
+        },
+        {
+          "question": "Factoriser 5x² + 10x.",
+          "choices": [
+            "x(5x + 10)",
+            "5(x² + 2)",
+            "5x(x + 10)",
+            "5x(x + 2)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Facteur commun 5x : 5x² + 10x = 5x(x + 2)."
+        },
+        {
+          "question": "Factoriser x² − 9.",
+          "choices": [
+            "(x − 3)(x + 3)",
+            "(x − 3)²",
+            "(x − 9)(x + 9)",
+            "x(x − 9)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Identité a² − b² = (a−b)(a+b), avec b = 3."
+        },
+        {
+          "question": "Développer 4(3x − 2).",
+          "choices": [
+            "12x − 8",
+            "12x − 2",
+            "3x − 8",
+            "7x − 6"
+          ],
+          "correctIndex": 0,
+          "explanation": "4×3x − 4×2 = 12x − 8."
+        },
+        {
+          "question": "Factoriser 7x + 14.",
+          "choices": [
+            "7(x + 14)",
+            "x(7 + 2)",
+            "7(x + 2)",
+            "(7+14)x"
+          ],
+          "correctIndex": 2,
+          "explanation": "Facteur commun 7."
+        },
+        {
+          "question": "Factoriser 3a² − 6a.",
+          "choices": [
+            "3(a² − 6)",
+            "a(3a − 6)",
+            "3a(a − 2)",
+            "3a(a − 6)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Facteur commun 3a : 3a² − 6a = 3a(a − 2)."
+        },
+        {
+          "question": "Résoudre 2x = 10.",
+          "choices": [
+            "x = 12",
+            "x = 5",
+            "x = 20",
+            "x = 8"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = 10/2 = 5."
+        },
+        {
+          "question": "Résoudre 3x = 21.",
+          "choices": [
+            "x = 18",
+            "x = 63",
+            "x = 24",
+            "x = 7"
+          ],
+          "correctIndex": 3,
+          "explanation": "x = 21/3 = 7."
+        },
+        {
+          "question": "Résoudre 5x = −15.",
+          "choices": [
+            "x = 3",
+            "x = −20",
+            "x = −10",
+            "x = −3"
+          ],
+          "correctIndex": 3,
+          "explanation": "x = −15/5 = −3."
+        },
+        {
+          "question": "Résoudre x + 7 = 12.",
+          "choices": [
+            "x = 12",
+            "x = 5",
+            "x = 7",
+            "x = 19"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = 12 − 7 = 5."
+        },
+        {
+          "question": "Résoudre x + 4 = 10.",
+          "choices": [
+            "x = 14",
+            "x = 40",
+            "x = 6",
+            "x = 4"
+          ],
+          "correctIndex": 2,
+          "explanation": "x = 10 − 4 = 6."
+        },
+        {
+          "question": "Résoudre x − 5 = 3.",
+          "choices": [
+            "x = −2",
+            "x = 8",
+            "x = 15",
+            "x = 2"
+          ],
+          "correctIndex": 1,
+          "explanation": "x = 3 + 5 = 8."
+        },
+        {
+          "question": "Résoudre 3x + 5 = 20.",
+          "choices": [
+            "x = 5",
+            "x = 6,25",
+            "x = 25/3",
+            "x = 15"
+          ],
+          "correctIndex": 0,
+          "explanation": "3x = 15 ; x = 5."
+        },
+        {
+          "question": "Résoudre 2x + 3 = 11.",
+          "choices": [
+            "x = 4",
+            "x = 14",
+            "x = 8",
+            "x = 7"
+          ],
+          "correctIndex": 0,
+          "explanation": "2x = 8 ; x = 4."
+        },
+        {
+          "question": "Résoudre 4x − 7 = 9.",
+          "choices": [
+            "x = 2",
+            "x = 16",
+            "x = 4",
+            "x = 0,5"
+          ],
+          "correctIndex": 2,
+          "explanation": "4x = 16 ; x = 4."
+        },
+        {
+          "question": "Résoudre 5x − 2 = 13.",
+          "choices": [
+            "x = 11",
+            "x = 2,2",
+            "x = 15",
+            "x = 3"
+          ],
+          "correctIndex": 3,
+          "explanation": "5x = 15 ; x = 3."
+        },
+        {
+          "question": "Résoudre 7 − 2x = 1.",
+          "choices": [
+            "x = 3",
+            "x = 4",
+            "x = 8",
+            "x = −3"
+          ],
+          "correctIndex": 0,
+          "explanation": "−2x = −6 ; x = 3."
+        },
+        {
+          "question": "Résoudre 3x + 8 = 2.",
+          "choices": [
+            "x = 10/3",
+            "x = −2",
+            "x = −10/3",
+            "x = 2"
+          ],
+          "correctIndex": 1,
+          "explanation": "3x = −6 ; x = −2."
+        },
+        {
+          "question": "Résoudre x/4 = 5.",
+          "choices": [
+            "x = 20",
+            "x = 4/5",
+            "x = 1,25",
+            "x = 9"
+          ],
+          "correctIndex": 0,
+          "explanation": "x = 5 × 4 = 20."
+        },
+        {
+          "question": "Résoudre 2x + 1 = 0.",
+          "choices": [
+            "x = 0,5",
+            "x = −1",
+            "x = 1",
+            "x = −0,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "2x = −1 ; x = −1/2 = −0,5."
+        },
+        {
+          "question": "Résoudre 6x − 11 = 7.",
+          "choices": [
+            "x = 2",
+            "x = 3",
+            "x = 18",
+            "x = −3"
+          ],
+          "correctIndex": 1,
+          "explanation": "6x = 18 ; x = 3."
+        },
+        {
+          "question": "Sur une droite graduée, le point A a pour abscisse 3 et B est 4 unités à droite de A. Abscisse de B :",
+          "choices": [
+            "−1",
+            "1",
+            "7",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "3 + 4 = 7."
+        },
+        {
+          "question": "Sur une droite, le point M a pour abscisse −2 et N est 5 unités à droite de M. Abscisse de N :",
+          "choices": [
+            "−7",
+            "−3",
+            "3",
+            "7"
+          ],
+          "correctIndex": 2,
+          "explanation": "−2 + 5 = 3."
+        },
+        {
+          "question": "Sur une droite graduée, l'abscisse de A est 5 et celle de B est −3. Distance AB :",
+          "choices": [
+            "15",
+            "8",
+            "−8",
+            "2"
+          ],
+          "correctIndex": 1,
+          "explanation": "|5 − (−3)| = 8."
+        },
+        {
+          "question": "Quel est le milieu du segment [AB] où A a pour abscisse 2 et B a pour abscisse 8 ?",
+          "choices": [
+            "6",
+            "10",
+            "3",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "(2+8)/2 = 5."
+        },
+        {
+          "question": "Quel est le milieu de [AB] où A(−4) et B(6) ?",
+          "choices": [
+            "2",
+            "5",
+            "−5",
+            "1"
+          ],
+          "correctIndex": 3,
+          "explanation": "(−4 + 6)/2 = 1."
+        },
+        {
+          "question": "Sur une droite, A est à l'abscisse 0 et B à l'abscisse 10. Où est le point C tel que AC = 3 ?",
+          "choices": [
+            "−3 seulement",
+            "3 seulement",
+            "3 ou −3",
+            "10/3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Deux points possibles : à 3 ou à −3."
+        },
+        {
+          "question": "Sur une droite graduée, le point P a pour abscisse 1,5. Quel point a pour abscisse 1,5 + 2 ?",
+          "choices": [
+            "Le point d'abscisse 3,5",
+            "Le point d'abscisse 1,7",
+            "Le point d'abscisse 3",
+            "Le point d'abscisse 0,5"
+          ],
+          "correctIndex": 0,
+          "explanation": "1,5 + 2 = 3,5."
+        },
+        {
+          "question": "Sur une droite graduée, l'origine est en O. Le point d'abscisse −2,5 est :",
+          "choices": [
+            "À 2,5 unités à droite",
+            "À gauche de O",
+            "Confondu avec O",
+            "À droite de O"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les abscisses négatives sont à gauche."
+        }
+      ]
+    },
+    {
+      "id": "auto-geometrie",
+      "title": "📐 Espace et géométrie",
+      "section": "automatismes",
+      "questions": [
+        {
+          "question": "Coordonnées du point A(3 ; 2) : quelle est l'abscisse ?",
+          "choices": [
+            "6",
+            "2",
+            "3",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans (x ; y), l'abscisse est x."
+        },
+        {
+          "question": "Le point B(−1 ; 4) a pour ordonnée :",
+          "choices": [
+            "−1",
+            "3",
+            "−4",
+            "4"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'ordonnée est y, ici 4."
+        },
+        {
+          "question": "Un point d'ordonnée nulle est sur :",
+          "choices": [
+            "La bissectrice",
+            "L'axe des ordonnées",
+            "L'axe des abscisses",
+            "L'origine"
+          ],
+          "correctIndex": 2,
+          "explanation": "y = 0 → sur l'axe (Ox)."
+        },
+        {
+          "question": "Quel point appartient à l'axe des ordonnées ?",
+          "choices": [
+            "(−3 ; 1)",
+            "(5 ; 0)",
+            "(2 ; 2)",
+            "(0 ; 5)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sur l'axe (Oy), x = 0."
+        },
+        {
+          "question": "Coordonnées du milieu de [AB] avec A(2 ; 4) et B(6 ; 8) :",
+          "choices": [
+            "(8 ; 12)",
+            "(5 ; 6)",
+            "(4 ; 6)",
+            "(3 ; 4)"
+          ],
+          "correctIndex": 2,
+          "explanation": "((2+6)/2 ; (4+8)/2) = (4 ; 6)."
+        },
+        {
+          "question": "Coordonnées du milieu de [CD] avec C(−2 ; 3) et D(4 ; −1) :",
+          "choices": [
+            "(3 ; −2)",
+            "(−1 ; 1)",
+            "(2 ; 2)",
+            "(1 ; 1)"
+          ],
+          "correctIndex": 3,
+          "explanation": "((−2+4)/2 ; (3−1)/2) = (1 ; 1)."
+        },
+        {
+          "question": "Le point (−3 ; −2) se trouve dans quel quadrant ?",
+          "choices": [
+            "Troisième",
+            "Premier",
+            "Deuxième",
+            "Quatrième"
+          ],
+          "correctIndex": 0,
+          "explanation": "x<0 et y<0 → 3e quadrant (en bas à gauche)."
+        },
+        {
+          "question": "L'origine du repère a pour coordonnées :",
+          "choices": [
+            "Aucune",
+            "(0 ; 0)",
+            "(−1 ; 0)",
+            "(1 ; 1)"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'origine O = (0 ; 0)."
+        },
+        {
+          "question": "Si A(2 ; 3) et B(5 ; 7), quelle est la distance AB ?",
+          "choices": [
+            "7",
+            "4",
+            "3",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "√((5−2)² + (7−3)²) = √(9+16) = √25 = 5."
+        },
+        {
+          "question": "Le point (4 ; 0) appartient à :",
+          "choices": [
+            "L'axe des abscisses",
+            "Le 2e quadrant",
+            "Une diagonale",
+            "L'axe des ordonnées"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ordonnée nulle → axe (Ox)."
+        },
+        {
+          "question": "Un triangle dont les trois côtés sont codés identiques est :",
+          "choices": [
+            "Quelconque",
+            "Rectangle",
+            "Isocèle",
+            "Équilatéral"
+          ],
+          "correctIndex": 3,
+          "explanation": "Trois côtés égaux = équilatéral."
+        },
+        {
+          "question": "Un triangle avec deux côtés codés identiques est :",
+          "choices": [
+            "Rectangle",
+            "Équilatéral",
+            "Isocèle",
+            "Plat"
+          ],
+          "correctIndex": 2,
+          "explanation": "Deux côtés égaux = isocèle."
+        },
+        {
+          "question": "Un quadrilatère avec 4 angles droits et 4 côtés codés identiques est :",
+          "choices": [
+            "Un losange",
+            "Un carré",
+            "Un rectangle",
+            "Un parallélogramme"
+          ],
+          "correctIndex": 1,
+          "explanation": "4 angles droits + 4 côtés égaux = carré."
+        },
+        {
+          "question": "Un quadrilatère avec 4 angles droits seulement est :",
+          "choices": [
+            "Un rectangle",
+            "Un carré",
+            "Un losange",
+            "Un parallélogramme"
+          ],
+          "correctIndex": 0,
+          "explanation": "4 angles droits sans condition sur les côtés = rectangle."
+        },
+        {
+          "question": "Un quadrilatère avec 4 côtés codés identiques est :",
+          "choices": [
+            "Un carré",
+            "Un trapèze",
+            "Un losange",
+            "Un rectangle"
+          ],
+          "correctIndex": 2,
+          "explanation": "4 côtés égaux = losange (carré si en plus angles droits)."
+        },
+        {
+          "question": "La médiatrice d'un segment [AB] est :",
+          "choices": [
+            "Le milieu du segment",
+            "Une droite passant par A et B",
+            "La droite perpendiculaire à [AB] passant par son milieu",
+            "La droite parallèle à [AB]"
+          ],
+          "correctIndex": 2,
+          "explanation": "Définition de la médiatrice."
+        },
+        {
+          "question": "Un point sur la médiatrice de [AB] est :",
+          "choices": [
+            "Sur le segment [AB]",
+            "Plus proche de A",
+            "Équidistant de A et de B",
+            "Confondu avec le milieu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Propriété de la médiatrice."
+        },
+        {
+          "question": "Un quadrilatère avec des côtés opposés parallèles est :",
+          "choices": [
+            "Un losange seulement",
+            "Un carré",
+            "Un trapèze",
+            "Un parallélogramme"
+          ],
+          "correctIndex": 3,
+          "explanation": "Côtés opposés parallèles = parallélogramme."
+        },
+        {
+          "question": "Un angle droit mesure :",
+          "choices": [
+            "90°",
+            "360°",
+            "45°",
+            "180°"
+          ],
+          "correctIndex": 0,
+          "explanation": "Angle droit = 90°."
+        },
+        {
+          "question": "Un angle plat mesure :",
+          "choices": [
+            "360°",
+            "270°",
+            "180°",
+            "90°"
+          ],
+          "correctIndex": 2,
+          "explanation": "Angle plat = 180°."
+        },
+        {
+          "question": "Un angle nul mesure :",
+          "choices": [
+            "0°",
+            "360°",
+            "180°",
+            "90°"
+          ],
+          "correctIndex": 0,
+          "explanation": "Angle nul = 0°."
+        },
+        {
+          "question": "Un angle aigu mesure :",
+          "choices": [
+            "Exactement 90°",
+            "Entre 90° et 180°",
+            "Plus de 180°",
+            "Entre 0° et 90°"
+          ],
+          "correctIndex": 3,
+          "explanation": "Aigu = inférieur à 90°."
+        },
+        {
+          "question": "Un angle obtus mesure :",
+          "choices": [
+            "Plus de 180°",
+            "Moins de 90°",
+            "Entre 90° et 180°",
+            "Exactement 90°"
+          ],
+          "correctIndex": 2,
+          "explanation": "Obtus = entre 90° et 180°."
+        },
+        {
+          "question": "Deux angles supplémentaires ont pour somme :",
+          "choices": [
+            "360°",
+            "180°",
+            "90°",
+            "Ça dépend"
+          ],
+          "correctIndex": 1,
+          "explanation": "Supplémentaires : somme = 180°."
+        },
+        {
+          "question": "Deux angles complémentaires ont pour somme :",
+          "choices": [
+            "180°",
+            "360°",
+            "0°",
+            "90°"
+          ],
+          "correctIndex": 3,
+          "explanation": "Complémentaires : somme = 90°."
+        },
+        {
+          "question": "Deux angles opposés par le sommet sont :",
+          "choices": [
+            "Supplémentaires",
+            "Complémentaires",
+            "Égaux",
+            "Toujours droits"
+          ],
+          "correctIndex": 2,
+          "explanation": "Propriété fondamentale : ils sont égaux."
+        },
+        {
+          "question": "Si un angle mesure 70°, son supplémentaire mesure :",
+          "choices": [
+            "110°",
+            "100°",
+            "290°",
+            "20°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 70° = 110°."
+        },
+        {
+          "question": "Si un angle mesure 35°, son complémentaire mesure :",
+          "choices": [
+            "325°",
+            "55°",
+            "65°",
+            "145°"
+          ],
+          "correctIndex": 1,
+          "explanation": "90° − 35° = 55°."
+        },
+        {
+          "question": "Si deux angles adjacents valent 40° et 50°, leur somme :",
+          "choices": [
+            "180°",
+            "90°",
+            "100°",
+            "0°"
+          ],
+          "correctIndex": 1,
+          "explanation": "40 + 50 = 90°, ce sont des angles complémentaires."
+        },
+        {
+          "question": "Un angle de 100° est :",
+          "choices": [
+            "Aigu",
+            "Droit",
+            "Plat",
+            "Obtus"
+          ],
+          "correctIndex": 3,
+          "explanation": "Entre 90° et 180° → obtus."
+        },
+        {
+          "question": "Dans un triangle, la somme des trois angles vaut :",
+          "choices": [
+            "360°",
+            "90°",
+            "180°",
+            "270°"
+          ],
+          "correctIndex": 2,
+          "explanation": "Propriété fondamentale."
+        },
+        {
+          "question": "Un triangle a deux angles de 40° et 60°. Quel est le 3e angle ?",
+          "choices": [
+            "140°",
+            "80°",
+            "90°",
+            "70°"
+          ],
+          "correctIndex": 1,
+          "explanation": "180° − 40° − 60° = 80°."
+        },
+        {
+          "question": "Un triangle a deux angles de 50° et 70°. Quel est le 3e angle ?",
+          "choices": [
+            "60°",
+            "130°",
+            "70°",
+            "50°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 50° − 70° = 60°."
+        },
+        {
+          "question": "Un triangle a deux angles de 30° et 90°. Quel est le 3e angle ?",
+          "choices": [
+            "70°",
+            "150°",
+            "50°",
+            "60°"
+          ],
+          "correctIndex": 3,
+          "explanation": "180° − 30° − 90° = 60°."
+        },
+        {
+          "question": "Un triangle a deux angles de 20° et 100°. Quel est le 3e angle ?",
+          "choices": [
+            "60°",
+            "50°",
+            "160°",
+            "70°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 20° − 100° = 60°."
+        },
+        {
+          "question": "Un triangle a deux angles de 45° et 45°. Quel est le 3e angle ?",
+          "choices": [
+            "90°",
+            "135°",
+            "80°",
+            "100°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 45° − 45° = 90°."
+        },
+        {
+          "question": "Un triangle a deux angles de 35° et 75°. Quel est le 3e angle ?",
+          "choices": [
+            "70°",
+            "145°",
+            "80°",
+            "60°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 35° − 75° = 70°."
+        },
+        {
+          "question": "Un triangle a deux angles de 110° et 30°. Quel est le 3e angle ?",
+          "choices": [
+            "30°",
+            "50°",
+            "70°",
+            "40°"
+          ],
+          "correctIndex": 3,
+          "explanation": "180° − 110° − 30° = 40°."
+        },
+        {
+          "question": "Un triangle a deux angles de 25° et 35°. Quel est le 3e angle ?",
+          "choices": [
+            "155°",
+            "110°",
+            "120°",
+            "130°"
+          ],
+          "correctIndex": 2,
+          "explanation": "180° − 25° − 35° = 120°."
+        },
+        {
+          "question": "Un triangle a deux angles de 15° et 85°. Quel est le 3e angle ?",
+          "choices": [
+            "80°",
+            "70°",
+            "165°",
+            "90°"
+          ],
+          "correctIndex": 0,
+          "explanation": "180° − 15° − 85° = 80°."
+        },
+        {
+          "question": "Dans un triangle équilatéral, chaque angle mesure :",
+          "choices": [
+            "30°",
+            "60°",
+            "90°",
+            "45°"
+          ],
+          "correctIndex": 1,
+          "explanation": "180 ÷ 3 = 60°."
+        },
+        {
+          "question": "Dans un triangle rectangle isocèle, les deux angles aigus mesurent :",
+          "choices": [
+            "90° chacun",
+            "45° chacun",
+            "60° chacun",
+            "30° et 60°"
+          ],
+          "correctIndex": 1,
+          "explanation": "180 − 90 = 90 ; 90/2 = 45° chacun."
+        },
+        {
+          "question": "Combien fait 2,5 km en mètres ?",
+          "choices": [
+            "25 m",
+            "2 500 m",
+            "250 m",
+            "25 000 m"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 km = 1 000 m."
+        },
+        {
+          "question": "Combien fait 3 m en cm ?",
+          "choices": [
+            "30 cm",
+            "0,3 cm",
+            "300 cm",
+            "3 000 cm"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 m = 100 cm."
+        },
+        {
+          "question": "Combien fait 450 cm en m ?",
+          "choices": [
+            "4,5 m",
+            "0,45 m",
+            "4 500 m",
+            "45 m"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 m = 100 cm."
+        },
+        {
+          "question": "Combien fait 0,5 km en m ?",
+          "choices": [
+            "0,5 m",
+            "5 000 m",
+            "500 m",
+            "50 m"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,5 × 1 000 = 500."
+        },
+        {
+          "question": "Combien fait 1 200 mm en cm ?",
+          "choices": [
+            "1,2 cm",
+            "120 cm",
+            "12 000 cm",
+            "12 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 cm = 10 mm."
+        },
+        {
+          "question": "Combien fait 2,5 L en mL ?",
+          "choices": [
+            "25 mL",
+            "2 500 mL",
+            "25 000 mL",
+            "250 mL"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 L = 1 000 mL."
+        },
+        {
+          "question": "Combien fait 1,5 kg en g ?",
+          "choices": [
+            "1 500 g",
+            "150 g",
+            "15 g",
+            "15 000 g"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 kg = 1 000 g."
+        },
+        {
+          "question": "Combien fait 3 m² en cm² ?",
+          "choices": [
+            "3 000 cm²",
+            "300 cm²",
+            "30 000 cm²",
+            "30 cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 m² = 10 000 cm²."
+        },
+        {
+          "question": "Combien fait 5 000 cm² en m² ?",
+          "choices": [
+            "5 m²",
+            "0,5 m²",
+            "50 m²",
+            "0,05 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 m² = 10 000 cm²."
+        },
+        {
+          "question": "Combien fait 2 m³ en dm³ ?",
+          "choices": [
+            "20 dm³",
+            "20 000 dm³",
+            "2 000 dm³",
+            "200 dm³"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 m³ = 1 000 dm³."
+        },
+        {
+          "question": "Combien fait 500 dm³ en m³ ?",
+          "choices": [
+            "0,05 m³",
+            "50 m³",
+            "0,5 m³",
+            "5 m³"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 m³ = 1 000 dm³."
+        },
+        {
+          "question": "Combien fait 1 dm³ vaut combien de L ? ?",
+          "choices": [
+            "1 L",
+            "0,1 L",
+            "1 000 L",
+            "10 L"
+          ],
+          "correctIndex": 0,
+          "explanation": "Équivalence : 1 dm³ = 1 L."
+        },
+        {
+          "question": "Combien fait 1 m³ vaut combien de L ? ?",
+          "choices": [
+            "10 L",
+            "10 000 L",
+            "100 L",
+            "1 000 L"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 m³ = 1 000 dm³ = 1 000 L."
+        },
+        {
+          "question": "Combien fait 2 h 30 min en minutes ?",
+          "choices": [
+            "130 min",
+            "230 min",
+            "150 min",
+            "250 min"
+          ],
+          "correctIndex": 2,
+          "explanation": "2×60 + 30 = 150 min."
+        },
+        {
+          "question": "Combien fait 180 min en heures ?",
+          "choices": [
+            "3 h",
+            "1,8 h",
+            "18 h",
+            "180 h"
+          ],
+          "correctIndex": 0,
+          "explanation": "180 ÷ 60 = 3."
+        },
+        {
+          "question": "Combien fait 90 s en min ?",
+          "choices": [
+            "1,5 min",
+            "1,3 min",
+            "9 min",
+            "90 min"
+          ],
+          "correctIndex": 0,
+          "explanation": "90 ÷ 60 = 1,5."
+        },
+        {
+          "question": "Combien fait 1 jour en heures ?",
+          "choices": [
+            "60 h",
+            "24 h",
+            "100 h",
+            "12 h"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 jour = 24 h."
+        },
+        {
+          "question": "Combien fait 2,5 cL en mL ?",
+          "choices": [
+            "25 mL",
+            "250 mL",
+            "2,5 mL",
+            "0,25 mL"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 cL = 10 mL."
+        },
+        {
+          "question": "Combien fait 3 dL en L ?",
+          "choices": [
+            "300 L",
+            "30 L",
+            "0,3 L",
+            "3 L"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 L = 10 dL."
+        },
+        {
+          "question": "Combien fait 750 g en kg ?",
+          "choices": [
+            "0,75 kg",
+            "75 kg",
+            "7,5 kg",
+            "0,075 kg"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 kg = 1 000 g."
+        },
+        {
+          "question": "Un solide avec 6 faces carrées identiques est :",
+          "choices": [
+            "Une pyramide",
+            "Un cube",
+            "Un prisme",
+            "Un pavé droit"
+          ],
+          "correctIndex": 1,
+          "explanation": "6 faces carrées = cube."
+        },
+        {
+          "question": "Un solide avec 6 faces rectangulaires est :",
+          "choices": [
+            "Un prisme triangulaire",
+            "Un pavé droit",
+            "Un cylindre",
+            "Un cube"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pavé droit : 6 faces rectangulaires."
+        },
+        {
+          "question": "Un solide avec 2 disques et une face latérale courbe :",
+          "choices": [
+            "Un prisme",
+            "Une sphère",
+            "Un cylindre",
+            "Un cône"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cylindre : 2 disques + face latérale."
+        },
+        {
+          "question": "Un solide avec une base carrée et 4 faces triangulaires :",
+          "choices": [
+            "Un cône",
+            "Un prisme droit",
+            "Une pyramide à base carrée",
+            "Un cube"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pyramide : base polygonale + faces triangulaires."
+        },
+        {
+          "question": "Un solide avec un disque et un sommet :",
+          "choices": [
+            "Une sphère",
+            "Une pyramide",
+            "Un cône",
+            "Un cylindre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cône : 1 disque + 1 sommet + face latérale courbe."
+        },
+        {
+          "question": "Un prisme droit à base triangulaire a combien de faces ?",
+          "choices": [
+            "6",
+            "4",
+            "3",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "2 triangles + 3 rectangles = 5."
+        },
+        {
+          "question": "Combien d'arêtes a un cube ?",
+          "choices": [
+            "8",
+            "24",
+            "12",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un cube : 12 arêtes, 8 sommets, 6 faces."
+        },
+        {
+          "question": "Combien de sommets a une pyramide à base carrée ?",
+          "choices": [
+            "8",
+            "5",
+            "6",
+            "4"
+          ],
+          "correctIndex": 1,
+          "explanation": "4 sommets de base + 1 sommet = 5."
+        },
+        {
+          "question": "Périmètre d'un carré de côté 7 cm :",
+          "choices": [
+            "49 cm",
+            "14 cm",
+            "21 cm",
+            "28 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "P = 4 × 7 = 28 cm."
+        },
+        {
+          "question": "Périmètre d'un rectangle de longueur 8 cm et largeur 5 cm :",
+          "choices": [
+            "26 cm",
+            "30 cm",
+            "40 cm",
+            "13 cm"
+          ],
+          "correctIndex": 0,
+          "explanation": "P = 2×(8+5) = 26 cm."
+        },
+        {
+          "question": "Périmètre d'un triangle équilatéral de côté 6 cm :",
+          "choices": [
+            "36 cm",
+            "18 cm",
+            "24 cm",
+            "12 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "P = 3 × 6 = 18 cm."
+        },
+        {
+          "question": "Périmètre d'un cercle de rayon 5 cm (en fonction de π) :",
+          "choices": [
+            "5π cm",
+            "2π × 5²",
+            "25π cm",
+            "10π cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "P = 2πr = 10π."
+        },
+        {
+          "question": "Périmètre d'un cercle de diamètre 8 cm :",
+          "choices": [
+            "64π cm",
+            "4π cm",
+            "16π cm",
+            "8π cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "P = π × d = 8π."
+        },
+        {
+          "question": "Périmètre d'un rectangle 12 cm × 7 cm :",
+          "choices": [
+            "19 cm",
+            "38 cm",
+            "42 cm",
+            "84 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "2(12+7) = 38 cm."
+        },
+        {
+          "question": "Périmètre d'un losange de côté 9 cm :",
+          "choices": [
+            "18 cm",
+            "36 cm",
+            "81 cm",
+            "27 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "4 × 9 = 36 cm."
+        },
+        {
+          "question": "Périmètre d'un cercle de rayon 7 cm (valeur approchée, π≈3,14) :",
+          "choices": [
+            "≈ 154 cm",
+            "≈ 14 cm",
+            "≈ 22 cm",
+            "≈ 44 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "2 × 3,14 × 7 ≈ 43,96 ≈ 44."
+        },
+        {
+          "question": "Périmètre d'un pentagone régulier de côté 4 cm :",
+          "choices": [
+            "25 cm",
+            "20 cm",
+            "24 cm",
+            "16 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "5 × 4 = 20 cm."
+        },
+        {
+          "question": "Un carré a un périmètre de 32 cm. Quel est son côté ?",
+          "choices": [
+            "16 cm",
+            "8 cm",
+            "4 cm",
+            "128 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "32 ÷ 4 = 8."
+        },
+        {
+          "question": "Aire d'un rectangle 8 cm × 5 cm :",
+          "choices": [
+            "80 cm²",
+            "26 cm²",
+            "13 cm²",
+            "40 cm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "L × l = 40."
+        },
+        {
+          "question": "Aire d'un carré de côté 6 cm :",
+          "choices": [
+            "24 cm²",
+            "12 cm²",
+            "30 cm²",
+            "36 cm²"
+          ],
+          "correctIndex": 3,
+          "explanation": "6² = 36."
+        },
+        {
+          "question": "Aire d'un triangle de base 10 cm et hauteur 4 cm :",
+          "choices": [
+            "40 cm²",
+            "20 cm²",
+            "7 cm²",
+            "14 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "(b × h)/2 = 40/2 = 20."
+        },
+        {
+          "question": "Aire d'un disque de rayon 3 cm (en fonction de π) :",
+          "choices": [
+            "9π cm²",
+            "3π cm²",
+            "6π cm²",
+            "18π cm²"
+          ],
+          "correctIndex": 0,
+          "explanation": "πr² = 9π."
+        },
+        {
+          "question": "Aire d'un disque de rayon 5 cm (valeur exacte) :",
+          "choices": [
+            "10π cm²",
+            "100π cm²",
+            "25π cm²",
+            "5π cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "πr² = 25π."
+        },
+        {
+          "question": "Aire d'un rectangle 12 m × 7 m :",
+          "choices": [
+            "19 m²",
+            "84 m²",
+            "38 m²",
+            "100 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "12 × 7 = 84."
+        },
+        {
+          "question": "Aire d'un triangle rectangle de cathètes 6 cm et 8 cm :",
+          "choices": [
+            "14 cm²",
+            "24 cm²",
+            "48 cm²",
+            "10 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "(6×8)/2 = 24."
+        },
+        {
+          "question": "Un carré a une aire de 49 cm². Son côté mesure :",
+          "choices": [
+            "14 cm",
+            "49 cm",
+            "12,25 cm",
+            "7 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "√49 = 7."
+        },
+        {
+          "question": "Aire d'un disque de diamètre 4 cm :",
+          "choices": [
+            "16π cm²",
+            "2π cm²",
+            "4π cm²",
+            "8π cm²"
+          ],
+          "correctIndex": 2,
+          "explanation": "rayon = 2 ; π×2² = 4π."
+        },
+        {
+          "question": "Un rectangle a une aire de 60 cm² et une longueur de 12 cm. Sa largeur :",
+          "choices": [
+            "72 cm",
+            "10 cm",
+            "48 cm",
+            "5 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "60 ÷ 12 = 5."
+        },
+        {
+          "question": "Aire d'un triangle de base 14 m et hauteur 6 m :",
+          "choices": [
+            "168 m²",
+            "84 m²",
+            "42 m²",
+            "20 m²"
+          ],
+          "correctIndex": 2,
+          "explanation": "(14×6)/2 = 42."
+        },
+        {
+          "question": "Aire d'un parallélogramme de base 7 cm et hauteur 4 cm :",
+          "choices": [
+            "14 cm²",
+            "28 cm²",
+            "11 cm²",
+            "22 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aire = b × h = 28."
+        },
+        {
+          "question": "Un cercle a pour aire 16π cm². Son rayon est :",
+          "choices": [
+            "8 cm",
+            "4 cm",
+            "2 cm",
+            "16 cm"
+          ],
+          "correctIndex": 1,
+          "explanation": "πr² = 16π → r² = 16 → r = 4."
+        },
+        {
+          "question": "Aire d'un trapèze (B=10, b=6, h=4) :",
+          "choices": [
+            "16 cm²",
+            "32 cm²",
+            "20 cm²",
+            "60 cm²"
+          ],
+          "correctIndex": 1,
+          "explanation": "(B+b)×h/2 = 16×4/2 = 32."
+        },
+        {
+          "question": "Un terrain rectangulaire 25 m × 40 m. Son aire :",
+          "choices": [
+            "130 m²",
+            "1 000 m²",
+            "100 m²",
+            "65 m²"
+          ],
+          "correctIndex": 1,
+          "explanation": "25 × 40 = 1 000."
+        },
+        {
+          "question": "Volume d'un cube d'arête 4 cm :",
+          "choices": [
+            "64 cm³",
+            "12 cm³",
+            "48 cm³",
+            "16 cm³"
+          ],
+          "correctIndex": 0,
+          "explanation": "4³ = 64."
+        },
+        {
+          "question": "Volume d'un cube d'arête 5 cm :",
+          "choices": [
+            "125 cm³",
+            "25 cm³",
+            "15 cm³",
+            "75 cm³"
+          ],
+          "correctIndex": 0,
+          "explanation": "5³ = 125."
+        },
+        {
+          "question": "Volume d'un pavé droit 3 × 4 × 5 cm :",
+          "choices": [
+            "12 cm³",
+            "47 cm³",
+            "100 cm³",
+            "60 cm³"
+          ],
+          "correctIndex": 3,
+          "explanation": "L×l×h = 60."
+        },
+        {
+          "question": "Volume d'un pavé 10 × 5 × 2 cm :",
+          "choices": [
+            "100 cm³",
+            "200 cm³",
+            "50 cm³",
+            "17 cm³"
+          ],
+          "correctIndex": 0,
+          "explanation": "10×5×2 = 100."
+        },
+        {
+          "question": "Volume d'un cylindre de rayon 2 et hauteur 5 (en π) :",
+          "choices": [
+            "20π",
+            "4π",
+            "10π",
+            "100π"
+          ],
+          "correctIndex": 0,
+          "explanation": "V = πr²h = π×4×5 = 20π."
+        },
+        {
+          "question": "Volume d'un cylindre de rayon 3 et hauteur 10 :",
+          "choices": [
+            "90π",
+            "300π",
+            "30π",
+            "60π"
+          ],
+          "correctIndex": 0,
+          "explanation": "V = π×9×10 = 90π."
+        },
+        {
+          "question": "Volume d'un prisme droit dont la base a une aire de 12 cm² et hauteur 5 cm :",
+          "choices": [
+            "30 cm³",
+            "60 cm³",
+            "120 cm³",
+            "17 cm³"
+          ],
+          "correctIndex": 1,
+          "explanation": "V = aire base × hauteur."
+        },
+        {
+          "question": "Volume d'un cube de 10 cm d'arête :",
+          "choices": [
+            "100 cm³",
+            "10 000 cm³",
+            "1 000 cm³",
+            "30 cm³"
+          ],
+          "correctIndex": 2,
+          "explanation": "10³ = 1 000."
+        },
+        {
+          "question": "Un pavé a un volume de 48 cm³ et une base de 12 cm². Sa hauteur :",
+          "choices": [
+            "4 cm",
+            "60 cm",
+            "6 cm",
+            "36 cm"
+          ],
+          "correctIndex": 0,
+          "explanation": "48 ÷ 12 = 4."
+        },
+        {
+          "question": "Volume d'un cube d'arête 2 m exprimé en m³ :",
+          "choices": [
+            "6 m³",
+            "8 m³",
+            "2 m³",
+            "4 m³"
+          ],
+          "correctIndex": 1,
+          "explanation": "2³ = 8."
+        },
+        {
+          "question": "Volume d'un cube d'arête 1 m en L :",
+          "choices": [
+            "10 000 L",
+            "10 L",
+            "1 000 L",
+            "100 L"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 m³ = 1 000 L."
+        },
+        {
+          "question": "Une piscine 8 m × 4 m × 2 m a un volume de :",
+          "choices": [
+            "14 m³",
+            "64 m³",
+            "32 m³",
+            "48 m³"
+          ],
+          "correctIndex": 1,
+          "explanation": "8×4×2 = 64."
+        },
+        {
+          "question": "Volume d'un cylindre de rayon 5 et hauteur 4 :",
+          "choices": [
+            "200π",
+            "100π",
+            "40π",
+            "20π"
+          ],
+          "correctIndex": 1,
+          "explanation": "π×25×4 = 100π."
+        },
+        {
+          "question": "Un cube a un volume de 27 cm³. Son arête mesure :",
+          "choices": [
+            "13,5 cm",
+            "9 cm",
+            "27 cm",
+            "3 cm"
+          ],
+          "correctIndex": 3,
+          "explanation": "Arête = ∛27 = 3."
+        },
+        {
+          "question": "Volume d'un pavé 2 m × 3 m × 4 m en L :",
+          "choices": [
+            "24 L",
+            "24 000 L",
+            "2 400 L",
+            "240 L"
+          ],
+          "correctIndex": 1,
+          "explanation": "Volume = 24 m³ = 24 000 L (1 m³ = 1 000 L)."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 3 et 4. Longueur de l'hypoténuse :",
+          "choices": [
+            "7",
+            "6",
+            "4",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "√(3² + 4²) = √25 = 5."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 6 et 8. Longueur de l'hypoténuse :",
+          "choices": [
+            "14",
+            "10",
+            "9",
+            "11"
+          ],
+          "correctIndex": 1,
+          "explanation": "√(6² + 8²) = √100 = 10."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 5 et 12. Longueur de l'hypoténuse :",
+          "choices": [
+            "14",
+            "13",
+            "12",
+            "17"
+          ],
+          "correctIndex": 1,
+          "explanation": "√(5² + 12²) = √169 = 13."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 8 et 15. Longueur de l'hypoténuse :",
+          "choices": [
+            "17",
+            "16",
+            "23",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "√(8² + 15²) = √289 = 17."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 9 et 12. Longueur de l'hypoténuse :",
+          "choices": [
+            "21",
+            "16",
+            "15",
+            "14"
+          ],
+          "correctIndex": 2,
+          "explanation": "√(9² + 12²) = √225 = 15."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 7 et 24. Longueur de l'hypoténuse :",
+          "choices": [
+            "24",
+            "25",
+            "26",
+            "31"
+          ],
+          "correctIndex": 1,
+          "explanation": "√(7² + 24²) = √625 = 25."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 20 et 21. Longueur de l'hypoténuse :",
+          "choices": [
+            "41",
+            "30",
+            "28",
+            "29"
+          ],
+          "correctIndex": 3,
+          "explanation": "√(20² + 21²) = √841 = 29."
+        },
+        {
+          "question": "Le théorème de Pythagore s'applique à :",
+          "choices": [
+            "Tout triangle",
+            "Un triangle équilatéral",
+            "Un triangle rectangle",
+            "Un triangle isocèle"
+          ],
+          "correctIndex": 2,
+          "explanation": "Uniquement aux triangles rectangles."
+        },
+        {
+          "question": "Dans un triangle rectangle, l'hypoténuse est :",
+          "choices": [
+            "Le côté adjacent à l'angle droit",
+            "Le côté le plus court",
+            "Le côté opposé à l'angle droit",
+            "L'un des cathètes"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'hypoténuse est opposée à l'angle droit (et c'est le plus long côté)."
+        },
+        {
+          "question": "Triangle rectangle, hypoténuse 13, un cathète 5. L'autre cathète :",
+          "choices": [
+            "12",
+            "18",
+            "144",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "13² − 5² = 169 − 25 = 144 ; √144 = 12."
+        },
+        {
+          "question": "Un triangle a pour côtés 5, 12, 13. Est-il rectangle ?",
+          "choices": [
+            "Oui (5²+12² = 13²)",
+            "Seulement si isocèle",
+            "Non",
+            "Impossible à dire"
+          ],
+          "correctIndex": 0,
+          "explanation": "25 + 144 = 169 = 13². Donc oui."
+        },
+        {
+          "question": "Un triangle a pour côtés 6, 8, 11. Est-il rectangle ?",
+          "choices": [
+            "Toujours rectangle",
+            "Non (6²+8² ≠ 11²)",
+            "Oui",
+            "Seulement si isocèle"
+          ],
+          "correctIndex": 1,
+          "explanation": "36 + 64 = 100 ≠ 121."
+        },
+        {
+          "question": "Hypoténuse d'un triangle rectangle isocèle de cathète 1 :",
+          "choices": [
+            "√3",
+            "√2",
+            "1",
+            "2"
+          ],
+          "correctIndex": 1,
+          "explanation": "1² + 1² = 2 → √2."
+        },
+        {
+          "question": "Triangle rectangle de cathètes 1 et √3, hypoténuse :",
+          "choices": [
+            "√4 = 2",
+            "√2",
+            "4",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 + 3 = 4 → √4 = 2."
+        },
+        {
+          "question": "Une échelle de 5 m est posée contre un mur, le pied à 3 m du mur. Hauteur atteinte :",
+          "choices": [
+            "2 m",
+            "4 m",
+            "√34 m",
+            "8 m"
+          ],
+          "correctIndex": 1,
+          "explanation": "5² − 3² = 25 − 9 = 16 ; √16 = 4."
+        },
+        {
+          "question": "Le théorème de Thalès s'applique dans la configuration :",
+          "choices": [
+            "Triangle rectangle uniquement",
+            "Cercle",
+            "Tout triangle",
+            "Triangles emboîtés avec parallèles"
+          ],
+          "correctIndex": 3,
+          "explanation": "Configuration classique : deux droites sécantes coupées par deux parallèles."
+        },
+        {
+          "question": "Pour appliquer Thalès, il faut que :",
+          "choices": [
+            "Les côtés soient égaux",
+            "Il y ait un angle droit",
+            "Le triangle soit rectangle",
+            "Deux droites soient parallèles"
+          ],
+          "correctIndex": 3,
+          "explanation": "Condition fondamentale : parallélisme."
+        },
+        {
+          "question": "Thalès donne une égalité de :",
+          "choices": [
+            "Aires",
+            "Rapports de longueurs",
+            "Angles",
+            "Sommes de longueurs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le théorème porte sur les rapports proportionnels."
+        },
+        {
+          "question": "Si AM/AB = 1/3 et AM = 2, AB = ?",
+          "choices": [
+            "1",
+            "6",
+            "9",
+            "5"
+          ],
+          "correctIndex": 1,
+          "explanation": "AB = AM × 3 = 6."
+        },
+        {
+          "question": "Si AM/AB = AN/AC = 2/5 et AC = 15, AN = ?",
+          "choices": [
+            "5",
+            "6",
+            "10",
+            "3"
+          ],
+          "correctIndex": 1,
+          "explanation": "AN = 15 × 2/5 = 6."
+        },
+        {
+          "question": "Dans la config de Thalès, AM=3, AB=9, MN=4, BC=?",
+          "choices": [
+            "1,33",
+            "6",
+            "13",
+            "12"
+          ],
+          "correctIndex": 3,
+          "explanation": "MN/BC = AM/AB = 1/3 → BC = 4×3 = 12."
+        },
+        {
+          "question": "AM=2, AB=8, AN=3, alors AC=?",
+          "choices": [
+            "12",
+            "5",
+            "16",
+            "6"
+          ],
+          "correctIndex": 0,
+          "explanation": "AN/AC = AM/AB = 1/4 → AC = 12."
+        },
+        {
+          "question": "Si dans une config Thalès, deux droites ne sont PAS parallèles, on peut :",
+          "choices": [
+            "Toujours appliquer",
+            "Pas appliquer Thalès",
+            "Conclure que c'est rectangle",
+            "Appliquer Pythagore"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sans le parallélisme, Thalès est invalide."
+        },
+        {
+          "question": "Réciproque de Thalès : si AM/AB = AN/AC et points alignés, alors :",
+          "choices": [
+            "(MN) parallèle à (BC)",
+            "Aucune conclusion",
+            "Triangle rectangle",
+            "Triangle isocèle"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est l'énoncé de la réciproque."
+        },
+        {
+          "question": "AM=5, AB=15, MN=6, alors BC=?",
+          "choices": [
+            "20",
+            "18",
+            "12",
+            "2"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rapport = 1/3 → BC = 6×3 = 18."
+        },
+        {
+          "question": "Dans un triangle rectangle, cos(angle) = ?",
+          "choices": [
+            "opposé / adjacent",
+            "côté opposé / hypoténuse",
+            "côté adjacent / hypoténuse",
+            "hypoténuse / adjacent"
+          ],
+          "correctIndex": 2,
+          "explanation": "Définition du cosinus."
+        },
+        {
+          "question": "Triangle rectangle en A, angle B = 60°, hypoténuse 10. Côté adjacent à B :",
+          "choices": [
+            "8,66",
+            "5",
+            "10",
+            "√3"
+          ],
+          "correctIndex": 1,
+          "explanation": "cos(60°) = 0,5 → adj = 0,5 × 10 = 5."
+        },
+        {
+          "question": "cos(0°) = ?",
+          "choices": [
+            "0,5",
+            "1",
+            "0",
+            "−1"
+          ],
+          "correctIndex": 1,
+          "explanation": "Valeur de référence."
+        },
+        {
+          "question": "cos(90°) = ?",
+          "choices": [
+            "1",
+            "0,5",
+            "0",
+            "−1"
+          ],
+          "correctIndex": 2,
+          "explanation": "Valeur de référence."
+        },
+        {
+          "question": "Si cos(angle) = 0,8 et hypoténuse = 5, le côté adjacent vaut :",
+          "choices": [
+            "6,25",
+            "4",
+            "0,8",
+            "5"
+          ],
+          "correctIndex": 1,
+          "explanation": "adj = 5 × 0,8 = 4."
+        },
+        {
+          "question": "Une symétrie axiale conserve :",
+          "choices": [
+            "Aucune mesure",
+            "Les longueurs et les angles",
+            "Seulement l'orientation",
+            "Seulement les longueurs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toutes les distances et angles sont conservés."
+        },
+        {
+          "question": "Une symétrie centrale est équivalente à :",
+          "choices": [
+            "Une symétrie axiale",
+            "Une homothétie de rapport 2",
+            "Une translation",
+            "Une rotation de 180°"
+          ],
+          "correctIndex": 3,
+          "explanation": "La symétrie centrale = rotation de 180° autour du centre."
+        },
+        {
+          "question": "Une translation déplace une figure :",
+          "choices": [
+            "En la grossissant",
+            "Sans la déformer ni la tourner",
+            "En la retournant",
+            "En la rétrécissant"
+          ],
+          "correctIndex": 1,
+          "explanation": "La translation est une isométrie : pas de rotation ni déformation."
+        },
+        {
+          "question": "Le symétrique d'un point A par rapport à un point O est tel que :",
+          "choices": [
+            "O est confondu avec A",
+            "Le symétrique est sur la médiatrice",
+            "O est le milieu de [A;symétrique]",
+            "A et son symétrique sont confondus"
+          ],
+          "correctIndex": 2,
+          "explanation": "Définition de la symétrie centrale."
+        },
+        {
+          "question": "Le symétrique de A(3 ; 2) par rapport à O(0 ; 0) est :",
+          "choices": [
+            "(3 ; −2)",
+            "(−3 ; −2)",
+            "(2 ; 3)",
+            "(−3 ; 2)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Symétrie centrale par O : on prend les opposés."
+        }
+      ]
+    },
+    {
+      "id": "auto-proportionnalite",
+      "title": "📊 Proportionnalité & fonctions",
+      "section": "automatismes",
+      "questions": [
+        {
+          "question": "1 kg de pommes coûte 2 €. Combien coûtent 3 kg ?",
+          "choices": [
+            "8 €",
+            "2 €",
+            "5 €",
+            "6 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "Situation proportionnelle : 2 × 3 = 6."
+        },
+        {
+          "question": "L'âge d'une personne et sa taille sont-ils proportionnels ?",
+          "choices": [
+            "Non",
+            "Oui en moyenne",
+            "Oui toujours",
+            "Oui pour les enfants"
+          ],
+          "correctIndex": 0,
+          "explanation": "La croissance n'est pas linéaire."
+        },
+        {
+          "question": "Si 5 stylos coûtent 7,50 €, le prix unitaire :",
+          "choices": [
+            "2,5 €",
+            "0,75 €",
+            "1,50 €",
+            "7,5 €"
+          ],
+          "correctIndex": 2,
+          "explanation": "7,50 ÷ 5 = 1,50."
+        },
+        {
+          "question": "Le périmètre d'un carré et son côté sont :",
+          "choices": [
+            "Égaux",
+            "Pas proportionnels",
+            "Inversement proportionnels",
+            "Proportionnels"
+          ],
+          "correctIndex": 3,
+          "explanation": "P = 4 × c : coefficient 4 = proportionnel."
+        },
+        {
+          "question": "L'aire d'un carré et son côté sont :",
+          "choices": [
+            "Égaux",
+            "Inversement proportionnels",
+            "Pas proportionnels",
+            "Proportionnels"
+          ],
+          "correctIndex": 2,
+          "explanation": "A = c² : carré, pas linéaire."
+        },
+        {
+          "question": "Un coureur parcourt 10 km en 1 h à vitesse constante. En 3 h il fait :",
+          "choices": [
+            "10 km",
+            "20 km",
+            "30 km",
+            "13 km"
+          ],
+          "correctIndex": 2,
+          "explanation": "Vitesse constante → proportionnel."
+        },
+        {
+          "question": "Si 4 cahiers coûtent 6 €, combien coûtent 10 cahiers ?",
+          "choices": [
+            "10 €",
+            "24 €",
+            "12 €",
+            "15 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "Prix unitaire = 1,50 € ; 10 × 1,50 = 15 €."
+        },
+        {
+          "question": "Si 6 ouvriers font un travail en 10 h, est-ce proportionnel ?",
+          "choices": [
+            "Pas de relation",
+            "Oui, directement",
+            "Constant",
+            "Non, c'est inversement proportionnel"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plus d'ouvriers = moins de temps : inverse."
+        },
+        {
+          "question": "Combien coûtent 7 kg de pommes à 3 €/kg ?",
+          "choices": [
+            "30 €",
+            "10 €",
+            "14 €",
+            "21 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "7 × 3 = 21 €."
+        },
+        {
+          "question": "Une voiture consomme 6 L pour 100 km. Pour 250 km :",
+          "choices": [
+            "10 L",
+            "20 L",
+            "12 L",
+            "15 L"
+          ],
+          "correctIndex": 3,
+          "explanation": "(6×250)/100 = 15."
+        },
+        {
+          "question": "Le tableau 3→9, 5→15, 7→21 est-il proportionnel ?",
+          "choices": [
+            "Oui (coefficient 3)",
+            "Oui (coefficient 5)",
+            "Non",
+            "Insuffisant"
+          ],
+          "correctIndex": 0,
+          "explanation": "9/3 = 15/5 = 21/7 = 3."
+        },
+        {
+          "question": "2→8, 3→12, 5→18 : proportionnel ?",
+          "choices": [
+            "Insuffisant",
+            "Oui (coeff 4)",
+            "Non (18/5 ≠ 4)",
+            "Oui (coeff 6)"
+          ],
+          "correctIndex": 2,
+          "explanation": "8/2 = 4, 12/3 = 4, mais 18/5 = 3,6."
+        },
+        {
+          "question": "5 m de tissu coûtent 12 €. Quel est le prix au mètre ?",
+          "choices": [
+            "2 €",
+            "2,5 €",
+            "5 €",
+            "2,40 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "12 ÷ 5 = 2,40."
+        },
+        {
+          "question": "Un robinet remplit 30 L en 5 min. En 12 min :",
+          "choices": [
+            "60 L",
+            "180 L",
+            "50 L",
+            "72 L"
+          ],
+          "correctIndex": 3,
+          "explanation": "30/5 = 6 L/min ; 6×12 = 72."
+        },
+        {
+          "question": "Si on double la longueur d'un rectangle (largeur constante), l'aire :",
+          "choices": [
+            "Est multipliée par 4",
+            "Double aussi",
+            "Reste identique",
+            "Diminue de moitié"
+          ],
+          "correctIndex": 1,
+          "explanation": "A = L × l : si L double, A double."
+        },
+        {
+          "question": "8 carnets coûtent 16 €. Le prix de 5 carnets :",
+          "choices": [
+            "21 €",
+            "8 €",
+            "10 €",
+            "13 €"
+          ],
+          "correctIndex": 2,
+          "explanation": "Prix unitaire 2 € ; 5×2 = 10 €."
+        },
+        {
+          "question": "Si 3 kg coûtent 9 €, 7 kg coûtent :",
+          "choices": [
+            "63 €",
+            "21 €",
+            "12 €",
+            "16 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "Prix unitaire 3 € ; 7×3 = 21 €."
+        },
+        {
+          "question": "12 œufs coûtent 4 €. Le prix de 18 œufs :",
+          "choices": [
+            "8 €",
+            "6 €",
+            "5 €",
+            "6,5 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "Prix unitaire 4/12 = 1/3 € ; 18/3 = 6 €."
+        },
+        {
+          "question": "Un train parcourt 240 km en 3 h. En 5 h :",
+          "choices": [
+            "400 km",
+            "480 km",
+            "144 km",
+            "320 km"
+          ],
+          "correctIndex": 0,
+          "explanation": "80 km/h × 5 = 400."
+        },
+        {
+          "question": "5 ouvriers produisent 200 pièces en 1 h. 8 ouvriers :",
+          "choices": [
+            "125 pièces",
+            "250 pièces",
+            "1 600 pièces",
+            "320 pièces"
+          ],
+          "correctIndex": 3,
+          "explanation": "40 pièces/ouvrier ; 8×40 = 320."
+        },
+        {
+          "question": "Si 4 stylos = 5 €, combien pour 12 stylos ?",
+          "choices": [
+            "20 €",
+            "13 €",
+            "60 €",
+            "15 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "12 = 3×4, donc 3×5 = 15 €."
+        },
+        {
+          "question": "9 L d'essence coûtent 18 €. Le prix de 4 L :",
+          "choices": [
+            "72 €",
+            "9 €",
+            "6 €",
+            "8 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "Prix au L : 2 € ; 4×2 = 8."
+        },
+        {
+          "question": "Recette : pour 4 personnes, 200 g de farine. Pour 6 :",
+          "choices": [
+            "250 g",
+            "150 g",
+            "400 g",
+            "300 g"
+          ],
+          "correctIndex": 3,
+          "explanation": "200×6/4 = 300."
+        },
+        {
+          "question": "5 cahiers = 12,50 €. Pour 8 cahiers :",
+          "choices": [
+            "20 €",
+            "100 €",
+            "25 €",
+            "15 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "Prix unitaire 2,5 ; 8×2,5 = 20."
+        },
+        {
+          "question": "Une carte au 1/25 000 : 1 cm sur carte = ?",
+          "choices": [
+            "25 m",
+            "2 500 m",
+            "2,5 km",
+            "250 m"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 cm × 25 000 = 25 000 cm = 250 m."
+        },
+        {
+          "question": "Un robinet : 25 L en 5 min. En 1 min :",
+          "choices": [
+            "20 L",
+            "5 L",
+            "30 L",
+            "10 L"
+          ],
+          "correctIndex": 1,
+          "explanation": "25/5 = 5."
+        },
+        {
+          "question": "120 km en 1,5 h. Vitesse moyenne ?",
+          "choices": [
+            "60 km/h",
+            "120 km/h",
+            "180 km/h",
+            "80 km/h"
+          ],
+          "correctIndex": 3,
+          "explanation": "120/1,5 = 80."
+        },
+        {
+          "question": "10 imprimantes impriment 500 pages/min. 6 imprimantes :",
+          "choices": [
+            "600 p/min",
+            "300 pages/min",
+            "50 p/min",
+            "100 p/min"
+          ],
+          "correctIndex": 1,
+          "explanation": "50 p/min/imprimante ; 6×50 = 300."
+        },
+        {
+          "question": "2,5 kg de fruits coûtent 7,50 €. Pour 4 kg :",
+          "choices": [
+            "12 €",
+            "11,25 €",
+            "10 €",
+            "15 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "3 €/kg ; 4×3 = 12."
+        },
+        {
+          "question": "Un sportif fait 12 tours en 30 min. En 50 min :",
+          "choices": [
+            "60 tours",
+            "20 tours",
+            "18 tours",
+            "15 tours"
+          ],
+          "correctIndex": 1,
+          "explanation": "12/30 = 0,4 tour/min ; 50×0,4 = 20."
+        },
+        {
+          "question": "Recette pour 6 personnes : 450 g de riz. Pour 1 personne :",
+          "choices": [
+            "75 g",
+            "90 g",
+            "60 g",
+            "50 g"
+          ],
+          "correctIndex": 0,
+          "explanation": "450/6 = 75."
+        },
+        {
+          "question": "Une carte 1/50 000 : 4 cm représentent :",
+          "choices": [
+            "200 m",
+            "2 000 cm",
+            "2 km",
+            "20 km"
+          ],
+          "correctIndex": 2,
+          "explanation": "4 × 50 000 = 200 000 cm = 2 000 m = 2 km."
+        },
+        {
+          "question": "6 boîtes de conserve pèsent 1,8 kg. 10 boîtes :",
+          "choices": [
+            "3 kg",
+            "2,4 kg",
+            "10,8 kg",
+            "1,5 kg"
+          ],
+          "correctIndex": 0,
+          "explanation": "1,8/6 = 0,3 ; 10×0,3 = 3."
+        },
+        {
+          "question": "Une voiture roule à 90 km/h. En 40 min, elle parcourt :",
+          "choices": [
+            "60 km",
+            "90 km",
+            "135 km",
+            "36 km"
+          ],
+          "correctIndex": 0,
+          "explanation": "40 min = 2/3 h ; 90×2/3 = 60."
+        },
+        {
+          "question": "1 € = 1,10 $. 50 € en dollars :",
+          "choices": [
+            "55 $",
+            "45 $",
+            "60 $",
+            "50 $"
+          ],
+          "correctIndex": 0,
+          "explanation": "50 × 1,10 = 55."
+        },
+        {
+          "question": "Combien d'œufs pour 6 personnes si 4 œufs pour 8 ?",
+          "choices": [
+            "3 œufs",
+            "12",
+            "6",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "4/8 = 0,5 par pers. ; 6×0,5 = 3."
+        },
+        {
+          "question": "Un livre de 240 pages lu à 30 p/jour. Durée :",
+          "choices": [
+            "12 j",
+            "10 j",
+            "7 j",
+            "8 jours"
+          ],
+          "correctIndex": 3,
+          "explanation": "240/30 = 8."
+        },
+        {
+          "question": "5 m de tuyau coûtent 35 €. 12 m :",
+          "choices": [
+            "42 €",
+            "60 €",
+            "70 €",
+            "84 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "7 €/m ; 12×7 = 84."
+        },
+        {
+          "question": "Un athlète court 800 m en 2 min. Sa vitesse en m/min :",
+          "choices": [
+            "1 600 m/min",
+            "200 m/min",
+            "400 m/min",
+            "16 m/min"
+          ],
+          "correctIndex": 2,
+          "explanation": "800/2 = 400."
+        },
+        {
+          "question": "Un colis de 3 kg coûte 6 €. Un colis de 7 kg :",
+          "choices": [
+            "21 €",
+            "12 €",
+            "14 €",
+            "10 €"
+          ],
+          "correctIndex": 2,
+          "explanation": "2 €/kg ; 7×2 = 14."
+        },
+        {
+          "question": "Un loyer de 600 € augmente de 10 %. Nouveau loyer :",
+          "choices": [
+            "700 €",
+            "660 €",
+            "610 €",
+            "690 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "600 × 1,10 = 660."
+        },
+        {
+          "question": "Un article à 80 € baisse de 25 %. Nouveau prix :",
+          "choices": [
+            "60 €",
+            "75 €",
+            "55 €",
+            "65 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "80 × 0,75 = 60."
+        },
+        {
+          "question": "Un produit à 50 € augmente de 20 %. Nouveau prix :",
+          "choices": [
+            "55 €",
+            "65 €",
+            "70 €",
+            "60 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "50 × 1,20 = 60."
+        },
+        {
+          "question": "Un salaire de 1 500 € augmente de 5 %. Nouveau salaire :",
+          "choices": [
+            "1 575 €",
+            "1 750 €",
+            "1 505 €",
+            "1 550 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 500 × 1,05 = 1 575."
+        },
+        {
+          "question": "Une jupe à 40 € est soldée à −30 %. Prix soldé :",
+          "choices": [
+            "10 €",
+            "30 €",
+            "12 €",
+            "28 €"
+          ],
+          "correctIndex": 3,
+          "explanation": "40 × 0,70 = 28."
+        },
+        {
+          "question": "Un livre à 25 € avec 20 % de réduction :",
+          "choices": [
+            "23 €",
+            "20 €",
+            "5 €",
+            "22 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "25 × 0,80 = 20."
+        },
+        {
+          "question": "Une population de 800 habitants augmente de 15 % :",
+          "choices": [
+            "1 000",
+            "880",
+            "920",
+            "815"
+          ],
+          "correctIndex": 2,
+          "explanation": "800 × 1,15 = 920."
+        },
+        {
+          "question": "Un nombre passe de 200 à 250. Augmentation en % :",
+          "choices": [
+            "50 %",
+            "20 %",
+            "12,5 %",
+            "25 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "(250−200)/200 = 0,25 = 25 %."
+        },
+        {
+          "question": "Un nombre passe de 80 à 60. Diminution en % :",
+          "choices": [
+            "75 %",
+            "33 %",
+            "25 %",
+            "20 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "(80−60)/80 = 0,25 = 25 %."
+        },
+        {
+          "question": "Un nombre passe de 50 à 60. Augmentation en % :",
+          "choices": [
+            "10 %",
+            "16,7 %",
+            "20 %",
+            "120 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "10/50 = 0,20 = 20 %."
+        },
+        {
+          "question": "Coefficient multiplicateur pour +30 % :",
+          "choices": [
+            "1,30",
+            "1,03",
+            "0,30",
+            "0,70"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 + 30/100 = 1,30."
+        },
+        {
+          "question": "Coefficient multiplicateur pour −20 % :",
+          "choices": [
+            "1,20",
+            "0,02",
+            "0,80",
+            "0,20"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 − 20/100 = 0,80."
+        },
+        {
+          "question": "Coefficient multiplicateur pour +5 % :",
+          "choices": [
+            "0,05",
+            "0,95",
+            "1,5",
+            "1,05"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 + 0,05 = 1,05."
+        },
+        {
+          "question": "Un article de 200 € soldé à 150 €. Réduction :",
+          "choices": [
+            "50 €",
+            "30 %",
+            "25 %",
+            "75 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "(200−150)/200 = 0,25."
+        },
+        {
+          "question": "Augmentation de 50 % puis baisse de 50 %. Évolution finale :",
+          "choices": [
+            "+50 %",
+            "−25 %",
+            "+25 %",
+            "0 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "1,5 × 0,5 = 0,75 → diminution de 25 %."
+        },
+        {
+          "question": "Une montre à 120 € augmente de 25 %. Nouveau prix :",
+          "choices": [
+            "145 €",
+            "130 €",
+            "150 €",
+            "240 €"
+          ],
+          "correctIndex": 2,
+          "explanation": "120 × 1,25 = 150."
+        },
+        {
+          "question": "Un objet à 90 € est vendu 72 €. Réduction en % :",
+          "choices": [
+            "80 %",
+            "20 %",
+            "25 %",
+            "18 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "(90−72)/90 = 0,20."
+        },
+        {
+          "question": "Une réduction de 30 % d'un prix de 70 € donne :",
+          "choices": [
+            "21 €",
+            "49 €",
+            "40 €",
+            "100 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "70 × 0,70 = 49."
+        },
+        {
+          "question": "Une hausse de 12 % d'un nombre 250 donne :",
+          "choices": [
+            "300",
+            "270",
+            "262",
+            "280"
+          ],
+          "correctIndex": 3,
+          "explanation": "250 × 1,12 = 280."
+        },
+        {
+          "question": "Un téléphone à 400 € soldé à −15 %, puis à nouveau −10 % :",
+          "choices": [
+            "300 €",
+            "290 €",
+            "306 €",
+            "340 €"
+          ],
+          "correctIndex": 2,
+          "explanation": "400 × 0,85 × 0,90 = 306."
+        },
+        {
+          "question": "Un nombre augmente de 100 %. Il est multiplié par :",
+          "choices": [
+            "10",
+            "1",
+            "1,5",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "+100 % = ×2."
+        },
+        {
+          "question": "Un prix passe de 24 à 30 €. C'est une hausse de :",
+          "choices": [
+            "25 %",
+            "6 %",
+            "30 %",
+            "20 %"
+          ],
+          "correctIndex": 0,
+          "explanation": "6/24 = 0,25."
+        },
+        {
+          "question": "Un loyer passe de 800 à 720 €. C'est une baisse de :",
+          "choices": [
+            "80 %",
+            "12,5 %",
+            "8 %",
+            "10 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "80/800 = 0,10."
+        },
+        {
+          "question": "Un investissement de 1 000 € avec +4 % par an. Après 1 an :",
+          "choices": [
+            "1 040",
+            "1 040 €",
+            "1 400 €",
+            "1 004 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 000 × 1,04 = 1 040."
+        },
+        {
+          "question": "Un livre à 18 € avec 50 % de réduction :",
+          "choices": [
+            "9 €",
+            "6 €",
+            "12 €",
+            "8 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "18 ÷ 2 = 9."
+        },
+        {
+          "question": "Le prix d'une console passe de 300 à 270 €. Variation :",
+          "choices": [
+            "−30 %",
+            "−9 %",
+            "+10 %",
+            "−10 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "(270−300)/300 = −0,10."
+        },
+        {
+          "question": "Une réduction de 40 % sur un article à 250 € :",
+          "choices": [
+            "150 €",
+            "60 €",
+            "100 €",
+            "210 €"
+          ],
+          "correctIndex": 0,
+          "explanation": "250 × 0,60 = 150."
+        },
+        {
+          "question": "Si un nombre est multiplié par 1,5, il augmente de :",
+          "choices": [
+            "15 %",
+            "150 %",
+            "50 %",
+            "5 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "1,5 → +0,5 = +50 %."
+        },
+        {
+          "question": "Si un nombre est multiplié par 0,9, il baisse de :",
+          "choices": [
+            "9 %",
+            "1 %",
+            "90 %",
+            "10 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "0,9 → −0,1 = −10 %."
+        },
+        {
+          "question": "Hausse de 20 % puis hausse de 20 %. Évolution totale :",
+          "choices": [
+            "+44 %",
+            "+24 %",
+            "+22 %",
+            "+40 %"
+          ],
+          "correctIndex": 0,
+          "explanation": "1,2 × 1,2 = 1,44 → +44 %."
+        },
+        {
+          "question": "Sur un graphique de température sur 1 journée, l'axe des abscisses représente :",
+          "choices": [
+            "Le temps",
+            "L'altitude",
+            "La température",
+            "Le lieu"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'axe x = variable de référence."
+        },
+        {
+          "question": "Une fonction f telle que f(2) = 5 a un point de coordonnées :",
+          "choices": [
+            "(2 ; 2)",
+            "(2 ; 5)",
+            "(5 ; 5)",
+            "(5 ; 2)"
+          ],
+          "correctIndex": 1,
+          "explanation": "f(x) = y → (x ; y)."
+        },
+        {
+          "question": "Si la droite passe par (0;0) et (1;3), l'image de 4 est :",
+          "choices": [
+            "1",
+            "7",
+            "4",
+            "12"
+          ],
+          "correctIndex": 3,
+          "explanation": "Coefficient 3 : f(x) = 3x → f(4) = 12."
+        },
+        {
+          "question": "Une droite y = 2x + 1 coupe l'axe des ordonnées en :",
+          "choices": [
+            "(0 ; 2)",
+            "(1 ; 0)",
+            "(0 ; 1)",
+            "(2 ; 1)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Quand x=0, y=1."
+        },
+        {
+          "question": "Une fonction linéaire passe toujours par :",
+          "choices": [
+            "(0 ; 1)",
+            "L'origine (0 ; 0)",
+            "(1 ; 1)",
+            "Aucun point particulier"
+          ],
+          "correctIndex": 1,
+          "explanation": "f(x) = ax → f(0) = 0."
+        },
+        {
+          "question": "f(x) = 3x. f(5) vaut :",
+          "choices": [
+            "8",
+            "15",
+            "35",
+            "3"
+          ],
+          "correctIndex": 1,
+          "explanation": "3 × 5 = 15."
+        },
+        {
+          "question": "f(x) = 2x + 1. f(4) vaut :",
+          "choices": [
+            "9",
+            "5",
+            "10",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "2×4 + 1 = 9."
+        },
+        {
+          "question": "f(x) = −x + 3. f(2) vaut :",
+          "choices": [
+            "2",
+            "−1",
+            "1",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "−2 + 3 = 1."
+        },
+        {
+          "question": "Si f(3) = 6 et f est linéaire, alors f(x) = :",
+          "choices": [
+            "3x",
+            "x + 3",
+            "6x",
+            "2x"
+          ],
+          "correctIndex": 3,
+          "explanation": "Coefficient = 6/3 = 2."
+        },
+        {
+          "question": "Une fonction affine est représentée par :",
+          "choices": [
+            "Une parabole",
+            "Un cercle",
+            "Une droite",
+            "Une courbe"
+          ],
+          "correctIndex": 2,
+          "explanation": "Affine → droite."
+        },
+        {
+          "question": "f(x) = 5x. f(0) vaut :",
+          "choices": [
+            "Indéfini",
+            "5",
+            "1",
+            "0"
+          ],
+          "correctIndex": 3,
+          "explanation": "5 × 0 = 0."
+        },
+        {
+          "question": "La droite y = 4x passe par (3 ; ?) :",
+          "choices": [
+            "1",
+            "4/3",
+            "12",
+            "7"
+          ],
+          "correctIndex": 2,
+          "explanation": "y = 4 × 3 = 12."
+        },
+        {
+          "question": "f(x) = x². f(−3) vaut :",
+          "choices": [
+            "9",
+            "6",
+            "−9",
+            "−6"
+          ],
+          "correctIndex": 0,
+          "explanation": "(−3)² = 9."
+        },
+        {
+          "question": "Pour quelle valeur de x a-t-on 3x = 12 ?",
+          "choices": [
+            "x = 4",
+            "x = 15",
+            "x = 36",
+            "x = 9"
+          ],
+          "correctIndex": 0,
+          "explanation": "x = 12/3 = 4."
+        },
+        {
+          "question": "Si f(x) = 0,5x + 2, alors f(6) :",
+          "choices": [
+            "8",
+            "3",
+            "5",
+            "14"
+          ],
+          "correctIndex": 2,
+          "explanation": "0,5 × 6 + 2 = 5."
+        },
+        {
+          "question": "Si f(x) = 2x − 3 et f(x) = 7, alors x = :",
+          "choices": [
+            "10",
+            "−2",
+            "5",
+            "2"
+          ],
+          "correctIndex": 2,
+          "explanation": "2x = 10 → x = 5."
+        },
+        {
+          "question": "f représente la distance parcourue en km en fonction du temps. Si f(2) = 160, vitesse :",
+          "choices": [
+            "80 km/h",
+            "160 km/h",
+            "320 km/h",
+            "40 km/h"
+          ],
+          "correctIndex": 0,
+          "explanation": "160/2 = 80."
+        },
+        {
+          "question": "Un graphique de bénéfice atteint son maximum en x = 4. À ce moment, la dérivée vaut :",
+          "choices": [
+            "Négative",
+            "Maximum",
+            "0 (pente nulle au sommet)",
+            "Toujours positive"
+          ],
+          "correctIndex": 2,
+          "explanation": "Au sommet de la courbe, la pente est nulle."
+        },
+        {
+          "question": "Sur un graphique, si la courbe est plate, la grandeur :",
+          "choices": [
+            "S'annule",
+            "Augmente",
+            "Diminue",
+            "Reste constante"
+          ],
+          "correctIndex": 3,
+          "explanation": "Pas de variation = constant."
+        },
+        {
+          "question": "L'image de 0 par f(x) = 4x + 7 est :",
+          "choices": [
+            "0",
+            "4",
+            "7",
+            "11"
+          ],
+          "correctIndex": 2,
+          "explanation": "f(0) = 7."
+        }
+      ]
+    },
+    {
+      "id": "auto-donnees-probas",
+      "title": "🎲 Données & probabilités",
+      "section": "automatismes",
+      "questions": [
+        {
+          "question": "On lance un dé équilibré à 6 faces. P(obtenir un 4) :",
+          "choices": [
+            "1/2",
+            "4/6",
+            "1/4",
+            "1/6"
+          ],
+          "correctIndex": 3,
+          "explanation": "1 cas favorable sur 6."
+        },
+        {
+          "question": "Dé à 6 faces. P(obtenir un nombre pair) :",
+          "choices": [
+            "1/3",
+            "1/2",
+            "2/3",
+            "1/6"
+          ],
+          "correctIndex": 1,
+          "explanation": "3 pairs (2,4,6) sur 6."
+        },
+        {
+          "question": "Dé à 6 faces. P(obtenir un nombre > 4) :",
+          "choices": [
+            "2/6",
+            "1/6",
+            "1/3",
+            "1/2"
+          ],
+          "correctIndex": 2,
+          "explanation": "2 cas (5 et 6) sur 6."
+        },
+        {
+          "question": "Pièce équilibrée. P(obtenir face) :",
+          "choices": [
+            "1/2",
+            "0",
+            "1",
+            "1/4"
+          ],
+          "correctIndex": 0,
+          "explanation": "Équiprobabilité entre pile et face."
+        },
+        {
+          "question": "Sac de 10 boules : 3 rouges, 7 bleues. P(rouge) :",
+          "choices": [
+            "3/7",
+            "1/3",
+            "3/10",
+            "7/10"
+          ],
+          "correctIndex": 2,
+          "explanation": "3 favorables / 10 totales."
+        },
+        {
+          "question": "Sac de 20 boules dont 5 vertes. P(verte) :",
+          "choices": [
+            "5/20",
+            "1/5",
+            "5/15",
+            "1/4"
+          ],
+          "correctIndex": 3,
+          "explanation": "5/20 = 1/4."
+        },
+        {
+          "question": "Carte au hasard dans un jeu de 52. P(obtenir un cœur) :",
+          "choices": [
+            "1/13",
+            "13/52",
+            "1/52",
+            "1/4"
+          ],
+          "correctIndex": 3,
+          "explanation": "13 cœurs sur 52."
+        },
+        {
+          "question": "Jeu de 52 cartes. P(obtenir un roi) :",
+          "choices": [
+            "1/4",
+            "4/13",
+            "1/52",
+            "1/13"
+          ],
+          "correctIndex": 3,
+          "explanation": "4 rois / 52 = 1/13."
+        },
+        {
+          "question": "Lancer 2 dés. P(somme = 7) :",
+          "choices": [
+            "7/36",
+            "1/2",
+            "1/12",
+            "6/36"
+          ],
+          "correctIndex": 3,
+          "explanation": "6 combinaisons donnant 7 sur 36."
+        },
+        {
+          "question": "Dé à 6 faces. P(obtenir 0) :",
+          "choices": [
+            "0",
+            "1/2",
+            "1",
+            "1/6"
+          ],
+          "correctIndex": 0,
+          "explanation": "0 n'est pas une face."
+        },
+        {
+          "question": "Dé à 6 faces. P(obtenir un nombre entre 1 et 6 inclus) :",
+          "choices": [
+            "5/6",
+            "1",
+            "1/6",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "Événement certain."
+        },
+        {
+          "question": "Sac de 8 boules : 2 noires, 6 blanches. P(blanche) :",
+          "choices": [
+            "3/4",
+            "6/8",
+            "2/6",
+            "1/4"
+          ],
+          "correctIndex": 0,
+          "explanation": "6/8 = 3/4."
+        },
+        {
+          "question": "P(événement) = 0,3. P(événement contraire) :",
+          "choices": [
+            "0,3",
+            "−0,3",
+            "1,3",
+            "0,7"
+          ],
+          "correctIndex": 3,
+          "explanation": "P(A) + P(non A) = 1 → 1 − 0,3."
+        },
+        {
+          "question": "P(A) = 1/5. P(non A) :",
+          "choices": [
+            "0",
+            "1/5",
+            "4/5",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 − 1/5 = 4/5."
+        },
+        {
+          "question": "On tire une lettre du mot ÉCOLE. P(voyelle) :",
+          "choices": [
+            "3/5",
+            "4/5",
+            "1/5",
+            "2/5"
+          ],
+          "correctIndex": 0,
+          "explanation": "É, O, E sont voyelles (3 sur 5)."
+        },
+        {
+          "question": "Sur 50 lancers, 20 piles. Fréquence des piles :",
+          "choices": [
+            "0,2",
+            "0,5",
+            "0,4",
+            "40"
+          ],
+          "correctIndex": 2,
+          "explanation": "20/50 = 0,4."
+        },
+        {
+          "question": "Sur 100 essais, 25 succès. Fréquence en % :",
+          "choices": [
+            "25 %",
+            "75 %",
+            "4 %",
+            "0,25 %"
+          ],
+          "correctIndex": 0,
+          "explanation": "25/100 = 25 %."
+        },
+        {
+          "question": "Sur 200 votants, 80 ont voté A. Fréquence de A :",
+          "choices": [
+            "0,8",
+            "0,4",
+            "80 %",
+            "40"
+          ],
+          "correctIndex": 1,
+          "explanation": "80/200 = 0,4."
+        },
+        {
+          "question": "Fréquence d'un événement qui survient 12 fois sur 30 :",
+          "choices": [
+            "12/30",
+            "0,4",
+            "0,3",
+            "30/12"
+          ],
+          "correctIndex": 1,
+          "explanation": "12/30 = 0,4."
+        },
+        {
+          "question": "Effectif 45, total 150. Fréquence :",
+          "choices": [
+            "0,3",
+            "3",
+            "0,03",
+            "30 %"
+          ],
+          "correctIndex": 0,
+          "explanation": "45/150 = 0,3."
+        },
+        {
+          "question": "Une équipe gagne 18 matchs sur 25. Fréquence des victoires :",
+          "choices": [
+            "0,18",
+            "1,4",
+            "0,72",
+            "0,07"
+          ],
+          "correctIndex": 2,
+          "explanation": "18/25 = 0,72."
+        },
+        {
+          "question": "Sur 80 élèves, 12 ont une moyenne >15. Pourcentage :",
+          "choices": [
+            "1,5 %",
+            "12 %",
+            "15 %",
+            "20 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "12/80 = 0,15 = 15 %."
+        },
+        {
+          "question": "Fréquence cumulée des 3 premières valeurs (5+8+12) sur total 50 :",
+          "choices": [
+            "25/50",
+            "0,3",
+            "5/50",
+            "0,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "25/50 = 0,5."
+        },
+        {
+          "question": "Une fréquence est toujours :",
+          "choices": [
+            "Toujours nulle",
+            "Supérieure à 1",
+            "Entre 0 et 1",
+            "Égale à 100"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une fréquence relative ∈ [0 ; 1]."
+        },
+        {
+          "question": "Si la fréquence est 0,2, le pourcentage correspondant :",
+          "choices": [
+            "2 %",
+            "20 %",
+            "200 %",
+            "0,2 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "0,2 = 20/100."
+        },
+        {
+          "question": "Moyenne de 4, 7, 10 :",
+          "choices": [
+            "21",
+            "7",
+            "6",
+            "10"
+          ],
+          "correctIndex": 1,
+          "explanation": "(4+7+10)/3 = 7."
+        },
+        {
+          "question": "Moyenne de 5, 8, 11, 16 :",
+          "choices": [
+            "11",
+            "40",
+            "10",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "(5+8+11+16)/4 = 40/4 = 10."
+        },
+        {
+          "question": "Moyenne de 12, 15, 18, 21, 24 :",
+          "choices": [
+            "20",
+            "90",
+            "15",
+            "18"
+          ],
+          "correctIndex": 3,
+          "explanation": "Somme 90 / 5 = 18."
+        },
+        {
+          "question": "Moyenne de 10, 10, 10 :",
+          "choices": [
+            "0",
+            "3,33",
+            "10",
+            "30"
+          ],
+          "correctIndex": 2,
+          "explanation": "Toutes égales → moyenne = 10."
+        },
+        {
+          "question": "Moyenne de −2, 0, 4 :",
+          "choices": [
+            "2",
+            "1",
+            "2/3",
+            "0"
+          ],
+          "correctIndex": 2,
+          "explanation": "(−2+0+4)/3 = 2/3."
+        },
+        {
+          "question": "Moyenne de 3, 6, 9, 12, 15, 18 :",
+          "choices": [
+            "63",
+            "11",
+            "10",
+            "10,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "63/6 = 10,5."
+        },
+        {
+          "question": "Moyenne de 7, 7, 8, 9, 9 :",
+          "choices": [
+            "7",
+            "8",
+            "9",
+            "40"
+          ],
+          "correctIndex": 1,
+          "explanation": "40/5 = 8."
+        },
+        {
+          "question": "Moyenne pondérée : 2 notes de 10 (coef 1) et 1 note de 16 (coef 2) :",
+          "choices": [
+            "36",
+            "14",
+            "13",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "(10+10+16×2)/(1+1+2) = 52/4 = 13."
+        },
+        {
+          "question": "Note moyenne : 12, 14, 13, 17. Moyenne :",
+          "choices": [
+            "13",
+            "15",
+            "14",
+            "56"
+          ],
+          "correctIndex": 2,
+          "explanation": "56/4 = 14."
+        },
+        {
+          "question": "Moyenne de 100 valeurs vaut 5. Somme totale :",
+          "choices": [
+            "105",
+            "500",
+            "20",
+            "5 000"
+          ],
+          "correctIndex": 1,
+          "explanation": "Somme = moyenne × effectif = 500."
+        },
+        {
+          "question": "Moyenne de 4 notes : 10, 12, x, 14. La moyenne vaut 12. x = ?",
+          "choices": [
+            "12",
+            "14",
+            "10",
+            "48"
+          ],
+          "correctIndex": 0,
+          "explanation": "(10+12+x+14)/4 = 12 → x = 12."
+        },
+        {
+          "question": "Moyenne de 8, 12 :",
+          "choices": [
+            "10",
+            "4",
+            "20",
+            "96"
+          ],
+          "correctIndex": 0,
+          "explanation": "(8+12)/2 = 10."
+        },
+        {
+          "question": "Moyenne de 0, 0, 0, 4 :",
+          "choices": [
+            "4",
+            "1",
+            "0,4",
+            "0"
+          ],
+          "correctIndex": 1,
+          "explanation": "4/4 = 1."
+        },
+        {
+          "question": "Si une moyenne est 15 sur 20 et qu'on ajoute une 21e note de 15, la moyenne :",
+          "choices": [
+            "Devient 15,5",
+            "Diminue",
+            "Augmente",
+            "Reste 15"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ajouter une valeur égale à la moyenne ne la change pas."
+        },
+        {
+          "question": "Moyenne de 9, 9, 9, 9, 9, 18 :",
+          "choices": [
+            "9",
+            "10",
+            "11",
+            "10,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "(45+18)/6 = 63/6 = 10,5."
+        },
+        {
+          "question": "Médiane de 2, 5, 7, 9, 12 :",
+          "choices": [
+            "7",
+            "5",
+            "9",
+            "35"
+          ],
+          "correctIndex": 0,
+          "explanation": "Valeur centrale de la série triée."
+        },
+        {
+          "question": "Médiane de 3, 8, 11, 14, 20 :",
+          "choices": [
+            "14",
+            "11",
+            "8",
+            "56"
+          ],
+          "correctIndex": 1,
+          "explanation": "Valeur du milieu (3e sur 5)."
+        },
+        {
+          "question": "Médiane de 1, 2, 3, 4 :",
+          "choices": [
+            "2",
+            "2,5",
+            "10",
+            "3"
+          ],
+          "correctIndex": 1,
+          "explanation": "Moyenne des 2 valeurs centrales : (2+3)/2."
+        },
+        {
+          "question": "Médiane de 10, 12, 15, 18, 20, 25 :",
+          "choices": [
+            "18",
+            "100",
+            "15",
+            "16,5"
+          ],
+          "correctIndex": 3,
+          "explanation": "(15+18)/2 = 16,5."
+        },
+        {
+          "question": "Médiane de 5, 5, 5, 5, 5 :",
+          "choices": [
+            "0",
+            "1",
+            "25",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "Toutes égales → médiane = 5."
+        },
+        {
+          "question": "Médiane de 1, 2, 3 :",
+          "choices": [
+            "6",
+            "1",
+            "3",
+            "2"
+          ],
+          "correctIndex": 3,
+          "explanation": "Valeur centrale."
+        },
+        {
+          "question": "Médiane de 7, 3, 9, 1, 5 :",
+          "choices": [
+            "25",
+            "7",
+            "3",
+            "5"
+          ],
+          "correctIndex": 3,
+          "explanation": "Trier : 1,3,5,7,9 → centrale = 5."
+        },
+        {
+          "question": "Médiane de 100, 1, 2, 3, 4 :",
+          "choices": [
+            "100",
+            "55",
+            "3",
+            "22"
+          ],
+          "correctIndex": 2,
+          "explanation": "Trier : 1,2,3,4,100 → 3."
+        },
+        {
+          "question": "Une médiane partage la série en :",
+          "choices": [
+            "Deux moitiés",
+            "Égale à la moyenne",
+            "Trois tiers",
+            "Quatre quarts"
+          ],
+          "correctIndex": 0,
+          "explanation": "Définition : 50% en-dessous, 50% au-dessus."
+        },
+        {
+          "question": "Médiane de 4, 8, 12, 16 :",
+          "choices": [
+            "8",
+            "40",
+            "10",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "(8+12)/2 = 10."
+        },
+        {
+          "question": "Dans un diagramme en barres, la hauteur représente :",
+          "choices": [
+            "L'effectif (ou la fréquence)",
+            "Le pourcentage seulement",
+            "Le nom de la catégorie",
+            "Aucune information utile"
+          ],
+          "correctIndex": 0,
+          "explanation": "La hauteur code la quantité observée."
+        },
+        {
+          "question": "Sur un diagramme circulaire, un secteur de 90° représente :",
+          "choices": [
+            "1/2",
+            "9/10",
+            "1/4 du total",
+            "90 % du total"
+          ],
+          "correctIndex": 2,
+          "explanation": "90/360 = 1/4."
+        },
+        {
+          "question": "Diagramme circulaire : un secteur représente 25%. Son angle :",
+          "choices": [
+            "25°",
+            "45°",
+            "180°",
+            "90°"
+          ],
+          "correctIndex": 3,
+          "explanation": "360 × 0,25 = 90."
+        },
+        {
+          "question": "Diagramme circulaire : un secteur de 180° représente :",
+          "choices": [
+            "25 %",
+            "100 %",
+            "75 %",
+            "50 %"
+          ],
+          "correctIndex": 3,
+          "explanation": "180/360 = 0,5."
+        },
+        {
+          "question": "Effectif total = 50. Une barre vaut 10. Fréquence :",
+          "choices": [
+            "5 %",
+            "20 %",
+            "50 %",
+            "10 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "10/50 = 0,20."
+        },
+        {
+          "question": "Un tableau de fréquences : la somme doit faire :",
+          "choices": [
+            "0",
+            "100",
+            "Variable",
+            "1 (ou 100 %)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Toutes les fréquences se cumulent à 1."
+        },
+        {
+          "question": "Histogramme : sur l'axe x on trouve :",
+          "choices": [
+            "Les pourcentages",
+            "Les effectifs",
+            "Les angles",
+            "Les classes (intervalles)"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'axe horizontal indique les classes."
+        },
+        {
+          "question": "Dans un diagramme en barres représentant 4 villes (20, 30, 40, 10 hab.), total :",
+          "choices": [
+            "120",
+            "40",
+            "20",
+            "100"
+          ],
+          "correctIndex": 3,
+          "explanation": "20+30+40+10 = 100."
+        },
+        {
+          "question": "Sur un diagramme circulaire de 100 personnes, 25 votent A. Angle de A :",
+          "choices": [
+            "25°",
+            "100°",
+            "90°",
+            "45°"
+          ],
+          "correctIndex": 2,
+          "explanation": "(25/100)×360 = 90."
+        },
+        {
+          "question": "Si l'effectif est 60 et la fréquence 0,25, le total :",
+          "choices": [
+            "240",
+            "120",
+            "300",
+            "15"
+          ],
+          "correctIndex": 0,
+          "explanation": "60/0,25 = 240."
+        }
+      ]
+    },
+    {
+      "id": "auto-algo",
+      "title": "💻 Algorithmique & programmation",
+      "section": "automatismes",
+      "questions": [
+        {
+          "question": "Programme : choisir x, multiplier par 2, ajouter 5. Avec x = 7 :",
+          "choices": [
+            "24",
+            "14",
+            "19",
+            "17"
+          ],
+          "correctIndex": 2,
+          "explanation": "7×2 + 5 = 19."
+        },
+        {
+          "question": "Programme : x → ×3 → −4. Avec x = 6 :",
+          "choices": [
+            "2",
+            "18",
+            "12",
+            "14"
+          ],
+          "correctIndex": 3,
+          "explanation": "6×3 − 4 = 14."
+        },
+        {
+          "question": "Programme : x → +3 → ×2. Avec x = 5 :",
+          "choices": [
+            "16",
+            "10",
+            "11",
+            "13"
+          ],
+          "correctIndex": 0,
+          "explanation": "(5+3)×2 = 16."
+        },
+        {
+          "question": "Programme : x → ×4 → +1. Avec x = 0 :",
+          "choices": [
+            "4",
+            "0",
+            "1",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "0×4 + 1 = 1."
+        },
+        {
+          "question": "Programme : x → carré → −3. Avec x = 4 :",
+          "choices": [
+            "12",
+            "5",
+            "13",
+            "16"
+          ],
+          "correctIndex": 2,
+          "explanation": "4² − 3 = 13."
+        },
+        {
+          "question": "Programme : x → +5 → ×3 → −2. Avec x = 1 :",
+          "choices": [
+            "16",
+            "14",
+            "8",
+            "18"
+          ],
+          "correctIndex": 0,
+          "explanation": "(1+5)×3 − 2 = 16."
+        },
+        {
+          "question": "Programme : x → ×2 → carré. Avec x = 3 :",
+          "choices": [
+            "36",
+            "9",
+            "18",
+            "12"
+          ],
+          "correctIndex": 0,
+          "explanation": "(2×3)² = 6² = 36."
+        },
+        {
+          "question": "Programme : x → carré → ×2. Avec x = 3 :",
+          "choices": [
+            "12",
+            "18",
+            "9",
+            "36"
+          ],
+          "correctIndex": 1,
+          "explanation": "3²×2 = 18."
+        },
+        {
+          "question": "Programme : x → ×5 → +3. Résultat = 18. x = ?",
+          "choices": [
+            "3",
+            "21",
+            "1,5",
+            "4,2"
+          ],
+          "correctIndex": 0,
+          "explanation": "5x = 15 → x = 3."
+        },
+        {
+          "question": "Programme : x → +3 → ×2. Résultat = 16. x = ?",
+          "choices": [
+            "10",
+            "11",
+            "5",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "x + 3 = 8 → x = 5."
+        },
+        {
+          "question": "Programme : x → −7 → ×3. Résultat = 6. x = ?",
+          "choices": [
+            "13",
+            "2",
+            "9",
+            "27"
+          ],
+          "correctIndex": 2,
+          "explanation": "x − 7 = 2 → x = 9."
+        },
+        {
+          "question": "Programme : x → ×2 → +6. Résultat = 0. x = ?",
+          "choices": [
+            "−3",
+            "12",
+            "3",
+            "−6"
+          ],
+          "correctIndex": 0,
+          "explanation": "2x = −6 → x = −3."
+        },
+        {
+          "question": "Programme : x → carré → +1. Avec x = 5 :",
+          "choices": [
+            "26",
+            "30",
+            "11",
+            "16"
+          ],
+          "correctIndex": 0,
+          "explanation": "25 + 1 = 26."
+        },
+        {
+          "question": "Programme : x → ×10 → ÷2. Avec x = 4 :",
+          "choices": [
+            "40",
+            "8",
+            "2",
+            "20"
+          ],
+          "correctIndex": 3,
+          "explanation": "(4×10)/2 = 20."
+        },
+        {
+          "question": "Programme : x → +1 → carré. Avec x = 4 :",
+          "choices": [
+            "25",
+            "5",
+            "17",
+            "20"
+          ],
+          "correctIndex": 0,
+          "explanation": "(4+1)² = 25."
+        },
+        {
+          "question": "Départ (0;0). +2 en x, +3 en y, −1 en x. Arrivée :",
+          "choices": [
+            "(1 ; 3)",
+            "(0 ; 3)",
+            "(2 ; 3)",
+            "(3 ; 2)"
+          ],
+          "correctIndex": 0,
+          "explanation": "0+2−1=1, 0+3=3."
+        },
+        {
+          "question": "Départ (1;1). +3 en x, +2 en y. Arrivée :",
+          "choices": [
+            "(5 ; 4)",
+            "(3 ; 2)",
+            "(4 ; 3)",
+            "(2 ; 3)"
+          ],
+          "correctIndex": 2,
+          "explanation": "1+3=4, 1+2=3."
+        },
+        {
+          "question": "Départ (5;5). −3 en x, −3 en y. Arrivée :",
+          "choices": [
+            "(8 ; 8)",
+            "(0 ; 0)",
+            "(2 ; 2)",
+            "(3 ; 3)"
+          ],
+          "correctIndex": 2,
+          "explanation": "5−3=2 ; 5−3=2."
+        },
+        {
+          "question": "Départ (0;0). Avance 4 (en x), tourne à gauche, avance 3. Arrivée :",
+          "choices": [
+            "(4 ; 3)",
+            "(7 ; 0)",
+            "(3 ; 4)",
+            "(4 ; 4)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vers la droite puis vers le haut."
+        },
+        {
+          "question": "Départ (2;3). +1 en x ×4 fois. Arrivée :",
+          "choices": [
+            "(6 ; 3)",
+            "(3 ; 6)",
+            "(2 ; 7)",
+            "(6 ; 7)"
+          ],
+          "correctIndex": 0,
+          "explanation": "2+4=6, y inchangé."
+        },
+        {
+          "question": "Départ (0;0). Boucle 3 fois : +1 en x, +1 en y. Arrivée :",
+          "choices": [
+            "(1 ; 1)",
+            "(3 ; 3)",
+            "(3 ; 0)",
+            "(0 ; 3)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chaque tour +1+1, ×3."
+        },
+        {
+          "question": "Algorithme : 'tant que x > 0, x ← x − 2'. Si x = 6 au départ, valeur finale :",
+          "choices": [
+            "0 ou −1",
+            "−2",
+            "6",
+            "10"
+          ],
+          "correctIndex": 0,
+          "explanation": "6→4→2→0 (s'arrête). Valeur 0."
+        },
+        {
+          "question": "Algorithme : 'pour i de 1 à 5, ajouter i à S' (S=0 initial). Valeur finale de S :",
+          "choices": [
+            "25",
+            "15",
+            "5",
+            "10"
+          ],
+          "correctIndex": 1,
+          "explanation": "1+2+3+4+5 = 15."
+        },
+        {
+          "question": "Algorithme : 'pour i de 1 à 4, S ← S + 2' (S=0). Valeur de S :",
+          "choices": [
+            "10",
+            "2",
+            "8",
+            "4"
+          ],
+          "correctIndex": 2,
+          "explanation": "4 itérations × 2 = 8."
+        },
+        {
+          "question": "Programme tortue : avance 5, tourne 90° à droite, avance 5, tourne 90°… (4 fois). Figure :",
+          "choices": [
+            "Carré",
+            "Cercle",
+            "Pentagone",
+            "Triangle"
+          ],
+          "correctIndex": 0,
+          "explanation": "4 côtés et 4 angles droits."
+        },
+        {
+          "question": "Programme tortue : 3 répétitions de 'avance 4, tourne 120°'. Figure :",
+          "choices": [
+            "Carré",
+            "Hexagone",
+            "Triangle équilatéral",
+            "Ligne droite"
+          ],
+          "correctIndex": 2,
+          "explanation": "180−120 = 60 (angle ext.) ; 3 côtés égaux."
+        },
+        {
+          "question": "Programme tortue : 6 répétitions de 'avance 3, tourne 60°'. Figure :",
+          "choices": [
+            "Triangle",
+            "Hexagone régulier",
+            "Carré",
+            "Pentagone"
+          ],
+          "correctIndex": 1,
+          "explanation": "6 côtés, angles ext. 60°."
+        },
+        {
+          "question": "Si A=3 et B=A+5, puis A=A×2, valeur finale de A :",
+          "choices": [
+            "11",
+            "8",
+            "16",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "A devient 3×2 = 6 (B vaut 8 mais on demande A)."
+        },
+        {
+          "question": "Variable S = 0. On exécute 'S = S + 3' cinq fois. S final :",
+          "choices": [
+            "8",
+            "3",
+            "15",
+            "5"
+          ],
+          "correctIndex": 2,
+          "explanation": "5 × 3 = 15."
+        },
+        {
+          "question": "Programme : entrée x, sortie x² + 2x + 1. Pour x = 3 :",
+          "choices": [
+            "13",
+            "16",
+            "9",
+            "11"
+          ],
+          "correctIndex": 1,
+          "explanation": "9 + 6 + 1 = 16 (ou (3+1)²)."
+        }
+      ]
+    },
+    {
       "id": "pythagore",
       "title": "Théorème de Pythagore",
       "questions": [

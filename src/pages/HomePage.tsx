@@ -11,15 +11,13 @@ const DESIGN_COLORS: Record<string, string> = {
   francais: '#ff7a7a',
   'histoire-geo': '#ffc26a',
   sciences: '#7af0c2',
-  automatismes: '#22d3ee',
 }
 
 const SUBJECT_TAGS: Record<string, string> = {
-  maths: 'Algèbre · Géo · Stats',
+  maths: 'Calcul mental · Automatismes · Cours',
   francais: 'Grammaire · Texte · Brevet',
   'histoire-geo': '20e · Géopolitique · EMC',
   sciences: 'SVT · Physique · Techno',
-  automatismes: 'Réflexes · DNB 2026 · QCM',
 }
 
 // Bandeau marquee — extraits de thèmes Culture G

@@ -196,4 +196,9 @@ const SECTION_META: Record<string, SectionMeta> = {
     title: 'Calcul Mental',
     cssClass: 'banner-calcul-mental',
   },
+  automatismes: {
+    emoji: '🎯',
+    title: 'Automatismes — DNB 2026',
+    cssClass: 'banner-automatismes',
+  },
 }

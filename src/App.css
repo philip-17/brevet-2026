@@ -1217,6 +1217,91 @@
   color: #fde68a;
 }
 
+/* Bannière "Automatismes" — tech / officiel (cyan → bleu → violet) */
+.section-banner.banner-automatismes {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 211, 238, 0.22) 0%,
+    rgba(59, 130, 246, 0.2) 50%,
+    rgba(139, 92, 246, 0.22) 100%
+  );
+  background-size: 250% 250%;
+  border: 1.5px solid transparent;
+  animation: autoGradientShift 6s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(34, 211, 238, 0.22);
+}
+
+@keyframes autoGradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.section-banner.banner-automatismes::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    #22d3ee,
+    #3b82f6,
+    #8b5cf6,
+    #22d3ee
+  );
+  background-size: 300% 300%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: autoGradientShift 6s ease-in-out infinite;
+}
+
+/* Reflet électrique qui balaie la bannière */
+.section-banner.banner-automatismes::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -30%;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  pointer-events: none;
+  animation: flashSweep 6s ease-in-out infinite;
+}
+
+.section-banner.banner-automatismes .section-banner-emoji {
+  font-size: 42px;
+  animation: autoTarget 3s ease-in-out infinite;
+}
+
+@keyframes autoTarget {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.08) rotate(8deg); }
+  75% { transform: scale(1.08) rotate(-8deg); }
+}
+
+.section-banner.banner-automatismes .section-banner-title {
+  background: linear-gradient(135deg, #22d3ee, #60a5fa, #a78bfa);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: autoGradientShift 6s ease-in-out infinite;
+  font-size: 22px;
+}
+
+.section-banner.banner-automatismes .section-banner-subtitle {
+  color: #a5f3fc;
+}
+
 /* ====== Chapitre FLASH (calcul mental — bannière feu) ====== */
 
 .chapter-item.is-flash {

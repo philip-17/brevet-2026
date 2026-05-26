@@ -4,7 +4,6 @@ import francais from './francais.json'
 import histoireGeo from './histoire-geo.json'
 import sciences from './sciences.json'
 import cultureG from './culture-g.json'
-import automatismes from './automatismes.json'
 
 import mathsLessons from './maths-lessons.json'
 import francaisLessons from './francais-lessons.json'
@@ -18,7 +17,6 @@ export const SUBJECTS: Subject[] = [
   francais as Subject,
   histoireGeo as Subject,
   sciences as Subject,
-  automatismes as Subject,
   cultureG as Subject,
 ]
 
