@@ -8,6 +8,7 @@
       "id": "calcul-mental-multiplications",
       "title": "✖️ Multiplications — Calcul mental",
       "accent": "flash",
+      "section": "calcul-mental",
       "questions": [
         {
           "question": "Combien font 2 × 2 ?",
@@ -5515,6 +5516,7 @@
       "id": "calcul-mental-divisions",
       "title": "➗ Divisions — Calcul mental",
       "accent": "flash",
+      "section": "calcul-mental",
       "questions": [
         {
           "question": "Combien font 24 ÷ 6 ?",
@@ -7722,6 +7724,7 @@
       "id": "calcul-mental-additions",
       "title": "➕ Additions — Calcul mental",
       "accent": "flash",
+      "section": "calcul-mental",
       "questions": [
         {
           "question": "Combien font 3 + 8 ?",
@@ -9929,6 +9932,7 @@
       "id": "calcul-mental-soustractions",
       "title": "➖ Soustractions — Calcul mental",
       "accent": "flash",
+      "section": "calcul-mental",
       "questions": [
         {
           "question": "Combien font 4 - 3 ?",

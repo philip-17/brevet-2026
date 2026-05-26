@@ -93,39 +93,107 @@ export default function SubjectPage() {
 
       {!selectedChapter && (
         <>
-          <h2 className="section-title">Chapitres</h2>
-          <div className="chapter-list">
-            {subject.chapters.map((chap) => {
-              const prog = getChapterProgress(progress, subject.id, chap.id)
-              // accent prend le pas sur isNew. Fallback : isNew -> 'new'
-              const accent = chap.accent ?? (chap.isNew ? 'new' : undefined)
-              const accentClass = accent ? `is-${accent}` : ''
-              return (
-                <button
-                  key={chap.id}
-                  className={`chapter-item ${accentClass}`}
-                  onClick={() => setSelectedChapter(chap.id)}
-                >
-                  {accent === 'new' && (
-                    <span className="new-ribbon">NEW</span>
-                  )}
-                  {accent === 'flash' && (
-                    <span className="flash-ribbon">⚡ FLASH</span>
-                  )}
-                  <span className="title">{chap.title}</span>
-                  {prog.bestScore > 0 ? (
-                    <span className="badge success">
-                      🏆 {prog.bestScore}%
-                    </span>
-                  ) : (
-                    <span className="badge">{chap.questions.length} Q</span>
-                  )}
-                </button>
+          {/* Regrouper les chapitres par section. Les chapitres sans
+              section sont placés sous le groupe par défaut "Chapitres". */}
+          {(() => {
+            // Préserve l'ordre d'apparition des sections
+            const groups: { key: string; chapters: typeof subject.chapters }[] = []
+            const indexByKey = new Map<string, number>()
+            for (const chap of subject.chapters) {
+              const key = chap.section ?? '__default__'
+              if (!indexByKey.has(key)) {
+                indexByKey.set(key, groups.length)
+                groups.push({ key, chapters: [] })
+              }
+              groups[indexByKey.get(key)!].chapters.push(chap)
+            }
+
+            return groups.map((group) => {
+              const meta = SECTION_META[group.key] ?? DEFAULT_SECTION_META
+              const totalQ = group.chapters.reduce(
+                (a, c) => a + c.questions.length,
+                0
               )
-            })}
-          </div>
+              return (
+                <section key={group.key} className="chapter-section">
+                  <div className={`section-banner ${meta.cssClass}`}>
+                    <div className="section-banner-emoji">{meta.emoji}</div>
+                    <div className="section-banner-text">
+                      <div className="section-banner-title">{meta.title}</div>
+                      <div className="section-banner-subtitle">
+                        {group.chapters.length} sous-chapitre
+                        {group.chapters.length > 1 ? 's' : ''} ·{' '}
+                        {totalQ} questions
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="chapter-list">
+                    {group.chapters.map((chap) => {
+                      const prog = getChapterProgress(
+                        progress,
+                        subject.id,
+                        chap.id
+                      )
+                      const accent =
+                        chap.accent ?? (chap.isNew ? 'new' : undefined)
+                      const accentClass = accent ? `is-${accent}` : ''
+                      return (
+                        <button
+                          key={chap.id}
+                          className={`chapter-item ${accentClass}`}
+                          onClick={() => setSelectedChapter(chap.id)}
+                        >
+                          {accent === 'new' && (
+                            <span className="new-ribbon">NEW</span>
+                          )}
+                          {accent === 'flash' && (
+                            <span className="flash-ribbon">⚡ FLASH</span>
+                          )}
+                          <span className="title">{chap.title}</span>
+                          {prog.bestScore > 0 ? (
+                            <span className="badge success">
+                              🏆 {prog.bestScore}%
+                            </span>
+                          ) : (
+                            <span className="badge">
+                              {chap.questions.length} Q
+                            </span>
+                          )}
+                        </button>
+                      )
+                    })}
+                  </div>
+                </section>
+              )
+            })
+          })()}
         </>
       )}
     </>
   )
+}
+
+// ============================================================
+//  Métadonnées des sections (bannière)
+// ============================================================
+
+interface SectionMeta {
+  emoji: string
+  title: string
+  cssClass: string
+}
+
+const DEFAULT_SECTION_META: SectionMeta = {
+  emoji: '📚',
+  title: 'Chapitres du brevet',
+  cssClass: 'banner-default',
+}
+
+const SECTION_META: Record<string, SectionMeta> = {
+  'calcul-mental': {
+    emoji: '⚡',
+    title: 'Calcul Mental',
+    cssClass: 'banner-calcul-mental',
+  },
 }

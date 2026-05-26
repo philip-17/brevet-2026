@@ -1079,6 +1079,144 @@
   }
 }
 
+/* ====== Bannières de section (regroupent plusieurs chapitres) ====== */
+
+.chapter-section {
+  margin-bottom: 28px;
+}
+
+.chapter-section + .chapter-section {
+  margin-top: 28px;
+}
+
+.section-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-banner-emoji {
+  font-size: 38px;
+  line-height: 1;
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+}
+
+.section-banner-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.section-banner-title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: #f4f4f8;
+}
+
+.section-banner-subtitle {
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.04em;
+  margin-top: 4px;
+  opacity: 0.85;
+}
+
+/* Bannière par défaut — sobre */
+.section-banner.banner-default {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.section-banner.banner-default .section-banner-subtitle {
+  color: rgba(244, 244, 248, 0.55);
+}
+
+/* Bannière "Calcul Mental" — feu animé orange→rouge→jaune */
+.section-banner.banner-calcul-mental {
+  background: linear-gradient(
+    135deg,
+    rgba(251, 146, 60, 0.25) 0%,
+    rgba(239, 68, 68, 0.22) 50%,
+    rgba(250, 204, 21, 0.25) 100%
+  );
+  background-size: 250% 250%;
+  border: 1.5px solid transparent;
+  animation: flashGradientShift 5s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(251, 146, 60, 0.25);
+}
+
+.section-banner.banner-calcul-mental::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    #fb923c,
+    #ef4444,
+    #facc15,
+    #fb923c
+  );
+  background-size: 300% 300%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: flashGradientShift 5s ease-in-out infinite;
+}
+
+/* Reflet qui balaie la bannière */
+.section-banner.banner-calcul-mental::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -30%;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+  pointer-events: none;
+  animation: flashSweep 5s ease-in-out infinite;
+}
+
+.section-banner.banner-calcul-mental .section-banner-emoji {
+  font-size: 42px;
+  animation: emojiBounce 2s ease-in-out infinite;
+}
+
+@keyframes emojiBounce {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.15) rotate(-5deg); }
+}
+
+.section-banner.banner-calcul-mental .section-banner-title {
+  background: linear-gradient(135deg, #fb923c, #ef4444, #facc15);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: flashGradientShift 5s ease-in-out infinite;
+  font-size: 22px;
+}
+
+.section-banner.banner-calcul-mental .section-banner-subtitle {
+  color: #fde68a;
+}
+
 /* ====== Chapitre FLASH (calcul mental — bannière feu) ====== */
 
 .chapter-item.is-flash {

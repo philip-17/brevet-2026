@@ -19,6 +19,11 @@ export interface Chapter {
    * - 'flash': bannière "⚡ FLASH" feu (orange→rouge→jaune) — pour les
    *            chapitres type calcul mental, entraînement rapide */
   accent?: 'new' | 'flash'
+  /** Groupe d'appartenance du chapitre dans la matière (pour afficher
+   * une grande bannière de section au-dessus du groupe).
+   * Ex: 'calcul-mental' regroupe ✖️ × ➗ ÷ ➕ + ➖ −
+   * Si absent, le chapitre apparaît dans le groupe "Chapitres" par défaut. */
+  section?: string
 }
 
 export interface Subject {

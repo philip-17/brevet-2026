@@ -274,6 +274,7 @@ const newChapters = CALC_MENTAL.map((meta) => {
     id: meta.id,
     title: meta.title,
     accent: 'flash',
+    section: 'calcul-mental',
     questions,
   }
 })
