@@ -1,0 +1,2607 @@
+{
+  "titre": "Calcul mental — Soustractions",
+  "niveau": "Calcul mental",
+  "type": "QCM chronométré",
+  "questions": [
+    {
+      "id": 1,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 4 - 3 ?",
+      "propositions": [
+        "21",
+        "2",
+        "10",
+        "1"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 2,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 7 ?",
+      "propositions": [
+        "20",
+        "0",
+        "9",
+        "1"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 3,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 1 - 1 ?",
+      "propositions": [
+        "11",
+        "10",
+        "20",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 4,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 4 - 2 ?",
+      "propositions": [
+        "22",
+        "12",
+        "20",
+        "2"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 5,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 2 - 2 ?",
+      "propositions": [
+        "2",
+        "0",
+        "9",
+        "10"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 6,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 8 ?",
+      "propositions": [
+        "12",
+        "2",
+        "10",
+        "1"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 7,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 6 - 1 ?",
+      "propositions": [
+        "5",
+        "15",
+        "7",
+        "14"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 8,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 6 ?",
+      "propositions": [
+        "2",
+        "4",
+        "13",
+        "3"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 9,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 1 ?",
+      "propositions": [
+        "16",
+        "17",
+        "7",
+        "6"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 10,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 4 - 1 ?",
+      "propositions": [
+        "3",
+        "2",
+        "14",
+        "5"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 11,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 9 ?",
+      "propositions": [
+        "9",
+        "0",
+        "18",
+        "20"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 12,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 1 ?",
+      "propositions": [
+        "26",
+        "28",
+        "8",
+        "6"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 13,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 3 - 3 ?",
+      "propositions": [
+        "10",
+        "1",
+        "18",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 14,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 5 - 1 ?",
+      "propositions": [
+        "4",
+        "13",
+        "6",
+        "14"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 15,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 4 ?",
+      "propositions": [
+        "2",
+        "3",
+        "14",
+        "13"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 16,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 6 - 5 ?",
+      "propositions": [
+        "19",
+        "21",
+        "11",
+        "1"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 17,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 6 - 6 ?",
+      "propositions": [
+        "20",
+        "18",
+        "10",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 18,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 6 ?",
+      "propositions": [
+        "14",
+        "3",
+        "21",
+        "1"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 19,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 5 - 5 ?",
+      "propositions": [
+        "11",
+        "0",
+        "9",
+        "18"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 20,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 3 ?",
+      "propositions": [
+        "6",
+        "5",
+        "14",
+        "15"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 21,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 4 - 4 ?",
+      "propositions": [
+        "1",
+        "9",
+        "20",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 22,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 5 ?",
+      "propositions": [
+        "22",
+        "2",
+        "3",
+        "11"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 23,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 5 - 4 ?",
+      "propositions": [
+        "2",
+        "21",
+        "3",
+        "1"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 24,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 3 - 2 ?",
+      "propositions": [
+        "19",
+        "1",
+        "11",
+        "2"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 25,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 3 ?",
+      "propositions": [
+        "15",
+        "4",
+        "6",
+        "22"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 26,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 2 - 1 ?",
+      "propositions": [
+        "11",
+        "1",
+        "21",
+        "3"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 27,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 5 - 2 ?",
+      "propositions": [
+        "2",
+        "3",
+        "5",
+        "1"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 28,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 3 - 1 ?",
+      "propositions": [
+        "1",
+        "2",
+        "3",
+        "11"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 29,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 7 ?",
+      "propositions": [
+        "3",
+        "19",
+        "1",
+        "12"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 30,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 5 ?",
+      "propositions": [
+        "3",
+        "13",
+        "12",
+        "2"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 31,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 6 ?",
+      "propositions": [
+        "10",
+        "1",
+        "12",
+        "19"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 32,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 5 - 3 ?",
+      "propositions": [
+        "2",
+        "13",
+        "4",
+        "3"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 33,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 3 ?",
+      "propositions": [
+        "7",
+        "6",
+        "5",
+        "17"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 34,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 6 - 4 ?",
+      "propositions": [
+        "20",
+        "2",
+        "12",
+        "11"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 35,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 4 ?",
+      "propositions": [
+        "5",
+        "4",
+        "6",
+        "24"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 36,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 1 ?",
+      "propositions": [
+        "24",
+        "6",
+        "16",
+        "26"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 37,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 4 ?",
+      "propositions": [
+        "15",
+        "25",
+        "7",
+        "5"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 38,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 9 - 5 ?",
+      "propositions": [
+        "6",
+        "24",
+        "4",
+        "15"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 39,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 8 - 8 ?",
+      "propositions": [
+        "9",
+        "18",
+        "1",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 40,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 1 — 1 chiffre - 1 chiffre",
+      "question": "Combien font 7 - 2 ?",
+      "propositions": [
+        "16",
+        "5",
+        "3",
+        "15"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 41,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 65 - 3 ?",
+      "propositions": [
+        "42",
+        "62",
+        "44",
+        "53"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 42,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 43 - 7 ?",
+      "propositions": [
+        "36",
+        "56",
+        "34",
+        "45"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 43,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 87 - 5 ?",
+      "propositions": [
+        "71",
+        "62",
+        "82",
+        "102"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 44,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 91 - 8 ?",
+      "propositions": [
+        "83",
+        "81",
+        "101",
+        "73"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 45,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 63 - 3 ?",
+      "propositions": [
+        "60",
+        "58",
+        "71",
+        "40"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 46,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 85 - 4 ?",
+      "propositions": [
+        "83",
+        "61",
+        "70",
+        "81"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 47,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 60 - 9 ?",
+      "propositions": [
+        "71",
+        "51",
+        "42",
+        "31"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 48,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 46 - 3 ?",
+      "propositions": [
+        "63",
+        "23",
+        "52",
+        "43"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 49,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 65 - 9 ?",
+      "propositions": [
+        "66",
+        "56",
+        "45",
+        "58"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 50,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 56 - 2 ?",
+      "propositions": [
+        "65",
+        "44",
+        "54",
+        "74"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 51,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 72 - 8 ?",
+      "propositions": [
+        "74",
+        "54",
+        "84",
+        "64"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 52,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 34 - 7 ?",
+      "propositions": [
+        "28",
+        "18",
+        "25",
+        "27"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 53,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 71 - 1 ?",
+      "propositions": [
+        "68",
+        "71",
+        "59",
+        "70"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 54,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 21 - 1 ?",
+      "propositions": [
+        "20",
+        "29",
+        "18",
+        "19"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 55,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 26 - 8 ?",
+      "propositions": [
+        "20",
+        "8",
+        "9",
+        "18"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 56,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 19 - 1 ?",
+      "propositions": [
+        "18",
+        "19",
+        "16",
+        "36"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 57,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 96 - 6 ?",
+      "propositions": [
+        "81",
+        "99",
+        "79",
+        "90"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 58,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 96 - 3 ?",
+      "propositions": [
+        "82",
+        "93",
+        "113",
+        "75"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 59,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 11 - 4 ?",
+      "propositions": [
+        "7",
+        "9",
+        "18",
+        "16"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 60,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 79 - 8 ?",
+      "propositions": [
+        "80",
+        "70",
+        "71",
+        "51"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 61,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 30 - 2 ?",
+      "propositions": [
+        "19",
+        "30",
+        "17",
+        "28"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 62,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 26 - 2 ?",
+      "propositions": [
+        "35",
+        "33",
+        "24",
+        "14"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 63,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 83 - 1 ?",
+      "propositions": [
+        "64",
+        "83",
+        "82",
+        "72"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 64,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 91 - 5 ?",
+      "propositions": [
+        "84",
+        "86",
+        "95",
+        "76"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 65,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 55 - 7 ?",
+      "propositions": [
+        "48",
+        "39",
+        "58",
+        "30"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 66,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 31 - 5 ?",
+      "propositions": [
+        "15",
+        "26",
+        "25",
+        "36"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 67,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 44 - 7 ?",
+      "propositions": [
+        "47",
+        "57",
+        "37",
+        "48"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 68,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 98 - 3 ?",
+      "propositions": [
+        "95",
+        "75",
+        "115",
+        "106"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 69,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 29 - 1 ?",
+      "propositions": [
+        "27",
+        "18",
+        "19",
+        "28"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 70,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 22 - 7 ?",
+      "propositions": [
+        "13",
+        "14",
+        "6",
+        "15"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 71,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 53 - 7 ?",
+      "propositions": [
+        "35",
+        "46",
+        "64",
+        "37"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 72,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 62 - 4 ?",
+      "propositions": [
+        "59",
+        "47",
+        "58",
+        "68"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 73,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 90 - 4 ?",
+      "propositions": [
+        "86",
+        "88",
+        "97",
+        "76"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 74,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 87 - 4 ?",
+      "propositions": [
+        "85",
+        "63",
+        "93",
+        "83"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 75,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 14 - 9 ?",
+      "propositions": [
+        "3",
+        "5",
+        "23",
+        "4"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 76,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 29 - 5 ?",
+      "propositions": [
+        "4",
+        "24",
+        "42",
+        "14"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 77,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 34 - 3 ?",
+      "propositions": [
+        "31",
+        "11",
+        "30",
+        "41"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 78,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 59 - 3 ?",
+      "propositions": [
+        "54",
+        "58",
+        "67",
+        "56"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 79,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 51 - 4 ?",
+      "propositions": [
+        "48",
+        "38",
+        "45",
+        "47"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 80,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 2 — 2 chiffres - 1",
+      "question": "Combien font 96 - 9 ?",
+      "propositions": [
+        "87",
+        "69",
+        "88",
+        "76"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 81,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 50 - 28 ?",
+      "propositions": [
+        "13",
+        "42",
+        "22",
+        "4"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 82,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 55 - 36 ?",
+      "propositions": [
+        "1",
+        "9",
+        "10",
+        "19"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 83,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 47 - 24 ?",
+      "propositions": [
+        "23",
+        "24",
+        "13",
+        "41"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 84,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 43 - 28 ?",
+      "propositions": [
+        "26",
+        "5",
+        "15",
+        "4"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 85,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 68 - 32 ?",
+      "propositions": [
+        "26",
+        "36",
+        "27",
+        "46"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 86,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 72 - 64 ?",
+      "propositions": [
+        "6",
+        "7",
+        "8",
+        "18"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 87,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 87 - 46 ?",
+      "propositions": [
+        "41",
+        "32",
+        "43",
+        "30"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 88,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 28 - 20 ?",
+      "propositions": [
+        "8",
+        "10",
+        "17",
+        "18"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 89,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 57 - 57 ?",
+      "propositions": [
+        "11",
+        "9",
+        "2",
+        "0"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 90,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 72 - 57 ?",
+      "propositions": [
+        "4",
+        "15",
+        "26",
+        "33"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 91,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 45 - 31 ?",
+      "propositions": [
+        "13",
+        "16",
+        "34",
+        "14"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 92,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 35 - 24 ?",
+      "propositions": [
+        "22",
+        "29",
+        "11",
+        "12"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 93,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 60 - 41 ?",
+      "propositions": [
+        "19",
+        "29",
+        "30",
+        "39"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 94,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 46 - 30 ?",
+      "propositions": [
+        "16",
+        "7",
+        "17",
+        "26"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 95,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 28 - 26 ?",
+      "propositions": [
+        "13",
+        "12",
+        "2",
+        "3"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 96,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 66 - 16 ?",
+      "propositions": [
+        "39",
+        "51",
+        "50",
+        "59"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 97,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 83 - 60 ?",
+      "propositions": [
+        "12",
+        "23",
+        "32",
+        "41"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 98,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 92 - 59 ?",
+      "propositions": [
+        "22",
+        "44",
+        "34",
+        "33"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 99,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 65 - 55 ?",
+      "propositions": [
+        "9",
+        "28",
+        "20",
+        "10"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 100,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 92 - 56 ?",
+      "propositions": [
+        "37",
+        "26",
+        "36",
+        "25"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 101,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 94 - 62 ?",
+      "propositions": [
+        "50",
+        "52",
+        "32",
+        "31"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 102,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 61 - 60 ?",
+      "propositions": [
+        "10",
+        "12",
+        "2",
+        "1"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 103,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 72 - 10 ?",
+      "propositions": [
+        "61",
+        "62",
+        "82",
+        "64"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 104,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 25 - 17 ?",
+      "propositions": [
+        "28",
+        "17",
+        "8",
+        "26"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 105,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 48 - 38 ?",
+      "propositions": [
+        "30",
+        "10",
+        "1",
+        "12"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 106,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 60 - 19 ?",
+      "propositions": [
+        "41",
+        "23",
+        "43",
+        "40"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 107,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 43 - 35 ?",
+      "propositions": [
+        "17",
+        "8",
+        "9",
+        "10"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 108,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 54 - 43 ?",
+      "propositions": [
+        "11",
+        "31",
+        "2",
+        "10"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 109,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 52 - 50 ?",
+      "propositions": [
+        "3",
+        "12",
+        "2",
+        "11"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 110,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 37 - 12 ?",
+      "propositions": [
+        "25",
+        "24",
+        "7",
+        "34"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 111,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 21 - 19 ?",
+      "propositions": [
+        "2",
+        "22",
+        "12",
+        "11"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 112,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 40 - 15 ?",
+      "propositions": [
+        "25",
+        "35",
+        "7",
+        "43"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 113,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 36 - 20 ?",
+      "propositions": [
+        "16",
+        "18",
+        "14",
+        "6"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 114,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 31 - 18 ?",
+      "propositions": [
+        "13",
+        "31",
+        "4",
+        "2"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 115,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 63 - 32 ?",
+      "propositions": [
+        "20",
+        "21",
+        "31",
+        "29"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 116,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 81 - 57 ?",
+      "propositions": [
+        "24",
+        "44",
+        "34",
+        "23"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 117,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 45 - 39 ?",
+      "propositions": [
+        "6",
+        "26",
+        "15",
+        "4"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 118,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 36 - 17 ?",
+      "propositions": [
+        "9",
+        "19",
+        "21",
+        "1"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 119,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 82 - 60 ?",
+      "propositions": [
+        "2",
+        "11",
+        "22",
+        "23"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 120,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 3 — 2 chiffres - 2",
+      "question": "Combien font 72 - 12 ?",
+      "propositions": [
+        "60",
+        "40",
+        "50",
+        "69"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 121,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 647 - 377 ?",
+      "propositions": [
+        "269",
+        "252",
+        "270",
+        "259"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 122,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 558 - 512 ?",
+      "propositions": [
+        "57",
+        "46",
+        "66",
+        "55"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 123,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 739 - 64 ?",
+      "propositions": [
+        "677",
+        "675",
+        "686",
+        "657"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 124,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 157 - 139 ?",
+      "propositions": [
+        "20",
+        "9",
+        "18",
+        "27"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 125,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 155 - 138 ?",
+      "propositions": [
+        "6",
+        "8",
+        "17",
+        "35"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 126,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 257 - 217 ?",
+      "propositions": [
+        "22",
+        "39",
+        "40",
+        "41"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 127,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 745 - 704 ?",
+      "propositions": [
+        "52",
+        "41",
+        "30",
+        "43"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 128,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 919 - 816 ?",
+      "propositions": [
+        "113",
+        "103",
+        "83",
+        "104"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 129,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 231 - 168 ?",
+      "propositions": [
+        "65",
+        "64",
+        "63",
+        "62"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 130,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 535 - 494 ?",
+      "propositions": [
+        "59",
+        "42",
+        "52",
+        "41"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 131,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 500 - 481 ?",
+      "propositions": [
+        "19",
+        "1",
+        "29",
+        "9"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 132,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 367 - 139 ?",
+      "propositions": [
+        "228",
+        "230",
+        "218",
+        "227"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 133,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 451 - 208 ?",
+      "propositions": [
+        "243",
+        "223",
+        "244",
+        "233"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 134,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 692 - 294 ?",
+      "propositions": [
+        "398",
+        "389",
+        "418",
+        "407"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 135,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 413 - 161 ?",
+      "propositions": [
+        "262",
+        "242",
+        "252",
+        "232"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 136,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 952 - 934 ?",
+      "propositions": [
+        "16",
+        "18",
+        "19",
+        "8"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 137,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 672 - 542 ?",
+      "propositions": [
+        "140",
+        "110",
+        "128",
+        "130"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 138,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 266 - 145 ?",
+      "propositions": [
+        "121",
+        "123",
+        "101",
+        "112"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 139,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 224 - 130 ?",
+      "propositions": [
+        "112",
+        "95",
+        "94",
+        "93"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 140,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 441 - 418 ?",
+      "propositions": [
+        "25",
+        "14",
+        "22",
+        "23"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 141,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 654 - 361 ?",
+      "propositions": [
+        "313",
+        "293",
+        "273",
+        "304"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 142,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 595 - 168 ?",
+      "propositions": [
+        "427",
+        "418",
+        "426",
+        "437"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 143,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 266 - 169 ?",
+      "propositions": [
+        "87",
+        "99",
+        "97",
+        "95"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 144,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 791 - 109 ?",
+      "propositions": [
+        "671",
+        "683",
+        "664",
+        "682"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 145,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 882 - 756 ?",
+      "propositions": [
+        "126",
+        "136",
+        "127",
+        "135"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 146,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 715 - 513 ?",
+      "propositions": [
+        "191",
+        "211",
+        "202",
+        "204"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 147,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 161 - 67 ?",
+      "propositions": [
+        "74",
+        "92",
+        "94",
+        "83"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 148,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 644 - 194 ?",
+      "propositions": [
+        "441",
+        "450",
+        "440",
+        "432"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 149,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 695 - 240 ?",
+      "propositions": [
+        "454",
+        "457",
+        "455",
+        "475"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 150,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 183 - 115 ?",
+      "propositions": [
+        "68",
+        "48",
+        "66",
+        "57"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 151,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 204 - 61 ?",
+      "propositions": [
+        "141",
+        "125",
+        "161",
+        "143"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 152,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 788 - 293 ?",
+      "propositions": [
+        "477",
+        "495",
+        "496",
+        "515"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 153,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 822 - 800 ?",
+      "propositions": [
+        "32",
+        "22",
+        "21",
+        "13"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 154,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 886 - 582 ?",
+      "propositions": [
+        "304",
+        "306",
+        "303",
+        "324"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 155,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 159 - 119 ?",
+      "propositions": [
+        "31",
+        "40",
+        "58",
+        "29"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 156,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 894 - 256 ?",
+      "propositions": [
+        "648",
+        "658",
+        "638",
+        "629"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 157,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 439 - 371 ?",
+      "propositions": [
+        "68",
+        "50",
+        "48",
+        "77"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 158,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 880 - 631 ?",
+      "propositions": [
+        "260",
+        "250",
+        "248",
+        "249"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 159,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 806 - 166 ?",
+      "propositions": [
+        "640",
+        "622",
+        "639",
+        "649"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 160,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 4 — 3 chiffres - 2 ou 3",
+      "question": "Combien font 333 - 154 ?",
+      "propositions": [
+        "190",
+        "178",
+        "179",
+        "188"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 161,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 2139 - 1663 ?",
+      "propositions": [
+        "476",
+        "466",
+        "485",
+        "487"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 162,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4011 - 3736 ?",
+      "propositions": [
+        "274",
+        "275",
+        "285",
+        "276"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 163,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 3049 - 2342 ?",
+      "propositions": [
+        "727",
+        "697",
+        "707",
+        "705"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 164,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 8416 - 3010 ?",
+      "propositions": [
+        "5395",
+        "5416",
+        "5406",
+        "5405"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 165,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 6924 - 1115 ?",
+      "propositions": [
+        "5799",
+        "5809",
+        "5808",
+        "5827"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 166,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9416 - 8146 ?",
+      "propositions": [
+        "1270",
+        "1259",
+        "1281",
+        "1261"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 167,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 2157 - 764 ?",
+      "propositions": [
+        "1393",
+        "1383",
+        "1404",
+        "1384"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 168,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 3999 - 3225 ?",
+      "propositions": [
+        "773",
+        "763",
+        "764",
+        "774"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 169,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4869 - 534 ?",
+      "propositions": [
+        "4335",
+        "4336",
+        "4333",
+        "4325"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 170,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5621 - 3367 ?",
+      "propositions": [
+        "2254",
+        "2252",
+        "2272",
+        "2245"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 171,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5268 - 3001 ?",
+      "propositions": [
+        "2267",
+        "2285",
+        "2257",
+        "2258"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 172,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 8907 - 8770 ?",
+      "propositions": [
+        "119",
+        "138",
+        "137",
+        "135"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 173,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4156 - 2303 ?",
+      "propositions": [
+        "1844",
+        "1862",
+        "1851",
+        "1853"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 174,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9043 - 2727 ?",
+      "propositions": [
+        "6316",
+        "6334",
+        "6305",
+        "6298"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 175,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 6785 - 2053 ?",
+      "propositions": [
+        "4734",
+        "4732",
+        "4722",
+        "4731"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 176,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 3937 - 742 ?",
+      "propositions": [
+        "3195",
+        "3177",
+        "3204",
+        "3184"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 177,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 7288 - 5711 ?",
+      "propositions": [
+        "1595",
+        "1587",
+        "1577",
+        "1578"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 178,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4491 - 2679 ?",
+      "propositions": [
+        "1821",
+        "1801",
+        "1803",
+        "1812"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 179,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5887 - 4793 ?",
+      "propositions": [
+        "1094",
+        "1105",
+        "1095",
+        "1084"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 180,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9270 - 4362 ?",
+      "propositions": [
+        "4918",
+        "4908",
+        "4926",
+        "4906"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 181,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 7410 - 6306 ?",
+      "propositions": [
+        "1122",
+        "1124",
+        "1084",
+        "1104"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 182,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9725 - 8673 ?",
+      "propositions": [
+        "1050",
+        "1052",
+        "1062",
+        "1043"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 183,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4361 - 2378 ?",
+      "propositions": [
+        "1983",
+        "2003",
+        "1984",
+        "1974"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 184,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4308 - 3037 ?",
+      "propositions": [
+        "1251",
+        "1272",
+        "1271",
+        "1269"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 185,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4615 - 2260 ?",
+      "propositions": [
+        "2345",
+        "2355",
+        "2337",
+        "2366"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 186,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 7061 - 6239 ?",
+      "propositions": [
+        "822",
+        "813",
+        "811",
+        "821"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 187,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9243 - 760 ?",
+      "propositions": [
+        "8501",
+        "8493",
+        "8485",
+        "8483"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 188,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 4177 - 3367 ?",
+      "propositions": [
+        "810",
+        "790",
+        "821",
+        "800"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 189,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5676 - 745 ?",
+      "propositions": [
+        "4930",
+        "4949",
+        "4911",
+        "4931"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 190,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5476 - 5213 ?",
+      "propositions": [
+        "272",
+        "281",
+        "262",
+        "263"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 191,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 9741 - 7068 ?",
+      "propositions": [
+        "2655",
+        "2673",
+        "2664",
+        "2682"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 192,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 8441 - 2101 ?",
+      "propositions": [
+        "6340",
+        "6350",
+        "6351",
+        "6349"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 193,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 6551 - 3646 ?",
+      "propositions": [
+        "2905",
+        "2885",
+        "2904",
+        "2887"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 194,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 6188 - 4872 ?",
+      "propositions": [
+        "1325",
+        "1296",
+        "1316",
+        "1314"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 195,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 6185 - 2683 ?",
+      "propositions": [
+        "3491",
+        "3502",
+        "3500",
+        "3482"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 196,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 3717 - 3274 ?",
+      "propositions": [
+        "434",
+        "463",
+        "443",
+        "423"
+      ],
+      "bonneReponse": 2
+    },
+    {
+      "id": 197,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 8953 - 4570 ?",
+      "propositions": [
+        "4385",
+        "4372",
+        "4392",
+        "4383"
+      ],
+      "bonneReponse": 3
+    },
+    {
+      "id": 198,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 5309 - 3114 ?",
+      "propositions": [
+        "2177",
+        "2195",
+        "2205",
+        "2184"
+      ],
+      "bonneReponse": 1
+    },
+    {
+      "id": 199,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 7937 - 7021 ?",
+      "propositions": [
+        "916",
+        "907",
+        "898",
+        "927"
+      ],
+      "bonneReponse": 0
+    },
+    {
+      "id": 200,
+      "matiere": "Mathématiques",
+      "theme": "Niveau 5 — Gros nombres",
+      "question": "Combien font 7182 - 1572 ?",
+      "propositions": [
+        "5590",
+        "5619",
+        "5611",
+        "5610"
+      ],
+      "bonneReponse": 3
+    }
+  ]
+}

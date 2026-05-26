@@ -13,6 +13,12 @@ export interface Chapter {
   questions: Question[]
   isNew?: boolean
   emoji?: string
+  /** Style visuel spécial du chapitre :
+   * - 'new'  : ruban "NEW" doré (orange→rose→violet) — pour les chapitres
+   *            fraîchement ajoutés
+   * - 'flash': bannière "⚡ FLASH" feu (orange→rouge→jaune) — pour les
+   *            chapitres type calcul mental, entraînement rapide */
+  accent?: 'new' | 'flash'
 }
 
 export interface Subject {

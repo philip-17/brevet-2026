@@ -97,13 +97,21 @@ export default function SubjectPage() {
           <div className="chapter-list">
             {subject.chapters.map((chap) => {
               const prog = getChapterProgress(progress, subject.id, chap.id)
+              // accent prend le pas sur isNew. Fallback : isNew -> 'new'
+              const accent = chap.accent ?? (chap.isNew ? 'new' : undefined)
+              const accentClass = accent ? `is-${accent}` : ''
               return (
                 <button
                   key={chap.id}
-                  className={`chapter-item ${chap.isNew ? 'is-new' : ''}`}
+                  className={`chapter-item ${accentClass}`}
                   onClick={() => setSelectedChapter(chap.id)}
                 >
-                  {chap.isNew && <span className="new-ribbon">NEW</span>}
+                  {accent === 'new' && (
+                    <span className="new-ribbon">NEW</span>
+                  )}
+                  {accent === 'flash' && (
+                    <span className="flash-ribbon">⚡ FLASH</span>
+                  )}
                   <span className="title">{chap.title}</span>
                   {prog.bestScore > 0 ? (
                     <span className="badge success">
