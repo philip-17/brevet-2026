@@ -3296,38 +3296,154 @@
   }
 }
 
-/* ─── iPad paysage / grandes tablettes ─── */
+/* ─── iPad Pro portrait & grandes tablettes (>=1024px) ─── */
 @media (min-width: 1024px) {
-  /* Landing : colonne encore un peu plus large + grille matières 2x2 */
+  /* Landing : colonne large + grille matières 2x2 */
   .bb-hero,
   .bb-section,
   .bb-transition {
-    max-width: 680px;
+    max-width: 760px;
+  }
+
+  /* Hero plus imposant */
+  .bb-headline {
+    font-size: 80px;
+  }
+  .bb-sub {
+    font-size: 17px;
+    max-width: 460px;
+  }
+
+  /* Titres de section plus grands */
+  .bb-section-title {
+    font-size: 60px;
+  }
+  .bb-section-lead {
+    font-size: 16px;
+    max-width: 460px;
   }
 
   /* Les 4 matières du brevet en grille 2x2 (au lieu d'une colonne) */
   .bb-subjects-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 14px;
+    gap: 16px;
+  }
+  .bb-subject-card {
+    padding: 22px 20px;
+  }
+  .bb-subject-emoji {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+  }
+  .bb-subject-label {
+    font-size: 18px;
   }
 
   /* Univers Culture G : 4 colonnes sur grand écran */
   .bb-univ-grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
+  .bb-univ-emoji {
+    font-size: 32px;
+  }
+  .bb-univ-label {
+    font-size: 11px;
   }
 
   /* Pages intérieures : largeur max plus généreuse */
   .app-shell {
-    max-width: 920px;
+    max-width: 960px;
   }
 
-  /* Les sélecteurs de mode (Cours / Quiz / Flashcards) plus espacés */
+  /* Contenu de lecture : plus large mais toujours lisible */
+  .quiz-card,
+  .flashcard,
+  .result-card,
+  .lesson,
+  .audio-bar,
+  .voice-panel,
+  .quiz-progress,
   .mode-row,
   .mode-row-3 {
-    max-width: 680px;
+    max-width: 760px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /* Texte des questions / chapitres plus grand */
+  .question {
+    font-size: 23px;
+  }
+  .choice {
+    font-size: 17px;
+    padding: 16px 18px;
+  }
+  .chapter-item .title {
+    font-size: 16px;
+  }
+  .flashcard {
+    min-height: 380px;
+  }
+  .flashcard .content {
+    font-size: 22px;
+  }
+}
+
+/* ─── iPad Pro paysage / très grands écrans (>=1280px) ─── */
+@media (min-width: 1280px) {
+  /* Landing encore plus large + hero XXL */
+  .bb-hero,
+  .bb-section,
+  .bb-transition {
+    max-width: 860px;
+  }
+  .bb-headline {
+    font-size: 92px;
+  }
+  .bb-sub {
+    font-size: 18px;
+    max-width: 520px;
+  }
+  .bb-section-title {
+    font-size: 68px;
+  }
+  .bb-section-lead {
+    font-size: 17px;
+    max-width: 520px;
+  }
+
+  /* Univers Culture G : 5 colonnes */
+  .bb-univ-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  /* Pages intérieures : on remplit bien la largeur de l'iPad Pro */
+  .app-shell {
+    max-width: 1120px;
+  }
+
+  /* Liste de chapitres sur 3 colonnes (au lieu de 2) */
+  .chapter-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* Contenu de lecture un peu plus large */
+  .quiz-card,
+  .flashcard,
+  .result-card,
+  .lesson,
+  .audio-bar,
+  .voice-panel,
+  .quiz-progress,
+  .mode-row,
+  .mode-row-3 {
+    max-width: 820px;
+  }
+  .question {
+    font-size: 25px;
   }
 }
 
