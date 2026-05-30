@@ -3243,6 +3243,94 @@
   }
 }
 
+/* ════════════════════════════════════════════════════════════════
+   📱➜🖥️  TABLETTE / iPad — adaptation de l'interface
+   ════════════════════════════════════════════════════════════════ */
+
+/* ─── iPad portrait (et petites tablettes) ─── */
+@media (min-width: 768px) {
+  /* Landing : on élargit la colonne pour ne plus avoir un ruban étroit */
+  .bb-hero,
+  .bb-section,
+  .bb-transition {
+    max-width: 600px;
+  }
+
+  /* Pages intérieures : un peu plus large, plus aéré */
+  .app-shell {
+    max-width: 800px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  /* Liste de chapitres sur 2 colonnes pour exploiter la largeur */
+  .chapter-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  /* Le contenu "lecture" (quiz, flashcard, leçon, résultat) reste à une
+     largeur confortable et centrée — pas étiré sur toute la largeur */
+  .quiz-card,
+  .flashcard,
+  .result-card,
+  .lesson,
+  .audio-bar,
+  .voice-panel {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* La barre de progression du quiz suit la même largeur */
+  .quiz-progress {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Titres un poil plus grands sur tablette */
+  .question {
+    font-size: 21px;
+  }
+}
+
+/* ─── iPad paysage / grandes tablettes ─── */
+@media (min-width: 1024px) {
+  /* Landing : colonne encore un peu plus large + grille matières 2x2 */
+  .bb-hero,
+  .bb-section,
+  .bb-transition {
+    max-width: 680px;
+  }
+
+  /* Les 4 matières du brevet en grille 2x2 (au lieu d'une colonne) */
+  .bb-subjects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+
+  /* Univers Culture G : 4 colonnes sur grand écran */
+  .bb-univ-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Pages intérieures : largeur max plus généreuse */
+  .app-shell {
+    max-width: 920px;
+  }
+
+  /* Les sélecteurs de mode (Cours / Quiz / Flashcards) plus espacés */
+  .mode-row,
+  .mode-row-3 {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* ====== Reduced motion ====== */
 
 @media (prefers-reduced-motion: reduce) {
