@@ -6,6 +6,7 @@ import FlashcardsPage from './pages/FlashcardsPage'
 import StatsPage from './pages/StatsPage'
 import CultureGPage from './pages/CultureGPage'
 import LessonPage from './pages/LessonPage'
+import ExamPage from './pages/ExamPage'
 import './App.css'
 
 export default function App() {
@@ -21,6 +22,14 @@ export default function App() {
         }
       />
       <Route path="/culture-g" element={<CultureGPage />} />
+      <Route
+        path="/exam"
+        element={
+          <div className="app-shell">
+            <ExamPage />
+          </div>
+        }
+      />
       <Route
         path="/subject/:subjectId"
         element={

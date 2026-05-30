@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { getChapter } from '../data'
 import { recordQuizResult } from '../storage/progress'
+import { recordDailyActivity } from '../storage/daily'
 import { shuffle, shuffleQuestionChoices } from '../utils/shuffle'
 
 export default function QuizPage() {
@@ -63,6 +64,8 @@ export default function QuizPage() {
         total: questions.length,
         correct: score,
       })
+      // Compte les questions du jour pour le streak / objectif quotidien
+      recordDailyActivity(questions.length)
       setFinished(true)
     } else {
       setIndex((i) => i + 1)

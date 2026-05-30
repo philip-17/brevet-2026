@@ -1,6 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { BREVET_SUBJECTS, CULTURE_G } from '../data'
+import {
+  loadDailyStats,
+  setDailyGoal,
+  DAILY_GOAL_OPTIONS,
+} from '../storage/daily'
 
 // ============================================================
 //  Couleurs et données du design (fidèle au prototype Claude Design)
@@ -525,6 +530,76 @@ function SubjectCard({ s, index }: { s: typeof BREVET_SUBJECTS[number]; index: n
   )
 }
 
+// ── Widget quotidien : streak + anneau d'objectif ──
+function DailyWidget() {
+  const [stats, setStats] = useState(() => loadDailyStats())
+  const pct = Math.min(
+    100,
+    stats.goal > 0 ? Math.round((stats.todayCount / stats.goal) * 100) : 0
+  )
+  return (
+    <div className="daily-card">
+      <div className="daily-streak">
+        <div className={`daily-flame ${stats.streak > 0 ? 'on' : ''}`}>
+          {stats.streak > 0 ? '🔥' : '✨'}
+        </div>
+        <div>
+          <div className="daily-streak-num">{stats.streak}</div>
+          <div className="daily-streak-label">
+            jour{stats.streak > 1 ? 's' : ''} d'affilée
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="daily-ring"
+        style={{ ['--p' as never]: pct } as React.CSSProperties}
+      >
+        <div className="daily-ring-inner">
+          <span className="daily-ring-count">{stats.todayCount}</span>
+          <span className="daily-ring-goal">/ {stats.goal}</span>
+        </div>
+      </div>
+
+      <div className="daily-meta">
+        <div className="daily-meta-title">
+          {stats.goalReachedToday ? '🎉 Objectif atteint !' : 'Objectif du jour'}
+        </div>
+        <div className="daily-goal-options">
+          {DAILY_GOAL_OPTIONS.map((g) => (
+            <button
+              key={g}
+              className={`daily-goal-btn ${stats.goal === g ? 'active' : ''}`}
+              onClick={() => setStats(setDailyGoal(g))}
+            >
+              {g}
+            </button>
+          ))}
+        </div>
+        {stats.bestExam && (
+          <div className="daily-best-exam">
+            🎯 Record examen : {stats.bestExam.note20}/20
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+// ── Bouton d'accès à l'examen blanc ──
+function ExamCTA() {
+  return (
+    <Link to="/exam" className="exam-cta">
+      <div className="exam-cta-icon">🎯</div>
+      <div className="exam-cta-text">
+        <div className="exam-cta-title">Examen blanc chronométré</div>
+        <div className="exam-cta-sub">Conditions du jour J · note sur 20</div>
+      </div>
+      <div className="exam-cta-arrow">→</div>
+    </Link>
+  )
+}
+
 function BrevetSection({ totalBrevetQuestions }: { totalBrevetQuestions: number }) {
   const { ref: headRef, seen: headSeen } = useReveal()
   const totalChapters = BREVET_SUBJECTS.reduce(
@@ -559,6 +634,9 @@ function BrevetSection({ totalBrevetQuestions }: { totalBrevetQuestions: number 
           corrigées. Choisis ta matière et lance-toi.
         </p>
       </div>
+
+      <DailyWidget />
+      <ExamCTA />
 
       <div className="bb-subjects-list">
         {BREVET_SUBJECTS.map((s, i) => (
