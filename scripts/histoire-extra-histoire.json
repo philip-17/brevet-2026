@@ -1,0 +1,462 @@
+{
+  "premiere-guerre-mondiale": [
+    {
+      "question": "Dans quelle ville l'archiduc François-Ferdinand est-il assassiné en 1914 ?",
+      "choices": ["Vienne", "Sarajevo", "Belgrade", "Berlin"],
+      "correctIndex": 1,
+      "explanation": "L'héritier du trône d'Autriche-Hongrie est assassiné à Sarajevo le 28 juin 1914 par le nationaliste serbe Gavrilo Princip. Cet attentat déclenche l'engrenage des alliances qui mène à la guerre."
+    },
+    {
+      "question": "Quelles sont les deux grandes alliances qui s'affrontent en 1914 ?",
+      "choices": ["La Triple-Alliance et la Triple-Entente", "L'OTAN et le Pacte de Varsovie", "L'Axe et les Alliés", "La Sainte-Alliance et la Ligue"],
+      "correctIndex": 0,
+      "explanation": "En 1914 s'opposent la Triple-Alliance (Allemagne, Autriche-Hongrie, Italie) et la Triple-Entente (France, Royaume-Uni, Russie). L'Italie changera de camp en 1915."
+    },
+    {
+      "question": "Quelle bataille de septembre 1914 stoppe l'avancée allemande vers Paris ?",
+      "choices": ["La bataille de la Marne", "La bataille de Verdun", "La bataille de la Somme", "La bataille des Dardanelles"],
+      "correctIndex": 0,
+      "explanation": "La première bataille de la Marne (6-12 septembre 1914) arrête l'offensive allemande près de Paris. Des soldats y furent acheminés en taxis parisiens, marquant la fin de la guerre de mouvement."
+    },
+    {
+      "question": "Quelle arme chimique est utilisée pour la première fois à grande échelle à Ypres en 1915 ?",
+      "choices": ["Le napalm", "La bombe atomique", "Le gaz moutarde et le chlore", "Les obus à fragmentation"],
+      "correctIndex": 2,
+      "explanation": "Les Allemands utilisent des gaz de combat (chlore puis gaz moutarde) dès 1915 à Ypres en Belgique. Ces armes illustrent la brutalisation et la dimension industrielle de la guerre."
+    },
+    {
+      "question": "En quelle année les États-Unis entrent-ils dans la Première Guerre mondiale ?",
+      "choices": ["1915", "1916", "1917", "1918"],
+      "correctIndex": 2,
+      "explanation": "Les États-Unis, dirigés par le président Wilson, entrent en guerre en avril 1917 aux côtés de l'Entente, notamment après la guerre sous-marine allemande. Leur arrivée renforce les Alliés."
+    },
+    {
+      "question": "Quel surnom donnait-on aux soldats américains arrivés en 1917-1918 ?",
+      "choices": ["Les Tommies", "Les Sammies", "Les Poilus", "Les Doughboys ou Sammies"],
+      "correctIndex": 3,
+      "explanation": "Les soldats américains étaient surnommés les Sammies (de l'Oncle Sam) ou Doughboys. Leur arrivée massive en 1918 fait pencher la balance en faveur des Alliés."
+    },
+    {
+      "question": "Que désigne le terme « économie de guerre » entre 1914 et 1918 ?",
+      "choices": ["L'arrêt de toute production civile", "L'aide financière des États-Unis", "Le rationnement uniquement", "La réorganisation de l'industrie et de l'agriculture pour soutenir l'effort militaire"],
+      "correctIndex": 3,
+      "explanation": "L'économie de guerre désigne la mobilisation de l'industrie, de l'agriculture et de la main-d'oeuvre (femmes, colonies) pour produire armes et munitions. C'est une caractéristique de la guerre totale."
+    },
+    {
+      "question": "Quel rôle nouveau les femmes jouent-elles pendant la Première Guerre mondiale ?",
+      "choices": ["Elles obtiennent le droit de vote en France", "Elles remplacent les hommes dans les usines et les champs", "Elles dirigent l'armée", "Elles sont mobilisées au front"],
+      "correctIndex": 1,
+      "explanation": "Les femmes remplacent les hommes partis au front dans les usines d'armement (les « munitionnettes »), les champs et les administrations. Leur rôle économique est essentiel à l'effort de guerre."
+    },
+    {
+      "question": "Le génocide arménien commence en 1915. Combien de victimes a-t-il fait environ ?",
+      "choices": ["Environ 100 000", "Environ 6 millions", "Environ 1,2 million", "Environ 300 000"],
+      "correctIndex": 2,
+      "explanation": "Le génocide arménien (1915-1916) perpétré par l'Empire ottoman a fait environ 1,2 million de morts par massacres et déportations dans le désert. C'est le premier génocide du XXe siècle."
+    },
+    {
+      "question": "Quelle clause du traité de Versailles rend l'Allemagne responsable de la guerre ?",
+      "choices": ["L'article sur les réparations", "L'article 231 dit de « culpabilité de guerre »", "Le retour de l'Alsace-Lorraine", "La création de la SDN"],
+      "correctIndex": 1,
+      "explanation": "L'article 231 du traité de Versailles (1919) désigne l'Allemagne comme seule responsable de la guerre, justifiant de lourdes réparations. Les Allemands le ressentent comme un « diktat »."
+    },
+    {
+      "question": "Quel territoire la France récupère-t-elle de l'Allemagne grâce au traité de Versailles ?",
+      "choices": ["La Sarre", "La Rhénanie", "La Ruhr", "L'Alsace-Lorraine"],
+      "correctIndex": 3,
+      "explanation": "Le traité de Versailles (1919) rend à la France l'Alsace-Lorraine, annexée par l'Allemagne depuis la défaite de 1871. C'était une revendication majeure des Français."
+    },
+    {
+      "question": "Quelle organisation internationale est créée en 1919-1920 pour maintenir la paix ?",
+      "choices": ["L'ONU", "La Société des Nations (SDN)", "L'OTAN", "La Croix-Rouge"],
+      "correctIndex": 1,
+      "explanation": "La Société des Nations (SDN) est créée en 1920 à l'initiative du président américain Wilson pour préserver la paix. Affaiblie par l'absence des États-Unis, elle échoue à empêcher la Seconde Guerre mondiale."
+    },
+    {
+      "question": "Combien de morts environ la Première Guerre mondiale a-t-elle causés ?",
+      "choices": ["Environ 10 millions de militaires", "Environ 1 million", "Environ 50 millions", "Environ 6 millions"],
+      "correctIndex": 0,
+      "explanation": "La Première Guerre mondiale a fait environ 10 millions de morts militaires et de nombreux blessés et mutilés (les « gueules cassées »). C'est une saignée démographique pour l'Europe."
+    },
+    {
+      "question": "Que sont les « mutineries » de 1917 dans l'armée française ?",
+      "choices": ["Des fêtes militaires", "Des refus de combattre par des soldats épuisés", "Des défilés de la victoire", "Des changements de généraux"],
+      "correctIndex": 1,
+      "explanation": "Après l'échec sanglant de l'offensive du Chemin des Dames (avril 1917), des soldats refusent de monter au front. Le général Pétain rétablit l'ordre par des sanctions et l'amélioration des conditions de vie."
+    },
+    {
+      "question": "Pourquoi parle-t-on de « guerre totale » pour 1914-1918 ?",
+      "choices": ["Parce qu'elle se déroule sur tous les continents", "Parce qu'elle mobilise toutes les ressources humaines, économiques et morales des États", "Parce qu'elle dure plus de dix ans", "Parce qu'elle utilise l'arme atomique"],
+      "correctIndex": 1,
+      "explanation": "On parle de guerre totale car les États mobilisent l'ensemble de leurs ressources : soldats, industrie, agriculture, finances, propagande et populations civiles. Rien n'échappe à l'effort de guerre."
+    }
+  ],
+  "entre-deux-guerres-totalitarismes": [
+    {
+      "question": "Quel krach boursier déclenche la grande crise économique mondiale ?",
+      "choices": ["Le krach de Londres en 1925", "Le krach de Wall Street en octobre 1929", "Le krach de Paris en 1931", "Le krach de Berlin en 1933"],
+      "correctIndex": 1,
+      "explanation": "Le krach boursier de Wall Street (New York) le 24 octobre 1929 (« jeudi noir ») déclenche une crise économique mondiale : faillites, chômage de masse et misère qui touchent l'Europe dès 1931."
+    },
+    {
+      "question": "Quelle conséquence majeure la crise de 1929 a-t-elle eue en Allemagne ?",
+      "choices": ["Un chômage massif favorisant la montée du nazisme", "Un retour à la monarchie", "Une croissance économique", "L'entrée dans la SDN"],
+      "correctIndex": 0,
+      "explanation": "La crise de 1929 provoque en Allemagne un chômage de masse (6 millions en 1932) et la misère, ce qui favorise la montée du parti nazi, qui promet du travail et la grandeur retrouvée."
+    },
+    {
+      "question": "Comment Staline appelle-t-il la mise en commun forcée des terres agricoles ?",
+      "choices": ["La privatisation", "La collectivisation", "La nationalisation des banques", "La décolonisation"],
+      "correctIndex": 1,
+      "explanation": "À partir de 1929, Staline impose la collectivisation forcée des terres en URSS, regroupant les paysans dans des kolkhozes. La résistance des paysans aisés (koulaks) est écrasée par la déportation."
+    },
+    {
+      "question": "Quelle terrible famine, liée à la collectivisation, frappe l'Ukraine en 1932-1933 ?",
+      "choices": ["La Grande Dépression", "La Nuit de Cristal", "L'Holodomor", "La Longue Marche"],
+      "correctIndex": 2,
+      "explanation": "L'Holodomor est la grande famine de 1932-1933 en Ukraine, provoquée par la collectivisation et les réquisitions staliniennes. Elle a fait plusieurs millions de morts."
+    },
+    {
+      "question": "Comment appelle-t-on la police politique de l'URSS sous Staline ?",
+      "choices": ["La Gestapo", "L'OVRA", "Les SA", "Le NKVD (police politique)"],
+      "correctIndex": 3,
+      "explanation": "Le NKVD est la police politique soviétique sous Staline, chargée de la terreur, des arrestations et de la gestion des goulags. Elle organise les « purges » contre les opposants supposés."
+    },
+    {
+      "question": "Comment nomme-t-on les grands procès staliniens des années 1936-1938 contre d'anciens dirigeants ?",
+      "choices": ["Les procès de Moscou ou Grandes Purges", "Les procès de Nuremberg", "Les procès de Vichy", "Les procès de Tokyo"],
+      "correctIndex": 0,
+      "explanation": "Les procès de Moscou (1936-1938), au coeur des Grandes Purges, voient d'anciens compagnons de Lénine accusés de trahison et exécutés après des aveux extorqués. C'est l'apogée de la terreur stalinienne."
+    },
+    {
+      "question": "Quel titre Mussolini se donne-t-il en Italie fasciste ?",
+      "choices": ["Le Duce", "Le Führer", "Le Caudillo", "Le Petit Père des peuples"],
+      "correctIndex": 0,
+      "explanation": "Mussolini se fait appeler le Duce (le « guide » en italien). Son régime fasciste, au pouvoir depuis 1922, repose sur le culte du chef, le parti unique et la propagande."
+    },
+    {
+      "question": "Quel parti unique dirige l'Allemagne à partir de 1933 ?",
+      "choices": ["Le Parti communiste", "Le Parti social-démocrate", "Le NSDAP (parti nazi)", "Le Parti fasciste"],
+      "correctIndex": 2,
+      "explanation": "Le NSDAP (Parti national-socialiste des travailleurs allemands), dirigé par Hitler, devient le parti unique en 1933. Tous les autres partis sont interdits, instaurant la dictature totalitaire."
+    },
+    {
+      "question": "Quel ouvrage écrit par Hitler en prison expose son idéologie raciste ?",
+      "choices": ["Le Capital", "Mein Kampf", "Le Manifeste du parti communiste", "Que faire ?"],
+      "correctIndex": 1,
+      "explanation": "Hitler écrit Mein Kampf (« Mon combat ») en 1924 en prison. Il y développe son idéologie antisémite, le racisme aryen et la conquête d'un « espace vital » pour l'Allemagne."
+    },
+    {
+      "question": "Quel pogrom antisémite a lieu en Allemagne dans la nuit du 9 au 10 novembre 1938 ?",
+      "choices": ["La rafle du Vél d'Hiv", "La Marche sur Rome", "La Longue Marche", "La Nuit de Cristal"],
+      "correctIndex": 3,
+      "explanation": "La Nuit de Cristal (9-10 novembre 1938) est un pogrom organisé contre les Juifs allemands : synagogues incendiées, magasins saccagés, milliers d'arrestations. C'est une étape vers la persécution systématique."
+    },
+    {
+      "question": "Que désigne le mot « propagande » dans les régimes totalitaires ?",
+      "choices": ["L'utilisation des médias pour imposer l'idéologie et encadrer les esprits", "La liberté de la presse", "Un type d'élection libre", "Une politique économique"],
+      "correctIndex": 0,
+      "explanation": "La propagande désigne l'usage massif des médias (radio, affiches, cinéma, presse) par les régimes totalitaires pour diffuser leur idéologie, glorifier le chef et endoctriner la population, dès l'enfance."
+    },
+    {
+      "question": "Quelle est la principale différence entre une démocratie et un régime totalitaire ?",
+      "choices": ["La démocratie n'a pas d'armée", "La démocratie respecte le pluralisme, les libertés et des élections libres", "Le totalitarisme autorise plusieurs partis", "La démocratie interdit les journaux"],
+      "correctIndex": 1,
+      "explanation": "Une démocratie respecte le pluralisme politique, les libertés individuelles et l'organisation d'élections libres. Un régime totalitaire impose un parti unique, une idéologie et contrôle tous les aspects de la vie."
+    },
+    {
+      "question": "Comment les régimes totalitaires encadrent-ils la jeunesse ?",
+      "choices": ["En supprimant l'école", "En interdisant le sport", "Par des organisations de jeunesse obligatoires (Jeunesses hitlériennes, jeunesses fascistes)", "En l'envoyant à l'étranger"],
+      "correctIndex": 2,
+      "explanation": "Les régimes totalitaires embrigadent la jeunesse dans des organisations comme les Jeunesses hitlériennes en Allemagne ou les Balilla en Italie, pour former des citoyens dévoués au chef et à l'idéologie."
+    },
+    {
+      "question": "Quel « espace vital » Hitler revendique-t-il pour l'Allemagne ?",
+      "choices": ["Le Lebensraum à l'Est", "Les colonies d'Afrique", "Le Pacifique", "L'Amérique du Sud"],
+      "correctIndex": 0,
+      "explanation": "Hitler revendique un « espace vital » (Lebensraum) à l'Est de l'Europe, aux dépens des Slaves jugés inférieurs. Cette idée justifie l'expansion territoriale et l'agression qui mènent à la guerre en 1939."
+    },
+    {
+      "question": "Quel point commun relie les régimes de Staline, Mussolini et Hitler ?",
+      "choices": ["Ils sont communistes", "Ce sont des démocraties", "Ils respectent les libertés individuelles", "Ce sont des régimes totalitaires reposant sur un parti unique et le culte du chef"],
+      "correctIndex": 3,
+      "explanation": "Malgré des idéologies différentes (communisme pour Staline, fascisme pour Mussolini, nazisme pour Hitler), ces trois régimes sont totalitaires : parti unique, culte du chef, propagande, terreur et contrôle total de la société."
+    }
+  ],
+  "seconde-guerre-mondiale": [
+    {
+      "question": "Quel pacte germano-soviétique d'août 1939 prévoit le partage de la Pologne ?",
+      "choices": ["Le pacte de Munich", "Le pacte germano-soviétique (Molotov-Ribbentrop)", "Le pacte de Varsovie", "Le pacte Briand-Kellogg"],
+      "correctIndex": 1,
+      "explanation": "Le pacte germano-soviétique signé le 23 août 1939 entre Hitler et Staline contient un protocole secret partageant la Pologne. Il permet à l'Allemagne d'attaquer la Pologne le 1er septembre 1939."
+    },
+    {
+      "question": "Comment appelle-t-on la tactique allemande de guerre rapide avec chars et aviation ?",
+      "choices": ["La Blitzkrieg (guerre éclair)", "La guerre de tranchées", "La drôle de guerre", "La guerre froide"],
+      "correctIndex": 0,
+      "explanation": "La Blitzkrieg (guerre éclair) combine chars, aviation et infanterie motorisée pour percer rapidement le front. Elle permet à l'Allemagne de conquérir la Pologne en 1939 puis la France en six semaines en 1940."
+    },
+    {
+      "question": "Quel maréchal signe l'armistice avec l'Allemagne le 22 juin 1940 ?",
+      "choices": ["Charles de Gaulle", "Maxime Weygand", "Philippe Pétain", "Maurice Gamelin"],
+      "correctIndex": 2,
+      "explanation": "Le maréchal Pétain, nommé chef du gouvernement, signe l'armistice avec l'Allemagne le 22 juin 1940. La France est alors divisée en zone occupée et zone libre."
+    },
+    {
+      "question": "Quelle était la devise du régime de Vichy, remplaçant « Liberté, Égalité, Fraternité » ?",
+      "choices": ["Un peuple, un empire, un chef", "Ordre et Progrès", "Dieu et mon droit", "Travail, Famille, Patrie"],
+      "correctIndex": 3,
+      "explanation": "Le régime de Vichy remplace la devise républicaine par « Travail, Famille, Patrie », symbole de sa « Révolution nationale » conservatrice et autoritaire mise en place dès 1940."
+    },
+    {
+      "question": "Qui unifie les mouvements de la Résistance intérieure en 1943 ?",
+      "choices": ["Jean Moulin", "Pierre Laval", "Philippe Pétain", "Pierre Mendès France"],
+      "correctIndex": 0,
+      "explanation": "Jean Moulin, envoyé par de Gaulle, fonde le Conseil national de la Résistance (CNR) le 27 mai 1943, unifiant les mouvements de résistance. Arrêté et torturé, il meurt en juillet 1943."
+    },
+    {
+      "question": "Lors de quelle conférence de janvier 1942 les nazis planifient-ils la « Solution finale » ?",
+      "choices": ["La conférence de Yalta", "La conférence de Munich", "La conférence de Wannsee", "La conférence de Potsdam"],
+      "correctIndex": 2,
+      "explanation": "La conférence de Wannsee (20 janvier 1942) organise la mise en oeuvre industrielle de la « Solution finale », c'est-à-dire l'extermination systématique des Juifs d'Europe dans les camps."
+    },
+    {
+      "question": "Quelle rafle massive de Juifs a lieu à Paris les 16 et 17 juillet 1942 ?",
+      "choices": ["La rafle du Vél d'Hiv", "La Nuit de Cristal", "La rafle de Marseille", "L'opération Anthropoid"],
+      "correctIndex": 0,
+      "explanation": "La rafle du Vélodrome d'Hiver (Vél d'Hiv) des 16-17 juillet 1942 voit la police française arrêter plus de 13 000 Juifs, dont des milliers d'enfants, avant leur déportation vers Auschwitz."
+    },
+    {
+      "question": "Quelle bataille de l'hiver 1942-1943 marque un tournant sur le front de l'Est ?",
+      "choices": ["La bataille de Koursk", "La bataille de Moscou", "La bataille de Berlin", "La bataille de Stalingrad"],
+      "correctIndex": 3,
+      "explanation": "La bataille de Stalingrad (août 1942 - février 1943) se termine par la capitulation de la 6e armée allemande. C'est un tournant majeur : l'URSS passe à l'offensive contre l'Allemagne nazie."
+    },
+    {
+      "question": "Quel pays est attaqué par le Japon à Pearl Harbor le 7 décembre 1941 ?",
+      "choices": ["Les États-Unis", "Le Royaume-Uni", "L'URSS", "L'Australie"],
+      "correctIndex": 0,
+      "explanation": "L'attaque japonaise sur la base américaine de Pearl Harbor (Hawaï) le 7 décembre 1941 provoque l'entrée en guerre des États-Unis, qui rejoignent les Alliés contre l'Axe."
+    },
+    {
+      "question": "Quel débarquement allié a lieu en Provence le 15 août 1944 ?",
+      "choices": ["L'opération Overlord", "L'opération Dragoon (débarquement de Provence)", "L'opération Barbarossa", "L'opération Torch"],
+      "correctIndex": 1,
+      "explanation": "Le débarquement de Provence (opération Dragoon) du 15 août 1944 complète celui de Normandie. Ces deux opérations permettent la libération rapide du territoire français à l'été 1944."
+    },
+    {
+      "question": "Quelle ville française est libérée le 25 août 1944 ?",
+      "choices": ["Lyon", "Strasbourg", "Paris", "Marseille"],
+      "correctIndex": 2,
+      "explanation": "Paris est libérée le 25 août 1944 grâce à l'insurrection parisienne, à la 2e DB du général Leclerc et aux Alliés. De Gaulle descend triomphalement les Champs-Élysées le 26 août."
+    },
+    {
+      "question": "Sur quelles villes japonaises les États-Unis larguent-ils des bombes atomiques en août 1945 ?",
+      "choices": ["Tokyo et Osaka", "Hiroshima et Nagasaki", "Kyoto et Yokohama", "Nagoya et Kobe"],
+      "correctIndex": 1,
+      "explanation": "Les États-Unis larguent une bombe atomique sur Hiroshima le 6 août 1945, puis sur Nagasaki le 9 août. Ces bombardements provoquent la capitulation du Japon et révèlent une arme d'un nouveau genre."
+    },
+    {
+      "question": "Quand le Japon capitule-t-il, mettant fin à la Seconde Guerre mondiale ?",
+      "choices": ["Le 8 mai 1945", "Le 2 septembre 1945", "Le 6 juin 1945", "Le 11 novembre 1945"],
+      "correctIndex": 1,
+      "explanation": "Le Japon capitule officiellement le 2 septembre 1945, après les bombardements atomiques. Cette date marque la fin de la Seconde Guerre mondiale, près de quatre mois après la capitulation allemande du 8 mai."
+    },
+    {
+      "question": "Que désigne le terme « collaboration » sous le régime de Vichy ?",
+      "choices": ["L'aide apportée à la Résistance", "Le travail des Alliés ensemble", "L'union des partis politiques", "La coopération volontaire de Vichy avec l'Allemagne nazie"],
+      "correctIndex": 3,
+      "explanation": "La collaboration désigne la coopération volontaire du régime de Vichy avec l'Allemagne nazie : livraison de Juifs, mise en place du STO, lutte contre les résistants via la Milice. Pétain rencontre Hitler à Montoire en 1940."
+    },
+    {
+      "question": "Combien de Juifs ont été assassinés dans la Shoah environ ?",
+      "choices": ["Environ 1 million", "Environ 6 millions", "Environ 10 millions", "Environ 300 000"],
+      "correctIndex": 1,
+      "explanation": "La Shoah a causé la mort d'environ 6 millions de Juifs européens, exterminés par balles (Shoah par balles à l'Est) et dans les chambres à gaz des camps d'extermination comme Auschwitz-Birkenau."
+    }
+  ],
+  "france-1945-nos-jours": [
+    {
+      "question": "Quelle organisation, créée en 1945, met en place la Sécurité sociale en France ?",
+      "choices": ["Le Conseil national de la Résistance (CNR)", "L'ONU", "L'Union européenne", "Le Front populaire"],
+      "correctIndex": 0,
+      "explanation": "Le programme du Conseil national de la Résistance, appliqué à la Libération, fonde la Sécurité sociale en 1945. Elle assure la protection sociale des Français (santé, retraite, famille), pilier de l'État-providence."
+    },
+    {
+      "question": "Quel régime politique gouverne la France de 1946 à 1958 ?",
+      "choices": ["La Troisième République", "Le régime de Vichy", "La Quatrième République", "La Cinquième République"],
+      "correctIndex": 2,
+      "explanation": "La Quatrième République (1946-1958) est marquée par l'instabilité ministérielle et la reconstruction, mais s'effondre face à la crise de la guerre d'Algérie, ouvrant la voie au retour de De Gaulle."
+    },
+    {
+      "question": "Quel événement provoque le retour au pouvoir de De Gaulle en 1958 ?",
+      "choices": ["Mai 68", "La chute du mur de Berlin", "L'arrivée de l'euro", "La crise de la guerre d'Algérie"],
+      "correctIndex": 3,
+      "explanation": "La crise du 13 mai 1958 à Alger, qui menace de coup d'État, provoque le retour au pouvoir du général de Gaulle. Il fonde la Cinquième République dont la constitution renforce le pouvoir exécutif."
+    },
+    {
+      "question": "En quelle année l'élection du président au suffrage universel direct est-elle instaurée ?",
+      "choices": ["1958", "1962", "1965", "1969"],
+      "correctIndex": 1,
+      "explanation": "La révision constitutionnelle de 1962, adoptée par référendum à l'initiative de De Gaulle, instaure l'élection du président de la République au suffrage universel direct. Elle s'applique dès 1965."
+    },
+    {
+      "question": "Quel mouvement de jeunesse étudiant déclenche la crise de mai 1968 ?",
+      "choices": ["La contestation à l'université de Nanterre", "La grève des mineurs", "La manifestation des agriculteurs", "Le mouvement des retraités"],
+      "correctIndex": 0,
+      "explanation": "La crise de mai 1968 débute par la contestation étudiante à l'université de Nanterre puis au Quartier latin, avant de se transformer en grève générale ouvrière, contestant la société et l'autorité gaulliste."
+    },
+    {
+      "question": "Quel président démissionne après l'échec du référendum de 1969 ?",
+      "choices": ["Charles de Gaulle", "Georges Pompidou", "Valéry Giscard d'Estaing", "Vincent Auriol"],
+      "correctIndex": 0,
+      "explanation": "Charles de Gaulle démissionne le 28 avril 1969 après le rejet par les Français de son référendum sur la régionalisation et le Sénat. Il met sa fonction en jeu, fidèle à sa conception du pouvoir."
+    },
+    {
+      "question": "À quel âge la majorité électorale est-elle abaissée en 1974 sous Giscard d'Estaing ?",
+      "choices": ["16 ans", "18 ans", "20 ans", "21 ans"],
+      "correctIndex": 1,
+      "explanation": "Sous la présidence de Valéry Giscard d'Estaing, la majorité électorale est abaissée de 21 à 18 ans en 1974. Cette réforme accompagne d'autres mesures sociales comme la loi Veil sur l'IVG en 1975."
+    },
+    {
+      "question": "Quelle loi de 1975, portée par Simone Veil, autorise l'avortement ?",
+      "choices": ["La loi Neuwirth", "La loi Roudy", "La loi Veil (IVG)", "La loi sur la parité"],
+      "correctIndex": 2,
+      "explanation": "La loi Veil du 17 janvier 1975, portée par la ministre Simone Veil, légalise l'interruption volontaire de grossesse (IVG). C'est une avancée majeure pour les droits des femmes en France."
+    },
+    {
+      "question": "Quelle grande mesure symbolique le gouvernement de François Mitterrand prend-il en 1981 ?",
+      "choices": ["L'abolition de la peine de mort", "La création de l'euro", "La fin du service militaire", "L'entrée dans l'OTAN"],
+      "correctIndex": 0,
+      "explanation": "En 1981, le gouvernement Mauroy fait voter l'abolition de la peine de mort, portée par le ministre Robert Badinter. C'est l'une des grandes réformes de la première année du septennat de Mitterrand."
+    },
+    {
+      "question": "Que désigne une « cohabitation » sous la Cinquième République ?",
+      "choices": ["Une alliance entre la France et l'Allemagne", "Le partage du pouvoir entre l'Assemblée et le Sénat", "Une coalition gouvernementale", "Une période où le président et le Premier ministre sont d'opposition politique différente"],
+      "correctIndex": 3,
+      "explanation": "Une cohabitation désigne une période où le président de la République et le Premier ministre appartiennent à des camps politiques opposés. La première a lieu en 1986 entre Mitterrand (gauche) et Chirac (droite)."
+    },
+    {
+      "question": "Combien de cohabitations la France a-t-elle connues entre 1986 et 2002 ?",
+      "choices": ["Une", "Deux", "Trois", "Quatre"],
+      "correctIndex": 2,
+      "explanation": "La France a connu trois cohabitations : Mitterrand-Chirac (1986-1988), Mitterrand-Balladur (1993-1995) et Chirac-Jospin (1997-2002). Le passage au quinquennat en 2000 les a rendues plus rares."
+    },
+    {
+      "question": "En quelle année le mandat présidentiel passe-t-il de sept à cinq ans (quinquennat) ?",
+      "choices": ["1995", "2000", "2007", "2012"],
+      "correctIndex": 1,
+      "explanation": "Le quinquennat est instauré par référendum en 2000 sous la présidence de Jacques Chirac, réduisant le mandat présidentiel de sept à cinq ans. Il s'applique à partir de l'élection de 2002."
+    },
+    {
+      "question": "Quelle expression désigne la forte croissance économique française de 1945 à 1975 ?",
+      "choices": ["Les Trente Glorieuses", "La Grande Dépression", "La Belle Époque", "Le redressement productif"],
+      "correctIndex": 0,
+      "explanation": "Les « Trente Glorieuses » (expression de l'économiste Jean Fourastié) désignent les trois décennies de forte croissance de 1945 à 1975 : plein emploi, société de consommation et essor de l'État-providence."
+    },
+    {
+      "question": "Quelle loi de 2000 vise à favoriser l'égalité hommes-femmes en politique ?",
+      "choices": ["La loi sur la laïcité", "La loi Veil", "La loi sur la parité", "La loi Neuwirth"],
+      "correctIndex": 2,
+      "explanation": "La loi sur la parité de 2000 oblige les partis à présenter autant de femmes que d'hommes aux élections. Elle vise à corriger la faible présence des femmes dans la vie politique française."
+    },
+    {
+      "question": "Quand la France passe-t-elle à une armée professionnelle, mettant fin au service militaire obligatoire ?",
+      "choices": ["En 1981", "À la fin des années 1990 (suspension décidée en 1997)", "En 2002", "En 1958"],
+      "correctIndex": 1,
+      "explanation": "Le service militaire obligatoire est suspendu à la fin des années 1990 (décision de Jacques Chirac en 1996-1997, dernier appel en 2001), au profit d'une armée professionnelle. La Journée défense remplace le service."
+    }
+  ],
+  "decolonisation-guerre-froide": [
+    {
+      "question": "Quelle doctrine américaine de 1947 vise à « contenir » l'expansion communiste ?",
+      "choices": ["La doctrine Monroe", "La doctrine Brejnev", "La doctrine Truman", "Le plan Schuman"],
+      "correctIndex": 2,
+      "explanation": "La doctrine Truman (1947) engage les États-Unis à aider les pays menacés par le communisme, principe du « containment ». L'URSS y répond par la doctrine Jdanov, marquant le début de la Guerre froide."
+    },
+    {
+      "question": "Quel plan américain de 1947 aide à la reconstruction économique de l'Europe ?",
+      "choices": ["Le plan Marshall", "Le plan Schuman", "Le plan Dawes", "Le plan Monnet"],
+      "correctIndex": 0,
+      "explanation": "Le plan Marshall (1947) est une aide financière américaine pour reconstruire l'Europe et la maintenir hors de l'influence soviétique. L'URSS et ses satellites le refusent, accentuant la division des blocs."
+    },
+    {
+      "question": "Quel blocus soviétique de Berlin a lieu en 1948-1949 ?",
+      "choices": ["La construction du mur", "La crise de Cuba", "Le rideau de fer", "Le blocus de Berlin (pont aérien allié)"],
+      "correctIndex": 3,
+      "explanation": "En 1948-1949, Staline bloque les accès terrestres à Berlin-Ouest. Les Alliés ravitaillent la ville par un gigantesque pont aérien. Cet épisode aboutit à la division de l'Allemagne en RFA et RDA en 1949."
+    },
+    {
+      "question": "Quelle guerre oppose le Nord communiste au Sud entre 1950 et 1953 en Asie ?",
+      "choices": ["La guerre de Corée", "La guerre du Vietnam", "La guerre d'Indochine", "La guerre d'Afghanistan"],
+      "correctIndex": 0,
+      "explanation": "La guerre de Corée (1950-1953) oppose la Corée du Nord communiste (soutenue par l'URSS et la Chine) à la Corée du Sud (soutenue par l'ONU et les États-Unis). Elle aboutit à la division du pays au 38e parallèle."
+    },
+    {
+      "question": "Quelle alliance militaire le bloc de l'Est crée-t-il en 1955 face à l'OTAN ?",
+      "choices": ["La Triple-Alliance", "Le Comecon", "Le Pacte de Varsovie", "La SDN"],
+      "correctIndex": 2,
+      "explanation": "Le Pacte de Varsovie est créé en 1955 par l'URSS et ses satellites d'Europe de l'Est, en réponse à l'OTAN occidentale (1949). C'est l'alliance militaire du bloc communiste pendant la Guerre froide."
+    },
+    {
+      "question": "Quand l'Inde obtient-elle son indépendance du Royaume-Uni ?",
+      "choices": ["1945", "1947", "1954", "1960"],
+      "correctIndex": 1,
+      "explanation": "L'Inde accède à l'indépendance en 1947, sous l'impulsion de Gandhi et Nehru. La partition donne naissance à l'Inde et au Pakistan, accompagnée de violences et de déplacements massifs de populations."
+    },
+    {
+      "question": "Quelle défaite française de 1954 met fin à la guerre d'Indochine ?",
+      "choices": ["Diên Biên Phu", "Sedan", "Verdun", "Waterloo"],
+      "correctIndex": 0,
+      "explanation": "La défaite française de Diên Biên Phu en mai 1954 met fin à la guerre d'Indochine. Les accords de Genève (1954) reconnaissent l'indépendance du Vietnam, divisé entre Nord communiste et Sud."
+    },
+    {
+      "question": "Quelle conférence de 1955 réunit les pays du tiers-monde non alignés ?",
+      "choices": ["La conférence de Yalta", "La conférence de Potsdam", "La conférence de Munich", "La conférence de Bandung"],
+      "correctIndex": 3,
+      "explanation": "La conférence de Bandung (Indonésie) en 1955 réunit des pays d'Asie et d'Afrique récemment indépendants. Ils dénoncent le colonialisme et affirment leur volonté de non-alignement entre les deux blocs."
+    },
+    {
+      "question": "Quelle organisation algérienne mène la guerre d'indépendance contre la France ?",
+      "choices": ["Le FLN (Front de libération nationale)", "L'OAS", "Le Vietminh", "Le Parti communiste"],
+      "correctIndex": 0,
+      "explanation": "Le FLN (Front de libération nationale) déclenche la guerre d'Algérie le 1er novembre 1954 (« Toussaint rouge »). Il mène la lutte armée jusqu'à l'indépendance, obtenue par les accords d'Évian en 1962."
+    },
+    {
+      "question": "Quelle année est appelée « l'année de l'Afrique » en raison de nombreuses indépendances ?",
+      "choices": ["1960", "1955", "1962", "1947"],
+      "correctIndex": 0,
+      "explanation": "L'année 1960 est appelée « l'année de l'Afrique » car dix-sept colonies africaines, dont quatorze françaises (Sénégal, Côte d'Ivoire, Mali...), accèdent à l'indépendance la même année."
+    },
+    {
+      "question": "Quels accords de 1962 mettent fin à la guerre d'Algérie ?",
+      "choices": ["Les accords d'Évian", "Les accords de Genève", "Les accords de Munich", "Les accords de Grenelle"],
+      "correctIndex": 0,
+      "explanation": "Les accords d'Évian, signés le 18 mars 1962, mettent fin à la guerre d'Algérie. L'indépendance de l'Algérie est proclamée le 5 juillet 1962, après huit ans de conflit."
+    },
+    {
+      "question": "Quel président américain affronte Khrouchtchev lors de la crise de Cuba en 1962 ?",
+      "choices": ["Truman", "Eisenhower", "Kennedy", "Nixon"],
+      "correctIndex": 2,
+      "explanation": "Lors de la crise des missiles de Cuba en octobre 1962, le président américain John Kennedy s'oppose au dirigeant soviétique Khrouchtchev. Le monde frôle la guerre nucléaire avant le retrait des missiles soviétiques."
+    },
+    {
+      "question": "Que désigne l'expression « coexistence pacifique » dans les années 1950-1960 ?",
+      "choices": ["La fin de la Guerre froide", "L'union de l'URSS et des États-Unis", "Une rivalité entre blocs sans affrontement militaire direct", "La réunification de l'Allemagne"],
+      "correctIndex": 2,
+      "explanation": "La « coexistence pacifique », promue par Khrouchtchev, désigne une rivalité entre les deux blocs qui se poursuit sans affrontement militaire direct, par la course aux armements, l'espionnage et la compétition idéologique."
+    },
+    {
+      "question": "Quel événement de 1991 marque la fin de la Guerre froide ?",
+      "choices": ["La chute du mur de Berlin", "La crise de Cuba", "La guerre de Corée", "La disparition de l'URSS"],
+      "correctIndex": 3,
+      "explanation": "La disparition de l'URSS en décembre 1991 marque la fin de la Guerre froide. Après la chute du mur de Berlin (1989) et l'effondrement des régimes communistes, le bloc soviétique se désintègre."
+    },
+    {
+      "question": "Que désigne le terme « non-alignement » pendant la Guerre froide ?",
+      "choices": ["Le refus de certains pays de s'allier à l'un des deux blocs", "Le refus de participer à la SDN", "L'alliance avec les États-Unis", "Le rejet de toute indépendance"],
+      "correctIndex": 0,
+      "explanation": "Le non-alignement est le choix de pays du tiers-monde (Inde, Égypte, Yougoslavie...) de ne s'allier ni au bloc américain ni au bloc soviétique. Ce mouvement s'affirme après la conférence de Bandung de 1955."
+    }
+  ]
+}

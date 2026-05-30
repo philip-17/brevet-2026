@@ -1,0 +1,670 @@
+{
+  "france-union-europeenne": [
+    {
+      "question": "Quelle organisation, créée en 1951, constitue la première étape de la construction européenne ?",
+      "choices": [
+        "La CECA (Communauté européenne du charbon et de l'acier)",
+        "La CEE",
+        "L'Union européenne",
+        "L'OTAN"
+      ],
+      "correctIndex": 0,
+      "explanation": "La CECA, créée en 1951 par 6 pays à l'initiative de Robert Schuman, met en commun charbon et acier pour rendre la guerre impossible entre la France et l'Allemagne. C'est l'ancêtre de l'UE."
+    },
+    {
+      "question": "Combien de pays fondateurs ont signé le traité de Rome en 1957 ?",
+      "choices": [
+        "3",
+        "12",
+        "15",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les 6 pays fondateurs sont la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. L'UE est passée de 6 à 27 membres au fil des élargissements."
+    },
+    {
+      "question": "En quelle année l'euro est-il entré en circulation sous forme de pièces et billets ?",
+      "choices": [
+        "1992",
+        "1999",
+        "2002",
+        "2009"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'euro est devenu monnaie de référence en 1999, mais les pièces et billets ne circulent qu'à partir du 1er janvier 2002. La zone euro compte aujourd'hui 20 pays."
+    },
+    {
+      "question": "Quelle institution européenne propose les lois et veille à leur application ?",
+      "choices": [
+        "Le Parlement européen",
+        "La Commission européenne",
+        "Le Conseil de l'Europe",
+        "La Cour de justice"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Commission européenne, dont le siège est à Bruxelles, propose les textes de loi et veille à leur application. Elle est composée d'un commissaire par État membre."
+    },
+    {
+      "question": "Comment sont désignés les députés du Parlement européen ?",
+      "choices": [
+        "Nommés par les gouvernements",
+        "Tirés au sort",
+        "Désignés par la Commission",
+        "Élus au suffrage universel direct par les citoyens"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les eurodéputés sont élus tous les 5 ans au suffrage universel direct dans chaque pays. C'est la seule institution de l'UE élue directement par les citoyens."
+    },
+    {
+      "question": "Quel pays a quitté l'Union européenne en 2020 lors du Brexit ?",
+      "choices": [
+        "L'Irlande",
+        "La Norvège",
+        "Le Royaume-Uni",
+        "La Suisse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Royaume-Uni a quitté l'UE le 31 janvier 2020 après le référendum de 2016. C'est le premier pays à sortir de l'Union, faisant passer le nombre de membres de 28 à 27."
+    },
+    {
+      "question": "Parmi ces pays, lequel utilise l'euro comme monnaie ?",
+      "choices": [
+        "La Suède",
+        "Le Danemark",
+        "L'Allemagne",
+        "La Pologne"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'Allemagne fait partie de la zone euro. La Suède, le Danemark et la Pologne sont membres de l'UE mais ont conservé leur monnaie nationale (couronne, zloty)."
+    },
+    {
+      "question": "Quelle ville abrite la Banque centrale européenne (BCE) ?",
+      "choices": [
+        "Bruxelles",
+        "Strasbourg",
+        "Francfort",
+        "Luxembourg"
+      ],
+      "correctIndex": 2,
+      "explanation": "La BCE, qui gère l'euro et fixe les taux d'intérêt de la zone euro, a son siège à Francfort, en Allemagne. Les capitales européennes sont réparties entre plusieurs villes."
+    },
+    {
+      "question": "Que désigne une région transfrontalière comme celle du Grand Genève ?",
+      "choices": [
+        "Une région où l'on parle plusieurs langues",
+        "Un espace de coopération entre territoires de pays voisins",
+        "Une zone interdite aux étrangers",
+        "Une région indépendante de tout État"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une région transfrontalière est un espace de coopération entre territoires de pays voisins. Le Grand Genève relie la Suisse et la France : environ 100 000 frontaliers français y travaillent chaque jour."
+    },
+    {
+      "question": "Quel élargissement majeur de l'UE a eu lieu en 2004 ?",
+      "choices": [
+        "L'entrée de 10 pays, surtout d'Europe de l'Est",
+        "L'entrée de l'Espagne et du Portugal",
+        "L'entrée du Royaume-Uni",
+        "L'entrée de la Grèce"
+      ],
+      "correctIndex": 0,
+      "explanation": "En 2004, l'UE accueille 10 nouveaux pays, principalement d'Europe de l'Est (Pologne, Hongrie, Pays baltes...), après la chute du communisme. C'est le plus grand élargissement de son histoire."
+    },
+    {
+      "question": "Pourquoi observe-t-on des disparités de richesse au sein de l'UE ?",
+      "choices": [
+        "Tous les pays ont le même PIB par habitant",
+        "Les pays de l'Est et du Sud sont souvent moins riches que ceux du Nord-Ouest",
+        "Les pays riches sont à l'Est",
+        "Il n'existe aucune inégalité dans l'UE"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le PIB par habitant du Luxembourg est plusieurs fois supérieur à celui de la Bulgarie. Pour réduire ces écarts, l'UE verse des aides via les fonds régionaux (politique de cohésion)."
+    },
+    {
+      "question": "Que partagent les pays de l'espace Schengen ?",
+      "choices": [
+        "Une même armée",
+        "Une même langue officielle",
+        "L'absence de contrôles aux frontières intérieures",
+        "Un même gouvernement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dans l'espace Schengen, on circule librement sans contrôle aux frontières intérieures. On peut ainsi passer de la France à l'Allemagne sans montrer son passeport."
+    },
+    {
+      "question": "La France partage une frontière terrestre avec combien de pays de l'UE ?",
+      "choices": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctIndex": 2,
+      "explanation": "La France métropolitaine a une frontière avec 6 pays de l'UE : Belgique, Luxembourg, Allemagne, Italie, Espagne et... il faut y ajouter la Suisse et l'Andorre (hors UE). Cela favorise les échanges transfrontaliers."
+    },
+    {
+      "question": "Quelle ville est souvent surnommée la capitale de l'Union européenne ?",
+      "choices": [
+        "Paris",
+        "Berlin",
+        "Rome",
+        "Bruxelles"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bruxelles, en Belgique, abrite la Commission et le Conseil de l'UE ainsi que de nombreuses réunions. Elle est considérée comme le principal centre politique de l'Union."
+    },
+    {
+      "question": "Quel symbole représente l'Union européenne sur son drapeau ?",
+      "choices": [
+        "27 étoiles, une par pays",
+        "Un cercle de 12 étoiles dorées sur fond bleu",
+        "Une carte de l'Europe",
+        "Une colombe blanche"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le drapeau européen comporte 12 étoiles dorées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, et ne correspond pas au nombre de pays membres."
+    }
+  ],
+  "aires-urbaines-espaces-ruraux": [
+    {
+      "question": "Comment appelle-t-on les habitants qui font chaque jour le trajet domicile-travail entre leur commune et la ville-centre ?",
+      "choices": [
+        "Les navetteurs",
+        "Les migrants",
+        "Les résidents",
+        "Les saisonniers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les navetteurs effectuent quotidiennement le trajet entre leur domicile périurbain et leur lieu de travail en ville. Ces migrations pendulaires saturent souvent les routes et les transports en commun."
+    },
+    {
+      "question": "Que désigne la métropolisation ?",
+      "choices": [
+        "Le départ des habitants vers les campagnes",
+        "La construction de métros",
+        "La fusion de deux communes rurales",
+        "La concentration des populations et des activités dans les grandes villes"
+      ],
+      "correctIndex": 3,
+      "explanation": "La métropolisation est la concentration croissante des hommes, des richesses et des fonctions de commandement dans les grandes villes. En France, les métropoles comme Lyon ou Bordeaux gagnent des habitants."
+    },
+    {
+      "question": "Comment nomme-t-on l'arrivée de populations aisées qui rénovent un quartier populaire et en font monter les prix ?",
+      "choices": [
+        "La périurbanisation",
+        "La gentrification",
+        "La rénovation rurale",
+        "L'exode urbain"
+      ],
+      "correctIndex": 1,
+      "explanation": "La gentrification désigne l'embourgeoisement d'un quartier populaire rénové. À Paris, des quartiers comme le Marais ou Belleville ont vu leurs anciens habitants modestes remplacés par des ménages plus aisés."
+    },
+    {
+      "question": "Quelles sont les trois composantes d'une aire d'attraction des villes ?",
+      "choices": [
+        "Région, département, commune",
+        "Ville-centre, banlieue, couronne périurbaine",
+        "Centre, port, aéroport",
+        "Quartier, rue, immeuble"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une aire d'attraction se compose de la ville-centre, de sa banlieue (bâti continu) et de la couronne périurbaine (communes plus éloignées dont les actifs travaillent dans le pôle)."
+    },
+    {
+      "question": "Pourquoi parle-t-on de Paris comme d'une métropole mondiale ?",
+      "choices": [
+        "Parce qu'elle concentre des fonctions de commandement à l'échelle de la planète",
+        "Parce que c'est la plus grande ville de France",
+        "Parce qu'elle est la plus ancienne ville française",
+        "Parce qu'elle est entourée de campagnes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paris est une métropole mondiale (ou ville mondiale) car elle concentre sièges de grandes entreprises, bourse, institutions et rayonnement culturel. On la classe avec New York, Londres et Tokyo."
+    },
+    {
+      "question": "Quel problème environnemental l'étalement urbain provoque-t-il principalement ?",
+      "choices": [
+        "La disparition de terres agricoles et naturelles",
+        "La montée du niveau des mers",
+        "La pollution des océans",
+        "La fonte des glaciers"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'étalement urbain consomme de l'espace : chaque année en France, des milliers d'hectares de terres agricoles sont artificialisés (lotissements, routes, zones commerciales). C'est l'artificialisation des sols."
+    },
+    {
+      "question": "Qu'est-ce qu'un espace rural sous influence urbaine ?",
+      "choices": [
+        "Une campagne totalement coupée des villes",
+        "Une zone industrielle abandonnée",
+        "Une campagne proche d'une ville, dont les habitants profitent des emplois et services urbains",
+        "Un parc national protégé"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un espace rural sous influence urbaine est une campagne proche d'une ville : ses habitants y vivent mais travaillent souvent en ville. Ces espaces gagnent des habitants venus chercher un cadre de vie agréable."
+    },
+    {
+      "question": "Qu'est-ce qui caractérise un espace rural isolé (rural profond) ?",
+      "choices": [
+        "Une forte croissance démographique",
+        "Une faible densité et un éloignement des grandes villes",
+        "Une concentration de gratte-ciels",
+        "Une forte présence industrielle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le rural isolé se caractérise par de faibles densités, le vieillissement et le départ des jeunes, ainsi que la difficulté d'accès aux services. La Creuse ou la Lozère en sont des exemples."
+    },
+    {
+      "question": "Pourquoi de nombreuses familles choisissent-elles de s'installer dans la couronne périurbaine ?",
+      "choices": [
+        "Pour vivre dans un appartement de centre-ville",
+        "Pour être loin de tout emploi",
+        "Pour éviter d'avoir une voiture",
+        "Pour accéder à une maison individuelle moins chère avec un jardin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Beaucoup de ménages s'installent en périurbain pour accéder à la propriété d'une maison avec jardin, le foncier y étant moins cher qu'en ville. En contrepartie, ils dépendent fortement de la voiture."
+    },
+    {
+      "question": "Quel mode de transport est le plus utilisé par les navetteurs des couronnes périurbaines ?",
+      "choices": [
+        "Le vélo",
+        "La voiture individuelle",
+        "Le tramway",
+        "La marche à pied"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dans les couronnes périurbaines, l'habitat dispersé rend les transports en commun peu efficaces : la voiture individuelle domine, ce qui pose des problèmes d'embouteillages et de pollution."
+    },
+    {
+      "question": "Quelles villes françaises, après Paris, sont les plus grandes aires d'attraction ?",
+      "choices": [
+        "Lyon et Marseille",
+        "Brest et Limoges",
+        "Mende et Guéret",
+        "Cahors et Aurillac"
+      ],
+      "correctIndex": 0,
+      "explanation": "Après Paris (plus de 13 millions d'habitants), Lyon et Marseille-Aix sont les plus grandes aires d'attraction de France, dépassant chacune 1,5 million d'habitants."
+    },
+    {
+      "question": "Comment les villes tentent-elles de limiter l'étalement urbain ?",
+      "choices": [
+        "En construisant toujours plus loin",
+        "En densifiant et en renouvelant la ville sur elle-même",
+        "En supprimant les transports en commun",
+        "En interdisant les immeubles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pour limiter l'étalement, les villes densifient (immeubles plutôt que pavillons) et rénovent d'anciens quartiers ou friches : c'est la ville durable, qui cherche à reconstruire la ville sur la ville."
+    },
+    {
+      "question": "Qu'appelle-t-on une commune-dortoir ?",
+      "choices": [
+        "Une commune où l'on dort mais sans y travailler ni avoir de commerces",
+        "Une commune touristique de montagne",
+        "Une commune entièrement industrielle",
+        "Une commune sans habitants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Une commune-dortoir, fréquente dans le périurbain, accueille surtout des logements : ses habitants travaillent, font leurs courses et leurs loisirs ailleurs, ce qui réduit l'animation locale en journée."
+    },
+    {
+      "question": "Quel atout les espaces ruraux mettent-ils en avant pour attirer de nouveaux habitants ?",
+      "choices": [
+        "La proximité immédiate des gratte-ciels",
+        "Le cadre de vie, la nature et des logements moins chers",
+        "L'absence totale de routes",
+        "Le climat tropical"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les campagnes attirent grâce à un cadre de vie agréable, la nature et des logements plus abordables. Le télétravail, qui s'est développé depuis 2020, renforce ce mouvement de néo-ruraux."
+    },
+    {
+      "question": "Que signifie le fait que la France soit majoritairement un pays urbain ?",
+      "choices": [
+        "Tout le territoire est couvert de villes",
+        "La majorité des Français vivent dans des aires urbaines, même si les villes occupent peu d'espace",
+        "Il n'y a plus aucune campagne",
+        "Les campagnes sont plus peuplées que les villes"
+      ],
+      "correctIndex": 1,
+      "explanation": "La France est très urbaine par sa population (les villes concentrent l'essentiel des habitants), mais les espaces urbains n'occupent qu'une faible part du territoire : la majorité des terres restent rurales."
+    }
+  ],
+  "france-mondialisation": [
+    {
+      "question": "Grâce à quoi la France possède-t-elle la deuxième plus grande ZEE du monde ?",
+      "choices": [
+        "À sa façade atlantique",
+        "À la Méditerranée",
+        "À ses territoires d'outre-mer répartis sur tous les océans",
+        "À la Manche"
+      ],
+      "correctIndex": 2,
+      "explanation": "Grâce à ses territoires d'outre-mer (Polynésie, Nouvelle-Calédonie, La Réunion...), la France dispose d'une ZEE d'environ 11 millions de km², la 2e du monde après les États-Unis. Cela lui donne des droits sur d'immenses espaces maritimes."
+    },
+    {
+      "question": "Quelle place occupe la France dans le tourisme international ?",
+      "choices": [
+        "1re destination touristique mondiale en nombre de visiteurs",
+        "10e destination mondiale",
+        "1re seulement en Europe",
+        "Hors du top 20 mondial"
+      ],
+      "correctIndex": 0,
+      "explanation": "La France est la 1re destination touristique mondiale en nombre de visiteurs, avec environ 90 à 100 millions de touristes étrangers par an, attirés par Paris, la Côte d'Azur ou les Alpes."
+    },
+    {
+      "question": "Qu'est-ce qu'une façade maritime comme celle de la Manche-mer du Nord ?",
+      "choices": [
+        "Une simple plage touristique",
+        "Une frontière fermée",
+        "Une zone militaire",
+        "Un littoral concentrant de grands ports et des activités économiques tournées vers le monde"
+      ],
+      "correctIndex": 3,
+      "explanation": "Une façade maritime est un littoral qui concentre de grands ports ouverts sur le monde. La façade Manche-mer du Nord, avec Le Havre et Dunkerque, est intégrée à la Northern Range européenne."
+    },
+    {
+      "question": "Quel est le premier port français pour le trafic de conteneurs ?",
+      "choices": [
+        "Marseille-Fos",
+        "Le Havre",
+        "Bordeaux",
+        "Calais"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Havre est le 1er port français pour les conteneurs. Son nom est même resté dans l'expression maritime du fret. Marseille-Fos, lui, est le 1er en tonnage total grâce aux hydrocarbures."
+    },
+    {
+      "question": "Pourquoi l'aéroport de Roissy-Charles-de-Gaulle est-il qualifié de hub ?",
+      "choices": [
+        "Parce qu'il est le plus ancien de France",
+        "Parce qu'il n'accueille que des vols intérieurs",
+        "Parce qu'il sert de plateforme de correspondance reliant de nombreuses destinations",
+        "Parce qu'il est réservé au fret"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un hub est une plateforme de correspondance : à Roissy, des millions de passagers changent d'avion pour rejoindre une autre destination. C'est l'un des principaux hubs aériens d'Europe."
+    },
+    {
+      "question": "Qu'est-ce que le soft power culturel de la France ?",
+      "choices": [
+        "Sa puissance militaire",
+        "Son influence par la langue, la gastronomie, le luxe et les musées",
+        "Sa production de pétrole",
+        "Son armée nucléaire"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le soft power de la France repose sur son rayonnement culturel : la francophonie (environ 320 millions de locuteurs), la gastronomie, le luxe, le cinéma et des musées comme le Louvre, le plus visité au monde."
+    },
+    {
+      "question": "Quel grand musée parisien est le plus visité au monde ?",
+      "choices": [
+        "Le musée d'Orsay",
+        "Le centre Pompidou",
+        "Le château de Versailles",
+        "Le Louvre"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Louvre est le musée le plus visité au monde, avec près de 9 millions de visiteurs par an. Il illustre le rayonnement culturel et touristique de la France dans la mondialisation."
+    },
+    {
+      "question": "Que désigne l'hinterland d'un port comme Le Havre ?",
+      "choices": [
+        "La zone de pêche au large",
+        "L'arrière-pays desservi par le port grâce aux routes, voies ferrées et fleuves",
+        "Le quartier des marins",
+        "La zone réservée aux paquebots"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'hinterland est l'arrière-pays qu'un port dessert. Celui du Havre s'étend jusqu'à Paris via la Seine et les autoroutes, ce qui en fait le port maritime de la région parisienne."
+    },
+    {
+      "question": "Comment la France participe-t-elle aux flux humains mondiaux ?",
+      "choices": [
+        "Elle est isolée des migrations internationales",
+        "Elle n'accueille aucun touriste",
+        "Elle interdit les échanges avec l'étranger",
+        "Elle est un carrefour de flux touristiques, migratoires et d'affaires"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bien intégrée à la mondialisation, la France est un carrefour de flux : touristes (1re destination mondiale), migrants, étudiants et hommes d'affaires y transitent via ses ports et aéroports."
+    },
+    {
+      "question": "Quelles villes constituent les principales portes d'entrée de la France dans la mondialisation ?",
+      "choices": [
+        "Les métropoles littorales et Paris, reliées au monde par ports et aéroports",
+        "Les villes de montagne",
+        "Les villages ruraux",
+        "Les communes de la diagonale du vide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paris et les métropoles littorales (Marseille, Le Havre, Bordeaux) sont les portes d'entrée de la mondialisation : elles concentrent ports, aéroports, sièges sociaux et infrastructures connectées au monde."
+    },
+    {
+      "question": "Quel territoire ultramarin français se situe dans l'océan Pacifique ?",
+      "choices": [
+        "La Guadeloupe",
+        "La Polynésie française",
+        "La Réunion",
+        "La Guyane"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Polynésie française et la Nouvelle-Calédonie sont dans le Pacifique. Cette présence sur tous les océans donne à la France une dimension maritime mondiale et une immense ZEE."
+    },
+    {
+      "question": "Pourquoi le port de Marseille-Fos est-il important pour l'énergie en France ?",
+      "choices": [
+        "Il produit de l'électricité solaire",
+        "Il fabrique des éoliennes",
+        "Il reçoit une grande partie des importations de pétrole et de gaz",
+        "Il exporte du charbon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Marseille-Fos, 1er port français en tonnage, reçoit d'énormes quantités d'hydrocarbures (pétrole, gaz) raffinés sur place. C'est une porte d'entrée énergétique de la France et de l'Europe."
+    },
+    {
+      "question": "Que représente la part du transport maritime dans le commerce mondial de marchandises ?",
+      "choices": [
+        "Environ 20 %",
+        "Environ 50 %",
+        "Environ 80 %",
+        "Moins de 5 %"
+      ],
+      "correctIndex": 2,
+      "explanation": "Environ 80 % du commerce mondial de marchandises passe par la mer, surtout grâce aux conteneurs. C'est pourquoi les façades maritimes et les ports comme Le Havre sont stratégiques pour la France."
+    },
+    {
+      "question": "Quel secteur de pointe contribue fortement aux exportations françaises et à son rayonnement mondial ?",
+      "choices": [
+        "L'aéronautique avec Airbus",
+        "La sidérurgie traditionnelle",
+        "L'extraction du charbon",
+        "La pêche à la morue"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'aéronautique, avec Airbus assemblé à Toulouse, est un fleuron des exportations françaises. Les avions, le luxe et le tourisme placent la France parmi les grandes puissances commerciales."
+    },
+    {
+      "question": "Comment la frontière française s'inscrit-elle dans la mondialisation ?",
+      "choices": [
+        "C'est une barrière totalement fermée",
+        "C'est une interface ouverte qui favorise les échanges, notamment avec ses voisins européens",
+        "Elle n'existe plus",
+        "Elle empêche tout commerce"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les frontières françaises sont des interfaces ouvertes : avec l'espace Schengen et l'UE, les marchandises et les personnes circulent librement, faisant de la France un carrefour européen des échanges."
+    }
+  ],
+  "espaces-productifs": [
+    {
+      "question": "Quel rang la France occupe-t-elle dans la production agricole de l'Union européenne ?",
+      "choices": [
+        "1re puissance agricole de l'UE",
+        "5e puissance agricole",
+        "10e puissance agricole",
+        "Dernière de l'UE"
+      ],
+      "correctIndex": 0,
+      "explanation": "La France est la 1re puissance agricole de l'Union européenne en valeur de production, grâce à ses grandes plaines céréalières, son élevage, sa viticulture et une agriculture très mécanisée."
+    },
+    {
+      "question": "Qu'est-ce que l'agriculture intensive (ou productiviste) ?",
+      "choices": [
+        "Une agriculture qui n'utilise aucune machine",
+        "Une agriculture uniquement biologique",
+        "Une agriculture de simple subsistance",
+        "Une agriculture qui recherche un rendement maximal grâce aux engrais, pesticides et machines"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'agriculture intensive vise un rendement maximal par hectare grâce aux engrais, pesticides, irrigation et machines. La Beauce, grenier à blé de la France, en est l'exemple type, mais elle pollue les sols et l'eau."
+    },
+    {
+      "question": "Quelle région française est mondialement réputée pour sa viticulture de prestige ?",
+      "choices": [
+        "La Bretagne",
+        "Le Bordelais",
+        "Les Landes",
+        "La Picardie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Bordelais, comme la Champagne et la Bourgogne, produit des vins exportés dans le monde entier. La viticulture est un espace productif agricole à forte valeur ajoutée et un atout du commerce extérieur français."
+    },
+    {
+      "question": "Qu'est-ce que l'aquaculture ?",
+      "choices": [
+        "L'élevage de poissons, coquillages ou crustacés",
+        "La culture de céréales irriguées",
+        "L'exploitation des forêts",
+        "La culture sous serre"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'aquaculture est l'élevage d'animaux aquatiques : poissons, huîtres, moules. L'ostréiculture (huîtres) du bassin d'Arcachon ou de Marennes-Oléron est une activité productive importante du littoral français."
+    },
+    {
+      "question": "Que désigne la reconversion industrielle d'une région comme le Nord-Pas-de-Calais ?",
+      "choices": [
+        "La construction de nouvelles mines de charbon",
+        "L'arrêt de toute activité économique",
+        "Le retour à l'agriculture vivrière",
+        "Le passage d'activités industrielles en déclin vers de nouvelles activités"
+      ],
+      "correctIndex": 3,
+      "explanation": "Après la fermeture des mines et de la sidérurgie, le Nord a connu une reconversion : nouvelles industries, services, logistique et tourisme (Louvre-Lens). C'est la transformation d'un ancien bassin industriel en déclin."
+    },
+    {
+      "question": "Pourquoi parle-t-on de tertiarisation de l'économie française ?",
+      "choices": [
+        "L'agriculture domine l'emploi",
+        "Le secteur des services emploie aujourd'hui la grande majorité des actifs",
+        "L'industrie emploie 80 % des Français",
+        "Tous les emplois ont disparu"
+      ],
+      "correctIndex": 1,
+      "explanation": "La tertiarisation désigne le poids croissant des services (commerce, banque, santé, tourisme) qui emploient aujourd'hui environ 80 % des actifs en France, loin devant l'industrie et l'agriculture."
+    },
+    {
+      "question": "Où se trouve le quartier d'affaires de La Défense, symbole d'un espace de services ?",
+      "choices": [
+        "À Marseille",
+        "Près de Paris",
+        "À Strasbourg",
+        "À Lille"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Défense, à l'ouest de Paris, est le premier quartier d'affaires d'Europe par sa concentration de tours et de sièges sociaux. C'est un espace productif de services et de fonctions de commandement."
+    },
+    {
+      "question": "Quel type d'agriculture progresse en France pour répondre aux préoccupations environnementales ?",
+      "choices": [
+        "L'agriculture biologique",
+        "L'agriculture toujours plus intensive",
+        "L'abandon de toute culture",
+        "Le retour aux pesticides"
+      ],
+      "correctIndex": 0,
+      "explanation": "Face aux critiques sur les pesticides, l'agriculture biologique et l'agriculture raisonnée se développent. Elles cherchent à produire en respectant mieux l'environnement et la santé des consommateurs."
+    },
+    {
+      "question": "Pourquoi un technopôle attire-t-il des entreprises de haute technologie ?",
+      "choices": [
+        "Parce qu'il est isolé de tout",
+        "Parce que la main-d'œuvre y est non qualifiée",
+        "Parce qu'il regroupe recherche, universités et entreprises favorisant l'innovation",
+        "Parce qu'il interdit la recherche"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un technopôle réunit centres de recherche, universités et entreprises pour favoriser l'innovation. À Sophia-Antipolis (près de Nice), des milliers d'emplois qualifiés se concentrent dans l'informatique et les biotechnologies."
+    },
+    {
+      "question": "Quel espace touristique français est spécialisé dans le tourisme de montagne et le ski ?",
+      "choices": [
+        "La Camargue",
+        "Les Alpes",
+        "La Beauce",
+        "Le bassin d'Arcachon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les Alpes accueillent de grandes stations de ski (Les Trois Vallées, Chamonix) et constituent le premier domaine skiable du monde. Le tourisme y est un espace productif majeur de l'économie locale."
+    },
+    {
+      "question": "Quel facteur explique l'implantation des industries dans les zones industrialo-portuaires (ZIP) ?",
+      "choices": [
+        "L'éloignement de la mer",
+        "L'absence de transports",
+        "La présence de montagnes",
+        "La proximité d'un grand port pour importer matières premières et exporter produits"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les ZIP comme Le Havre, Dunkerque ou Marseille-Fos s'installent au bord de l'eau pour recevoir matières premières (pétrole, minerais) par bateau et réexpédier les produits finis. La proximité portuaire est décisive."
+    },
+    {
+      "question": "Quelle activité agricole spécialisée est très présente en Bretagne ?",
+      "choices": [
+        "La culture du riz",
+        "L'élevage intensif (porcs, volailles)",
+        "La culture de la vigne",
+        "La production d'agrumes"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Bretagne est la première région d'élevage de porcs et de volailles de France (agriculture hors-sol). Cet élevage intensif est très productif mais pose des problèmes de pollution, comme les algues vertes."
+    },
+    {
+      "question": "Comment qualifie-t-on l'industrie de pointe rassemblée autour de Grenoble ou Toulouse ?",
+      "choices": [
+        "Industrie traditionnelle en déclin",
+        "Industrie de haute technologie",
+        "Industrie textile",
+        "Industrie minière"
+      ],
+      "correctIndex": 1,
+      "explanation": "Grenoble (microélectronique, nanotechnologies) et Toulouse (aéronautique, spatial) accueillent des industries de haute technologie. Elles s'appuient sur la recherche et une main-d'œuvre très qualifiée."
+    },
+    {
+      "question": "Quel atout favorise la localisation d'un espace productif de services dans une métropole ?",
+      "choices": [
+        "L'isolement géographique",
+        "La concentration de population, d'infrastructures et de main-d'œuvre qualifiée",
+        "L'absence de transports",
+        "La faible densité"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les services (banques, commerces, sièges sociaux) s'installent dans les métropoles car elles concentrent population, clients, transports et main-d'œuvre qualifiée. Lyon ou Paris attirent ainsi de nombreuses activités tertiaires."
+    },
+    {
+      "question": "Quelle politique européenne soutient financièrement l'agriculture française ?",
+      "choices": [
+        "La PAC (Politique agricole commune)",
+        "L'espace Schengen",
+        "Le traité de l'Atlantique Nord",
+        "La politique monétaire"
+      ],
+      "correctIndex": 0,
+      "explanation": "La PAC, créée en 1962, verse des aides aux agriculteurs européens. La France en est la première bénéficiaire, ce qui soutient ses grandes exploitations céréalières et son rang de première puissance agricole de l'UE."
+    }
+  ]
+}

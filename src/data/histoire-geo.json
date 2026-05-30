@@ -1400,6 +1400,171 @@
           ],
           "correctIndex": 1,
           "explanation": "L'armistice est signé le 11 novembre 1918 à Rethondes, mettant fin aux combats. Cette date est aujourd'hui un jour férié en France."
+        },
+        {
+          "question": "Dans quelle ville l'archiduc François-Ferdinand est-il assassiné en 1914 ?",
+          "choices": [
+            "Vienne",
+            "Sarajevo",
+            "Belgrade",
+            "Berlin"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'héritier du trône d'Autriche-Hongrie est assassiné à Sarajevo le 28 juin 1914 par le nationaliste serbe Gavrilo Princip. Cet attentat déclenche l'engrenage des alliances qui mène à la guerre."
+        },
+        {
+          "question": "Quelles sont les deux grandes alliances qui s'affrontent en 1914 ?",
+          "choices": [
+            "La Triple-Alliance et la Triple-Entente",
+            "L'OTAN et le Pacte de Varsovie",
+            "L'Axe et les Alliés",
+            "La Sainte-Alliance et la Ligue"
+          ],
+          "correctIndex": 0,
+          "explanation": "En 1914 s'opposent la Triple-Alliance (Allemagne, Autriche-Hongrie, Italie) et la Triple-Entente (France, Royaume-Uni, Russie). L'Italie changera de camp en 1915."
+        },
+        {
+          "question": "Quelle bataille de septembre 1914 stoppe l'avancée allemande vers Paris ?",
+          "choices": [
+            "La bataille de la Marne",
+            "La bataille de Verdun",
+            "La bataille de la Somme",
+            "La bataille des Dardanelles"
+          ],
+          "correctIndex": 0,
+          "explanation": "La première bataille de la Marne (6-12 septembre 1914) arrête l'offensive allemande près de Paris. Des soldats y furent acheminés en taxis parisiens, marquant la fin de la guerre de mouvement."
+        },
+        {
+          "question": "Quelle arme chimique est utilisée pour la première fois à grande échelle à Ypres en 1915 ?",
+          "choices": [
+            "Le napalm",
+            "La bombe atomique",
+            "Le gaz moutarde et le chlore",
+            "Les obus à fragmentation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les Allemands utilisent des gaz de combat (chlore puis gaz moutarde) dès 1915 à Ypres en Belgique. Ces armes illustrent la brutalisation et la dimension industrielle de la guerre."
+        },
+        {
+          "question": "En quelle année les États-Unis entrent-ils dans la Première Guerre mondiale ?",
+          "choices": [
+            "1915",
+            "1916",
+            "1917",
+            "1918"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les États-Unis, dirigés par le président Wilson, entrent en guerre en avril 1917 aux côtés de l'Entente, notamment après la guerre sous-marine allemande. Leur arrivée renforce les Alliés."
+        },
+        {
+          "question": "Quel surnom donnait-on aux soldats américains arrivés en 1917-1918 ?",
+          "choices": [
+            "Les Tommies",
+            "Les Sammies",
+            "Les Poilus",
+            "Les Doughboys ou Sammies"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les soldats américains étaient surnommés les Sammies (de l'Oncle Sam) ou Doughboys. Leur arrivée massive en 1918 fait pencher la balance en faveur des Alliés."
+        },
+        {
+          "question": "Que désigne le terme « économie de guerre » entre 1914 et 1918 ?",
+          "choices": [
+            "L'arrêt de toute production civile",
+            "L'aide financière des États-Unis",
+            "Le rationnement uniquement",
+            "La réorganisation de l'industrie et de l'agriculture pour soutenir l'effort militaire"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'économie de guerre désigne la mobilisation de l'industrie, de l'agriculture et de la main-d'oeuvre (femmes, colonies) pour produire armes et munitions. C'est une caractéristique de la guerre totale."
+        },
+        {
+          "question": "Quel rôle nouveau les femmes jouent-elles pendant la Première Guerre mondiale ?",
+          "choices": [
+            "Elles obtiennent le droit de vote en France",
+            "Elles remplacent les hommes dans les usines et les champs",
+            "Elles dirigent l'armée",
+            "Elles sont mobilisées au front"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les femmes remplacent les hommes partis au front dans les usines d'armement (les « munitionnettes »), les champs et les administrations. Leur rôle économique est essentiel à l'effort de guerre."
+        },
+        {
+          "question": "Le génocide arménien commence en 1915. Combien de victimes a-t-il fait environ ?",
+          "choices": [
+            "Environ 100 000",
+            "Environ 6 millions",
+            "Environ 1,2 million",
+            "Environ 300 000"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le génocide arménien (1915-1916) perpétré par l'Empire ottoman a fait environ 1,2 million de morts par massacres et déportations dans le désert. C'est le premier génocide du XXe siècle."
+        },
+        {
+          "question": "Quelle clause du traité de Versailles rend l'Allemagne responsable de la guerre ?",
+          "choices": [
+            "L'article sur les réparations",
+            "L'article 231 dit de « culpabilité de guerre »",
+            "Le retour de l'Alsace-Lorraine",
+            "La création de la SDN"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'article 231 du traité de Versailles (1919) désigne l'Allemagne comme seule responsable de la guerre, justifiant de lourdes réparations. Les Allemands le ressentent comme un « diktat »."
+        },
+        {
+          "question": "Quel territoire la France récupère-t-elle de l'Allemagne grâce au traité de Versailles ?",
+          "choices": [
+            "La Sarre",
+            "La Rhénanie",
+            "La Ruhr",
+            "L'Alsace-Lorraine"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le traité de Versailles (1919) rend à la France l'Alsace-Lorraine, annexée par l'Allemagne depuis la défaite de 1871. C'était une revendication majeure des Français."
+        },
+        {
+          "question": "Quelle organisation internationale est créée en 1919-1920 pour maintenir la paix ?",
+          "choices": [
+            "L'ONU",
+            "La Société des Nations (SDN)",
+            "L'OTAN",
+            "La Croix-Rouge"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Société des Nations (SDN) est créée en 1920 à l'initiative du président américain Wilson pour préserver la paix. Affaiblie par l'absence des États-Unis, elle échoue à empêcher la Seconde Guerre mondiale."
+        },
+        {
+          "question": "Combien de morts environ la Première Guerre mondiale a-t-elle causés ?",
+          "choices": [
+            "Environ 10 millions de militaires",
+            "Environ 1 million",
+            "Environ 50 millions",
+            "Environ 6 millions"
+          ],
+          "correctIndex": 0,
+          "explanation": "La Première Guerre mondiale a fait environ 10 millions de morts militaires et de nombreux blessés et mutilés (les « gueules cassées »). C'est une saignée démographique pour l'Europe."
+        },
+        {
+          "question": "Que sont les « mutineries » de 1917 dans l'armée française ?",
+          "choices": [
+            "Des fêtes militaires",
+            "Des refus de combattre par des soldats épuisés",
+            "Des défilés de la victoire",
+            "Des changements de généraux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Après l'échec sanglant de l'offensive du Chemin des Dames (avril 1917), des soldats refusent de monter au front. Le général Pétain rétablit l'ordre par des sanctions et l'amélioration des conditions de vie."
+        },
+        {
+          "question": "Pourquoi parle-t-on de « guerre totale » pour 1914-1918 ?",
+          "choices": [
+            "Parce qu'elle se déroule sur tous les continents",
+            "Parce qu'elle mobilise toutes les ressources humaines, économiques et morales des États",
+            "Parce qu'elle dure plus de dix ans",
+            "Parce qu'elle utilise l'arme atomique"
+          ],
+          "correctIndex": 1,
+          "explanation": "On parle de guerre totale car les États mobilisent l'ensemble de leurs ressources : soldats, industrie, agriculture, finances, propagande et populations civiles. Rien n'échappe à l'effort de guerre."
         }
       ]
     },
@@ -1472,6 +1637,171 @@
           ],
           "correctIndex": 2,
           "explanation": "Le Front populaire (alliance des gauches dirigée par Léon Blum) accède au pouvoir en mai 1936 et instaure les congés payés (15 jours) et la semaine de 40 heures."
+        },
+        {
+          "question": "Quel krach boursier déclenche la grande crise économique mondiale ?",
+          "choices": [
+            "Le krach de Londres en 1925",
+            "Le krach de Wall Street en octobre 1929",
+            "Le krach de Paris en 1931",
+            "Le krach de Berlin en 1933"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le krach boursier de Wall Street (New York) le 24 octobre 1929 (« jeudi noir ») déclenche une crise économique mondiale : faillites, chômage de masse et misère qui touchent l'Europe dès 1931."
+        },
+        {
+          "question": "Quelle conséquence majeure la crise de 1929 a-t-elle eue en Allemagne ?",
+          "choices": [
+            "Un chômage massif favorisant la montée du nazisme",
+            "Un retour à la monarchie",
+            "Une croissance économique",
+            "L'entrée dans la SDN"
+          ],
+          "correctIndex": 0,
+          "explanation": "La crise de 1929 provoque en Allemagne un chômage de masse (6 millions en 1932) et la misère, ce qui favorise la montée du parti nazi, qui promet du travail et la grandeur retrouvée."
+        },
+        {
+          "question": "Comment Staline appelle-t-il la mise en commun forcée des terres agricoles ?",
+          "choices": [
+            "La privatisation",
+            "La collectivisation",
+            "La nationalisation des banques",
+            "La décolonisation"
+          ],
+          "correctIndex": 1,
+          "explanation": "À partir de 1929, Staline impose la collectivisation forcée des terres en URSS, regroupant les paysans dans des kolkhozes. La résistance des paysans aisés (koulaks) est écrasée par la déportation."
+        },
+        {
+          "question": "Quelle terrible famine, liée à la collectivisation, frappe l'Ukraine en 1932-1933 ?",
+          "choices": [
+            "La Grande Dépression",
+            "La Nuit de Cristal",
+            "L'Holodomor",
+            "La Longue Marche"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'Holodomor est la grande famine de 1932-1933 en Ukraine, provoquée par la collectivisation et les réquisitions staliniennes. Elle a fait plusieurs millions de morts."
+        },
+        {
+          "question": "Comment appelle-t-on la police politique de l'URSS sous Staline ?",
+          "choices": [
+            "La Gestapo",
+            "L'OVRA",
+            "Les SA",
+            "Le NKVD (police politique)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le NKVD est la police politique soviétique sous Staline, chargée de la terreur, des arrestations et de la gestion des goulags. Elle organise les « purges » contre les opposants supposés."
+        },
+        {
+          "question": "Comment nomme-t-on les grands procès staliniens des années 1936-1938 contre d'anciens dirigeants ?",
+          "choices": [
+            "Les procès de Moscou ou Grandes Purges",
+            "Les procès de Nuremberg",
+            "Les procès de Vichy",
+            "Les procès de Tokyo"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les procès de Moscou (1936-1938), au coeur des Grandes Purges, voient d'anciens compagnons de Lénine accusés de trahison et exécutés après des aveux extorqués. C'est l'apogée de la terreur stalinienne."
+        },
+        {
+          "question": "Quel titre Mussolini se donne-t-il en Italie fasciste ?",
+          "choices": [
+            "Le Duce",
+            "Le Führer",
+            "Le Caudillo",
+            "Le Petit Père des peuples"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mussolini se fait appeler le Duce (le « guide » en italien). Son régime fasciste, au pouvoir depuis 1922, repose sur le culte du chef, le parti unique et la propagande."
+        },
+        {
+          "question": "Quel parti unique dirige l'Allemagne à partir de 1933 ?",
+          "choices": [
+            "Le Parti communiste",
+            "Le Parti social-démocrate",
+            "Le NSDAP (parti nazi)",
+            "Le Parti fasciste"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le NSDAP (Parti national-socialiste des travailleurs allemands), dirigé par Hitler, devient le parti unique en 1933. Tous les autres partis sont interdits, instaurant la dictature totalitaire."
+        },
+        {
+          "question": "Quel ouvrage écrit par Hitler en prison expose son idéologie raciste ?",
+          "choices": [
+            "Le Capital",
+            "Mein Kampf",
+            "Le Manifeste du parti communiste",
+            "Que faire ?"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hitler écrit Mein Kampf (« Mon combat ») en 1924 en prison. Il y développe son idéologie antisémite, le racisme aryen et la conquête d'un « espace vital » pour l'Allemagne."
+        },
+        {
+          "question": "Quel pogrom antisémite a lieu en Allemagne dans la nuit du 9 au 10 novembre 1938 ?",
+          "choices": [
+            "La rafle du Vél d'Hiv",
+            "La Marche sur Rome",
+            "La Longue Marche",
+            "La Nuit de Cristal"
+          ],
+          "correctIndex": 3,
+          "explanation": "La Nuit de Cristal (9-10 novembre 1938) est un pogrom organisé contre les Juifs allemands : synagogues incendiées, magasins saccagés, milliers d'arrestations. C'est une étape vers la persécution systématique."
+        },
+        {
+          "question": "Que désigne le mot « propagande » dans les régimes totalitaires ?",
+          "choices": [
+            "L'utilisation des médias pour imposer l'idéologie et encadrer les esprits",
+            "La liberté de la presse",
+            "Un type d'élection libre",
+            "Une politique économique"
+          ],
+          "correctIndex": 0,
+          "explanation": "La propagande désigne l'usage massif des médias (radio, affiches, cinéma, presse) par les régimes totalitaires pour diffuser leur idéologie, glorifier le chef et endoctriner la population, dès l'enfance."
+        },
+        {
+          "question": "Quelle est la principale différence entre une démocratie et un régime totalitaire ?",
+          "choices": [
+            "La démocratie n'a pas d'armée",
+            "La démocratie respecte le pluralisme, les libertés et des élections libres",
+            "Le totalitarisme autorise plusieurs partis",
+            "La démocratie interdit les journaux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une démocratie respecte le pluralisme politique, les libertés individuelles et l'organisation d'élections libres. Un régime totalitaire impose un parti unique, une idéologie et contrôle tous les aspects de la vie."
+        },
+        {
+          "question": "Comment les régimes totalitaires encadrent-ils la jeunesse ?",
+          "choices": [
+            "En supprimant l'école",
+            "En interdisant le sport",
+            "Par des organisations de jeunesse obligatoires (Jeunesses hitlériennes, jeunesses fascistes)",
+            "En l'envoyant à l'étranger"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les régimes totalitaires embrigadent la jeunesse dans des organisations comme les Jeunesses hitlériennes en Allemagne ou les Balilla en Italie, pour former des citoyens dévoués au chef et à l'idéologie."
+        },
+        {
+          "question": "Quel « espace vital » Hitler revendique-t-il pour l'Allemagne ?",
+          "choices": [
+            "Le Lebensraum à l'Est",
+            "Les colonies d'Afrique",
+            "Le Pacifique",
+            "L'Amérique du Sud"
+          ],
+          "correctIndex": 0,
+          "explanation": "Hitler revendique un « espace vital » (Lebensraum) à l'Est de l'Europe, aux dépens des Slaves jugés inférieurs. Cette idée justifie l'expansion territoriale et l'agression qui mènent à la guerre en 1939."
+        },
+        {
+          "question": "Quel point commun relie les régimes de Staline, Mussolini et Hitler ?",
+          "choices": [
+            "Ils sont communistes",
+            "Ce sont des démocraties",
+            "Ils respectent les libertés individuelles",
+            "Ce sont des régimes totalitaires reposant sur un parti unique et le culte du chef"
+          ],
+          "correctIndex": 3,
+          "explanation": "Malgré des idéologies différentes (communisme pour Staline, fascisme pour Mussolini, nazisme pour Hitler), ces trois régimes sont totalitaires : parti unique, culte du chef, propagande, terreur et contrôle total de la société."
         }
       ]
     },
@@ -1555,6 +1885,171 @@
           ],
           "correctIndex": 2,
           "explanation": "L'Allemagne nazie capitule le 8 mai 1945. C'est aujourd'hui un jour férié en France marquant la victoire des Alliés en Europe."
+        },
+        {
+          "question": "Quel pacte germano-soviétique d'août 1939 prévoit le partage de la Pologne ?",
+          "choices": [
+            "Le pacte de Munich",
+            "Le pacte germano-soviétique (Molotov-Ribbentrop)",
+            "Le pacte de Varsovie",
+            "Le pacte Briand-Kellogg"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pacte germano-soviétique signé le 23 août 1939 entre Hitler et Staline contient un protocole secret partageant la Pologne. Il permet à l'Allemagne d'attaquer la Pologne le 1er septembre 1939."
+        },
+        {
+          "question": "Comment appelle-t-on la tactique allemande de guerre rapide avec chars et aviation ?",
+          "choices": [
+            "La Blitzkrieg (guerre éclair)",
+            "La guerre de tranchées",
+            "La drôle de guerre",
+            "La guerre froide"
+          ],
+          "correctIndex": 0,
+          "explanation": "La Blitzkrieg (guerre éclair) combine chars, aviation et infanterie motorisée pour percer rapidement le front. Elle permet à l'Allemagne de conquérir la Pologne en 1939 puis la France en six semaines en 1940."
+        },
+        {
+          "question": "Quel maréchal signe l'armistice avec l'Allemagne le 22 juin 1940 ?",
+          "choices": [
+            "Charles de Gaulle",
+            "Maxime Weygand",
+            "Philippe Pétain",
+            "Maurice Gamelin"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le maréchal Pétain, nommé chef du gouvernement, signe l'armistice avec l'Allemagne le 22 juin 1940. La France est alors divisée en zone occupée et zone libre."
+        },
+        {
+          "question": "Quelle était la devise du régime de Vichy, remplaçant « Liberté, Égalité, Fraternité » ?",
+          "choices": [
+            "Un peuple, un empire, un chef",
+            "Ordre et Progrès",
+            "Dieu et mon droit",
+            "Travail, Famille, Patrie"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le régime de Vichy remplace la devise républicaine par « Travail, Famille, Patrie », symbole de sa « Révolution nationale » conservatrice et autoritaire mise en place dès 1940."
+        },
+        {
+          "question": "Qui unifie les mouvements de la Résistance intérieure en 1943 ?",
+          "choices": [
+            "Jean Moulin",
+            "Pierre Laval",
+            "Philippe Pétain",
+            "Pierre Mendès France"
+          ],
+          "correctIndex": 0,
+          "explanation": "Jean Moulin, envoyé par de Gaulle, fonde le Conseil national de la Résistance (CNR) le 27 mai 1943, unifiant les mouvements de résistance. Arrêté et torturé, il meurt en juillet 1943."
+        },
+        {
+          "question": "Lors de quelle conférence de janvier 1942 les nazis planifient-ils la « Solution finale » ?",
+          "choices": [
+            "La conférence de Yalta",
+            "La conférence de Munich",
+            "La conférence de Wannsee",
+            "La conférence de Potsdam"
+          ],
+          "correctIndex": 2,
+          "explanation": "La conférence de Wannsee (20 janvier 1942) organise la mise en oeuvre industrielle de la « Solution finale », c'est-à-dire l'extermination systématique des Juifs d'Europe dans les camps."
+        },
+        {
+          "question": "Quelle rafle massive de Juifs a lieu à Paris les 16 et 17 juillet 1942 ?",
+          "choices": [
+            "La rafle du Vél d'Hiv",
+            "La Nuit de Cristal",
+            "La rafle de Marseille",
+            "L'opération Anthropoid"
+          ],
+          "correctIndex": 0,
+          "explanation": "La rafle du Vélodrome d'Hiver (Vél d'Hiv) des 16-17 juillet 1942 voit la police française arrêter plus de 13 000 Juifs, dont des milliers d'enfants, avant leur déportation vers Auschwitz."
+        },
+        {
+          "question": "Quelle bataille de l'hiver 1942-1943 marque un tournant sur le front de l'Est ?",
+          "choices": [
+            "La bataille de Koursk",
+            "La bataille de Moscou",
+            "La bataille de Berlin",
+            "La bataille de Stalingrad"
+          ],
+          "correctIndex": 3,
+          "explanation": "La bataille de Stalingrad (août 1942 - février 1943) se termine par la capitulation de la 6e armée allemande. C'est un tournant majeur : l'URSS passe à l'offensive contre l'Allemagne nazie."
+        },
+        {
+          "question": "Quel pays est attaqué par le Japon à Pearl Harbor le 7 décembre 1941 ?",
+          "choices": [
+            "Les États-Unis",
+            "Le Royaume-Uni",
+            "L'URSS",
+            "L'Australie"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'attaque japonaise sur la base américaine de Pearl Harbor (Hawaï) le 7 décembre 1941 provoque l'entrée en guerre des États-Unis, qui rejoignent les Alliés contre l'Axe."
+        },
+        {
+          "question": "Quel débarquement allié a lieu en Provence le 15 août 1944 ?",
+          "choices": [
+            "L'opération Overlord",
+            "L'opération Dragoon (débarquement de Provence)",
+            "L'opération Barbarossa",
+            "L'opération Torch"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le débarquement de Provence (opération Dragoon) du 15 août 1944 complète celui de Normandie. Ces deux opérations permettent la libération rapide du territoire français à l'été 1944."
+        },
+        {
+          "question": "Quelle ville française est libérée le 25 août 1944 ?",
+          "choices": [
+            "Lyon",
+            "Strasbourg",
+            "Paris",
+            "Marseille"
+          ],
+          "correctIndex": 2,
+          "explanation": "Paris est libérée le 25 août 1944 grâce à l'insurrection parisienne, à la 2e DB du général Leclerc et aux Alliés. De Gaulle descend triomphalement les Champs-Élysées le 26 août."
+        },
+        {
+          "question": "Sur quelles villes japonaises les États-Unis larguent-ils des bombes atomiques en août 1945 ?",
+          "choices": [
+            "Tokyo et Osaka",
+            "Hiroshima et Nagasaki",
+            "Kyoto et Yokohama",
+            "Nagoya et Kobe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les États-Unis larguent une bombe atomique sur Hiroshima le 6 août 1945, puis sur Nagasaki le 9 août. Ces bombardements provoquent la capitulation du Japon et révèlent une arme d'un nouveau genre."
+        },
+        {
+          "question": "Quand le Japon capitule-t-il, mettant fin à la Seconde Guerre mondiale ?",
+          "choices": [
+            "Le 8 mai 1945",
+            "Le 2 septembre 1945",
+            "Le 6 juin 1945",
+            "Le 11 novembre 1945"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Japon capitule officiellement le 2 septembre 1945, après les bombardements atomiques. Cette date marque la fin de la Seconde Guerre mondiale, près de quatre mois après la capitulation allemande du 8 mai."
+        },
+        {
+          "question": "Que désigne le terme « collaboration » sous le régime de Vichy ?",
+          "choices": [
+            "L'aide apportée à la Résistance",
+            "Le travail des Alliés ensemble",
+            "L'union des partis politiques",
+            "La coopération volontaire de Vichy avec l'Allemagne nazie"
+          ],
+          "correctIndex": 3,
+          "explanation": "La collaboration désigne la coopération volontaire du régime de Vichy avec l'Allemagne nazie : livraison de Juifs, mise en place du STO, lutte contre les résistants via la Milice. Pétain rencontre Hitler à Montoire en 1940."
+        },
+        {
+          "question": "Combien de Juifs ont été assassinés dans la Shoah environ ?",
+          "choices": [
+            "Environ 1 million",
+            "Environ 6 millions",
+            "Environ 10 millions",
+            "Environ 300 000"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Shoah a causé la mort d'environ 6 millions de Juifs européens, exterminés par balles (Shoah par balles à l'Est) et dans les chambres à gaz des camps d'extermination comme Auschwitz-Birkenau."
         }
       ]
     },
@@ -1627,6 +2122,171 @@
           ],
           "correctIndex": 2,
           "explanation": "L'euro entre en circulation sous forme de pièces et billets le 1er janvier 2002, remplaçant le franc."
+        },
+        {
+          "question": "Quelle organisation, créée en 1945, met en place la Sécurité sociale en France ?",
+          "choices": [
+            "Le Conseil national de la Résistance (CNR)",
+            "L'ONU",
+            "L'Union européenne",
+            "Le Front populaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le programme du Conseil national de la Résistance, appliqué à la Libération, fonde la Sécurité sociale en 1945. Elle assure la protection sociale des Français (santé, retraite, famille), pilier de l'État-providence."
+        },
+        {
+          "question": "Quel régime politique gouverne la France de 1946 à 1958 ?",
+          "choices": [
+            "La Troisième République",
+            "Le régime de Vichy",
+            "La Quatrième République",
+            "La Cinquième République"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Quatrième République (1946-1958) est marquée par l'instabilité ministérielle et la reconstruction, mais s'effondre face à la crise de la guerre d'Algérie, ouvrant la voie au retour de De Gaulle."
+        },
+        {
+          "question": "Quel événement provoque le retour au pouvoir de De Gaulle en 1958 ?",
+          "choices": [
+            "Mai 68",
+            "La chute du mur de Berlin",
+            "L'arrivée de l'euro",
+            "La crise de la guerre d'Algérie"
+          ],
+          "correctIndex": 3,
+          "explanation": "La crise du 13 mai 1958 à Alger, qui menace de coup d'État, provoque le retour au pouvoir du général de Gaulle. Il fonde la Cinquième République dont la constitution renforce le pouvoir exécutif."
+        },
+        {
+          "question": "En quelle année l'élection du président au suffrage universel direct est-elle instaurée ?",
+          "choices": [
+            "1958",
+            "1962",
+            "1965",
+            "1969"
+          ],
+          "correctIndex": 1,
+          "explanation": "La révision constitutionnelle de 1962, adoptée par référendum à l'initiative de De Gaulle, instaure l'élection du président de la République au suffrage universel direct. Elle s'applique dès 1965."
+        },
+        {
+          "question": "Quel mouvement de jeunesse étudiant déclenche la crise de mai 1968 ?",
+          "choices": [
+            "La contestation à l'université de Nanterre",
+            "La grève des mineurs",
+            "La manifestation des agriculteurs",
+            "Le mouvement des retraités"
+          ],
+          "correctIndex": 0,
+          "explanation": "La crise de mai 1968 débute par la contestation étudiante à l'université de Nanterre puis au Quartier latin, avant de se transformer en grève générale ouvrière, contestant la société et l'autorité gaulliste."
+        },
+        {
+          "question": "Quel président démissionne après l'échec du référendum de 1969 ?",
+          "choices": [
+            "Charles de Gaulle",
+            "Georges Pompidou",
+            "Valéry Giscard d'Estaing",
+            "Vincent Auriol"
+          ],
+          "correctIndex": 0,
+          "explanation": "Charles de Gaulle démissionne le 28 avril 1969 après le rejet par les Français de son référendum sur la régionalisation et le Sénat. Il met sa fonction en jeu, fidèle à sa conception du pouvoir."
+        },
+        {
+          "question": "À quel âge la majorité électorale est-elle abaissée en 1974 sous Giscard d'Estaing ?",
+          "choices": [
+            "16 ans",
+            "18 ans",
+            "20 ans",
+            "21 ans"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sous la présidence de Valéry Giscard d'Estaing, la majorité électorale est abaissée de 21 à 18 ans en 1974. Cette réforme accompagne d'autres mesures sociales comme la loi Veil sur l'IVG en 1975."
+        },
+        {
+          "question": "Quelle loi de 1975, portée par Simone Veil, autorise l'avortement ?",
+          "choices": [
+            "La loi Neuwirth",
+            "La loi Roudy",
+            "La loi Veil (IVG)",
+            "La loi sur la parité"
+          ],
+          "correctIndex": 2,
+          "explanation": "La loi Veil du 17 janvier 1975, portée par la ministre Simone Veil, légalise l'interruption volontaire de grossesse (IVG). C'est une avancée majeure pour les droits des femmes en France."
+        },
+        {
+          "question": "Quelle grande mesure symbolique le gouvernement de François Mitterrand prend-il en 1981 ?",
+          "choices": [
+            "L'abolition de la peine de mort",
+            "La création de l'euro",
+            "La fin du service militaire",
+            "L'entrée dans l'OTAN"
+          ],
+          "correctIndex": 0,
+          "explanation": "En 1981, le gouvernement Mauroy fait voter l'abolition de la peine de mort, portée par le ministre Robert Badinter. C'est l'une des grandes réformes de la première année du septennat de Mitterrand."
+        },
+        {
+          "question": "Que désigne une « cohabitation » sous la Cinquième République ?",
+          "choices": [
+            "Une alliance entre la France et l'Allemagne",
+            "Le partage du pouvoir entre l'Assemblée et le Sénat",
+            "Une coalition gouvernementale",
+            "Une période où le président et le Premier ministre sont d'opposition politique différente"
+          ],
+          "correctIndex": 3,
+          "explanation": "Une cohabitation désigne une période où le président de la République et le Premier ministre appartiennent à des camps politiques opposés. La première a lieu en 1986 entre Mitterrand (gauche) et Chirac (droite)."
+        },
+        {
+          "question": "Combien de cohabitations la France a-t-elle connues entre 1986 et 2002 ?",
+          "choices": [
+            "Une",
+            "Deux",
+            "Trois",
+            "Quatre"
+          ],
+          "correctIndex": 2,
+          "explanation": "La France a connu trois cohabitations : Mitterrand-Chirac (1986-1988), Mitterrand-Balladur (1993-1995) et Chirac-Jospin (1997-2002). Le passage au quinquennat en 2000 les a rendues plus rares."
+        },
+        {
+          "question": "En quelle année le mandat présidentiel passe-t-il de sept à cinq ans (quinquennat) ?",
+          "choices": [
+            "1995",
+            "2000",
+            "2007",
+            "2012"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le quinquennat est instauré par référendum en 2000 sous la présidence de Jacques Chirac, réduisant le mandat présidentiel de sept à cinq ans. Il s'applique à partir de l'élection de 2002."
+        },
+        {
+          "question": "Quelle expression désigne la forte croissance économique française de 1945 à 1975 ?",
+          "choices": [
+            "Les Trente Glorieuses",
+            "La Grande Dépression",
+            "La Belle Époque",
+            "Le redressement productif"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les « Trente Glorieuses » (expression de l'économiste Jean Fourastié) désignent les trois décennies de forte croissance de 1945 à 1975 : plein emploi, société de consommation et essor de l'État-providence."
+        },
+        {
+          "question": "Quelle loi de 2000 vise à favoriser l'égalité hommes-femmes en politique ?",
+          "choices": [
+            "La loi sur la laïcité",
+            "La loi Veil",
+            "La loi sur la parité",
+            "La loi Neuwirth"
+          ],
+          "correctIndex": 2,
+          "explanation": "La loi sur la parité de 2000 oblige les partis à présenter autant de femmes que d'hommes aux élections. Elle vise à corriger la faible présence des femmes dans la vie politique française."
+        },
+        {
+          "question": "Quand la France passe-t-elle à une armée professionnelle, mettant fin au service militaire obligatoire ?",
+          "choices": [
+            "En 1981",
+            "À la fin des années 1990 (suspension décidée en 1997)",
+            "En 2002",
+            "En 1958"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le service militaire obligatoire est suspendu à la fin des années 1990 (décision de Jacques Chirac en 1996-1997, dernier appel en 2001), au profit d'une armée professionnelle. La Journée défense remplace le service."
         }
       ]
     },
@@ -1688,6 +2348,171 @@
           ],
           "correctIndex": 1,
           "explanation": "La crise des missiles de Cuba (octobre 1962) opposa Kennedy et Khrouchtchev. L'URSS retira ses missiles de Cuba, évitant une guerre nucléaire."
+        },
+        {
+          "question": "Quelle doctrine américaine de 1947 vise à « contenir » l'expansion communiste ?",
+          "choices": [
+            "La doctrine Monroe",
+            "La doctrine Brejnev",
+            "La doctrine Truman",
+            "Le plan Schuman"
+          ],
+          "correctIndex": 2,
+          "explanation": "La doctrine Truman (1947) engage les États-Unis à aider les pays menacés par le communisme, principe du « containment ». L'URSS y répond par la doctrine Jdanov, marquant le début de la Guerre froide."
+        },
+        {
+          "question": "Quel plan américain de 1947 aide à la reconstruction économique de l'Europe ?",
+          "choices": [
+            "Le plan Marshall",
+            "Le plan Schuman",
+            "Le plan Dawes",
+            "Le plan Monnet"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le plan Marshall (1947) est une aide financière américaine pour reconstruire l'Europe et la maintenir hors de l'influence soviétique. L'URSS et ses satellites le refusent, accentuant la division des blocs."
+        },
+        {
+          "question": "Quel blocus soviétique de Berlin a lieu en 1948-1949 ?",
+          "choices": [
+            "La construction du mur",
+            "La crise de Cuba",
+            "Le rideau de fer",
+            "Le blocus de Berlin (pont aérien allié)"
+          ],
+          "correctIndex": 3,
+          "explanation": "En 1948-1949, Staline bloque les accès terrestres à Berlin-Ouest. Les Alliés ravitaillent la ville par un gigantesque pont aérien. Cet épisode aboutit à la division de l'Allemagne en RFA et RDA en 1949."
+        },
+        {
+          "question": "Quelle guerre oppose le Nord communiste au Sud entre 1950 et 1953 en Asie ?",
+          "choices": [
+            "La guerre de Corée",
+            "La guerre du Vietnam",
+            "La guerre d'Indochine",
+            "La guerre d'Afghanistan"
+          ],
+          "correctIndex": 0,
+          "explanation": "La guerre de Corée (1950-1953) oppose la Corée du Nord communiste (soutenue par l'URSS et la Chine) à la Corée du Sud (soutenue par l'ONU et les États-Unis). Elle aboutit à la division du pays au 38e parallèle."
+        },
+        {
+          "question": "Quelle alliance militaire le bloc de l'Est crée-t-il en 1955 face à l'OTAN ?",
+          "choices": [
+            "La Triple-Alliance",
+            "Le Comecon",
+            "Le Pacte de Varsovie",
+            "La SDN"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le Pacte de Varsovie est créé en 1955 par l'URSS et ses satellites d'Europe de l'Est, en réponse à l'OTAN occidentale (1949). C'est l'alliance militaire du bloc communiste pendant la Guerre froide."
+        },
+        {
+          "question": "Quand l'Inde obtient-elle son indépendance du Royaume-Uni ?",
+          "choices": [
+            "1945",
+            "1947",
+            "1954",
+            "1960"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'Inde accède à l'indépendance en 1947, sous l'impulsion de Gandhi et Nehru. La partition donne naissance à l'Inde et au Pakistan, accompagnée de violences et de déplacements massifs de populations."
+        },
+        {
+          "question": "Quelle défaite française de 1954 met fin à la guerre d'Indochine ?",
+          "choices": [
+            "Diên Biên Phu",
+            "Sedan",
+            "Verdun",
+            "Waterloo"
+          ],
+          "correctIndex": 0,
+          "explanation": "La défaite française de Diên Biên Phu en mai 1954 met fin à la guerre d'Indochine. Les accords de Genève (1954) reconnaissent l'indépendance du Vietnam, divisé entre Nord communiste et Sud."
+        },
+        {
+          "question": "Quelle conférence de 1955 réunit les pays du tiers-monde non alignés ?",
+          "choices": [
+            "La conférence de Yalta",
+            "La conférence de Potsdam",
+            "La conférence de Munich",
+            "La conférence de Bandung"
+          ],
+          "correctIndex": 3,
+          "explanation": "La conférence de Bandung (Indonésie) en 1955 réunit des pays d'Asie et d'Afrique récemment indépendants. Ils dénoncent le colonialisme et affirment leur volonté de non-alignement entre les deux blocs."
+        },
+        {
+          "question": "Quelle organisation algérienne mène la guerre d'indépendance contre la France ?",
+          "choices": [
+            "Le FLN (Front de libération nationale)",
+            "L'OAS",
+            "Le Vietminh",
+            "Le Parti communiste"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le FLN (Front de libération nationale) déclenche la guerre d'Algérie le 1er novembre 1954 (« Toussaint rouge »). Il mène la lutte armée jusqu'à l'indépendance, obtenue par les accords d'Évian en 1962."
+        },
+        {
+          "question": "Quelle année est appelée « l'année de l'Afrique » en raison de nombreuses indépendances ?",
+          "choices": [
+            "1960",
+            "1955",
+            "1962",
+            "1947"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'année 1960 est appelée « l'année de l'Afrique » car dix-sept colonies africaines, dont quatorze françaises (Sénégal, Côte d'Ivoire, Mali...), accèdent à l'indépendance la même année."
+        },
+        {
+          "question": "Quels accords de 1962 mettent fin à la guerre d'Algérie ?",
+          "choices": [
+            "Les accords d'Évian",
+            "Les accords de Genève",
+            "Les accords de Munich",
+            "Les accords de Grenelle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les accords d'Évian, signés le 18 mars 1962, mettent fin à la guerre d'Algérie. L'indépendance de l'Algérie est proclamée le 5 juillet 1962, après huit ans de conflit."
+        },
+        {
+          "question": "Quel président américain affronte Khrouchtchev lors de la crise de Cuba en 1962 ?",
+          "choices": [
+            "Truman",
+            "Eisenhower",
+            "Kennedy",
+            "Nixon"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lors de la crise des missiles de Cuba en octobre 1962, le président américain John Kennedy s'oppose au dirigeant soviétique Khrouchtchev. Le monde frôle la guerre nucléaire avant le retrait des missiles soviétiques."
+        },
+        {
+          "question": "Que désigne l'expression « coexistence pacifique » dans les années 1950-1960 ?",
+          "choices": [
+            "La fin de la Guerre froide",
+            "L'union de l'URSS et des États-Unis",
+            "Une rivalité entre blocs sans affrontement militaire direct",
+            "La réunification de l'Allemagne"
+          ],
+          "correctIndex": 2,
+          "explanation": "La « coexistence pacifique », promue par Khrouchtchev, désigne une rivalité entre les deux blocs qui se poursuit sans affrontement militaire direct, par la course aux armements, l'espionnage et la compétition idéologique."
+        },
+        {
+          "question": "Quel événement de 1991 marque la fin de la Guerre froide ?",
+          "choices": [
+            "La chute du mur de Berlin",
+            "La crise de Cuba",
+            "La guerre de Corée",
+            "La disparition de l'URSS"
+          ],
+          "correctIndex": 3,
+          "explanation": "La disparition de l'URSS en décembre 1991 marque la fin de la Guerre froide. Après la chute du mur de Berlin (1989) et l'effondrement des régimes communistes, le bloc soviétique se désintègre."
+        },
+        {
+          "question": "Que désigne le terme « non-alignement » pendant la Guerre froide ?",
+          "choices": [
+            "Le refus de certains pays de s'allier à l'un des deux blocs",
+            "Le refus de participer à la SDN",
+            "L'alliance avec les États-Unis",
+            "Le rejet de toute indépendance"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le non-alignement est le choix de pays du tiers-monde (Inde, Égypte, Yougoslavie...) de ne s'allier ni au bloc américain ni au bloc soviétique. Ce mouvement s'affirme après la conférence de Bandung de 1955."
         }
       ]
     },
@@ -1749,6 +2574,171 @@
           ],
           "correctIndex": 0,
           "explanation": "L'espace Schengen, créé en 1985, supprime les contrôles aux frontières intérieures entre les pays signataires."
+        },
+        {
+          "question": "Quelle organisation, créée en 1951, constitue la première étape de la construction européenne ?",
+          "choices": [
+            "La CECA (Communauté européenne du charbon et de l'acier)",
+            "La CEE",
+            "L'Union européenne",
+            "L'OTAN"
+          ],
+          "correctIndex": 0,
+          "explanation": "La CECA, créée en 1951 par 6 pays à l'initiative de Robert Schuman, met en commun charbon et acier pour rendre la guerre impossible entre la France et l'Allemagne. C'est l'ancêtre de l'UE."
+        },
+        {
+          "question": "Combien de pays fondateurs ont signé le traité de Rome en 1957 ?",
+          "choices": [
+            "3",
+            "12",
+            "15",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les 6 pays fondateurs sont la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. L'UE est passée de 6 à 27 membres au fil des élargissements."
+        },
+        {
+          "question": "En quelle année l'euro est-il entré en circulation sous forme de pièces et billets ?",
+          "choices": [
+            "1992",
+            "1999",
+            "2002",
+            "2009"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'euro est devenu monnaie de référence en 1999, mais les pièces et billets ne circulent qu'à partir du 1er janvier 2002. La zone euro compte aujourd'hui 20 pays."
+        },
+        {
+          "question": "Quelle institution européenne propose les lois et veille à leur application ?",
+          "choices": [
+            "Le Parlement européen",
+            "La Commission européenne",
+            "Le Conseil de l'Europe",
+            "La Cour de justice"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Commission européenne, dont le siège est à Bruxelles, propose les textes de loi et veille à leur application. Elle est composée d'un commissaire par État membre."
+        },
+        {
+          "question": "Comment sont désignés les députés du Parlement européen ?",
+          "choices": [
+            "Nommés par les gouvernements",
+            "Tirés au sort",
+            "Désignés par la Commission",
+            "Élus au suffrage universel direct par les citoyens"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les eurodéputés sont élus tous les 5 ans au suffrage universel direct dans chaque pays. C'est la seule institution de l'UE élue directement par les citoyens."
+        },
+        {
+          "question": "Quel pays a quitté l'Union européenne en 2020 lors du Brexit ?",
+          "choices": [
+            "L'Irlande",
+            "La Norvège",
+            "Le Royaume-Uni",
+            "La Suisse"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le Royaume-Uni a quitté l'UE le 31 janvier 2020 après le référendum de 2016. C'est le premier pays à sortir de l'Union, faisant passer le nombre de membres de 28 à 27."
+        },
+        {
+          "question": "Parmi ces pays, lequel utilise l'euro comme monnaie ?",
+          "choices": [
+            "La Suède",
+            "Le Danemark",
+            "L'Allemagne",
+            "La Pologne"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'Allemagne fait partie de la zone euro. La Suède, le Danemark et la Pologne sont membres de l'UE mais ont conservé leur monnaie nationale (couronne, zloty)."
+        },
+        {
+          "question": "Quelle ville abrite la Banque centrale européenne (BCE) ?",
+          "choices": [
+            "Bruxelles",
+            "Strasbourg",
+            "Francfort",
+            "Luxembourg"
+          ],
+          "correctIndex": 2,
+          "explanation": "La BCE, qui gère l'euro et fixe les taux d'intérêt de la zone euro, a son siège à Francfort, en Allemagne. Les capitales européennes sont réparties entre plusieurs villes."
+        },
+        {
+          "question": "Que désigne une région transfrontalière comme celle du Grand Genève ?",
+          "choices": [
+            "Une région où l'on parle plusieurs langues",
+            "Un espace de coopération entre territoires de pays voisins",
+            "Une zone interdite aux étrangers",
+            "Une région indépendante de tout État"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une région transfrontalière est un espace de coopération entre territoires de pays voisins. Le Grand Genève relie la Suisse et la France : environ 100 000 frontaliers français y travaillent chaque jour."
+        },
+        {
+          "question": "Quel élargissement majeur de l'UE a eu lieu en 2004 ?",
+          "choices": [
+            "L'entrée de 10 pays, surtout d'Europe de l'Est",
+            "L'entrée de l'Espagne et du Portugal",
+            "L'entrée du Royaume-Uni",
+            "L'entrée de la Grèce"
+          ],
+          "correctIndex": 0,
+          "explanation": "En 2004, l'UE accueille 10 nouveaux pays, principalement d'Europe de l'Est (Pologne, Hongrie, Pays baltes...), après la chute du communisme. C'est le plus grand élargissement de son histoire."
+        },
+        {
+          "question": "Pourquoi observe-t-on des disparités de richesse au sein de l'UE ?",
+          "choices": [
+            "Tous les pays ont le même PIB par habitant",
+            "Les pays de l'Est et du Sud sont souvent moins riches que ceux du Nord-Ouest",
+            "Les pays riches sont à l'Est",
+            "Il n'existe aucune inégalité dans l'UE"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le PIB par habitant du Luxembourg est plusieurs fois supérieur à celui de la Bulgarie. Pour réduire ces écarts, l'UE verse des aides via les fonds régionaux (politique de cohésion)."
+        },
+        {
+          "question": "Que partagent les pays de l'espace Schengen ?",
+          "choices": [
+            "Une même armée",
+            "Une même langue officielle",
+            "L'absence de contrôles aux frontières intérieures",
+            "Un même gouvernement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans l'espace Schengen, on circule librement sans contrôle aux frontières intérieures. On peut ainsi passer de la France à l'Allemagne sans montrer son passeport."
+        },
+        {
+          "question": "La France partage une frontière terrestre avec combien de pays de l'UE ?",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "La France métropolitaine a une frontière avec 6 pays de l'UE : Belgique, Luxembourg, Allemagne, Italie, Espagne et... il faut y ajouter la Suisse et l'Andorre (hors UE). Cela favorise les échanges transfrontaliers."
+        },
+        {
+          "question": "Quelle ville est souvent surnommée la capitale de l'Union européenne ?",
+          "choices": [
+            "Paris",
+            "Berlin",
+            "Rome",
+            "Bruxelles"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bruxelles, en Belgique, abrite la Commission et le Conseil de l'UE ainsi que de nombreuses réunions. Elle est considérée comme le principal centre politique de l'Union."
+        },
+        {
+          "question": "Quel symbole représente l'Union européenne sur son drapeau ?",
+          "choices": [
+            "27 étoiles, une par pays",
+            "Un cercle de 12 étoiles dorées sur fond bleu",
+            "Une carte de l'Europe",
+            "Une colombe blanche"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le drapeau européen comporte 12 étoiles dorées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, et ne correspond pas au nombre de pays membres."
         }
       ]
     },
@@ -1810,6 +2800,171 @@
           ],
           "correctIndex": 0,
           "explanation": "Une métropole est une grande ville qui concentre les fonctions de commandement (économiques, politiques, culturelles) et exerce une influence sur un vaste territoire."
+        },
+        {
+          "question": "Comment appelle-t-on les habitants qui font chaque jour le trajet domicile-travail entre leur commune et la ville-centre ?",
+          "choices": [
+            "Les navetteurs",
+            "Les migrants",
+            "Les résidents",
+            "Les saisonniers"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les navetteurs effectuent quotidiennement le trajet entre leur domicile périurbain et leur lieu de travail en ville. Ces migrations pendulaires saturent souvent les routes et les transports en commun."
+        },
+        {
+          "question": "Que désigne la métropolisation ?",
+          "choices": [
+            "Le départ des habitants vers les campagnes",
+            "La construction de métros",
+            "La fusion de deux communes rurales",
+            "La concentration des populations et des activités dans les grandes villes"
+          ],
+          "correctIndex": 3,
+          "explanation": "La métropolisation est la concentration croissante des hommes, des richesses et des fonctions de commandement dans les grandes villes. En France, les métropoles comme Lyon ou Bordeaux gagnent des habitants."
+        },
+        {
+          "question": "Comment nomme-t-on l'arrivée de populations aisées qui rénovent un quartier populaire et en font monter les prix ?",
+          "choices": [
+            "La périurbanisation",
+            "La gentrification",
+            "La rénovation rurale",
+            "L'exode urbain"
+          ],
+          "correctIndex": 1,
+          "explanation": "La gentrification désigne l'embourgeoisement d'un quartier populaire rénové. À Paris, des quartiers comme le Marais ou Belleville ont vu leurs anciens habitants modestes remplacés par des ménages plus aisés."
+        },
+        {
+          "question": "Quelles sont les trois composantes d'une aire d'attraction des villes ?",
+          "choices": [
+            "Région, département, commune",
+            "Ville-centre, banlieue, couronne périurbaine",
+            "Centre, port, aéroport",
+            "Quartier, rue, immeuble"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une aire d'attraction se compose de la ville-centre, de sa banlieue (bâti continu) et de la couronne périurbaine (communes plus éloignées dont les actifs travaillent dans le pôle)."
+        },
+        {
+          "question": "Pourquoi parle-t-on de Paris comme d'une métropole mondiale ?",
+          "choices": [
+            "Parce qu'elle concentre des fonctions de commandement à l'échelle de la planète",
+            "Parce que c'est la plus grande ville de France",
+            "Parce qu'elle est la plus ancienne ville française",
+            "Parce qu'elle est entourée de campagnes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Paris est une métropole mondiale (ou ville mondiale) car elle concentre sièges de grandes entreprises, bourse, institutions et rayonnement culturel. On la classe avec New York, Londres et Tokyo."
+        },
+        {
+          "question": "Quel problème environnemental l'étalement urbain provoque-t-il principalement ?",
+          "choices": [
+            "La disparition de terres agricoles et naturelles",
+            "La montée du niveau des mers",
+            "La pollution des océans",
+            "La fonte des glaciers"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'étalement urbain consomme de l'espace : chaque année en France, des milliers d'hectares de terres agricoles sont artificialisés (lotissements, routes, zones commerciales). C'est l'artificialisation des sols."
+        },
+        {
+          "question": "Qu'est-ce qu'un espace rural sous influence urbaine ?",
+          "choices": [
+            "Une campagne totalement coupée des villes",
+            "Une zone industrielle abandonnée",
+            "Une campagne proche d'une ville, dont les habitants profitent des emplois et services urbains",
+            "Un parc national protégé"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un espace rural sous influence urbaine est une campagne proche d'une ville : ses habitants y vivent mais travaillent souvent en ville. Ces espaces gagnent des habitants venus chercher un cadre de vie agréable."
+        },
+        {
+          "question": "Qu'est-ce qui caractérise un espace rural isolé (rural profond) ?",
+          "choices": [
+            "Une forte croissance démographique",
+            "Une faible densité et un éloignement des grandes villes",
+            "Une concentration de gratte-ciels",
+            "Une forte présence industrielle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le rural isolé se caractérise par de faibles densités, le vieillissement et le départ des jeunes, ainsi que la difficulté d'accès aux services. La Creuse ou la Lozère en sont des exemples."
+        },
+        {
+          "question": "Pourquoi de nombreuses familles choisissent-elles de s'installer dans la couronne périurbaine ?",
+          "choices": [
+            "Pour vivre dans un appartement de centre-ville",
+            "Pour être loin de tout emploi",
+            "Pour éviter d'avoir une voiture",
+            "Pour accéder à une maison individuelle moins chère avec un jardin"
+          ],
+          "correctIndex": 3,
+          "explanation": "Beaucoup de ménages s'installent en périurbain pour accéder à la propriété d'une maison avec jardin, le foncier y étant moins cher qu'en ville. En contrepartie, ils dépendent fortement de la voiture."
+        },
+        {
+          "question": "Quel mode de transport est le plus utilisé par les navetteurs des couronnes périurbaines ?",
+          "choices": [
+            "Le vélo",
+            "La voiture individuelle",
+            "Le tramway",
+            "La marche à pied"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans les couronnes périurbaines, l'habitat dispersé rend les transports en commun peu efficaces : la voiture individuelle domine, ce qui pose des problèmes d'embouteillages et de pollution."
+        },
+        {
+          "question": "Quelles villes françaises, après Paris, sont les plus grandes aires d'attraction ?",
+          "choices": [
+            "Lyon et Marseille",
+            "Brest et Limoges",
+            "Mende et Guéret",
+            "Cahors et Aurillac"
+          ],
+          "correctIndex": 0,
+          "explanation": "Après Paris (plus de 13 millions d'habitants), Lyon et Marseille-Aix sont les plus grandes aires d'attraction de France, dépassant chacune 1,5 million d'habitants."
+        },
+        {
+          "question": "Comment les villes tentent-elles de limiter l'étalement urbain ?",
+          "choices": [
+            "En construisant toujours plus loin",
+            "En densifiant et en renouvelant la ville sur elle-même",
+            "En supprimant les transports en commun",
+            "En interdisant les immeubles"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pour limiter l'étalement, les villes densifient (immeubles plutôt que pavillons) et rénovent d'anciens quartiers ou friches : c'est la ville durable, qui cherche à reconstruire la ville sur la ville."
+        },
+        {
+          "question": "Qu'appelle-t-on une commune-dortoir ?",
+          "choices": [
+            "Une commune où l'on dort mais sans y travailler ni avoir de commerces",
+            "Une commune touristique de montagne",
+            "Une commune entièrement industrielle",
+            "Une commune sans habitants"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une commune-dortoir, fréquente dans le périurbain, accueille surtout des logements : ses habitants travaillent, font leurs courses et leurs loisirs ailleurs, ce qui réduit l'animation locale en journée."
+        },
+        {
+          "question": "Quel atout les espaces ruraux mettent-ils en avant pour attirer de nouveaux habitants ?",
+          "choices": [
+            "La proximité immédiate des gratte-ciels",
+            "Le cadre de vie, la nature et des logements moins chers",
+            "L'absence totale de routes",
+            "Le climat tropical"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les campagnes attirent grâce à un cadre de vie agréable, la nature et des logements plus abordables. Le télétravail, qui s'est développé depuis 2020, renforce ce mouvement de néo-ruraux."
+        },
+        {
+          "question": "Que signifie le fait que la France soit majoritairement un pays urbain ?",
+          "choices": [
+            "Tout le territoire est couvert de villes",
+            "La majorité des Français vivent dans des aires urbaines, même si les villes occupent peu d'espace",
+            "Il n'y a plus aucune campagne",
+            "Les campagnes sont plus peuplées que les villes"
+          ],
+          "correctIndex": 1,
+          "explanation": "La France est très urbaine par sa population (les villes concentrent l'essentiel des habitants), mais les espaces urbains n'occupent qu'une faible part du territoire : la majorité des terres restent rurales."
         }
       ]
     },
@@ -1860,6 +3015,171 @@
           ],
           "correctIndex": 1,
           "explanation": "La France fait partie des 10 premières puissances économiques mondiales (environ 7ème), grâce à ses industries, son tourisme et ses services."
+        },
+        {
+          "question": "Grâce à quoi la France possède-t-elle la deuxième plus grande ZEE du monde ?",
+          "choices": [
+            "À sa façade atlantique",
+            "À la Méditerranée",
+            "À ses territoires d'outre-mer répartis sur tous les océans",
+            "À la Manche"
+          ],
+          "correctIndex": 2,
+          "explanation": "Grâce à ses territoires d'outre-mer (Polynésie, Nouvelle-Calédonie, La Réunion...), la France dispose d'une ZEE d'environ 11 millions de km², la 2e du monde après les États-Unis. Cela lui donne des droits sur d'immenses espaces maritimes."
+        },
+        {
+          "question": "Quelle place occupe la France dans le tourisme international ?",
+          "choices": [
+            "1re destination touristique mondiale en nombre de visiteurs",
+            "10e destination mondiale",
+            "1re seulement en Europe",
+            "Hors du top 20 mondial"
+          ],
+          "correctIndex": 0,
+          "explanation": "La France est la 1re destination touristique mondiale en nombre de visiteurs, avec environ 90 à 100 millions de touristes étrangers par an, attirés par Paris, la Côte d'Azur ou les Alpes."
+        },
+        {
+          "question": "Qu'est-ce qu'une façade maritime comme celle de la Manche-mer du Nord ?",
+          "choices": [
+            "Une simple plage touristique",
+            "Une frontière fermée",
+            "Une zone militaire",
+            "Un littoral concentrant de grands ports et des activités économiques tournées vers le monde"
+          ],
+          "correctIndex": 3,
+          "explanation": "Une façade maritime est un littoral qui concentre de grands ports ouverts sur le monde. La façade Manche-mer du Nord, avec Le Havre et Dunkerque, est intégrée à la Northern Range européenne."
+        },
+        {
+          "question": "Quel est le premier port français pour le trafic de conteneurs ?",
+          "choices": [
+            "Marseille-Fos",
+            "Le Havre",
+            "Bordeaux",
+            "Calais"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Havre est le 1er port français pour les conteneurs. Son nom est même resté dans l'expression maritime du fret. Marseille-Fos, lui, est le 1er en tonnage total grâce aux hydrocarbures."
+        },
+        {
+          "question": "Pourquoi l'aéroport de Roissy-Charles-de-Gaulle est-il qualifié de hub ?",
+          "choices": [
+            "Parce qu'il est le plus ancien de France",
+            "Parce qu'il n'accueille que des vols intérieurs",
+            "Parce qu'il sert de plateforme de correspondance reliant de nombreuses destinations",
+            "Parce qu'il est réservé au fret"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un hub est une plateforme de correspondance : à Roissy, des millions de passagers changent d'avion pour rejoindre une autre destination. C'est l'un des principaux hubs aériens d'Europe."
+        },
+        {
+          "question": "Qu'est-ce que le soft power culturel de la France ?",
+          "choices": [
+            "Sa puissance militaire",
+            "Son influence par la langue, la gastronomie, le luxe et les musées",
+            "Sa production de pétrole",
+            "Son armée nucléaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le soft power de la France repose sur son rayonnement culturel : la francophonie (environ 320 millions de locuteurs), la gastronomie, le luxe, le cinéma et des musées comme le Louvre, le plus visité au monde."
+        },
+        {
+          "question": "Quel grand musée parisien est le plus visité au monde ?",
+          "choices": [
+            "Le musée d'Orsay",
+            "Le centre Pompidou",
+            "Le château de Versailles",
+            "Le Louvre"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le Louvre est le musée le plus visité au monde, avec près de 9 millions de visiteurs par an. Il illustre le rayonnement culturel et touristique de la France dans la mondialisation."
+        },
+        {
+          "question": "Que désigne l'hinterland d'un port comme Le Havre ?",
+          "choices": [
+            "La zone de pêche au large",
+            "L'arrière-pays desservi par le port grâce aux routes, voies ferrées et fleuves",
+            "Le quartier des marins",
+            "La zone réservée aux paquebots"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'hinterland est l'arrière-pays qu'un port dessert. Celui du Havre s'étend jusqu'à Paris via la Seine et les autoroutes, ce qui en fait le port maritime de la région parisienne."
+        },
+        {
+          "question": "Comment la France participe-t-elle aux flux humains mondiaux ?",
+          "choices": [
+            "Elle est isolée des migrations internationales",
+            "Elle n'accueille aucun touriste",
+            "Elle interdit les échanges avec l'étranger",
+            "Elle est un carrefour de flux touristiques, migratoires et d'affaires"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bien intégrée à la mondialisation, la France est un carrefour de flux : touristes (1re destination mondiale), migrants, étudiants et hommes d'affaires y transitent via ses ports et aéroports."
+        },
+        {
+          "question": "Quelles villes constituent les principales portes d'entrée de la France dans la mondialisation ?",
+          "choices": [
+            "Les métropoles littorales et Paris, reliées au monde par ports et aéroports",
+            "Les villes de montagne",
+            "Les villages ruraux",
+            "Les communes de la diagonale du vide"
+          ],
+          "correctIndex": 0,
+          "explanation": "Paris et les métropoles littorales (Marseille, Le Havre, Bordeaux) sont les portes d'entrée de la mondialisation : elles concentrent ports, aéroports, sièges sociaux et infrastructures connectées au monde."
+        },
+        {
+          "question": "Quel territoire ultramarin français se situe dans l'océan Pacifique ?",
+          "choices": [
+            "La Guadeloupe",
+            "La Polynésie française",
+            "La Réunion",
+            "La Guyane"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Polynésie française et la Nouvelle-Calédonie sont dans le Pacifique. Cette présence sur tous les océans donne à la France une dimension maritime mondiale et une immense ZEE."
+        },
+        {
+          "question": "Pourquoi le port de Marseille-Fos est-il important pour l'énergie en France ?",
+          "choices": [
+            "Il produit de l'électricité solaire",
+            "Il fabrique des éoliennes",
+            "Il reçoit une grande partie des importations de pétrole et de gaz",
+            "Il exporte du charbon"
+          ],
+          "correctIndex": 2,
+          "explanation": "Marseille-Fos, 1er port français en tonnage, reçoit d'énormes quantités d'hydrocarbures (pétrole, gaz) raffinés sur place. C'est une porte d'entrée énergétique de la France et de l'Europe."
+        },
+        {
+          "question": "Que représente la part du transport maritime dans le commerce mondial de marchandises ?",
+          "choices": [
+            "Environ 20 %",
+            "Environ 50 %",
+            "Environ 80 %",
+            "Moins de 5 %"
+          ],
+          "correctIndex": 2,
+          "explanation": "Environ 80 % du commerce mondial de marchandises passe par la mer, surtout grâce aux conteneurs. C'est pourquoi les façades maritimes et les ports comme Le Havre sont stratégiques pour la France."
+        },
+        {
+          "question": "Quel secteur de pointe contribue fortement aux exportations françaises et à son rayonnement mondial ?",
+          "choices": [
+            "L'aéronautique avec Airbus",
+            "La sidérurgie traditionnelle",
+            "L'extraction du charbon",
+            "La pêche à la morue"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'aéronautique, avec Airbus assemblé à Toulouse, est un fleuron des exportations françaises. Les avions, le luxe et le tourisme placent la France parmi les grandes puissances commerciales."
+        },
+        {
+          "question": "Comment la frontière française s'inscrit-elle dans la mondialisation ?",
+          "choices": [
+            "C'est une barrière totalement fermée",
+            "C'est une interface ouverte qui favorise les échanges, notamment avec ses voisins européens",
+            "Elle n'existe plus",
+            "Elle empêche tout commerce"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les frontières françaises sont des interfaces ouvertes : avec l'espace Schengen et l'UE, les marchandises et les personnes circulent librement, faisant de la France un carrefour européen des échanges."
         }
       ]
     },
@@ -1910,6 +3230,171 @@
           ],
           "correctIndex": 1,
           "explanation": "Paris est la première destination touristique mondiale. La France est le 1er pays touristique mondial avec plus de 80 millions de visiteurs par an."
+        },
+        {
+          "question": "Quel rang la France occupe-t-elle dans la production agricole de l'Union européenne ?",
+          "choices": [
+            "1re puissance agricole de l'UE",
+            "5e puissance agricole",
+            "10e puissance agricole",
+            "Dernière de l'UE"
+          ],
+          "correctIndex": 0,
+          "explanation": "La France est la 1re puissance agricole de l'Union européenne en valeur de production, grâce à ses grandes plaines céréalières, son élevage, sa viticulture et une agriculture très mécanisée."
+        },
+        {
+          "question": "Qu'est-ce que l'agriculture intensive (ou productiviste) ?",
+          "choices": [
+            "Une agriculture qui n'utilise aucune machine",
+            "Une agriculture uniquement biologique",
+            "Une agriculture de simple subsistance",
+            "Une agriculture qui recherche un rendement maximal grâce aux engrais, pesticides et machines"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'agriculture intensive vise un rendement maximal par hectare grâce aux engrais, pesticides, irrigation et machines. La Beauce, grenier à blé de la France, en est l'exemple type, mais elle pollue les sols et l'eau."
+        },
+        {
+          "question": "Quelle région française est mondialement réputée pour sa viticulture de prestige ?",
+          "choices": [
+            "La Bretagne",
+            "Le Bordelais",
+            "Les Landes",
+            "La Picardie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Bordelais, comme la Champagne et la Bourgogne, produit des vins exportés dans le monde entier. La viticulture est un espace productif agricole à forte valeur ajoutée et un atout du commerce extérieur français."
+        },
+        {
+          "question": "Qu'est-ce que l'aquaculture ?",
+          "choices": [
+            "L'élevage de poissons, coquillages ou crustacés",
+            "La culture de céréales irriguées",
+            "L'exploitation des forêts",
+            "La culture sous serre"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'aquaculture est l'élevage d'animaux aquatiques : poissons, huîtres, moules. L'ostréiculture (huîtres) du bassin d'Arcachon ou de Marennes-Oléron est une activité productive importante du littoral français."
+        },
+        {
+          "question": "Que désigne la reconversion industrielle d'une région comme le Nord-Pas-de-Calais ?",
+          "choices": [
+            "La construction de nouvelles mines de charbon",
+            "L'arrêt de toute activité économique",
+            "Le retour à l'agriculture vivrière",
+            "Le passage d'activités industrielles en déclin vers de nouvelles activités"
+          ],
+          "correctIndex": 3,
+          "explanation": "Après la fermeture des mines et de la sidérurgie, le Nord a connu une reconversion : nouvelles industries, services, logistique et tourisme (Louvre-Lens). C'est la transformation d'un ancien bassin industriel en déclin."
+        },
+        {
+          "question": "Pourquoi parle-t-on de tertiarisation de l'économie française ?",
+          "choices": [
+            "L'agriculture domine l'emploi",
+            "Le secteur des services emploie aujourd'hui la grande majorité des actifs",
+            "L'industrie emploie 80 % des Français",
+            "Tous les emplois ont disparu"
+          ],
+          "correctIndex": 1,
+          "explanation": "La tertiarisation désigne le poids croissant des services (commerce, banque, santé, tourisme) qui emploient aujourd'hui environ 80 % des actifs en France, loin devant l'industrie et l'agriculture."
+        },
+        {
+          "question": "Où se trouve le quartier d'affaires de La Défense, symbole d'un espace de services ?",
+          "choices": [
+            "À Marseille",
+            "Près de Paris",
+            "À Strasbourg",
+            "À Lille"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Défense, à l'ouest de Paris, est le premier quartier d'affaires d'Europe par sa concentration de tours et de sièges sociaux. C'est un espace productif de services et de fonctions de commandement."
+        },
+        {
+          "question": "Quel type d'agriculture progresse en France pour répondre aux préoccupations environnementales ?",
+          "choices": [
+            "L'agriculture biologique",
+            "L'agriculture toujours plus intensive",
+            "L'abandon de toute culture",
+            "Le retour aux pesticides"
+          ],
+          "correctIndex": 0,
+          "explanation": "Face aux critiques sur les pesticides, l'agriculture biologique et l'agriculture raisonnée se développent. Elles cherchent à produire en respectant mieux l'environnement et la santé des consommateurs."
+        },
+        {
+          "question": "Pourquoi un technopôle attire-t-il des entreprises de haute technologie ?",
+          "choices": [
+            "Parce qu'il est isolé de tout",
+            "Parce que la main-d'œuvre y est non qualifiée",
+            "Parce qu'il regroupe recherche, universités et entreprises favorisant l'innovation",
+            "Parce qu'il interdit la recherche"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un technopôle réunit centres de recherche, universités et entreprises pour favoriser l'innovation. À Sophia-Antipolis (près de Nice), des milliers d'emplois qualifiés se concentrent dans l'informatique et les biotechnologies."
+        },
+        {
+          "question": "Quel espace touristique français est spécialisé dans le tourisme de montagne et le ski ?",
+          "choices": [
+            "La Camargue",
+            "Les Alpes",
+            "La Beauce",
+            "Le bassin d'Arcachon"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les Alpes accueillent de grandes stations de ski (Les Trois Vallées, Chamonix) et constituent le premier domaine skiable du monde. Le tourisme y est un espace productif majeur de l'économie locale."
+        },
+        {
+          "question": "Quel facteur explique l'implantation des industries dans les zones industrialo-portuaires (ZIP) ?",
+          "choices": [
+            "L'éloignement de la mer",
+            "L'absence de transports",
+            "La présence de montagnes",
+            "La proximité d'un grand port pour importer matières premières et exporter produits"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les ZIP comme Le Havre, Dunkerque ou Marseille-Fos s'installent au bord de l'eau pour recevoir matières premières (pétrole, minerais) par bateau et réexpédier les produits finis. La proximité portuaire est décisive."
+        },
+        {
+          "question": "Quelle activité agricole spécialisée est très présente en Bretagne ?",
+          "choices": [
+            "La culture du riz",
+            "L'élevage intensif (porcs, volailles)",
+            "La culture de la vigne",
+            "La production d'agrumes"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Bretagne est la première région d'élevage de porcs et de volailles de France (agriculture hors-sol). Cet élevage intensif est très productif mais pose des problèmes de pollution, comme les algues vertes."
+        },
+        {
+          "question": "Comment qualifie-t-on l'industrie de pointe rassemblée autour de Grenoble ou Toulouse ?",
+          "choices": [
+            "Industrie traditionnelle en déclin",
+            "Industrie de haute technologie",
+            "Industrie textile",
+            "Industrie minière"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grenoble (microélectronique, nanotechnologies) et Toulouse (aéronautique, spatial) accueillent des industries de haute technologie. Elles s'appuient sur la recherche et une main-d'œuvre très qualifiée."
+        },
+        {
+          "question": "Quel atout favorise la localisation d'un espace productif de services dans une métropole ?",
+          "choices": [
+            "L'isolement géographique",
+            "La concentration de population, d'infrastructures et de main-d'œuvre qualifiée",
+            "L'absence de transports",
+            "La faible densité"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les services (banques, commerces, sièges sociaux) s'installent dans les métropoles car elles concentrent population, clients, transports et main-d'œuvre qualifiée. Lyon ou Paris attirent ainsi de nombreuses activités tertiaires."
+        },
+        {
+          "question": "Quelle politique européenne soutient financièrement l'agriculture française ?",
+          "choices": [
+            "La PAC (Politique agricole commune)",
+            "L'espace Schengen",
+            "Le traité de l'Atlantique Nord",
+            "La politique monétaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "La PAC, créée en 1962, verse des aides aux agriculteurs européens. La France en est la première bénéficiaire, ce qui soutient ses grandes exploitations céréalières et son rang de première puissance agricole de l'UE."
         }
       ]
     },
@@ -1971,6 +3456,171 @@
           ],
           "correctIndex": 1,
           "explanation": "L'âge minimum pour voter en France est de 18 ans depuis 1974 (auparavant 21 ans)."
+        },
+        {
+          "question": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
+          "choices": [
+            "1944",
+            "1946",
+            "1958",
+            "1962"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958, à l'initiative du général de Gaulle, dans le contexte de la crise algérienne."
+        },
+        {
+          "question": "Depuis quelle année le président de la République est-il élu au suffrage universel direct ?",
+          "choices": [
+            "1981",
+            "1958",
+            "2000",
+            "1962"
+          ],
+          "correctIndex": 3,
+          "explanation": "C'est le référendum de 1962, voulu par de Gaulle, qui instaure l'élection du président au suffrage universel direct. Auparavant, il était élu par un collège de grands électeurs."
+        },
+        {
+          "question": "De quoi le président de la République est-il le chef selon la Constitution ?",
+          "choices": [
+            "Du Sénat",
+            "Des armées",
+            "De la Cour de cassation",
+            "De la Banque de France"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le président de la République est le chef des armées (article 15 de la Constitution). Il préside les conseils et comités supérieurs de la défense nationale."
+        },
+        {
+          "question": "Quel pouvoir le président peut-il exercer sur l'Assemblée nationale ?",
+          "choices": [
+            "La dissoudre",
+            "La remplacer par le Sénat",
+            "Doubler le nombre de députés",
+            "Nommer ses députés"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le président de la République peut dissoudre l'Assemblée nationale (article 12). De nouvelles élections législatives sont alors organisées dans les 20 à 40 jours."
+        },
+        {
+          "question": "Devant qui le gouvernement est-il politiquement responsable ?",
+          "choices": [
+            "L'Assemblée nationale",
+            "Le président seul",
+            "Le Conseil constitutionnel",
+            "Le Sénat"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le gouvernement est responsable devant l'Assemblée nationale, qui peut le renverser par une motion de censure. Le Sénat ne peut pas renverser le gouvernement."
+        },
+        {
+          "question": "Combien de sénateurs compte le Sénat français ?",
+          "choices": [
+            "348",
+            "577",
+            "925",
+            "100"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le Sénat compte 348 sénateurs, élus au suffrage universel indirect par des grands électeurs (députés, conseillers régionaux, départementaux, municipaux)."
+        },
+        {
+          "question": "Quels sont les trois pouvoirs distingués par la séparation des pouvoirs ?",
+          "choices": [
+            "Militaire, religieux et civil",
+            "Exécutif, législatif et judiciaire",
+            "National, régional et local",
+            "Royal, parlementaire et populaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "La séparation des pouvoirs, théorisée par Montesquieu, distingue le pouvoir exécutif (gouvernement), le pouvoir législatif (Parlement) et le pouvoir judiciaire (les juges) pour éviter les abus."
+        },
+        {
+          "question": "Quel est le rôle principal du Conseil constitutionnel ?",
+          "choices": [
+            "Voter le budget de l'État",
+            "Diriger la police nationale",
+            "Vérifier que les lois respectent la Constitution",
+            "Nommer le Premier ministre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le Conseil constitutionnel vérifie que les lois sont conformes à la Constitution. Il veille aussi à la régularité des élections présidentielles et des référendums."
+        },
+        {
+          "question": "Comment appelle-t-on le va-et-vient d'un texte de loi entre l'Assemblée et le Sénat ?",
+          "choices": [
+            "La cohabitation",
+            "La navette parlementaire",
+            "La motion de censure",
+            "L'alternance"
+          ],
+          "correctIndex": 1,
+          "explanation": "La navette parlementaire est le va-et-vient d'un projet ou d'une proposition de loi entre l'Assemblée nationale et le Sénat, jusqu'à ce qu'ils adoptent un texte identique."
+        },
+        {
+          "question": "Qui peut être à l'initiative d'une loi en France ?",
+          "choices": [
+            "Uniquement le président",
+            "Seulement le Conseil constitutionnel",
+            "Les citoyens uniquement",
+            "Le gouvernement (projet) ou les parlementaires (proposition)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Une loi peut venir du gouvernement, on parle alors de projet de loi, ou des parlementaires, on parle de proposition de loi. Les deux suivent ensuite la navette parlementaire."
+        },
+        {
+          "question": "Pour combien d'années les députés de l'Assemblée nationale sont-ils élus ?",
+          "choices": [
+            "3 ans",
+            "5 ans",
+            "6 ans",
+            "9 ans"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les députés sont élus pour 5 ans au suffrage universel direct, sauf en cas de dissolution de l'Assemblée nationale par le président de la République."
+        },
+        {
+          "question": "Qui promulgue les lois une fois votées par le Parlement ?",
+          "choices": [
+            "Le Premier ministre",
+            "Le président de la République",
+            "Le président du Sénat",
+            "Le Conseil constitutionnel"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le président de la République promulgue les lois dans les 15 jours suivant leur adoption définitive par le Parlement, ce qui les rend applicables."
+        },
+        {
+          "question": "Que permet un référendum au niveau national ?",
+          "choices": [
+            "De faire voter une loi par les députés",
+            "De dissoudre le Sénat",
+            "De juger un ministre",
+            "De consulter directement les citoyens sur une question"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le référendum permet au président de consulter directement les citoyens, qui répondent par oui ou par non. C'est une forme de démocratie directe prévue par la Constitution."
+        },
+        {
+          "question": "Qui dirige l'action du gouvernement et coordonne les ministres ?",
+          "choices": [
+            "Le président du Sénat",
+            "Le Premier ministre",
+            "Le président du Conseil constitutionnel",
+            "Le chef d'état-major"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Premier ministre dirige l'action du gouvernement, coordonne les ministres et est responsable de la mise en œuvre des lois. Il est nommé par le président de la République."
+        },
+        {
+          "question": "À quel pouvoir appartiennent les juges et les tribunaux ?",
+          "choices": [
+            "Au pouvoir exécutif",
+            "Au pouvoir législatif",
+            "Au pouvoir judiciaire",
+            "Au pouvoir constitutionnel"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les juges et les tribunaux exercent le pouvoir judiciaire. Leur rôle est de faire respecter les lois et de juger ceux qui les enfreignent, indépendamment des autres pouvoirs."
         }
       ]
     },
@@ -2021,6 +3671,171 @@
           ],
           "correctIndex": 0,
           "explanation": "Marianne est la figure allégorique de la République française. Elle est représentée avec un bonnet phrygien, symbole de liberté."
+        },
+        {
+          "question": "Quelles sont les trois couleurs du drapeau français ?",
+          "choices": [
+            "Bleu, blanc, rouge",
+            "Rouge, jaune, vert",
+            "Bleu, blanc, vert",
+            "Blanc, rouge, noir"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le drapeau tricolore est bleu, blanc, rouge. Le blanc était la couleur du roi, le bleu et le rouge celles de la ville de Paris : il symbolise l'union née pendant la Révolution."
+        },
+        {
+          "question": "Que tient ou porte souvent Marianne comme symbole de liberté ?",
+          "choices": [
+            "Une couronne",
+            "Un sceptre",
+            "Un bonnet phrygien",
+            "Un casque militaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "Marianne est représentée avec un bonnet phrygien, coiffe portée par les esclaves affranchis dans l'Antiquité romaine, devenu un symbole de liberté pendant la Révolution."
+        },
+        {
+          "question": "Selon la Constitution, la France est une République…",
+          "choices": [
+            "royale et catholique",
+            "fédérale et libérale",
+            "monarchique et parlementaire",
+            "indivisible, laïque, démocratique et sociale"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'article 1er de la Constitution affirme que la France est une République indivisible, laïque, démocratique et sociale, qui assure l'égalité devant la loi de tous les citoyens."
+        },
+        {
+          "question": "Quel animal est un emblème traditionnel de la France, souvent associé au sport ?",
+          "choices": [
+            "L'aigle",
+            "Le lion",
+            "Le coq",
+            "Le loup"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le coq gaulois est un emblème traditionnel de la France. On le retrouve souvent sur les maillots des équipes sportives françaises, par exemple en football ou en rugby."
+        },
+        {
+          "question": "Que commémore le 14 juillet, fête nationale française ?",
+          "choices": [
+            "L'armistice de 1918",
+            "La prise de la Bastille en 1789",
+            "La Libération de Paris en 1944",
+            "Le couronnement de Napoléon"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le 14 juillet commémore la prise de la Bastille en 1789, symbole de la fin de l'absolutisme, ainsi que la fête de la Fédération de 1790, symbole de l'unité nationale."
+        },
+        {
+          "question": "Que signifie le mot « fraternité » dans la devise républicaine ?",
+          "choices": [
+            "Le droit de propriété",
+            "L'égalité des salaires",
+            "La solidarité et l'entraide entre les citoyens",
+            "La liberté de circulation"
+          ],
+          "correctIndex": 2,
+          "explanation": "La fraternité désigne la solidarité et l'entraide entre les citoyens. C'est la troisième valeur de la devise « Liberté, Égalité, Fraternité », au cœur du lien social républicain."
+        },
+        {
+          "question": "Qui a composé le chant qui deviendra La Marseillaise, en 1792 ?",
+          "choices": [
+            "Victor Hugo",
+            "Rouget de Lisle",
+            "Jean-Jacques Rousseau",
+            "Gambetta"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Marseillaise a été composée en 1792 à Strasbourg par Rouget de Lisle. Reprise par des volontaires marseillais montant vers Paris, elle devient hymne national en 1879."
+        },
+        {
+          "question": "Quel symbole républicain, hérité de la Rome antique, représente l'autorité et l'union ?",
+          "choices": [
+            "Le faisceau de licteur",
+            "La fleur de lys",
+            "Le bonnet phrygien",
+            "L'épi de blé"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le faisceau de licteur, ensemble de baguettes liées autour d'une hache, vient de la Rome antique. Il symbolise l'autorité de l'État et l'union qui fait la force. On le voit sur le logo de la République."
+        },
+        {
+          "question": "En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?",
+          "choices": [
+            "1789",
+            "1804",
+            "1848",
+            "1905"
+          ],
+          "correctIndex": 0,
+          "explanation": "La Déclaration des droits de l'homme et du citoyen est adoptée le 26 août 1789, au début de la Révolution française. Elle proclame que les hommes naissent libres et égaux en droits."
+        },
+        {
+          "question": "Que signifie le terme « égalité » comme valeur de la République ?",
+          "choices": [
+            "Tout le monde a le même revenu",
+            "Tout le monde a le même travail",
+            "Personne n'a de devoirs",
+            "Tous les citoyens ont les mêmes droits devant la loi"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'égalité signifie que tous les citoyens ont les mêmes droits et sont traités de la même façon devant la loi, sans distinction d'origine, de religion, de sexe ou de fortune."
+        },
+        {
+          "question": "Où peut-on voir le buste de Marianne dans presque chaque commune de France ?",
+          "choices": [
+            "Dans les gares",
+            "Dans les mairies",
+            "Dans les supermarchés",
+            "Dans les stades"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le buste de Marianne, figure allégorique de la République, est présent dans la plupart des mairies de France. On la retrouve aussi sur les timbres et certaines pièces."
+        },
+        {
+          "question": "Pourquoi dit-on que la République est « indivisible » ?",
+          "choices": [
+            "Elle ne peut pas changer de Constitution",
+            "Le territoire et la loi sont les mêmes pour tous, partout en France",
+            "Elle interdit les partis politiques",
+            "Elle ne peut pas faire la guerre"
+          ],
+          "correctIndex": 1,
+          "explanation": "« Indivisible » signifie que la République est une et la même sur tout le territoire : la loi et la souveraineté nationale s'appliquent partout de façon identique, sans région privilégiée."
+        },
+        {
+          "question": "Quelle valeur la « liberté » garantit-elle notamment au citoyen ?",
+          "choices": [
+            "Le droit de ne pas payer d'impôts",
+            "La possibilité de penser, s'exprimer et agir dans le respect de la loi",
+            "Le droit de ne pas respecter la loi",
+            "Le droit de voter à 16 ans"
+          ],
+          "correctIndex": 1,
+          "explanation": "La liberté permet à chacun de penser, de s'exprimer, de croire et d'agir librement, dans la limite du respect de la loi et de la liberté des autres."
+        },
+        {
+          "question": "Quel défilé a traditionnellement lieu à Paris le 14 juillet ?",
+          "choices": [
+            "Un défilé militaire sur les Champs-Élysées",
+            "Un carnaval de chars fleuris",
+            "Une course cycliste",
+            "Une procession religieuse"
+          ],
+          "correctIndex": 0,
+          "explanation": "Chaque 14 juillet, un défilé militaire a lieu sur les Champs-Élysées à Paris, en présence du président de la République, manifestation de l'unité nationale et de la défense."
+        },
+        {
+          "question": "La Déclaration des droits de l'homme et du citoyen de 1789 fait aujourd'hui partie de…",
+          "choices": [
+            "du Code de la route",
+            "du bloc de constitutionnalité (textes de valeur constitutionnelle)",
+            "des règlements municipaux",
+            "des traités internationaux militaires"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Déclaration de 1789 fait partie du bloc de constitutionnalité : elle a valeur constitutionnelle et les lois doivent la respecter. Le Conseil constitutionnel s'y réfère."
         }
       ]
     },
@@ -2071,6 +3886,171 @@
           ],
           "correctIndex": 1,
           "explanation": "La Déclaration des droits de l'homme et du citoyen du 26 août 1789 proclame les droits fondamentaux (liberté, égalité, propriété, sûreté). Elle fait partie du bloc de constitutionnalité."
+        },
+        {
+          "question": "Que garantit avant tout la liberté de conscience ?",
+          "choices": [
+            "Le droit de croire, de ne pas croire ou de changer de religion",
+            "L'obligation d'avoir une religion",
+            "Le droit de ne pas travailler",
+            "Le droit de voter deux fois"
+          ],
+          "correctIndex": 0,
+          "explanation": "La liberté de conscience garantit à chacun le droit de croire, de ne pas croire ou de changer de religion. C'est un pilier de la laïcité, protégé par la loi de 1905."
+        },
+        {
+          "question": "À quel âge devient-on majeur et électeur en France ?",
+          "choices": [
+            "16 ans",
+            "18 ans",
+            "21 ans",
+            "25 ans"
+          ],
+          "correctIndex": 1,
+          "explanation": "On devient majeur et électeur à 18 ans en France. Le citoyen peut alors voter, à condition d'être inscrit sur les listes électorales et de jouir de ses droits civiques."
+        },
+        {
+          "question": "Que doit faire tout jeune Français vers 16 ans dans le cadre du parcours citoyen ?",
+          "choices": [
+            "S'engager dans l'armée",
+            "Payer une taxe spéciale",
+            "Participer à la Journée Défense et Citoyenneté (JDC)",
+            "Passer le permis de conduire"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tout jeune Français doit se faire recenser à 16 ans puis participer à la Journée Défense et Citoyenneté (JDC), qui informe sur la défense et les droits et devoirs du citoyen."
+        },
+        {
+          "question": "Quel principe assure que femmes et hommes ont les mêmes droits ?",
+          "choices": [
+            "La parité automatique des salaires",
+            "La liberté de circulation",
+            "Le droit de grève",
+            "L'égalité entre les femmes et les hommes"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'égalité entre les femmes et les hommes est un principe républicain. Les femmes ont obtenu le droit de vote en 1944, et la loi lutte aujourd'hui contre les inégalités persistantes."
+        },
+        {
+          "question": "Que dit la loi de 1905 à propos des cultes religieux ?",
+          "choices": [
+            "L'État impose le catholicisme",
+            "L'État interdit toutes les religions",
+            "L'État ne reconnaît, ne salarie ni ne subventionne aucun culte",
+            "L'État finance toutes les religions"
+          ],
+          "correctIndex": 2,
+          "explanation": "La loi de 1905 pose que l'État ne reconnaît, ne salarie ni ne subventionne aucun culte. Il est neutre, tout en garantissant la liberté de croire et de pratiquer une religion."
+        },
+        {
+          "question": "Quelle limite encadre la liberté d'expression ?",
+          "choices": [
+            "On peut tout dire sans limite",
+            "On ne peut s'exprimer qu'à l'écrit",
+            "Seuls les journalistes peuvent s'exprimer",
+            "On ne peut ni injurier, ni diffamer, ni inciter à la haine"
+          ],
+          "correctIndex": 3,
+          "explanation": "La liberté d'expression n'est pas absolue : la loi interdit l'injure, la diffamation, l'incitation à la haine ou à la violence, et l'appel au racisme. Elle s'arrête où commence le délit."
+        },
+        {
+          "question": "Lequel de ces éléments est un devoir du citoyen ?",
+          "choices": [
+            "Payer ses impôts",
+            "Posséder une voiture",
+            "Pratiquer un sport",
+            "Avoir un compte bancaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "Payer ses impôts est un devoir du citoyen : cet argent finance les services publics (écoles, hôpitaux, routes). Respecter la loi et participer à la défense en font aussi partie."
+        },
+        {
+          "question": "Comment un enfant né en France de parents étrangers peut-il acquérir la nationalité française ?",
+          "choices": [
+            "Automatiquement à la naissance, sans condition",
+            "Notamment à sa majorité s'il réside en France (droit du sol)",
+            "En payant une taxe",
+            "Il ne le peut jamais"
+          ],
+          "correctIndex": 1,
+          "explanation": "Grâce au droit du sol, un enfant né en France de parents étrangers peut devenir français, notamment à sa majorité s'il réside en France depuis plusieurs années. La nationalité peut aussi venir des parents (droit du sang)."
+        },
+        {
+          "question": "Qu'est-ce qu'un service public ?",
+          "choices": [
+            "Une entreprise privée à but lucratif",
+            "Un commerce de centre-ville",
+            "Une association sportive",
+            "Une activité d'intérêt général assurée ou contrôlée par l'État (école, hôpital, poste)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Un service public est une activité d'intérêt général assurée ou contrôlée par l'État ou les collectivités : école, hôpital, poste, justice. Il vise l'égalité d'accès de tous les citoyens."
+        },
+        {
+          "question": "Que désigne une discrimination, interdite par la loi ?",
+          "choices": [
+            "Le fait de traiter défavorablement une personne en raison de son origine, son sexe, sa religion…",
+            "Le fait de respecter la loi",
+            "Le fait de payer ses impôts",
+            "Le fait de voter"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une discrimination consiste à traiter défavorablement une personne en raison de son origine, son sexe, sa religion, son handicap ou son orientation. La loi la punit, par exemple à l'embauche ou au logement."
+        },
+        {
+          "question": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
+          "choices": [
+            "1848",
+            "1905",
+            "1944",
+            "1974"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les femmes ont obtenu le droit de vote en France en 1944, par une ordonnance du Général de Gaulle. Elles l'ont exercé pour la première fois aux élections municipales de 1945."
+        },
+        {
+          "question": "Dans quel cadre la laïcité s'applique-t-elle de manière particulièrement stricte ?",
+          "choices": [
+            "Dans la rue",
+            "À l'école publique",
+            "Dans les magasins",
+            "Au domicile privé"
+          ],
+          "correctIndex": 1,
+          "explanation": "À l'école publique, la laïcité s'applique strictement : les signes religieux ostensibles y sont interdits pour les élèves depuis 2004. L'école transmet les valeurs communes dans la neutralité."
+        },
+        {
+          "question": "Que peut faire un citoyen pour exercer son droit d'expression politique entre deux élections ?",
+          "choices": [
+            "Manifester, adhérer à un parti ou à une association, signer une pétition",
+            "Rien, il doit attendre les élections",
+            "Voter chaque jour",
+            "Désigner lui-même un ministre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Entre les élections, le citoyen peut s'exprimer en manifestant, en adhérant à un parti ou une association, ou en signant des pétitions. La participation à la vie démocratique ne se limite pas au vote."
+        },
+        {
+          "question": "Un droit du citoyen et un devoir y est souvent associé. Quel devoir accompagne le droit à la justice (être jugé équitablement) ?",
+          "choices": [
+            "Le devoir d'être juré d'assises si l'on est désigné",
+            "Le devoir d'aller à l'église",
+            "Le devoir de posséder une arme",
+            "Le devoir de voyager"
+          ],
+          "correctIndex": 0,
+          "explanation": "Au droit d'être jugé équitablement répond le devoir d'être juré d'assises si l'on est tiré au sort : le citoyen participe ainsi lui-même au fonctionnement de la justice."
+        },
+        {
+          "question": "Pourquoi le vote est-il à la fois un droit et considéré comme un devoir civique ?",
+          "choices": [
+            "Parce qu'il est obligatoire sous peine de prison",
+            "Parce qu'il permet de choisir ses représentants et de faire vivre la démocratie",
+            "Parce qu'il rapporte de l'argent",
+            "Parce qu'il dispense d'impôts"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le vote est un droit, mais aussi un devoir civique car il permet de choisir ses représentants et de faire vivre la démocratie. En France, il n'est cependant pas obligatoire ni sanctionné par la loi."
         }
       ]
     }

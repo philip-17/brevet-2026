@@ -1,0 +1,278 @@
+{
+  "institutions-5e-republique": [
+    {
+      "question": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
+      "choices": ["1944", "1946", "1958", "1962"],
+      "correctIndex": 2,
+      "explanation": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958, à l'initiative du général de Gaulle, dans le contexte de la crise algérienne."
+    },
+    {
+      "question": "Depuis quelle année le président de la République est-il élu au suffrage universel direct ?",
+      "choices": ["1981", "1958", "2000", "1962"],
+      "correctIndex": 3,
+      "explanation": "C'est le référendum de 1962, voulu par de Gaulle, qui instaure l'élection du président au suffrage universel direct. Auparavant, il était élu par un collège de grands électeurs."
+    },
+    {
+      "question": "De quoi le président de la République est-il le chef selon la Constitution ?",
+      "choices": ["Du Sénat", "Des armées", "De la Cour de cassation", "De la Banque de France"],
+      "correctIndex": 1,
+      "explanation": "Le président de la République est le chef des armées (article 15 de la Constitution). Il préside les conseils et comités supérieurs de la défense nationale."
+    },
+    {
+      "question": "Quel pouvoir le président peut-il exercer sur l'Assemblée nationale ?",
+      "choices": ["La dissoudre", "La remplacer par le Sénat", "Doubler le nombre de députés", "Nommer ses députés"],
+      "correctIndex": 0,
+      "explanation": "Le président de la République peut dissoudre l'Assemblée nationale (article 12). De nouvelles élections législatives sont alors organisées dans les 20 à 40 jours."
+    },
+    {
+      "question": "Devant qui le gouvernement est-il politiquement responsable ?",
+      "choices": ["L'Assemblée nationale", "Le président seul", "Le Conseil constitutionnel", "Le Sénat"],
+      "correctIndex": 0,
+      "explanation": "Le gouvernement est responsable devant l'Assemblée nationale, qui peut le renverser par une motion de censure. Le Sénat ne peut pas renverser le gouvernement."
+    },
+    {
+      "question": "Combien de sénateurs compte le Sénat français ?",
+      "choices": ["348", "577", "925", "100"],
+      "correctIndex": 0,
+      "explanation": "Le Sénat compte 348 sénateurs, élus au suffrage universel indirect par des grands électeurs (députés, conseillers régionaux, départementaux, municipaux)."
+    },
+    {
+      "question": "Quels sont les trois pouvoirs distingués par la séparation des pouvoirs ?",
+      "choices": ["Militaire, religieux et civil", "Exécutif, législatif et judiciaire", "National, régional et local", "Royal, parlementaire et populaire"],
+      "correctIndex": 1,
+      "explanation": "La séparation des pouvoirs, théorisée par Montesquieu, distingue le pouvoir exécutif (gouvernement), le pouvoir législatif (Parlement) et le pouvoir judiciaire (les juges) pour éviter les abus."
+    },
+    {
+      "question": "Quel est le rôle principal du Conseil constitutionnel ?",
+      "choices": ["Voter le budget de l'État", "Diriger la police nationale", "Vérifier que les lois respectent la Constitution", "Nommer le Premier ministre"],
+      "correctIndex": 2,
+      "explanation": "Le Conseil constitutionnel vérifie que les lois sont conformes à la Constitution. Il veille aussi à la régularité des élections présidentielles et des référendums."
+    },
+    {
+      "question": "Comment appelle-t-on le va-et-vient d'un texte de loi entre l'Assemblée et le Sénat ?",
+      "choices": ["La cohabitation", "La navette parlementaire", "La motion de censure", "L'alternance"],
+      "correctIndex": 1,
+      "explanation": "La navette parlementaire est le va-et-vient d'un projet ou d'une proposition de loi entre l'Assemblée nationale et le Sénat, jusqu'à ce qu'ils adoptent un texte identique."
+    },
+    {
+      "question": "Qui peut être à l'initiative d'une loi en France ?",
+      "choices": ["Uniquement le président", "Seulement le Conseil constitutionnel", "Les citoyens uniquement", "Le gouvernement (projet) ou les parlementaires (proposition)"],
+      "correctIndex": 3,
+      "explanation": "Une loi peut venir du gouvernement, on parle alors de projet de loi, ou des parlementaires, on parle de proposition de loi. Les deux suivent ensuite la navette parlementaire."
+    },
+    {
+      "question": "Pour combien d'années les députés de l'Assemblée nationale sont-ils élus ?",
+      "choices": ["3 ans", "5 ans", "6 ans", "9 ans"],
+      "correctIndex": 1,
+      "explanation": "Les députés sont élus pour 5 ans au suffrage universel direct, sauf en cas de dissolution de l'Assemblée nationale par le président de la République."
+    },
+    {
+      "question": "Qui promulgue les lois une fois votées par le Parlement ?",
+      "choices": ["Le Premier ministre", "Le président de la République", "Le président du Sénat", "Le Conseil constitutionnel"],
+      "correctIndex": 1,
+      "explanation": "Le président de la République promulgue les lois dans les 15 jours suivant leur adoption définitive par le Parlement, ce qui les rend applicables."
+    },
+    {
+      "question": "Que permet un référendum au niveau national ?",
+      "choices": ["De faire voter une loi par les députés", "De dissoudre le Sénat", "De juger un ministre", "De consulter directement les citoyens sur une question"],
+      "correctIndex": 3,
+      "explanation": "Le référendum permet au président de consulter directement les citoyens, qui répondent par oui ou par non. C'est une forme de démocratie directe prévue par la Constitution."
+    },
+    {
+      "question": "Qui dirige l'action du gouvernement et coordonne les ministres ?",
+      "choices": ["Le président du Sénat", "Le Premier ministre", "Le président du Conseil constitutionnel", "Le chef d'état-major"],
+      "correctIndex": 1,
+      "explanation": "Le Premier ministre dirige l'action du gouvernement, coordonne les ministres et est responsable de la mise en œuvre des lois. Il est nommé par le président de la République."
+    },
+    {
+      "question": "À quel pouvoir appartiennent les juges et les tribunaux ?",
+      "choices": ["Au pouvoir exécutif", "Au pouvoir législatif", "Au pouvoir judiciaire", "Au pouvoir constitutionnel"],
+      "correctIndex": 2,
+      "explanation": "Les juges et les tribunaux exercent le pouvoir judiciaire. Leur rôle est de faire respecter les lois et de juger ceux qui les enfreignent, indépendamment des autres pouvoirs."
+    }
+  ],
+  "symboles-valeurs-republique": [
+    {
+      "question": "Quelles sont les trois couleurs du drapeau français ?",
+      "choices": ["Bleu, blanc, rouge", "Rouge, jaune, vert", "Bleu, blanc, vert", "Blanc, rouge, noir"],
+      "correctIndex": 0,
+      "explanation": "Le drapeau tricolore est bleu, blanc, rouge. Le blanc était la couleur du roi, le bleu et le rouge celles de la ville de Paris : il symbolise l'union née pendant la Révolution."
+    },
+    {
+      "question": "Que tient ou porte souvent Marianne comme symbole de liberté ?",
+      "choices": ["Une couronne", "Un sceptre", "Un bonnet phrygien", "Un casque militaire"],
+      "correctIndex": 2,
+      "explanation": "Marianne est représentée avec un bonnet phrygien, coiffe portée par les esclaves affranchis dans l'Antiquité romaine, devenu un symbole de liberté pendant la Révolution."
+    },
+    {
+      "question": "Selon la Constitution, la France est une République…",
+      "choices": ["royale et catholique", "fédérale et libérale", "monarchique et parlementaire", "indivisible, laïque, démocratique et sociale"],
+      "correctIndex": 3,
+      "explanation": "L'article 1er de la Constitution affirme que la France est une République indivisible, laïque, démocratique et sociale, qui assure l'égalité devant la loi de tous les citoyens."
+    },
+    {
+      "question": "Quel animal est un emblème traditionnel de la France, souvent associé au sport ?",
+      "choices": ["L'aigle", "Le lion", "Le coq", "Le loup"],
+      "correctIndex": 2,
+      "explanation": "Le coq gaulois est un emblème traditionnel de la France. On le retrouve souvent sur les maillots des équipes sportives françaises, par exemple en football ou en rugby."
+    },
+    {
+      "question": "Que commémore le 14 juillet, fête nationale française ?",
+      "choices": ["L'armistice de 1918", "La prise de la Bastille en 1789", "La Libération de Paris en 1944", "Le couronnement de Napoléon"],
+      "correctIndex": 1,
+      "explanation": "Le 14 juillet commémore la prise de la Bastille en 1789, symbole de la fin de l'absolutisme, ainsi que la fête de la Fédération de 1790, symbole de l'unité nationale."
+    },
+    {
+      "question": "Que signifie le mot « fraternité » dans la devise républicaine ?",
+      "choices": ["Le droit de propriété", "L'égalité des salaires", "La solidarité et l'entraide entre les citoyens", "La liberté de circulation"],
+      "correctIndex": 2,
+      "explanation": "La fraternité désigne la solidarité et l'entraide entre les citoyens. C'est la troisième valeur de la devise « Liberté, Égalité, Fraternité », au cœur du lien social républicain."
+    },
+    {
+      "question": "Qui a composé le chant qui deviendra La Marseillaise, en 1792 ?",
+      "choices": ["Victor Hugo", "Rouget de Lisle", "Jean-Jacques Rousseau", "Gambetta"],
+      "correctIndex": 1,
+      "explanation": "La Marseillaise a été composée en 1792 à Strasbourg par Rouget de Lisle. Reprise par des volontaires marseillais montant vers Paris, elle devient hymne national en 1879."
+    },
+    {
+      "question": "Quel symbole républicain, hérité de la Rome antique, représente l'autorité et l'union ?",
+      "choices": ["Le faisceau de licteur", "La fleur de lys", "Le bonnet phrygien", "L'épi de blé"],
+      "correctIndex": 0,
+      "explanation": "Le faisceau de licteur, ensemble de baguettes liées autour d'une hache, vient de la Rome antique. Il symbolise l'autorité de l'État et l'union qui fait la force. On le voit sur le logo de la République."
+    },
+    {
+      "question": "En quelle année la Déclaration des droits de l'homme et du citoyen a-t-elle été adoptée ?",
+      "choices": ["1789", "1804", "1848", "1905"],
+      "correctIndex": 0,
+      "explanation": "La Déclaration des droits de l'homme et du citoyen est adoptée le 26 août 1789, au début de la Révolution française. Elle proclame que les hommes naissent libres et égaux en droits."
+    },
+    {
+      "question": "Que signifie le terme « égalité » comme valeur de la République ?",
+      "choices": ["Tout le monde a le même revenu", "Tout le monde a le même travail", "Personne n'a de devoirs", "Tous les citoyens ont les mêmes droits devant la loi"],
+      "correctIndex": 3,
+      "explanation": "L'égalité signifie que tous les citoyens ont les mêmes droits et sont traités de la même façon devant la loi, sans distinction d'origine, de religion, de sexe ou de fortune."
+    },
+    {
+      "question": "Où peut-on voir le buste de Marianne dans presque chaque commune de France ?",
+      "choices": ["Dans les gares", "Dans les mairies", "Dans les supermarchés", "Dans les stades"],
+      "correctIndex": 1,
+      "explanation": "Le buste de Marianne, figure allégorique de la République, est présent dans la plupart des mairies de France. On la retrouve aussi sur les timbres et certaines pièces."
+    },
+    {
+      "question": "Pourquoi dit-on que la République est « indivisible » ?",
+      "choices": ["Elle ne peut pas changer de Constitution", "Le territoire et la loi sont les mêmes pour tous, partout en France", "Elle interdit les partis politiques", "Elle ne peut pas faire la guerre"],
+      "correctIndex": 1,
+      "explanation": "« Indivisible » signifie que la République est une et la même sur tout le territoire : la loi et la souveraineté nationale s'appliquent partout de façon identique, sans région privilégiée."
+    },
+    {
+      "question": "Quelle valeur la « liberté » garantit-elle notamment au citoyen ?",
+      "choices": ["Le droit de ne pas payer d'impôts", "La possibilité de penser, s'exprimer et agir dans le respect de la loi", "Le droit de ne pas respecter la loi", "Le droit de voter à 16 ans"],
+      "correctIndex": 1,
+      "explanation": "La liberté permet à chacun de penser, de s'exprimer, de croire et d'agir librement, dans la limite du respect de la loi et de la liberté des autres."
+    },
+    {
+      "question": "Quel défilé a traditionnellement lieu à Paris le 14 juillet ?",
+      "choices": ["Un défilé militaire sur les Champs-Élysées", "Un carnaval de chars fleuris", "Une course cycliste", "Une procession religieuse"],
+      "correctIndex": 0,
+      "explanation": "Chaque 14 juillet, un défilé militaire a lieu sur les Champs-Élysées à Paris, en présence du président de la République, manifestation de l'unité nationale et de la défense."
+    },
+    {
+      "question": "La Déclaration des droits de l'homme et du citoyen de 1789 fait aujourd'hui partie de…",
+      "choices": ["du Code de la route", "du bloc de constitutionnalité (textes de valeur constitutionnelle)", "des règlements municipaux", "des traités internationaux militaires"],
+      "correctIndex": 1,
+      "explanation": "La Déclaration de 1789 fait partie du bloc de constitutionnalité : elle a valeur constitutionnelle et les lois doivent la respecter. Le Conseil constitutionnel s'y réfère."
+    }
+  ],
+  "droits-devoirs-laicite": [
+    {
+      "question": "Que garantit avant tout la liberté de conscience ?",
+      "choices": ["Le droit de croire, de ne pas croire ou de changer de religion", "L'obligation d'avoir une religion", "Le droit de ne pas travailler", "Le droit de voter deux fois"],
+      "correctIndex": 0,
+      "explanation": "La liberté de conscience garantit à chacun le droit de croire, de ne pas croire ou de changer de religion. C'est un pilier de la laïcité, protégé par la loi de 1905."
+    },
+    {
+      "question": "À quel âge devient-on majeur et électeur en France ?",
+      "choices": ["16 ans", "18 ans", "21 ans", "25 ans"],
+      "correctIndex": 1,
+      "explanation": "On devient majeur et électeur à 18 ans en France. Le citoyen peut alors voter, à condition d'être inscrit sur les listes électorales et de jouir de ses droits civiques."
+    },
+    {
+      "question": "Que doit faire tout jeune Français vers 16 ans dans le cadre du parcours citoyen ?",
+      "choices": ["S'engager dans l'armée", "Payer une taxe spéciale", "Participer à la Journée Défense et Citoyenneté (JDC)", "Passer le permis de conduire"],
+      "correctIndex": 2,
+      "explanation": "Tout jeune Français doit se faire recenser à 16 ans puis participer à la Journée Défense et Citoyenneté (JDC), qui informe sur la défense et les droits et devoirs du citoyen."
+    },
+    {
+      "question": "Quel principe assure que femmes et hommes ont les mêmes droits ?",
+      "choices": ["La parité automatique des salaires", "La liberté de circulation", "Le droit de grève", "L'égalité entre les femmes et les hommes"],
+      "correctIndex": 3,
+      "explanation": "L'égalité entre les femmes et les hommes est un principe républicain. Les femmes ont obtenu le droit de vote en 1944, et la loi lutte aujourd'hui contre les inégalités persistantes."
+    },
+    {
+      "question": "Que dit la loi de 1905 à propos des cultes religieux ?",
+      "choices": ["L'État impose le catholicisme", "L'État interdit toutes les religions", "L'État ne reconnaît, ne salarie ni ne subventionne aucun culte", "L'État finance toutes les religions"],
+      "correctIndex": 2,
+      "explanation": "La loi de 1905 pose que l'État ne reconnaît, ne salarie ni ne subventionne aucun culte. Il est neutre, tout en garantissant la liberté de croire et de pratiquer une religion."
+    },
+    {
+      "question": "Quelle limite encadre la liberté d'expression ?",
+      "choices": ["On peut tout dire sans limite", "On ne peut s'exprimer qu'à l'écrit", "Seuls les journalistes peuvent s'exprimer", "On ne peut ni injurier, ni diffamer, ni inciter à la haine"],
+      "correctIndex": 3,
+      "explanation": "La liberté d'expression n'est pas absolue : la loi interdit l'injure, la diffamation, l'incitation à la haine ou à la violence, et l'appel au racisme. Elle s'arrête où commence le délit."
+    },
+    {
+      "question": "Lequel de ces éléments est un devoir du citoyen ?",
+      "choices": ["Payer ses impôts", "Posséder une voiture", "Pratiquer un sport", "Avoir un compte bancaire"],
+      "correctIndex": 0,
+      "explanation": "Payer ses impôts est un devoir du citoyen : cet argent finance les services publics (écoles, hôpitaux, routes). Respecter la loi et participer à la défense en font aussi partie."
+    },
+    {
+      "question": "Comment un enfant né en France de parents étrangers peut-il acquérir la nationalité française ?",
+      "choices": ["Automatiquement à la naissance, sans condition", "Notamment à sa majorité s'il réside en France (droit du sol)", "En payant une taxe", "Il ne le peut jamais"],
+      "correctIndex": 1,
+      "explanation": "Grâce au droit du sol, un enfant né en France de parents étrangers peut devenir français, notamment à sa majorité s'il réside en France depuis plusieurs années. La nationalité peut aussi venir des parents (droit du sang)."
+    },
+    {
+      "question": "Qu'est-ce qu'un service public ?",
+      "choices": ["Une entreprise privée à but lucratif", "Un commerce de centre-ville", "Une association sportive", "Une activité d'intérêt général assurée ou contrôlée par l'État (école, hôpital, poste)"],
+      "correctIndex": 3,
+      "explanation": "Un service public est une activité d'intérêt général assurée ou contrôlée par l'État ou les collectivités : école, hôpital, poste, justice. Il vise l'égalité d'accès de tous les citoyens."
+    },
+    {
+      "question": "Que désigne une discrimination, interdite par la loi ?",
+      "choices": ["Le fait de traiter défavorablement une personne en raison de son origine, son sexe, sa religion…", "Le fait de respecter la loi", "Le fait de payer ses impôts", "Le fait de voter"],
+      "correctIndex": 0,
+      "explanation": "Une discrimination consiste à traiter défavorablement une personne en raison de son origine, son sexe, sa religion, son handicap ou son orientation. La loi la punit, par exemple à l'embauche ou au logement."
+    },
+    {
+      "question": "En quelle année les femmes ont-elles obtenu le droit de vote en France ?",
+      "choices": ["1848", "1905", "1944", "1974"],
+      "correctIndex": 2,
+      "explanation": "Les femmes ont obtenu le droit de vote en France en 1944, par une ordonnance du Général de Gaulle. Elles l'ont exercé pour la première fois aux élections municipales de 1945."
+    },
+    {
+      "question": "Dans quel cadre la laïcité s'applique-t-elle de manière particulièrement stricte ?",
+      "choices": ["Dans la rue", "À l'école publique", "Dans les magasins", "Au domicile privé"],
+      "correctIndex": 1,
+      "explanation": "À l'école publique, la laïcité s'applique strictement : les signes religieux ostensibles y sont interdits pour les élèves depuis 2004. L'école transmet les valeurs communes dans la neutralité."
+    },
+    {
+      "question": "Que peut faire un citoyen pour exercer son droit d'expression politique entre deux élections ?",
+      "choices": ["Manifester, adhérer à un parti ou à une association, signer une pétition", "Rien, il doit attendre les élections", "Voter chaque jour", "Désigner lui-même un ministre"],
+      "correctIndex": 0,
+      "explanation": "Entre les élections, le citoyen peut s'exprimer en manifestant, en adhérant à un parti ou une association, ou en signant des pétitions. La participation à la vie démocratique ne se limite pas au vote."
+    },
+    {
+      "question": "Un droit du citoyen et un devoir y est souvent associé. Quel devoir accompagne le droit à la justice (être jugé équitablement) ?",
+      "choices": ["Le devoir d'être juré d'assises si l'on est désigné", "Le devoir d'aller à l'église", "Le devoir de posséder une arme", "Le devoir de voyager"],
+      "correctIndex": 0,
+      "explanation": "Au droit d'être jugé équitablement répond le devoir d'être juré d'assises si l'on est tiré au sort : le citoyen participe ainsi lui-même au fonctionnement de la justice."
+    },
+    {
+      "question": "Pourquoi le vote est-il à la fois un droit et considéré comme un devoir civique ?",
+      "choices": ["Parce qu'il est obligatoire sous peine de prison", "Parce qu'il permet de choisir ses représentants et de faire vivre la démocratie", "Parce qu'il rapporte de l'argent", "Parce qu'il dispense d'impôts"],
+      "correctIndex": 1,
+      "explanation": "Le vote est un droit, mais aussi un devoir civique car il permet de choisir ses représentants et de faire vivre la démocratie. En France, il n'est cependant pas obligatoire ni sanctionné par la loi."
+    }
+  ]
+}
