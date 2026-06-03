@@ -4,6 +4,7 @@ import { BREVET_SUBJECTS } from '../data'
 import type { Question } from '../types'
 import { shuffle, shuffleQuestionChoices } from '../utils/shuffle'
 import { recordDailyActivity, recordExamResult } from '../storage/daily'
+import ReviewBanner from '../components/ReviewBanner'
 
 interface ExamQuestion extends Question {
   subjectLabel: string
@@ -290,6 +291,8 @@ export default function ExamPage() {
           Accueil
         </Link>
       </div>
+
+      <ReviewBanner />
 
       <h2 className="section-title" style={{ marginTop: 28 }}>
         Correction détaillée

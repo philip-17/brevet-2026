@@ -4,6 +4,7 @@ import { getChapter } from '../data'
 import { recordQuizResult } from '../storage/progress'
 import { recordDailyActivity } from '../storage/daily'
 import { shuffle, shuffleQuestionChoices } from '../utils/shuffle'
+import ReviewBanner from '../components/ReviewBanner'
 
 export default function QuizPage() {
   const { subjectId, chapterId } = useParams()
@@ -124,6 +125,8 @@ export default function QuizPage() {
             Continuer
           </Link>
         </div>
+
+        <ReviewBanner />
       </>
     )
   }
