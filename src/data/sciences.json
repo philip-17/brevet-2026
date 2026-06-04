@@ -1550,6 +1550,182 @@
           ],
           "correctIndex": 1,
           "explanation": "Le sel de table (NaCl) est composé d'ions sodium Na+ et d'ions chlorure Cl-. C'est le sodium qui apporte le goût salé caractéristique."
+        },
+        {
+          "question": "Quel est l'ordre de grandeur de la taille d'un atome ?",
+          "choices": [
+            "10⁻⁶ m (un micromètre)",
+            "10⁻¹⁰ m (un dixième de nanomètre)",
+            "10⁻³ m (un millimètre)",
+            "10⁻¹⁵ m (un femtomètre)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un atome mesure environ 10⁻¹⁰ m, soit environ 0,1 nanomètre. C'est environ un million de fois plus petit qu'un grain de sable."
+        },
+        {
+          "question": "Combien d'atomes différents (éléments) contient une molécule de dioxyde de carbone CO₂ ?",
+          "choices": [
+            "3 atomes de carbone",
+            "1 atome de carbone et 2 atomes d'oxygène",
+            "2 atomes de carbone et 1 atome d'oxygène",
+            "1 atome de carbone et 1 atome d'oxygène"
+          ],
+          "correctIndex": 1,
+          "explanation": "La formule CO₂ indique 1 atome de carbone (C) et 2 atomes d'oxygène (O). Le chiffre 2 en indice concerne uniquement l'oxygène."
+        },
+        {
+          "question": "Qu'est-ce qui assure la neutralité électrique d'un atome ?",
+          "choices": [
+            "Le nombre de neutrons est égal au nombre de protons",
+            "Le nombre d'électrons est égal au nombre de neutrons",
+            "Le nombre de protons est égal au nombre d'électrons",
+            "Le noyau est toujours chargé négativement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans un atome neutre, le nombre d'électrons (charge −1 chacun) est exactement égal au nombre de protons (charge +1 chacun), ce qui annule les charges."
+        },
+        {
+          "question": "Où se trouvent les protons dans un atome ?",
+          "choices": [
+            "Sur les couches électroniques autour du noyau",
+            "Dans le noyau, avec les neutrons",
+            "Répartis uniformément dans tout l'atome",
+            "En dehors du nuage électronique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les protons sont dans le noyau de l'atome, aux côtés des neutrons. Les électrons, eux, gravitent autour du noyau."
+        },
+        {
+          "question": "Quel est le symbole chimique du fer ?",
+          "choices": [
+            "Fr",
+            "Fi",
+            "Fe",
+            "Fl"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le symbole du fer est Fe, du latin « Ferrum ». C'est l'un des métaux les plus utilisés dans l'industrie."
+        },
+        {
+          "question": "Parmi les formules suivantes, laquelle représente une molécule de diazote ?",
+          "choices": [
+            "N",
+            "N₂",
+            "2N",
+            "NO"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le diazote est une molécule constituée de deux atomes d'azote liés ensemble, on l'écrit N₂. L'azote gazeux de l'air est sous cette forme."
+        },
+        {
+          "question": "L'ion cuivre(II) Cu²⁺ est un :",
+          "choices": [
+            "Anion, car il a perdu 2 électrons",
+            "Cation, car il a gagné 2 protons",
+            "Cation, car il a perdu 2 électrons",
+            "Anion, car il a gagné 2 électrons"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un ion positif s'appelle un cation. Cu²⁺ est positif parce que l'atome de cuivre a perdu 2 électrons, ce qui crée un excès de charges positives."
+        },
+        {
+          "question": "Quelle est la formule chimique du méthane, principal constituant du gaz naturel ?",
+          "choices": [
+            "C₂H₆",
+            "CO₂",
+            "CH₄",
+            "C₃H₈"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le méthane a pour formule CH₄ : 1 atome de carbone lié à 4 atomes d'hydrogène. C'est le plus simple des hydrocarbures."
+        },
+        {
+          "question": "Quel est le symbole chimique de l'aluminium ?",
+          "choices": [
+            "Ag",
+            "Al",
+            "Am",
+            "An"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'aluminium se note Al. C'est un métal léger très utilisé dans l'emballage alimentaire et l'aéronautique."
+        },
+        {
+          "question": "Parmi ces espèces, laquelle est un anion ?",
+          "choices": [
+            "Na⁺",
+            "Cu²⁺",
+            "H⁺",
+            "Cl⁻"
+          ],
+          "correctIndex": 3,
+          "explanation": "Un anion est un ion de charge négative. Cl⁻ (ion chlorure) a gagné 1 électron par rapport à l'atome de chlore, d'où sa charge −1."
+        },
+        {
+          "question": "Une solution aqueuse conduit l'électricité si elle contient :",
+          "choices": [
+            "Des molécules neutres dissoutes",
+            "Des atomes de métal au fond du verre",
+            "Des ions en mouvement dans le liquide",
+            "De l'eau pure uniquement"
+          ],
+          "correctIndex": 2,
+          "explanation": "La conduction électrique dans une solution est assurée par le déplacement des ions : les cations vers le pôle négatif, les anions vers le pôle positif."
+        },
+        {
+          "question": "Un atome de carbone possède 6 protons. Combien d'électrons possède-t-il à l'état neutre ?",
+          "choices": [
+            "0",
+            "3",
+            "12",
+            "6"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dans un atome neutre, le nombre d'électrons est toujours égal au nombre de protons. Un atome de carbone a donc 6 électrons."
+        },
+        {
+          "question": "Combien y a-t-il d'atomes au total dans une molécule d'eau H₂O ?",
+          "choices": [
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "correctIndex": 3,
+          "explanation": "H₂O contient 2 atomes d'hydrogène et 1 atome d'oxygène, soit 3 atomes en tout. C'est l'une des molécules les plus importantes du vivant."
+        },
+        {
+          "question": "Quel est le symbole chimique du sodium ?",
+          "choices": [
+            "S",
+            "So",
+            "Na",
+            "Sd"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le symbole du sodium est Na, tiré du latin « Natrium ». Le sodium est présent dans le sel de cuisine sous forme d'ion Na⁺."
+        },
+        {
+          "question": "Quelle particule du noyau n'a pas de charge électrique ?",
+          "choices": [
+            "L'électron",
+            "Le proton",
+            "Le positron",
+            "Le neutron"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le neutron est une particule du noyau électriquement neutre (charge nulle). Les protons ont une charge positive et les électrons une charge négative."
+        },
+        {
+          "question": "Dans une solution de chlorure de sodium (sel dissous dans l'eau), quels ions sont présents ?",
+          "choices": [
+            "Na²⁺ et Cl²⁻",
+            "Na⁺ et Cl⁻",
+            "Na⁻ et Cl⁺",
+            "NaCl sous forme moléculaire uniquement"
+          ],
+          "correctIndex": 1,
+          "explanation": "En se dissolvant, le chlorure de sodium se dissocie en ions sodium Na⁺ et ions chlorure Cl⁻. Ce sont ces ions qui rendent la solution conductrice."
         }
       ]
     },
@@ -1622,6 +1798,182 @@
           ],
           "correctIndex": 2,
           "explanation": "Une solution dont le pH est inférieur à 7 est acide. À pH = 7 elle est neutre, et au-dessus de 7 elle est basique."
+        },
+        {
+          "question": "Quelle affirmation caractérise une transformation chimique (par opposition à une transformation physique) ?",
+          "choices": [
+            "La glace qui fond en eau liquide",
+            "Le sucre qui se dissout dans l'eau",
+            "Le fer qui rouille au contact de l'air humide",
+            "L'eau qui s'évapore sous l'effet de la chaleur"
+          ],
+          "correctIndex": 2,
+          "explanation": "La rouille du fer est une transformation chimique car elle produit de nouveaux corps purs (oxydes de fer) avec des propriétés différentes. Les autres exemples sont des transformations physiques : la nature chimique des substances ne change pas."
+        },
+        {
+          "question": "Dans l'équation de la combustion complète du carbone : C + O₂ → CO₂, quels sont les réactifs ?",
+          "choices": [
+            "Le dioxyde de carbone uniquement",
+            "Le carbone et le dioxyde de carbone",
+            "Le dioxygène et le dioxyde de carbone",
+            "Le carbone et le dioxygène"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les réactifs sont les substances présentes avant la réaction, c'est-à-dire à gauche de la flèche. Ici, le carbone (C) et le dioxygène (O₂) sont les réactifs ; le dioxyde de carbone (CO₂) est le produit."
+        },
+        {
+          "question": "Lors d'une combustion incomplète du carbone, quel gaz toxique est principalement produit à la place du dioxyde de carbone ?",
+          "choices": [
+            "Le dihydrogène (H₂)",
+            "Le monoxyde de carbone (CO)",
+            "Le dioxyde de soufre (SO₂)",
+            "Le méthane (CH₄)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Quand le dioxygène est en quantité insuffisante, le carbone se combine imparfaitement et produit du monoxyde de carbone (CO), gaz incolore et très toxique, au lieu du dioxyde de carbone (CO₂)."
+        },
+        {
+          "question": "Comment appelle-t-on la substance qui brûle dans une combustion ?",
+          "choices": [
+            "Le comburant",
+            "Le catalyseur",
+            "Le combustible",
+            "Le réactif neutre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le combustible est la substance qui subit la combustion (par exemple le bois, le méthane, le carbone). Le comburant, lui, est la substance qui permet la combustion, généralement le dioxygène."
+        },
+        {
+          "question": "La loi de conservation de la masse (Lavoisier) stipule que, lors d'une réaction chimique :",
+          "choices": [
+            "Le nombre de molécules est conservé",
+            "La masse totale des réactifs est égale à la masse totale des produits",
+            "Le volume des gaz produits est égal au volume des réactifs",
+            "La température du milieu reste constante"
+          ],
+          "correctIndex": 1,
+          "explanation": "La loi de Lavoisier affirme que « rien ne se perd, rien ne se crée, tout se transforme » : la somme des masses des réactifs est toujours égale à la somme des masses des produits."
+        },
+        {
+          "question": "Dans la combustion complète du méthane, quels sont les deux produits formés ?",
+          "choices": [
+            "Monoxyde de carbone et eau",
+            "Dioxyde de carbone et dihydrogène",
+            "Dioxyde de carbone et eau",
+            "Carbone et vapeur d'eau"
+          ],
+          "correctIndex": 2,
+          "explanation": "La combustion complète du méthane (CH₄) s'écrit : CH₄ + 2 O₂ → CO₂ + 2 H₂O. Les produits sont donc le dioxyde de carbone et l'eau (sous forme de vapeur)."
+        },
+        {
+          "question": "On place une bûchette incandescente (qui ne flambe plus) dans un flacon rempli d'un gaz inconnu : la bûchette se rallume. Ce gaz est :",
+          "choices": [
+            "Le dioxyde de carbone",
+            "Le dihydrogène",
+            "Le dioxygène",
+            "L'azote"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le dioxygène est le seul gaz qui entretient la combustion : il ravive une bûchette incandescente. Ce test est le test d'identification du dioxygène."
+        },
+        {
+          "question": "Pour identifier la présence d'eau dans un gaz ou un liquide incolore, on utilise :",
+          "choices": [
+            "L'eau de chaux, qui se trouble",
+            "Le sulfate de cuivre anhydre blanc, qui devient bleu",
+            "Une bûchette incandescente, qui se rallume",
+            "Le papier pH, qui vire au rouge"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le sulfate de cuivre anhydre (CuSO₄) est blanc ; en présence d'eau il s'hydrate et devient bleu (sulfate de cuivre pentahydraté). C'est le test de reconnaissance de l'eau."
+        },
+        {
+          "question": "On introduit un gaz dans de l'eau de chaux limpide : elle devient trouble. Ce gaz est :",
+          "choices": [
+            "Le dioxygène",
+            "La vapeur d'eau",
+            "Le dihydrogène",
+            "Le dioxyde de carbone"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le dioxyde de carbone (CO₂) réagit avec l'eau de chaux (solution d'hydroxyde de calcium) pour former du carbonate de calcium insoluble qui trouble la solution. C'est le test d'identification du CO₂."
+        },
+        {
+          "question": "On approche une allumette enflammée de l'ouverture d'un tube à essai contenant un gaz inconnu : on entend un petit « pop » (détonation). Ce gaz est :",
+          "choices": [
+            "Le méthane",
+            "Le dioxyde de carbone",
+            "Le dihydrogène",
+            "Le dioxygène"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le dihydrogène (H₂) produit une petite détonation sèche, parfois comparée à un aboiement, lorsqu'on approche une flamme : c'est son test d'identification spécifique."
+        },
+        {
+          "question": "Une solution a un pH de 11. Elle est :",
+          "choices": [
+            "Fortement acide",
+            "Légèrement acide",
+            "Neutre",
+            "Basique"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sur l'échelle de pH (0 à 14), une valeur supérieure à 7 indique une solution basique (ou alcaline). pH = 7 est neutre, pH < 7 est acide, pH > 7 est basique."
+        },
+        {
+          "question": "Quelle est la valeur du pH d'une solution neutre ?",
+          "choices": [
+            "0",
+            "7",
+            "10",
+            "14"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'échelle de pH va de 0 à 14 : une solution est neutre pour pH = 7 (comme l'eau pure), acide pour pH < 7 et basique pour pH > 7."
+        },
+        {
+          "question": "Les solutions acides contiennent en excès des ions :",
+          "choices": [
+            "Hydroxyde (HO⁻)",
+            "Sodium (Na⁺)",
+            "Chlorure (Cl⁻)",
+            "Hydrogène (H⁺)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Une solution acide est caractérisée par une concentration en ions H⁺ (ions hydrogène ou oxonium) supérieure à celle des ions HO⁻. Plus la solution est acide, plus le pH est bas et la concentration en H⁺ est élevée."
+        },
+        {
+          "question": "Dans la réaction : Mg + 2 HCl → MgCl₂ + H₂, la masse de magnésium (Mg) consommée est de 2,4 g et la masse de HCl consommée est de 7,3 g. Quelle est la masse totale des produits formés ?",
+          "choices": [
+            "2,4 g",
+            "7,3 g",
+            "9,7 g",
+            "4,9 g"
+          ],
+          "correctIndex": 2,
+          "explanation": "D'après la loi de conservation de la masse (Lavoisier), la masse des produits est égale à la masse des réactifs : 2,4 + 7,3 = 9,7 g."
+        },
+        {
+          "question": "Parmi ces transformations, laquelle est une transformation PHYSIQUE ?",
+          "choices": [
+            "La combustion d'une bougie",
+            "La digestion des aliments dans l'estomac",
+            "La fusion du fer à haute température",
+            "La réaction entre le vinaigre et le bicarbonate de soude"
+          ],
+          "correctIndex": 2,
+          "explanation": "La fusion du fer est une transformation physique : le fer passe de l'état solide à l'état liquide mais reste du fer. Aucune nouvelle espèce chimique n'est créée, contrairement aux autres exemples qui sont des transformations chimiques."
+        },
+        {
+          "question": "Une solution de soude (eau savonneuse) a un pH de 10. Quels ions sont en excès dans cette solution ?",
+          "choices": [
+            "Les ions H⁺ (hydrogène)",
+            "Les ions Na⁺ (sodium) uniquement",
+            "Les ions HO⁻ (hydroxyde)",
+            "Les ions CO₃²⁻ (carbonate)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un pH supérieur à 7 caractérise une solution basique dans laquelle les ions HO⁻ (hydroxyde) sont en excès par rapport aux ions H⁺. C'est la présence de ces ions HO⁻ qui confère le caractère basique à la solution."
         }
       ]
     },
@@ -1694,6 +2046,182 @@
           ],
           "correctIndex": 1,
           "explanation": "Dans une centrale hydroélectrique, l'énergie mécanique de l'eau qui chute fait tourner une turbine reliée à un alternateur qui produit de l'électricité."
+        },
+        {
+          "question": "Un chauffe-eau électrique a une puissance de 2 000 W et fonctionne pendant 3 heures. Quelle énergie consomme-t-il ?",
+          "choices": [
+            "6 000 J",
+            "6 000 Wh",
+            "6 kWh",
+            "2 000 kWh"
+          ],
+          "correctIndex": 2,
+          "explanation": "E = P × t = 2 000 W × 3 h = 6 000 Wh = 6 kWh. Le kilowattheure est l'unité pratique utilisée pour la consommation électrique domestique."
+        },
+        {
+          "question": "Lors du freinage d'une voiture, quelle est la conversion d'énergie principale qui se produit ?",
+          "choices": [
+            "Énergie chimique → énergie cinétique",
+            "Énergie cinétique → énergie thermique",
+            "Énergie électrique → énergie mécanique",
+            "Énergie potentielle → énergie lumineuse"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le freinage transforme l'énergie cinétique du véhicule en chaleur (énergie thermique) par frottement dans les freins. C'est pourquoi les disques de frein chauffent fortement."
+        },
+        {
+          "question": "Un panneau solaire photovoltaïque réalise quelle conversion d'énergie ?",
+          "choices": [
+            "Énergie thermique → énergie électrique",
+            "Énergie lumineuse → énergie électrique",
+            "Énergie chimique → énergie électrique",
+            "Énergie mécanique → énergie électrique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un panneau photovoltaïque convertit directement l'énergie lumineuse (rayonnement solaire) en énergie électrique grâce à l'effet photoélectrique dans les cellules semiconductrices."
+        },
+        {
+          "question": "Un appareil consomme 500 J en 10 secondes. Quelle est sa puissance ?",
+          "choices": [
+            "5 000 W",
+            "510 W",
+            "50 W",
+            "0,02 W"
+          ],
+          "correctIndex": 2,
+          "explanation": "P = E / t = 500 J / 10 s = 50 W. La puissance exprime l'énergie échangée par unité de temps ; 1 watt est égal à 1 joule par seconde."
+        },
+        {
+          "question": "Quelle affirmation sur la conservation de l'énergie est correcte ?",
+          "choices": [
+            "L'énergie peut être créée par une machine suffisamment puissante.",
+            "L'énergie totale d'un système isolé diminue toujours avec le temps.",
+            "L'énergie ne peut ni être créée ni détruite, elle se transforme d'une forme à une autre.",
+            "La somme des énergies utiles et perdues est inférieure à l'énergie initiale."
+          ],
+          "correctIndex": 2,
+          "explanation": "Le principe de conservation de l'énergie stipule que l'énergie totale est constante : elle change de forme (mécanique, thermique, etc.) mais la quantité totale reste toujours la même."
+        },
+        {
+          "question": "Parmi ces sources d'énergie, laquelle est NON renouvelable ?",
+          "choices": [
+            "L'énergie éolienne",
+            "La biomasse",
+            "Le gaz naturel",
+            "L'énergie solaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le gaz naturel est une énergie fossile issue de la décomposition de matières organiques sur des millions d'années ; ses réserves s'épuisent et ne se reconstituent pas à l'échelle humaine."
+        },
+        {
+          "question": "Dans une centrale thermique à charbon, quelle est la chaîne de conversion d'énergie ?",
+          "choices": [
+            "Énergie nucléaire → chaleur → électricité",
+            "Énergie chimique → chaleur → énergie mécanique → énergie électrique",
+            "Énergie mécanique → chaleur → énergie électrique",
+            "Énergie lumineuse → énergie chimique → électricité"
+          ],
+          "correctIndex": 1,
+          "explanation": "La combustion du charbon (énergie chimique) produit de la chaleur qui vaporise l'eau ; la vapeur entraîne une turbine (énergie mécanique) couplée à un alternateur qui produit de l'électricité."
+        },
+        {
+          "question": "Un cycliste de 80 kg roule à 5 m/s. Quelle est son énergie cinétique ? (Rappel : Ec = ½ × m × v²)",
+          "choices": [
+            "200 J",
+            "400 J",
+            "1 000 J",
+            "2 000 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ec = ½ × 80 × 5² = ½ × 80 × 25 = 1 000 J. L'énergie cinétique dépend à la fois de la masse et du carré de la vitesse."
+        },
+        {
+          "question": "Quelle forme d'énergie est stockée dans une pile ou dans les aliments ?",
+          "choices": [
+            "Énergie cinétique",
+            "Énergie lumineuse",
+            "Énergie chimique",
+            "Énergie nucléaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'énergie chimique est stockée dans les liaisons entre les atomes des molécules ; c'est cette énergie que libèrent les réactions chimiques dans une pile ou lors de la digestion des aliments."
+        },
+        {
+          "question": "Dans une centrale éolienne, quelle conversion d'énergie est réalisée ?",
+          "choices": [
+            "Énergie solaire → énergie électrique",
+            "Énergie cinétique du vent → énergie mécanique → énergie électrique",
+            "Énergie potentielle de l'eau → énergie électrique",
+            "Énergie thermique → énergie mécanique → énergie électrique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le vent (énergie cinétique de l'air) fait tourner les pales (énergie mécanique de rotation) ; ce mouvement entraîne un alternateur qui produit de l'électricité."
+        },
+        {
+          "question": "Un livre posé sur une étagère en hauteur possède principalement quelle forme d'énergie ?",
+          "choices": [
+            "Énergie cinétique",
+            "Énergie thermique",
+            "Énergie de position (potentielle de pesanteur)",
+            "Énergie électrique"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un objet immobile en hauteur possède une énergie potentielle de pesanteur (énergie de position) qui dépend de sa masse, de sa hauteur et de l'intensité de la pesanteur."
+        },
+        {
+          "question": "Convertir 1 kWh en joules donne :",
+          "choices": [
+            "1 000 J",
+            "3 600 J",
+            "3 600 000 J",
+            "360 000 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "1 kWh = 1 000 W × 3 600 s = 3 600 000 J = 3,6 × 10⁶ J. On multiplie par 1 000 (kilo) et par 3 600 (nombre de secondes dans une heure)."
+        },
+        {
+          "question": "Dans une centrale nucléaire, quelle est la source d'énergie primaire utilisée ?",
+          "choices": [
+            "La combustion du charbon",
+            "La fission de noyaux d'uranium",
+            "La fusion de l'hydrogène comme dans le Soleil",
+            "La chaleur géothermique de la Terre"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans les centrales nucléaires actuelles, l'énergie est produite par la fission (cassure) de noyaux lourds d'uranium-235, qui libère une très grande quantité d'énergie sous forme de chaleur."
+        },
+        {
+          "question": "Lors d'une chute libre, quelle transformation d'énergie se produit (en négligeant les frottements) ?",
+          "choices": [
+            "Énergie cinétique → énergie potentielle",
+            "Énergie potentielle → énergie cinétique",
+            "Énergie thermique → énergie mécanique",
+            "Énergie électrique → énergie potentielle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pendant la chute, l'objet perd de la hauteur (diminution de l'énergie potentielle) et accélère (augmentation de l'énergie cinétique). Sans frottements, l'énergie mécanique totale se conserve."
+        },
+        {
+          "question": "Quel est le rendement d'une ampoule qui reçoit 100 J d'énergie électrique et émet 15 J de lumière ?",
+          "choices": [
+            "85 %",
+            "15 %",
+            "6,7 %",
+            "115 %"
+          ],
+          "correctIndex": 1,
+          "explanation": "Rendement = (énergie utile / énergie reçue) × 100 = (15 / 100) × 100 = 15 %. Les 85 J restants sont dissipés sous forme de chaleur : ce sont les pertes énergétiques."
+        },
+        {
+          "question": "Parmi ces affirmations sur l'énergie cinétique, laquelle est correcte ?",
+          "choices": [
+            "Si la vitesse est multipliée par 2, l'énergie cinétique est aussi multipliée par 2.",
+            "Si la masse est multipliée par 2, l'énergie cinétique est multipliée par 4.",
+            "Si la vitesse est multipliée par 2, l'énergie cinétique est multipliée par 4.",
+            "L'énergie cinétique ne dépend que de la masse de l'objet."
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans la formule Ec = ½ × m × v², la vitesse est au carré. Si v est multipliée par 2, Ec est multipliée par 2² = 4. La vitesse a donc un effet bien plus grand que la masse sur l'énergie cinétique."
         }
       ]
     },
@@ -1755,6 +2283,182 @@
           ],
           "correctIndex": 1,
           "explanation": "La hauteur d'un son est caractérisée par sa fréquence en hertz (Hz). Plus la fréquence est élevée, plus le son est aigu."
+        },
+        {
+          "question": "Un éclair est visible avant que l'on entende le tonnerre. Quelle est la meilleure explication ?",
+          "choices": [
+            "Le tonnerre est produit après l'éclair",
+            "La lumière se propage beaucoup plus vite que le son",
+            "Le son ne se propage pas dans l'air humide",
+            "L'œil réagit plus vite que l'oreille"
+          ],
+          "correctIndex": 1,
+          "explanation": "La lumière se propage à environ 300 000 km/s, tandis que le son ne se déplace qu'à environ 340 m/s dans l'air. L'éclair est donc perçu presque instantanément, alors que le son du tonnerre met plusieurs secondes à parcourir la même distance."
+        },
+        {
+          "question": "Un son de fréquence 80 Hz est comparé à un son de fréquence 3 000 Hz. Lequel est le plus grave ?",
+          "choices": [
+            "Celui à 3 000 Hz",
+            "Les deux ont la même hauteur",
+            "Celui à 80 Hz",
+            "Cela dépend de leur amplitude"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plus la fréquence d'un son est basse, plus ce son est grave. 80 Hz correspond à un son très grave (proche de la limite de l'audition humaine), alors que 3 000 Hz correspond à un son aigu."
+        },
+        {
+          "question": "Quelle unité utilise-t-on pour mesurer le niveau d'intensité sonore (force d'un son) ?",
+          "choices": [
+            "Le hertz (Hz)",
+            "Le newton (N)",
+            "Le décibel (dB)",
+            "Le watt (W)"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'intensité sonore (ou niveau sonore) se mesure en décibels (dB). Le hertz mesure la fréquence, le newton la force, et le watt la puissance."
+        },
+        {
+          "question": "Dans le vide, que se passe-t-il si l'on frappe deux pierres l'une contre l'autre ?",
+          "choices": [
+            "On entend un son très fort car rien ne l'atténue",
+            "On n'entend aucun son car le son ne se propage pas dans le vide",
+            "On entend un son faible, transmis par les combinaisons spatiales",
+            "On entend un son normal, la vitesse du son dans le vide est la même que dans l'air"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le son est une onde mécanique qui nécessite un milieu matériel pour se propager. Dans le vide, il n'y a aucune matière pour transmettre les vibrations, donc aucun son n'est perçu."
+        },
+        {
+          "question": "Un prisme en verre décompose la lumière blanche en plusieurs couleurs. Comment appelle-t-on l'ensemble de ces couleurs ?",
+          "choices": [
+            "Un hologramme",
+            "Une interférence",
+            "Un spectre",
+            "Une réflexion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lorsque la lumière blanche traverse un prisme, elle est décomposée en ses différentes couleurs constituantes : on obtient un spectre, qui s'étend du violet au rouge en passant par le bleu, le vert, le jaune et l'orange."
+        },
+        {
+          "question": "L'arc-en-ciel est un phénomène naturel analogue à la décomposition de la lumière par un prisme. Quelle en est la cause principale ?",
+          "choices": [
+            "La réflexion de la lumière sur les nuages",
+            "La décomposition de la lumière blanche par les gouttes d'eau",
+            "L'absorption de la lumière par l'atmosphère",
+            "La diffusion de la lumière par les poussières en suspension"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les gouttes d'eau en suspension dans l'atmosphère jouent le rôle de petits prismes : elles décomposent la lumière blanche du Soleil en ses différentes couleurs, formant ainsi un arc-en-ciel."
+        },
+        {
+          "question": "Parmi les propositions suivantes, laquelle désigne une source primaire de lumière ?",
+          "choices": [
+            "La Lune",
+            "Un miroir poli",
+            "Le Soleil",
+            "Un livre blanc"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une source primaire (ou source lumineuse) produit elle-même de la lumière. Le Soleil est une étoile qui émet de la lumière par elle-même. La Lune, un miroir ou un livre blanc ne font que réfléchir ou diffuser la lumière qu'ils reçoivent."
+        },
+        {
+          "question": "Un élève mesure qu'il entend le tonnerre 6 secondes après avoir vu l'éclair. En prenant la vitesse du son à 340 m/s, à quelle distance approximative se trouve l'orage ?",
+          "choices": [
+            "Environ 57 m",
+            "Environ 340 m",
+            "Environ 2 040 m",
+            "Environ 18 000 m"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique la relation distance = vitesse × durée : d = 340 m/s × 6 s = 2 040 m, soit un peu plus de 2 km. Cette méthode simple permet d'estimer la distance d'un orage."
+        },
+        {
+          "question": "Quelle est la plage de fréquences audibles pour un être humain en bonne santé ?",
+          "choices": [
+            "De 0 Hz à 340 Hz",
+            "De 20 Hz à 20 000 Hz",
+            "De 1 000 Hz à 100 000 Hz",
+            "De 20 000 Hz à 200 000 Hz"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'oreille humaine perçoit les sons dont la fréquence est comprise entre environ 20 Hz (sons très graves) et 20 000 Hz (sons très aigus). En dehors de cette plage, on parle d'infrasons (< 20 Hz) ou d'ultrasons (> 20 000 Hz)."
+        },
+        {
+          "question": "L'année-lumière est une unité de :",
+          "choices": [
+            "Durée, équivalant à une année de voyage dans l'espace",
+            "Vitesse, correspondant à la vitesse de la lumière",
+            "Distance, correspondant au chemin parcouru par la lumière en un an",
+            "Luminosité d'une étoile mesurée depuis la Terre"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'année-lumière est une unité de distance : c'est la distance parcourue par la lumière dans le vide en une année, soit environ 9 460 milliards de kilomètres. Elle est utilisée pour exprimer les distances astronomiques."
+        },
+        {
+          "question": "À partir de quel niveau sonore environ les sons commencent-ils à être dangereux pour l'oreille lors d'expositions prolongées ?",
+          "choices": [
+            "À partir de 30 dB",
+            "À partir de 60 dB",
+            "À partir de 85 dB",
+            "À partir de 200 dB"
+          ],
+          "correctIndex": 2,
+          "explanation": "Des expositions prolongées à des sons dépassant 85 dB peuvent entraîner des dommages irréversibles à l'oreille interne. C'est pourquoi le port de protections auditives est recommandé dans les environnements bruyants."
+        },
+        {
+          "question": "Si un son devient plus fort (plus intense) sans changer de note, quelle grandeur physique augmente ?",
+          "choices": [
+            "La fréquence",
+            "La hauteur",
+            "L'amplitude des vibrations",
+            "La vitesse de propagation"
+          ],
+          "correctIndex": 2,
+          "explanation": "La hauteur d'un son (grave ou aigu) dépend de la fréquence. En revanche, l'intensité sonore (la force, le volume du son) est liée à l'amplitude des vibrations : plus l'amplitude est grande, plus le son est fort."
+        },
+        {
+          "question": "La lumière se propage dans le vide à environ 300 000 km/s. La lumière du Soleil met environ 8 minutes pour nous parvenir. Que peut-on en déduire ?",
+          "choices": [
+            "La distance Terre-Soleil est d'environ 2 400 km",
+            "La distance Terre-Soleil est d'environ 144 000 000 km",
+            "La distance Terre-Soleil est d'environ 300 000 km",
+            "La distance Terre-Soleil est d'environ 2 400 000 km"
+          ],
+          "correctIndex": 1,
+          "explanation": "On calcule : d = v × t = 300 000 km/s × (8 × 60 s) = 300 000 × 480 = 144 000 000 km, soit environ 150 millions de kilomètres, ce qui correspond bien à la distance moyenne Terre-Soleil."
+        },
+        {
+          "question": "Une feuille de papier blanc éclairée par le Soleil renvoie de la lumière dans toutes les directions. Comment appelle-t-on ce phénomène ?",
+          "choices": [
+            "La réfraction",
+            "La diffusion (ou diffusion diffuse)",
+            "La polarisation",
+            "L'absorption totale"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un objet non lumineux qui renvoie la lumière dans toutes les directions est qualifié d'objet diffusant : il diffuse la lumière qu'il reçoit. C'est ce phénomène qui nous permet de voir les objets qui ne produisent pas eux-mêmes de lumière."
+        },
+        {
+          "question": "Quel organe permet à l'être humain de percevoir les sons ?",
+          "choices": [
+            "L'œil",
+            "La peau",
+            "L'oreille",
+            "Le nerf optique"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'oreille est l'organe sensoriel responsable de la perception des sons. Elle capte les vibrations mécaniques de l'air, les amplifie et les transforme en signaux nerveux transmis au cerveau. L'œil et le nerf optique sont liés à la vision."
+        },
+        {
+          "question": "Parmi ces affirmations, laquelle est CORRECTE concernant la propagation de la lumière et du son ?",
+          "choices": [
+            "Le son et la lumière se propagent tous les deux dans le vide",
+            "La lumière ne peut se propager que dans l'air",
+            "Le son se propage dans le vide mais pas dans l'eau",
+            "La lumière se propage dans le vide, mais le son a besoin d'un milieu matériel"
+          ],
+          "correctIndex": 3,
+          "explanation": "La lumière est une onde électromagnétique qui se propage dans le vide (et dans divers milieux transparents). Le son, en revanche, est une onde mécanique qui nécessite un milieu matériel (solide, liquide ou gaz) pour se propager."
         }
       ]
     },
@@ -1816,6 +2520,182 @@
           ],
           "correctIndex": 2,
           "explanation": "Le Soleil est l'étoile la plus proche de la Terre, située à environ 150 millions de kilomètres (1 unité astronomique)."
+        },
+        {
+          "question": "Quel est le bon ordre des quatre premières planètes du système solaire, en partant du Soleil ?",
+          "choices": [
+            "Mercure, Vénus, Terre, Mars",
+            "Vénus, Mercure, Mars, Terre",
+            "Mercure, Terre, Vénus, Mars",
+            "Vénus, Mercure, Terre, Mars"
+          ],
+          "correctIndex": 0,
+          "explanation": "En partant du Soleil, l'ordre est : Mercure (1re), Vénus (2e), Terre (3e), Mars (4e). Ce sont les quatre planètes telluriques (rocheuses) du système solaire."
+        },
+        {
+          "question": "Parmi les planètes suivantes, laquelle est une planète gazeuse ?",
+          "choices": [
+            "Mars",
+            "Vénus",
+            "Saturne",
+            "Mercure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Saturne est une planète gazeuse, composée principalement d'hydrogène et d'hélium. Mars, Vénus et Mercure sont des planètes telluriques (rocheuses)."
+        },
+        {
+          "question": "Quel est le nom du scientifique qui a formulé la loi de la gravitation universelle ?",
+          "choices": [
+            "Galilée",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Nicolas Copernic"
+          ],
+          "correctIndex": 2,
+          "explanation": "C'est Isaac Newton (17e siècle) qui a formulé la loi de la gravitation universelle, selon laquelle deux corps massifs s'attirent mutuellement."
+        },
+        {
+          "question": "Un élève a une masse de 50 kg sur Terre. Quelle est sa masse sur la Lune ?",
+          "choices": [
+            "Environ 8 kg",
+            "300 kg",
+            "50 kg",
+            "Environ 30 kg"
+          ],
+          "correctIndex": 2,
+          "explanation": "La masse est une grandeur invariante : elle ne dépend pas du lieu. L'élève a donc 50 kg aussi bien sur Terre que sur la Lune ou n'importe où dans l'Univers."
+        },
+        {
+          "question": "Quelle est l'unité du poids dans le système international ?",
+          "choices": [
+            "Le kilogramme (kg)",
+            "Le newton (N)",
+            "Le joule (J)",
+            "Le pascal (Pa)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le poids est une force ; son unité est le newton (N). Le kilogramme est l'unité de la masse, qui est une grandeur différente du poids."
+        },
+        {
+          "question": "Sur Terre, g ≈ 10 N/kg. Quel est le poids d'un objet de masse 3 kg ?",
+          "choices": [
+            "3 N",
+            "13 N",
+            "0,3 N",
+            "30 N"
+          ],
+          "correctIndex": 3,
+          "explanation": "On applique la relation P = m × g = 3 kg × 10 N/kg = 30 N. Le poids se calcule en multipliant la masse (en kg) par l'intensité de la pesanteur g (en N/kg)."
+        },
+        {
+          "question": "Pourquoi les planètes restent-elles en orbite autour du Soleil ?",
+          "choices": [
+            "Parce qu'elles sont retenues par un champ magnétique solaire",
+            "Parce que l'attraction gravitationnelle du Soleil les maintient sur leur trajectoire",
+            "Parce qu'elles se déplacent dans le vide sans aucune force",
+            "Parce que la lumière solaire les repousse vers l'extérieur"
+          ],
+          "correctIndex": 1,
+          "explanation": "C'est la force d'attraction gravitationnelle exercée par le Soleil (très massif) qui maintient les planètes sur leur orbite. Sans cette force, elles s'éloigneraient en ligne droite."
+        },
+        {
+          "question": "Quelle affirmation sur la gravitation est correcte ?",
+          "choices": [
+            "Seuls les objets très grands s'attirent mutuellement",
+            "La force d'attraction gravitationnelle entre deux corps augmente quand la distance entre eux augmente",
+            "Deux corps massifs s'attirent mutuellement, et cette force diminue quand la distance augmente",
+            "La gravitation n'agit que sur les planètes, pas sur les étoiles"
+          ],
+          "correctIndex": 2,
+          "explanation": "La gravitation universelle s'exerce entre tous les corps massifs. Plus la distance entre deux corps est grande, plus la force d'attraction gravitationnelle est faible."
+        },
+        {
+          "question": "Quelle est la 5e planète du système solaire en partant du Soleil ?",
+          "choices": [
+            "Saturne",
+            "Jupiter",
+            "Uranus",
+            "Mars"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'ordre des planètes est : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune. Jupiter est donc bien la 5e planète."
+        },
+        {
+          "question": "La Lune est :",
+          "choices": [
+            "Une planète naine du système solaire",
+            "Un satellite artificiel de la Terre",
+            "Un satellite naturel de la Terre",
+            "Une petite étoile orbitant autour de la Terre"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Lune est le satellite naturel de la Terre : elle orbite autour de la Terre sous l'effet de la gravitation, et elle n'a pas été fabriquée par l'Homme (contrairement aux satellites artificiels)."
+        },
+        {
+          "question": "Quelle différence y a-t-il entre une planète tellurique et une planète gazeuse ?",
+          "choices": [
+            "Les planètes telluriques sont plus grandes et plus éloignées du Soleil",
+            "Les planètes telluriques ont une surface solide rocheuse, les planètes gazeuses sont composées principalement de gaz",
+            "Les planètes gazeuses ont une surface rocheuse et les telluriques sont liquides",
+            "Il n'y a aucune différence, ce sont des synonymes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les planètes telluriques (Mercure, Vénus, Terre, Mars) sont des corps rocheux à surface solide. Les planètes gazeuses (Jupiter, Saturne, Uranus, Neptune) sont composées essentiellement de gaz et n'ont pas de surface solide distincte."
+        },
+        {
+          "question": "Quelle est la valeur approximative de l'intensité de la pesanteur g sur la Lune ?",
+          "choices": [
+            "10 N/kg",
+            "3,7 N/kg",
+            "1,6 N/kg",
+            "0,1 N/kg"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sur la Lune, g ≈ 1,6 N/kg, soit environ 6 fois moins que sur Terre (g ≈ 10 N/kg). C'est pourquoi le poids d'un objet y est environ 6 fois plus faible."
+        },
+        {
+          "question": "Le Soleil est :",
+          "choices": [
+            "Une très grande planète gazeuse",
+            "Une étoile au centre du système solaire",
+            "Un satellite naturel de Jupiter",
+            "Une planète naine"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Soleil est une étoile : c'est une boule de gaz très chaud qui produit de la lumière et de la chaleur par des réactions nucléaires en son centre. Il est situé au centre du système solaire."
+        },
+        {
+          "question": "Un astronaute a un poids de 600 N sur Terre. Quel est approximativement son poids sur la Lune (g_Lune ≈ 1,6 N/kg) ?",
+          "choices": [
+            "600 N",
+            "96 N",
+            "3 750 N",
+            "60 N"
+          ],
+          "correctIndex": 1,
+          "explanation": "La masse de l'astronaute est m = P/g = 600/10 = 60 kg. Sur la Lune : P = 60 × 1,6 = 96 N. Son poids est environ 6 fois plus faible sur la Lune que sur Terre."
+        },
+        {
+          "question": "Parmi ces objets, lequel est un satellite artificiel ?",
+          "choices": [
+            "La Lune",
+            "Phobos (satellite de Mars)",
+            "La Station spatiale internationale (ISS)",
+            "Europe (satellite de Jupiter)"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Station spatiale internationale (ISS) est un satellite artificiel : elle a été construite et mise en orbite par l'Homme. La Lune, Phobos et Europe sont des satellites naturels, formés naturellement."
+        },
+        {
+          "question": "Quelle planète du système solaire est connue pour ses anneaux très visibles ?",
+          "choices": [
+            "Jupiter",
+            "Neptune",
+            "Mars",
+            "Saturne"
+          ],
+          "correctIndex": 3,
+          "explanation": "Saturne est célèbre pour son système d'anneaux spectaculaires, composés de glace et de roches, visibles même avec un petit télescope. C'est la caractéristique la plus reconnaissable de cette planète gazeuse."
         }
       ]
     },

@@ -3885,3 +3885,77 @@
     animation: none !important;
   }
 }
+
+/* ====== Quiz coloré — accent par matière (--accent posé sur .quiz-live) ====== */
+.quiz-live {
+  display: contents;
+  --accent: var(--primary);
+}
+.quiz-live .quiz-progress .bar > span {
+  background: linear-gradient(90deg, var(--accent), #a855f7);
+}
+.quiz-live .serie-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
+}
+.quiz-live .quiz-card {
+  position: relative;
+  border-color: color-mix(in srgb, var(--accent) 22%, var(--border));
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 9%, var(--bg-elev)), var(--bg-elev));
+}
+.quiz-live .quiz-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  background: linear-gradient(90deg, var(--accent), #a855f7);
+}
+.quiz-live .question {
+  border-left: 4px solid var(--accent);
+  padding-left: 14px;
+}
+.quiz-live .choice .letter {
+  background: linear-gradient(135deg, var(--accent), #a855f7);
+  color: #fff;
+}
+.quiz-live .choice:not(:disabled):hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--bg));
+}
+.quiz-live .choice.correct {
+  border-color: var(--success);
+}
+.quiz-live .choice.correct .letter {
+  background: var(--success);
+}
+.quiz-live .choice.wrong {
+  border-color: var(--danger);
+}
+.quiz-live .choice.wrong .letter {
+  background: var(--danger);
+}
+.quiz-live .explanation {
+  border-left-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+.quiz-live .explanation strong {
+  color: var(--accent);
+}
+.quiz-live .btn-primary {
+  background: linear-gradient(135deg, var(--accent), #a855f7);
+  box-shadow: 0 8px 24px color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.quiz-live .serie-line {
+  margin-top: 8px;
+  font-weight: 700;
+  color: var(--accent);
+}
