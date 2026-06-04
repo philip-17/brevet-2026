@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
 
 /**
- * Tableau de bord privé (propriétaire). 2 onglets : Avis et Connexions.
- * - Avis : notes + textes, chats (résumé + conversation dépliable).
- * - Connexions : graphique visites/jour + tableau (date, IP, lieu, page, appareil).
- * Fonctions : export CSV, vider, repère "même IP". Accès par code (ADMIN_PASSWORD).
+ * Tableau de bord privé (propriétaire). 3 onglets : Avis, Connexions, Analyse.
+ * Données via /api/review (admin_list / admin_connections). Accès par code (ADMIN_PASSWORD).
  */
 
 const KEY_LS = 'bb_admin_key'
@@ -14,28 +12,24 @@ type Review = {
   text: string; message: string; reply: string; conversation: string; ip: string
 }
 type Connection = { date: string; ip: string; page: string; ua: string; lieu: string }
+type Tab = 'avis' | 'connexions' | 'analyse'
 
 function frDate(iso: string): string {
   const d = new Date(iso)
   if (isNaN(d.getTime())) return iso
   return d.toLocaleString('fr-FR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
 }
-
+const browserOf = (ua: string) => /edg/i.test(ua) ? 'Edge' : /chrome|crios/i.test(ua) ? 'Chrome' : /firefox|fxios/i.test(ua) ? 'Firefox' : /safari/i.test(ua) ? 'Safari' : 'Autre'
+const osOf = (ua: string) => /iphone|ipad|ios/i.test(ua) ? 'iOS' : /android/i.test(ua) ? 'Android' : /windows/i.test(ua) ? 'Windows' : /mac os|macintosh/i.test(ua) ? 'Mac' : /linux/i.test(ua) ? 'Linux' : 'Autre'
 function uaShort(ua: string): string {
   if (!ua) return '—'
-  let b = 'Autre'
-  if (/edg/i.test(ua)) b = 'Edge'
-  else if (/chrome|crios/i.test(ua)) b = 'Chrome'
-  else if (/firefox|fxios/i.test(ua)) b = 'Firefox'
-  else if (/safari/i.test(ua)) b = 'Safari'
-  let os = ''
-  if (/iphone|ipad|ios/i.test(ua)) os = 'iOS'
-  else if (/android/i.test(ua)) os = 'Android'
-  else if (/windows/i.test(ua)) os = 'Windows'
-  else if (/mac os|macintosh/i.test(ua)) os = 'Mac'
-  else if (/linux/i.test(ua)) os = 'Linux'
-  const mobile = /mobile|android|iphone/i.test(ua) ? ' 📱' : ''
-  return `${b}${os ? ' · ' + os : ''}${mobile}`
+  const m = /mobile|android|iphone/i.test(ua) ? ' 📱' : ''
+  return `${browserOf(ua)} · ${osOf(ua)}${m}`
+}
+function countBy<T>(arr: T[], key: (x: T) => string): [string, number][] {
+  const m: Record<string, number> = {}
+  arr.forEach((x) => { const k = key(x); if (k) m[k] = (m[k] || 0) + 1 })
+  return Object.entries(m).sort((a, b) => b[1] - a[1])
 }
 
 function toCSV(headers: string[], rows: (string | number)[][]): string {
@@ -46,12 +40,9 @@ function downloadCSV(filename: string, csv: string) {
   const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' })
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
-  a.href = url
-  a.download = filename
-  a.click()
+  a.href = url; a.download = filename; a.click()
   setTimeout(() => URL.revokeObjectURL(url), 1500)
 }
-
 async function apiPost(payload: unknown): Promise<Response> {
   return fetch('/api/review', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
 }
@@ -59,7 +50,7 @@ async function apiPost(payload: unknown): Promise<Response> {
 export default function AdminPage() {
   const [key, setKey] = useState('')
   const [authed, setAuthed] = useState(false)
-  const [tab, setTab] = useState<'avis' | 'connexions'>('avis')
+  const [tab, setTab] = useState<Tab>('avis')
   const [reviews, setReviews] = useState<Review[]>([])
   const [connections, setConnections] = useState<Connection[]>([])
   const [connLoaded, setConnLoaded] = useState(false)
@@ -77,7 +68,6 @@ export default function AdminPage() {
       setReviews(data.reviews || []); setAuthed(true); localStorage.setItem(KEY_LS, k)
     } catch (e) { setError(String((e as Error).message || e)) } finally { setLoading(false) }
   }
-
   const loadConnections = async (k: string) => {
     setLoading(true); setError('')
     try {
@@ -94,25 +84,25 @@ export default function AdminPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const goTab = (t: 'avis' | 'connexions') => {
+  const goTab = (t: Tab) => {
     setTab(t)
-    if (t === 'connexions' && !connLoaded) loadConnections(key)
+    if ((t === 'connexions' || t === 'analyse') && !connLoaded) loadConnections(key)
   }
-  const refresh = () => (tab === 'avis' ? loadReviews(key) : loadConnections(key))
+  const refresh = () => {
+    loadReviews(key)
+    if (connLoaded || tab !== 'avis') loadConnections(key)
+  }
   const logout = () => {
     localStorage.removeItem(KEY_LS)
     setAuthed(false); setKey(''); setReviews([]); setConnections([]); setConnLoaded(false)
   }
-
   const clearReviews = async () => {
     if (!window.confirm('Vider TOUS les avis ? (irréversible)')) return
-    await apiPost({ type: 'admin_clear', key })
-    loadReviews(key)
+    await apiPost({ type: 'admin_clear', key }); loadReviews(key)
   }
   const clearConnections = async () => {
     if (!window.confirm('Vider TOUTES les connexions ? (irréversible)')) return
-    await apiPost({ type: 'admin_clear_connections', key })
-    loadConnections(key)
+    await apiPost({ type: 'admin_clear_connections', key }); loadConnections(key)
   }
   const exportReviews = () => {
     const rows = reviews.map((r) => [r.date, r.name, r.type, r.rating, r.text, r.ip, r.conversation])
@@ -123,21 +113,30 @@ export default function AdminPage() {
     downloadCSV('connexions-brevetboost.csv', toCSV(['Horodatage', 'IP', 'Lieu', 'Page', 'Navigateur'], rows))
   }
 
-  // Stats avis
-  const ratings = reviews.filter((r) => r.type === 'avis').map((r) => parseInt(r.rating, 10)).filter((n) => !isNaN(n))
+  // ── Agrégats ──
+  const avisList = reviews.filter((r) => r.type === 'avis')
+  const ratings = avisList.map((r) => parseInt(r.rating, 10)).filter((n) => !isNaN(n))
   const avg = ratings.length ? (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1) : '–'
   const nbChat = reviews.filter((r) => r.type === 'chat').length
   const ipCountsReviews: Record<string, number> = {}
   reviews.forEach((r) => { if (r.ip) ipCountsReviews[r.ip] = (ipCountsReviews[r.ip] || 0) + 1 })
 
-  // Stats connexions
   const uniqueIps = new Set(connections.map((c) => c.ip).filter(Boolean)).size
   const ipCountsConn: Record<string, number> = {}
   connections.forEach((c) => { if (c.ip) ipCountsConn[c.ip] = (ipCountsConn[c.ip] || 0) + 1 })
-  const byDay: Record<string, number> = {}
-  connections.forEach((c) => { const d = (c.date || '').slice(0, 10); if (d) byDay[d] = (byDay[d] || 0) + 1 })
-  const days = Object.keys(byDay).sort().slice(-21)
-  const maxDay = Math.max(1, ...days.map((d) => byDay[d]))
+  const byDayConn: Record<string, number> = {}
+  connections.forEach((c) => { const d = (c.date || '').slice(0, 10); if (d) byDayConn[d] = (byDayConn[d] || 0) + 1 })
+  const days = Object.keys(byDayConn).sort().slice(-21)
+  const maxDay = Math.max(1, ...days.map((d) => byDayConn[d]))
+
+  // Analyse
+  const ratingDist = [5, 4, 3, 2, 1].map((n) => ({ n, c: ratings.filter((r) => r === n).length }))
+  const maxRating = Math.max(1, ...ratingDist.map((x) => x.c))
+  const topPages = countBy(connections, (c) => c.page || '/').slice(0, 8)
+  const byBrowser = countBy(connections, (c) => browserOf(c.ua))
+  const byOS = countBy(connections, (c) => osOf(c.ua))
+  const topLieux = countBy(connections, (c) => c.lieu || 'Inconnu').slice(0, 8)
+  const maxPage = Math.max(1, ...topPages.map((p) => p[1]))
 
   if (!authed) {
     return (
@@ -172,6 +171,7 @@ export default function AdminPage() {
         <div className="bbadm-tabs">
           <button className={'bbadm-tab ' + (tab === 'avis' ? 'on' : '')} onClick={() => goTab('avis')}>⭐ Avis ({reviews.length})</button>
           <button className={'bbadm-tab ' + (tab === 'connexions' ? 'on' : '')} onClick={() => goTab('connexions')}>🌐 Connexions{connLoaded ? ` (${connections.length})` : ''}</button>
+          <button className={'bbadm-tab ' + (tab === 'analyse' ? 'on' : '')} onClick={() => goTab('analyse')}>📊 Analyse</button>
         </div>
 
         {error && <div className="bbadm-err">{error}</div>}
@@ -231,9 +231,9 @@ export default function AdminPage() {
                 <div className="bbadm-chart-title">Visites par jour</div>
                 <div className="bbadm-bars">
                   {days.map((d) => (
-                    <div className="bbadm-barcol" key={d} title={`${d} : ${byDay[d]} visite${byDay[d] > 1 ? 's' : ''}`}>
-                      <div className="bbadm-barval">{byDay[d]}</div>
-                      <div className="bbadm-barfill" style={{ height: `${Math.max(6, (byDay[d] / maxDay) * 90)}px` }} />
+                    <div className="bbadm-barcol" key={d} title={`${d} : ${byDayConn[d]}`}>
+                      <div className="bbadm-barval">{byDayConn[d]}</div>
+                      <div className="bbadm-barfill" style={{ height: `${Math.max(6, (byDayConn[d] / maxDay) * 90)}px` }} />
                       <div className="bbadm-barlbl">{d.slice(8)}/{d.slice(5, 7)}</div>
                     </div>
                   ))}
@@ -258,6 +258,68 @@ export default function AdminPage() {
                 </table>
               </div>
             )}
+          </>
+        )}
+
+        {tab === 'analyse' && (
+          <>
+            <div className="bbadm-kpis">
+              <div className="bbadm-kpi"><div className="bbadm-kpi-v">{avg}</div><div className="bbadm-kpi-l">Note moyenne</div></div>
+              <div className="bbadm-kpi"><div className="bbadm-kpi-v">{avisList.length}</div><div className="bbadm-kpi-l">Avis notés</div></div>
+              <div className="bbadm-kpi"><div className="bbadm-kpi-v">{nbChat}</div><div className="bbadm-kpi-l">Discussions</div></div>
+              <div className="bbadm-kpi"><div className="bbadm-kpi-v">{connections.length}</div><div className="bbadm-kpi-l">Visites</div></div>
+              <div className="bbadm-kpi"><div className="bbadm-kpi-v">{uniqueIps}</div><div className="bbadm-kpi-l">Visiteurs uniques</div></div>
+            </div>
+
+            <div className="bbadm-analyse-grid">
+              <div className="bbadm-card2">
+                <div className="bbadm-chart-title">Répartition des notes</div>
+                {ratings.length === 0 && <p className="bbadm-muted">Aucune note.</p>}
+                {ratingDist.map((x) => (
+                  <div className="bbadm-rrow" key={x.n}>
+                    <span className="bbadm-rstar">{x.n}★</span>
+                    <div className="bbadm-rbar"><div style={{ width: `${(x.c / maxRating) * 100}%` }} /></div>
+                    <span className="bbadm-rc">{x.c}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="bbadm-card2">
+                <div className="bbadm-chart-title">Pages les plus visitées</div>
+                {topPages.length === 0 && <p className="bbadm-muted">Aucune visite.</p>}
+                <table className="bbadm-table compact">
+                  <tbody>
+                    {topPages.map(([p, n]) => (
+                      <tr key={p}>
+                        <td className="bbadm-mono">{p}</td>
+                        <td className="bbadm-minibar"><div style={{ width: `${(n / maxPage) * 100}%` }} /></td>
+                        <td className="bbadm-num">{n}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              <div className="bbadm-card2">
+                <div className="bbadm-chart-title">Navigateurs</div>
+                <table className="bbadm-table compact"><tbody>
+                  {byBrowser.length === 0 && <tr><td className="bbadm-muted">—</td></tr>}
+                  {byBrowser.map(([b, n]) => (<tr key={b}><td>{b}</td><td className="bbadm-num">{n}</td></tr>))}
+                </tbody></table>
+                <div className="bbadm-chart-title" style={{ marginTop: 14 }}>Systèmes</div>
+                <table className="bbadm-table compact"><tbody>
+                  {byOS.map(([o, n]) => (<tr key={o}><td>{o}</td><td className="bbadm-num">{n}</td></tr>))}
+                </tbody></table>
+              </div>
+
+              <div className="bbadm-card2">
+                <div className="bbadm-chart-title">Lieux</div>
+                {topLieux.length === 0 && <p className="bbadm-muted">Aucun lieu.</p>}
+                <table className="bbadm-table compact"><tbody>
+                  {topLieux.map(([l, n]) => (<tr key={l}><td>{l}</td><td className="bbadm-num">{n}</td></tr>))}
+                </tbody></table>
+              </div>
+            </div>
           </>
         )}
       </div>
@@ -287,8 +349,8 @@ const styles = `
 .bbadm-mini.danger{border-color:rgba(255,120,120,.4);color:#ff9d9d;background:rgba(255,120,120,.1)}
 .bbadm-mini:hover{filter:brightness(1.25)}
 .bbadm-mini:disabled{opacity:.4;cursor:not-allowed}
-.bbadm-tabs{display:flex;gap:8px;margin-bottom:16px;border-bottom:1px solid rgba(255,255,255,.1)}
-.bbadm-tab{padding:10px 16px;font:inherit;font-size:14.5px;color:rgba(245,246,255,.6);cursor:pointer;background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-1px}
+.bbadm-tabs{display:flex;gap:6px;margin-bottom:16px;border-bottom:1px solid rgba(255,255,255,.1);flex-wrap:wrap}
+.bbadm-tab{padding:10px 14px;font:inherit;font-size:14.5px;color:rgba(245,246,255,.6);cursor:pointer;background:none;border:none;border-bottom:2px solid transparent;margin-bottom:-1px}
 .bbadm-tab.on{color:#fff;border-bottom-color:#ec4899;font-weight:600}
 .bbadm-tab:hover{color:#fff}
 .bbadm-bar{display:flex;align-items:center;gap:8px;margin-bottom:16px;flex-wrap:wrap}
@@ -321,7 +383,22 @@ const styles = `
 .bbadm-table th{text-align:left;padding:11px 14px;background:rgba(255,255,255,.06);color:rgba(245,246,255,.7);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.03em}
 .bbadm-table td{padding:11px 14px;border-top:1px solid rgba(255,255,255,.08);color:rgba(245,246,255,.9)}
 .bbadm-table tr:hover td{background:rgba(255,255,255,.03)}
+.bbadm-table.compact td{padding:8px 10px;border-top:1px solid rgba(255,255,255,.06)}
 .bbadm-td-date{white-space:nowrap;color:rgba(245,246,255,.6)}
 .bbadm-mono{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 .bbadm-x{margin-left:6px;font-size:11px;color:#ff9d9d}
+.bbadm-num{text-align:right;font-weight:600;width:50px;color:#fff}
+.bbadm-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:18px}
+.bbadm-kpi{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px;text-align:center}
+.bbadm-kpi-v{font-size:28px;font-weight:700;background:linear-gradient(90deg,#c9a8ff,#ec4899);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.bbadm-kpi-l{font-size:12px;color:rgba(245,246,255,.6);margin-top:2px}
+.bbadm-analyse-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.bbadm-card2{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px}
+.bbadm-rrow{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.bbadm-rstar{width:30px;font-size:13px;color:#ffd54a}
+.bbadm-rbar{flex:1;height:12px;background:rgba(255,255,255,.08);border-radius:99px;overflow:hidden}
+.bbadm-rbar>div{height:100%;background:linear-gradient(90deg,#ffd54a,#ec4899);border-radius:99px}
+.bbadm-rc{width:30px;text-align:right;font-size:13px;color:rgba(245,246,255,.8)}
+.bbadm-minibar{width:45%}
+.bbadm-minibar>div{height:8px;background:linear-gradient(90deg,#7c3aed,#ec4899);border-radius:99px}
 `
