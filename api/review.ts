@@ -89,7 +89,7 @@ async function setCellNote(token: string, rowIndex0: number, colIndex0: number, 
 
 // Lit TOUS les avis du Sheet (valeurs + notes) pour le tableau de bord admin.
 async function readReviews(token: string): Promise<any[]> {
-  const range = encodeURIComponent(`${SHEET_NAME}!A1:G2000`)
+  const range = encodeURIComponent(`${SHEET_NAME}!A1:H2000`)
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}?ranges=${range}&includeGridData=true&fields=sheets.data.rowData.values(formattedValue,note)`
   const resp = await fetch(url, { headers: { Authorization: `Bearer ${token}` } })
   if (!resp.ok) throw new Error('Lecture Sheets échouée: ' + (await resp.text()))
@@ -109,6 +109,7 @@ async function readReviews(token: string): Promise<any[]> {
       message: v(5),
       reply: v(6),
       conversation: (cells[4]?.note ?? '') as string,
+      ip: v(7),
     })
   }
   out.reverse() // plus récent en premier
@@ -152,11 +153,12 @@ export default async function handler(req: any, res: any) {
     const body = typeof req.body === 'string' ? JSON.parse(req.body || '{}') : req.body || {}
     const { type, name } = body
     const now = new Date().toISOString()
+    const ip = String(req.headers?.['x-forwarded-for'] || req.headers?.['x-real-ip'] || '').split(',')[0].trim()
 
     // ───── Avis étoilé : 1 ligne ─────
     if (type === 'avis') {
       const token = await getGoogleAccessToken()
-      await sheetsAppend(token, [now, name || '', 'avis', body.rating ?? '', body.text || '', '', ''])
+      await sheetsAppend(token, [now, name || '', 'avis', body.rating ?? '', body.text || '', '', '', ip])
       return res.status(200).json({ ok: true })
     }
 
@@ -195,7 +197,7 @@ export default async function handler(req: any, res: any) {
       if (!summary) summary = 'Avis recueilli via le chat.'
 
       const token = await getGoogleAccessToken()
-      const appendResp = await sheetsAppend(token, [now, name || '', 'chat', '', summary, '', ''])
+      const appendResp = await sheetsAppend(token, [now, name || '', 'chat', '', summary, '', '', ip])
       const updatedRange: string = appendResp?.updates?.updatedRange || ''
       const match = updatedRange.match(/![A-Z]+(\d+)/)
       if (match) {
@@ -228,6 +230,26 @@ export default async function handler(req: any, res: any) {
         headers: { Authorization: `Bearer ${token}` },
       })
       if (!r.ok) throw new Error('Effacement Sheets échoué: ' + (await r.text()))
+      return res.status(200).json({ ok: true })
+    }
+
+    // ───── Admin : (re)pose les en-têtes du Sheet, dont la colonne IP ─────
+    if (type === 'admin_setup') {
+      const pwd = process.env.ADMIN_PASSWORD || ''
+      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+      const token = await getGoogleAccessToken()
+      const range = encodeURIComponent(`${SHEET_NAME}!A1:H1`)
+      const r = await fetch(
+        `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?valueInputOption=RAW`,
+        {
+          method: 'PUT',
+          headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            values: [['Horodatage', 'Nom', 'Type', 'Note', 'Avis_texte', 'Message_eleve', 'Reponse_bot', 'IP']],
+          }),
+        },
+      )
+      if (!r.ok) throw new Error('Setup en-têtes échoué: ' + (await r.text()))
       return res.status(200).json({ ok: true })
     }
 

@@ -18,6 +18,7 @@ type Review = {
   message: string
   reply: string
   conversation: string
+  ip: string
 }
 
 function frDate(iso: string): string {
@@ -80,6 +81,10 @@ export default function AdminPage() {
   const ratings = reviews.filter((r) => r.type === 'avis').map((r) => parseInt(r.rating, 10)).filter((n) => !isNaN(n))
   const avg = ratings.length ? (ratings.reduce((a, b) => a + b, 0) / ratings.length).toFixed(1) : '–'
   const nbChat = reviews.filter((r) => r.type === 'chat').length
+  const ipCounts: Record<string, number> = {}
+  reviews.forEach((r) => {
+    if (r.ip) ipCounts[r.ip] = (ipCounts[r.ip] || 0) + 1
+  })
 
   return (
     <div className="bbadm">
@@ -131,8 +136,12 @@ export default function AdminPage() {
                 <div className="bbadm-row1">
                   <span className="bbadm-name">{r.name || 'Anonyme'}</span>
                   <span className={'bbadm-badge ' + r.type}>{r.type === 'chat' ? '💬 chat' : '⭐ avis'}</span>
+                  {r.ip && ipCounts[r.ip] > 1 && (
+                    <span className="bbadm-badge dup">⚠️ même IP ×{ipCounts[r.ip]}</span>
+                  )}
                   <span className="bbadm-date">{frDate(r.date)}</span>
                 </div>
+                {r.ip && <div className="bbadm-ip">IP : {r.ip}</div>}
 
                 {r.type === 'avis' ? (
                   <>
@@ -198,6 +207,8 @@ const styles = `
 .bbadm-badge{font-size:12px;padding:3px 9px;border-radius:99px;border:1px solid rgba(255,255,255,.18)}
 .bbadm-badge.avis{background:rgba(255,213,74,.14);color:#ffd54a}
 .bbadm-badge.chat{background:rgba(124,58,237,.18);color:#c9a8ff}
+.bbadm-badge.dup{background:rgba(255,133,133,.18);color:#ff9d9d}
+.bbadm-ip{font-size:12px;color:rgba(245,246,255,.42);margin-top:6px;font-family:ui-monospace,Menlo,monospace}
 .bbadm-date{margin-left:auto;font-size:12.5px;color:rgba(245,246,255,.45)}
 .bbadm-stars{color:#ffd54a;font-size:18px;letter-spacing:2px;margin:2px 0 6px}
 .bbadm-staroff{color:rgba(255,255,255,.18)}
