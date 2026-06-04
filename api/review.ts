@@ -217,6 +217,20 @@ export default async function handler(req: any, res: any) {
       return res.status(200).json({ reviews })
     }
 
+    // ───── Admin : vider tous les avis (garde les en-têtes), protégé par mot de passe ─────
+    if (type === 'admin_clear') {
+      const pwd = process.env.ADMIN_PASSWORD || ''
+      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+      const token = await getGoogleAccessToken()
+      const range = encodeURIComponent(`${SHEET_NAME}!A2:Z100000`)
+      const r = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:clear`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      if (!r.ok) throw new Error('Effacement Sheets échoué: ' + (await r.text()))
+      return res.status(200).json({ ok: true })
+    }
+
     return res.status(400).json({ error: 'type invalide' })
   } catch (err: any) {
     console.error('[api/review]', err)
