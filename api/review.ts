@@ -80,11 +80,11 @@ async function ensureConnectionsTab(token: string): Promise<void> {
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({ requests: [{ addSheet: { properties: { title: CONNECTIONS_SHEET } } }] }),
   }) // si l'onglet existe déjà, la requête échoue silencieusement, ce n'est pas grave
-  const range = encodeURIComponent(`${CONNECTIONS_SHEET}!A1:D1`)
+  const range = encodeURIComponent(`${CONNECTIONS_SHEET}!A1:E1`)
   await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?valueInputOption=RAW`, {
     method: 'PUT',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ values: [['Horodatage', 'IP', 'Page', 'Navigateur']] }),
+    body: JSON.stringify({ values: [['Horodatage', 'IP', 'Page', 'Navigateur', 'Lieu']] }),
   })
 }
 
@@ -227,11 +227,16 @@ export default async function handler(req: any, res: any) {
       const token = await getGoogleAccessToken()
       const ua = String(req.headers?.['user-agent'] || '').slice(0, 300)
       const page = String(body.page || '').slice(0, 200)
+      const country = String(req.headers?.['x-vercel-ip-country'] || '')
+      let city = String(req.headers?.['x-vercel-ip-city'] || '')
+      try { city = decodeURIComponent(city) } catch { /* garde tel quel */ }
+      const lieu = [city, country].filter(Boolean).join(', ')
+      const row = [now, ip, page, ua, lieu]
       try {
-        await sheetsAppend(token, [now, ip, page, ua], CONNECTIONS_SHEET)
+        await sheetsAppend(token, row, CONNECTIONS_SHEET)
       } catch {
         await ensureConnectionsTab(token) // onglet pas encore créé → on le crée et on réessaie
-        await sheetsAppend(token, [now, ip, page, ua], CONNECTIONS_SHEET)
+        await sheetsAppend(token, row, CONNECTIONS_SHEET)
       }
       return res.status(200).json({ ok: true })
     }
@@ -247,13 +252,13 @@ export default async function handler(req: any, res: any) {
       const token = await getGoogleAccessToken()
       let rows: string[][] = []
       try {
-        rows = await sheetsReadValues(token, CONNECTIONS_SHEET, 'A2:D5000')
+        rows = await sheetsReadValues(token, CONNECTIONS_SHEET, 'A2:E5000')
       } catch {
         rows = []
       }
       const connections = rows
         .filter((r) => r && (r[0] || r[1]))
-        .map((r) => ({ date: r[0] || '', ip: r[1] || '', page: r[2] || '', ua: r[3] || '' }))
+        .map((r) => ({ date: r[0] || '', ip: r[1] || '', page: r[2] || '', ua: r[3] || '', lieu: r[4] || '' }))
         .reverse()
       return res.status(200).json({ connections })
     }
