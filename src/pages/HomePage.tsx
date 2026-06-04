@@ -775,6 +775,12 @@ function CultureSection({ totalCultureQuestions }: { totalCultureQuestions: numb
       <div className="bb-footer">
         <span>Fait avec 💜 pour réviser malin.</span>
         <span>Tes stats restent sur ton téléphone.</span>
+        <a
+          href="/admin"
+          style={{ fontSize: 11, opacity: 0.3, color: 'inherit', textDecoration: 'none', marginTop: 8, letterSpacing: '.05em' }}
+        >
+          admin
+        </a>
       </div>
     </section>
   )
