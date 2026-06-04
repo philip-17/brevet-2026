@@ -42,6 +42,7 @@ export default function ReviewBanner() {
   const [chatInput, setChatInput] = useState('')
   const [typing, setTyping] = useState(false)
   const chatRef = useRef<HTMLDivElement>(null)
+  const chatSaved = useRef(false)
 
   useEffect(() => {
     try {
@@ -110,9 +111,20 @@ export default function ReviewBanner() {
     setScreen('thanks')
   }
 
+  // Enregistre TOUTE la conversation en une seule fois (résumé + transcript en note),
+  // à la fermeture du chat — pas un envoi par message.
+  const saveChatIfNeeded = () => {
+    const hasReal = messages.some((m) => m.role === 'user' && !m.content.startsWith('[Début]'))
+    if (chatSaved.current || !hasReal) return
+    chatSaved.current = true
+    markDone()
+    void postReview({ type: 'chat_save', name: name.trim(), messages })
+  }
+
   const closeModal = () => {
+    saveChatIfNeeded()
     setOpen(false)
-    if (screen === 'thanks') setHidden(true)
+    if (screen === 'thanks' || chatSaved.current) setHidden(true)
   }
 
   return (
