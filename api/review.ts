@@ -1,20 +1,24 @@
-// Fonction serverless Vercel : reçoit les avis du widget BrevetBoost,
-// appelle DeepSeek (chat) et écrit dans Google Sheets. Tout est côté serveur
-// → la clé DeepSeek et l'accès Google ne sont JAMAIS dans le bundle public.
+// Fonction serverless Vercel : avis + chat (DeepSeek) + journal de connexions,
+// le tout écrit dans Google Sheets via un compte de service. Clés côté serveur
+// uniquement (jamais dans le bundle public).
 //
-// Comportement :
-//   - type "avis"      → 1 ligne (note + avis écrit)
-//   - type "chat"      → renvoie juste la réponse de l'IA, AUCUNE écriture
-//   - type "chat_save" → 1 SEULE ligne pour toute la conversation : résumé bref
-//                        visible (colonne Avis_texte) + conversation complète en
-//                        NOTE sur la cellule (survol/clic pour la dérouler)
+//   type "avis"                    → 1 ligne (Feuille 1)
+//   type "chat"                    → réponse IA seule, n'écrit rien
+//   type "chat_save"               → 1 ligne (résumé + conversation en note)
+//   type "visit"                   → 1 ligne dans l'onglet "Connexions" (ping public)
+//   type "admin_list"              → tous les avis (protégé)
+//   type "admin_connections"       → toutes les connexions (protégé)
+//   type "admin_clear"             → vide les avis (protégé)
+//   type "admin_clear_connections" → vide les connexions (protégé)
+//   type "admin_setup"             → (re)pose les en-têtes + crée l'onglet Connexions (protégé)
 //
-// Variables d'environnement (Vercel) : DEEPSEEK_API_KEY, GOOGLE_CLIENT_EMAIL,
-//   GOOGLE_PRIVATE_KEY, SHEET_ID, SHEET_NAME (défaut "Feuille 1").
+// Env (Vercel) : DEEPSEEK_API_KEY, GOOGLE_CLIENT_EMAIL, GOOGLE_PRIVATE_KEY,
+//   SHEET_ID, SHEET_NAME (="Feuille 1"), ADMIN_PASSWORD.
 import crypto from 'node:crypto'
 
 const SHEET_ID = process.env.SHEET_ID || ''
 const SHEET_NAME = process.env.SHEET_NAME || 'Feuille 1'
+const CONNECTIONS_SHEET = 'Connexions'
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || ''
 const GOOGLE_CLIENT_EMAIL = process.env.GOOGLE_CLIENT_EMAIL || ''
 const GOOGLE_PRIVATE_KEY = (process.env.GOOGLE_PRIVATE_KEY || '').replace(/\\n/g, '\n')
@@ -47,9 +51,8 @@ async function getGoogleAccessToken(): Promise<string> {
   return data.access_token
 }
 
-// Ajoute une ligne et renvoie la réponse de l'API (pour récupérer la plage écrite).
-async function sheetsAppend(token: string, row: (string | number)[]): Promise<any> {
-  const range = encodeURIComponent(`${SHEET_NAME}!A1`)
+async function sheetsAppend(token: string, row: (string | number)[], sheetName: string = SHEET_NAME): Promise<any> {
+  const range = encodeURIComponent(`${sheetName}!A1`)
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:append?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS`
   const resp = await fetch(url, {
     method: 'POST',
@@ -60,19 +63,37 @@ async function sheetsAppend(token: string, row: (string | number)[]): Promise<an
   return resp.json()
 }
 
-// Pose une NOTE sur une cellule (conversation complète cachée, révélée au survol/clic).
+async function sheetsReadValues(token: string, sheetName: string, range = 'A2:D5000'): Promise<string[][]> {
+  const r = encodeURIComponent(`${sheetName}!${range}`)
+  const resp = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${r}`, {
+    headers: { Authorization: `Bearer ${token}` },
+  })
+  if (!resp.ok) throw new Error('Lecture Sheets échouée: ' + (await resp.text()))
+  const data: any = await resp.json()
+  return data.values || []
+}
+
+// Crée l'onglet "Connexions" (ignore si déjà présent) + (re)pose ses en-têtes.
+async function ensureConnectionsTab(token: string): Promise<void> {
+  await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}:batchUpdate`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ requests: [{ addSheet: { properties: { title: CONNECTIONS_SHEET } } }] }),
+  }) // si l'onglet existe déjà, la requête échoue silencieusement, ce n'est pas grave
+  const range = encodeURIComponent(`${CONNECTIONS_SHEET}!A1:D1`)
+  await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?valueInputOption=RAW`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ values: [['Horodatage', 'IP', 'Page', 'Navigateur']] }),
+  })
+}
+
 async function setCellNote(token: string, rowIndex0: number, colIndex0: number, note: string): Promise<void> {
   const body = {
     requests: [
       {
         updateCells: {
-          range: {
-            sheetId: 0,
-            startRowIndex: rowIndex0,
-            endRowIndex: rowIndex0 + 1,
-            startColumnIndex: colIndex0,
-            endColumnIndex: colIndex0 + 1,
-          },
+          range: { sheetId: 0, startRowIndex: rowIndex0, endRowIndex: rowIndex0 + 1, startColumnIndex: colIndex0, endColumnIndex: colIndex0 + 1 },
           rows: [{ values: [{ note }] }],
           fields: 'note',
         },
@@ -87,7 +108,7 @@ async function setCellNote(token: string, rowIndex0: number, colIndex0: number, 
   if (!resp.ok) throw new Error('Note Sheets: ' + (await resp.text()))
 }
 
-// Lit TOUS les avis du Sheet (valeurs + notes) pour le tableau de bord admin.
+// Lit tous les avis (valeurs + notes) pour le tableau de bord admin.
 async function readReviews(token: string): Promise<any[]> {
   const range = encodeURIComponent(`${SHEET_NAME}!A1:H2000`)
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}?ranges=${range}&includeGridData=true&fields=sheets.data.rowData.values(formattedValue,note)`
@@ -112,7 +133,7 @@ async function readReviews(token: string): Promise<any[]> {
       ip: v(7),
     })
   }
-  out.reverse() // plus récent en premier
+  out.reverse()
   return out
 }
 
@@ -141,9 +162,16 @@ const chatSystem = (name: string): ChatMessage => ({
 })
 
 const cleanConvo = (messages: unknown): ChatMessage[] =>
-  (Array.isArray(messages) ? messages : []).filter(
-    (m: any) => m && m.content && !String(m.content).startsWith('[Début]'),
-  )
+  (Array.isArray(messages) ? messages : []).filter((m: any) => m && m.content && !String(m.content).startsWith('[Début]'))
+
+function checkAdmin(body: any, res: any): boolean {
+  const pwd = process.env.ADMIN_PASSWORD || ''
+  if (!pwd || body.key !== pwd) {
+    res.status(401).json({ error: 'Accès refusé' })
+    return false
+  }
+  return true
+}
 
 export default async function handler(req: any, res: any) {
   if (req.method === 'OPTIONS') return res.status(204).end()
@@ -155,51 +183,35 @@ export default async function handler(req: any, res: any) {
     const now = new Date().toISOString()
     const ip = String(req.headers?.['x-forwarded-for'] || req.headers?.['x-real-ip'] || '').split(',')[0].trim()
 
-    // ───── Avis étoilé : 1 ligne ─────
     if (type === 'avis') {
       const token = await getGoogleAccessToken()
       await sheetsAppend(token, [now, name || '', 'avis', body.rating ?? '', body.text || '', '', '', ip])
       return res.status(200).json({ ok: true })
     }
 
-    // ───── Chat en cours : réponse de l'IA uniquement, AUCUNE écriture ─────
     if (type === 'chat') {
       const messages: ChatMessage[] = Array.isArray(body.messages) ? body.messages : []
       const reply = await deepseek([chatSystem(name), ...messages])
       return res.status(200).json({ reply: reply || 'Merci beaucoup pour ton retour ! 🙏' })
     }
 
-    // ───── Fin de conversation : 1 SEULE ligne (résumé bref + transcript en note) ─────
     if (type === 'chat_save') {
       const convo = cleanConvo(body.messages)
       if (!convo.length) return res.status(200).json({ ok: true, skipped: true })
-
-      const transcript = convo
-        .map((m) => (m.role === 'user' ? 'Élève' : 'Assistant') + ' : ' + m.content)
-        .join('\n\n')
-
+      const transcript = convo.map((m) => (m.role === 'user' ? 'Élève' : 'Assistant') + ' : ' + m.content).join('\n\n')
       let summary = (
         await deepseek(
           [
-            {
-              role: 'system',
-              content:
-                "Tu résumes l'avis d'un élève sur une appli de quiz pour réviser le brevet. Réponds par UNE seule phrase TRÈS brève (max ~15 mots), en français, captant l'essentiel de son retour (ce qu'il aime et/ou ce qu'il voudrait améliorer). Pas de préambule, juste le résumé.",
-            },
+            { role: 'system', content: "Tu résumes l'avis d'un élève sur une appli de quiz pour réviser le brevet. Réponds par UNE seule phrase TRÈS brève (max ~15 mots), en français, captant l'essentiel de son retour. Pas de préambule, juste le résumé." },
             { role: 'user', content: 'Conversation :\n' + transcript + '\n\nRésumé en une phrase :' },
           ],
           80,
         )
-      )
-        .trim()
-        .replace(/^["«»']|["«»']$/g, '')
-        .trim()
+      ).trim().replace(/^["«»']|["«»']$/g, '').trim()
       if (!summary) summary = 'Avis recueilli via le chat.'
-
       const token = await getGoogleAccessToken()
       const appendResp = await sheetsAppend(token, [now, name || '', 'chat', '', summary, '', '', ip])
-      const updatedRange: string = appendResp?.updates?.updatedRange || ''
-      const match = updatedRange.match(/![A-Z]+(\d+)/)
+      const match = String(appendResp?.updates?.updatedRange || '').match(/![A-Z]+(\d+)/)
       if (match) {
         try {
           await setCellNote(token, parseInt(match[1], 10) - 1, 4, 'Conversation complète :\n\n' + transcript)
@@ -210,46 +222,70 @@ export default async function handler(req: any, res: any) {
       return res.status(200).json({ ok: true })
     }
 
-    // ───── Tableau de bord admin : liste de tous les avis (protégé par mot de passe) ─────
-    if (type === 'admin_list') {
-      const pwd = process.env.ADMIN_PASSWORD || ''
-      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+    // Journal de connexion : ping public à l'ouverture du site.
+    if (type === 'visit') {
       const token = await getGoogleAccessToken()
-      const reviews = await readReviews(token)
-      return res.status(200).json({ reviews })
+      const ua = String(req.headers?.['user-agent'] || '').slice(0, 300)
+      const page = String(body.page || '').slice(0, 200)
+      try {
+        await sheetsAppend(token, [now, ip, page, ua], CONNECTIONS_SHEET)
+      } catch {
+        await ensureConnectionsTab(token) // onglet pas encore créé → on le crée et on réessaie
+        await sheetsAppend(token, [now, ip, page, ua], CONNECTIONS_SHEET)
+      }
+      return res.status(200).json({ ok: true })
     }
 
-    // ───── Admin : vider tous les avis (garde les en-têtes), protégé par mot de passe ─────
+    if (type === 'admin_list') {
+      if (!checkAdmin(body, res)) return
+      const token = await getGoogleAccessToken()
+      return res.status(200).json({ reviews: await readReviews(token) })
+    }
+
+    if (type === 'admin_connections') {
+      if (!checkAdmin(body, res)) return
+      const token = await getGoogleAccessToken()
+      let rows: string[][] = []
+      try {
+        rows = await sheetsReadValues(token, CONNECTIONS_SHEET, 'A2:D5000')
+      } catch {
+        rows = []
+      }
+      const connections = rows
+        .filter((r) => r && (r[0] || r[1]))
+        .map((r) => ({ date: r[0] || '', ip: r[1] || '', page: r[2] || '', ua: r[3] || '' }))
+        .reverse()
+      return res.status(200).json({ connections })
+    }
+
     if (type === 'admin_clear') {
-      const pwd = process.env.ADMIN_PASSWORD || ''
-      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+      if (!checkAdmin(body, res)) return
       const token = await getGoogleAccessToken()
       const range = encodeURIComponent(`${SHEET_NAME}!A2:Z100000`)
-      const r = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:clear`, {
-        method: 'POST',
-        headers: { Authorization: `Bearer ${token}` },
-      })
+      const r = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:clear`, { method: 'POST', headers: { Authorization: `Bearer ${token}` } })
       if (!r.ok) throw new Error('Effacement Sheets échoué: ' + (await r.text()))
       return res.status(200).json({ ok: true })
     }
 
-    // ───── Admin : (re)pose les en-têtes du Sheet, dont la colonne IP ─────
+    if (type === 'admin_clear_connections') {
+      if (!checkAdmin(body, res)) return
+      const token = await getGoogleAccessToken()
+      const range = encodeURIComponent(`${CONNECTIONS_SHEET}!A2:Z100000`)
+      await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:clear`, { method: 'POST', headers: { Authorization: `Bearer ${token}` } })
+      return res.status(200).json({ ok: true })
+    }
+
     if (type === 'admin_setup') {
-      const pwd = process.env.ADMIN_PASSWORD || ''
-      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+      if (!checkAdmin(body, res)) return
       const token = await getGoogleAccessToken()
       const range = encodeURIComponent(`${SHEET_NAME}!A1:H1`)
-      const r = await fetch(
-        `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?valueInputOption=RAW`,
-        {
-          method: 'PUT',
-          headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            values: [['Horodatage', 'Nom', 'Type', 'Note', 'Avis_texte', 'Message_eleve', 'Reponse_bot', 'IP']],
-          }),
-        },
-      )
+      const r = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?valueInputOption=RAW`, {
+        method: 'PUT',
+        headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ values: [['Horodatage', 'Nom', 'Type', 'Note', 'Avis_texte', 'Message_eleve', 'Reponse_bot', 'IP']] }),
+      })
       if (!r.ok) throw new Error('Setup en-têtes échoué: ' + (await r.text()))
+      await ensureConnectionsTab(token)
       return res.status(200).json({ ok: true })
     }
 

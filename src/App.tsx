@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import SubjectPage from './pages/SubjectPage'
@@ -11,6 +12,18 @@ import AdminPage from './pages/AdminPage'
 import './App.css'
 
 export default function App() {
+  // Journal de connexion : un ping à l'ouverture du site (sauf la page admin).
+  useEffect(() => {
+    const path = window.location.pathname
+    if (path.startsWith('/admin')) return
+    fetch('/api/review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'visit', page: path }),
+      keepalive: true,
+    }).catch(() => {})
+  }, [])
+
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
