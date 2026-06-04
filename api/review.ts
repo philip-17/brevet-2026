@@ -87,6 +87,34 @@ async function setCellNote(token: string, rowIndex0: number, colIndex0: number, 
   if (!resp.ok) throw new Error('Note Sheets: ' + (await resp.text()))
 }
 
+// Lit TOUS les avis du Sheet (valeurs + notes) pour le tableau de bord admin.
+async function readReviews(token: string): Promise<any[]> {
+  const range = encodeURIComponent(`${SHEET_NAME}!A1:G2000`)
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}?ranges=${range}&includeGridData=true&fields=sheets.data.rowData.values(formattedValue,note)`
+  const resp = await fetch(url, { headers: { Authorization: `Bearer ${token}` } })
+  if (!resp.ok) throw new Error('Lecture Sheets échouée: ' + (await resp.text()))
+  const data: any = await resp.json()
+  const rowData: any[] = data?.sheets?.[0]?.data?.[0]?.rowData || []
+  const out: any[] = []
+  for (let i = 1; i < rowData.length; i++) {
+    const cells: any[] = rowData[i]?.values || []
+    const v = (j: number): string => (cells[j]?.formattedValue ?? '') as string
+    if (!v(0) && !v(1) && !v(2)) continue
+    out.push({
+      date: v(0),
+      name: v(1),
+      type: v(2),
+      rating: v(3),
+      text: v(4),
+      message: v(5),
+      reply: v(6),
+      conversation: (cells[4]?.note ?? '') as string,
+    })
+  }
+  out.reverse() // plus récent en premier
+  return out
+}
+
 type ChatMessage = { role: string; content: string }
 
 async function deepseek(messages: ChatMessage[], maxTokens = 512): Promise<string> {
@@ -180,7 +208,16 @@ export default async function handler(req: any, res: any) {
       return res.status(200).json({ ok: true })
     }
 
-    return res.status(400).json({ error: 'type invalide (attendu "avis", "chat" ou "chat_save")' })
+    // ───── Tableau de bord admin : liste de tous les avis (protégé par mot de passe) ─────
+    if (type === 'admin_list') {
+      const pwd = process.env.ADMIN_PASSWORD || ''
+      if (!pwd || body.key !== pwd) return res.status(401).json({ error: 'Accès refusé' })
+      const token = await getGoogleAccessToken()
+      const reviews = await readReviews(token)
+      return res.status(200).json({ reviews })
+    }
+
+    return res.status(400).json({ error: 'type invalide' })
   } catch (err: any) {
     console.error('[api/review]', err)
     return res.status(500).json({ error: String(err?.message || err) })

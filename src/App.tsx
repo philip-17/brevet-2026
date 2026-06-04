@@ -7,6 +7,7 @@ import StatsPage from './pages/StatsPage'
 import CultureGPage from './pages/CultureGPage'
 import LessonPage from './pages/LessonPage'
 import ExamPage from './pages/ExamPage'
+import AdminPage from './pages/AdminPage'
 import './App.css'
 
 export default function App() {
@@ -62,6 +63,7 @@ export default function App() {
           </div>
         }
       />
+      <Route path="/admin" element={<AdminPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   )
