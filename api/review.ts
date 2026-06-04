@@ -139,11 +139,11 @@ async function readReviews(token: string): Promise<any[]> {
 
 type ChatMessage = { role: string; content: string }
 
-async function deepseek(messages: ChatMessage[], maxTokens = 512): Promise<string> {
+async function deepseek(messages: ChatMessage[], maxTokens = 512, temperature = 0.7): Promise<string> {
   const resp = await fetch('https://api.deepseek.com/chat/completions', {
     method: 'POST',
     headers: { Authorization: `Bearer ${DEEPSEEK_API_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: 'deepseek-chat', max_tokens: maxTokens, messages }),
+    body: JSON.stringify({ model: 'deepseek-chat', max_tokens: maxTokens, temperature, messages }),
   })
   const data = (await resp.json()) as { choices?: { message?: { content?: string } }[] }
   return data.choices?.[0]?.message?.content || ''
@@ -152,13 +152,19 @@ async function deepseek(messages: ChatMessage[], maxTokens = 512): Promise<strin
 const chatSystem = (name: string): ChatMessage => ({
   role: 'system',
   content:
-    "Tu es l'assistant d'avis d'une application de quiz pour réviser le brevet des collèges. " +
-    'Tu discutes avec l’élève nommé « ' +
+    "Tu es l'assistant d'avis de BrevetBoost, une application de quiz pour réviser le brevet des collèges. " +
+    'Tu discutes avec l’élève « ' +
     (name || "l'élève") +
-    ' » pour recueillir son avis, de façon chaleureuse et BRÈVE. ' +
-    'Règles : pose UNE seule question à la fois (ce qu’il a aimé, ce qu’on pourrait améliorer). ' +
-    'Après 1 à 2 réponses de l’élève, remercie-le par son prénom et conclus sans poser de nouvelle question. ' +
-    'Messages très courts, 1 à 2 phrases. Si l’historique est vide, salue l’élève par son prénom et demande ce qu’il a pensé de l’application.',
+    ' » pour recueillir un avis RICHE et DÉTAILLÉ, comme une petite interview amicale. Tutoie-le, reste chaleureux et naturel.\n' +
+    'OBJECTIF : creuser pour comprendre vraiment son expérience, pas juste récolter un compliment.\n' +
+    'MÉTHODE :\n' +
+    '- Pose UNE seule question à la fois, courte (1 à 3 phrases), facile à lire sur téléphone.\n' +
+    "- REBONDIS toujours sur ce qu’il vient de dire avant de passer à autre chose : demande un exemple précis, un « pourquoi », un détail concret (« quel chapitre ? », « qu’est-ce qui t’a bloqué exactement ? », « tu changerais quoi ? »).\n" +
+    "- Si sa réponse est vague (« c’est bien », « rien », « je sais pas »), relance gentiment pour obtenir du concret au lieu de conclure.\n" +
+    '- Explore progressivement plusieurs aspects, un par message : ce qu’il a aimé · ce qui l’a gêné ou ce qui manque · la difficulté des quiz · la clarté et le design · une fonctionnalité qu’il aimerait · s’il recommanderait l’appli à un ami et pourquoi.\n' +
+    'RYTHME : mène une vraie discussion (vise environ 5 à 7 échanges). Ne conclus PAS après une ou deux réponses. ' +
+    "Conclus seulement quand tu as fait le tour des sujets, ou si l’élève répond de façon très brève/désengagée plusieurs fois de suite : remercie-le alors par son prénom, chaleureusement, sans poser de nouvelle question.\n" +
+    "Si l’historique est vide, salue l’élève par son prénom et demande-lui d’abord ce qu’il a pensé de l’application.",
 })
 
 const cleanConvo = (messages: unknown): ChatMessage[] =>
@@ -191,7 +197,7 @@ export default async function handler(req: any, res: any) {
 
     if (type === 'chat') {
       const messages: ChatMessage[] = Array.isArray(body.messages) ? body.messages : []
-      const reply = await deepseek([chatSystem(name), ...messages])
+      const reply = await deepseek([chatSystem(name), ...messages], 512, 0.9)
       return res.status(200).json({ reply: reply || 'Merci beaucoup pour ton retour ! 🙏' })
     }
 
@@ -206,6 +212,7 @@ export default async function handler(req: any, res: any) {
             { role: 'user', content: 'Conversation :\n' + transcript + '\n\nRésumé en une phrase :' },
           ],
           80,
+          0.2,
         )
       ).trim().replace(/^["«»']|["«»']$/g, '').trim()
       if (!summary) summary = 'Avis recueilli via le chat.'
