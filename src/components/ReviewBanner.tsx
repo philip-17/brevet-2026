@@ -161,11 +161,10 @@ export default function ReviewBanner() {
             <span className="bbrvw-blob b3" />
           </div>
 
-          <button className="bbrvw-close" onClick={closeModal} aria-label="Fermer">
-            ✕
-          </button>
-
           <div className="bbrvw-stage">
+            <button className="bbrvw-close" onClick={closeModal} aria-label="Fermer">
+              ✕
+            </button>
             {screen === 'banner' && (
               <div className="bbrvw-glass bbrvw-pad">
                 <h2 className="bbrvw-h">🌟 Laisse-nous un avis</h2>
@@ -188,11 +187,14 @@ export default function ReviewBanner() {
               <div className="bbrvw-glass bbrvw-pad">
                 <h2 className="bbrvw-h">Bonjour {name.trim()} !</h2>
                 <p className="bbrvw-muted">Comment préfères-tu nous donner ton avis ?</p>
-                <button className="bbrvw-btn bbrvw-primary bbrvw-full" onClick={() => setScreen('stars')}>
-                  ⭐ Noter &amp; écrire un avis
+                <button className="bbrvw-btn bbrvw-chatbtn bbrvw-full" onClick={startChat}>
+                  <span className="bbrvw-chatico">💬</span>
+                  <span>Discuter avec l’assistant</span>
+                  <span className="bbrvw-chatbadge">IA</span>
                 </button>
-                <button className="bbrvw-btn bbrvw-full" onClick={startChat}>
-                  💬 En discuter avec l’assistant
+                <p className="bbrvw-hint">Le plus rapide : réponds à quelques questions 💬</p>
+                <button className="bbrvw-btn bbrvw-full" onClick={() => setScreen('stars')}>
+                  ⭐ Noter &amp; écrire un avis
                 </button>
               </div>
             )}
@@ -301,8 +303,13 @@ const styles = `
 .bbrvw-blob.b1{width:50vmin;height:50vmin;left:-6vmin;top:-4vmin;background:radial-gradient(circle,#7c3aed,transparent 70%)}
 .bbrvw-blob.b2{width:52vmin;height:52vmin;right:-10vmin;top:10vmin;background:radial-gradient(circle,#ec4899,transparent 70%)}
 .bbrvw-blob.b3{width:54vmin;height:54vmin;left:10vmin;bottom:-16vmin;background:radial-gradient(circle,#2dd4bf,transparent 70%)}
-.bbrvw-close{position:absolute;top:18px;right:20px;z-index:3;width:40px;height:40px;border-radius:50%;
-  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:16px;cursor:pointer}
+.bbrvw-close{position:absolute;top:-14px;right:-8px;z-index:30;width:46px;height:46px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(180deg,rgba(42,24,72,.97),rgba(20,12,40,.97));
+  border:1.5px solid rgba(255,255,255,.45);color:#fff;font-size:19px;line-height:1;cursor:pointer;
+  box-shadow:0 8px 22px rgba(0,0,0,.5);transition:transform .18s,background .18s}
+.bbrvw-close:hover{background:linear-gradient(180deg,rgba(236,72,153,.95),rgba(124,58,237,.95));transform:rotate(90deg) scale(1.06)}
+.bbrvw-close:active{transform:scale(.9)}
 .bbrvw-stage{position:relative;z-index:2;width:100%;max-width:420px}
 .bbrvw-glass{position:relative;border-radius:28px;overflow:hidden;
   background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(26px) saturate(190%);backdrop-filter:blur(26px) saturate(190%);
@@ -324,6 +331,28 @@ const styles = `
 .bbrvw-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
 .bbrvw-full{width:100%}
 .bbrvw-primary{border-color:rgba(255,255,255,.42);background:linear-gradient(180deg,rgba(124,58,237,.9),rgba(236,72,153,.82))}
+
+/* Bouton « Discuter avec l'assistant » mis en vedette */
+.bbrvw-chatbtn{position:relative;overflow:hidden;color:#fff;margin-top:6px;
+  border-color:rgba(94,234,212,.6);
+  background:linear-gradient(120deg,rgba(45,212,191,.92),rgba(124,58,237,.95));
+  transition:transform .18s;animation:bbrvw-pulse 2.4s ease-in-out infinite}
+.bbrvw-chatbtn:hover{transform:translateY(-2px) scale(1.025)}
+.bbrvw-chatbtn:active{transform:translateY(0) scale(.98)}
+.bbrvw-chatbtn::after{content:"";position:absolute;top:0;left:-130%;width:55%;height:100%;pointer-events:none;
+  background:linear-gradient(110deg,transparent,rgba(255,255,255,.5),transparent);
+  transform:skewX(-18deg);animation:bbrvw-shine 3.4s ease-in-out infinite}
+.bbrvw-chatico{display:inline-block;animation:bbrvw-bob 1.9s ease-in-out infinite}
+.bbrvw-chatbadge{font-size:10px;font-weight:800;letter-spacing:.1em;padding:2px 7px;border-radius:999px;
+  background:rgba(255,255,255,.28);border:1px solid rgba(255,255,255,.45)}
+.bbrvw-hint{text-align:center;font-size:12.5px;color:rgba(94,234,212,.85);margin:9px 0 2px}
+@keyframes bbrvw-pulse{
+  0%,100%{box-shadow:0 8px 22px rgba(45,212,191,.22)}
+  50%{box-shadow:0 10px 30px rgba(124,58,237,.5),0 0 20px 2px rgba(94,234,212,.4)}}
+@keyframes bbrvw-shine{0%{left:-130%}55%{left:150%}100%{left:150%}}
+@keyframes bbrvw-bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-2px) rotate(-9deg)}}
+@media (prefers-reduced-motion:reduce){
+  .bbrvw-chatbtn,.bbrvw-chatbtn::after,.bbrvw-chatico{animation:none}}
 .bbrvw-back{background:none;border:none;color:rgba(245,246,255,.62);cursor:pointer;font-size:14px;padding:0;margin-bottom:14px}
 .bbrvw-back:hover{color:#fff}
 .bbrvw-stars{display:flex;gap:10px;justify-content:center;margin:10px 0 18px}
