@@ -31,7 +31,40 @@
         "L'arc réflexe est une réponse automatique et involontaire traitée directement au niveau de la moelle épinière, sans passer par le cerveau.",
         "L'alcool ralentit les réflexes ; les drogues perturbent les synapses et peuvent créer une dépendance ; le manque de sommeil affaiblit la mémoire et la concentration.",
         "Le message nerveux suit toujours le même trajet : récepteur → nerf sensitif → SNC → nerf moteur → organe effecteur (muscle ou glande)."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Le système nerveux central, c'est l'encéphale plus la moelle épinière : le centre de commande du corps.",
+          "Le trajet d'un message est toujours le même : récepteur, nerf sensitif, centre nerveux, nerf moteur, muscle.",
+          "Dans le neurone, le message est électrique ; à la synapse, il devient chimique grâce aux neurotransmetteurs.",
+          "L'arc réflexe est une réaction automatique traitée par la moelle épinière, sans attendre le cerveau : c'est pour ça qu'il est ultra-rapide.",
+          "Alcool, drogues et manque de sommeil perturbent le système nerveux : réflexes ralentis, mémoire affaiblie, dépendance."
+        ],
+        "reperes": [
+          {
+            "label": "SNC",
+            "value": "système nerveux central = encéphale (cerveau, cervelet, tronc cérébral) + moelle épinière"
+          },
+          {
+            "label": "Neurone",
+            "value": "cellule de base : corps cellulaire, dendrites (reçoivent), axone (transmet)"
+          },
+          {
+            "label": "Synapse",
+            "value": "espace entre deux neurones où passent les neurotransmetteurs (message chimique)"
+          },
+          {
+            "label": "Nerf sensitif",
+            "value": "remonte l'info des sens vers le centre nerveux"
+          },
+          {
+            "label": "Nerf moteur",
+            "value": "descend l'ordre du centre nerveux vers le muscle"
+          }
+        ],
+        "astuce": "Sensitif = Sens (qui entrent) ; Moteur = Mouvement (qui sort). Les deux commencent par la même idée que leur rôle.",
+        "piege": "L'arc réflexe ne passe PAS par le cerveau : il est traité par la moelle épinière. Le cerveau n'est prévenu qu'après."
+      }
     },
     "reproduction": {
       "title": "Reproduction humaine et puberté",
@@ -66,7 +99,41 @@
         "Le cycle menstruel dure ≈ 28 jours ; l'ovulation se produit vers le jour 14 et correspond à la période de fertilité maximale.",
         "Les règles (J1–J5) correspondent à la desquamation de l'endomètre lorsqu'il n'y a pas eu fécondation ni nidation.",
         "Le préservatif est la seule méthode qui protège à la fois contre les grossesses non désirées et contre les IST."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La puberté est déclenchée par les hormones : testostérone chez le garçon, œstrogènes chez la fille.",
+          "Les gamètes sont les cellules reproductrices : spermatozoïde (mâle) et ovule (femelle).",
+          "La fécondation a lieu dans la trompe de Fallope : un spermatozoïde plus un ovule donnent une cellule-œuf à 46 chromosomes.",
+          "La nidation, c'est l'implantation de la cellule-œuf dans la paroi de l'utérus, vers le 6e ou 7e jour.",
+          "Le cycle menstruel dure environ 28 jours ; l'ovulation se produit vers le jour 14.",
+          "Le préservatif est le seul moyen qui protège À LA FOIS des grossesses et des IST."
+        ],
+        "reperes": [
+          {
+            "label": "Gamète mâle",
+            "value": "spermatozoïde, mobile (flagelle), vit 3 à 5 jours"
+          },
+          {
+            "label": "Gamète femelle",
+            "value": "ovule, libéré à l'ovulation, vit environ 24 heures"
+          },
+          {
+            "label": "Fécondation",
+            "value": "dans la trompe : spermatozoïde + ovule = cellule-œuf (46 chromosomes)"
+          },
+          {
+            "label": "Ovulation",
+            "value": "vers le jour 14 du cycle : fertilité maximale"
+          },
+          {
+            "label": "Règles",
+            "value": "jours 1 à 5 : la paroi de l'utérus se détruit faute de fécondation"
+          }
+        ],
+        "astuce": "Pour le sens des hormones : œstrogène et Ovaire commencent par O ; testostérone et Testicule par T.",
+        "piege": "Ne confonds pas fécondation (rencontre des gamètes dans la trompe) et nidation (installation de l'œuf dans l'utérus, plusieurs jours après)."
+      }
     },
     "immunite": {
       "title": "Système immunitaire",
@@ -98,7 +165,41 @@
         "Les anticorps produits par les lymphocytes B reconnaissent UN seul type d'antigène (spécificité antigène–anticorps).",
         "La mémoire immunitaire permet une réponse plus rapide et plus forte lors d'un second contact avec le même microbe.",
         "Les antibiotiques agissent uniquement contre les bactéries et sont inefficaces contre les infections virales."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Trois types de microbes pathogènes : bactéries, virus et champignons.",
+          "La peau et les muqueuses sont la première barrière : elles empêchent les microbes d'entrer.",
+          "La phagocytose : un globule blanc englobe le microbe et le digère ; c'est rapide mais non spécifique.",
+          "Un anticorps reconnaît UN seul antigène, comme une clé dans une serrure : c'est la défense spécifique.",
+          "La mémoire immunitaire rend la deuxième riposte plus rapide et plus forte : c'est le principe du vaccin.",
+          "Les antibiotiques tuent les bactéries mais sont INUTILES contre les virus."
+        ],
+        "reperes": [
+          {
+            "label": "Phagocyte",
+            "value": "globule blanc qui englobe et digère les microbes (phagocytose)"
+          },
+          {
+            "label": "Antigène",
+            "value": "molécule reconnaissable portée par le microbe"
+          },
+          {
+            "label": "Anticorps",
+            "value": "protéine en Y produite par les lymphocytes B, spécifique d'un antigène"
+          },
+          {
+            "label": "Vaccination",
+            "value": "préventive : entraîne le corps avant la maladie (mémoire)"
+          },
+          {
+            "label": "Sérothérapie",
+            "value": "curative : injecte des anticorps prêts à l'emploi"
+          }
+        ],
+        "astuce": "Vaccin = aVant (préventif, on s'entraîne) ; Sérum = Soigner (curatif, on est déjà malade).",
+        "piege": "Antibiotique contre un virus = zéro effet. La grippe et le rhume sont des virus : les antibiotiques ne servent à rien."
+      }
     },
     "genetique": {
       "title": "Génétique : ADN, chromosomes et hérédité",
@@ -129,7 +230,41 @@
         "Les gamètes (ovule, spermatozoïde) ne contiennent que 23 chromosomes (1 par paire).",
         "La 23e paire de chromosomes détermine le sexe : XX = fille, XY = garçon.",
         "La trisomie 21 est due à la présence de 3 chromosomes 21 au lieu de 2, soit 47 chromosomes au total."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Chaque cellule a un noyau qui contient 46 chromosomes, soit 23 paires.",
+          "L'ADN est une molécule en double hélice : il porte toute l'information génétique.",
+          "Un gène est un segment d'ADN qui code un caractère ; ses versions différentes sont les allèles.",
+          "Les gamètes (ovule et spermatozoïde) n'ont que 23 chromosomes : un par paire.",
+          "La 23e paire détermine le sexe : XX pour la fille, XY pour le garçon.",
+          "Une mutation est une modification accidentelle de l'ADN ; les UV en sont une cause."
+        ],
+        "reperes": [
+          {
+            "label": "ADN",
+            "value": "molécule en double hélice ; environ 2 mètres par cellule déroulés"
+          },
+          {
+            "label": "Chromosome",
+            "value": "long fil d'ADN enroulé, situé dans le noyau"
+          },
+          {
+            "label": "Gène / Allèle",
+            "value": "gène = caractère codé ; allèle = version d'un gène"
+          },
+          {
+            "label": "Caryotype",
+            "value": "photo classée de tous les chromosomes, rangés par paires"
+          },
+          {
+            "label": "Trisomie 21",
+            "value": "3 chromosomes 21 au lieu de 2, soit 47 chromosomes au total"
+          }
+        ],
+        "astuce": "Cellule du corps = 46 (double) ; gamète = 23 (moitié). À la fécondation, 23 + 23 = 46.",
+        "piege": "Ne confonds pas gène (le caractère, ex. couleur des yeux) et allèle (la version, ex. yeux bleus ou bruns)."
+      }
     },
     "evolution": {
       "title": "Évolution des êtres vivants",
@@ -161,7 +296,41 @@
         "Les mutations de l'ADN sont aléatoires ; sélectionnées au fil du temps, elles sont à l'origine de la diversité des espèces (biodiversité).",
         "Cinq grandes extinctions de masse ont eu lieu ; la dernière, il y a ≈ 66 millions d'années, a emporté les dinosaures non-aviaires.",
         "L'évolution n'a pas de direction ni de but : elle est le résultat de la sélection naturelle agissant sur la variation héréditaire au fil des générations."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Darwin a proposé la sélection naturelle : les individus les mieux adaptés survivent et se reproduisent davantage.",
+          "Les fossiles sont des preuves de l'évolution : ils montrent des espèces disparues et des formes intermédiaires.",
+          "Toutes les espèces partagent des ancêtres communs : plus elles se ressemblent, plus elles sont proches.",
+          "Les mutations de l'ADN sont aléatoires ; triées par la sélection, elles produisent la biodiversité.",
+          "Cinq grandes extinctions de masse ont eu lieu ; la dernière, il y a 66 millions d'années, a emporté les dinosaures.",
+          "L'évolution n'a ni but ni direction : c'est la sélection naturelle qui agit sur la variation héréditaire."
+        ],
+        "reperes": [
+          {
+            "label": "Sélection naturelle",
+            "value": "le milieu trie : le plus adapté survit et transmet ses caractères"
+          },
+          {
+            "label": "Fossile",
+            "value": "reste ou trace d'un être vivant conservé dans une roche sédimentaire"
+          },
+          {
+            "label": "Archéoptéryx",
+            "value": "fossile intermédiaire entre dinosaure et oiseau (environ 150 millions d'années)"
+          },
+          {
+            "label": "Âge de la vie",
+            "value": "Terre : environ 4,6 milliards d'années ; vie : environ 3,5 milliards d'années"
+          },
+          {
+            "label": "Fin du Crétacé",
+            "value": "extinction des dinosaures il y a environ 66 millions d'années (météorite)"
+          }
+        ],
+        "astuce": "Retiens le mot 'adapté' : ce n'est pas le plus fort qui survit, c'est le mieux ADAPTÉ à son milieu.",
+        "piege": "L'individu ne se transforme pas pour s'adapter : la variation existe AVANT, et le milieu sélectionne. La girafe n'allonge pas son cou par volonté."
+      }
     },
     "atomes-molecules": {
       "title": "Atomes, molécules et ions",
@@ -192,7 +361,40 @@
         "Un ion a gagné ou perdu des électrons : cation (+) ou anion (–)",
         "Le sel NaCl est fait d’ions Na⁺ et Cl⁻ ; une solution ionique conduit le courant",
         "Le pH va de 0 à 14 : < 7 acide, = 7 neutre, > 7 basique"
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Un atome est neutre : autant de protons positifs dans le noyau que d'électrons négatifs autour.",
+          "Le noyau contient des protons (+) et des neutrons (sans charge) ; les électrons (-) tournent autour.",
+          "Une molécule est un assemblage d'atomes liés, décrit par une formule chimique.",
+          "Un ion est un atome qui a gagné ou perdu des électrons : il n'est plus neutre.",
+          "Le pH va de 0 à 14 : en dessous de 7 c'est acide, à 7 c'est neutre, au-dessus c'est basique."
+        ],
+        "reperes": [
+          {
+            "label": "Eau",
+            "value": "molécule H2O : 2 hydrogènes + 1 oxygène"
+          },
+          {
+            "label": "Dioxygène",
+            "value": "molécule O2 (le gaz qu'on respire)"
+          },
+          {
+            "label": "Ion sodium",
+            "value": "Na+ (a perdu 1 électron) : c'est un cation"
+          },
+          {
+            "label": "Ion chlorure",
+            "value": "Cl- (a gagné 1 électron) : c'est un anion"
+          },
+          {
+            "label": "pH neutre",
+            "value": "égal à 7 ; acide en dessous, basique au-dessus"
+          }
+        ],
+        "astuce": "Cation = positif (il a perdu des électrons) ; anion = négatif (il en a gagné).",
+        "piege": "Ne confonds pas atome (neutre) et ion (chargé). Un atome a autant de + que de - ; un ion non."
+      }
     },
     "reactions-chimiques": {
       "title": "Réactions chimiques",
@@ -224,7 +426,40 @@
         "Lors d'une combustion, le combustible réagit avec le dioxygène O₂ ; exemples : C + O₂ → CO₂ et CH₄ + 2 O₂ → CO₂ + 2 H₂O.",
         "Quatre tests de gaz essentiels : O₂ ravive la braise, CO₂ trouble l'eau de chaux, H₂ fait un « pop », vapeur d'eau bleuit le sulfate de cuivre anhydre.",
         "Le pH mesure l'acidité d'une solution sur une échelle de 0 (très acide) à 14 (très basique), 7 étant la neutralité."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Une transformation chimique crée de NOUVELLES substances ; une transformation physique non (l'eau qui gèle reste de l'eau).",
+          "Dans une réaction, les réactifs disparaissent et les produits apparaissent : réactifs donnent produits.",
+          "Loi de Lavoisier : rien ne se perd, rien ne se crée, tout se transforme ; la masse totale est conservée.",
+          "Une combustion, c'est un combustible qui réagit avec le dioxygène (le comburant).",
+          "Quatre tests de gaz à connaître : O2 ravive une braise, CO2 trouble l'eau de chaux, H2 fait un pop, la vapeur d'eau bleuit le sulfate de cuivre."
+        ],
+        "reperes": [
+          {
+            "label": "Réactifs / Produits",
+            "value": "réactifs = ce qui disparaît ; produits = ce qui se forme"
+          },
+          {
+            "label": "Loi de Lavoisier",
+            "value": "masse des réactifs = masse des produits"
+          },
+          {
+            "label": "Combustion du carbone",
+            "value": "C + O2 donne CO2 (C plus O deux donne C O deux)"
+          },
+          {
+            "label": "Test du CO2",
+            "value": "trouble l'eau de chaux (elle devient blanche laiteuse)"
+          },
+          {
+            "label": "pH",
+            "value": "de 0 à 14 : acide sous 7, neutre à 7, basique au-dessus"
+          }
+        ],
+        "astuce": "Lavoisier en image : une balance reste équilibrée avant et après la réaction, car les atomes sont juste réarrangés.",
+        "piege": "Une bougie qui fond, c'est physique (la cire fond) ; une bougie qui brûle, c'est chimique (elle devient CO2 et eau). Ne confonds pas fondre et brûler."
+      }
     },
     "energie": {
       "title": "Énergie : formes et conversions",
@@ -256,7 +491,40 @@
         "1 kilowattheure = 1 kWh = 3 600 000 J : c'est l'unité pratique des factures d'électricité.",
         "Une centrale thermique suit la chaîne : énergie chimique → thermique → mécanique → électrique, avec des pertes à chaque étape.",
         "Les sources renouvelables (soleil, vent, eau) se reconstituent naturellement, contrairement aux combustibles fossiles (pétrole, charbon, gaz) qui sont épuisables et polluants."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "L'énergie existe sous plusieurs formes : cinétique, de position, thermique, chimique, électrique, lumineuse.",
+          "Toutes les formes d'énergie se mesurent en joules.",
+          "L'énergie ne se crée pas et ne se détruit pas : elle se convertit d'une forme à une autre.",
+          "La puissance dit à quelle vitesse l'énergie est transférée ; elle se mesure en watts.",
+          "Sources renouvelables (soleil, vent, eau) : elles se reconstituent ; fossiles (pétrole, charbon, gaz) : épuisables et polluantes."
+        ],
+        "reperes": [
+          {
+            "label": "Unité d'énergie",
+            "value": "le joule (J)"
+          },
+          {
+            "label": "Puissance",
+            "value": "le watt (W) ; 1 watt = 1 joule par seconde"
+          },
+          {
+            "label": "Relation clé",
+            "value": "E = P x t (énergie = puissance fois durée)"
+          },
+          {
+            "label": "Kilowattheure",
+            "value": "1 kWh = 3 600 000 joules ; c'est l'unité de la facture d'électricité"
+          },
+          {
+            "label": "Centrale thermique",
+            "value": "chaîne : chimique, thermique, mécanique, électrique"
+          }
+        ],
+        "astuce": "E = P x t : pense à 'Énergie = Puissance pendant un Temps'. Plus c'est puissant et plus c'est long, plus ça consomme.",
+        "piege": "Ne confonds pas puissance (en watts, la vitesse de transfert) et énergie (en joules, la quantité totale). Une ampoule de 100 W consomme plus d'énergie en 2 h qu'en 1 h."
+      }
     },
     "lumiere-son": {
       "title": "Lumière et son",
@@ -288,7 +556,41 @@
         "La fréquence d'un son, en hertz (Hz), détermine sa hauteur : plus f est élevée, plus le son est aigu.",
         "L'intensité sonore se mesure en décibels (dB) ; une exposition prolongée au-delà de 85 dB peut provoquer une surdité.",
         "La lumière blanche est décomposée par un prisme en spectre coloré (rouge → violet) : c'est le principe de l'arc-en-ciel."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La lumière file à environ 300 000 km par seconde ; le son à seulement 340 m par seconde dans l'air.",
+          "La lumière se propage dans le vide ; le son a besoin d'un milieu matériel (solide, liquide ou gaz).",
+          "Dans l'espace, une explosion serait muette : pas de matière, pas de son.",
+          "La fréquence (en hertz) donne la hauteur du son : plus elle est élevée, plus le son est aigu.",
+          "L'intensité (en décibels) donne le volume ; au-delà de 85 décibels prolongés, danger pour l'oreille.",
+          "La lumière blanche est un mélange de couleurs ; un prisme la décompose comme un arc-en-ciel."
+        ],
+        "reperes": [
+          {
+            "label": "Vitesse lumière",
+            "value": "environ 300 000 km par seconde dans le vide"
+          },
+          {
+            "label": "Vitesse son",
+            "value": "environ 340 m par seconde dans l'air"
+          },
+          {
+            "label": "Année-lumière",
+            "value": "une DISTANCE (environ 9 461 milliards de km), pas une durée"
+          },
+          {
+            "label": "Fréquence",
+            "value": "en hertz (Hz) ; oreille humaine : de 20 à 20 000 Hz"
+          },
+          {
+            "label": "Intensité sonore",
+            "value": "en décibels (dB) ; risque de surdité au-delà de 85 dB"
+          }
+        ],
+        "astuce": "Pour estimer un orage : compte les secondes entre l'éclair et le tonnerre, divise par 3, tu as la distance en kilomètres.",
+        "piege": "L'année-lumière mesure une distance, PAS un temps. Et le son ne traverse jamais le vide, contrairement à la lumière."
+      }
     },
     "systeme-solaire": {
       "title": "Système solaire et gravitation",
@@ -320,7 +622,41 @@
         "La gravitation est une force d'attraction mutuelle : elle augmente avec les masses et diminue avec la distance.",
         "La masse (kg) est une propriété invariable de la matière ; le poids (N) est une force qui dépend du lieu.",
         "Formule du poids : P = m × g, avec g ≈ 10 N/kg sur Terre et g ≈ 1,6 N/kg sur la Lune."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Le Soleil est une étoile : il produit lui-même sa lumière et sa chaleur par réactions nucléaires.",
+          "Huit planètes tournent autour du Soleil : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+          "Les 4 planètes proches sont telluriques (rocheuses) ; les 4 lointaines sont des géantes gazeuses.",
+          "La gravitation est une force d'attraction entre toutes les masses : elle maintient les planètes en orbite.",
+          "La masse (en kg) ne change jamais ; le poids (en newtons) dépend du lieu.",
+          "Sur la Lune, tu pèses environ 6 fois moins que sur Terre, mais ta masse reste la même."
+        ],
+        "reperes": [
+          {
+            "label": "Ordre des planètes",
+            "value": "Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune"
+          },
+          {
+            "label": "Masse",
+            "value": "en kilogrammes (kg) ; invariable partout dans l'univers"
+          },
+          {
+            "label": "Poids",
+            "value": "en newtons (N) ; force de la gravitation, dépend du lieu"
+          },
+          {
+            "label": "Formule du poids",
+            "value": "P = m x g (poids = masse fois pesanteur)"
+          },
+          {
+            "label": "Pesanteur g",
+            "value": "environ 10 N/kg sur Terre, environ 1,6 N/kg sur la Lune"
+          }
+        ],
+        "astuce": "Pour l'ordre des planètes : 'Mon Vieux, Tu Marches Jovialement Sur Un Nuage.'",
+        "piege": "Masse et poids ne sont pas la même chose. La masse en kg ne change pas sur la Lune ; seul le poids en newtons diminue."
+      }
     },
     "programmation": {
       "title": "Programmation et algorithmes",
@@ -352,7 +688,41 @@
         "L'instruction conditionnelle « Si … Alors … Sinon » permet au programme de prendre des décisions.",
         "Dans Scratch, l'événement « drapeau vert » déclenche le script principal du programme.",
         "Le débogage consiste à localiser et corriger les erreurs en testant le programme pas à pas."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Un algorithme est une suite finie et ordonnée d'instructions pour résoudre un problème.",
+          "L'ordinateur exécute les instructions dans l'ordre, à la lettre : il ne devine jamais.",
+          "Une variable est une boîte mémoire qui stocke une valeur (un nombre, un texte).",
+          "Une boucle répète des instructions ; une condition (Si... Alors... Sinon) choisit un chemin.",
+          "Dans Scratch, l'événement 'drapeau vert cliqué' lance le programme.",
+          "Le débogage consiste à trouver et corriger les erreurs en testant le programme pas à pas."
+        ],
+        "reperes": [
+          {
+            "label": "Algorithme",
+            "value": "suite ordonnée et précise d'instructions"
+          },
+          {
+            "label": "Variable",
+            "value": "case mémoire qui stocke une valeur, ex. score = 0"
+          },
+          {
+            "label": "Boucle",
+            "value": "répète des instructions, ex. répéter 10 fois"
+          },
+          {
+            "label": "Condition",
+            "value": "Si... Alors... Sinon : le programme choisit une branche"
+          },
+          {
+            "label": "Bug / débogage",
+            "value": "bug = erreur ; débogage = la corriger"
+          }
+        ],
+        "astuce": "Un algorithme, c'est comme une recette de cuisine : les bonnes étapes, dans le bon ordre, sinon le plat est raté.",
+        "piege": "Oublier d'initialiser une variable est un bug classique : le score garde son ancienne valeur au lieu de repartir à 0 à chaque partie."
+      }
     },
     "domotique": {
       "title": "Domotique et objets connectés",
@@ -383,7 +753,41 @@
         "Un actionneur RÉALISE une action physique sur ordre du microcontrôleur (allumer une lampe, ouvrir un volet, déclencher une alarme).",
         "Le microcontrôleur TRAITE l'information du capteur et COMMANDE l'actionneur en exécutant un programme.",
         "La chaîne de base est : Capteur → Microcontrôleur → Actionneur."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La domotique automatise et pilote les équipements d'un logement : lumière, chauffage, volets, alarme.",
+          "Un objet connecté (IoT) échange des données via un réseau comme le Wi-Fi ou le Bluetooth.",
+          "Un capteur ACQUIERT une information du monde réel (présence, température, lumière).",
+          "Le microcontrôleur TRAITE l'information et décide quoi faire en exécutant un programme.",
+          "Un actionneur RÉALISE l'action physique commandée (allumer une lampe, ouvrir un volet, sonner).",
+          "La chaîne de base est : capteur, microcontrôleur, actionneur."
+        ],
+        "reperes": [
+          {
+            "label": "Domotique",
+            "value": "du latin domus (maison) + informatique : automatiser le logement"
+          },
+          {
+            "label": "IoT",
+            "value": "Internet of Things, l'Internet des objets connectés"
+          },
+          {
+            "label": "Capteur",
+            "value": "acquiert l'info, ex. détecteur de présence, thermomètre"
+          },
+          {
+            "label": "Microcontrôleur",
+            "value": "traite et décide, ex. Arduino, Raspberry Pi"
+          },
+          {
+            "label": "Actionneur",
+            "value": "réalise l'action, ex. moteur, lampe, sirène"
+          }
+        ],
+        "astuce": "Le trio gagnant : Capteur (qui sent), Microcontrôleur (qui pense), Actionneur (qui agit). Sentir, penser, agir.",
+        "piege": "Ne confonds pas capteur (entrée, il mesure) et actionneur (sortie, il agit). Le capteur reçoit, l'actionneur exécute."
+      }
     },
     "chaines-energie-information": {
       "title": "Chaîne d'énergie et chaîne d'information",
@@ -415,7 +819,41 @@
         "Le microcontrôleur est le cerveau du système : il exécute un programme pour analyser les données et prendre des décisions (TRAITER).",
         "Les actionneurs (moteur, LED, haut-parleur…) reçoivent les ordres de la chaîne d'information et produisent un effet physique dans la chaîne d'énergie.",
         "La chaîne d'information commande la chaîne d'énergie : COMMUNIQUER envoie un signal vers DISTRIBUER pour déclencher ou couper l'action."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La chaîne d'énergie permet à un objet d'agir ; elle a 4 fonctions : alimenter, distribuer, convertir, transmettre.",
+          "La chaîne d'information permet à un objet de percevoir et de décider ; elle a 3 fonctions : acquérir, traiter, communiquer.",
+          "Le capteur traduit un phénomène physique (lumière, chaleur, présence) en signal électrique.",
+          "Le microcontrôleur est le cerveau : il traite les données et prend les décisions.",
+          "La chaîne d'information PILOTE la chaîne d'énergie : Communiquer envoie l'ordre à Distribuer.",
+          "Trio gagnant de tout système automatisé : capteur, microcontrôleur, actionneur."
+        ],
+        "reperes": [
+          {
+            "label": "Chaîne d'énergie",
+            "value": "Alimenter, Distribuer, Convertir, Transmettre (4 fonctions)"
+          },
+          {
+            "label": "Chaîne d'information",
+            "value": "Acquérir, Traiter, Communiquer (3 fonctions)"
+          },
+          {
+            "label": "Acquérir",
+            "value": "capter une donnée du réel grâce à un capteur"
+          },
+          {
+            "label": "Traiter",
+            "value": "analyser et décider, rôle du microcontrôleur"
+          },
+          {
+            "label": "Lien entre les deux",
+            "value": "Communiquer envoie le signal à Distribuer pour déclencher l'énergie"
+          }
+        ],
+        "astuce": "Énergie = 4 fonctions ; Information = 3 fonctions. Pour l'énergie : 'Alimenter, Distribuer, Convertir, Transmettre' suit le trajet du courant jusqu'au mouvement.",
+        "piege": "Ne mélange pas les deux chaînes : 'acquérir, traiter, communiquer' c'est l'information (le cerveau) ; 'alimenter, distribuer, convertir, transmettre' c'est l'énergie (les muscles)."
+      }
     }
   }
 }

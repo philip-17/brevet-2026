@@ -30,7 +30,45 @@
         "L'antithèse oppose deux idées dans des groupes distincts ; l'oxymore fusionne deux mots contraires en une seule expression.",
         "La litote dit le contraire en atténué pour renforcer le sens (« pas mal » = super) ; l'euphémisme adoucit une réalité dure.",
         "Pour identifier une figure : demande-toi d'abord si le texte compare, insiste, oppose ou atténue — cela te guidera vers la bonne famille."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Une comparaison utilise un outil (comme, tel, pareil à), la métaphore le supprime.",
+          "La personnification prête des sentiments ou actions humaines à une chose ou un animal.",
+          "L'hyperbole exagère, l'anaphore répète en début de phrase, la gradation monte en intensité.",
+          "L'antithèse oppose deux idées sur deux groupes ; l'oxymore colle deux mots contraires.",
+          "La litote dit moins pour suggérer plus ; l'euphémisme adoucit une réalité dure.",
+          "Demande-toi si le texte compare, insiste, oppose ou atténue pour trouver la famille."
+        ],
+        "reperes": [
+          {
+            "label": "Comparaison",
+            "value": "rapprochement avec un outil : il est fort comme un lion"
+          },
+          {
+            "label": "Métaphore",
+            "value": "comparaison sans outil : c'est un lion"
+          },
+          {
+            "label": "Personnification",
+            "value": "traits humains à une chose : le vent gémissait"
+          },
+          {
+            "label": "Hyperbole / Anaphore",
+            "value": "exagération (je t'ai attendu une éternité) ; répétition en tête (c'est moi qui..., c'est moi qui...)"
+          },
+          {
+            "label": "Antithèse / Oxymore",
+            "value": "deux idées opposées (les uns la guerre, les autres la paix) ; deux mots contraires collés (une obscure clarté)"
+          },
+          {
+            "label": "Litote / Euphémisme",
+            "value": "dire moins pour plus (je ne te hais point = je t'aime) ; adoucir (il nous a quittés = il est mort)"
+          }
+        ],
+        "astuce": "Pour repérer une comparaison, cherche le mot-outil (comme, tel, semblable à) : s'il est là, c'est une comparaison ; s'il manque, pense métaphore.",
+        "piege": "Ne confonds pas l'oxymore (deux mots contraires collés : silence assourdissant) et l'antithèse (opposition étalée sur deux groupes distincts)."
+      }
     },
     "conjugaison": {
       "title": "Conjugaison",
@@ -61,7 +99,45 @@
         "Le conditionnel exprime une condition ou une hypothèse ; il s'utilise aussi pour atténuer une demande.",
         "Le subjonctif traduit le doute, le souhait ou la nécessité et apparaît souvent après « que » ou « il faut que ».",
         "L'impératif donne un ordre ou un conseil sans énoncer le sujet : il ne se conjugue qu'à 2e sg, 1re pl et 2e pl."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "3 groupes : -ER (1er), -IR/-ISSANT (2e), tous les irréguliers (3e).",
+          "Indicatif = mode du réel : présent, imparfait, passé simple, passé composé, futur.",
+          "Dans un récit, l'imparfait peint le décor, le passé simple fait avancer l'action.",
+          "Le conditionnel exprime une hypothèse ou adoucit une demande (je voudrais...).",
+          "Le subjonctif dit le doute, le souhait, la nécessité, souvent après 'que'.",
+          "L'impératif donne un ordre sans sujet exprimé : Lis ! Soyez attentifs !"
+        ],
+        "reperes": [
+          {
+            "label": "Les 3 groupes",
+            "value": "1er : chanter ; 2e : finir → finissant ; 3e : aller, faire, prendre (irréguliers)"
+          },
+          {
+            "label": "Imparfait",
+            "value": "action passée durable ou répétée : il mangeait tous les jours"
+          },
+          {
+            "label": "Passé simple",
+            "value": "action passée brève et terminée (récit écrit) : soudain, un loup surgit"
+          },
+          {
+            "label": "Conditionnel",
+            "value": "fait soumis à condition : si tu travaillais, tu réussirais"
+          },
+          {
+            "label": "Subjonctif",
+            "value": "doute ou nécessité : il faut que tu finisses ; je doute qu'il vienne"
+          },
+          {
+            "label": "Impératif",
+            "value": "ordre ou conseil sans sujet, à 3 personnes seulement : finis, finissons, finissez"
+          }
+        ],
+        "astuce": "Pour choisir imparfait ou passé simple : si tu peux dire 'était en train de', c'est l'imparfait ; si l'action est ponctuelle et fait avancer l'histoire, c'est le passé simple.",
+        "piege": "Ne mets pas l'indicatif après 'il faut que' ou 'je veux que' : ces expressions imposent le subjonctif (il faut que tu viennes, pas 'tu viens')."
+      }
     },
     "grammaire": {
       "title": "Grammaire",
@@ -93,7 +169,45 @@
         "Les compléments circonstanciels (lieu, temps, manière, cause…) sont généralement déplaçables ou supprimables, contrairement aux COD/COI.",
         "Une phrase complexe contient plusieurs propositions : principale, subordonnée (relative, complétive, circonstancielle…) ou indépendantes juxtaposées/coordonnées.",
         "Compte les verbes conjugués dans une phrase pour savoir combien de propositions elle contient."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La nature d'un mot est fixe (nom, verbe...), la fonction dépend de la phrase (sujet, COD...).",
+          "Toute phrase simple s'organise en Groupe Sujet + Groupe Verbal qui s'accordent.",
+          "Le COD répond à 'qui/quoi ?' sans préposition ; le COI à 'à qui/de quoi ?' avec préposition.",
+          "Les compléments circonstanciels (lieu, temps, manière) sont déplaçables et supprimables.",
+          "Phrase complexe = plusieurs propositions : principale, subordonnée ou indépendantes.",
+          "Compte les verbes conjugués pour compter les propositions !"
+        ],
+        "reperes": [
+          {
+            "label": "Nature vs Fonction",
+            "value": "'rapide' = adjectif (nature) et épithète de coureur (fonction)"
+          },
+          {
+            "label": "GS et GV",
+            "value": "Le vieux chien (GS) | dort sur le canapé (GV) ; le verbe s'accorde avec le sujet"
+          },
+          {
+            "label": "COD",
+            "value": "verbe + qui/quoi sans préposition : il mange une pomme"
+          },
+          {
+            "label": "COI",
+            "value": "verbe + à qui/de quoi avec préposition : elle parle à son ami"
+          },
+          {
+            "label": "Compléments circonstanciels",
+            "value": "lieu, temps, manière, déplaçables : Le soir, il travaille rapidement"
+          },
+          {
+            "label": "Subordonnée",
+            "value": "dépend de la principale, introduite par que/qui/quand : Je sais que tu viendras"
+          }
+        ],
+        "astuce": "Pour distinguer COD/COI des compléments circonstanciels : essaie de déplacer le mot. Si tu peux le bouger ou le supprimer facilement, c'est un circonstanciel.",
+        "piege": "Ne confonds pas nature et fonction : un même nom peut être sujet, COD ou COI selon la phrase, mais il reste toujours un nom (sa nature ne change jamais)."
+      }
     },
     "orthographe": {
       "title": "Orthographe",
@@ -124,7 +238,45 @@
         "Dans le groupe nominal, le déterminant et l'adjectif s'accordent en genre et en nombre avec le nom noyau.",
         "Les noms en -al font leur pluriel en -aux (cheval → chevaux), et les noms en -eau/-au/-eu prennent un -x.",
         "Les 7 noms en -ou qui prennent -x au pluriel : bijoux, cailloux, choux, genoux, hiboux, joujoux, poux — retiens-les par cœur !"
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "a/à : remplace par 'avait'. Si ça marche, c'est 'a' (verbe). Sinon 'à' (préposition).",
+          "et/est : 'et' = et puis ; 'est' = était.",
+          "son/sont : 'son' = le sien ; 'sont' = étaient.",
+          "Avec ÊTRE, le participe passé s'accorde avec le sujet (elle est partie).",
+          "Avec AVOIR, il s'accorde avec le COD seulement s'il est placé avant (la pomme que j'ai mangée).",
+          "Dans le groupe nominal, déterminant et adjectif s'accordent avec le nom noyau."
+        ],
+        "reperes": [
+          {
+            "label": "on / ont",
+            "value": "'on' = nous ; 'ont' = avaient. On part. Ils ont mangé."
+          },
+          {
+            "label": "ces / ses",
+            "value": "'ces' = ce/cette (ces livres) ; 'ses' = le sien (ses amis)"
+          },
+          {
+            "label": "ou / où",
+            "value": "'ou' = ou bien (choix) ; 'où' = lieu ou temps (la ville où je vis)"
+          },
+          {
+            "label": "Participe passé avec être",
+            "value": "accord avec le sujet : ils sont arrivés, elles sont tombées"
+          },
+          {
+            "label": "Participe passé avec avoir",
+            "value": "accord avec le COD si placé avant : les fleurs que j'ai cueillies"
+          },
+          {
+            "label": "Pluriels particuliers",
+            "value": "-al → -aux (cheval/chevaux) ; -eau/-au/-eu → -x (bateaux, jeux)"
+          }
+        ],
+        "astuce": "Pour le participe passé avec 'avoir', pose la question 'avoir + quoi ?'. Si la réponse est déjà passée avant le verbe, accorde ; si elle vient après, n'accorde pas.",
+        "piege": "Avec l'auxiliaire 'avoir', n'accorde jamais avec le sujet : 'elles ont mangé' (pas 'mangées') car le COD n'est pas placé avant."
+      }
     },
     "analyse-de-texte": {
       "title": "Analyse de texte",
@@ -155,7 +307,45 @@
         "Le discours direct reproduit les paroles exactes entre guillemets ; le discours indirect les intègre dans une phrase subordonnée avec des changements de temps et de personnes.",
         "Le passé simple fait avancer l'action (faits successifs et ponctuels) tandis que l'imparfait plante le décor, les habitudes et les états.",
         "Le plus-que-parfait indique qu'un événement s'est produit avant le moment principal du récit — repère-le pour comprendre la chronologie."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Le schéma narratif a 5 étapes : situation initiale, élément perturbateur, péripéties, dénouement, situation finale.",
+          "Focalisation interne = par les yeux d'un personnage ; externe = comme une caméra ; zéro = narrateur omniscient.",
+          "Narrateur interne = 'je', personnage de l'histoire ; externe = 3e personne, hors de l'histoire.",
+          "Discours direct = paroles exactes entre guillemets ; indirect = intégrées dans une phrase.",
+          "Le passé simple fait avancer l'action, l'imparfait plante le décor.",
+          "Le plus-que-parfait raconte ce qui s'est passé AVANT le moment du récit."
+        ],
+        "reperes": [
+          {
+            "label": "Schéma narratif",
+            "value": "SI → élément perturbateur → péripéties → dénouement → SF"
+          },
+          {
+            "label": "Focalisation zéro",
+            "value": "narrateur sait tout : sans le savoir, Emma allait changer de vie"
+          },
+          {
+            "label": "Focalisation interne",
+            "value": "vision limitée d'un personnage : je tremblais, que cachait cette porte ?"
+          },
+          {
+            "label": "Discours direct",
+            "value": "paroles exactes entre guillemets : « Viens vite ! » cria Lucie"
+          },
+          {
+            "label": "Discours indirect",
+            "value": "paroles intégrées, temps et personnes changés : Lucie cria qu'il fallait venir"
+          },
+          {
+            "label": "Plus-que-parfait",
+            "value": "événement antérieur au récit : il reconnut la maison où il avait grandi"
+          }
+        ],
+        "astuce": "Pour repérer un narrateur omniscient (focalisation zéro), cherche les verbes de pensée ('il pensait que...') qui révèlent l'intérieur de plusieurs personnages à la fois.",
+        "piege": "Ne confonds pas narrateur et auteur : le narrateur 'je' est un personnage inventé, ce n'est pas forcément l'auteur qui raconte sa propre vie."
+      }
     },
     "versification": {
       "title": "Versification",
@@ -186,7 +376,45 @@
         "Les rimes suivies (AABB), croisées (ABAB) et embrassées (ABBA) désignent la façon dont les sons finaux se répondent.",
         "La qualité d'une rime se mesure au nombre de sons communs : pauvre (1 son), suffisante (2 sons), riche (3 sons ou plus).",
         "Au brevet, pour analyser un poème : compte les syllabes, nomme les strophes, schématise les rimes (AABB…) et évalue leur richesse."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Un vers se définit par son nombre de syllabes : alexandrin = 12, décasyllabe = 10, octosyllabe = 8.",
+          "Le 'e' muet compte s'il est suivi d'une consonne, mais pas devant une voyelle ni en fin de vers.",
+          "Les vers se regroupent en strophes : tercet (3 vers), quatrain (4 vers) sont les plus fréquents.",
+          "Un sonnet = 14 vers : 2 quatrains + 2 tercets.",
+          "Rimes : suivies AABB, croisées ABAB, embrassées ABBA.",
+          "Qualité de la rime : pauvre (1 son), suffisante (2 sons), riche (3 sons ou plus)."
+        ],
+        "reperes": [
+          {
+            "label": "Alexandrin",
+            "value": "vers de 12 syllabes : Sous le pont Mi-ra-beau cou-le la Sei-ne"
+          },
+          {
+            "label": "Le 'e' muet",
+            "value": "compte devant une consonne (bel-le fleur = 3 syl.), pas devant voyelle"
+          },
+          {
+            "label": "Strophes",
+            "value": "distique (2), tercet (3), quatrain (4), quintil (5), sizain (6)"
+          },
+          {
+            "label": "Rimes suivies / croisées / embrassées",
+            "value": "AABB (côte à côte), ABAB (alternées), ABBA (l'une entoure l'autre)"
+          },
+          {
+            "label": "Rime pauvre / riche",
+            "value": "pauvre = 1 son (parti/ami) ; riche = 3 sons (lumière/rivière)"
+          },
+          {
+            "label": "Sonnet",
+            "value": "poème fixe de 14 vers : 2 quatrains suivis de 2 tercets"
+          }
+        ],
+        "astuce": "Pour schématiser les rimes, note la dernière syllabe sonore de chaque vers avec une lettre (A, B...) : deux vers qui sonnent pareil reçoivent la même lettre.",
+        "piege": "N'oublie pas que le 'e' muet en fin de vers ne se compte JAMAIS : il ne fait pas grimper le nombre de syllabes (un alexandrin garde 12 syllabes)."
+      }
     },
     "vocabulaire": {
       "title": "Vocabulaire",
@@ -217,7 +445,45 @@
         "Un champ lexical regroupe des mots autour d'un même thème et révèle l'univers d'un texte.",
         "Les niveaux de langue (familier, courant, soutenu) s'adaptent à la situation de communication.",
         "L'étymologie grecque et latine (phon-, terra-, bio-, port-…) permet de deviner le sens d'un mot inconnu."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Un mot = radical (le sens) + préfixe (avant) + suffixe (après).",
+          "Les mots d'une même famille partagent le même radical : port, porteur, transport.",
+          "Le sens propre est concret et littéral ; le sens figuré est imagé (une flamme dans les yeux).",
+          "Synonymes = sens proches ; antonymes = sens contraires ; homonymes = même son, sens différents.",
+          "Un champ lexical regroupe les mots d'un même thème et révèle l'univers d'un texte.",
+          "Niveaux de langue : familier (bagnole), courant (voiture), soutenu (automobile)."
+        ],
+        "reperes": [
+          {
+            "label": "Formation des mots",
+            "value": "in- (préfixe) + respir (radical) + -able (suffixe) = inrespirable"
+          },
+          {
+            "label": "Sens propre / figuré",
+            "value": "dévorer une pomme (propre) / dévorer un livre (figuré = lire avidement)"
+          },
+          {
+            "label": "Synonyme / Antonyme",
+            "value": "rapide = véloce (synonyme) ; rapide ≠ lent (antonyme)"
+          },
+          {
+            "label": "Homonyme",
+            "value": "même son, sens et orthographe différents : ver, verre, vert, vers"
+          },
+          {
+            "label": "Champ lexical",
+            "value": "mots d'un même thème : mer → vague, marée, matelot, naufrage"
+          },
+          {
+            "label": "Étymologie",
+            "value": "origine grecque ou latine : phon (son) → téléphone ; terra (terre) → territoire"
+          }
+        ],
+        "astuce": "Face à un mot inconnu, découpe-le : repère le préfixe et le radical pour deviner le sens (in-respir-able = qui ne peut pas être respiré).",
+        "piege": "Ne confonds pas homonymes et synonymes : les homonymes se prononcent pareil mais ont des sens DIFFÉRENTS (ver/verre), les synonymes ont des sens PROCHES (rapide/véloce)."
+      }
     }
   }
 }

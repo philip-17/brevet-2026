@@ -44,11 +44,26 @@ export interface LessonSection {
   svg?: string
 }
 
+/** Fiche de révision synthétique affichée à la fin d'un cours :
+ * l'essentiel à mémoriser, présenté de façon dense et motivante. */
+export interface LessonRevision {
+  /** 3 à 6 affirmations ultra-percutantes : le must-know absolu. */
+  flash: string[]
+  /** Repères clés (label → valeur) : dates, formules, définitions courtes
+   * selon la matière. Affichés en mini-cartes. */
+  reperes?: { label: string; value: string }[]
+  /** Astuce / moyen mnémotechnique pour retenir facilement. */
+  astuce?: string
+  /** Erreur classique à éviter (le piège du brevet). */
+  piege?: string
+}
+
 export interface Lesson {
   title: string
   intro: string
   sections: LessonSection[]
   keyPoints: string[]
+  revision?: LessonRevision
 }
 
 export interface SubjectLessons {

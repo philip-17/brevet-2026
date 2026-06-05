@@ -22,6 +22,18 @@ export default function LessonPage() {
       'Points clés à retenir :',
       ...lesson.keyPoints.map((p, i) => `${i + 1}. ${p}.`),
     ]
+    if (lesson.revision) {
+      parts.push('Fiche de révision. L\'essentiel :')
+      parts.push(...lesson.revision.flash)
+      if (lesson.revision.reperes) {
+        parts.push('Repères clés :')
+        parts.push(
+          ...lesson.revision.reperes.map((r) => `${r.label} : ${r.value}.`)
+        )
+      }
+      if (lesson.revision.astuce) parts.push('Astuce : ' + lesson.revision.astuce)
+      if (lesson.revision.piege) parts.push('Piège à éviter : ' + lesson.revision.piege)
+    }
     return parts.join(' ')
   }, [lesson])
 
@@ -248,6 +260,56 @@ export default function LessonPage() {
             ))}
           </ul>
         </section>
+
+        {lesson.revision && (
+          <section className="revision-card">
+            <div className="revision-header">
+              <span className="revision-badge">📋 Fiche de révision</span>
+              <span className="revision-sub">L'essentiel en 1 minute</span>
+            </div>
+
+            <div className="revision-flash">
+              {lesson.revision.flash.map((f, i) => (
+                <div className="revision-flash-item" key={i}>
+                  <span className="rf-check">✓</span>
+                  <span>{f}</span>
+                </div>
+              ))}
+            </div>
+
+            {lesson.revision.reperes &&
+              lesson.revision.reperes.length > 0 && (
+                <div className="revision-reperes">
+                  {lesson.revision.reperes.map((r, i) => (
+                    <div className="repere" key={i}>
+                      <div className="repere-label">{r.label}</div>
+                      <div className="repere-value">{r.value}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+            {lesson.revision.astuce && (
+              <div className="revision-callout astuce">
+                <span className="callout-icon">💡</span>
+                <div>
+                  <strong>Astuce</strong>
+                  {lesson.revision.astuce}
+                </div>
+              </div>
+            )}
+
+            {lesson.revision.piege && (
+              <div className="revision-callout piege">
+                <span className="callout-icon">⚠️</span>
+                <div>
+                  <strong>Piège à éviter</strong>
+                  {lesson.revision.piege}
+                </div>
+              </div>
+            )}
+          </section>
+        )}
 
         <div className="lesson-cta">
           <Link

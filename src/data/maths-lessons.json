@@ -31,7 +31,37 @@
         "Pour trouver un côté autre que l'hypoténuse, soustrait : côté² = hypoténuse² − autre côté².",
         "Les triplets (3, 4, 5) et (5, 12, 13) sont des triangles rectangles célèbres à connaître par cœur.",
         "La réciproque permet de prouver qu'un triangle est rectangle : si grand côté² = somme des deux autres carrés, il est rectangle."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Pythagore ne marche QUE dans un triangle rectangle.",
+          "L'hypoténuse est le côté le plus long, toujours en face de l'angle droit.",
+          "Pour trouver l'hypoténuse : tu additionnes les carrés, puis tu prends la racine carrée.",
+          "Pour trouver un autre côté : tu soustrais les carrés, puis racine carrée.",
+          "La réciproque sert à prouver qu'un triangle est rectangle.",
+          "Les triplets 3-4-5 et 5-12-13 sont des triangles rectangles à connaître par cœur."
+        ],
+        "reperes": [
+          {
+            "label": "Théorème",
+            "value": "hypoténuse au carré égale la somme des carrés des deux autres côtés"
+          },
+          {
+            "label": "Chercher un côté",
+            "value": "côté au carré égale hypoténuse au carré moins l'autre côté au carré"
+          },
+          {
+            "label": "Réciproque",
+            "value": "si grand côté au carré égale somme des deux autres au carré, le triangle est rectangle"
+          },
+          {
+            "label": "Triplets clés",
+            "value": "trois-quatre-cinq et cinq-douze-treize"
+          }
+        ],
+        "astuce": "Le 3-4-5 : un triangle de côtés 3, 4 et 5 est toujours rectangle. Repère d'abord l'angle droit, le côté qui lui fait face est l'hypoténuse.",
+        "piege": "Ne jamais additionner les côtés sans les mettre au carré d'abord, et ne pas oublier la racine carrée à la fin."
+      }
     },
     "thales": {
       "title": "Théorème de Thalès",
@@ -62,7 +92,37 @@
         "Les rapports comparent les longueurs complètes AB et AB' (de A jusqu'à chaque parallèle), pas les « morceaux » BB' ou CC'.",
         "La réciproque permet de prouver que deux droites sont parallèles si les deux rapports de longueurs sont égaux.",
         "Dans la configuration « papillon », A se trouve entre les deux parallèles : le théorème reste valable avec les mêmes égalités de rapports."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Thalès s'applique seulement si les deux droites sont parallèles.",
+          "Il faut deux droites sécantes en un point et deux parallèles qui les coupent.",
+          "Le théorème donne trois rapports de longueurs tous égaux entre eux.",
+          "Pour trouver une longueur inconnue : produit en croix.",
+          "La réciproque sert à prouver que deux droites sont parallèles.",
+          "Les rapports comparent les longueurs complètes depuis le sommet A, pas les morceaux."
+        ],
+        "reperes": [
+          {
+            "label": "Égalité de Thalès",
+            "value": "AB sur AB prime égale AC sur AC prime égale BC sur B prime C prime"
+          },
+          {
+            "label": "Condition",
+            "value": "il faut que les droites BC et B prime C prime soient parallèles"
+          },
+          {
+            "label": "Calcul d'une longueur",
+            "value": "on pose deux rapports égaux puis on fait le produit en croix"
+          },
+          {
+            "label": "Réciproque",
+            "value": "si les deux rapports de longueurs sont égaux, les droites sont parallèles"
+          }
+        ],
+        "astuce": "Repère toujours les quatre longueurs en jeu : deux connues dans un rapport, une connue plus l'inconnue dans l'autre. Pose l'égalité, fais le produit en croix.",
+        "piege": "Ne pas comparer les petits morceaux comme BB prime ; les rapports portent sur les longueurs entières partant du point A."
+      }
     },
     "trigonometrie": {
       "title": "Trigonométrie",
@@ -94,7 +154,37 @@
         "SOH-CAH-TOA est le moyen mnémotechnique pour retenir les trois formules sans erreur.",
         "Pour trouver une longueur inconnue, isole-la en multipliant ou divisant des deux côtés de l'égalité.",
         "Pour trouver un angle inconnu, utilise sin⁻¹, cos⁻¹ ou tan⁻¹ sur ta calculatrice (mode DEG obligatoire)."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "La trigo ne fonctionne que dans un triangle rectangle.",
+          "Opposé et adjacent dépendent de l'angle que tu choisis.",
+          "Trois rapports magiques : cosinus, sinus, tangente.",
+          "SOH-CAH-TOA est le code qui sauve à chaque exercice.",
+          "Pour trouver un angle, utilise les touches inverses de la calculatrice.",
+          "Vérifie toujours que ta calculatrice est en mode degrés."
+        ],
+        "reperes": [
+          {
+            "label": "Cosinus",
+            "value": "cosinus de l'angle égale côté adjacent divisé par hypoténuse"
+          },
+          {
+            "label": "Sinus",
+            "value": "sinus de l'angle égale côté opposé divisé par hypoténuse"
+          },
+          {
+            "label": "Tangente",
+            "value": "tangente de l'angle égale côté opposé divisé par côté adjacent"
+          },
+          {
+            "label": "Trouver l'angle",
+            "value": "utiliser cosinus moins un, sinus moins un ou tangente moins un sur la calculatrice"
+          }
+        ],
+        "astuce": "SOH-CAH-TOA, prononcé So-Ka-Toa : Sinus = Opposé sur Hypoténuse, Cosinus = Adjacent sur Hypoténuse, Tangente = Opposé sur Adjacent.",
+        "piege": "Calculatrice en mode degrés (DEG) et non radians, sinon tous les résultats sont faux."
+      }
     },
     "equations": {
       "title": "Équations et inéquations",
@@ -125,7 +215,37 @@
         "Si A × B = 0, alors A = 0 ou B = 0 (propriété du produit nul).",
         "Une inéquation donne comme solution un ensemble de valeurs (un intervalle) et non une valeur unique.",
         "Attention : multiplier ou diviser une inéquation par un nombre négatif inverse le sens du signe (< devient >, etc.)."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Une équation, c'est une balance : ce qu'on fait d'un côté, on le fait de l'autre.",
+          "Résoudre, c'est isoler x étape par étape.",
+          "On ajoute, soustrait, multiplie ou divise des deux côtés à la fois.",
+          "Équation-produit : si un produit vaut zéro, un des facteurs vaut zéro.",
+          "Une inéquation a pour solution un ensemble de valeurs, pas un seul nombre.",
+          "Vérifie ta solution en la remplaçant dans l'équation de départ."
+        ],
+        "reperes": [
+          {
+            "label": "Premier degré",
+            "value": "pour a x plus b égale c, on soustrait b puis on divise par a"
+          },
+          {
+            "label": "Produit nul",
+            "value": "si A fois B égale zéro, alors A égale zéro ou B égale zéro"
+          },
+          {
+            "label": "Inéquation",
+            "value": "mêmes règles qu'une équation, la solution est un intervalle"
+          },
+          {
+            "label": "Signe négatif",
+            "value": "multiplier ou diviser par un négatif inverse le sens de l'inégalité"
+          }
+        ],
+        "astuce": "Pense balance en équilibre : tant que tu fais la même opération des deux côtés, l'égalité reste vraie. Termine toujours par la vérification.",
+        "piege": "Quand tu divises une inéquation par un nombre négatif, n'oublie pas d'inverser le sens : inférieur devient supérieur."
+      }
     },
     "calcul-litteral": {
       "title": "Calcul littéral",
@@ -156,7 +276,37 @@
         "Double distributivité : (a + b)(c + d) = ac + ad + bc + bd.",
         "Identités remarquables : (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².",
         "Factoriser, c'est écrire une expression sous forme de produit, par exemple x² − 25 = (x + 5)(x − 5)."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Une lettre représente un nombre quelconque : 3a veut dire 3 fois a.",
+          "Réduire, c'est regrouper les termes qui se ressemblent.",
+          "On ne mélange jamais les a avec les a au carré.",
+          "Distribuer : chaque terme dehors multiplie chaque terme dans la parenthèse.",
+          "Factoriser, c'est l'inverse de développer : on passe d'une somme à un produit.",
+          "Trois identités remarquables font gagner un temps fou."
+        ],
+        "reperes": [
+          {
+            "label": "Distributivité simple",
+            "value": "k fois parenthèse a plus b égale k a plus k b"
+          },
+          {
+            "label": "Double distributivité",
+            "value": "a plus b fois c plus d égale a c plus a d plus b c plus b d"
+          },
+          {
+            "label": "Somme au carré",
+            "value": "a plus b le tout au carré égale a au carré plus deux a b plus b au carré"
+          },
+          {
+            "label": "Différence de carrés",
+            "value": "a plus b fois a moins b égale a au carré moins b au carré"
+          }
+        ],
+        "astuce": "Pour développer, retiens : chaque terme de gauche multiplie chaque terme de droite. Pour factoriser, cherche le facteur commun ou une identité remarquable.",
+        "piege": "Ne pas regrouper 3a avec 3a au carré : les exposants différents interdisent l'addition."
+      }
     },
     "fractions-puissances": {
       "title": "Fractions et puissances",
@@ -187,7 +337,37 @@
         "Les règles des puissances : aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, et a⁰ = 1.",
         "Une puissance négative est une fraction : a⁻ⁿ = 1/aⁿ (par exemple 5⁻² = 1/25).",
         "La notation scientifique s'écrit a × 10ⁿ avec 1 ≤ a < 10 ; elle est indispensable pour exprimer des grandeurs très grandes ou très petites."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Pour additionner des fractions, il faut le même dénominateur.",
+          "Pour multiplier : numérateurs entre eux, dénominateurs entre eux.",
+          "Diviser, c'est multiplier par l'inverse.",
+          "Simplifie avant de multiplier, c'est bien plus rapide.",
+          "Une puissance négative, c'est juste une fraction : l'inverse de la positive.",
+          "La notation scientifique s'écrit un nombre entre 1 et 10 fois une puissance de 10."
+        ],
+        "reperes": [
+          {
+            "label": "Produit de puissances",
+            "value": "a puissance m fois a puissance n égale a puissance m plus n"
+          },
+          {
+            "label": "Quotient de puissances",
+            "value": "a puissance m divisé par a puissance n égale a puissance m moins n"
+          },
+          {
+            "label": "Puissance négative",
+            "value": "a puissance moins n égale un divisé par a puissance n"
+          },
+          {
+            "label": "Diviser des fractions",
+            "value": "on multiplie la première fraction par l'inverse de la seconde"
+          }
+        ],
+        "astuce": "Pour multiplier des puissances de 10, additionne simplement les exposants. Pour la notation scientifique, déplace la virgule jusqu'à obtenir un seul chiffre avant la virgule.",
+        "piege": "On n'additionne jamais directement deux fractions de dénominateurs différents : il faut d'abord les mettre au même dénominateur."
+      }
     },
     "stats-probas": {
       "title": "Statistiques et probabilités",
@@ -219,7 +399,37 @@
         "Une probabilité est un nombre entre 0 (impossible) et 1 (certain) : P(A) = cas favorables ÷ cas possibles.",
         "La somme des probabilités de tous les résultats possibles d'une expérience est toujours égale à 1.",
         "Plus on répète une expérience aléatoire, plus la fréquence observée se rapproche de la probabilité théorique."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "L'étendue, c'est l'écart entre la plus grande et la plus petite valeur.",
+          "La moyenne : tu additionnes tout, tu divises par le nombre de valeurs.",
+          "La médiane est la valeur du milieu, une fois la série rangée dans l'ordre.",
+          "Une probabilité est toujours entre 0 (impossible) et 1 (certain).",
+          "La somme de toutes les probabilités vaut toujours 1.",
+          "Plus on répète une expérience, plus la fréquence approche la probabilité."
+        ],
+        "reperes": [
+          {
+            "label": "Étendue",
+            "value": "valeur maximale moins valeur minimale"
+          },
+          {
+            "label": "Moyenne",
+            "value": "somme de toutes les valeurs divisée par le nombre de valeurs"
+          },
+          {
+            "label": "Médiane",
+            "value": "valeur centrale de la série rangée dans l'ordre croissant"
+          },
+          {
+            "label": "Probabilité",
+            "value": "nombre de cas favorables divisé par nombre de cas possibles"
+          }
+        ],
+        "astuce": "Avant de chercher la médiane, range TOUJOURS la série dans l'ordre croissant. Pour une probabilité, compte les cas qui marchent sur le total des cas.",
+        "piege": "Ne pas confondre moyenne et médiane : la moyenne se calcule, la médiane se lit au milieu de la série ordonnée."
+      }
     },
     "fonctions": {
       "title": "Fonctions linéaires et affines",
@@ -251,7 +461,37 @@
         "L'image d'un nombre x s'obtient en remplaçant x dans f(x) ; l'antécédent s'obtient en résolvant f(x) = k.",
         "Deux points suffisent pour tracer une droite : calcule f(0) et f(1), puis relie les deux points.",
         "La fonction linéaire est un cas particulier de la fonction affine avec b = 0 (pas de décalage vertical)."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Une fonction linéaire f(x) = a fois x : sa droite passe toujours par l'origine.",
+          "Une fonction affine f(x) = a fois x plus b : la droite coupe l'axe vertical en b.",
+          "Le coefficient a donne la pente : positif ça monte, négatif ça descend.",
+          "L'image, c'est le résultat de f(x) quand tu remplaces x.",
+          "L'antécédent, c'est le x à trouver quand on connaît le résultat : on résout une équation.",
+          "Deux points suffisent pour tracer une droite."
+        ],
+        "reperes": [
+          {
+            "label": "Fonction linéaire",
+            "value": "f de x égale a fois x, graphe passant par l'origine"
+          },
+          {
+            "label": "Fonction affine",
+            "value": "f de x égale a fois x plus b, où b est l'ordonnée à l'origine"
+          },
+          {
+            "label": "Coefficient directeur",
+            "value": "a positif la droite monte, a négatif la droite descend"
+          },
+          {
+            "label": "Image et antécédent",
+            "value": "l'image s'obtient en calculant f de x, l'antécédent en résolvant f de x égale k"
+          }
+        ],
+        "astuce": "Pour tracer la droite, calcule f(0) qui vaut b, puis f(1), place les deux points et relie-les. Linéaire = affine avec b qui vaut zéro.",
+        "piege": "Ne pas confondre image et antécédent : l'image part de x vers le résultat, l'antécédent part du résultat vers x."
+      }
     },
     "espace-volumes": {
       "title": "Géométrie dans l'espace et volumes",
@@ -287,7 +527,37 @@
         "Sphère : V = 4/3 × π × r³ (attention : r³ = r × r × r).",
         "1 L = 1 dm³ = 1 000 cm³ = 1 mL⁻¹ ; convertir les unités avant de calculer.",
         "Identifier le solide, repérer les données (r, h, L, l…), appliquer la bonne formule, puis convertir si besoin."
-      ]
+      ],
+      "revision": {
+        "flash": [
+          "Identifie d'abord le solide, puis applique sa formule de volume.",
+          "Pyramide et cône partagent le même tiers : n'oublie jamais le facteur un tiers.",
+          "Pour la sphère, r au cube veut dire r fois r fois r, pas r fois 3.",
+          "Convertis toutes les unités AVANT de calculer.",
+          "1 litre égale 1 décimètre cube égale 1000 centimètres cubes.",
+          "Les longueurs en centimètres donnent un volume en centimètres cubes."
+        ],
+        "reperes": [
+          {
+            "label": "Pavé et cube",
+            "value": "pavé : longueur fois largeur fois hauteur ; cube : arête au cube"
+          },
+          {
+            "label": "Cylindre",
+            "value": "pi fois rayon au carré fois hauteur"
+          },
+          {
+            "label": "Pyramide et cône",
+            "value": "un tiers fois aire de la base fois hauteur"
+          },
+          {
+            "label": "Sphère",
+            "value": "quatre tiers fois pi fois rayon au cube"
+          }
+        ],
+        "astuce": "Méthode en quatre temps : reconnais le solide, repère les données (rayon, hauteur, longueurs), applique la bonne formule, convertis si besoin.",
+        "piege": "Oublier le facteur un tiers pour la pyramide et le cône, ou calculer r fois 3 au lieu de r au cube pour la sphère."
+      }
     }
   }
 }

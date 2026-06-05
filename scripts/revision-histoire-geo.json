@@ -1,0 +1,242 @@
+{
+  "premiere-guerre-mondiale": {
+    "flash": [
+      "1914-1918 : la première guerre totale, qui mobilise toute la société (soldats, économie, civils, femmes).",
+      "L'attentat de Sarajevo (28 juin 1914) déclenche un enchaînement d'alliances qui embrase l'Europe.",
+      "La guerre de mouvement laisse vite place à la guerre de position : on meurt dans les tranchées.",
+      "Verdun (1916) symbolise la violence de masse : 700 000 victimes pour aucune avancée.",
+      "1917, le tournant : les États-Unis entrent en guerre, la Russie révolutionnaire en sort.",
+      "L'armistice du 11 novembre 1918 met fin aux combats : environ 10 millions de soldats morts."
+    ],
+    "reperes": [
+      { "label": "Attentat de Sarajevo", "value": "28 juin 1914" },
+      { "label": "Bataille de Verdun", "value": "1916, 700 000 victimes" },
+      { "label": "Année du tournant", "value": "1917 (USA + révolution russe)" },
+      { "label": "Armistice", "value": "11 novembre 1918" },
+      { "label": "Traité de paix", "value": "Versailles, 1919" },
+      { "label": "Génocide", "value": "Arméniens, 1915-1916" }
+    ],
+    "astuce": "Retiens les 3 phases dans l'ordre : mouvement (1914), tranchées (1915-1917), reprise (1918).",
+    "piege": "Un armistice arrête les combats ; ce n'est pas la paix. La paix, c'est le traité de Versailles (1919)."
+  },
+  "entre-deux-guerres-totalitarismes": {
+    "flash": [
+      "La crise de 1929 provoque un chômage massif et fragilise les démocraties.",
+      "Dans le chaos, deux régimes totalitaires s'imposent : l'URSS de Staline et l'Allemagne nazie de Hitler.",
+      "Staline impose un communisme totalitaire : économie planifiée, goulags, Grandes Purges.",
+      "Hitler, chancelier en janvier 1933, instaure une dictature nazie fondée sur le racisme et l'antisémitisme.",
+      "Idéologies opposées, mêmes méthodes : parti unique, culte du chef, propagande, terreur.",
+      "L'embrigadement de la jeunesse (Jeunesses hitlériennes, Komsomol) forme des citoyens soumis dès l'enfance."
+    ],
+    "reperes": [
+      { "label": "Krach boursier (jeudi noir)", "value": "24 octobre 1929" },
+      { "label": "Plans quinquennaux (URSS)", "value": "à partir de 1928" },
+      { "label": "Hitler chancelier", "value": "janvier 1933" },
+      { "label": "Lois de Nuremberg", "value": "septembre 1935" },
+      { "label": "Grandes Purges (URSS)", "value": "1936-1938" },
+      { "label": "Nuit de Cristal", "value": "9 novembre 1938" }
+    ],
+    "astuce": "4 mots-clés pour TOUT totalitarisme : parti unique, culte du chef, propagande, terreur.",
+    "piege": "Communisme et nazisme ont des idées opposées, mais les MÊMES méthodes : ne confonds pas idéologie et pratique."
+  },
+  "seconde-guerre-mondiale": {
+    "flash": [
+      "Le 1er septembre 1939, l'Allemagne envahit la Pologne : la Seconde Guerre mondiale commence.",
+      "L'Axe (Allemagne, Italie, Japon) affronte les Alliés (Royaume-Uni, URSS, États-Unis).",
+      "C'est une guerre d'anéantissement : on cherche à détruire des peuples entiers, pas seulement à conquérir.",
+      "Le tournant a lieu à Stalingrad (1942-1943), première grande défaite allemande à l'Est.",
+      "Le Débarquement de Normandie (6 juin 1944) ouvre un second front et libère l'Europe de l'Ouest.",
+      "La Shoah : extermination systématique d'environ 6 millions de Juifs par les nazis, crime contre l'humanité."
+    ],
+    "reperes": [
+      { "label": "Début (invasion Pologne)", "value": "1er septembre 1939" },
+      { "label": "Bataille de Stalingrad", "value": "fin février 1943" },
+      { "label": "Débarquement de Normandie", "value": "6 juin 1944" },
+      { "label": "Capitulation allemande", "value": "8 mai 1945" },
+      { "label": "Capitulation japonaise", "value": "2 septembre 1945" },
+      { "label": "Victimes de la Shoah", "value": "environ 6 millions de Juifs" }
+    ],
+    "astuce": "Frise des 5 dates : 1939 (début), 1943 (Stalingrad), 1944 (Débarquement), 8 mai 1945 (Europe), 2 sept. 1945 (Japon).",
+    "piege": "Ne confonds pas camps de concentration (travail) et camps d'extermination (mise à mort, comme Auschwitz-Birkenau)."
+  },
+  "france-1945-nos-jours": {
+    "flash": [
+      "En 1945, la France sort exsangue de la guerre, puis se reconstruit et se modernise très vite.",
+      "Les Trente Glorieuses (1945-1973) : croissance d'environ +5 %/an et société de consommation.",
+      "La IVe République, trop instable (24 gouvernements en 12 ans), cède la place à la Ve en 1958.",
+      "Mai 1968 : 10 millions de grévistes, et un grand mouvement de libéralisation de la société.",
+      "Le choc pétrolier de 1973 met fin aux Trente Glorieuses et installe le chômage de masse.",
+      "Depuis 1981, la France alterne gauche et droite, dans une Ve République toujours en vigueur."
+    ],
+    "reperes": [
+      { "label": "Droit de vote des femmes", "value": "1944 (1er vote en 1945)" },
+      { "label": "Trente Glorieuses", "value": "1945-1973" },
+      { "label": "Naissance de la Ve République", "value": "1958" },
+      { "label": "Révolte sociale", "value": "Mai 1968" },
+      { "label": "Premier choc pétrolier", "value": "1973" },
+      { "label": "Loi Veil (avortement)", "value": "1975" }
+    ],
+    "astuce": "Coupe la période en deux : avant 1973 = croissance (Trente Glorieuses) ; après 1973 = crise et chômage.",
+    "piege": "Les femmes obtiennent le droit de vote en 1944, mais votent pour la première fois en 1945 : ne confonds pas les deux dates."
+  },
+  "decolonisation-guerre-froide": {
+    "flash": [
+      "Après 1945, le monde se divise en deux blocs rivaux : l'Ouest (USA) et l'Est (URSS).",
+      "La Guerre froide (1947-1991) : ils s'affrontent par alliés et propagande, jamais directement.",
+      "Le mur de Berlin (1961) devient le symbole du rideau de fer qui coupe l'Europe en deux.",
+      "Berlin, Corée, Cuba : des crises qui frôlent la guerre nucléaire entre les deux Grands.",
+      "La décolonisation libère des dizaines de pays : Inde (1947), Indochine (1954), Algérie (1962).",
+      "La chute du mur de Berlin (1989) et la fin de l'URSS (1991) terminent la Guerre froide."
+    ],
+    "reperes": [
+      { "label": "Début de la Guerre froide", "value": "1947" },
+      { "label": "Indépendance de l'Inde", "value": "1947" },
+      { "label": "Construction du mur de Berlin", "value": "1961" },
+      { "label": "Crise de Cuba", "value": "1962" },
+      { "label": "Indépendance de l'Algérie", "value": "1962 (accords d'Évian)" },
+      { "label": "Chute du mur / fin de l'URSS", "value": "1989 / 1991" }
+    ],
+    "astuce": "Deux fils en parallèle : un fil GUERRE FROIDE (blocs et crises) et un fil DÉCOLONISATION (indépendances).",
+    "piege": "Le mur de Berlin est CONSTRUIT en 1961 et TOMBE en 1989 : ne mélange pas ces deux dates opposées."
+  },
+  "france-union-europeenne": {
+    "flash": [
+      "Après 1945, on relie les économies européennes pour rendre la guerre impossible.",
+      "En 1957, le traité de Rome crée la CEE avec 6 pays fondateurs, dont la France.",
+      "En 1992, le traité de Maastricht transforme la CEE en Union européenne (UE).",
+      "L'UE s'est élargie de 6 à 27 membres ; le Royaume-Uni en est sorti (Brexit, 2020).",
+      "Depuis 2002, l'euro est la monnaie commune ; l'espace Schengen supprime les contrôles aux frontières.",
+      "L'UE reste marquée par de fortes inégalités de richesse que les fonds européens cherchent à réduire."
+    ],
+    "reperes": [
+      { "label": "Traité de Rome (CEE à 6)", "value": "1957" },
+      { "label": "Traité de Maastricht (UE)", "value": "1992" },
+      { "label": "Mise en circulation de l'euro", "value": "1er janvier 2002" },
+      { "label": "Grand élargissement", "value": "2004 (+10 pays)" },
+      { "label": "Brexit (sortie du R.-U.)", "value": "2020" },
+      { "label": "Nombre d'États membres", "value": "27" }
+    ],
+    "astuce": "Mémorise le couple de dates : 1957 (Rome, on naît) et 1992 (Maastricht, on devient l'UE).",
+    "piege": "La zone euro et l'espace Schengen ne regroupent pas les mêmes pays : Schengen inclut même des États non-membres de l'UE (Norvège, Suisse)."
+  },
+  "aires-urbaines-espaces-ruraux": {
+    "flash": [
+      "Une aire urbaine = ville-centre + banlieues + espace périurbain organisés autour d'un pôle.",
+      "Le périurbain : des communes rurales dont au moins 40 % des actifs travaillent dans le pôle urbain.",
+      "L'étalement urbain étend la ville sur les campagnes et consomme des terres agricoles.",
+      "La périurbanisation pousse les ménages à habiter loin, en pavillon, tout en travaillant en ville.",
+      "Chaque jour, des millions de Français font des migrations pendulaires domicile-travail.",
+      "Les espaces ruraux sont variés : certains dynamiques (tourisme), d'autres en déclin (diagonale du vide)."
+    ],
+    "reperes": [
+      { "label": "Seuil du périurbain", "value": "40 % des actifs vers le pôle" },
+      { "label": "Aire urbaine de Paris", "value": "plus de 12 millions d'habitants" },
+      { "label": "Surfaces urbanisées (1982-2015)", "value": "ont doublé" },
+      { "label": "Terres agricoles perdues", "value": "environ 24 000 ha/an" },
+      { "label": "Trajet moyen en Île-de-France", "value": "46 minutes" },
+      { "label": "Déserts ruraux", "value": "la diagonale du vide" }
+    ],
+    "astuce": "Visualise des cercles concentriques : ville-centre au cœur, puis banlieues, puis périurbain, puis rural.",
+    "piege": "Périurbain n'est pas la même chose que banlieue : le périurbain est plus loin, fait de communes rurales sous influence de la ville."
+  },
+  "france-mondialisation": {
+    "flash": [
+      "La mondialisation connecte tous les territoires par les échanges de marchandises, personnes et informations.",
+      "La France est la 6e puissance économique mondiale, membre du G7 et du Conseil de sécurité de l'ONU.",
+      "Grâce à ses territoires ultramarins, elle est présente dans tous les océans : 2e ZEE mondiale.",
+      "Le français rayonne : 320 millions de locuteurs, dans le cadre de la Francophonie (OIF).",
+      "Paris est une ville mondiale : tourisme, aéroport majeur, 1er quartier d'affaires européen (La Défense).",
+      "La mondialisation creuse les inégalités : les métropoles captent les richesses, d'autres territoires décrochent."
+    ],
+    "reperes": [
+      { "label": "Rang économique mondial", "value": "6e puissance" },
+      { "label": "Locuteurs de français", "value": "environ 320 millions" },
+      { "label": "Zone économique exclusive", "value": "2e ZEE mondiale" },
+      { "label": "Commerce mondial par la mer", "value": "90 %" },
+      { "label": "1er port français", "value": "Le Havre" },
+      { "label": "Quartier d'affaires", "value": "La Défense (1er européen)" }
+    ],
+    "astuce": "Pour le rayonnement de la France, retiens 3 atouts : la langue, les territoires ultramarins, les grandes entreprises.",
+    "piege": "La ZEE (zone maritime) n'est pas la superficie du pays : c'est grâce à l'outre-mer que la France a la 2e ZEE, pas grâce à l'Hexagone."
+  },
+  "espaces-productifs": {
+    "flash": [
+      "Un espace productif est une zone du territoire organisée par des activités économiques.",
+      "Trois grands types : espaces agricoles, espaces industriels, espaces de services (tertiaire).",
+      "La France est le 1er producteur agricole de l'UE, avec une agriculture productiviste et spécialisée.",
+      "Les technopôles (Toulouse, Sophia Antipolis) regroupent industrie de pointe, recherche et universités.",
+      "La France est la 1re destination touristique mondiale : environ 100 millions de visiteurs par an.",
+      "La localisation dépend des ressources, des transports, de la main-d'œuvre, des aides et de l'histoire."
+    ],
+    "reperes": [
+      { "label": "Rang agricole dans l'UE", "value": "1er producteur" },
+      { "label": "Grenier à blé", "value": "la Beauce" },
+      { "label": "Technopôle aéronautique", "value": "Toulouse (Airbus)" },
+      { "label": "Tourisme", "value": "1re destination mondiale (~100 M/an)" },
+      { "label": "1er quartier d'affaires européen", "value": "La Défense" },
+      { "label": "Part du tertiaire dans l'emploi", "value": "plus de 75 %" }
+    ],
+    "astuce": "Associe chaque type à un exemple-symbole : agricole = Beauce, industriel = Toulouse, services = La Défense.",
+    "piege": "1er producteur agricole ne veut pas dire le plus de paysans : c'est grâce à l'agriculture productiviste (machines, engrais), pas au nombre d'agriculteurs."
+  },
+  "institutions-5e-republique": {
+    "flash": [
+      "Depuis 1958, la France vit sous la Ve République, fondée par la Constitution du 4 octobre 1958.",
+      "Le président est élu au suffrage universel direct pour 5 ans : chef de l'État et des armées.",
+      "Le Premier ministre, nommé par le président, dirige le gouvernement et applique la politique.",
+      "Le Parlement (Assemblée nationale + Sénat) vote les lois et contrôle le gouvernement.",
+      "Trois pouvoirs séparés se contrôlent : exécutif, législatif et judiciaire.",
+      "Le citoyen est au cœur du système : voter, c'est exercer son pouvoir démocratique."
+    ],
+    "reperes": [
+      { "label": "Constitution de la Ve République", "value": "4 octobre 1958" },
+      { "label": "Mandat présidentiel", "value": "5 ans (quinquennat)" },
+      { "label": "Députés (Assemblée nationale)", "value": "577, élus pour 5 ans" },
+      { "label": "Sénateurs (Sénat)", "value": "348, élus pour 6 ans" },
+      { "label": "Pouvoir exécutif", "value": "président + gouvernement" },
+      { "label": "Pouvoir législatif", "value": "le Parlement" }
+    ],
+    "astuce": "3 pouvoirs, 3 verbes : l'exécutif EXÉCUTE, le législatif VOTE les lois, le judiciaire JUGE.",
+    "piege": "Le président est élu directement par le peuple ; les sénateurs non, ils sont élus par des grands électeurs (maires, conseillers)."
+  },
+  "symboles-valeurs-republique": {
+    "flash": [
+      "La République française, née de la Révolution de 1789, s'incarne dans des symboles forts.",
+      "Le drapeau tricolore (1789) et La Marseillaise (hymne de 1792) sont les symboles les plus visibles.",
+      "Marianne représente la République : son buste figure dans toutes les mairies de France.",
+      "Le 14 juillet, fête nationale, commémore la prise de la Bastille (1789).",
+      "La devise « Liberté, Égalité, Fraternité » résume les trois valeurs fondatrices.",
+      "La Constitution de 1958 définit la France comme une République indivisible, laïque, démocratique et sociale."
+    ],
+    "reperes": [
+      { "label": "Drapeau tricolore", "value": "1789" },
+      { "label": "La Marseillaise (hymne)", "value": "1792, Rouget de Lisle" },
+      { "label": "Fête nationale", "value": "14 juillet (prise de la Bastille, 1789)" },
+      { "label": "Devise", "value": "Liberté, Égalité, Fraternité" },
+      { "label": "Symbole de la République", "value": "Marianne" },
+      { "label": "Les 4 qualificatifs (Constitution)", "value": "indivisible, laïque, démocratique, sociale" }
+    ],
+    "astuce": "Pour les 4 qualificatifs de la République, retiens le mot D.I.L.S. : Démocratique, Indivisible, Laïque, Sociale.",
+    "piege": "Marianne n'est pas une personne réelle : c'est une allégorie, un symbole de la République, pas un personnage historique."
+  },
+  "droits-devoirs-laicite": {
+    "flash": [
+      "Être citoyen, ce n'est pas qu'un passeport : c'est avoir des droits ET des devoirs.",
+      "Trois grandes catégories de droits : civils (la personne), politiques (voter), sociaux (éducation, santé).",
+      "Les devoirs : respecter les lois, payer ses impôts, accomplir le devoir de défense, respecter autrui.",
+      "La loi de 1905 sépare les Églises et l'État : l'État ne finance aucun culte et reste neutre.",
+      "La laïcité n'est pas l'hostilité aux religions : elle garantit la liberté de conscience pour tous.",
+      "À l'école publique, la loi de 2004 interdit les signes religieux ostensibles."
+    ],
+    "reperes": [
+      { "label": "Droit de vote", "value": "à 18 ans" },
+      { "label": "Loi de séparation Églises / État", "value": "9 décembre 1905" },
+      { "label": "Signes religieux à l'école", "value": "interdits (loi du 15 mars 2004)" },
+      { "label": "Journée citoyenne de défense", "value": "depuis 1997" },
+      { "label": "3 catégories de droits", "value": "civils, politiques, sociaux" },
+      { "label": "Principe fondateur", "value": "la laïcité" }
+    ],
+    "astuce": "Pense à une balance : d'un côté les DROITS, de l'autre les DEVOIRS ; l'équilibre fait le bon citoyen.",
+    "piege": "La laïcité n'interdit pas de croire : l'État est neutre, mais chacun garde sa liberté de conscience et de culte."
+  }
+}
