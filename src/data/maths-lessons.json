@@ -3,300 +3,290 @@
   "lessons": {
     "pythagore": {
       "title": "Théorème de Pythagore",
-      "intro": "Le théorème de Pythagore est l'un des théorèmes les plus célèbres des mathématiques. Il permet de calculer la longueur d'un côté dans un triangle rectangle quand on connaît les deux autres. Attention, il ne s'applique qu'aux triangles rectangles.",
+      "intro": "Tu as déjà voulu connaître la longueur d'une pente, la diagonale d'un écran ou la distance à vol d'oiseau entre deux points ? Le théorème de Pythagore est ton outil secret ! Énoncé il y a 2 500 ans, il relie les trois côtés d'un triangle rectangle par une formule élégante. Maîtrise-le et tu résoudras des dizaines de problèmes de géométrie en quelques lignes.",
       "sections": [
         {
-          "title": "Énoncé du théorème",
-          "content": "Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à la somme des carrés des longueurs des deux autres côtés. Autrement dit, si un triangle ABC est rectangle en A, alors BC au carré est égal à AB au carré plus AC au carré. L'hypoténuse, c'est toujours le côté le plus long, celui qui est opposé à l'angle droit."
+          "title": "1. L'énoncé du théorème",
+          "content": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés.\n\nSoit le triangle ABC rectangle en A. On note :\n• AB et AC : les deux côtés de l'angle droit (les « cathètes »).\n• BC : l'hypoténuse (côté opposé à l'angle droit).\n\nAlors : BC² = AB² + AC²\n\nCette formule ne fonctionne QUE dans un triangle rectangle, et s'applique toujours au côté le plus long (l'hypoténuse) d'un côté, et aux deux autres côtés de l'autre.",
+          "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"60,200 60,60 320,200\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"2\"/><rect x=\"60\" y=\"185\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2\"/><line x1=\"60\" y1=\"60\" x2=\"320\" y2=\"200\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"46\" y=\"55\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">B</text><text x=\"40\" y=\"210\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">A</text><text x=\"326\" y=\"210\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">C</text><text x=\"28\" y=\"135\" fill=\"#22c55e\" font-size=\"13\">AB</text><text x=\"185\" y=\"225\" fill=\"#22c55e\" font-size=\"13\">AC</text><text x=\"178\" y=\"118\" fill=\"#f59e0b\" font-size=\"13\" font-weight=\"bold\">BC (hyp.)</text><text x=\"55\" y=\"235\" fill=\"#38bdf8\" font-size=\"13\">∟ angle droit en A</text><text x=\"60\" y=\"25\" fill=\"#e5e7eb\" font-size=\"13\">BC² = AB² + AC²</text></svg>"
         },
         {
-          "title": "Calculer l'hypoténuse",
-          "content": "Prenons un triangle ABC rectangle en A avec AB qui mesure 3 centimètres et AC qui mesure 4 centimètres. On applique le théorème : BC au carré est égal à 3 au carré plus 4 au carré, soit 9 plus 16, ce qui donne 25. Donc BC est égal à la racine carrée de 25, c'est-à-dire 5 centimètres."
+          "title": "2. L'hypoténuse : comment la repérer ?",
+          "content": "L'hypoténuse est le côté le plus long du triangle rectangle. Elle est toujours opposée à l'angle droit (le coin marqué d'un petit carré).\n\nAstuce visuelle : repère d'abord l'angle droit (∟), puis regarde le côté qui lui fait face — c'est l'hypoténuse.\n\nExemple : dans le triangle ABC rectangle en B :\n• L'angle droit est en B.\n• L'hypoténuse est donc AC (elle est en face de B).\n• La formule devient : AC² = AB² + BC²\n\nRetiens : l'hypoténuse porte toujours le carré tout seul à gauche du signe égal."
         },
         {
-          "title": "Calculer un côté de l'angle droit",
-          "content": "Si on connaît l'hypoténuse et un autre côté, on fait une soustraction. Par exemple, si BC mesure 10 et AB mesure 6, alors AC au carré est égal à 10 au carré moins 6 au carré, soit 100 moins 36, ce qui donne 64. Donc AC est égal à la racine carrée de 64, c'est-à-dire 8."
+          "title": "3. Calculer l'hypoténuse — exemple 3-4-5",
+          "content": "Problème : Dans le triangle DEF rectangle en D, DE = 3 cm et DF = 4 cm. Calcule EF.\n\nApplication du théorème :\nEF² = DE² + DF²\nEF² = 3² + 4²\nEF² = 9 + 16\nEF² = 25\nEF = √25\nEF = 5 cm\n\nLe triplet (3, 4, 5) est le plus célèbre ! Les bâtisseurs égyptiens l'utilisaient déjà pour tracer des angles droits parfaits. Retiens-le par cœur : si deux côtés valent 3 et 4, l'hypoténuse vaut 5.",
+          "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"80,190 80,70 260,190\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"2\"/><rect x=\"80\" y=\"175\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2\"/><line x1=\"80\" y1=\"70\" x2=\"260\" y2=\"190\" stroke=\"#f59e0b\" stroke-width=\"3.5\"/><text x=\"64\" y=\"64\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">E</text><text x=\"62\" y=\"210\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">D</text><text x=\"264\" y=\"210\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">F</text><text x=\"50\" y=\"135\" fill=\"#22c55e\" font-size=\"14\">3 cm</text><text x=\"158\" y=\"212\" fill=\"#22c55e\" font-size=\"14\">4 cm</text><text x=\"153\" y=\"120\" fill=\"#f59e0b\" font-size=\"14\" font-weight=\"bold\">5 cm</text><rect x=\"280\" y=\"60\" width=\"130\" height=\"90\" rx=\"6\" fill=\"#1e293b\" stroke=\"#38bdf8\" stroke-width=\"1\"/><text x=\"290\" y=\"82\" fill=\"#e5e7eb\" font-size=\"12\">EF² = 3² + 4²</text><text x=\"290\" y=\"102\" fill=\"#e5e7eb\" font-size=\"12\">EF² = 9 + 16 = 25</text><text x=\"290\" y=\"122\" fill=\"#f59e0b\" font-size=\"13\" font-weight=\"bold\">EF = √25 = 5 cm</text><text x=\"290\" y=\"142\" fill=\"#38bdf8\" font-size=\"11\">Triplet (3, 4, 5) ✓</text></svg>"
         },
         {
-          "title": "La réciproque du théorème",
-          "content": "La réciproque sert à démontrer qu'un triangle est rectangle. Si dans un triangle, le carré du plus grand côté est égal à la somme des carrés des deux autres côtés, alors ce triangle est rectangle. Par exemple, pour un triangle de côtés 5, 12 et 13 : 5 au carré plus 12 au carré donne 25 plus 144 égale 169, et 13 au carré égale aussi 169. Donc le triangle est rectangle."
-        },
-        {
-          "title": "La contraposée",
-          "content": "Si le carré du plus grand côté n'est pas égal à la somme des carrés des deux autres côtés, alors le triangle n'est pas rectangle. C'est utile pour prouver qu'un triangle n'est pas rectangle."
+          "title": "4. Calculer un autre côté et la réciproque",
+          "content": "Calculer un côté autre que l'hypoténuse (soustraction) :\nDans le triangle GHI rectangle en H, GI = 13 cm (hypoténuse) et GH = 5 cm. Calcule HI.\n\nGI² = GH² + HI²  →  HI² = GI² − GH²\nHI² = 13² − 5² = 169 − 25 = 144\nHI = √144 = 12 cm\n\nLe triplet (5, 12, 13) est un autre classique !\n\nLa réciproque — prouver qu'un triangle est rectangle :\nSi dans un triangle on a le plus grand côté² = somme des carrés des deux autres, alors le triangle est rectangle.\n\nEx. : Triangle de côtés 5, 12, 13. On vérifie : 13² = 169 et 5² + 12² = 25 + 144 = 169. Égalité vérifiée → le triangle EST rectangle !"
         }
       ],
       "keyPoints": [
-        "Le théorème s'applique uniquement aux triangles rectangles",
-        "L'hypoténuse est le côté le plus long, opposé à l'angle droit",
-        "Formule : hypoténuse au carré égale la somme des carrés des deux autres côtés",
-        "La réciproque permet de prouver qu'un triangle est rectangle",
-        "Toujours bien identifier l'hypoténuse avant d'écrire l'égalité"
+        "Dans un triangle rectangle, BC² = AB² + AC² (hypoténuse au carré = somme des carrés des deux autres côtés).",
+        "L'hypoténuse est le côté le plus long, toujours opposé à l'angle droit.",
+        "Pour trouver l'hypoténuse, additionne les carrés des deux autres côtés puis prends la racine carrée.",
+        "Pour trouver un côté autre que l'hypoténuse, soustrait : côté² = hypoténuse² − autre côté².",
+        "Les triplets (3, 4, 5) et (5, 12, 13) sont des triangles rectangles célèbres à connaître par cœur.",
+        "La réciproque permet de prouver qu'un triangle est rectangle : si grand côté² = somme des deux autres carrés, il est rectangle."
       ]
     },
     "thales": {
       "title": "Théorème de Thalès",
-      "intro": "Le théorème de Thalès permet de calculer des longueurs dans une configuration avec des droites parallèles. Il est très utile en géométrie et apparaît souvent au Brevet, notamment dans les exercices de proportionnalité géométrique.",
+      "intro": "Tu dois trouver une longueur inconnue dans une figure, mais tu n'as ni angle droit ni trigonométrie ? Le théorème de Thalès est ton meilleur allié ! Il relie les longueurs de segments créés quand deux droites sécantes sont coupées par deux parallèles. Une fois la configuration reconnue, le calcul coule tout seul.",
       "sections": [
         {
-          "title": "La configuration de Thalès",
-          "content": "On utilise Thalès quand deux droites sécantes en un point A sont coupées par deux droites parallèles. Concrètement, dans un triangle ABC, si M est un point sur le segment AB et N un point sur le segment AC, et que la droite MN est parallèle à la droite BC, alors on peut appliquer le théorème de Thalès."
+          "title": "1. La configuration de Thalès",
+          "content": "Imagine deux droites qui se croisent en un point A — on dit qu'elles sont sécantes en A. Ces deux droites sont coupées par deux autres droites parallèles entre elles. La première parallèle coupe les deux sécantes en B et C ; la seconde les coupe en B' et C' (avec B' et C' plus éloignés de A que B et C). On a donc cinq points : A (le sommet), B, C sur une parallèle, B', C' sur l'autre. Cette disposition s'appelle la configuration de Thalès. Retiens bien : (BC) // (B'C') est la condition indispensable pour appliquer le théorème.",
+          "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"210\" y1=\"20\" x2=\"100\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"20\" x2=\"320\" y2=\"180\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"20\" x2=\"60\" y2=\"240\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-dasharray=\"4,4\"/><line x1=\"210\" y1=\"20\" x2=\"360\" y2=\"240\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-dasharray=\"4,4\"/><line x1=\"100\" y1=\"180\" x2=\"320\" y2=\"180\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><line x1=\"60\" y1=\"240\" x2=\"360\" y2=\"240\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"20\" r=\"4\" fill=\"#e5e7eb\"/><circle cx=\"100\" cy=\"180\" r=\"4\" fill=\"#38bdf8\"/><circle cx=\"320\" cy=\"180\" r=\"4\" fill=\"#38bdf8\"/><circle cx=\"60\" cy=\"240\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"360\" cy=\"240\" r=\"4\" fill=\"#22c55e\"/><text x=\"214\" y=\"18\" fill=\"#e5e7eb\" font-size=\"14\" font-weight=\"bold\">A</text><text x=\"82\" y=\"178\" fill=\"#38bdf8\" font-size=\"13\">B</text><text x=\"323\" y=\"178\" fill=\"#38bdf8\" font-size=\"13\">C</text><text x=\"40\" y=\"253\" fill=\"#22c55e\" font-size=\"13\">B'</text><text x=\"363\" y=\"253\" fill=\"#22c55e\" font-size=\"13\">C'</text><text x=\"175\" y=\"173\" fill=\"#38bdf8\" font-size=\"11\">(BC)</text><text x=\"170\" y=\"235\" fill=\"#22c55e\" font-size=\"11\">(B'C')</text><text x=\"100\" y=\"100\" fill=\"#e5e7eb\" font-size=\"11\" font-style=\"italic\">//</text><text x=\"290\" y=\"100\" fill=\"#e5e7eb\" font-size=\"11\" font-style=\"italic\">//</text></svg>"
         },
         {
-          "title": "Énoncé du théorème",
-          "content": "Dans cette configuration, les longueurs sont proportionnelles. On écrit l'égalité des trois rapports suivants : AM sur AB est égal à AN sur AC est égal à MN sur BC. Attention à bien respecter l'ordre des points : on part toujours du sommet commun, ici A."
+          "title": "2. L'égalité des rapports",
+          "content": "Quand (BC) // (B'C'), le théorème de Thalès affirme que les trois rapports suivants sont ÉGAUX :\n\nAB/AB' = AC/AC' = BC/B'C'\n\nCes rapports comparent toujours un « petit » segment (entre A et la première parallèle) à un « grand » segment (entre A et la seconde parallèle). Attention : les rapports portent sur les longueurs complètes AB' et AC', pas seulement sur BB' ou CC'. Par exemple, si AB = 3 cm et AB' = 9 cm, alors le rapport vaut 3/9 = 1/3, et tu sais que AC/AC' = 1/3 et BC/B'C' = 1/3 aussi."
         },
         {
-          "title": "Exemple de calcul",
-          "content": "Si AB mesure 8, AM mesure 6 et AC mesure 12, on cherche AN. On écrit AM sur AB égale AN sur AC, donc 6 sur 8 égale AN sur 12. En faisant un produit en croix, AN égale 12 multiplié par 6, divisé par 8, ce qui donne 9."
+          "title": "3. Calculer une longueur inconnue",
+          "content": "Exemple : Dans la configuration de Thalès avec (BC) // (B'C'), on donne AB = 4 cm, AB' = 10 cm, AC = 3 cm. Calcule AC'.\n\nOn applique AB/AB' = AC/AC' :\n4/10 = 3/AC'\n\nProduit en croix : 4 × AC' = 10 × 3\n4 × AC' = 30\nAC' = 30/4 = 7,5 cm\n\nDonc AC' = 7,5 cm.\n\nAstuce : identifie toujours les quatre longueurs en jeu (deux connues dans un rapport, une connue + une inconnue dans l'autre rapport), puis pose l'égalité et fais le produit en croix."
         },
         {
-          "title": "La réciproque de Thalès",
-          "content": "La réciproque sert à prouver que deux droites sont parallèles. Si les points A, M, B sont alignés et les points A, N, C sont alignés dans le même ordre, et si AM sur AB est égal à AN sur AC, alors les droites MN et BC sont parallèles. Attention, il faut vraiment que les points soient dans le même ordre."
-        },
-        {
-          "title": "Astuce pratique",
-          "content": "Pour bien écrire les rapports de Thalès, on peut faire un tableau de proportionnalité avec les longueurs du petit triangle en haut et les longueurs du grand triangle en bas. Cela évite les erreurs d'écriture."
+          "title": "4. La réciproque — prouver que deux droites sont parallèles",
+          "content": "La réciproque du théorème de Thalès permet de démontrer qu'une droite est parallèle à une autre. Elle s'énonce ainsi : si AB/AB' = AC/AC' (et si B, A, B' sont alignés d'une part, C, A, C' d'autre part), alors (BC) // (B'C').\n\nExemple : A, B, B' alignés avec AB = 6, AB' = 9 ; A, C, C' alignés avec AC = 4, AC' = 6. Calcule les rapports : AB/AB' = 6/9 = 2/3 et AC/AC' = 4/6 = 2/3. Les deux rapports sont égaux, donc par la réciproque du théorème de Thalès : (BC) // (B'C').\n\nConfiguration « papillon » : les deux droites sécantes se croisent ENTRE les deux parallèles (A est entre B et B', et entre C et C'). Le théorème s'applique toujours avec les mêmes rapports, mais sois vigilant(e) sur le sens des segments."
         }
       ],
       "keyPoints": [
-        "Il faut deux droites parallèles dans une configuration triangulaire",
-        "Égalité des trois rapports : AM sur AB égale AN sur AC égale MN sur BC",
-        "La réciproque permet de démontrer le parallélisme",
-        "Toujours partir du sommet commun pour écrire les rapports",
-        "Vérifier que les points sont alignés dans le même ordre"
+        "La configuration de Thalès nécessite deux droites sécantes en A et deux parallèles (BC) // (B'C') qui les coupent.",
+        "Le théorème établit l'égalité AB/AB' = AC/AC' = BC/B'C' dès que (BC) // (B'C').",
+        "Pour calculer une longueur inconnue, pose l'égalité de deux rapports et utilise le produit en croix.",
+        "Les rapports comparent les longueurs complètes AB et AB' (de A jusqu'à chaque parallèle), pas les « morceaux » BB' ou CC'.",
+        "La réciproque permet de prouver que deux droites sont parallèles si les deux rapports de longueurs sont égaux.",
+        "Dans la configuration « papillon », A se trouve entre les deux parallèles : le théorème reste valable avec les mêmes égalités de rapports."
       ]
     },
     "trigonometrie": {
       "title": "Trigonométrie",
-      "intro": "La trigonométrie permet de calculer des longueurs et des angles dans un triangle rectangle. On utilise trois fonctions principales : le cosinus, le sinus et la tangente. C'est un outil incontournable au Brevet.",
+      "intro": "Et si tu pouvais mesurer la hauteur d'un arbre ou d'une tour sans jamais la gravir ? C'est exactement ce que permet la trigonométrie ! Grâce à trois rapports magiques — cosinus, sinus et tangente — tu peux relier les angles et les longueurs d'un triangle rectangle. Un outil puissant, utilisé chaque jour par les architectes, les ingénieurs et les navigateurs.",
       "sections": [
         {
-          "title": "Vocabulaire du triangle rectangle",
-          "content": "Dans un triangle rectangle, on a trois côtés. L'hypoténuse est le côté le plus long, opposé à l'angle droit. Pour un angle aigu donné, le côté opposé est celui qui ne touche pas cet angle, et le côté adjacent est celui qui touche l'angle, sans être l'hypoténuse."
+          "title": "1. Le triangle rectangle et son vocabulaire",
+          "content": "Choisis un angle aigu dans un triangle rectangle, que l'on appelle â. Par rapport à cet angle, les trois côtés ont des noms précis :\n• L'hypoténuse est le côté le plus long, toujours en face de l'angle droit (90°).\n• Le côté opposé est le côté en face de l'angle â.\n• Le côté adjacent est le côté qui touche l'angle â (sans être l'hypoténuse).\n\nExemple : dans un triangle ABC, l'angle droit est en C. Si tu regardes l'angle  â = Â (en A), alors BC est le côté opposé, AC est le côté adjacent et AB est l'hypoténuse.",
+          "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><polygon points=\"40,200 340,200 40,40\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"200\" x2=\"340\" y2=\"200\" stroke=\"#38bdf8\" stroke-width=\"3\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"200\" stroke=\"#ef4444\" stroke-width=\"3\"/><line x1=\"40\" y1=\"40\" x2=\"340\" y2=\"200\" stroke=\"#f59e0b\" stroke-width=\"3\"/><rect x=\"40\" y=\"184\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><path d=\"M 340,200 A 38,38 0 0,0 308,175\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><text x=\"22\" y=\"36\" font-size=\"14\" fill=\"#e5e7eb\" font-weight=\"bold\">A</text><text x=\"350\" y=\"205\" font-size=\"14\" fill=\"#e5e7eb\" font-weight=\"bold\">B</text><text x=\"22\" y=\"218\" font-size=\"14\" fill=\"#e5e7eb\" font-weight=\"bold\">C</text><text x=\"295\" y=\"170\" font-size=\"13\" fill=\"#e5e7eb\">â</text><text x=\"148\" y=\"235\" font-size=\"13\" fill=\"#38bdf8\">côté adjacent</text><text x=\"2\" y=\"125\" font-size=\"13\" fill=\"#ef4444\" transform=\"rotate(-90,2,125)\">côté opposé</text><text x=\"148\" y=\"108\" font-size=\"13\" fill=\"#f59e0b\" transform=\"rotate(-33,148,108)\">hypoténuse</text></svg>"
         },
         {
-          "title": "Les trois formules",
-          "content": "Le cosinus d'un angle est égal au côté adjacent divisé par l'hypoténuse. Le sinus d'un angle est égal au côté opposé divisé par l'hypoténuse. La tangente d'un angle est égale au côté opposé divisé par le côté adjacent. Pour mémoriser, on utilise le moyen mnémotechnique CAH SOH TOA : Cosinus égale Adjacent sur Hypoténuse, Sinus égale Opposé sur Hypoténuse, Tangente égale Opposé sur Adjacent."
+          "title": "2. Les 3 formules : cos, sin, tan",
+          "content": "Pour un angle aigu â dans un triangle rectangle, on définit trois rapports :\n\n• cos(â) = côté adjacent / hypoténuse\n• sin(â) = côté opposé / hypoténuse\n• tan(â) = côté opposé / côté adjacent\n\nCes rapports sont toujours les mêmes quel que soit la taille du triangle, du moment que l'angle â est identique. C'est ça, la magie de la trigonométrie !\n\nExemple : si adjacent = 6 cm et hypoténuse = 10 cm, alors cos(â) = 6/10 = 0,6.",
+          "svg": "<svg viewBox=\"0 0 420 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"10\" y=\"10\" width=\"120\" height=\"68\" rx=\"8\" fill=\"#1e293b\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><text x=\"70\" y=\"32\" font-size=\"13\" fill=\"#e5e7eb\" text-anchor=\"middle\">cos(â)</text><line x1=\"20\" y1=\"40\" x2=\"120\" y2=\"40\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"70\" y=\"57\" font-size=\"12\" fill=\"#38bdf8\" text-anchor=\"middle\">adjacent</text><text x=\"70\" y=\"71\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">hypoténuse</text><rect x=\"150\" y=\"10\" width=\"120\" height=\"68\" rx=\"8\" fill=\"#1e293b\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><text x=\"210\" y=\"32\" font-size=\"13\" fill=\"#e5e7eb\" text-anchor=\"middle\">sin(â)</text><line x1=\"160\" y1=\"40\" x2=\"260\" y2=\"40\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"210\" y=\"57\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">opposé</text><text x=\"210\" y=\"71\" font-size=\"12\" fill=\"#f59e0b\" text-anchor=\"middle\">hypoténuse</text><rect x=\"290\" y=\"10\" width=\"120\" height=\"68\" rx=\"8\" fill=\"#1e293b\" stroke=\"#a78bfa\" stroke-width=\"1.5\"/><text x=\"350\" y=\"32\" font-size=\"13\" fill=\"#e5e7eb\" text-anchor=\"middle\">tan(â)</text><line x1=\"300\" y1=\"40\" x2=\"400\" y2=\"40\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><text x=\"350\" y=\"57\" font-size=\"12\" fill=\"#ef4444\" text-anchor=\"middle\">opposé</text><text x=\"350\" y=\"71\" font-size=\"12\" fill=\"#38bdf8\" text-anchor=\"middle\">adjacent</text><text x=\"210\" y=\"120\" font-size=\"15\" fill=\"#fbbf24\" text-anchor=\"middle\" font-weight=\"bold\">SOH — CAH — TOA</text><text x=\"70\" y=\"148\" font-size=\"12\" fill=\"#e5e7eb\" text-anchor=\"middle\">Sin = Opp/Hyp</text><text x=\"210\" y=\"148\" font-size=\"12\" fill=\"#e5e7eb\" text-anchor=\"middle\">Cos = Adj/Hyp</text><text x=\"350\" y=\"148\" font-size=\"12\" fill=\"#e5e7eb\" text-anchor=\"middle\">Tan = Opp/Adj</text></svg>"
         },
         {
-          "title": "Calculer une longueur",
-          "content": "Si on connaît un angle et un côté, on peut calculer un autre côté. Par exemple, dans un triangle rectangle avec un angle de 60 degrés et une hypoténuse de 10, pour trouver le côté opposé on écrit : sinus de 60 degrés égale opposé divisé par 10. Donc opposé égale 10 multiplié par sinus de 60 degrés, ce qui donne environ 8,66."
+          "title": "3. Moyen mnémotechnique : SOH-CAH-TOA",
+          "content": "Pour ne jamais confondre les formules, retiens cet acronyme : SOH-CAH-TOA.\n\n• SOH → Sin = Opposé / Hypoténuse\n• CAH → Cos = Adjacent / Hypoténuse\n• TOA → Tan = Opposé / Adjacent\n\nAstuce : prononce-le comme un seul mot « So-Ka-Toa » et tu t'en souviendras toute ta vie ! Tu peux aussi inventer une phrase comme : « Sur Orange Hautes — Collines Admirables Habitent — Trois Oiseaux Agiles. »\n\nCe code fonctionne dans tous les triangles rectangles, quel que soit le côté ou l'angle que tu cherches."
         },
         {
-          "title": "Calculer un angle",
-          "content": "Si on connaît deux côtés, on peut trouver un angle en utilisant les touches inverses de la calculatrice, notées cosinus moins un, sinus moins un et tangente moins un. Par exemple, si cosinus de x est égal à 0,5, alors x est égal à 60 degrés."
-        },
-        {
-          "title": "Valeurs remarquables",
-          "content": "Il y a quelques valeurs à connaître par cœur. Sinus de 30 degrés vaut un demi. Cosinus de 60 degrés vaut un demi. Sinus de 45 degrés est égal à cosinus de 45 degrés. La calculatrice doit toujours être en mode degré pour le Brevet."
+          "title": "4. Calculer une longueur ou un angle",
+          "content": "CALCULER UNE LONGUEUR — Exemple : dans un triangle rectangle, â = 35°, hypoténuse = 12 cm. Trouve le côté adjacent.\ncos(35°) = adjacent / 12 → adjacent = 12 × cos(35°) ≈ 12 × 0,819 ≈ 9,8 cm.\n\nCALCULER UN ANGLE — Exemple : opposé = 5 cm, hypoténuse = 8 cm. Trouve l'angle â.\nsin(â) = 5/8 = 0,625 → â = sin⁻¹(0,625) ≈ 38,7°.\n\nRègle : si tu connais le rapport, tu obtiens l'angle avec la touche sin⁻¹, cos⁻¹ ou tan⁻¹ de ta calculatrice (souvent notée SHIFT + sin/cos/tan). Vérifie toujours que ta calculatrice est en mode DEGRÉS (DEG), pas en radians !"
         }
       ],
       "keyPoints": [
-        "Uniquement dans un triangle rectangle",
-        "CAH SOH TOA : Cosinus Adjacent Hypoténuse, Sinus Opposé Hypoténuse, Tangente Opposé Adjacent",
-        "Bien identifier l'angle de référence avant de nommer les côtés",
-        "La calculatrice doit être en mode degré",
-        "Utiliser les touches inverses pour trouver un angle"
+        "Dans un triangle rectangle, l'hypoténuse est toujours le côté le plus long, en face de l'angle droit.",
+        "Les noms « opposé » et « adjacent » dépendent de l'angle aigu que tu as choisi.",
+        "cos(â) = adjacent / hypoténuse ; sin(â) = opposé / hypoténuse ; tan(â) = opposé / adjacent.",
+        "SOH-CAH-TOA est le moyen mnémotechnique pour retenir les trois formules sans erreur.",
+        "Pour trouver une longueur inconnue, isole-la en multipliant ou divisant des deux côtés de l'égalité.",
+        "Pour trouver un angle inconnu, utilise sin⁻¹, cos⁻¹ ou tan⁻¹ sur ta calculatrice (mode DEG obligatoire)."
       ]
     },
     "equations": {
       "title": "Équations et inéquations",
-      "intro": "Une équation est une égalité avec une inconnue, le plus souvent notée x. Résoudre une équation, c'est trouver toutes les valeurs de x qui rendent l'égalité vraie. Une inéquation, c'est la même chose mais avec une inégalité.",
+      "intro": "Tu as 15 ans et tu te demandes à quoi servent les équations ? Imagine que tu veux savoir combien de billes il te manque pour en avoir 20, sachant que tu en as déjà quelques-unes. Sans le savoir, tu poses une équation ! En maths, une équation, c'est une égalité avec une inconnue (souvent x) que tu dois trouver. Prêt à résoudre l'énigme ?",
       "sections": [
         {
-          "title": "Résoudre une équation du premier degré",
-          "content": "On veut isoler x dans un membre de l'équation. Par exemple, pour résoudre 2x plus 5 égale 11, on commence par enlever 5 des deux côtés, ce qui donne 2x égale 6. Puis on divise par 2 des deux côtés, ce qui donne x égale 3. La solution est donc x égale 3."
+          "title": "1. Qu'est-ce qu'une équation ?",
+          "content": "Une équation, c'est une égalité entre deux expressions, dont l'une contient une inconnue x. Résoudre une équation, c'est trouver la valeur de x qui rend l'égalité vraie.\n\nExemple : x + 3 = 8\nOn cherche x tel que x + 3 soit égal à 8.\nLa solution est x = 5, car 5 + 3 = 8. ✔\n\nPense à une balance : les deux plateaux sont en équilibre. La valeur de gauche est toujours égale à la valeur de droite. Tant que tu fais la même chose des deux côtés, l'équilibre est conservé.",
+          "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"210\" y1=\"60\" x2=\"210\" y2=\"160\" stroke=\"#e5e7eb\" stroke-width=\"3\"/><line x1=\"210\" y1=\"60\" x2=\"100\" y2=\"95\" stroke=\"#e5e7eb\" stroke-width=\"3\"/><line x1=\"210\" y1=\"60\" x2=\"320\" y2=\"95\" stroke=\"#e5e7eb\" stroke-width=\"3\"/><rect x=\"60\" y=\"95\" width=\"80\" height=\"40\" rx=\"5\" fill=\"#3b82f6\" opacity=\"0.8\"/><rect x=\"280\" y=\"95\" width=\"80\" height=\"40\" rx=\"5\" fill=\"#10b981\" opacity=\"0.8\"/><text x=\"100\" y=\"120\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">x + 3</text><text x=\"320\" y=\"120\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"bold\">8</text><circle cx=\"210\" cy=\"60\" r=\"8\" fill=\"#f59e0b\"/><text x=\"210\" y=\"185\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"12\">Ce qu'on fait d'un côté, on le fait de l'autre !</text><line x1=\"80\" y1=\"135\" x2=\"140\" y2=\"135\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"280\" y1=\"135\" x2=\"360\" y2=\"135\" stroke=\"#10b981\" stroke-width=\"2\"/><text x=\"210\" y=\"52\" text-anchor=\"middle\" fill=\"#f59e0b\" font-size=\"11\">=</text></svg>"
         },
         {
-          "title": "Équations avec x dans les deux membres",
-          "content": "Quand x apparaît des deux côtés, on regroupe les termes en x d'un côté et les nombres de l'autre. Par exemple, pour 3x moins 7 égale 2x plus 5, on enlève 2x des deux côtés, ce qui donne x moins 7 égale 5. Puis on ajoute 7, ce qui donne x égale 12."
+          "title": "2. Règles de résolution d'une équation du 1er degré",
+          "content": "Pour isoler x, tu peux faire les mêmes opérations des deux côtés de l'égalité :\n• Ajouter ou soustraire le même nombre\n• Multiplier ou diviser par le même nombre (≠ 0)\n\nExemple : 3x + 5 = 20\nÉtape 1 → Soustraire 5 des deux côtés :\n   3x + 5 − 5 = 20 − 5  ⟹  3x = 15\nÉtape 2 → Diviser par 3 des deux côtés :\n   3x ÷ 3 = 15 ÷ 3  ⟹  x = 5\nVérification : 3 × 5 + 5 = 15 + 5 = 20 ✔"
         },
         {
-          "title": "Équations produits",
-          "content": "Une équation produit est de la forme A multiplié par B égale 0. La règle est simple : un produit est nul si et seulement si l'un de ses facteurs est nul. Par exemple, pour résoudre x moins 2 multiplié par x plus 3 égale 0, on obtient deux solutions : x égale 2 ou x égale moins 3."
+          "title": "3. Équations-produits : A × B = 0",
+          "content": "Quand un produit de deux facteurs est nul, c'est qu'au moins l'un des facteurs est nul. C'est la propriété fondamentale du zéro.\n\nRègle : Si A × B = 0, alors A = 0 ou B = 0.\n\nExemple : (2x − 4) × (x + 3) = 0\nCas 1 : 2x − 4 = 0  ⟹  2x = 4  ⟹  x = 2\nCas 2 : x + 3 = 0  ⟹  x = −3\n\nLes solutions sont x = 2 et x = −3.\n\nAttention : cette règle ne fonctionne QUE si le membre droit est 0. Si tu as A × B = 6, tu ne peux pas dire A = 6 ou B = 6 !"
         },
         {
-          "title": "Résoudre une inéquation",
-          "content": "On procède comme pour une équation, mais attention : quand on multiplie ou divise par un nombre négatif, on doit changer le sens de l'inégalité. Par exemple, moins 2x est supérieur à 6 : on divise par moins 2 et l'inégalité s'inverse, on obtient x est inférieur à moins 3."
-        },
-        {
-          "title": "Résoudre un problème",
-          "content": "Pour résoudre un problème avec une équation, on suit trois étapes. D'abord, on choisit l'inconnue et on l'appelle x. Ensuite, on met le problème en équation en traduisant l'énoncé. Enfin, on résout l'équation et on conclut par une phrase."
+          "title": "4. Inéquations et changement de sens",
+          "content": "Une inéquation, c'est comme une équation, mais avec un signe d'inégalité : <, >, ≤, ≥. La solution est un ensemble de valeurs (souvent un intervalle).\n\nRègles identiques à l'équation, SAUF : si tu multiplies ou divises par un nombre NÉGATIF, le sens de l'inégalité s'inverse !\n\nExemple : −2x + 3 < 9\nÉtape 1 : −2x < 9 − 3  ⟹  −2x < 6\nÉtape 2 : On divise par −2 (négatif !) ⟹ le sens s'inverse :\n   x > 6 ÷ (−2)  ⟹  x > −3\n\nSolution : x > −3, c'est-à-dire tous les nombres strictement supérieurs à −3."
         }
       ],
       "keyPoints": [
-        "Isoler l'inconnue x d'un côté de l'équation",
-        "Ce qu'on fait à un membre, on le fait à l'autre",
-        "Équation produit nul : un des facteurs est nul",
-        "Inéquation : inverser le sens si on multiplie ou divise par un négatif",
-        "Toujours conclure par une phrase quand c'est un problème"
+        "Une équation est une égalité avec une inconnue x ; résoudre, c'est trouver la valeur de x qui la rend vraie.",
+        "On peut ajouter, soustraire, multiplier ou diviser des deux membres par un même nombre sans changer les solutions.",
+        "Pour une équation du 1er degré ax + b = c, on isole x en deux étapes : soustraire b puis diviser par a.",
+        "Si A × B = 0, alors A = 0 ou B = 0 (propriété du produit nul).",
+        "Une inéquation donne comme solution un ensemble de valeurs (un intervalle) et non une valeur unique.",
+        "Attention : multiplier ou diviser une inéquation par un nombre négatif inverse le sens du signe (< devient >, etc.)."
       ]
     },
     "calcul-litteral": {
       "title": "Calcul littéral",
-      "intro": "Le calcul littéral consiste à manipuler des expressions avec des lettres. On apprend à développer, factoriser et réduire ces expressions. Les identités remarquables sont des formules très utiles à connaître par cœur.",
+      "intro": "À quoi ça sert d'écrire des lettres en maths ? Une lettre, c'est une valeur inconnue ou variable : elle te permet d'écrire une règle une seule fois pour tous les cas. Par exemple, le périmètre d'un rectangle de largeur a et longueur b vaut toujours 2(a + b), quelle que soit la taille du rectangle. C'est ça, la puissance du calcul littéral !",
       "sections": [
         {
-          "title": "Développer une expression",
-          "content": "Développer, c'est transformer un produit en somme. On utilise la distributivité. Par exemple, 3 multiplié par x plus 4 se développe en 3x plus 12. Pour deux parenthèses, par exemple x plus 2 multiplié par x plus 3, on développe chaque terme avec chaque terme : x au carré plus 3x plus 2x plus 6, soit x au carré plus 5x plus 6."
+          "title": "1. Pourquoi utiliser des lettres ?",
+          "content": "Une lettre représente un nombre qu'on ne connaît pas encore (ou qui peut changer). On l'appelle variable ou inconnue. Par exemple, si tu vends x bonbons à 0,50 € pièce, ta recette est 0,5 × x = 0,5x €. Cette formule marche pour n'importe quelle valeur de x. On écrit souvent le produit sans le signe × : 3 × a = 3a, et a × b = ab. Attention : on n'écrit jamais le signe × entre un nombre et une lettre, ni entre deux lettres."
         },
         {
-          "title": "Factoriser une expression",
-          "content": "Factoriser, c'est l'inverse de développer : on transforme une somme en produit. On cherche un facteur commun. Par exemple, dans 4x plus 8, le facteur commun est 4, donc on écrit 4 multiplié par x plus 2. Factoriser est très utile pour résoudre des équations produits."
+          "title": "2. Réduire une expression",
+          "content": "Réduire une expression, c'est regrouper les termes semblables (mêmes lettres, mêmes exposants) pour simplifier. Exemple : 3a + 5b − a + 2b. On regroupe les termes en a : 3a − a = 2a, et les termes en b : 5b + 2b = 7b. Résultat : 2a + 7b. Autre exemple : 4x² − 3x + 5x² + x = (4 + 5)x² + (−3 + 1)x = 9x² − 2x. Astuce : on ne peut jamais regrouper 3a avec 3a² car les exposants sont différents !"
         },
         {
-          "title": "Identités remarquables : les carrés",
-          "content": "Il y a deux identités à connaître par cœur. Premièrement, a plus b au carré égale a au carré plus 2ab plus b au carré. Par exemple, x plus 5 au carré donne x au carré plus 10x plus 25. Deuxièmement, a moins b au carré égale a au carré moins 2ab plus b au carré. Par exemple, 2x moins 3 au carré donne 4x au carré moins 12x plus 9."
+          "title": "3. Distributivité et double distributivité",
+          "content": "Distributivité simple : k(a + b) = k × a + k × b. Exemple : 3(2x + 5) = 3 × 2x + 3 × 5 = 6x + 15. Double distributivité (a + b)(c + d) = ac + ad + bc + bd — on multiplie chaque terme du premier facteur par chaque terme du second. Exemple : (x + 3)(x + 2) = x × x + x × 2 + 3 × x + 3 × 2 = x² + 2x + 3x + 6 = x² + 5x + 6. Moyen mnémotechnique : « chaque terme de gauche multiplie chaque terme de droite ».",
+          "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"40\" y=\"40\" width=\"140\" height=\"80\" fill=\"#3b82f680\" stroke=\"#e5e7eb\" stroke-width=\"1.5\" rx=\"2\"/><rect x=\"180\" y=\"40\" width=\"100\" height=\"80\" fill=\"#f59e0b60\" stroke=\"#e5e7eb\" stroke-width=\"1.5\" rx=\"2\"/><text x=\"110\" y=\"88\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"18\" font-weight=\"bold\">k·a</text><text x=\"230\" y=\"88\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"18\" font-weight=\"bold\">k·b</text><text x=\"10\" y=\"88\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"14\">k</text><line x1=\"18\" y1=\"40\" x2=\"18\" y2=\"120\" stroke=\"#e5e7eb\" stroke-width=\"1\" stroke-dasharray=\"3,2\"/><text x=\"110\" y=\"30\" text-anchor=\"middle\" fill=\"#93c5fd\" font-size=\"13\">a</text><text x=\"230\" y=\"30\" text-anchor=\"middle\" fill=\"#fcd34d\" font-size=\"13\">b</text><line x1=\"40\" y1=\"20\" x2=\"180\" y2=\"20\" stroke=\"#93c5fd\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"20\" x2=\"280\" y2=\"20\" stroke=\"#fcd34d\" stroke-width=\"1.5\"/><text x=\"160\" y=\"160\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"13\">k × (a + b)  =  k·a  +  k·b</text><text x=\"160\" y=\"180\" text-anchor=\"middle\" fill=\"#9ca3af\" font-size=\"11\">L'aire totale = somme des deux aires</text><text x=\"40\" y=\"20\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">|</text><text x=\"280\" y=\"20\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">|</text></svg>"
         },
         {
-          "title": "Identité remarquable : la différence de carrés",
-          "content": "La troisième identité remarquable est a au carré moins b au carré égale a moins b multiplié par a plus b. Elle sert beaucoup pour factoriser. Par exemple, x au carré moins 9, c'est x au carré moins 3 au carré, donc cela se factorise en x moins 3 multiplié par x plus 3."
-        },
-        {
-          "title": "Réduire une expression",
-          "content": "Réduire, c'est regrouper les termes de même nature. Les x avec les x, les x au carré avec les x au carré, et les nombres avec les nombres. Par exemple, 3x plus 5 plus 2x moins 1 se réduit en 5x plus 4."
+          "title": "4. Identités remarquables et factorisation",
+          "content": "Trois formules à connaître par cœur. (a + b)² = a² + 2ab + b² — ex : (x + 3)² = x² + 6x + 9. (a − b)² = a² − 2ab + b² — ex : (x − 4)² = x² − 8x + 16. (a + b)(a − b) = a² − b² — ex : (x + 5)(x − 5) = x² − 25. Factoriser, c'est l'inverse : transformer une somme en produit. Exemple : x² − 9 = (x + 3)(x − 3). Autre exemple : 6x + 15 = 3(2x + 5) — on sort le facteur commun 3. Ces formules te font gagner du temps dans tous les calculs !"
         }
       ],
       "keyPoints": [
-        "Développer : produit vers somme, on distribue",
-        "Factoriser : somme vers produit, on cherche un facteur commun",
-        "Identité 1 : a plus b au carré égale a carré plus 2ab plus b carré",
-        "Identité 2 : a moins b au carré égale a carré moins 2ab plus b carré",
-        "Identité 3 : a carré moins b carré égale a moins b multiplié par a plus b"
+        "Une lettre représente un nombre quelconque ; écrire 3a signifie 3 × a.",
+        "Réduire = regrouper les termes semblables : 4x + 2x − x = 5x.",
+        "Distributivité simple : k(a + b) = ka + kb (facteur commun devant la parenthèse).",
+        "Double distributivité : (a + b)(c + d) = ac + ad + bc + bd.",
+        "Identités remarquables : (a + b)² = a² + 2ab + b², (a − b)² = a² − 2ab + b², (a + b)(a − b) = a² − b².",
+        "Factoriser, c'est écrire une expression sous forme de produit, par exemple x² − 25 = (x + 5)(x − 5)."
       ]
     },
     "fractions-puissances": {
       "title": "Fractions et puissances",
-      "intro": "Les fractions et les puissances sont des outils de base en mathématiques. Maîtriser leurs règles de calcul est essentiel pour réussir le Brevet, notamment dans la partie calcul numérique.",
+      "intro": "Les fractions et les puissances sont deux outils essentiels des maths de 3e — et ils sont bien plus liés qu'ils n'y paraissent ! Une puissance négative, c'est tout simplement une fraction. Maîtriser ces notions, c'est poser des bases solides pour le brevet et pour la suite. Accroche-toi, tu vas voir : avec de bons repères, tout devient logique.",
       "sections": [
         {
-          "title": "Additionner des fractions",
-          "content": "Pour additionner ou soustraire deux fractions, il faut d'abord les mettre au même dénominateur. Par exemple, pour calculer 2 tiers plus 1 sixième, on transforme 2 tiers en 4 sixièmes en multipliant numérateur et dénominateur par 2. On obtient alors 4 sixièmes plus 1 sixième égale 5 sixièmes."
+          "title": "1. Additionner et soustraire des fractions",
+          "content": "Pour additionner ou soustraire des fractions, il faut le même dénominateur. S'il est déjà identique, tu opères uniquement sur les numérateurs.\n\nExemple : 2/7 + 3/7 = 5/7\n\nDénominateurs différents ? Tu cherches un dénominateur commun. Exemple : 1/3 + 1/4. Commun = 12 : 1/3 = 4/12, 1/4 = 3/12, donc 4/12 + 3/12 = 7/12. Simplifie toujours le résultat si possible !",
+          "svg": "<svg viewBox=\"0 0 400 160\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><rect x=\"10\" y=\"60\" width=\"160\" height=\"40\" rx=\"5\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"60\" width=\"45.7\" height=\"40\" rx=\"0\" fill=\"#6366f1\" opacity=\"0.85\"/><rect x=\"10\" y=\"60\" width=\"45.7\" height=\"40\" rx=\"5\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"55.7\" y1=\"60\" x2=\"55.7\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"101.3\" y1=\"60\" x2=\"101.3\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"147\" y1=\"60\" x2=\"147\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><text x=\"30\" y=\"128\" fill=\"#e5e7eb\" font-size=\"13\" text-anchor=\"middle\">1/4</text><text x=\"78.5\" y=\"128\" fill=\"#e5e7eb\" font-size=\"13\" text-anchor=\"middle\">2/4</text><text x=\"124\" y=\"128\" fill=\"#e5e7eb\" font-size=\"13\" text-anchor=\"middle\">3/4</text><text x=\"160\" y=\"128\" fill=\"#e5e7eb\" font-size=\"13\" text-anchor=\"middle\">4/4</text><text x=\"90\" y=\"45\" fill=\"#a5b4fc\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">1/4 colorié sur 4 parts</text><text x=\"280\" y=\"75\" fill=\"#e5e7eb\" font-size=\"13\" text-anchor=\"middle\">1/4 + 1/4 = 2/4 = 1/2</text><text x=\"280\" y=\"100\" fill=\"#fbbf24\" font-size=\"12\" text-anchor=\"middle\">même dénominateur → on additionne</text><text x=\"280\" y=\"120\" fill=\"#fbbf24\" font-size=\"12\" text-anchor=\"middle\">les numérateurs</text></svg>"
         },
         {
-          "title": "Multiplier et diviser des fractions",
-          "content": "Pour multiplier deux fractions, on multiplie les numérateurs entre eux et les dénominateurs entre eux. Pour diviser par une fraction, on multiplie par son inverse. Par exemple, diviser par 2 tiers revient à multiplier par 3 demis. On pense toujours à simplifier le résultat à la fin."
+          "title": "2. Multiplier et diviser des fractions",
+          "content": "Multiplier : tu multiplies numérateurs ensemble et dénominateurs ensemble.\nExemple : (3/5) × (2/7) = 6/35\n\nDiviser : tu multiplies par l'inverse. L'inverse de a/b est b/a.\nExemple : (3/4) ÷ (2/5) = (3/4) × (5/2) = 15/8\n\nAstuce : simplifie AVANT de multiplier. (4/9) × (3/8) → 4 et 8 divisés par 4, 3 et 9 par 3 → résultat = 1/6. Bien plus rapide !"
         },
         {
-          "title": "Règles sur les puissances",
-          "content": "Pour multiplier deux puissances de même base, on additionne les exposants. Par exemple, 2 puissance 3 multiplié par 2 puissance 4 égale 2 puissance 7. Pour diviser, on soustrait les exposants. Et quand on élève une puissance à une autre puissance, on multiplie les exposants : 3 au carré puissance 4 égale 3 puissance 8."
+          "title": "3. Les puissances entières",
+          "content": "La notation aⁿ signifie que tu multiplies a par lui-même n fois. Par exemple : 3⁴ = 3 × 3 × 3 × 3 = 81.\n\nRègles des puissances à connaître absolument :\n• aᵐ × aⁿ = aᵐ⁺ⁿ  →  2³ × 2⁵ = 2⁸\n• aᵐ ÷ aⁿ = aᵐ⁻ⁿ  →  5⁶ ÷ 5² = 5⁴\n• (aᵐ)ⁿ = aᵐ×ⁿ  →  (3²)⁴ = 3⁸\n• a⁰ = 1 (pour tout a ≠ 0)\n• a⁻ⁿ = 1/aⁿ  →  2⁻³ = 1/2³ = 1/8\n\nLe lien avec les fractions est direct : une puissance négative, c'est l'inverse d'une puissance positive. Exemple : 10⁻² = 1/10² = 1/100 = 0,01."
         },
         {
-          "title": "Puissances particulières",
-          "content": "Tout nombre non nul élevé à la puissance 0 vaut 1. Un nombre à la puissance moins n est égal à 1 divisé par ce nombre à la puissance n. Par exemple, 10 puissance moins 3 égale 1 sur 1000, soit 0,001."
-        },
-        {
-          "title": "Notation scientifique",
-          "content": "La notation scientifique permet d'écrire les très grands ou très petits nombres simplement. Un nombre en notation scientifique s'écrit sous la forme a multiplié par 10 puissance n, où a est un nombre entre 1 et 10, et n est un entier. Par exemple, 0,00045 s'écrit 4,5 multiplié par 10 puissance moins 4."
+          "title": "4. Puissances de 10 et notation scientifique",
+          "content": "10³ = 1 000 ; 10⁻³ = 0,001 ; 10⁶ = 1 000 000.\n\nNotation scientifique : a × 10ⁿ avec 1 ≤ a < 10.\n• 45 000 = 4,5 × 10⁴\n• 0,000 32 = 3,2 × 10⁻⁴\n\nTu déplaces la virgule pour obtenir un chiffre entre 1 et 10 : chaque déplacement à gauche donne un exposant positif, à droite un exposant négatif.\n\nCalculer : (3 × 10⁵) × (2 × 10³) = 6 × 10⁸. On multiplie les coefficients, on additionne les exposants."
         }
       ],
       "keyPoints": [
-        "Pour additionner des fractions : même dénominateur d'abord",
-        "Multiplier les puissances de même base : on additionne les exposants",
-        "Puissance de puissance : on multiplie les exposants",
-        "Tout nombre à la puissance 0 vaut 1",
-        "Notation scientifique : un nombre entre 1 et 10 multiplié par une puissance de 10"
+        "Pour additionner ou soustraire des fractions, il faut impérativement un dénominateur commun ; les numérateurs s'additionnent ou se soustraient, le dénominateur reste inchangé.",
+        "Multiplier des fractions : numérateur × numérateur et dénominateur × dénominateur ; diviser revient à multiplier par l'inverse.",
+        "Simplifie toujours une fraction en divisant le numérateur et le dénominateur par leur plus grand diviseur commun (PGCD).",
+        "Les règles des puissances : aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ, (aᵐ)ⁿ = aᵐⁿ, et a⁰ = 1.",
+        "Une puissance négative est une fraction : a⁻ⁿ = 1/aⁿ (par exemple 5⁻² = 1/25).",
+        "La notation scientifique s'écrit a × 10ⁿ avec 1 ≤ a < 10 ; elle est indispensable pour exprimer des grandeurs très grandes ou très petites."
       ]
     },
     "stats-probas": {
       "title": "Statistiques et probabilités",
-      "intro": "Les statistiques permettent d'analyser des données, tandis que les probabilités étudient le hasard. Ces deux chapitres sont très présents au Brevet, souvent dans des exercices concrets de la vie quotidienne.",
+      "intro": "Tu as déjà lancé un dé en te demandant « Quelle est ma chance ? » ou regardé la moyenne de la classe après un contrôle ? Ces deux questions relèvent des maths ! Les statistiques permettent d'analyser des données réelles, et les probabilités de mesurer le hasard avec précision. Deux outils puissants pour comprendre le monde.",
       "sections": [
         {
-          "title": "La moyenne",
-          "content": "La moyenne d'une série de valeurs s'obtient en additionnant toutes les valeurs puis en divisant par le nombre de valeurs. Par exemple, pour les notes 10, 12, 14 et 16, la moyenne est 10 plus 12 plus 14 plus 16 divisé par 4, ce qui donne 52 divisé par 4, soit 13."
+          "title": "1. Analyser une série de données",
+          "content": "Voici les notes de 7 élèves lors d'un contrôle : 8, 12, 15, 10, 12, 9, 14.\n\nL'étendue mesure l'écart entre la valeur la plus grande et la plus petite :\nÉtendue = 15 − 8 = 7\n\nLa moyenne est la somme de toutes les valeurs divisée par leur nombre :\nMoyenne = (8 + 12 + 15 + 10 + 12 + 9 + 14) ÷ 7 = 80 ÷ 7 ≈ 11,4\n\nLa médiane est la valeur centrale une fois la série rangée dans l'ordre croissant.\nSérie ordonnée : 8, 9, 10, 12, 12, 14, 15\nIl y a 7 valeurs → la médiane est la 4ᵉ valeur : Médiane = 12\n\nSi la série a un nombre pair de valeurs, la médiane est la moyenne des deux valeurs centrales.",
+          "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"50\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"170\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"25\" y=\"174\" fill=\"#94a3b8\" font-size=\"11\">0</text><text x=\"25\" y=\"128\" fill=\"#94a3b8\" font-size=\"11\">5</text><text x=\"18\" y=\"83\" fill=\"#94a3b8\" font-size=\"11\">10</text><text x=\"18\" y=\"37\" fill=\"#94a3b8\" font-size=\"11\">15</text><line x1=\"50\" y1=\"130\" x2=\"400\" y2=\"130\" stroke=\"#475569\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><line x1=\"50\" y1=\"84\" x2=\"400\" y2=\"84\" stroke=\"#475569\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><line x1=\"50\" y1=\"38\" x2=\"400\" y2=\"38\" stroke=\"#475569\" stroke-width=\"0.5\" stroke-dasharray=\"4 3\"/><rect x=\"65\" y=\"106\" width=\"32\" height=\"64\" fill=\"#60a5fa\" rx=\"2\"/><text x=\"81\" y=\"100\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">8</text><text x=\"81\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é1</text><rect x=\"115\" y=\"74\" width=\"32\" height=\"96\" fill=\"#34d399\" rx=\"2\"/><text x=\"131\" y=\"68\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">12</text><text x=\"131\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é2</text><rect x=\"165\" y=\"38\" width=\"32\" height=\"132\" fill=\"#f472b6\" rx=\"2\"/><text x=\"181\" y=\"32\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">15</text><text x=\"181\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é3</text><rect x=\"215\" y=\"90\" width=\"32\" height=\"80\" fill=\"#fb923c\" rx=\"2\"/><text x=\"231\" y=\"84\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">10</text><text x=\"231\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é4</text><rect x=\"265\" y=\"74\" width=\"32\" height=\"96\" fill=\"#34d399\" rx=\"2\"/><text x=\"281\" y=\"68\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">12</text><text x=\"281\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é5</text><rect x=\"315\" y=\"98\" width=\"32\" height=\"72\" fill=\"#a78bfa\" rx=\"2\"/><text x=\"331\" y=\"92\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">9</text><text x=\"331\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é6</text><rect x=\"365\" y=\"58\" width=\"32\" height=\"112\" fill=\"#facc15\" rx=\"2\"/><text x=\"381\" y=\"52\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">14</text><text x=\"381\" y=\"185\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">é7</text><line x1=\"50\" y1=\"74\" x2=\"400\" y2=\"74\" stroke=\"#f87171\" stroke-width=\"1.5\" stroke-dasharray=\"6 3\"/><text x=\"403\" y=\"78\" fill=\"#f87171\" font-size=\"10\">moy</text></svg>"
         },
         {
-          "title": "La médiane et l'étendue",
-          "content": "Pour trouver la médiane, on range les valeurs dans l'ordre croissant. La médiane est la valeur du milieu. Pour 5 valeurs comme 2, 4, 5, 7 et 9, la médiane est la troisième valeur, c'est-à-dire 5. L'étendue est la différence entre la plus grande et la plus petite valeur. Pour la série 3, 7, 9, 12 et 15, l'étendue est 15 moins 3, soit 12."
+          "title": "2. Lire et interpréter des données",
+          "content": "Les données statistiques sont souvent présentées dans un tableau ou un graphique (diagramme en barres, en secteurs, courbe). Il faut savoir les lire correctement.\n\nExemple : un sondage auprès de 40 élèves sur leur sport préféré donne :\n• Football : 16 élèves\n• Natation : 10 élèves\n• Tennis : 8 élèves\n• Autre : 6 élèves\n\nOn peut calculer la fréquence de chaque valeur :\nFréquence football = 16 ÷ 40 = 0,4 soit 40 %\n\nLa fréquence indique la proportion de la population concernée. Elle est toujours comprise entre 0 et 1. La somme de toutes les fréquences est toujours égale à 1."
         },
         {
-          "title": "Calculer une probabilité",
-          "content": "La probabilité d'un événement est égale au nombre de cas favorables divisé par le nombre total de cas possibles. Par exemple, la probabilité d'obtenir un 6 en lançant un dé à six faces est 1 sur 6, car il y a un seul cas favorable sur six possibles. Une probabilité est toujours comprise entre 0 et 1."
+          "title": "3. Notion de probabilité",
+          "content": "La probabilité d'un événement mesure sa chance de se réaliser. C'est un nombre compris entre 0 et 1 :\n• P = 0 → événement impossible\n• P = 1 → événement certain\n• P = 1/2 → autant de chances d'avoir lieu que de ne pas avoir lieu\n\nFormule : P(A) = (nombre de cas favorables) ÷ (nombre de cas possibles)\n\nExemple avec un dé à 6 faces :\nP(obtenir un 3) = 1/6\nP(obtenir un nombre pair) = 3/6 = 1/2 (les nombres pairs sont 2, 4, 6)\nP(obtenir un 7) = 0/6 = 0 (impossible)\nP(obtenir un nombre entre 1 et 6) = 6/6 = 1 (certain)\n\nExemple avec une pièce :\nP(tomber sur Face) = 1/2",
+          "svg": "<svg viewBox=\"0 0 420 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><line x1=\"40\" y1=\"100\" x2=\"380\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"40\" y1=\"95\" x2=\"40\" y2=\"105\" stroke=\"#94a3b8\" stroke-width=\"2\"/><line x1=\"380\" y1=\"95\" x2=\"380\" y2=\"105\" stroke=\"#94a3b8\" stroke-width=\"2\"/><text x=\"40\" y=\"120\" fill=\"#e5e7eb\" font-size=\"12\" text-anchor=\"middle\">0</text><text x=\"380\" y=\"120\" fill=\"#e5e7eb\" font-size=\"12\" text-anchor=\"middle\">1</text><circle cx=\"40\" cy=\"100\" r=\"6\" fill=\"#f87171\"/><text x=\"40\" y=\"78\" fill=\"#f87171\" font-size=\"11\" text-anchor=\"middle\">Impossible</text><text x=\"40\" y=\"92\" fill=\"#f87171\" font-size=\"10\" text-anchor=\"middle\">P=0</text><circle cx=\"210\" cy=\"100\" r=\"6\" fill=\"#facc15\"/><line x1=\"210\" y1=\"95\" x2=\"210\" y2=\"105\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"210\" y=\"120\" fill=\"#e5e7eb\" font-size=\"12\" text-anchor=\"middle\">1/2</text><text x=\"210\" y=\"78\" fill=\"#facc15\" font-size=\"11\" text-anchor=\"middle\">Une chance sur deux</text><text x=\"210\" y=\"92\" fill=\"#facc15\" font-size=\"10\" text-anchor=\"middle\">Pièce : Face</text><circle cx=\"380\" cy=\"100\" r=\"6\" fill=\"#34d399\"/><text x=\"380\" y=\"78\" fill=\"#34d399\" font-size=\"11\" text-anchor=\"middle\">Certain</text><text x=\"380\" y=\"92\" fill=\"#34d399\" font-size=\"10\" text-anchor=\"middle\">P=1</text><circle cx=\"107\" cy=\"100\" r=\"5\" fill=\"#60a5fa\"/><line x1=\"107\" y1=\"95\" x2=\"107\" y2=\"105\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"107\" y=\"120\" fill=\"#e5e7eb\" font-size=\"11\" text-anchor=\"middle\">1/6</text><text x=\"107\" y=\"145\" fill=\"#60a5fa\" font-size=\"10\" text-anchor=\"middle\">Dé : un 3</text><text x=\"210\" y=\"170\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">← Plus improbable · · · · · · · · · · · · Plus probable →</text></svg>"
         },
         {
-          "title": "Probabilités et expériences à plusieurs étapes",
-          "content": "Quand on enchaîne deux expériences indépendantes, on multiplie les probabilités. Par exemple, la probabilité d'obtenir deux fois pile en lançant deux fois une pièce est un demi multiplié par un demi, soit un quart. On peut aussi représenter la situation avec un arbre de probabilités."
-        },
-        {
-          "title": "Vocabulaire utile",
-          "content": "Un événement certain a une probabilité de 1, un événement impossible a une probabilité de 0. Deux événements sont contraires si l'un est exactement la négation de l'autre. La somme des probabilités d'un événement et de son contraire vaut toujours 1."
+          "title": "4. Probabilités et fréquences",
+          "content": "Il y a un lien fort entre probabilité et fréquence observée dans une expérience.\n\nSi on lance une pièce 100 fois, on ne tombe pas forcément exactement 50 fois sur Face. Mais plus on répète l'expérience, plus la fréquence observée de Face se rapproche de la probabilité théorique 1/2.\n\nExemple : on lance un dé 60 fois et on obtient le chiffre 1 exactement 11 fois.\nFréquence observée = 11/60 ≈ 0,183\nProbabilité théorique = 1/6 ≈ 0,167\n\nLes deux valeurs sont proches. Plus le nombre de lancers augmente, plus la fréquence se rapproche de la probabilité. C'est ce qu'on appelle la stabilisation des fréquences : une grande idée des probabilités !"
         }
       ],
       "keyPoints": [
-        "Moyenne : somme des valeurs divisée par le nombre de valeurs",
-        "Médiane : valeur du milieu après avoir rangé dans l'ordre croissant",
-        "Étendue : différence entre la plus grande et la plus petite valeur",
-        "Probabilité : cas favorables divisés par cas possibles",
-        "Probabilités enchaînées : on multiplie le long des branches d'un arbre"
+        "L'étendue d'une série = valeur maximale − valeur minimale.",
+        "La moyenne = somme de toutes les valeurs ÷ nombre de valeurs.",
+        "La médiane est la valeur centrale de la série rangée dans l'ordre croissant.",
+        "Une probabilité est un nombre entre 0 (impossible) et 1 (certain) : P(A) = cas favorables ÷ cas possibles.",
+        "La somme des probabilités de tous les résultats possibles d'une expérience est toujours égale à 1.",
+        "Plus on répète une expérience aléatoire, plus la fréquence observée se rapproche de la probabilité théorique."
       ]
     },
     "fonctions": {
       "title": "Fonctions linéaires et affines",
-      "intro": "Une fonction est une relation qui à un nombre x associe un autre nombre noté f de x. Au collège, on étudie surtout les fonctions linéaires et affines. Elles sont à la base de nombreux problèmes du Brevet.",
+      "intro": "Tu as déjà remarqué que plus tu roules vite, plus tu parcours de distance en peu de temps ? Ou que le prix d'un forfait téléphone augmente avec le nombre de mois ? Ces situations cachent toutes une fonction ! Dans ce cours, tu vas découvrir deux types de fonctions essentielles au brevet : la fonction linéaire et la fonction affine. Accroche-toi, les graphiques vont devenir tes meilleurs alliés.",
       "sections": [
         {
-          "title": "Fonction linéaire",
-          "content": "Une fonction linéaire est de la forme f de x égale ax, où a est un nombre fixé appelé coefficient. Sa représentation graphique est une droite qui passe par l'origine du repère. Les fonctions linéaires sont utilisées pour modéliser les situations de proportionnalité."
+          "title": "1. Fonction linéaire f(x) = a × x",
+          "content": "Une fonction linéaire est une fonction de la forme f(x) = a × x, où a est un nombre réel appelé coefficient directeur. Elle traduit une situation de proportionnalité : quand x double, f(x) double aussi.\n\nExemple : f(x) = 3 × x. Calcule f(2) = 3 × 2 = 6 et f(−1) = 3 × (−1) = −3.\n\nSon graphe est une droite qui passe TOUJOURS par l'origine O(0 ; 0). Si a > 0, la droite monte ; si a < 0, elle descend. Plus |a| est grand, plus la droite est « raide ».",
+          "svg": "<svg viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><defs><marker id=\"ah1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"2\" orient=\"auto\"><polygon points=\"0 0, 4 2, 0 4\" fill=\"#94a3b8\"/></marker></defs><line x1=\"20\" y1=\"130\" x2=\"285\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1.5\" marker-end=\"url(#ah1)\"/><line x1=\"150\" y1=\"245\" x2=\"150\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"1.5\" marker-end=\"url(#ah1)\"/><text x=\"288\" y=\"134\" fill=\"#e5e7eb\" font-size=\"13\">x</text><text x=\"154\" y=\"13\" fill=\"#e5e7eb\" font-size=\"13\">y</text><text x=\"138\" y=\"144\" fill=\"#e5e7eb\" font-size=\"12\">O</text><line x1=\"20\" y1=\"237\" x2=\"280\" y2=\"23\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><text x=\"210\" y=\"40\" fill=\"#22c55e\" font-size=\"12\">f(x) = 2x</text><line x1=\"90\" y1=\"128\" x2=\"90\" y2=\"132\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"84\" y=\"145\" fill=\"#94a3b8\" font-size=\"11\">−3</text><line x1=\"210\" y1=\"128\" x2=\"210\" y2=\"132\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"206\" y=\"145\" fill=\"#94a3b8\" font-size=\"11\">3</text><line x1=\"148\" y1=\"70\" x2=\"152\" y2=\"70\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"125\" y=\"74\" fill=\"#94a3b8\" font-size=\"11\">+6</text><line x1=\"148\" y1=\"190\" x2=\"152\" y2=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"122\" y=\"194\" fill=\"#94a3b8\" font-size=\"11\">−6</text></svg>"
         },
         {
-          "title": "Fonction affine",
-          "content": "Une fonction affine est de la forme f de x égale ax plus b. Le nombre a est le coefficient directeur, et b est l'ordonnée à l'origine. Sa représentation graphique est une droite. Quand b est nul, on retrouve une fonction linéaire."
+          "title": "2. Fonction affine f(x) = a × x + b",
+          "content": "Une fonction affine est de la forme f(x) = a × x + b, avec deux paramètres importants :\n• a est le coefficient directeur (la pente de la droite).\n• b est l'ordonnée à l'origine : c'est la valeur de f(0), l'endroit où la droite coupe l'axe des y.\n\nExemple : f(x) = 2 × x + 3. En x = 0, f(0) = 3 → la droite coupe l'axe y en (0 ; 3). En x = 2, f(2) = 2 × 2 + 3 = 7.\n\nAttention : une fonction linéaire est un cas particulier de fonction affine avec b = 0.",
+          "svg": "<svg viewBox=\"0 0 300 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><defs><marker id=\"ah2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"2\" orient=\"auto\"><polygon points=\"0 0, 4 2, 0 4\" fill=\"#94a3b8\"/></marker></defs><line x1=\"20\" y1=\"150\" x2=\"285\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\" marker-end=\"url(#ah2)\"/><line x1=\"110\" y1=\"245\" x2=\"110\" y2=\"15\" stroke=\"#94a3b8\" stroke-width=\"1.5\" marker-end=\"url(#ah2)\"/><text x=\"288\" y=\"154\" fill=\"#e5e7eb\" font-size=\"13\">x</text><text x=\"114\" y=\"13\" fill=\"#e5e7eb\" font-size=\"13\">y</text><text x=\"95\" y=\"164\" fill=\"#e5e7eb\" font-size=\"12\">O</text><line x1=\"20\" y1=\"230\" x2=\"285\" y2=\"50\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><text x=\"220\" y=\"65\" fill=\"#38bdf8\" font-size=\"12\">f(x) = 2x + 3</text><circle cx=\"110\" cy=\"102\" r=\"5\" fill=\"#f59e0b\"/><line x1=\"106\" y1=\"102\" x2=\"114\" y2=\"102\" stroke=\"#f59e0b\" stroke-width=\"1\"/><text x=\"116\" y=\"100\" fill=\"#f59e0b\" font-size=\"12\">b = 3</text><line x1=\"108\" y1=\"148\" x2=\"108\" y2=\"152\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"170\" y1=\"148\" x2=\"170\" y2=\"152\" stroke=\"#94a3b8\" stroke-width=\"1\"/><text x=\"164\" y=\"165\" fill=\"#94a3b8\" font-size=\"11\">3</text><line x1=\"108\" y1=\"100\" x2=\"112\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"102\" stroke=\"#38bdf8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"110\" y1=\"100\" x2=\"170\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"152\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"173\" y=\"130\" fill=\"#94a3b8\" font-size=\"11\">f(3) = 9</text></svg>"
         },
         {
-          "title": "Calculer une image",
-          "content": "L'image d'un nombre par une fonction, c'est le résultat quand on remplace x par ce nombre. Par exemple, pour la fonction f de x égale 3x plus 2, l'image de 4 est f de 4, c'est-à-dire 3 multiplié par 4 plus 2, ce qui donne 14."
+          "title": "3. Image et antécédent",
+          "content": "Ces deux mots reviennent tout le temps dans les exercices, alors mémorise-les bien !\n\n• L'image d'un nombre x par f, c'est le résultat que tu obtiens en calculant f(x).\n• L'antécédent d'un nombre k, c'est la valeur x telle que f(x) = k (tu résous une équation).\n\nExemple avec f(x) = 2 × x + 3 :\n→ Image de 4 : f(4) = 2 × 4 + 3 = 11. Donc l'image de 4 est 11.\n→ Antécédent de 7 : on pose 2 × x + 3 = 7 → 2 × x = 4 → x = 2. L'antécédent de 7 est 2."
         },
         {
-          "title": "Calculer un antécédent",
-          "content": "Trouver un antécédent, c'est trouver la valeur de x dont l'image est un nombre donné. Cela revient à résoudre une équation. Par exemple, pour f de x égale moins 2x plus 5, l'antécédent de 1 se trouve en résolvant moins 2x plus 5 égale 1, ce qui donne x égale 2."
-        },
-        {
-          "title": "Lecture graphique",
-          "content": "Sur un graphique, pour lire l'image d'un nombre x, on part de x sur l'axe horizontal, on monte jusqu'à la courbe, puis on lit la valeur sur l'axe vertical. Pour un antécédent, c'est l'inverse : on part de la valeur sur l'axe vertical et on lit le x correspondant."
+          "title": "4. Représentation graphique",
+          "content": "Pour tracer la droite d'une fonction affine f(x) = a × x + b, deux points suffisent !\n\nMéthode simple :\n1. Calcule f(0) = b → place le point A(0 ; b) sur l'axe y.\n2. Choisis une autre valeur de x, par exemple x = 1 : calcule f(1) = a + b → place le point B(1 ; a + b).\n3. Trace la droite passant par A et B.\n\nExemple : f(x) = −x + 4. A(0 ; 4) et B(1 ; 3). Tu traces la droite par ces deux points. Comme a = −1 < 0, la droite descend. Le coefficient directeur mesure la « raideur » et le sens : positif → monte, négatif → descend."
         }
       ],
       "keyPoints": [
-        "Fonction linéaire : f de x égale ax, droite passant par l'origine",
-        "Fonction affine : f de x égale ax plus b, droite quelconque",
-        "Coefficient directeur a : indique l'inclinaison de la droite",
-        "Ordonnée à l'origine b : c'est la valeur de f en 0",
-        "Trouver un antécédent revient à résoudre une équation"
+        "Une fonction linéaire a la forme f(x) = a × x ; son graphe est une droite passant par l'origine O.",
+        "Une fonction affine a la forme f(x) = a × x + b ; b est l'ordonnée à l'origine (point de départ sur l'axe y).",
+        "Le coefficient directeur a indique la pente : a > 0 → droite montante, a < 0 → droite descendante.",
+        "L'image d'un nombre x s'obtient en remplaçant x dans f(x) ; l'antécédent s'obtient en résolvant f(x) = k.",
+        "Deux points suffisent pour tracer une droite : calcule f(0) et f(1), puis relie les deux points.",
+        "La fonction linéaire est un cas particulier de la fonction affine avec b = 0 (pas de décalage vertical)."
       ]
     },
     "espace-volumes": {
       "title": "Géométrie dans l'espace et volumes",
-      "intro": "La géométrie dans l'espace s'intéresse aux solides en trois dimensions : cubes, pavés, cylindres, pyramides, cônes et boules. Il faut connaître les formules de volume de chaque solide pour le Brevet.",
+      "intro": "On vit dans un monde en 3D : une boîte de céréales, une balle de foot, un entonnoir… tous ces objets occupent un espace qu'on peut mesurer. Ce volume, c'est la quantité de « place » qu'un solide prend. Dans cette fiche, tu vas maîtriser les formules des solides usuels et apprendre à calculer proprement — des compétences clés pour le brevet !",
       "sections": [
         {
-          "title": "Volume d'un cube et d'un pavé droit",
-          "content": "Le volume d'un cube d'arête a est égal à a au cube, c'est-à-dire a multiplié par a multiplié par a. Par exemple, un cube de 4 centimètres d'arête a un volume de 64 centimètres cubes. Pour un pavé droit, le volume est égal à Longueur multipliée par largeur multipliée par hauteur."
+          "title": "1. Les solides usuels",
+          "content": "Il existe plusieurs familles de solides. Le pavé droit (ou rectangular box) a 6 faces rectangulaires ; le cube est un cas particulier où toutes les arêtes sont égales. Le cylindre a deux bases circulaires reliées par une surface latérale courbe. Le prisme a deux bases polygonales identiques et des faces latérales rectangulaires. La pyramide part d'une base polygonale et se termine en un sommet (apex) ; le cône part d'un disque et se termine en pointe. Enfin, la sphère est l'ensemble des points à égale distance d'un centre — comme une balle parfaite. Reconnaître ces solides est la première étape avant tout calcul.",
+          "svg": "<svg viewBox=\"0 0 440 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><g id=\"pave\"><polygon points=\"20,80 80,80 80,140 20,140\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><polygon points=\"80,80 105,55 105,115 80,140\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><polygon points=\"20,80 45,55 105,55 80,80\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"55\" x2=\"45\" y2=\"115\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"45\" y1=\"115\" x2=\"105\" y2=\"115\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"45\" y1=\"115\" x2=\"20\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"62\" y=\"170\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Pavé droit</text><text x=\"62\" y=\"184\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">L × l × h</text></g><g id=\"cylindre\"><ellipse cx=\"185\" cy=\"130\" rx=\"32\" ry=\"10\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"1.5\"/><ellipse cx=\"185\" cy=\"75\" rx=\"32\" ry=\"10\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"1.5\"/><line x1=\"153\" y1=\"75\" x2=\"153\" y2=\"130\" stroke=\"#60a5fa\" stroke-width=\"1.5\"/><line x1=\"217\" y1=\"75\" x2=\"217\" y2=\"130\" stroke=\"#60a5fa\" stroke-width=\"1.5\"/><text x=\"185\" y=\"170\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Cylindre</text><text x=\"185\" y=\"184\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">π × r² × h</text></g><g id=\"pyramide\"><polygon points=\"295,140 365,140 330,68\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/><line x1=\"295\" y1=\"140\" x2=\"315\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"315\" y1=\"150\" x2=\"385\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"385\" y1=\"150\" x2=\"365\" y2=\"140\" stroke=\"#f59e0b\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"68\" x2=\"315\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"330\" y=\"170\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Pyramide</text><text x=\"330\" y=\"184\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">⅓ × B × h</text></g><g id=\"sphere\"><circle cx=\"405\" cy=\"105\" r=\"38\" fill=\"none\" stroke=\"#a78bfa\" stroke-width=\"1.5\"/><ellipse cx=\"405\" cy=\"105\" rx=\"38\" ry=\"10\" fill=\"none\" stroke=\"#a78bfa\" stroke-width=\"1\" stroke-dasharray=\"5,3\"/><text x=\"405\" y=\"170\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Sphère</text><text x=\"405\" y=\"184\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">4/3 × π × r³</text></g></svg>"
         },
         {
-          "title": "Volume d'un cylindre",
-          "content": "Un cylindre est composé de deux disques identiques reliés par une surface courbe. Son volume est égal à pi multiplié par le rayon au carré multiplié par la hauteur. En clair, c'est l'aire du disque de base multipliée par la hauteur."
+          "title": "2. Formules de volume — pavé, cube, cylindre",
+          "content": "Le pavé droit de longueur L, largeur l et hauteur h a pour volume : V = L × l × h. Exemple : une boîte de 12 cm × 5 cm × 8 cm donne V = 12 × 5 × 8 = 480 cm³. Le cube d'arête a est un cas particulier : V = a³. Exemple : un dé de 1,5 cm d'arête → V = 1,5³ = 3,375 cm³. Le cylindre de rayon r et de hauteur h : V = π × r² × h. Exemple : un verre cylindrique de rayon 3 cm et de hauteur 10 cm → V = π × 3² × 10 = 90π ≈ 282,7 cm³. Retiens que la base du cylindre est un disque d'aire π × r²."
         },
         {
-          "title": "Volume d'une pyramide et d'un cône",
-          "content": "Pour une pyramide ou un cône, le volume est égal à un tiers multiplié par l'aire de la base multipliée par la hauteur. Pour une pyramide de base carrée de côté 6 et de hauteur 10, le volume est un tiers multiplié par 36 multiplié par 10, soit 120. Pour un cône, l'aire de la base est pi multiplié par le rayon au carré."
+          "title": "3. Formules de volume — prisme, pyramide, cône",
+          "content": "Le prisme de base B (aire de la base polygonale) et de hauteur h : V = B × h. Exemple : un prisme à base triangulaire de base 6 cm, hauteur de triangle 4 cm, longueur 10 cm → aire base = ½ × 6 × 4 = 12 cm², donc V = 12 × 10 = 120 cm³. La pyramide et le cône partagent la même formule : V = ⅓ × B × h. Pour la pyramide : B est l'aire de la base polygonale. Exemple : pyramide à base carrée 5 cm × 5 cm, hauteur 9 cm → V = ⅓ × 25 × 9 = 75 cm³. Pour le cône de rayon r et hauteur h : V = ⅓ × π × r² × h. Exemple : cône de glace, r = 2 cm, h = 12 cm → V = ⅓ × π × 4 × 12 = 16π ≈ 50,3 cm³.",
+          "svg": "<svg viewBox=\"0 0 440 200\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,sans-serif\"><g id=\"prisme\"><polygon points=\"30,140 90,140 90,75 30,75\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><polygon points=\"30,75 55,55 115,55 90,75\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><polygon points=\"90,75 115,55 115,120 90,140\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/><line x1=\"30\" y1=\"140\" x2=\"55\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"55\" y1=\"120\" x2=\"115\" y2=\"120\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"55\" y1=\"120\" x2=\"55\" y2=\"55\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"72\" y=\"167\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Prisme</text><text x=\"72\" y=\"181\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">B × h</text></g><g id=\"conedessin\"><ellipse cx=\"245\" cy=\"140\" rx=\"45\" ry=\"12\" fill=\"none\" stroke=\"#f87171\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"140\" x2=\"245\" y2=\"60\" stroke=\"#f87171\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"140\" x2=\"245\" y2=\"60\" stroke=\"#f87171\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"60\" x2=\"245\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"275\" y=\"108\" fill=\"#94a3b8\" font-size=\"10\">h</text><text x=\"247\" y=\"130\" fill=\"#94a3b8\" font-size=\"10\">r</text><text x=\"245\" y=\"167\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Cône</text><text x=\"245\" y=\"181\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">⅓ × π × r² × h</text></g><g id=\"spherebis\"><circle cx=\"385\" cy=\"100\" r=\"48\" fill=\"none\" stroke=\"#a78bfa\" stroke-width=\"1.5\"/><ellipse cx=\"385\" cy=\"100\" rx=\"48\" ry=\"13\" fill=\"none\" stroke=\"#a78bfa\" stroke-width=\"1\" stroke-dasharray=\"5,3\"/><line x1=\"385\" y1=\"100\" x2=\"433\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"412\" y=\"95\" fill=\"#94a3b8\" font-size=\"10\">r</text><text x=\"385\" y=\"167\" text-anchor=\"middle\" fill=\"#e5e7eb\" font-size=\"11\">Sphère</text><text x=\"385\" y=\"181\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10\">4/3 × π × r³</text></g></svg>"
         },
         {
-          "title": "Volume d'une boule",
-          "content": "Le volume d'une boule de rayon r est égal à quatre tiers multiplié par pi multiplié par le rayon au cube. C'est une formule à retenir absolument. On utilise pi égal environ 3,14 ou la touche pi de la calculatrice."
+          "title": "4. La sphère et ses calculs",
+          "content": "La sphère de rayon r a pour volume : V = 4/3 × π × r³. Exemple : un ballon de basket de rayon r = 12 cm → V = 4/3 × π × 12³ = 4/3 × π × 1 728 = 2 304π ≈ 7 238 cm³. Attention : r³ signifie r × r × r, pas r × 3 ! Pour une demi-sphère (hémisphère), on divise par 2 : V = 2/3 × π × r³. Exemple : bol hémisphérique de rayon 8 cm → V = 2/3 × π × 512 ≈ 1 072 cm³. La sphère possède le plus grand volume pour une surface donnée — c'est pourquoi les bulles de savon sont rondes !"
         },
         {
-          "title": "Sections et agrandissement",
-          "content": "Quand on coupe un solide par un plan, on obtient une section qui peut être un disque, un rectangle ou un triangle selon le solide. Lors d'un agrandissement de coefficient k, les longueurs sont multipliées par k, les aires par k au carré, et les volumes par k au cube."
+          "title": "5. Unités de volume et conversions",
+          "content": "Le volume se mesure en unités cubiques. Les principales : le mm³, le cm³, le dm³ et le m³. Conversions clés : 1 cm³ = 1 000 mm³ ; 1 dm³ = 1 000 cm³ ; 1 m³ = 1 000 dm³ = 1 000 000 cm³. Le litre (L) est une unité de capacité très utilisée : 1 L = 1 dm³ = 1 000 cm³ ; 1 mL = 1 cm³. Exemple pratique : un aquarium de 60 cm × 30 cm × 40 cm → V = 60 × 30 × 40 = 72 000 cm³ = 72 dm³ = 72 litres. Tu peux donc y mettre 72 litres d'eau maximum. Penser à convertir les unités AVANT de calculer pour éviter les erreurs !"
         }
       ],
       "keyPoints": [
-        "Volume du cube : arête au cube",
-        "Volume du pavé droit : longueur fois largeur fois hauteur",
-        "Volume du cylindre : pi fois rayon au carré fois hauteur",
-        "Pyramide et cône : un tiers fois aire de la base fois hauteur",
-        "Boule : quatre tiers fois pi fois rayon au cube",
-        "Agrandissement de coefficient k : volumes multipliés par k au cube"
+        "Pavé droit : V = L × l × h ; cube : V = a³ (cas particulier du pavé).",
+        "Cylindre : V = π × r² × h (la base est un disque d'aire π × r²).",
+        "Pyramide et cône : V = ⅓ × B × h (facteur ⅓ indispensable !).",
+        "Sphère : V = 4/3 × π × r³ (attention : r³ = r × r × r).",
+        "1 L = 1 dm³ = 1 000 cm³ = 1 mL⁻¹ ; convertir les unités avant de calculer.",
+        "Identifier le solide, repérer les données (r, h, L, l…), appliquer la bonne formule, puis convertir si besoin."
       ]
     }
   }
