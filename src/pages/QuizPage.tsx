@@ -144,6 +144,32 @@ export default function QuizPage() {
     )
   }
 
+  // Garde-fou : si la série est vide (chapitre sans question / index hors limites),
+  // on affiche un repli plutôt que de planter sur `current.question`.
+  if (!current) {
+    return (
+      <>
+        <header className="page-header">
+          <Link to={backTo} className="back-btn">
+            ←
+          </Link>
+          <h1>Quiz</h1>
+        </header>
+        <div className="empty">
+          <div className="emoji">🤔</div>
+          Aucune question à afficher pour le moment.
+          <Link
+            to={backTo}
+            className="btn-primary"
+            style={{ marginTop: 18, display: 'inline-block', maxWidth: 240 }}
+          >
+            Retour
+          </Link>
+        </div>
+      </>
+    )
+  }
+
   return (
     <>
       <header className="page-header">

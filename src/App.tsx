@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate, useParams } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import SubjectPage from './pages/SubjectPage'
 import QuizPage from './pages/QuizPage'
@@ -10,6 +10,13 @@ import LessonPage from './pages/LessonPage'
 import ExamPage from './pages/ExamPage'
 import AdminPage from './pages/AdminPage'
 import './App.css'
+
+// Remonte QuizPage à chaque changement de matière/chapitre, pour repartir d'un
+// état propre (évite un état de série/index figé en passant d'un quiz à un autre).
+function QuizRoute() {
+  const { subjectId, chapterId } = useParams()
+  return <QuizPage key={`${subjectId}/${chapterId}`} />
+}
 
 export default function App() {
   // Journal de connexion : un ping à l'ouverture du site (sauf la page admin).
@@ -64,7 +71,7 @@ export default function App() {
         path="/quiz/:subjectId/:chapterId"
         element={
           <div className="app-shell">
-            <QuizPage />
+            <QuizRoute />
           </div>
         }
       />

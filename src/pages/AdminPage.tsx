@@ -88,9 +88,9 @@ export default function AdminPage() {
     setTab(t)
     if ((t === 'connexions' || t === 'analyse') && !connLoaded) loadConnections(key)
   }
-  const refresh = () => {
-    loadReviews(key)
-    if (connLoaded || tab !== 'avis') loadConnections(key)
+  const refresh = async () => {
+    await loadReviews(key)
+    if (connLoaded || tab !== 'avis') await loadConnections(key)
   }
   const logout = () => {
     localStorage.removeItem(KEY_LS)

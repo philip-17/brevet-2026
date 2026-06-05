@@ -2038,7 +2038,7 @@
     rgba(99, 102, 241, 0.12),
     rgba(168, 85, 247, 0.12)
   );
-  border-left: 3px solid var(--primary);
+  border-left: 3px solid var(--accent, var(--primary));
   border-radius: 12px;
   font-size: 16px;
   line-height: 1.6;
@@ -2056,7 +2056,7 @@
 }
 
 .lesson-section:hover {
-  border-color: rgba(99, 102, 241, 0.4);
+  border-color: var(--accent, var(--primary));
 }
 
 .lesson-section-header {
@@ -3973,7 +3973,9 @@
   border-radius: 999px;
   white-space: nowrap;
   color: var(--accent);
+  background: rgba(255, 255, 255, 0.1);
   background: color-mix(in srgb, var(--accent) 18%, transparent);
+  border: 1px solid var(--accent);
   border: 1px solid color-mix(in srgb, var(--accent) 38%, transparent);
 }
 .quiz-live .quiz-card {
@@ -4036,7 +4038,9 @@
 .lesson-figure {
   margin: 16px 0 4px;
   padding: 16px 14px;
+  background: #0b1020;
   background: linear-gradient(180deg, color-mix(in srgb, var(--accent, #6366f1) 8%, #0b1020), #0b1020);
+  border: 1px solid var(--border);
   border: 1px solid color-mix(in srgb, var(--accent, #6366f1) 28%, var(--border));
   border-radius: var(--radius);
   display: flex;
