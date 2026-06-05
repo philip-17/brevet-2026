@@ -6,6 +6,7 @@ import {
   setDailyGoal,
   DAILY_GOAL_OPTIONS,
 } from '../storage/daily'
+import { errorCount } from '../storage/errors'
 
 // ============================================================
 //  Couleurs et données du design (fidèle au prototype Claude Design)
@@ -167,6 +168,7 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
     return () => clearInterval(t)
   }, [])
 
+  const errCount = errorCount()
   return (
     <div ref={containerRef} className="bb-hero">
       {/* ─── Fond animé ─── */}
@@ -325,6 +327,15 @@ function Hero({ totalQuestions, onStartCTA }: { totalQuestions: number; onStartC
             <span>📊</span>
             <span>Mes stats</span>
           </Link>
+          {errCount > 0 && (
+            <>
+              <span className="bb-cta-meta-sep" />
+              <Link to="/revision" className="bb-cta-meta-item">
+                <span>🎯</span>
+                <span>Mes erreurs ({errCount})</span>
+              </Link>
+            </>
+          )}
           <span className="bb-cta-meta-sep" />
           <span>100 % local · sans pub</span>
         </div>

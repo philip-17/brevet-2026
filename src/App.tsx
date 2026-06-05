@@ -8,6 +8,7 @@ import StatsPage from './pages/StatsPage'
 import CultureGPage from './pages/CultureGPage'
 import LessonPage from './pages/LessonPage'
 import ExamPage from './pages/ExamPage'
+import RevisionPage from './pages/RevisionPage'
 import AdminPage from './pages/AdminPage'
 import './App.css'
 
@@ -80,6 +81,14 @@ export default function App() {
         element={
           <div className="app-shell">
             <FlashcardsPage />
+          </div>
+        }
+      />
+      <Route
+        path="/revision"
+        element={
+          <div className="app-shell">
+            <RevisionPage />
           </div>
         }
       />
