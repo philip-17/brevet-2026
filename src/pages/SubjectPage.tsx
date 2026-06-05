@@ -82,7 +82,10 @@ export default function SubjectPage() {
                 </div>
               </div>
 
-              <div className="chapter-list">
+              <div
+                className="chapter-list"
+                style={{ ['--accent' as never]: subject.color } as React.CSSProperties}
+              >
                 {group.chapters.map((chap) => {
                   const prog = getChapterProgress(progress, subject.id, chap.id)
                   const accent =

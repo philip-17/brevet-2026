@@ -986,8 +986,12 @@
 
 .chapter-item .title {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   flex: 1;
+  /* Titre du thème coloré avec la couleur de la matière.
+     (Les chapitres NEW / FLASH gardent leur titre en dégradé via des
+     sélecteurs plus spécifiques.) */
+  color: var(--accent, var(--text));
 }
 
 .chapter-item .badge {
