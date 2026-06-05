@@ -3959,3 +3959,20 @@
   font-weight: 700;
   color: var(--accent);
 }
+
+/* ====== Schéma illustratif dans un cours ====== */
+.lesson-figure {
+  margin: 16px 0 4px;
+  padding: 16px 14px;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent, #6366f1) 8%, #0b1020), #0b1020);
+  border: 1px solid color-mix(in srgb, var(--accent, #6366f1) 28%, var(--border));
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+.lesson-figure svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

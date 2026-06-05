@@ -211,7 +211,7 @@ export default function LessonPage() {
       )}
 
       {/* Contenu du cours */}
-      <article className="lesson">
+      <article className="lesson" style={{ ['--accent' as never]: subject.color } as React.CSSProperties}>
         <div className="lesson-intro">{lesson.intro}</div>
 
         {lesson.sections.map((s, i) => (
@@ -230,6 +230,13 @@ export default function LessonPage() {
               )}
             </div>
             <p>{s.content}</p>
+            {s.svg && (
+              <figure
+                className="lesson-figure"
+                aria-label={`Schéma : ${s.title}`}
+                dangerouslySetInnerHTML={{ __html: s.svg }}
+              />
+            )}
           </section>
         ))}
 

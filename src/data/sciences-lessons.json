@@ -157,32 +157,33 @@
     },
     "atomes-molecules": {
       "title": "Atomes, molécules et ions",
-      "intro": "Toute la matière qui nous entoure, qu'elle soit solide, liquide ou gazeuse, est constituée de particules extrêmement petites appelées atomes. Ces atomes peuvent s'associer pour former des molécules ou perdre des électrons pour former des ions.",
+      "intro": "Tout ce qui nous entoure — l'air, l'eau, ton téléphone, ton corps — est fait de minuscules grains de matière : les atomes. Un atome mesure environ 0,1 nanomètre : il en faudrait des millions alignés pour atteindre l'épaisseur d'un cheveu ! Ces atomes peuvent s'assembler en molécules ou se transformer en ions.",
       "sections": [
         {
-          "title": "La structure de l'atome",
-          "content": "Un atome est composé d'un noyau central, qui contient des protons chargés positivement et des neutrons sans charge. Autour du noyau se trouvent les électrons, chargés négativement. Un atome est globalement neutre car il possède autant de protons que d'électrons. Chaque atome est représenté par un symbole, par exemple H pour l'hydrogène, O pour l'oxygène ou C pour le carbone."
+          "title": "1. La structure de l’atome",
+          "content": "Un atome est formé d'un noyau central minuscule, autour duquel se déplacent des électrons. Le noyau contient des protons (charge positive +) et des neutrons (sans charge). Les électrons portent une charge négative (–). Un atome est toujours électriquement neutre : il possède autant de protons que d'électrons, donc autant de charges + que de charges –. Chaque type d'atome a un symbole : H (hydrogène), O (oxygène), C (carbone), Na (sodium), Cl (chlore), Fe (fer)…",
+          "svg": "<svg viewBox=\"0 0 420 232\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,-apple-system,sans-serif\" role=\"img\">\n  <ellipse cx=\"210\" cy=\"104\" rx=\"168\" ry=\"80\" fill=\"none\" stroke=\"#5eead4\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\" opacity=\"0.75\"/>\n  <circle cx=\"210\" cy=\"104\" r=\"40\" fill=\"#11253a\" stroke=\"#34d399\" stroke-width=\"2\"/>\n  <circle cx=\"198\" cy=\"92\" r=\"10\" fill=\"#ef4444\"/><text x=\"198\" y=\"96\" fill=\"#fff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">+</text>\n  <circle cx=\"222\" cy=\"92\" r=\"10\" fill=\"#64748b\"/>\n  <circle cx=\"198\" cy=\"116\" r=\"10\" fill=\"#64748b\"/>\n  <circle cx=\"222\" cy=\"116\" r=\"10\" fill=\"#ef4444\"/><text x=\"222\" y=\"120\" fill=\"#fff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">+</text>\n  <circle cx=\"378\" cy=\"104\" r=\"9\" fill=\"#38bdf8\"/><text x=\"378\" y=\"108\" fill=\"#fff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">–</text>\n  <circle cx=\"42\" cy=\"104\" r=\"9\" fill=\"#38bdf8\"/><text x=\"42\" y=\"108\" fill=\"#fff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">–</text>\n  <circle cx=\"210\" cy=\"24\" r=\"9\" fill=\"#38bdf8\"/><text x=\"210\" y=\"28\" fill=\"#fff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">–</text>\n  <circle cx=\"46\" cy=\"200\" r=\"6\" fill=\"#ef4444\"/><text x=\"58\" y=\"205\" fill=\"#e5e7eb\" font-size=\"13\">proton (+)</text>\n  <circle cx=\"170\" cy=\"200\" r=\"6\" fill=\"#64748b\"/><text x=\"182\" y=\"205\" fill=\"#e5e7eb\" font-size=\"13\">neutron</text>\n  <circle cx=\"290\" cy=\"200\" r=\"6\" fill=\"#38bdf8\"/><text x=\"302\" y=\"205\" fill=\"#e5e7eb\" font-size=\"13\">électron (–)</text>\n  <text x=\"210\" y=\"226\" fill=\"#94a3b8\" font-size=\"12\" text-anchor=\"middle\">Le noyau (protons + neutrons) est entouré d'électrons</text>\n</svg>"
         },
         {
-          "title": "Les molécules",
-          "content": "Une molécule est un assemblage de plusieurs atomes liés entre eux. On la représente par une formule chimique qui indique la nature et le nombre d'atomes. Par exemple, la molécule d'eau est constituée de deux atomes d'hydrogène et un atome d'oxygène : sa formule s'écrit H2O. Le dioxygène de l'air s'écrit O2 et le dioxyde de carbone CO2."
+          "title": "2. Des atomes aux molécules",
+          "content": "Une molécule est un groupe d'atomes liés entre eux. On la décrit par sa formule chimique : les lettres indiquent les atomes présents, et les petits chiffres (les indices) indiquent combien il y en a. Exemples : l'eau H₂O contient 2 atomes d'hydrogène et 1 atome d'oxygène ; le dioxygène de l'air s'écrit O₂ ; le dioxyde de carbone CO₂ ; le méthane CH₄. S'il n'y a pas d'indice, c'est qu'il y a un seul atome."
         },
         {
-          "title": "Les ions",
-          "content": "Un ion est un atome ou un groupe d'atomes qui a perdu ou gagné un ou plusieurs électrons. S'il perd des électrons, il devient un cation chargé positivement, comme l'ion sodium Na plus. S'il gagne des électrons, il devient un anion chargé négativement, comme l'ion chlorure Cl moins. Le sel de cuisine, formule NaCl, est formé d'ions sodium et chlorure."
+          "title": "3. Les ions : des atomes chargés",
+          "content": "Un ion est un atome (ou un groupe d'atomes) qui a gagné ou perdu un ou plusieurs électrons ; il n'est donc plus neutre. S'il PERD des électrons, il a un excès de charges + : c'est un cation, noté avec un + (ex. Na⁺, l'ion sodium ; Cu²⁺, l'ion cuivre). S'il GAGNE des électrons, il a un excès de charges – : c'est un anion, noté avec un – (ex. Cl⁻, l'ion chlorure). Le sel de cuisine NaCl est formé d'ions Na⁺ et Cl⁻. Une solution qui contient des ions conduit le courant électrique."
         },
         {
-          "title": "Solutions acides, basiques et neutres",
-          "content": "Le pH mesure l'acidité d'une solution sur une échelle de 0 à 14. Une solution est acide si son pH est inférieur à 7, neutre si son pH est égal à 7, et basique si son pH est supérieur à 7. Les solutions acides contiennent beaucoup d'ions hydrogène H plus. L'eau pure est neutre, le jus de citron est acide, l'eau savonneuse est basique."
+          "title": "4. Acide, neutre ou basique : le pH",
+          "content": "Le pH mesure l'acidité d'une solution sur une échelle de 0 à 14. Si pH < 7, la solution est acide (elle contient beaucoup d'ions hydrogène H⁺). Si pH = 7, elle est neutre, comme l'eau pure. Si pH > 7, elle est basique (elle contient des ions hydroxyde HO⁻). Plus on s'éloigne de 7, plus c'est fort : le jus de citron (≈ 2) est acide, l'eau savonneuse (≈ 10) est basique. On mesure le pH avec du papier pH ou une sonde.",
+          "svg": "<svg viewBox=\"0 0 440 168\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"system-ui,-apple-system,sans-serif\" role=\"img\">\n  <defs>\n    <linearGradient id=\"phgrad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\">\n      <stop offset=\"0\" stop-color=\"#ef4444\"/>\n      <stop offset=\"0.5\" stop-color=\"#22c55e\"/>\n      <stop offset=\"1\" stop-color=\"#8b5cf6\"/>\n    </linearGradient>\n  </defs>\n  <text x=\"80\" y=\"26\" fill=\"#fca5a5\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">ACIDE</text>\n  <text x=\"220\" y=\"26\" fill=\"#86efac\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">NEUTRE</text>\n  <text x=\"360\" y=\"26\" fill=\"#c4b5fd\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">BASIQUE</text>\n  <rect x=\"20\" y=\"38\" width=\"400\" height=\"26\" rx=\"7\" fill=\"url(#phgrad)\"/>\n  <g stroke=\"#0b1020\" stroke-width=\"1.5\" opacity=\"0.5\">\n    <line x1=\"77\" y1=\"38\" x2=\"77\" y2=\"64\"/><line x1=\"134\" y1=\"38\" x2=\"134\" y2=\"64\"/><line x1=\"191\" y1=\"38\" x2=\"191\" y2=\"64\"/>\n    <line x1=\"249\" y1=\"38\" x2=\"249\" y2=\"64\"/><line x1=\"306\" y1=\"38\" x2=\"306\" y2=\"64\"/><line x1=\"363\" y1=\"38\" x2=\"363\" y2=\"64\"/>\n  </g>\n  <text x=\"20\" y=\"84\" fill=\"#e5e7eb\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">0</text>\n  <text x=\"220\" y=\"84\" fill=\"#e5e7eb\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">7</text>\n  <text x=\"420\" y=\"84\" fill=\"#e5e7eb\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">14</text>\n  <text x=\"70\" y=\"120\" fill=\"#e5e7eb\" font-size=\"14\" text-anchor=\"middle\">🍋</text>\n  <text x=\"70\" y=\"140\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">citron ≈ 2</text>\n  <text x=\"220\" y=\"120\" fill=\"#e5e7eb\" font-size=\"14\" text-anchor=\"middle\">💧</text>\n  <text x=\"220\" y=\"140\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">eau pure = 7</text>\n  <text x=\"365\" y=\"120\" fill=\"#e5e7eb\" font-size=\"14\" text-anchor=\"middle\">🧼</text>\n  <text x=\"365\" y=\"140\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">savon ≈ 10</text>\n</svg>"
         }
       ],
       "keyPoints": [
-        "La matière est constituée d'atomes",
-        "Un atome contient un noyau avec protons et neutrons, entouré d'électrons",
-        "Une molécule est un assemblage d'atomes liés",
-        "Un ion est un atome qui a gagné ou perdu des électrons",
-        "L'eau a pour formule H2O",
-        "Le pH mesure l'acidité : moins de 7 acide, 7 neutre, plus de 7 basique"
+        "Un atome = un noyau (protons + et neutrons) entouré d’électrons (–), le tout neutre",
+        "Une molécule est un assemblage d’atomes ; sa formule donne le nombre de chaque atome (ex. H₂O, CO₂)",
+        "Un ion a gagné ou perdu des électrons : cation (+) ou anion (–)",
+        "Le sel NaCl est fait d’ions Na⁺ et Cl⁻ ; une solution ionique conduit le courant",
+        "Le pH va de 0 à 14 : < 7 acide, = 7 neutre, > 7 basique"
       ]
     },
     "reactions-chimiques": {

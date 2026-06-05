@@ -39,6 +39,9 @@ export interface Subject {
 export interface LessonSection {
   title: string
   content: string
+  /** Schéma illustratif optionnel : markup SVG inline (contrôlé par l'app,
+   * affiché tel quel). Sert à illustrer la notion (triangle, atome, frise…). */
+  svg?: string
 }
 
 export interface Lesson {
