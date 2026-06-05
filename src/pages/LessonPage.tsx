@@ -11,6 +11,7 @@ export default function LessonPage() {
 
   const speech = useSpeech()
   const [showVoices, setShowVoices] = useState(false)
+  const [showRevision, setShowRevision] = useState(false)
 
   // Texte complet pour la lecture à l'oral
   const fullText = useMemo(() => {
@@ -261,7 +262,25 @@ export default function LessonPage() {
           </ul>
         </section>
 
-        {lesson.revision && (
+        {lesson.revision && !showRevision && (
+          <button
+            className="revision-toggle"
+            onClick={() => setShowRevision(true)}
+          >
+            <span className="revision-toggle-icon">📋</span>
+            <span className="revision-toggle-text">
+              <span className="revision-toggle-title">
+                Voir la fiche de révision
+              </span>
+              <span className="revision-toggle-sub">
+                L'essentiel en 1 minute
+              </span>
+            </span>
+            <span className="revision-toggle-arrow">▾</span>
+          </button>
+        )}
+
+        {lesson.revision && showRevision && (
           <section className="revision-card">
             <div className="revision-header">
               <span className="revision-badge">📋 Fiche de révision</span>
@@ -308,6 +327,13 @@ export default function LessonPage() {
                 </div>
               </div>
             )}
+
+            <button
+              className="revision-hide"
+              onClick={() => setShowRevision(false)}
+            >
+              Masquer la fiche ▴
+            </button>
           </section>
         )}
 
