@@ -70,7 +70,11 @@ export default function SubjectPage() {
             0
           )
           return (
-            <section key={group.key} className="chapter-section">
+            <section
+              key={group.key}
+              className="chapter-section"
+              style={{ ['--accent' as never]: subject.color } as React.CSSProperties}
+            >
               <div className={`section-banner ${meta.cssClass}`}>
                 <div className="section-banner-emoji">{meta.emoji}</div>
                 <div className="section-banner-text">
@@ -82,10 +86,7 @@ export default function SubjectPage() {
                 </div>
               </div>
 
-              <div
-                className="chapter-list"
-                style={{ ['--accent' as never]: subject.color } as React.CSSProperties}
-              >
+              <div className="chapter-list">
                 {group.chapters.map((chap) => {
                   const prog = getChapterProgress(progress, subject.id, chap.id)
                   const accent =

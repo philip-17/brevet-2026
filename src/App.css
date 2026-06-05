@@ -986,12 +986,8 @@
 
 .chapter-item .title {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
   flex: 1;
-  /* Titre du thème coloré avec la couleur de la matière.
-     (Les chapitres NEW / FLASH gardent leur titre en dégradé via des
-     sélecteurs plus spécifiques.) */
-  color: var(--accent, var(--text));
 }
 
 .chapter-item .badge {
@@ -1134,8 +1130,45 @@
 
 /* Bannière par défaut — sobre */
 .section-banner.banner-default {
+  position: relative;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Cadre dégradé subtil avec la couleur de la matière */
+.section-banner.banner-default::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    var(--accent, #6aa6ff),
+    transparent 65%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+/* Titre "Chapitres du brevet" en dégradé blanc → couleur de la matière */
+.section-banner.banner-default .section-banner-title {
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #ffffff 35%,
+    var(--accent, #6aa6ff) 115%
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: flashGradientShift 8s ease-in-out infinite;
 }
 
 .section-banner.banner-default .section-banner-subtitle {
