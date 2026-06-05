@@ -1374,6 +1374,226 @@
           ],
           "correctIndex": 0,
           "explanation": "'Plus rapide que l'éclair' est une comparaison, et 'mille fois' exagère : c'est aussi une hyperbole."
+        },
+        {
+          "question": "Quelle figure de style domine dans : 'La Nature est un temple ou de vivants piliers' (Baudelaire) ?",
+          "choices": [
+            "Comparaison",
+            "Metaphore",
+            "Litote",
+            "Metonymie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sans outil de comparaison, la Nature est identifiee directement a un temple : c'est une metaphore."
+        },
+        {
+          "question": "Dans 'Cet enfant est ruse comme un renard', quelle figure reconnait-on ?",
+          "choices": [
+            "Comparaison",
+            "Metaphore",
+            "Personnification",
+            "Hyperbole"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'outil de comparaison 'comme' relie l'enfant au renard : c'est une comparaison, et non une metaphore qui supprimerait l'outil."
+        },
+        {
+          "question": "'Cette nouvelle n'est pas mauvaise du tout' pour dire qu'elle est excellente est :",
+          "choices": [
+            "Un euphemisme",
+            "Une hyperbole",
+            "Une litote",
+            "Une antiphrase"
+          ],
+          "correctIndex": 2,
+          "explanation": "La litote dit moins pour faire entendre plus : nier le defaut ('pas mauvaise') revient a affirmer fortement la qualite."
+        },
+        {
+          "question": "Annoncer 'les personnes du troisieme age' au lieu de 'les vieux' releve de :",
+          "choices": [
+            "La litote",
+            "L'euphemisme",
+            "L'hyperbole",
+            "La metaphore"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'euphemisme attenue une realite jugee deplaisante par une expression plus douce, sans chercher a en dire davantage."
+        },
+        {
+          "question": "Quelle est la difference essentielle entre litote et euphemisme ?",
+          "choices": [
+            "La litote attenue, l'euphemisme exagere",
+            "Ce sont deux mots pour la meme chose",
+            "La litote concerne les objets, l'euphemisme les personnes",
+            "La litote suggere plus que ce qu'elle dit, l'euphemisme adoucit une realite penible"
+          ],
+          "correctIndex": 3,
+          "explanation": "La litote dit moins pour faire comprendre davantage ; l'euphemisme adoucit simplement une idee desagreable sans renforcer le sens."
+        },
+        {
+          "question": "Dans 'Achille est un lion sur le champ de bataille', on a :",
+          "choices": [
+            "Une comparaison",
+            "Une metaphore",
+            "Une metonymie",
+            "Un oxymore"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aucun mot-outil ('comme', 'tel') ne relie Achille au lion : l'identification directe fait de cette phrase une metaphore."
+        },
+        {
+          "question": "'Toute la salle applaudit l'acteur' : par quelle figure le lieu designe-t-il les spectateurs ?",
+          "choices": [
+            "Synecdoque",
+            "Metonymie",
+            "Periphrase",
+            "Personnification"
+          ],
+          "correctIndex": 1,
+          "explanation": "On nomme le contenant ('la salle') pour designer le contenu (les spectateurs) : c'est une metonymie."
+        },
+        {
+          "question": "Quelle est la difference entre metonymie et synecdoque ?",
+          "choices": [
+            "Aucune, elles sont identiques",
+            "La metonymie utilise 'comme', pas la synecdoque",
+            "La synecdoque est un rapport tout/partie, la metonymie un autre lien logique (contenant, auteur, cause...)",
+            "La synecdoque concerne seulement les couleurs"
+          ],
+          "correctIndex": 2,
+          "explanation": "La synecdoque repose precisement sur le rapport entre le tout et la partie ; la metonymie couvre d'autres liens (contenant/contenu, auteur/oeuvre...)."
+        },
+        {
+          "question": "Pour designer la vieillesse, ecrire 'l'hiver de la vie' est :",
+          "choices": [
+            "Une periphrase imagee",
+            "Une metonymie",
+            "Une litote",
+            "Une synecdoque"
+          ],
+          "correctIndex": 0,
+          "explanation": "On remplace un mot par une expression imagee qui le decrit : la periphrase, ici teintee de metaphore (l'hiver pour la fin de la vie)."
+        },
+        {
+          "question": "Dire 'Quel travail soigne !' a un eleve qui a tout rate revient a employer :",
+          "choices": [
+            "Une hyperbole sincere",
+            "Une litote",
+            "Un euphemisme",
+            "Une ironie (antiphrase)"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'ironie fait entendre le contraire de ce qu'on dit : louer un devoir rate revient en realite a le critiquer."
+        },
+        {
+          "question": "Dans 'Un cri immense de douleur dechira le silence', quelle figure attribue une action humaine au cri ?",
+          "choices": [
+            "Metaphore",
+            "Personnification",
+            "Hyperbole",
+            "Comparaison"
+          ],
+          "correctIndex": 1,
+          "explanation": "On prete au cri l'action de 'dechirer', propre a un etre agissant : c'est une personnification."
+        },
+        {
+          "question": "'Je t'ai attendu une eternite devant le cinema' illustre :",
+          "choices": [
+            "Une litote",
+            "Un euphemisme",
+            "Une hyperbole",
+            "Une metonymie"
+          ],
+          "correctIndex": 2,
+          "explanation": "Exagerer la duree de l'attente ('une eternite') pour marquer l'impatience est une hyperbole."
+        },
+        {
+          "question": "'Cette joyeuse tristesse m'habite encore' contient :",
+          "choices": [
+            "Une antithese",
+            "Un oxymore",
+            "Une gradation",
+            "Une anaphore"
+          ],
+          "correctIndex": 1,
+          "explanation": "Deux mots de sens oppose sont reunis dans un meme groupe ('joyeuse tristesse') : c'est un oxymore."
+        },
+        {
+          "question": "Quelle est la difference entre oxymore et antithese ?",
+          "choices": [
+            "L'oxymore reunit deux mots contraires dans un meme groupe, l'antithese oppose deux idees dans des segments distincts",
+            "Ce sont des synonymes",
+            "L'antithese utilise 'comme'",
+            "L'oxymore concerne seulement les sons"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'oxymore associe etroitement deux termes opposes ('une douce violence') ; l'antithese met en parallele deux idees contraires plus eloignees dans la phrase."
+        },
+        {
+          "question": "'Marcher, courir, voler a la victoire' est une gradation parce que :",
+          "choices": [
+            "Les mots riment entre eux",
+            "Un mot est repete en debut de phrase",
+            "Les verbes expriment une intensite croissante",
+            "Deux mots se contredisent"
+          ],
+          "correctIndex": 2,
+          "explanation": "La gradation aligne des termes d'intensite progressive ; ici marcher puis courir puis voler accelere l'idee de mouvement."
+        },
+        {
+          "question": "Dans 'Un roi chantait en bas, en haut mourait un Dieu' (Hugo), la construction croisee sujet-verbe / verbe-sujet est :",
+          "choices": [
+            "Un parallelisme",
+            "Une anaphore",
+            "Une gradation",
+            "Un chiasme"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le chiasme inverse l'ordre des elements en miroir (AB / BA) : ici sujet-verbe puis verbe-sujet."
+        },
+        {
+          "question": "Quelle est la difference entre parallelisme et chiasme ?",
+          "choices": [
+            "Le parallelisme repete le meme ordre (AB / AB), le chiasme l'inverse en miroir (AB / BA)",
+            "Aucune difference",
+            "Le chiasme repete un mot, le parallelisme un son",
+            "Le parallelisme oppose deux idees contraires"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le parallelisme conserve la meme structure (AB / AB), tandis que le chiasme la renverse symetriquement (AB / BA)."
+        },
+        {
+          "question": "Dans 'Tout m'afflige et me nuit et conspire a me nuire' (Racine), la repetition du son nasal releve de :",
+          "choices": [
+            "L'alliteration",
+            "L'anaphore",
+            "L'assonance",
+            "La gradation"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'assonance repete un meme son voyelle ; ici la sonorite nasale revient et renforce la plainte du personnage."
+        },
+        {
+          "question": "Quand on represente la Justice par une femme tenant une balance, on emploie :",
+          "choices": [
+            "Une metonymie",
+            "Une allegorie",
+            "Une litote",
+            "Une synecdoque"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'allegorie represente une idee abstraite (la justice) sous une forme concrete et imagee, souvent un personnage avec ses attributs."
+        },
+        {
+          "question": "Dans 'Le ciel en deuil pleurait sur la ville endormie', que reconnait-on ?",
+          "choices": [
+            "Une comparaison",
+            "Une litote",
+            "Une metonymie",
+            "Deux personnifications (le ciel pleure, la ville dort)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le ciel 'en deuil' qui 'pleure' et la ville 'endormie' recoivent des etats et actions humaines : ce sont deux personnifications."
         }
       ]
     },
@@ -1677,6 +1897,226 @@
           ],
           "correctIndex": 1,
           "explanation": "Subjonctif passé = auxiliaire au subjonctif présent + participe passé : que je sois parti(e)."
+        },
+        {
+          "question": "Conjuguez 'avoir' au présent de l'indicatif, 3e personne du pluriel :",
+          "choices": [
+            "Ils on",
+            "Ils ont",
+            "Ils onts",
+            "Ils avont"
+          ],
+          "correctIndex": 1,
+          "explanation": "Au présent : j'ai, tu as, il a, nous avons, vous avez, ils ont. 'On' (sans 't') est un pronom, à ne pas confondre avec 'ont' (verbe avoir)."
+        },
+        {
+          "question": "Quel est l'imparfait du verbe 'commencer' à la 1ère personne du singulier ?",
+          "choices": [
+            "Je commencai",
+            "Je commenceais",
+            "Je commençais",
+            "Je commencais"
+          ],
+          "correctIndex": 2,
+          "explanation": "Devant 'a', 'o' ou 'u', le 'c' prend une cédille pour conserver le son [s] : je commençais, nous commencions."
+        },
+        {
+          "question": "Conjuguez 'tenir' au passé simple, 3e personne du pluriel :",
+          "choices": [
+            "Ils tenaient",
+            "Ils tiennent",
+            "Ils tiendront",
+            "Ils tinrent"
+          ],
+          "correctIndex": 3,
+          "explanation": "Comme 'venir', 'tenir' a un passé simple irrégulier : je tins, tu tins, il tint, nous tînmes, vous tîntes, ils tinrent."
+        },
+        {
+          "question": "Quel est le futur simple de 'courir' à la 1ère personne du singulier ?",
+          "choices": [
+            "Je courrai",
+            "Je courirai",
+            "Je courais",
+            "Je cours"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Courir' prend deux 'r' au futur et au conditionnel : je courrai, tu courras... À ne pas confondre avec l'imparfait 'je courais'."
+        },
+        {
+          "question": "Conjuguez 'écrire' au passé composé, 1ère personne du singulier :",
+          "choices": [
+            "J'ai écris",
+            "J'ai écrient",
+            "J'ai écrit",
+            "J'ai écrivu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le participe passé de 'écrire' est 'écrit'. Au passé composé : j'ai écrit. La forme 'écris' est le présent (j'écris)."
+        },
+        {
+          "question": "Quel est le présent de l'indicatif de 'vivre' à la 3e personne du singulier ?",
+          "choices": [
+            "Il vie",
+            "Il vive",
+            "Il vit",
+            "Il vis"
+          ],
+          "correctIndex": 2,
+          "explanation": "Au présent : je vis, tu vis, il vit, nous vivons, vous vivez, ils vivent. 'Qu'il vive' serait du subjonctif."
+        },
+        {
+          "question": "Conjuguez 'lire' à l'imparfait, 1ère personne du pluriel :",
+          "choices": [
+            "Nous lisons",
+            "Nous lisions",
+            "Nous liions",
+            "Nous lûmes"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'imparfait se forme sur le radical du 'nous' du présent (nous lisons) + terminaisons : nous lisions, vous lisiez, ils lisaient."
+        },
+        {
+          "question": "Quel est le passé simple de 'naître' à la 3e personne du singulier ?",
+          "choices": [
+            "Il naissait",
+            "Il naît",
+            "Il naîtra",
+            "Il naquit"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Naître' a un passé simple irrégulier en '-quis' : je naquis, tu naquis, il naquit, ils naquirent."
+        },
+        {
+          "question": "Conjuguez 'mourir' au passé composé, 3e personne du singulier :",
+          "choices": [
+            "Il a mouru",
+            "Il a mort",
+            "Il est mort",
+            "Il est mouri"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Mourir' se conjugue avec l'auxiliaire 'être' et son participe passé est 'mort' : il est mort (accord : elle est morte)."
+        },
+        {
+          "question": "Quelle est la forme correcte de 'appeler' au présent, 3e personne du singulier ?",
+          "choices": [
+            "Il appele",
+            "Il appèle",
+            "Il apelle",
+            "Il appelle"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Appeler' double le 'l' devant une syllabe muette : j'appelle, tu appelles, il appelle, ils appellent."
+        },
+        {
+          "question": "Conjuguez 'aller' au futur simple, 2e personne du singulier :",
+          "choices": [
+            "Tu allas",
+            "Tu allais",
+            "Tu iras",
+            "Tu vas"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le futur de 'aller' est irrégulier, formé sur le radical 'ir-' : j'irai, tu iras, il ira, nous irons, vous irez, ils iront."
+        },
+        {
+          "question": "Quel temps et mode est la forme verbale 'qu'il fasse' ?",
+          "choices": [
+            "Présent de l'indicatif",
+            "Subjonctif présent",
+            "Conditionnel présent",
+            "Impératif"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Que je fasse, que tu fasses, qu'il fasse' est le subjonctif présent du verbe 'faire' (radical irrégulier 'fass-')."
+        },
+        {
+          "question": "Dans 'Je souhaite que vous ___ bientôt', quelle forme convient ?",
+          "choices": [
+            "venez",
+            "veniez",
+            "viendrez",
+            "viendriez"
+          ],
+          "correctIndex": 1,
+          "explanation": "Après un verbe de souhait comme 'souhaiter que', on emploie le subjonctif présent : que vous veniez."
+        },
+        {
+          "question": "Quelle est la forme correcte de 'recevoir' au futur simple, 1ère personne du singulier ?",
+          "choices": [
+            "Je recevrai",
+            "Je recevrais",
+            "Je recois",
+            "Je recevais"
+          ],
+          "correctIndex": 0,
+          "explanation": "Au futur, 'recevoir' donne : je recevrai (sans 's'). Avec 's' (je recevrais), ce serait le conditionnel présent."
+        },
+        {
+          "question": "Conjuguez 'boire' au présent de l'indicatif, 3e personne du pluriel :",
+          "choices": [
+            "Ils boient",
+            "Ils buvent",
+            "Ils boivvent",
+            "Ils boivent"
+          ],
+          "correctIndex": 3,
+          "explanation": "Au présent : je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent (radical 'boiv-' au pluriel de la 3e personne)."
+        },
+        {
+          "question": "Quelle phrase contient un verbe au conditionnel présent ?",
+          "choices": [
+            "Nous finirons ce soir.",
+            "Tu devrais te reposer.",
+            "Ils auront gagné.",
+            "Je viendrai demain."
+          ],
+          "correctIndex": 1,
+          "explanation": "'Tu devrais' est au conditionnel (terminaison -rais). Les autres sont au futur simple (-rons, -rai) ou futur antérieur."
+        },
+        {
+          "question": "Mettez 'dire' à l'impératif présent, 2e personne du pluriel :",
+          "choices": [
+            "Disez",
+            "Disiez",
+            "Disez-vous",
+            "Dites"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Dire' a une forme irrégulière à l'impératif : dis, disons, dites (comme 'faire' : faites). On ne dit pas 'disez'."
+        },
+        {
+          "question": "Quel est le plus-que-parfait de 'venir' à la 1ère personne du singulier ?",
+          "choices": [
+            "J'étais venu",
+            "J'avais venu",
+            "Je vins",
+            "Je serais venu"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Venir' se conjugue avec l'auxiliaire 'être'. Plus-que-parfait = être à l'imparfait + participe passé : j'étais venu(e)."
+        },
+        {
+          "question": "Dans 'Il m'a promis qu'il ___ le lendemain', quelle forme respecte la concordance des temps ?",
+          "choices": [
+            "reviendrait",
+            "reviendra",
+            "revienne",
+            "revient"
+          ],
+          "correctIndex": 0,
+          "explanation": "Après un verbe principal au passé ('a promis'), le futur dans le discours rapporté devient conditionnel présent : qu'il reviendrait."
+        },
+        {
+          "question": "Quel est le futur antérieur de 'partir' à la 3e personne du singulier ?",
+          "choices": [
+            "Il partira",
+            "Il était parti",
+            "Il sera parti",
+            "Il serait parti"
+          ],
+          "correctIndex": 2,
+          "explanation": "Futur antérieur = auxiliaire (ici 'être') au futur simple + participe passé : il sera parti(e)."
         }
       ]
     },
@@ -1969,6 +2409,226 @@
           ],
           "correctIndex": 2,
           "explanation": "'Demain' précise le moment de l'action : c'est un complément circonstanciel de temps."
+        },
+        {
+          "question": "Quel est le type de la phrase 'Comme cette histoire est triste !' ?",
+          "choices": [
+            "Déclarative",
+            "Interrogative",
+            "Exclamative",
+            "Injonctive"
+          ],
+          "correctIndex": 2,
+          "explanation": "La phrase exclamative exprime un sentiment fort (ici la tristesse) et se termine par un point d'exclamation. Le mot 'comme' marque l'intensité."
+        },
+        {
+          "question": "Transforme à la forme négative : 'Il mange toujours quelque chose.' Quelle est la bonne réponse ?",
+          "choices": [
+            "Il ne mange pas toujours quelque chose.",
+            "Il mange jamais quelque chose.",
+            "Il ne mange jamais quelque chose.",
+            "Il ne mange jamais rien."
+          ],
+          "correctIndex": 3,
+          "explanation": "À la forme négative, 'toujours' devient 'ne... jamais' et 'quelque chose' devient 'rien'. Les deux éléments doivent être niés ensemble : 'ne mange jamais rien'."
+        },
+        {
+          "question": "Dans 'C'est toi qui as cassé le vase', quelle construction est employée ?",
+          "choices": [
+            "La forme passive",
+            "La tournure emphatique (mise en relief)",
+            "La forme impersonnelle",
+            "La forme interrogative"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le présentatif 'c'est... qui' met en relief le sujet 'toi'. C'est une tournure emphatique d'insistance, par extraction."
+        },
+        {
+          "question": "Mets à la voix passive : 'Les pompiers ont éteint l'incendie.' Quelle phrase est correcte ?",
+          "choices": [
+            "L'incendie était éteint des pompiers.",
+            "L'incendie a éteint les pompiers.",
+            "Les pompiers ont été éteints par l'incendie.",
+            "L'incendie a été éteint par les pompiers."
+          ],
+          "correctIndex": 3,
+          "explanation": "Au passif, le COD ('l'incendie') devient sujet, le sujet ('les pompiers') devient complément d'agent introduit par 'par', et le verbe se met avec l'auxiliaire être au temps correspondant."
+        },
+        {
+          "question": "Dans la phrase passive 'Ce roman a été écrit par un auteur célèbre', quel est le complément d'agent ?",
+          "choices": [
+            "Ce roman",
+            "a été écrit",
+            "par un auteur célèbre",
+            "célèbre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le complément d'agent désigne celui qui accomplit réellement l'action dans une phrase passive. Il est ici introduit par la préposition 'par'."
+        },
+        {
+          "question": "Dans 'Quelle heure est-il ?', quel est le type de la phrase ?",
+          "choices": [
+            "Interrogative totale",
+            "Interrogative partielle",
+            "Exclamative",
+            "Injonctive"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'interrogation partielle porte sur un élément précis (ici l'heure) grâce à un mot interrogatif ('quelle'). L'interrogation totale, elle, appelle une réponse par oui ou non."
+        },
+        {
+          "question": "Dans 'Ferme la porte en partant', quel mode est employé et quelle est la valeur de la phrase ?",
+          "choices": [
+            "Indicatif, phrase déclarative",
+            "Impératif, phrase injonctive",
+            "Subjonctif, phrase exclamative",
+            "Conditionnel, phrase interrogative"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Ferme' est à l'impératif présent. La phrase exprime un ordre : c'est une phrase de type injonctif."
+        },
+        {
+          "question": "Dans 'En 1789, le peuple prend la Bastille', quelle est la valeur du présent ?",
+          "choices": [
+            "Présent d'énonciation",
+            "Présent de vérité générale",
+            "Présent de narration (historique)",
+            "Présent d'habitude"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le présent employé pour raconter un fait passé afin de le rendre plus vivant est un présent de narration (ou présent historique)."
+        },
+        {
+          "question": "Dans 'L'eau bout à 100 degrés', quelle est la valeur du présent ?",
+          "choices": [
+            "Présent de narration",
+            "Présent de vérité générale",
+            "Présent d'énonciation",
+            "Présent à valeur de futur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le présent exprimant un fait toujours vrai, une loi scientifique ou un proverbe est un présent de vérité générale."
+        },
+        {
+          "question": "Transforme au discours indirect : Il m'a dit : « Je viendrai demain. » Quelle phrase est correcte ?",
+          "choices": [
+            "Il m'a dit qu'il viendra demain.",
+            "Il m'a dit qu'il viendrait le lendemain.",
+            "Il m'a dit : qu'il viendrait demain.",
+            "Il m'a dit qu'il viendrais le lendemain."
+          ],
+          "correctIndex": 1,
+          "explanation": "Au discours indirect après un verbe au passé, le futur devient conditionnel ('viendrait') et 'demain' devient 'le lendemain'. La subordonnée est introduite par 'que'."
+        },
+        {
+          "question": "Dans 'Il regardait par la fenêtre. Pourquoi ne venait-elle pas ? Était-elle fâchée ?', quel type de discours rapporte les pensées du personnage ?",
+          "choices": [
+            "Discours direct",
+            "Discours indirect",
+            "Discours indirect libre",
+            "Discours narrativisé"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les pensées sont rapportées sans verbe introducteur ni guillemets, mais avec la ponctuation expressive des questions : c'est le discours indirect libre."
+        },
+        {
+          "question": "Dans 'Je doute qu'il vienne', pourquoi le verbe 'vienne' est-il au subjonctif ?",
+          "choices": [
+            "Parce que le verbe principal exprime une certitude",
+            "Parce que le verbe principal exprime le doute",
+            "Parce que c'est une phrase interrogative",
+            "Parce que la subordonnée est circonstancielle de temps"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le subjonctif s'emploie dans la complétive après un verbe exprimant le doute, le souhait, la volonté ou le sentiment. 'Douter' déclenche ici le subjonctif."
+        },
+        {
+          "question": "Dans 'Si tu travaillais, tu réussirais', quelle est la valeur du conditionnel 'réussirais' ?",
+          "choices": [
+            "Une action soumise à une condition (hypothèse)",
+            "Une action future certaine",
+            "Une demande polie",
+            "Une vérité générale"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le conditionnel exprime ici une action qui ne se réalisera que si la condition (le travail) est remplie. Cela correspond au système hypothétique 'si + imparfait / conditionnel'."
+        },
+        {
+          "question": "Dans 'Pourriez-vous m'aider, s'il vous plaît ?', quelle est la valeur du conditionnel ?",
+          "choices": [
+            "L'hypothèse",
+            "La politesse (atténuation)",
+            "L'information non confirmée",
+            "Le futur dans le passé"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le conditionnel sert ici à formuler une demande de manière polie et atténuée, et non à exprimer une condition."
+        },
+        {
+          "question": "Dans 'Je ne sais pas pourquoi il est parti', quelle est la nature de la proposition 'pourquoi il est parti' ?",
+          "choices": [
+            "Subordonnée relative",
+            "Subordonnée conjonctive complétive",
+            "Subordonnée interrogative indirecte",
+            "Subordonnée circonstancielle de cause"
+          ],
+          "correctIndex": 2,
+          "explanation": "Introduite par un mot interrogatif ('pourquoi') après un verbe de question ('je ne sais pas'), c'est une subordonnée interrogative indirecte."
+        },
+        {
+          "question": "Dans 'Il travaille pour que ses enfants réussissent', quelle est la nature de la subordonnée 'pour que ses enfants réussissent' ?",
+          "choices": [
+            "Subordonnée relative",
+            "Subordonnée complétive",
+            "Subordonnée circonstancielle de but",
+            "Subordonnée interrogative indirecte"
+          ],
+          "correctIndex": 2,
+          "explanation": "Introduite par la locution conjonctive 'pour que' (suivie du subjonctif) et exprimant le but, c'est une subordonnée circonstancielle de but."
+        },
+        {
+          "question": "Dans 'Le témoin affirme qu'il n'a rien vu', quelle est la nature de 'qu'il n'a rien vu' ?",
+          "choices": [
+            "Subordonnée relative",
+            "Subordonnée circonstancielle",
+            "Proposition indépendante",
+            "Subordonnée conjonctive complétive"
+          ],
+          "correctIndex": 3,
+          "explanation": "Introduite par la conjonction 'que' et complément d'objet du verbe 'affirme', c'est une subordonnée conjonctive complétive (COD)."
+        },
+        {
+          "question": "Dans 'Le chemin qui mène au village est long', quelle est la fonction du pronom relatif 'qui' ?",
+          "choices": [
+            "COD du verbe 'mène'",
+            "Sujet du verbe 'mène'",
+            "Complément du nom 'chemin'",
+            "Attribut du sujet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le pronom relatif 'qui' reprend l'antécédent 'le chemin' et occupe la fonction de sujet du verbe 'mène' (qu'est-ce qui mène au village ? le chemin)."
+        },
+        {
+          "question": "Dans la phrase 'Mais il refusa et partit', combien y a-t-il de conjonctions de coordination ?",
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "correctIndex": 2,
+          "explanation": "Il y a deux conjonctions de coordination : 'mais' (en début de phrase, qui relie à ce qui précède) et 'et' (qui relie 'refusa' et 'partit'). Toutes deux figurent dans : mais, ou, et, donc, or, ni, car."
+        },
+        {
+          "question": "Dans 'Il pleut ; nous resterons donc à la maison', quelle est la nature de la relation entre les deux propositions ?",
+          "choices": [
+            "Subordination",
+            "Juxtaposition uniquement",
+            "Coordination par un adverbe de liaison",
+            "Apposition"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les deux propositions indépendantes sont d'abord juxtaposées (point-virgule) puis reliées par 'donc', adverbe ou conjonction marquant la conséquence. Le lien logique est la coordination/conséquence."
         }
       ]
     },
@@ -2239,6 +2899,193 @@
           ],
           "correctIndex": 1,
           "explanation": "'Cent' prend un 's' quand il est multiplié et non suivi d'un autre nombre : deux cents euros."
+        },
+        {
+          "question": "Choisissez : 'Mon frère ___ son livre, le mien est resté à la maison.'",
+          "choices": [
+            "à / ont",
+            "à / on",
+            "a / ont",
+            "a / on"
+          ],
+          "correctIndex": 3,
+          "explanation": "'A' (verbe avoir : il a) et 'on' (pronom indéfini, sujet du verbe). On peut remplacer 'a' par 'avait' et 'on' par 'il'."
+        },
+        {
+          "question": "Choisissez : 'Ils ___ contents car leurs efforts ___ payé.'",
+          "choices": [
+            "sont / on",
+            "son / ont",
+            "sont / ont",
+            "son / on"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Sont' (verbe être : ils sont = ils étaient) et 'ont' (verbe avoir : ont payé). 'Son' et 'on' ne conviennent pas ici."
+        },
+        {
+          "question": "Choisissez : 'Range tes affaires ___ ta sœur rangera les siennes.'",
+          "choices": [
+            "et",
+            "est",
+            "ait",
+            "ai"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Et' = conjonction de coordination (qu'on peut remplacer par 'et puis'). 'Est' serait le verbe être (il est)."
+        },
+        {
+          "question": "Complétez : 'Je ne sais pas ___ tu as rangé mes clés.'",
+          "choices": [
+            "ou",
+            "où",
+            "houx",
+            "oust"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Où' (avec accent) indique le lieu. 'Ou' (sans accent) marque un choix (= ou bien). Ici, on interroge sur le lieu : où."
+        },
+        {
+          "question": "Choisissez : 'C'est la maison ___ je suis né, ___ habitent mes grands-parents.'",
+          "choices": [
+            "ou / ou",
+            "où / où",
+            "ou / où",
+            "où / ou"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans les deux cas, 'où' (avec accent) est un pronom relatif indiquant le lieu (la maison où... où...)."
+        },
+        {
+          "question": "Complétez : '___ ordinateur est trop lent, je vais le changer.'",
+          "choices": [
+            "Ce",
+            "Se",
+            "Ceux",
+            "C'est"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Ce' est un déterminant démonstratif devant un nom (ce + ordinateur). 'Se' est un pronom réfléchi qui accompagne un verbe (il se lave)."
+        },
+        {
+          "question": "Choisissez : 'Elle ___ demande si elle a fait le bon choix.'",
+          "choices": [
+            "ce",
+            "se",
+            "ceux",
+            "ces"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Se' est un pronom réfléchi (elle se demande). On peut le repérer car il accompagne toujours un verbe pronominal."
+        },
+        {
+          "question": "Complétez : '___ tu travailles bien, tu réussiras ton brevet.'",
+          "choices": [
+            "Ces",
+            "Ses",
+            "C'est",
+            "Si"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Si' introduit une condition. À ne pas confondre avec 'ci' (ici) ou 's'y' (se + y). Ici, il s'agit bien de la conjonction 'si'."
+        },
+        {
+          "question": "Choisissez : 'Je connais ___ chanteur, mais j'ignore ___ son nom.'",
+          "choices": [
+            "quel / quelle",
+            "qu'elle / quel",
+            "quel / qu'elle",
+            "quelle / quel"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Quel' = déterminant interrogatif devant un nom masculin (quel chanteur). 'Qu'elle' = que + elle (j'ignore qu'elle... non : ici 'quel est' implicite). En réalité : 'quel chanteur' (déterminant) et 'quel (est) son nom'."
+        },
+        {
+          "question": "Choisissez : 'Voici le sujet ___ je veux te parler.'",
+          "choices": [
+            "donc",
+            "dont",
+            "don",
+            "dons"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Dont' est un pronom relatif (parler DE quelque chose → dont). 'Donc' est une conjonction de conséquence (je pense, donc je suis)."
+        },
+        {
+          "question": "Complétez : 'Il pleut, ___ je prends mon parapluie.'",
+          "choices": [
+            "dont",
+            "donc",
+            "don",
+            "dons"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Donc' exprime la conséquence (= par conséquent). 'Dont' serait un pronom relatif, impossible ici."
+        },
+        {
+          "question": "Choisissez : 'Ces élèves révisent ___ leçons avec ___ professeur.'",
+          "choices": [
+            "leurs / leurs",
+            "leur / leur",
+            "leurs / leur",
+            "leur / leurs"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Leurs leçons' (plusieurs leçons → 's') mais 'leur professeur' (un seul professeur → pas de 's'). 'Leur' déterminant s'accorde avec le nom."
+        },
+        {
+          "question": "Complétez : 'Tu ___ choisir entre les deux, mais cela me semble ___ probable.'",
+          "choices": [
+            "peux / peu",
+            "peut / peu",
+            "peu / peux",
+            "peux / peut"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Tu peux' (verbe pouvoir, 2e personne) et 'peu probable' (adverbe de quantité). 'Peut' serait la 3e personne (il peut)."
+        },
+        {
+          "question": "Choisissez : 'Le spectacle commence ___ une heure, sois ___ !'",
+          "choices": [
+            "dans / prêt",
+            "dans / près",
+            "dont / prêt",
+            "dans / prés"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Prêt' (adjectif = préparé) s'accorde et signifie 'disposé à'. 'Près' (adverbe = à proximité) est invariable. Ici : sois prêt."
+        },
+        {
+          "question": "Complétez : '___ moi, je n'ai aucune objection ; vas-y ___ tu veux.'",
+          "choices": [
+            "Quand / quand",
+            "Quant à / quand",
+            "Qu'en / quant",
+            "Quand / quant"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Quant à moi' = en ce qui me concerne. 'Quand tu veux' = au moment où (temps). À ne pas confondre avec 'qu'en' (que + en)."
+        },
+        {
+          "question": "Choisissez le pluriel correct : 'Les ___ du château résonnaient sous les ___.'",
+          "choices": [
+            "vitraux / portails",
+            "vitrails / portaux",
+            "vitraux / portaux",
+            "vitrails / portails"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Vitrail' fait son pluriel en -aux (vitraux), mais 'portail' suit la règle générale et prend un 's' (portails). De même : détail, chandail, éventail."
+        },
+        {
+          "question": "Quelle phrase est correctement accordée ?",
+          "choices": [
+            "La robe qu'elle a acheté est rouge.",
+            "La robe qu'elle a achetés est rouge.",
+            "La robe qu'elle a achetée est rouge.",
+            "La robe qu'elle a achetées est rouge."
+          ],
+          "correctIndex": 2,
+          "explanation": "Avec 'avoir', le participe passé s'accorde avec le COD placé avant. Ici 'qu'' (= la robe, féminin singulier) est COD : achetée."
         }
       ]
     },
@@ -2542,6 +3389,226 @@
           ],
           "correctIndex": 1,
           "explanation": "La tonalité nostalgique évoque avec mélancolie le souvenir d'un passé perdu."
+        },
+        {
+          "question": "« Prenez une casserole, ajoutez deux œufs, puis remuez vivement. » À quel type de texte appartient ce passage ?",
+          "choices": [
+            "Texte injonctif",
+            "Texte narratif",
+            "Texte argumentatif",
+            "Texte descriptif"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'emploi de l'impératif pour donner des consignes (recette, mode d'emploi) caractérise le texte injonctif, qui vise à faire agir le lecteur."
+        },
+        {
+          "question": "« La salle était vaste et sombre ; de lourdes tentures rouges pendaient aux fenêtres, et la poussière recouvrait les meubles. » De quel type de texte s'agit-il ?",
+          "choices": [
+            "Narratif",
+            "Argumentatif",
+            "Explicatif",
+            "Descriptif"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le passage peint un lieu en détaillant ses caractéristiques (couleurs, objets) sans action : c'est un texte descriptif."
+        },
+        {
+          "question": "« Il faut absolument réduire notre consommation de plastique, car les océans en sont pollués. » Quel est le type dominant de ce texte ?",
+          "choices": [
+            "Descriptif",
+            "Narratif",
+            "Argumentatif",
+            "Injonctif"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le texte défend une opinion ('il faut réduire...') et l'appuie d'un argument introduit par 'car' : c'est un texte argumentatif."
+        },
+        {
+          "question": "Dans le schéma narratif, comment s'appelle l'étape où le héros affronte des obstacles et tente de résoudre le problème ?",
+          "choices": [
+            "La situation initiale",
+            "L'élément perturbateur",
+            "La situation finale",
+            "Les péripéties"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les péripéties (ou actions) constituent les événements qui se succèdent après l'élément perturbateur, jusqu'à la résolution."
+        },
+        {
+          "question": "Quel est l'ordre correct des cinq étapes du schéma narratif ?",
+          "choices": [
+            "Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale",
+            "Élément perturbateur, situation initiale, péripéties, situation finale, résolution",
+            "Situation initiale, péripéties, élément perturbateur, situation finale, résolution",
+            "Péripéties, situation initiale, résolution, élément perturbateur, situation finale"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le récit suit l'ordre : situation initiale (équilibre), élément perturbateur (rupture), péripéties, élément de résolution, puis situation finale (nouvel équilibre)."
+        },
+        {
+          "question": "Dans le schéma actantiel, comment nomme-t-on ce que le héros cherche à obtenir ?",
+          "choices": [
+            "Le sujet",
+            "L'objet (la quête)",
+            "L'opposant",
+            "Le destinataire"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'objet est le but de la quête, ce que le sujet (le héros) cherche à atteindre ou à conquérir."
+        },
+        {
+          "question": "« Je poussai la porte. Mon cœur battait. Que pouvait bien cacher cette pièce ? » Quel point de vue (focalisation) est employé ?",
+          "choices": [
+            "Focalisation interne",
+            "Focalisation zéro (omniscient)",
+            "Focalisation externe",
+            "Point de vue neutre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le récit à la première personne donne accès aux sensations et pensées du seul narrateur ('mon cœur battait', sa question) : c'est la focalisation interne."
+        },
+        {
+          "question": "« Un homme entra dans le café, s'assit au fond et commanda un verre. Il ne dit pas un mot. » Quelle est la focalisation employée ?",
+          "choices": [
+            "Focalisation interne",
+            "Focalisation externe",
+            "Focalisation zéro",
+            "Point de vue omniscient"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le narrateur décrit la scène de l'extérieur, comme une caméra, sans accéder aux pensées du personnage : c'est la focalisation externe."
+        },
+        {
+          "question": "« Pierre croyait avoir réussi, mais Marie, elle, savait déjà qu'il avait échoué. » Quelle est la focalisation employée ?",
+          "choices": [
+            "Focalisation zéro (omnisciente)",
+            "Focalisation interne",
+            "Focalisation externe",
+            "Discours indirect libre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le narrateur connaît les pensées de plusieurs personnages à la fois (Pierre et Marie) : c'est la focalisation zéro, dite omnisciente."
+        },
+        {
+          "question": "Dans un récit où le narrateur dit « je » et raconte sa propre histoire, on parle de :",
+          "choices": [
+            "Narrateur externe",
+            "Narrateur interne (personnage)",
+            "Narrateur absent",
+            "Narrateur omniscient à la 3e personne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Quand le narrateur est un personnage de l'histoire qui dit 'je', il s'agit d'un narrateur interne (récit à la première personne)."
+        },
+        {
+          "question": "« Ô rage ! ô désespoir ! ô vieillesse ennemie ! » (Corneille). Quel registre domine dans ces vers ?",
+          "choices": [
+            "Comique",
+            "Lyrique et pathétique",
+            "Épique",
+            "Ironique"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'expression intense de la douleur et du désespoir, avec apostrophes et exclamations, relève des registres lyrique (sentiments) et pathétique (émotion forte)."
+        },
+        {
+          "question": "Un texte raillant les défauts d'un personnage par un humour mordant et moqueur relève surtout du registre :",
+          "choices": [
+            "Tragique",
+            "Pathétique",
+            "Épique",
+            "Satirique"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le registre satirique se moque et critique les défauts (d'une personne ou d'une société) avec un humour mordant."
+        },
+        {
+          "question": "Lequel de ces genres appartient au théâtre ?",
+          "choices": [
+            "La nouvelle",
+            "La comédie",
+            "L'autobiographie",
+            "Le sonnet"
+          ],
+          "correctIndex": 1,
+          "explanation": "La comédie est un genre théâtral (avec la tragédie et le drame). La nouvelle est un récit, l'autobiographie un récit de vie, le sonnet un poème."
+        },
+        {
+          "question": "Quel genre se définit par une argumentation où l'auteur réfléchit librement et donne son point de vue sur un sujet ?",
+          "choices": [
+            "Le roman",
+            "La tragédie",
+            "L'essai",
+            "La nouvelle"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'essai est un texte en prose où l'auteur expose et défend des idées personnelles sur un sujet, sans fiction romanesque."
+        },
+        {
+          "question": "Dans l'énonciation, quels indices permettent d'identifier QUI parle et À QUI ?",
+          "choices": [
+            "Les rimes et le rythme",
+            "Les pronoms personnels et les marques de la 1re et 2e personne",
+            "Le nombre de paragraphes",
+            "La ponctuation finale uniquement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les indices d'énonciation sont notamment les pronoms personnels (je/nous = locuteur ; tu/vous = destinataire), ainsi que les marques de temps et de lieu liées à la situation d'énonciation."
+        },
+        {
+          "question": "« Premièrement, le sport renforce le corps. De plus, il développe l'esprit d'équipe. Enfin, il apprend la persévérance. » Quel rôle jouent les mots en gras dans cette argumentation ?",
+          "choices": [
+            "Ce sont des figures de style",
+            "Ce sont des connecteurs logiques qui organisent les arguments",
+            "Ce sont des compléments circonstanciels de lieu",
+            "Ce sont des verbes d'opinion"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Premièrement', 'de plus', 'enfin' sont des connecteurs logiques d'addition et d'énumération : ils structurent et hiérarchisent les arguments."
+        },
+        {
+          "question": "Dans une argumentation, quel élément sert à illustrer concrètement un argument ?",
+          "choices": [
+            "La thèse",
+            "L'exemple",
+            "Le connecteur",
+            "La conclusion"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'exemple est un cas concret qui vient appuyer et rendre crédible un argument, lui-même au service de la thèse."
+        },
+        {
+          "question": "« Il avait le visage maigre, le teint pâle et des yeux noirs perçants qui semblaient lire dans les âmes. » De quel procédé descriptif s'agit-il ?",
+          "choices": [
+            "Un portrait physique",
+            "Un portrait moral",
+            "Un cadre spatio-temporel",
+            "Un dialogue"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le passage décrit l'apparence extérieure du personnage (visage, teint, yeux) : c'est un portrait physique."
+        },
+        {
+          "question": "« — Tu viens ? demanda-t-il. — Non, répondit-elle en baissant les yeux. » À quel type de texte appartient ce passage ?",
+          "choices": [
+            "Texte dialogal",
+            "Texte explicatif",
+            "Texte descriptif",
+            "Texte argumentatif"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le passage rapporte un échange de paroles entre deux personnages (tirets, verbes de parole) : c'est un texte dialogal."
+        },
+        {
+          "question": "« C'était un soir d'hiver, en 1850, dans un petit village perdu des montagnes. » Quel élément du récit est ici mis en place ?",
+          "choices": [
+            "Le schéma actantiel",
+            "Le cadre spatio-temporel",
+            "L'élément perturbateur",
+            "Le portrait du héros"
+          ],
+          "correctIndex": 1,
+          "explanation": "La phrase précise le moment (un soir d'hiver, en 1850) et le lieu (un village des montagnes) de l'action : c'est le cadre spatio-temporel."
         }
       ]
     },
@@ -2779,6 +3846,226 @@
           ],
           "correctIndex": 0,
           "explanation": "Le contre-rejet est un mot placé en fin de vers qui appartient syntaxiquement au vers suivant, créant un effet d'attente."
+        },
+        {
+          "question": "Combien de syllabes compte le vers 'Je fais souvent ce reve etrange et penetrant' (Verlaine) ?",
+          "choices": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "correctIndex": 2,
+          "explanation": "En comptant chaque syllabe (le 'e' de 'reve' et de 'etrange' se prononce a l'interieur du vers), on obtient 12 syllabes : un alexandrin."
+        },
+        {
+          "question": "Combien de syllabes dans 'Il pleure dans mon coeur' (Verlaine) ?",
+          "choices": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correctIndex": 1,
+          "explanation": "Il-pleu-re-dans-mon-coeur : on compte 6 syllabes. C'est un hexasyllabe."
+        },
+        {
+          "question": "De quel type de vers s'agit-il : 'Maitre corbeau sur un arbre perche' (La Fontaine) ?",
+          "choices": [
+            "Decasyllabe",
+            "Octosyllabe",
+            "Alexandrin",
+            "Hexasyllabe"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mai-tre-cor-beau-sur-un-ar-bre-per-che : 10 syllabes, c'est un decasyllabe."
+        },
+        {
+          "question": "De quel type de vers s'agit-il : 'Heureux qui comme Ulysse a fait un beau voyage' (Du Bellay) ?",
+          "choices": [
+            "Decasyllabe",
+            "Octosyllabe",
+            "Alexandrin",
+            "Heptasyllabe"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ce vers compte 12 syllabes : c'est un alexandrin, le vers le plus celebre de la poesie francaise."
+        },
+        {
+          "question": "Combien de syllabes dans 'Sous le pont Mirabeau coule la Seine' (Apollinaire) ?",
+          "choices": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sous-le-pont-Mi-ra-beau-cou-le-la-Sei(ne final muet) : 10 syllabes, un decasyllabe."
+        },
+        {
+          "question": "Dans le vers 'Le lion, terreur des forets', le mot 'lion' compte deux syllabes (li-on). Comment appelle-t-on ce procede ?",
+          "choices": [
+            "Une synerese",
+            "Une diérèse",
+            "Un hiatus",
+            "Une elision"
+          ],
+          "correctIndex": 1,
+          "explanation": "La diérèse separe en deux syllabes ce qu'on prononce habituellement en une seule : li-on permet d'allonger le vers."
+        },
+        {
+          "question": "Quand 'hier' est compte pour une seule syllabe dans un vers, on parle de :",
+          "choices": [
+            "Synerese",
+            "Diérèse",
+            "Hiatus",
+            "Cesure"
+          ],
+          "correctIndex": 0,
+          "explanation": "La synerese fond en une seule syllabe deux voyelles qu'on pourrait separer : ici 'hier' compte pour 1 (contraire de la diérèse)."
+        },
+        {
+          "question": "Dans 'tu as ete la', la rencontre des voyelles 'tu-as' sans liaison s'appelle :",
+          "choices": [
+            "Un enjambement",
+            "Une diérèse",
+            "Un hiatus",
+            "Une cesure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le hiatus est la rencontre de deux voyelles a la jointure de deux mots ('tu as'), souvent evitee en poesie classique pour sa lourdeur."
+        },
+        {
+          "question": "Dans le sonnet classique, comment sont disposees les strophes ?",
+          "choices": [
+            "Quatre tercets",
+            "Deux quatrains puis deux tercets",
+            "Deux tercets puis deux quatrains",
+            "Trois quatrains et un distique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le sonnet comporte 14 vers : deux quatrains (4 + 4 vers) suivis de deux tercets (3 + 3 vers)."
+        },
+        {
+          "question": "Une strophe de 5 vers se nomme :",
+          "choices": [
+            "Quatrain",
+            "Quintil",
+            "Sizain",
+            "Dizain"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le quintil est une strophe de 5 vers. A ne pas confondre avec le quatrain (4 vers) ou le sizain (6 vers)."
+        },
+        {
+          "question": "Un poeme dont les rimes suivent le schema A-B-A-B comporte des rimes :",
+          "choices": [
+            "Plates",
+            "Croisees",
+            "Embrassees",
+            "Riches"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le schema ABAB correspond a des rimes croisees (ou alternees) : les rimes alternent de vers en vers."
+        },
+        {
+          "question": "Le couple de rimes 'sommeil / vermeil' partage les sons 'm', 'e', 'i' et 'l'. Cette rime est :",
+          "choices": [
+            "Riche",
+            "Suffisante",
+            "Pauvre",
+            "Fausse"
+          ],
+          "correctIndex": 0,
+          "explanation": "Avec au moins trois sons communs, la rime 'sommeil / vermeil' est une rime riche."
+        },
+        {
+          "question": "Les rimes 'ami / fini' partagent uniquement le son final 'i'. Cette rime est :",
+          "choices": [
+            "Riche",
+            "Suffisante",
+            "Pauvre",
+            "Leonine"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un seul son commun (la voyelle accentuee 'i') : c'est une rime pauvre."
+        },
+        {
+          "question": "Les rimes 'chanson / maison' partagent les sons 's' et 'on'. Cette rime est :",
+          "choices": [
+            "Pauvre",
+            "Suffisante",
+            "Riche",
+            "Fausse"
+          ],
+          "correctIndex": 1,
+          "explanation": "Deux sons communs ('s' + 'on') : la rime est suffisante."
+        },
+        {
+          "question": "Quand la phrase deborde de la fin d'un vers sur le vers suivant sans pause, on parle de :",
+          "choices": [
+            "Hiatus",
+            "Enjambement",
+            "Cesure",
+            "Diérèse"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'enjambement prolonge la phrase d'un vers sur le suivant sans pause syntaxique forte a la fin du premier vers."
+        },
+        {
+          "question": "Ou se situe la cesure dans un alexandrin classique ?",
+          "choices": [
+            "Apres la 6e syllabe",
+            "Apres la 4e syllabe",
+            "Apres la 8e syllabe",
+            "A la fin du vers"
+          ],
+          "correctIndex": 0,
+          "explanation": "La cesure de l'alexandrin classique tombe apres la 6e syllabe, partageant le vers en deux hemistiches de 6 syllabes."
+        },
+        {
+          "question": "Dans le vers 'Quand vous serez bien vieille, au soir, a la chandelle' (Ronsard), le 'e' de 'vieille' devant 'au' :",
+          "choices": [
+            "Compte comme une syllabe",
+            "Compte double",
+            "Ne compte pas car il precede une voyelle (elision)",
+            "Forme une diérèse"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le 'e' muet ne compte pas comme syllabe lorsqu'il precede un mot commencant par une voyelle : il s'elide."
+        },
+        {
+          "question": "Une rime qui se termine par un 'e' muet (ex : 'belle / nouvelle') est dite :",
+          "choices": [
+            "Rime masculine",
+            "Rime feminine",
+            "Rime pauvre",
+            "Rime interieure"
+          ],
+          "correctIndex": 1,
+          "explanation": "La rime feminine se termine par un 'e' muet ; la rime masculine se termine par toute autre sonorite. Les poetes les alternent souvent."
+        },
+        {
+          "question": "Dans le vers 'O Rage ! O desespoir ! O vieillesse ennemie !' (Corneille), la repetition de 'O' en tete de chaque exclamation est avant tout :",
+          "choices": [
+            "Une cesure",
+            "Une diérèse",
+            "Un enjambement",
+            "Une anaphore"
+          ],
+          "correctIndex": 3,
+          "explanation": "La reprise du meme mot 'O' en debut de groupes successifs est une anaphore, ici au service de l'emotion."
+        },
+        {
+          "question": "A l'interieur d'un vers, un 'e' muet place entre deux consonnes prononcees, en general :",
+          "choices": [
+            "Ne se prononce jamais",
+            "Se prononce et compte comme une syllabe",
+            "Compte double",
+            "Provoque un hiatus"
+          ],
+          "correctIndex": 1,
+          "explanation": "A l'interieur du vers, le 'e' muet entoure de consonnes prononcees se fait entendre et compte comme une syllabe (ex : 'une rose')."
         }
       ]
     },
@@ -3016,6 +4303,226 @@
           ],
           "correctIndex": 1,
           "explanation": "Le suffixe '-tion' forme des noms à partir de verbes pour désigner une action ou son résultat (créer → création)."
+        },
+        {
+          "question": "Quel mot est synonyme de 'taciturne' ?",
+          "choices": [
+            "Bavard",
+            "Silencieux",
+            "Joyeux",
+            "Rapide"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Taciturne' qualifie une personne qui parle peu, renfermee : son synonyme est 'silencieux' (ou peu loquace)."
+        },
+        {
+          "question": "Quel est l'antonyme de 'abondant' ?",
+          "choices": [
+            "Nombreux",
+            "Copieux",
+            "Rare",
+            "Foisonnant"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Abondant' signifie present en grande quantite ; son contraire est 'rare' (en petite quantite)."
+        },
+        {
+          "question": "Les mots 'eminent' (remarquable) et 'imminent' (tout proche) sont :",
+          "choices": [
+            "Des paronymes",
+            "Des homophones",
+            "Des synonymes",
+            "Des antonymes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ce sont des paronymes : des mots de forme tres proche mais de sens differents, qu'il ne faut pas confondre."
+        },
+        {
+          "question": "Les mots 'collision' (choc) et 'collusion' (entente secrete) sont :",
+          "choices": [
+            "Des synonymes",
+            "Des paronymes",
+            "Des homonymes parfaits",
+            "Des antonymes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Leur ressemblance de forme et leur difference de sens en font des paronymes, source frequente de confusions."
+        },
+        {
+          "question": "Dans 'le pied de la montagne', le mot 'pied' est employe au sens :",
+          "choices": [
+            "Propre",
+            "Figure",
+            "Etymologique",
+            "Argotique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le sens propre de 'pied' designe la partie du corps ; ici, 'pied de la montagne' (sa base) releve du sens figure."
+        },
+        {
+          "question": "Dans laquelle de ces phrases le mot 'glace' est-il employe au sens propre ?",
+          "choices": [
+            "Il se regarde dans la glace",
+            "Un vent glace soufflait",
+            "Le lac etait couvert de glace",
+            "Son regard m'a glace"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le sens propre de 'glace' renvoie a l'eau gelee : 'le lac couvert de glace'. Les autres emplois sont figures ou designent un miroir."
+        },
+        {
+          "question": "Que designe le radical grec 'hydro-' dans 'hydravion' ?",
+          "choices": [
+            "Le feu",
+            "L'air",
+            "L'eau",
+            "La terre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le radical grec 'hydro-' signifie 'eau' : un hydravion est concu pour se poser sur l'eau."
+        },
+        {
+          "question": "Le suffixe '-phobe' (comme dans 'claustrophobe') signifie :",
+          "choices": [
+            "Qui aime",
+            "Qui craint ou deteste",
+            "Qui soigne",
+            "Qui mesure"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le suffixe grec '-phobe' exprime la crainte ou le rejet ; son contraire est '-phile' (qui aime)."
+        },
+        {
+          "question": "Quel mot N'appartient PAS a la meme famille que 'terre' ?",
+          "choices": [
+            "Terrien",
+            "Atterrir",
+            "Terrasse",
+            "Terreur"
+          ],
+          "correctIndex": 3,
+          "explanation": "'Terreur' vient du latin 'terror' (peur), sans rapport avec 'terra' (la terre). Les trois autres derivent bien de 'terre'."
+        },
+        {
+          "question": "Le radical 'thermo-' (dans 'thermometre') a un rapport avec :",
+          "choices": [
+            "L'eau",
+            "La chaleur",
+            "La lumiere",
+            "Le temps"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Thermo-' vient du grec 'thermos' (chaud) : le thermometre mesure la temperature, donc la chaleur."
+        },
+        {
+          "question": "Quel mot est synonyme de 'obsequieux' (registre soutenu) ?",
+          "choices": [
+            "Hautain",
+            "Servile",
+            "Honnete",
+            "Distant"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Obsequieux' qualifie une politesse excessive et flatteuse ; son synonyme est 'servile' (qui flatte avec bassesse)."
+        },
+        {
+          "question": "Le mot 'bagnole' appartient au registre :",
+          "choices": [
+            "Soutenu",
+            "Courant",
+            "Familier",
+            "Litteraire"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Bagnole' (= voiture) releve du registre familier, employe dans la langue parlee et relachee."
+        },
+        {
+          "question": "Quel terme appartient au registre soutenu pour dire 'manger' ?",
+          "choices": [
+            "Bouffer",
+            "Se sustenter",
+            "Becter",
+            "Grailler"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Se sustenter' est un verbe soutenu signifiant se nourrir ; 'bouffer', 'becter' et 'grailler' sont familiers."
+        },
+        {
+          "question": "Le mot 'travail' vient du latin 'tripalium', qui designait a l'origine :",
+          "choices": [
+            "Un instrument de torture",
+            "Un champ cultive",
+            "Une recompense",
+            "Une fete"
+          ],
+          "correctIndex": 0,
+          "explanation": "Etymologiquement, 'travail' vient de 'tripalium', un instrument de torture : l'idee de peine et d'effort y est a l'origine."
+        },
+        {
+          "question": "Quel mot appartient au champ lexical de la mer ?",
+          "choices": [
+            "Ressac",
+            "Sommet",
+            "Sentier",
+            "Clairiere"
+          ],
+          "correctIndex": 0,
+          "explanation": "'Ressac' designe le retour violent des vagues sur un obstacle : il appartient au champ lexical de la mer."
+        },
+        {
+          "question": "Le mot 'serpent' porte le plus souvent une connotation :",
+          "choices": [
+            "Positive (douceur, paix)",
+            "Negative (traitrise, danger)",
+            "Strictement neutre",
+            "Comique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Au-dela de sa denotation (l'animal), 'serpent' porte une connotation negative de ruse, de traitrise et de danger."
+        },
+        {
+          "question": "Quelle est la difference entre denotation et connotation ?",
+          "choices": [
+            "La connotation est le sens propre, la denotation le sens figure",
+            "Ce sont deux mots pour la meme idee",
+            "La denotation est le sens objectif du dictionnaire, la connotation la valeur affective ajoutee",
+            "La denotation ne concerne que les verbes"
+          ],
+          "correctIndex": 2,
+          "explanation": "La denotation est le sens premier et neutre d'un mot ; la connotation regroupe les associations affectives ou culturelles qu'il evoque."
+        },
+        {
+          "question": "Les mots 'cygne' (oiseau) et 'signe' (marque) sont :",
+          "choices": [
+            "Des paronymes",
+            "Des homophones",
+            "Des synonymes",
+            "Des antonymes"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Cygne' et 'signe' se prononcent de la meme facon mais s'ecrivent differemment : ce sont des homophones."
+        },
+        {
+          "question": "Que signifie le prefixe 'mal-' dans 'malhabile' ?",
+          "choices": [
+            "Tres",
+            "Mal, de facon negative",
+            "A nouveau",
+            "Avant"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le prefixe 'mal-' indique une valeur negative ou un defaut : 'malhabile' = qui n'est pas habile, maladroit."
+        },
+        {
+          "question": "Dans 'crier de douleur' et 'crier famine' (reclamer), le mot 'crier' illustre :",
+          "choices": [
+            "Un homonyme",
+            "Un paronyme",
+            "Un antonyme",
+            "Une polysemie"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le meme mot 'crier' prend des sens differents selon le contexte : c'est la polysemie (plusieurs sens d'un meme mot)."
         }
       ]
     }

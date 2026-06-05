@@ -1,0 +1,446 @@
+{
+  "grammaire": [
+    {
+      "question": "Quel est le type de la phrase 'Comme cette histoire est triste !' ?",
+      "choices": [
+        "Déclarative",
+        "Interrogative",
+        "Exclamative",
+        "Injonctive"
+      ],
+      "correctIndex": 2,
+      "explanation": "La phrase exclamative exprime un sentiment fort (ici la tristesse) et se termine par un point d'exclamation. Le mot 'comme' marque l'intensité."
+    },
+    {
+      "question": "Transforme à la forme négative : 'Il mange toujours quelque chose.' Quelle est la bonne réponse ?",
+      "choices": [
+        "Il ne mange pas toujours quelque chose.",
+        "Il mange jamais quelque chose.",
+        "Il ne mange jamais quelque chose.",
+        "Il ne mange jamais rien."
+      ],
+      "correctIndex": 3,
+      "explanation": "À la forme négative, 'toujours' devient 'ne... jamais' et 'quelque chose' devient 'rien'. Les deux éléments doivent être niés ensemble : 'ne mange jamais rien'."
+    },
+    {
+      "question": "Dans 'C'est toi qui as cassé le vase', quelle construction est employée ?",
+      "choices": [
+        "La forme passive",
+        "La tournure emphatique (mise en relief)",
+        "La forme impersonnelle",
+        "La forme interrogative"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le présentatif 'c'est... qui' met en relief le sujet 'toi'. C'est une tournure emphatique d'insistance, par extraction."
+    },
+    {
+      "question": "Mets à la voix passive : 'Les pompiers ont éteint l'incendie.' Quelle phrase est correcte ?",
+      "choices": [
+        "L'incendie était éteint des pompiers.",
+        "L'incendie a éteint les pompiers.",
+        "Les pompiers ont été éteints par l'incendie.",
+        "L'incendie a été éteint par les pompiers."
+      ],
+      "correctIndex": 3,
+      "explanation": "Au passif, le COD ('l'incendie') devient sujet, le sujet ('les pompiers') devient complément d'agent introduit par 'par', et le verbe se met avec l'auxiliaire être au temps correspondant."
+    },
+    {
+      "question": "Dans la phrase passive 'Ce roman a été écrit par un auteur célèbre', quel est le complément d'agent ?",
+      "choices": [
+        "Ce roman",
+        "a été écrit",
+        "par un auteur célèbre",
+        "célèbre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le complément d'agent désigne celui qui accomplit réellement l'action dans une phrase passive. Il est ici introduit par la préposition 'par'."
+    },
+    {
+      "question": "Dans 'Quelle heure est-il ?', quel est le type de la phrase ?",
+      "choices": [
+        "Interrogative totale",
+        "Interrogative partielle",
+        "Exclamative",
+        "Injonctive"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'interrogation partielle porte sur un élément précis (ici l'heure) grâce à un mot interrogatif ('quelle'). L'interrogation totale, elle, appelle une réponse par oui ou non."
+    },
+    {
+      "question": "Dans 'Ferme la porte en partant', quel mode est employé et quelle est la valeur de la phrase ?",
+      "choices": [
+        "Indicatif, phrase déclarative",
+        "Impératif, phrase injonctive",
+        "Subjonctif, phrase exclamative",
+        "Conditionnel, phrase interrogative"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Ferme' est à l'impératif présent. La phrase exprime un ordre : c'est une phrase de type injonctif."
+    },
+    {
+      "question": "Dans 'En 1789, le peuple prend la Bastille', quelle est la valeur du présent ?",
+      "choices": [
+        "Présent d'énonciation",
+        "Présent de vérité générale",
+        "Présent de narration (historique)",
+        "Présent d'habitude"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le présent employé pour raconter un fait passé afin de le rendre plus vivant est un présent de narration (ou présent historique)."
+    },
+    {
+      "question": "Dans 'L'eau bout à 100 degrés', quelle est la valeur du présent ?",
+      "choices": [
+        "Présent de narration",
+        "Présent de vérité générale",
+        "Présent d'énonciation",
+        "Présent à valeur de futur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le présent exprimant un fait toujours vrai, une loi scientifique ou un proverbe est un présent de vérité générale."
+    },
+    {
+      "question": "Transforme au discours indirect : Il m'a dit : « Je viendrai demain. » Quelle phrase est correcte ?",
+      "choices": [
+        "Il m'a dit qu'il viendra demain.",
+        "Il m'a dit qu'il viendrait le lendemain.",
+        "Il m'a dit : qu'il viendrait demain.",
+        "Il m'a dit qu'il viendrais le lendemain."
+      ],
+      "correctIndex": 1,
+      "explanation": "Au discours indirect après un verbe au passé, le futur devient conditionnel ('viendrait') et 'demain' devient 'le lendemain'. La subordonnée est introduite par 'que'."
+    },
+    {
+      "question": "Dans 'Il regardait par la fenêtre. Pourquoi ne venait-elle pas ? Était-elle fâchée ?', quel type de discours rapporte les pensées du personnage ?",
+      "choices": [
+        "Discours direct",
+        "Discours indirect",
+        "Discours indirect libre",
+        "Discours narrativisé"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les pensées sont rapportées sans verbe introducteur ni guillemets, mais avec la ponctuation expressive des questions : c'est le discours indirect libre."
+    },
+    {
+      "question": "Dans 'Je doute qu'il vienne', pourquoi le verbe 'vienne' est-il au subjonctif ?",
+      "choices": [
+        "Parce que le verbe principal exprime une certitude",
+        "Parce que le verbe principal exprime le doute",
+        "Parce que c'est une phrase interrogative",
+        "Parce que la subordonnée est circonstancielle de temps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le subjonctif s'emploie dans la complétive après un verbe exprimant le doute, le souhait, la volonté ou le sentiment. 'Douter' déclenche ici le subjonctif."
+    },
+    {
+      "question": "Dans 'Si tu travaillais, tu réussirais', quelle est la valeur du conditionnel 'réussirais' ?",
+      "choices": [
+        "Une action soumise à une condition (hypothèse)",
+        "Une action future certaine",
+        "Une demande polie",
+        "Une vérité générale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le conditionnel exprime ici une action qui ne se réalisera que si la condition (le travail) est remplie. Cela correspond au système hypothétique 'si + imparfait / conditionnel'."
+    },
+    {
+      "question": "Dans 'Pourriez-vous m'aider, s'il vous plaît ?', quelle est la valeur du conditionnel ?",
+      "choices": [
+        "L'hypothèse",
+        "La politesse (atténuation)",
+        "L'information non confirmée",
+        "Le futur dans le passé"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le conditionnel sert ici à formuler une demande de manière polie et atténuée, et non à exprimer une condition."
+    },
+    {
+      "question": "Dans 'Je ne sais pas pourquoi il est parti', quelle est la nature de la proposition 'pourquoi il est parti' ?",
+      "choices": [
+        "Subordonnée relative",
+        "Subordonnée conjonctive complétive",
+        "Subordonnée interrogative indirecte",
+        "Subordonnée circonstancielle de cause"
+      ],
+      "correctIndex": 2,
+      "explanation": "Introduite par un mot interrogatif ('pourquoi') après un verbe de question ('je ne sais pas'), c'est une subordonnée interrogative indirecte."
+    },
+    {
+      "question": "Dans 'Il travaille pour que ses enfants réussissent', quelle est la nature de la subordonnée 'pour que ses enfants réussissent' ?",
+      "choices": [
+        "Subordonnée relative",
+        "Subordonnée complétive",
+        "Subordonnée circonstancielle de but",
+        "Subordonnée interrogative indirecte"
+      ],
+      "correctIndex": 2,
+      "explanation": "Introduite par la locution conjonctive 'pour que' (suivie du subjonctif) et exprimant le but, c'est une subordonnée circonstancielle de but."
+    },
+    {
+      "question": "Dans 'Le témoin affirme qu'il n'a rien vu', quelle est la nature de 'qu'il n'a rien vu' ?",
+      "choices": [
+        "Subordonnée relative",
+        "Subordonnée circonstancielle",
+        "Proposition indépendante",
+        "Subordonnée conjonctive complétive"
+      ],
+      "correctIndex": 3,
+      "explanation": "Introduite par la conjonction 'que' et complément d'objet du verbe 'affirme', c'est une subordonnée conjonctive complétive (COD)."
+    },
+    {
+      "question": "Dans 'Le chemin qui mène au village est long', quelle est la fonction du pronom relatif 'qui' ?",
+      "choices": [
+        "COD du verbe 'mène'",
+        "Sujet du verbe 'mène'",
+        "Complément du nom 'chemin'",
+        "Attribut du sujet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le pronom relatif 'qui' reprend l'antécédent 'le chemin' et occupe la fonction de sujet du verbe 'mène' (qu'est-ce qui mène au village ? le chemin)."
+    },
+    {
+      "question": "Dans la phrase 'Mais il refusa et partit', combien y a-t-il de conjonctions de coordination ?",
+      "choices": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Il y a deux conjonctions de coordination : 'mais' (en début de phrase, qui relie à ce qui précède) et 'et' (qui relie 'refusa' et 'partit'). Toutes deux figurent dans : mais, ou, et, donc, or, ni, car."
+    },
+    {
+      "question": "Dans 'Il pleut ; nous resterons donc à la maison', quelle est la nature de la relation entre les deux propositions ?",
+      "choices": [
+        "Subordination",
+        "Juxtaposition uniquement",
+        "Coordination par un adverbe de liaison",
+        "Apposition"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les deux propositions indépendantes sont d'abord juxtaposées (point-virgule) puis reliées par 'donc', adverbe ou conjonction marquant la conséquence. Le lien logique est la coordination/conséquence."
+    }
+  ],
+  "analyse-de-texte": [
+    {
+      "question": "« Prenez une casserole, ajoutez deux œufs, puis remuez vivement. » À quel type de texte appartient ce passage ?",
+      "choices": [
+        "Texte injonctif",
+        "Texte narratif",
+        "Texte argumentatif",
+        "Texte descriptif"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'emploi de l'impératif pour donner des consignes (recette, mode d'emploi) caractérise le texte injonctif, qui vise à faire agir le lecteur."
+    },
+    {
+      "question": "« La salle était vaste et sombre ; de lourdes tentures rouges pendaient aux fenêtres, et la poussière recouvrait les meubles. » De quel type de texte s'agit-il ?",
+      "choices": [
+        "Narratif",
+        "Argumentatif",
+        "Explicatif",
+        "Descriptif"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le passage peint un lieu en détaillant ses caractéristiques (couleurs, objets) sans action : c'est un texte descriptif."
+    },
+    {
+      "question": "« Il faut absolument réduire notre consommation de plastique, car les océans en sont pollués. » Quel est le type dominant de ce texte ?",
+      "choices": [
+        "Descriptif",
+        "Narratif",
+        "Argumentatif",
+        "Injonctif"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le texte défend une opinion ('il faut réduire...') et l'appuie d'un argument introduit par 'car' : c'est un texte argumentatif."
+    },
+    {
+      "question": "Dans le schéma narratif, comment s'appelle l'étape où le héros affronte des obstacles et tente de résoudre le problème ?",
+      "choices": [
+        "La situation initiale",
+        "L'élément perturbateur",
+        "La situation finale",
+        "Les péripéties"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les péripéties (ou actions) constituent les événements qui se succèdent après l'élément perturbateur, jusqu'à la résolution."
+    },
+    {
+      "question": "Quel est l'ordre correct des cinq étapes du schéma narratif ?",
+      "choices": [
+        "Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale",
+        "Élément perturbateur, situation initiale, péripéties, situation finale, résolution",
+        "Situation initiale, péripéties, élément perturbateur, situation finale, résolution",
+        "Péripéties, situation initiale, résolution, élément perturbateur, situation finale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le récit suit l'ordre : situation initiale (équilibre), élément perturbateur (rupture), péripéties, élément de résolution, puis situation finale (nouvel équilibre)."
+    },
+    {
+      "question": "Dans le schéma actantiel, comment nomme-t-on ce que le héros cherche à obtenir ?",
+      "choices": [
+        "Le sujet",
+        "L'objet (la quête)",
+        "L'opposant",
+        "Le destinataire"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'objet est le but de la quête, ce que le sujet (le héros) cherche à atteindre ou à conquérir."
+    },
+    {
+      "question": "« Je poussai la porte. Mon cœur battait. Que pouvait bien cacher cette pièce ? » Quel point de vue (focalisation) est employé ?",
+      "choices": [
+        "Focalisation interne",
+        "Focalisation zéro (omniscient)",
+        "Focalisation externe",
+        "Point de vue neutre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le récit à la première personne donne accès aux sensations et pensées du seul narrateur ('mon cœur battait', sa question) : c'est la focalisation interne."
+    },
+    {
+      "question": "« Un homme entra dans le café, s'assit au fond et commanda un verre. Il ne dit pas un mot. » Quelle est la focalisation employée ?",
+      "choices": [
+        "Focalisation interne",
+        "Focalisation externe",
+        "Focalisation zéro",
+        "Point de vue omniscient"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le narrateur décrit la scène de l'extérieur, comme une caméra, sans accéder aux pensées du personnage : c'est la focalisation externe."
+    },
+    {
+      "question": "« Pierre croyait avoir réussi, mais Marie, elle, savait déjà qu'il avait échoué. » Quelle est la focalisation employée ?",
+      "choices": [
+        "Focalisation zéro (omnisciente)",
+        "Focalisation interne",
+        "Focalisation externe",
+        "Discours indirect libre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le narrateur connaît les pensées de plusieurs personnages à la fois (Pierre et Marie) : c'est la focalisation zéro, dite omnisciente."
+    },
+    {
+      "question": "Dans un récit où le narrateur dit « je » et raconte sa propre histoire, on parle de :",
+      "choices": [
+        "Narrateur externe",
+        "Narrateur interne (personnage)",
+        "Narrateur absent",
+        "Narrateur omniscient à la 3e personne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quand le narrateur est un personnage de l'histoire qui dit 'je', il s'agit d'un narrateur interne (récit à la première personne)."
+    },
+    {
+      "question": "« Ô rage ! ô désespoir ! ô vieillesse ennemie ! » (Corneille). Quel registre domine dans ces vers ?",
+      "choices": [
+        "Comique",
+        "Lyrique et pathétique",
+        "Épique",
+        "Ironique"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'expression intense de la douleur et du désespoir, avec apostrophes et exclamations, relève des registres lyrique (sentiments) et pathétique (émotion forte)."
+    },
+    {
+      "question": "Un texte raillant les défauts d'un personnage par un humour mordant et moqueur relève surtout du registre :",
+      "choices": [
+        "Tragique",
+        "Pathétique",
+        "Épique",
+        "Satirique"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le registre satirique se moque et critique les défauts (d'une personne ou d'une société) avec un humour mordant."
+    },
+    {
+      "question": "Lequel de ces genres appartient au théâtre ?",
+      "choices": [
+        "La nouvelle",
+        "La comédie",
+        "L'autobiographie",
+        "Le sonnet"
+      ],
+      "correctIndex": 1,
+      "explanation": "La comédie est un genre théâtral (avec la tragédie et le drame). La nouvelle est un récit, l'autobiographie un récit de vie, le sonnet un poème."
+    },
+    {
+      "question": "Quel genre se définit par une argumentation où l'auteur réfléchit librement et donne son point de vue sur un sujet ?",
+      "choices": [
+        "Le roman",
+        "La tragédie",
+        "L'essai",
+        "La nouvelle"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'essai est un texte en prose où l'auteur expose et défend des idées personnelles sur un sujet, sans fiction romanesque."
+    },
+    {
+      "question": "Dans l'énonciation, quels indices permettent d'identifier QUI parle et À QUI ?",
+      "choices": [
+        "Les rimes et le rythme",
+        "Les pronoms personnels et les marques de la 1re et 2e personne",
+        "Le nombre de paragraphes",
+        "La ponctuation finale uniquement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les indices d'énonciation sont notamment les pronoms personnels (je/nous = locuteur ; tu/vous = destinataire), ainsi que les marques de temps et de lieu liées à la situation d'énonciation."
+    },
+    {
+      "question": "« Premièrement, le sport renforce le corps. De plus, il développe l'esprit d'équipe. Enfin, il apprend la persévérance. » Quel rôle jouent les mots en gras dans cette argumentation ?",
+      "choices": [
+        "Ce sont des figures de style",
+        "Ce sont des connecteurs logiques qui organisent les arguments",
+        "Ce sont des compléments circonstanciels de lieu",
+        "Ce sont des verbes d'opinion"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Premièrement', 'de plus', 'enfin' sont des connecteurs logiques d'addition et d'énumération : ils structurent et hiérarchisent les arguments."
+    },
+    {
+      "question": "Dans une argumentation, quel élément sert à illustrer concrètement un argument ?",
+      "choices": [
+        "La thèse",
+        "L'exemple",
+        "Le connecteur",
+        "La conclusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'exemple est un cas concret qui vient appuyer et rendre crédible un argument, lui-même au service de la thèse."
+    },
+    {
+      "question": "« Il avait le visage maigre, le teint pâle et des yeux noirs perçants qui semblaient lire dans les âmes. » De quel procédé descriptif s'agit-il ?",
+      "choices": [
+        "Un portrait physique",
+        "Un portrait moral",
+        "Un cadre spatio-temporel",
+        "Un dialogue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le passage décrit l'apparence extérieure du personnage (visage, teint, yeux) : c'est un portrait physique."
+    },
+    {
+      "question": "« — Tu viens ? demanda-t-il. — Non, répondit-elle en baissant les yeux. » À quel type de texte appartient ce passage ?",
+      "choices": [
+        "Texte dialogal",
+        "Texte explicatif",
+        "Texte descriptif",
+        "Texte argumentatif"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le passage rapporte un échange de paroles entre deux personnages (tirets, verbes de parole) : c'est un texte dialogal."
+    },
+    {
+      "question": "« C'était un soir d'hiver, en 1850, dans un petit village perdu des montagnes. » Quel élément du récit est ici mis en place ?",
+      "choices": [
+        "Le schéma actantiel",
+        "Le cadre spatio-temporel",
+        "L'élément perturbateur",
+        "Le portrait du héros"
+      ],
+      "correctIndex": 1,
+      "explanation": "La phrase précise le moment (un soir d'hiver, en 1850) et le lieu (un village des montagnes) de l'action : c'est le cadre spatio-temporel."
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "conjugaison": [
+    {
+      "question": "Conjuguez 'avoir' au présent de l'indicatif, 3e personne du pluriel :",
+      "choices": ["Ils on", "Ils ont", "Ils onts", "Ils avont"],
+      "correctIndex": 1,
+      "explanation": "Au présent : j'ai, tu as, il a, nous avons, vous avez, ils ont. 'On' (sans 't') est un pronom, à ne pas confondre avec 'ont' (verbe avoir)."
+    },
+    {
+      "question": "Quel est l'imparfait du verbe 'commencer' à la 1ère personne du singulier ?",
+      "choices": ["Je commencai", "Je commenceais", "Je commençais", "Je commencais"],
+      "correctIndex": 2,
+      "explanation": "Devant 'a', 'o' ou 'u', le 'c' prend une cédille pour conserver le son [s] : je commençais, nous commencions."
+    },
+    {
+      "question": "Conjuguez 'tenir' au passé simple, 3e personne du pluriel :",
+      "choices": ["Ils tenaient", "Ils tiennent", "Ils tiendront", "Ils tinrent"],
+      "correctIndex": 3,
+      "explanation": "Comme 'venir', 'tenir' a un passé simple irrégulier : je tins, tu tins, il tint, nous tînmes, vous tîntes, ils tinrent."
+    },
+    {
+      "question": "Quel est le futur simple de 'courir' à la 1ère personne du singulier ?",
+      "choices": ["Je courrai", "Je courirai", "Je courais", "Je cours"],
+      "correctIndex": 0,
+      "explanation": "'Courir' prend deux 'r' au futur et au conditionnel : je courrai, tu courras... À ne pas confondre avec l'imparfait 'je courais'."
+    },
+    {
+      "question": "Conjuguez 'écrire' au passé composé, 1ère personne du singulier :",
+      "choices": ["J'ai écris", "J'ai écrient", "J'ai écrit", "J'ai écrivu"],
+      "correctIndex": 2,
+      "explanation": "Le participe passé de 'écrire' est 'écrit'. Au passé composé : j'ai écrit. La forme 'écris' est le présent (j'écris)."
+    },
+    {
+      "question": "Quel est le présent de l'indicatif de 'vivre' à la 3e personne du singulier ?",
+      "choices": ["Il vie", "Il vive", "Il vit", "Il vis"],
+      "correctIndex": 2,
+      "explanation": "Au présent : je vis, tu vis, il vit, nous vivons, vous vivez, ils vivent. 'Qu'il vive' serait du subjonctif."
+    },
+    {
+      "question": "Conjuguez 'lire' à l'imparfait, 1ère personne du pluriel :",
+      "choices": ["Nous lisons", "Nous lisions", "Nous liions", "Nous lûmes"],
+      "correctIndex": 1,
+      "explanation": "L'imparfait se forme sur le radical du 'nous' du présent (nous lisons) + terminaisons : nous lisions, vous lisiez, ils lisaient."
+    },
+    {
+      "question": "Quel est le passé simple de 'naître' à la 3e personne du singulier ?",
+      "choices": ["Il naissait", "Il naît", "Il naîtra", "Il naquit"],
+      "correctIndex": 3,
+      "explanation": "'Naître' a un passé simple irrégulier en '-quis' : je naquis, tu naquis, il naquit, ils naquirent."
+    },
+    {
+      "question": "Conjuguez 'mourir' au passé composé, 3e personne du singulier :",
+      "choices": ["Il a mouru", "Il a mort", "Il est mort", "Il est mouri"],
+      "correctIndex": 2,
+      "explanation": "'Mourir' se conjugue avec l'auxiliaire 'être' et son participe passé est 'mort' : il est mort (accord : elle est morte)."
+    },
+    {
+      "question": "Quelle est la forme correcte de 'appeler' au présent, 3e personne du singulier ?",
+      "choices": ["Il appele", "Il appèle", "Il apelle", "Il appelle"],
+      "correctIndex": 3,
+      "explanation": "'Appeler' double le 'l' devant une syllabe muette : j'appelle, tu appelles, il appelle, ils appellent."
+    },
+    {
+      "question": "Conjuguez 'aller' au futur simple, 2e personne du singulier :",
+      "choices": ["Tu allas", "Tu allais", "Tu iras", "Tu vas"],
+      "correctIndex": 2,
+      "explanation": "Le futur de 'aller' est irrégulier, formé sur le radical 'ir-' : j'irai, tu iras, il ira, nous irons, vous irez, ils iront."
+    },
+    {
+      "question": "Quel temps et mode est la forme verbale 'qu'il fasse' ?",
+      "choices": ["Présent de l'indicatif", "Subjonctif présent", "Conditionnel présent", "Impératif"],
+      "correctIndex": 1,
+      "explanation": "'Que je fasse, que tu fasses, qu'il fasse' est le subjonctif présent du verbe 'faire' (radical irrégulier 'fass-')."
+    },
+    {
+      "question": "Dans 'Je souhaite que vous ___ bientôt', quelle forme convient ?",
+      "choices": ["venez", "veniez", "viendrez", "viendriez"],
+      "correctIndex": 1,
+      "explanation": "Après un verbe de souhait comme 'souhaiter que', on emploie le subjonctif présent : que vous veniez."
+    },
+    {
+      "question": "Quelle est la forme correcte de 'recevoir' au futur simple, 1ère personne du singulier ?",
+      "choices": ["Je recevrai", "Je recevrais", "Je recois", "Je recevais"],
+      "correctIndex": 0,
+      "explanation": "Au futur, 'recevoir' donne : je recevrai (sans 's'). Avec 's' (je recevrais), ce serait le conditionnel présent."
+    },
+    {
+      "question": "Conjuguez 'boire' au présent de l'indicatif, 3e personne du pluriel :",
+      "choices": ["Ils boient", "Ils buvent", "Ils boivvent", "Ils boivent"],
+      "correctIndex": 3,
+      "explanation": "Au présent : je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent (radical 'boiv-' au pluriel de la 3e personne)."
+    },
+    {
+      "question": "Quelle phrase contient un verbe au conditionnel présent ?",
+      "choices": ["Nous finirons ce soir.", "Tu devrais te reposer.", "Ils auront gagné.", "Je viendrai demain."],
+      "correctIndex": 1,
+      "explanation": "'Tu devrais' est au conditionnel (terminaison -rais). Les autres sont au futur simple (-rons, -rai) ou futur antérieur."
+    },
+    {
+      "question": "Mettez 'dire' à l'impératif présent, 2e personne du pluriel :",
+      "choices": ["Disez", "Disiez", "Disez-vous", "Dites"],
+      "correctIndex": 3,
+      "explanation": "'Dire' a une forme irrégulière à l'impératif : dis, disons, dites (comme 'faire' : faites). On ne dit pas 'disez'."
+    },
+    {
+      "question": "Quel est le plus-que-parfait de 'venir' à la 1ère personne du singulier ?",
+      "choices": ["J'étais venu", "J'avais venu", "Je vins", "Je serais venu"],
+      "correctIndex": 0,
+      "explanation": "'Venir' se conjugue avec l'auxiliaire 'être'. Plus-que-parfait = être à l'imparfait + participe passé : j'étais venu(e)."
+    },
+    {
+      "question": "Dans 'Il m'a promis qu'il ___ le lendemain', quelle forme respecte la concordance des temps ?",
+      "choices": ["reviendrait", "reviendra", "revienne", "revient"],
+      "correctIndex": 0,
+      "explanation": "Après un verbe principal au passé ('a promis'), le futur dans le discours rapporté devient conditionnel présent : qu'il reviendrait."
+    },
+    {
+      "question": "Quel est le futur antérieur de 'partir' à la 3e personne du singulier ?",
+      "choices": ["Il partira", "Il était parti", "Il sera parti", "Il serait parti"],
+      "correctIndex": 2,
+      "explanation": "Futur antérieur = auxiliaire (ici 'être') au futur simple + participe passé : il sera parti(e)."
+    }
+  ],
+  "orthographe": [
+    {
+      "question": "Choisissez : 'Mon frère ___ son livre, le mien est resté à la maison.'",
+      "choices": ["à / ont", "à / on", "a / ont", "a / on"],
+      "correctIndex": 3,
+      "explanation": "'A' (verbe avoir : il a) et 'on' (pronom indéfini, sujet du verbe). On peut remplacer 'a' par 'avait' et 'on' par 'il'."
+    },
+    {
+      "question": "Quelle phrase est correcte ?",
+      "choices": ["On a rien vu.", "On na rien vu.", "On n'a rien vu.", "On n'a rien vue."],
+      "correctIndex": 2,
+      "explanation": "Avec 'on' suivi d'une négation devant voyelle, on entend la liaison : 'On n'a rien'. Le 'ne' est obligatoire (ne... rien)."
+    },
+    {
+      "question": "Choisissez : 'Ils ___ contents car leurs efforts ___ payé.'",
+      "choices": ["sont / on", "son / ont", "sont / ont", "son / on"],
+      "correctIndex": 2,
+      "explanation": "'Sont' (verbe être : ils sont = ils étaient) et 'ont' (verbe avoir : ont payé). 'Son' et 'on' ne conviennent pas ici."
+    },
+    {
+      "question": "Choisissez : 'Range tes affaires ___ ta sœur rangera les siennes.'",
+      "choices": ["et", "est", "ait", "ai"],
+      "correctIndex": 0,
+      "explanation": "'Et' = conjonction de coordination (qu'on peut remplacer par 'et puis'). 'Est' serait le verbe être (il est)."
+    },
+    {
+      "question": "Complétez : 'Je ne sais pas ___ tu as rangé mes clés.'",
+      "choices": ["ou", "où", "houx", "oust"],
+      "correctIndex": 1,
+      "explanation": "'Où' (avec accent) indique le lieu. 'Ou' (sans accent) marque un choix (= ou bien). Ici, on interroge sur le lieu : où."
+    },
+    {
+      "question": "Choisissez : 'C'est la maison ___ je suis né, ___ habitent mes grands-parents.'",
+      "choices": ["ou / ou", "où / où", "ou / où", "où / ou"],
+      "correctIndex": 1,
+      "explanation": "Dans les deux cas, 'où' (avec accent) est un pronom relatif indiquant le lieu (la maison où... où...)."
+    },
+    {
+      "question": "Complétez : '___ ordinateur est trop lent, je vais le changer.'",
+      "choices": ["Ce", "Se", "Ceux", "C'est"],
+      "correctIndex": 0,
+      "explanation": "'Ce' est un déterminant démonstratif devant un nom (ce + ordinateur). 'Se' est un pronom réfléchi qui accompagne un verbe (il se lave)."
+    },
+    {
+      "question": "Choisissez : 'Elle ___ demande si elle a fait le bon choix.'",
+      "choices": ["ce", "se", "ceux", "ces"],
+      "correctIndex": 1,
+      "explanation": "'Se' est un pronom réfléchi (elle se demande). On peut le repérer car il accompagne toujours un verbe pronominal."
+    },
+    {
+      "question": "Complétez : '___ tu travailles bien, tu réussiras ton brevet.'",
+      "choices": ["Ces", "Ses", "C'est", "Si"],
+      "correctIndex": 3,
+      "explanation": "'Si' introduit une condition. À ne pas confondre avec 'ci' (ici) ou 's'y' (se + y). Ici, il s'agit bien de la conjonction 'si'."
+    },
+    {
+      "question": "Choisissez : 'Je connais ___ chanteur, mais j'ignore ___ son nom.'",
+      "choices": ["quel / quelle", "qu'elle / quel", "quel / qu'elle", "quelle / quel"],
+      "correctIndex": 2,
+      "explanation": "'Quel' = déterminant interrogatif devant un nom masculin (quel chanteur). 'Qu'elle' = que + elle (j'ignore qu'elle... non : ici 'quel est' implicite). En réalité : 'quel chanteur' (déterminant) et 'quel (est) son nom'."
+    },
+    {
+      "question": "Quelle phrase est correcte ?",
+      "choices": ["Je crois qu'elle viendra.", "Je crois quelle viendra.", "Je crois quel viendra.", "Je crois qu'el viendra."],
+      "correctIndex": 0,
+      "explanation": "'Qu'elle' = que + elle (le sujet du verbe). On peut le vérifier : 'je crois qu'IL viendra' fonctionne avec un sujet masculin."
+    },
+    {
+      "question": "Choisissez : 'Voici le sujet ___ je veux te parler.'",
+      "choices": ["donc", "dont", "don", "dons"],
+      "correctIndex": 1,
+      "explanation": "'Dont' est un pronom relatif (parler DE quelque chose → dont). 'Donc' est une conjonction de conséquence (je pense, donc je suis)."
+    },
+    {
+      "question": "Complétez : 'Il pleut, ___ je prends mon parapluie.'",
+      "choices": ["dont", "donc", "don", "dons"],
+      "correctIndex": 1,
+      "explanation": "'Donc' exprime la conséquence (= par conséquent). 'Dont' serait un pronom relatif, impossible ici."
+    },
+    {
+      "question": "Choisissez : 'Ces élèves révisent ___ leçons avec ___ professeur.'",
+      "choices": ["leurs / leurs", "leur / leur", "leurs / leur", "leur / leurs"],
+      "correctIndex": 2,
+      "explanation": "'Leurs leçons' (plusieurs leçons → 's') mais 'leur professeur' (un seul professeur → pas de 's'). 'Leur' déterminant s'accorde avec le nom."
+    },
+    {
+      "question": "Quelle phrase est correctement orthographiée ?",
+      "choices": ["Je leurs ai donné leur cadeaux.", "Je leur ai donné leur cadeaux.", "Je leurs ai donné leurs cadeaux.", "Je leur ai donné leurs cadeaux."],
+      "correctIndex": 3,
+      "explanation": "'Leur' pronom personnel (= à eux) est invariable. 'Leurs' déterminant s'accorde avec 'cadeaux' (pluriel)."
+    },
+    {
+      "question": "Complétez : 'Tu ___ choisir entre les deux, mais cela me semble ___ probable.'",
+      "choices": ["peux / peu", "peut / peu", "peu / peux", "peux / peut"],
+      "correctIndex": 0,
+      "explanation": "'Tu peux' (verbe pouvoir, 2e personne) et 'peu probable' (adverbe de quantité). 'Peut' serait la 3e personne (il peut)."
+    },
+    {
+      "question": "Choisissez : 'Le spectacle commence ___ une heure, sois ___ !'",
+      "choices": ["dans / prêt", "dans / près", "dont / prêt", "dans / prés"],
+      "correctIndex": 0,
+      "explanation": "'Prêt' (adjectif = préparé) s'accorde et signifie 'disposé à'. 'Près' (adverbe = à proximité) est invariable. Ici : sois prêt."
+    },
+    {
+      "question": "Complétez : '___ moi, je n'ai aucune objection ; vas-y ___ tu veux.'",
+      "choices": ["Quand / quand", "Quant à / quand", "Qu'en / quant", "Quand / quant"],
+      "correctIndex": 1,
+      "explanation": "'Quant à moi' = en ce qui me concerne. 'Quand tu veux' = au moment où (temps). À ne pas confondre avec 'qu'en' (que + en)."
+    },
+    {
+      "question": "Choisissez le pluriel correct : 'Les ___ du château résonnaient sous les ___.'",
+      "choices": ["vitraux / portails", "vitrails / portaux", "vitraux / portaux", "vitrails / portails"],
+      "correctIndex": 0,
+      "explanation": "'Vitrail' fait son pluriel en -aux (vitraux), mais 'portail' suit la règle générale et prend un 's' (portails). De même : détail, chandail, éventail."
+    },
+    {
+      "question": "Quelle phrase est correctement accordée ?",
+      "choices": ["La robe qu'elle a acheté est rouge.", "La robe qu'elle a achetés est rouge.", "La robe qu'elle a achetée est rouge.", "La robe qu'elle a achetées est rouge."],
+      "correctIndex": 2,
+      "explanation": "Avec 'avoir', le participe passé s'accorde avec le COD placé avant. Ici 'qu'' (= la robe, féminin singulier) est COD : achetée."
+    }
+  ]
+}

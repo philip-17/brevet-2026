@@ -1,0 +1,668 @@
+{
+  "figures-de-style": [
+    {
+      "question": "Quelle figure de style domine dans : 'La Nature est un temple ou de vivants piliers' (Baudelaire) ?",
+      "choices": [
+        "Comparaison",
+        "Metaphore",
+        "Litote",
+        "Metonymie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sans outil de comparaison, la Nature est identifiee directement a un temple : c'est une metaphore."
+    },
+    {
+      "question": "Dans 'Cet enfant est ruse comme un renard', quelle figure reconnait-on ?",
+      "choices": [
+        "Comparaison",
+        "Metaphore",
+        "Personnification",
+        "Hyperbole"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'outil de comparaison 'comme' relie l'enfant au renard : c'est une comparaison, et non une metaphore qui supprimerait l'outil."
+    },
+    {
+      "question": "'Cette nouvelle n'est pas mauvaise du tout' pour dire qu'elle est excellente est :",
+      "choices": [
+        "Un euphemisme",
+        "Une hyperbole",
+        "Une litote",
+        "Une antiphrase"
+      ],
+      "correctIndex": 2,
+      "explanation": "La litote dit moins pour faire entendre plus : nier le defaut ('pas mauvaise') revient a affirmer fortement la qualite."
+    },
+    {
+      "question": "Annoncer 'les personnes du troisieme age' au lieu de 'les vieux' releve de :",
+      "choices": [
+        "La litote",
+        "L'euphemisme",
+        "L'hyperbole",
+        "La metaphore"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'euphemisme attenue une realite jugee deplaisante par une expression plus douce, sans chercher a en dire davantage."
+    },
+    {
+      "question": "Quelle est la difference essentielle entre litote et euphemisme ?",
+      "choices": [
+        "La litote attenue, l'euphemisme exagere",
+        "Ce sont deux mots pour la meme chose",
+        "La litote concerne les objets, l'euphemisme les personnes",
+        "La litote suggere plus que ce qu'elle dit, l'euphemisme adoucit une realite penible"
+      ],
+      "correctIndex": 3,
+      "explanation": "La litote dit moins pour faire comprendre davantage ; l'euphemisme adoucit simplement une idee desagreable sans renforcer le sens."
+    },
+    {
+      "question": "Dans 'Achille est un lion sur le champ de bataille', on a :",
+      "choices": [
+        "Une comparaison",
+        "Une metaphore",
+        "Une metonymie",
+        "Un oxymore"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aucun mot-outil ('comme', 'tel') ne relie Achille au lion : l'identification directe fait de cette phrase une metaphore."
+    },
+    {
+      "question": "'Toute la salle applaudit l'acteur' : par quelle figure le lieu designe-t-il les spectateurs ?",
+      "choices": [
+        "Synecdoque",
+        "Metonymie",
+        "Periphrase",
+        "Personnification"
+      ],
+      "correctIndex": 1,
+      "explanation": "On nomme le contenant ('la salle') pour designer le contenu (les spectateurs) : c'est une metonymie."
+    },
+    {
+      "question": "Quelle est la difference entre metonymie et synecdoque ?",
+      "choices": [
+        "Aucune, elles sont identiques",
+        "La metonymie utilise 'comme', pas la synecdoque",
+        "La synecdoque est un rapport tout/partie, la metonymie un autre lien logique (contenant, auteur, cause...)",
+        "La synecdoque concerne seulement les couleurs"
+      ],
+      "correctIndex": 2,
+      "explanation": "La synecdoque repose precisement sur le rapport entre le tout et la partie ; la metonymie couvre d'autres liens (contenant/contenu, auteur/oeuvre...)."
+    },
+    {
+      "question": "Pour designer la vieillesse, ecrire 'l'hiver de la vie' est :",
+      "choices": [
+        "Une periphrase imagee",
+        "Une metonymie",
+        "Une litote",
+        "Une synecdoque"
+      ],
+      "correctIndex": 0,
+      "explanation": "On remplace un mot par une expression imagee qui le decrit : la periphrase, ici teintee de metaphore (l'hiver pour la fin de la vie)."
+    },
+    {
+      "question": "Dire 'Quel travail soigne !' a un eleve qui a tout rate revient a employer :",
+      "choices": [
+        "Une hyperbole sincere",
+        "Une litote",
+        "Un euphemisme",
+        "Une ironie (antiphrase)"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'ironie fait entendre le contraire de ce qu'on dit : louer un devoir rate revient en realite a le critiquer."
+    },
+    {
+      "question": "Dans 'Un cri immense de douleur dechira le silence', quelle figure attribue une action humaine au cri ?",
+      "choices": [
+        "Metaphore",
+        "Personnification",
+        "Hyperbole",
+        "Comparaison"
+      ],
+      "correctIndex": 1,
+      "explanation": "On prete au cri l'action de 'dechirer', propre a un etre agissant : c'est une personnification."
+    },
+    {
+      "question": "'Je t'ai attendu une eternite devant le cinema' illustre :",
+      "choices": [
+        "Une litote",
+        "Un euphemisme",
+        "Une hyperbole",
+        "Une metonymie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Exagerer la duree de l'attente ('une eternite') pour marquer l'impatience est une hyperbole."
+    },
+    {
+      "question": "'Cette joyeuse tristesse m'habite encore' contient :",
+      "choices": [
+        "Une antithese",
+        "Un oxymore",
+        "Une gradation",
+        "Une anaphore"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deux mots de sens oppose sont reunis dans un meme groupe ('joyeuse tristesse') : c'est un oxymore."
+    },
+    {
+      "question": "Quelle est la difference entre oxymore et antithese ?",
+      "choices": [
+        "L'oxymore reunit deux mots contraires dans un meme groupe, l'antithese oppose deux idees dans des segments distincts",
+        "Ce sont des synonymes",
+        "L'antithese utilise 'comme'",
+        "L'oxymore concerne seulement les sons"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'oxymore associe etroitement deux termes opposes ('une douce violence') ; l'antithese met en parallele deux idees contraires plus eloignees dans la phrase."
+    },
+    {
+      "question": "'Marcher, courir, voler a la victoire' est une gradation parce que :",
+      "choices": [
+        "Les mots riment entre eux",
+        "Un mot est repete en debut de phrase",
+        "Les verbes expriment une intensite croissante",
+        "Deux mots se contredisent"
+      ],
+      "correctIndex": 2,
+      "explanation": "La gradation aligne des termes d'intensite progressive ; ici marcher puis courir puis voler accelere l'idee de mouvement."
+    },
+    {
+      "question": "Dans 'Un roi chantait en bas, en haut mourait un Dieu' (Hugo), la construction croisee sujet-verbe / verbe-sujet est :",
+      "choices": [
+        "Un parallelisme",
+        "Une anaphore",
+        "Une gradation",
+        "Un chiasme"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le chiasme inverse l'ordre des elements en miroir (AB / BA) : ici sujet-verbe puis verbe-sujet."
+    },
+    {
+      "question": "Quelle est la difference entre parallelisme et chiasme ?",
+      "choices": [
+        "Le parallelisme repete le meme ordre (AB / AB), le chiasme l'inverse en miroir (AB / BA)",
+        "Aucune difference",
+        "Le chiasme repete un mot, le parallelisme un son",
+        "Le parallelisme oppose deux idees contraires"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le parallelisme conserve la meme structure (AB / AB), tandis que le chiasme la renverse symetriquement (AB / BA)."
+    },
+    {
+      "question": "Dans 'Tout m'afflige et me nuit et conspire a me nuire' (Racine), la repetition du son nasal releve de :",
+      "choices": [
+        "L'alliteration",
+        "L'anaphore",
+        "L'assonance",
+        "La gradation"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'assonance repete un meme son voyelle ; ici la sonorite nasale revient et renforce la plainte du personnage."
+    },
+    {
+      "question": "Quand on represente la Justice par une femme tenant une balance, on emploie :",
+      "choices": [
+        "Une metonymie",
+        "Une allegorie",
+        "Une litote",
+        "Une synecdoque"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'allegorie represente une idee abstraite (la justice) sous une forme concrete et imagee, souvent un personnage avec ses attributs."
+    },
+    {
+      "question": "Dans 'Le ciel en deuil pleurait sur la ville endormie', que reconnait-on ?",
+      "choices": [
+        "Une comparaison",
+        "Une litote",
+        "Une metonymie",
+        "Deux personnifications (le ciel pleure, la ville dort)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le ciel 'en deuil' qui 'pleure' et la ville 'endormie' recoivent des etats et actions humaines : ce sont deux personnifications."
+    }
+  ],
+  "versification": [
+    {
+      "question": "Combien de syllabes compte le vers 'Je fais souvent ce reve etrange et penetrant' (Verlaine) ?",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctIndex": 2,
+      "explanation": "En comptant chaque syllabe (le 'e' de 'reve' et de 'etrange' se prononce a l'interieur du vers), on obtient 12 syllabes : un alexandrin."
+    },
+    {
+      "question": "Combien de syllabes dans 'Il pleure dans mon coeur' (Verlaine) ?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "Il-pleu-re-dans-mon-coeur : on compte 6 syllabes. C'est un hexasyllabe."
+    },
+    {
+      "question": "De quel type de vers s'agit-il : 'Maitre corbeau sur un arbre perche' (La Fontaine) ?",
+      "choices": [
+        "Decasyllabe",
+        "Octosyllabe",
+        "Alexandrin",
+        "Hexasyllabe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mai-tre-cor-beau-sur-un-ar-bre-per-che : 10 syllabes, c'est un decasyllabe."
+    },
+    {
+      "question": "De quel type de vers s'agit-il : 'Heureux qui comme Ulysse a fait un beau voyage' (Du Bellay) ?",
+      "choices": [
+        "Decasyllabe",
+        "Octosyllabe",
+        "Alexandrin",
+        "Heptasyllabe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ce vers compte 12 syllabes : c'est un alexandrin, le vers le plus celebre de la poesie francaise."
+    },
+    {
+      "question": "Combien de syllabes dans 'Sous le pont Mirabeau coule la Seine' (Apollinaire) ?",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sous-le-pont-Mi-ra-beau-cou-le-la-Sei(ne final muet) : 10 syllabes, un decasyllabe."
+    },
+    {
+      "question": "Dans le vers 'Le lion, terreur des forets', le mot 'lion' compte deux syllabes (li-on). Comment appelle-t-on ce procede ?",
+      "choices": [
+        "Une synerese",
+        "Une diérèse",
+        "Un hiatus",
+        "Une elision"
+      ],
+      "correctIndex": 1,
+      "explanation": "La diérèse separe en deux syllabes ce qu'on prononce habituellement en une seule : li-on permet d'allonger le vers."
+    },
+    {
+      "question": "Quand 'hier' est compte pour une seule syllabe dans un vers, on parle de :",
+      "choices": [
+        "Synerese",
+        "Diérèse",
+        "Hiatus",
+        "Cesure"
+      ],
+      "correctIndex": 0,
+      "explanation": "La synerese fond en une seule syllabe deux voyelles qu'on pourrait separer : ici 'hier' compte pour 1 (contraire de la diérèse)."
+    },
+    {
+      "question": "Dans 'tu as ete la', la rencontre des voyelles 'tu-as' sans liaison s'appelle :",
+      "choices": [
+        "Un enjambement",
+        "Une diérèse",
+        "Un hiatus",
+        "Une cesure"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le hiatus est la rencontre de deux voyelles a la jointure de deux mots ('tu as'), souvent evitee en poesie classique pour sa lourdeur."
+    },
+    {
+      "question": "Dans le sonnet classique, comment sont disposees les strophes ?",
+      "choices": [
+        "Quatre tercets",
+        "Deux quatrains puis deux tercets",
+        "Deux tercets puis deux quatrains",
+        "Trois quatrains et un distique"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le sonnet comporte 14 vers : deux quatrains (4 + 4 vers) suivis de deux tercets (3 + 3 vers)."
+    },
+    {
+      "question": "Une strophe de 5 vers se nomme :",
+      "choices": [
+        "Quatrain",
+        "Quintil",
+        "Sizain",
+        "Dizain"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le quintil est une strophe de 5 vers. A ne pas confondre avec le quatrain (4 vers) ou le sizain (6 vers)."
+    },
+    {
+      "question": "Un poeme dont les rimes suivent le schema A-B-A-B comporte des rimes :",
+      "choices": [
+        "Plates",
+        "Croisees",
+        "Embrassees",
+        "Riches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le schema ABAB correspond a des rimes croisees (ou alternees) : les rimes alternent de vers en vers."
+    },
+    {
+      "question": "Le couple de rimes 'sommeil / vermeil' partage les sons 'm', 'e', 'i' et 'l'. Cette rime est :",
+      "choices": [
+        "Riche",
+        "Suffisante",
+        "Pauvre",
+        "Fausse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Avec au moins trois sons communs, la rime 'sommeil / vermeil' est une rime riche."
+    },
+    {
+      "question": "Les rimes 'ami / fini' partagent uniquement le son final 'i'. Cette rime est :",
+      "choices": [
+        "Riche",
+        "Suffisante",
+        "Pauvre",
+        "Leonine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un seul son commun (la voyelle accentuee 'i') : c'est une rime pauvre."
+    },
+    {
+      "question": "Les rimes 'chanson / maison' partagent les sons 's' et 'on'. Cette rime est :",
+      "choices": [
+        "Pauvre",
+        "Suffisante",
+        "Riche",
+        "Fausse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deux sons communs ('s' + 'on') : la rime est suffisante."
+    },
+    {
+      "question": "Quand la phrase deborde de la fin d'un vers sur le vers suivant sans pause, on parle de :",
+      "choices": [
+        "Hiatus",
+        "Enjambement",
+        "Cesure",
+        "Diérèse"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'enjambement prolonge la phrase d'un vers sur le suivant sans pause syntaxique forte a la fin du premier vers."
+    },
+    {
+      "question": "Ou se situe la cesure dans un alexandrin classique ?",
+      "choices": [
+        "Apres la 6e syllabe",
+        "Apres la 4e syllabe",
+        "Apres la 8e syllabe",
+        "A la fin du vers"
+      ],
+      "correctIndex": 0,
+      "explanation": "La cesure de l'alexandrin classique tombe apres la 6e syllabe, partageant le vers en deux hemistiches de 6 syllabes."
+    },
+    {
+      "question": "Dans le vers 'Quand vous serez bien vieille, au soir, a la chandelle' (Ronsard), le 'e' de 'vieille' devant 'au' :",
+      "choices": [
+        "Compte comme une syllabe",
+        "Compte double",
+        "Ne compte pas car il precede une voyelle (elision)",
+        "Forme une diérèse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le 'e' muet ne compte pas comme syllabe lorsqu'il precede un mot commencant par une voyelle : il s'elide."
+    },
+    {
+      "question": "Une rime qui se termine par un 'e' muet (ex : 'belle / nouvelle') est dite :",
+      "choices": [
+        "Rime masculine",
+        "Rime feminine",
+        "Rime pauvre",
+        "Rime interieure"
+      ],
+      "correctIndex": 1,
+      "explanation": "La rime feminine se termine par un 'e' muet ; la rime masculine se termine par toute autre sonorite. Les poetes les alternent souvent."
+    },
+    {
+      "question": "Dans le vers 'O Rage ! O desespoir ! O vieillesse ennemie !' (Corneille), la repetition de 'O' en tete de chaque exclamation est avant tout :",
+      "choices": [
+        "Une cesure",
+        "Une diérèse",
+        "Un enjambement",
+        "Une anaphore"
+      ],
+      "correctIndex": 3,
+      "explanation": "La reprise du meme mot 'O' en debut de groupes successifs est une anaphore, ici au service de l'emotion."
+    },
+    {
+      "question": "A l'interieur d'un vers, un 'e' muet place entre deux consonnes prononcees, en general :",
+      "choices": [
+        "Ne se prononce jamais",
+        "Se prononce et compte comme une syllabe",
+        "Compte double",
+        "Provoque un hiatus"
+      ],
+      "correctIndex": 1,
+      "explanation": "A l'interieur du vers, le 'e' muet entoure de consonnes prononcees se fait entendre et compte comme une syllabe (ex : 'une rose')."
+    }
+  ],
+  "vocabulaire": [
+    {
+      "question": "Quel mot est synonyme de 'taciturne' ?",
+      "choices": [
+        "Bavard",
+        "Silencieux",
+        "Joyeux",
+        "Rapide"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Taciturne' qualifie une personne qui parle peu, renfermee : son synonyme est 'silencieux' (ou peu loquace)."
+    },
+    {
+      "question": "Quel est l'antonyme de 'abondant' ?",
+      "choices": [
+        "Nombreux",
+        "Copieux",
+        "Rare",
+        "Foisonnant"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Abondant' signifie present en grande quantite ; son contraire est 'rare' (en petite quantite)."
+    },
+    {
+      "question": "Les mots 'eminent' (remarquable) et 'imminent' (tout proche) sont :",
+      "choices": [
+        "Des paronymes",
+        "Des homophones",
+        "Des synonymes",
+        "Des antonymes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ce sont des paronymes : des mots de forme tres proche mais de sens differents, qu'il ne faut pas confondre."
+    },
+    {
+      "question": "Les mots 'collision' (choc) et 'collusion' (entente secrete) sont :",
+      "choices": [
+        "Des synonymes",
+        "Des paronymes",
+        "Des homonymes parfaits",
+        "Des antonymes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leur ressemblance de forme et leur difference de sens en font des paronymes, source frequente de confusions."
+    },
+    {
+      "question": "Dans 'le pied de la montagne', le mot 'pied' est employe au sens :",
+      "choices": [
+        "Propre",
+        "Figure",
+        "Etymologique",
+        "Argotique"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le sens propre de 'pied' designe la partie du corps ; ici, 'pied de la montagne' (sa base) releve du sens figure."
+    },
+    {
+      "question": "Dans laquelle de ces phrases le mot 'glace' est-il employe au sens propre ?",
+      "choices": [
+        "Il se regarde dans la glace",
+        "Un vent glace soufflait",
+        "Le lac etait couvert de glace",
+        "Son regard m'a glace"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le sens propre de 'glace' renvoie a l'eau gelee : 'le lac couvert de glace'. Les autres emplois sont figures ou designent un miroir."
+    },
+    {
+      "question": "Que designe le radical grec 'hydro-' dans 'hydravion' ?",
+      "choices": [
+        "Le feu",
+        "L'air",
+        "L'eau",
+        "La terre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le radical grec 'hydro-' signifie 'eau' : un hydravion est concu pour se poser sur l'eau."
+    },
+    {
+      "question": "Le suffixe '-phobe' (comme dans 'claustrophobe') signifie :",
+      "choices": [
+        "Qui aime",
+        "Qui craint ou deteste",
+        "Qui soigne",
+        "Qui mesure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le suffixe grec '-phobe' exprime la crainte ou le rejet ; son contraire est '-phile' (qui aime)."
+    },
+    {
+      "question": "Quel mot N'appartient PAS a la meme famille que 'terre' ?",
+      "choices": [
+        "Terrien",
+        "Atterrir",
+        "Terrasse",
+        "Terreur"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Terreur' vient du latin 'terror' (peur), sans rapport avec 'terra' (la terre). Les trois autres derivent bien de 'terre'."
+    },
+    {
+      "question": "Le radical 'thermo-' (dans 'thermometre') a un rapport avec :",
+      "choices": [
+        "L'eau",
+        "La chaleur",
+        "La lumiere",
+        "Le temps"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Thermo-' vient du grec 'thermos' (chaud) : le thermometre mesure la temperature, donc la chaleur."
+    },
+    {
+      "question": "Quel mot est synonyme de 'obsequieux' (registre soutenu) ?",
+      "choices": [
+        "Hautain",
+        "Servile",
+        "Honnete",
+        "Distant"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Obsequieux' qualifie une politesse excessive et flatteuse ; son synonyme est 'servile' (qui flatte avec bassesse)."
+    },
+    {
+      "question": "Le mot 'bagnole' appartient au registre :",
+      "choices": [
+        "Soutenu",
+        "Courant",
+        "Familier",
+        "Litteraire"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Bagnole' (= voiture) releve du registre familier, employe dans la langue parlee et relachee."
+    },
+    {
+      "question": "Quel terme appartient au registre soutenu pour dire 'manger' ?",
+      "choices": [
+        "Bouffer",
+        "Se sustenter",
+        "Becter",
+        "Grailler"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Se sustenter' est un verbe soutenu signifiant se nourrir ; 'bouffer', 'becter' et 'grailler' sont familiers."
+    },
+    {
+      "question": "Le mot 'travail' vient du latin 'tripalium', qui designait a l'origine :",
+      "choices": [
+        "Un instrument de torture",
+        "Un champ cultive",
+        "Une recompense",
+        "Une fete"
+      ],
+      "correctIndex": 0,
+      "explanation": "Etymologiquement, 'travail' vient de 'tripalium', un instrument de torture : l'idee de peine et d'effort y est a l'origine."
+    },
+    {
+      "question": "Quel mot appartient au champ lexical de la mer ?",
+      "choices": [
+        "Ressac",
+        "Sommet",
+        "Sentier",
+        "Clairiere"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Ressac' designe le retour violent des vagues sur un obstacle : il appartient au champ lexical de la mer."
+    },
+    {
+      "question": "Le mot 'serpent' porte le plus souvent une connotation :",
+      "choices": [
+        "Positive (douceur, paix)",
+        "Negative (traitrise, danger)",
+        "Strictement neutre",
+        "Comique"
+      ],
+      "correctIndex": 1,
+      "explanation": "Au-dela de sa denotation (l'animal), 'serpent' porte une connotation negative de ruse, de traitrise et de danger."
+    },
+    {
+      "question": "Quelle est la difference entre denotation et connotation ?",
+      "choices": [
+        "La connotation est le sens propre, la denotation le sens figure",
+        "Ce sont deux mots pour la meme idee",
+        "La denotation est le sens objectif du dictionnaire, la connotation la valeur affective ajoutee",
+        "La denotation ne concerne que les verbes"
+      ],
+      "correctIndex": 2,
+      "explanation": "La denotation est le sens premier et neutre d'un mot ; la connotation regroupe les associations affectives ou culturelles qu'il evoque."
+    },
+    {
+      "question": "Les mots 'cygne' (oiseau) et 'signe' (marque) sont :",
+      "choices": [
+        "Des paronymes",
+        "Des homophones",
+        "Des synonymes",
+        "Des antonymes"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Cygne' et 'signe' se prononcent de la meme facon mais s'ecrivent differemment : ce sont des homophones."
+    },
+    {
+      "question": "Que signifie le prefixe 'mal-' dans 'malhabile' ?",
+      "choices": [
+        "Tres",
+        "Mal, de facon negative",
+        "A nouveau",
+        "Avant"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le prefixe 'mal-' indique une valeur negative ou un defaut : 'malhabile' = qui n'est pas habile, maladroit."
+    },
+    {
+      "question": "Dans 'crier de douleur' et 'crier famine' (reclamer), le mot 'crier' illustre :",
+      "choices": [
+        "Un homonyme",
+        "Un paronyme",
+        "Un antonyme",
+        "Une polysemie"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le meme mot 'crier' prend des sens differents selon le contexte : c'est la polysemie (plusieurs sens d'un meme mot)."
+    }
+  ]
+}
