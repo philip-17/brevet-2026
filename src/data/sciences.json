@@ -1201,6 +1201,149 @@
           ],
           "correctIndex": 2,
           "explanation": "31 paires de nerfs rachidiens partent de la moelle épinière et innervent le corps. Ils transmettent les informations entre le corps et le cerveau."
+        },
+        {
+          "question": "Quelle partie du système nerveux relie le cerveau à la moelle épinière et contrôle des fonctions vitales comme la respiration ?",
+          "choices": [
+            "Le cervelet",
+            "Le tronc cérébral",
+            "L'hypothalamus",
+            "Le cortex cérébral"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le tronc cérébral fait la jonction entre le cerveau et la moelle épinière ; il contrôle des fonctions vitales automatiques comme la respiration et les battements du cœur."
+        },
+        {
+          "question": "Quelle est la fonction des dendrites d'un neurone ?",
+          "choices": [
+            "Transmettre le message nerveux vers un autre neurone ou un muscle",
+            "Produire l'énergie nécessaire au neurone",
+            "Recevoir les messages nerveux provenant d'autres neurones",
+            "Fabriquer les neurotransmetteurs"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les dendrites sont les prolongements du corps cellulaire qui reçoivent les messages nerveux en provenance des neurones voisins ou des récepteurs sensoriels."
+        },
+        {
+          "question": "Au niveau d'une synapse, comment le message nerveux passe-t-il d'un neurone au suivant ?",
+          "choices": [
+            "Par un courant électrique direct entre les deux neurones",
+            "Par la libération de neurotransmetteurs dans la fente synaptique",
+            "Par contact direct entre les axones",
+            "Par diffusion d'ions à travers la membrane"
+          ],
+          "correctIndex": 1,
+          "explanation": "À la synapse, le neurone présynaptique libère des molécules chimiques appelées neurotransmetteurs dans la fente synaptique ; ces molécules se fixent sur les récepteurs du neurone suivant pour transmettre le message."
+        },
+        {
+          "question": "Qu'est-ce qu'un nerf sensitif ?",
+          "choices": [
+            "Un nerf qui transporte les ordres moteurs du cerveau vers les muscles",
+            "Un nerf qui transporte les informations des récepteurs sensoriels vers les centres nerveux",
+            "Un nerf qui relie uniquement le cerveau au cervelet",
+            "Un nerf qui contrôle les glandes endocrines"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un nerf sensitif (ou afférent) conduit les informations captées par les récepteurs sensoriels (peau, yeux, oreilles…) en direction des centres nerveux comme la moelle épinière ou le cerveau."
+        },
+        {
+          "question": "Dans l'œil, quelles cellules de la rétine sont sensibles aux couleurs ?",
+          "choices": [
+            "Les bâtonnets",
+            "Les cellules bipolaires",
+            "Les cônes",
+            "Les cellules ganglionnaires"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les cônes sont les photorécepteurs de la rétine spécialisés dans la vision des couleurs et des détails ; ils fonctionnent surtout en lumière vive."
+        },
+        {
+          "question": "Dans l'oreille interne, quel organe contient les récepteurs de l'équilibre ?",
+          "choices": [
+            "La cochlée",
+            "Le tympan",
+            "Les canaux semi-circulaires",
+            "L'ossielet étrier"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les canaux semi-circulaires de l'oreille interne contiennent des récepteurs sensibles aux mouvements et rotations de la tête, informant le cerveau sur l'équilibre et la position du corps."
+        },
+        {
+          "question": "Lors d'un arc réflexe, dans quel ordre les structures sont-elles activées ?",
+          "choices": [
+            "Muscle → moelle épinière → récepteur → cerveau",
+            "Récepteur → nerf sensitif → moelle épinière → nerf moteur → muscle",
+            "Cerveau → nerf moteur → récepteur → muscle",
+            "Nerf moteur → moelle épinière → nerf sensitif → récepteur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans un arc réflexe, le message part du récepteur, remonte par le nerf sensitif jusqu'à la moelle épinière (centre nerveux), puis redescend par le nerf moteur jusqu'au muscle effecteur, sans passer par le cerveau."
+        },
+        {
+          "question": "Quel est le rôle principal du cervelet ?",
+          "choices": [
+            "Analyser les émotions et la mémoire à long terme",
+            "Contrôler la vision et l'audition",
+            "Coordonner les mouvements et maintenir l'équilibre",
+            "Réguler la temperature corporelle"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le cervelet coordonne la précision des mouvements volontaires et contribue au maintien de l'équilibre et de la posture du corps."
+        },
+        {
+          "question": "Pourquoi le port du casque à vélo ou à moto est-il recommandé ?",
+          "choices": [
+            "Il améliore les réflexes du conducteur",
+            "Il protège la boîte crânienne et donc le cerveau contre les traumatismes",
+            "Il réduit la fatigue visuelle",
+            "Il protège uniquement les oreilles du vent"
+          ],
+          "correctIndex": 1,
+          "explanation": "La boîte crânienne protège naturellement le cerveau, mais elle ne suffit pas lors d'impacts violents ; le casque absorbe l'énergie du choc et réduit le risque de traumatisme crânien."
+        },
+        {
+          "question": "Quel effet l'alcool a-t-il sur le système nerveux ?",
+          "choices": [
+            "Il accélère la transmission nerveuse et améliore les réflexes",
+            "Il stimule la production de neurotransmetteurs excitateurs",
+            "Il ralentit la transmission nerveuse et allonge le temps de réaction",
+            "Il n'affecte que le système nerveux périphérique"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'alcool est un dépresseur du système nerveux central : il ralentit la transmission des messages nerveux, altère le jugement, diminue les réflexes et allonge le temps de réaction."
+        },
+        {
+          "question": "Quels sont les récepteurs du goût et où se trouvent-ils ?",
+          "choices": [
+            "Les photorécepteurs, situés dans la rétine",
+            "Les mécanorécepteurs, situés dans la peau",
+            "Les chimiorécepteurs appelés bourgeons du goût, situés sur la langue",
+            "Les thermorécepteurs, situés dans l'hypothalamus"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les bourgeons du goût sont des chimiorécepteurs regroupés dans les papilles gustatives de la langue ; ils détectent les molécules sapides dissoutes dans la salive et envoient le message nerveux vers le cerveau."
+        },
+        {
+          "question": "Quel est l'effet d'un manque chronique de sommeil sur le système nerveux ?",
+          "choices": [
+            "Il améliore la concentration et la mémorisation",
+            "Il augmente la vitesse de transmission nerveuse",
+            "Il perturbe la mémorisation, la concentration et allonge le temps de réaction",
+            "Il n'a aucun effet mesurable sur le cerveau"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pendant le sommeil, le cerveau consolide les souvenirs et élimine des déchets métaboliques ; un manque de sommeil chronique dégrade la concentration, la mémoire et les temps de réaction, augmentant le risque d'accidents."
+        },
+        {
+          "question": "Dans la peau, quel type de récepteurs détecte la douleur ?",
+          "choices": [
+            "Les cônes",
+            "Les nocicepteurs",
+            "Les osmorécepteurs",
+            "Les photorécepteurs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les nocicepteurs sont des terminaisons nerveuses libres présentes dans la peau (et d'autres tissus) qui détectent les stimulations douloureuses ou potentiellement dangereuses et transmettent le message douloureux au cerveau."
         }
       ]
     },
@@ -1273,6 +1416,149 @@
           ],
           "correctIndex": 2,
           "explanation": "Le cycle menstruel dure en moyenne 28 jours, avec l'ovulation vers le 14e jour."
+        },
+        {
+          "question": "Quel changement physique est caractéristique de la puberté chez les garçons ?",
+          "choices": [
+            "Élargissement des hanches",
+            "Développement des seins",
+            "Mue de la voix",
+            "Apparition des premières règles"
+          ],
+          "correctIndex": 2,
+          "explanation": "La mue de la voix est un caractère sexuel secondaire masculin : sous l'effet de la testostérone, le larynx grandit et la voix devient plus grave chez les garçons."
+        },
+        {
+          "question": "Quel organe produit les ovules chez la femme ?",
+          "choices": [
+            "L'utérus",
+            "Les trompes de Fallope",
+            "Le vagin",
+            "Les ovaires"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les ovaires sont les gonades féminines ; ils produisent les ovules (gamètes féminins) et les hormones sexuelles féminines comme les œstrogènes."
+        },
+        {
+          "question": "Comment appelle-t-on le trajet que parcourt le spermatozoïde depuis les testicules jusqu'à l'extérieur du corps ?",
+          "choices": [
+            "Trompe de Fallope",
+            "Uretère",
+            "Canal déférent",
+            "Urètre rénal"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le canal déférent est le conduit qui transporte les spermatozoïdes des testicules vers l'urètre lors de l'éjaculation."
+        },
+        {
+          "question": "Quelle hormone est principalement produite par les testicules ?",
+          "choices": [
+            "La progestérone",
+            "Les œstrogènes",
+            "La testostérone",
+            "L'adrénaline"
+          ],
+          "correctIndex": 2,
+          "explanation": "La testostérone est l'hormone sexuelle mâle produite par les testicules ; elle déclenche les caractères sexuels secondaires masculins et la production de spermatozoïdes."
+        },
+        {
+          "question": "Lors du cycle menstruel, qu'est-ce que la nidation ?",
+          "choices": [
+            "La libération d'un ovule par l'ovaire",
+            "L'implantation de l'embryon dans la paroi de l'utérus",
+            "La destruction de la muqueuse utérine",
+            "La rencontre des gamètes dans les trompes"
+          ],
+          "correctIndex": 1,
+          "explanation": "La nidation est l'implantation de l'embryon (cellule-œuf qui s'est divisée) dans l'endomètre, la paroi interne de l'utérus, ce qui marque le début de la grossesse."
+        },
+        {
+          "question": "Si un cycle menstruel dure 28 jours, vers quel jour l'ovulation a-t-elle généralement lieu ?",
+          "choices": [
+            "Jour 1",
+            "Jour 7",
+            "Jour 14",
+            "Jour 28"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'ovulation se produit environ au 14e jour d'un cycle de 28 jours ; c'est le moment où l'ovaire libère un ovule dans les trompes de Fallope."
+        },
+        {
+          "question": "À quoi servent les règles (menstruations) ?",
+          "choices": [
+            "À libérer un ovule dans les trompes",
+            "À éliminer la muqueuse utérine non fécondée",
+            "À produire des hormones de croissance",
+            "À transporter les spermatozoïdes vers l'utérus"
+          ],
+          "correctIndex": 1,
+          "explanation": "Si la fécondation n'a pas eu lieu, la muqueuse utérine (endomètre) se détache et est évacuée sous forme de règles, marquant le début d'un nouveau cycle."
+        },
+        {
+          "question": "Quelle hormone maintient la grossesse en empêchant de nouvelles ovulations ?",
+          "choices": [
+            "La testostérone",
+            "L'adrénaline",
+            "Les œstrogènes",
+            "La progestérone"
+          ],
+          "correctIndex": 3,
+          "explanation": "La progestérone, sécrétée d'abord par le corps jaune puis par le placenta, maintient la muqueuse utérine et empêche l'ovulation pendant la grossesse."
+        },
+        {
+          "question": "Quelle est la durée moyenne d'une grossesse humaine ?",
+          "choices": [
+            "6 mois (environ 26 semaines)",
+            "7 mois (environ 30 semaines)",
+            "9 mois (environ 38-40 semaines)",
+            "12 mois (environ 52 semaines)"
+          ],
+          "correctIndex": 2,
+          "explanation": "La grossesse humaine dure en moyenne 9 mois, soit environ 38 à 40 semaines d'aménorrhée, entre la fécondation et l'accouchement."
+        },
+        {
+          "question": "Quel moyen de contraception protège à la fois contre une grossesse non désirée ET contre les IST ?",
+          "choices": [
+            "La pilule contraceptive",
+            "Le stérilet",
+            "Le préservatif",
+            "La contraception d'urgence"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le préservatif est le seul moyen de contraception qui protège à la fois contre les grossesses non désirées et contre les infections sexuellement transmissibles (IST) comme le VIH."
+        },
+        {
+          "question": "Le VIH est le virus responsable du SIDA. Comment se transmet-il principalement ?",
+          "choices": [
+            "Par la salive lors d'un bisou sur la joue",
+            "Par les rapports sexuels non protégés et le sang contaminé",
+            "Par le contact avec la peau saine",
+            "Par l'air et les postillons"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le VIH se transmet principalement par les rapports sexuels non protégés, le sang contaminé (partage de seringues) et de la mère à l'enfant ; l'utilisation du préservatif prévient efficacement sa transmission."
+        },
+        {
+          "question": "Quelle est la caractéristique principale d'un spermatozoïde mature ?",
+          "choices": [
+            "Il est immobile et de grande taille",
+            "Il possède un flagelle qui lui permet de se déplacer",
+            "Il ne contient aucune information génétique",
+            "Il est produit dans les ovaires"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le spermatozoïde est un gamète mâle muni d'un flagelle (queue) qui lui permet de nager pour atteindre l'ovule dans les trompes de Fallope."
+        },
+        {
+          "question": "Quel est un caractère sexuel secondaire qui apparaît chez les filles à la puberté ?",
+          "choices": [
+            "La mue de la voix",
+            "Le développement de la poitrine (seins)",
+            "La production de spermatozoïdes",
+            "L'élargissement des épaules"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le développement des seins est un caractère sexuel secondaire féminin déclenché par les œstrogènes ; il fait partie des transformations corporelles de la puberté chez les filles."
         }
       ]
     },
@@ -1345,6 +1631,149 @@
           ],
           "correctIndex": 1,
           "explanation": "Les antibiotiques sont des médicaments efficaces contre les bactéries. Ils sont inefficaces contre les virus."
+        },
+        {
+          "question": "Parmi les propositions suivantes, laquelle décrit correctement un virus ?",
+          "choices": [
+            "C'est un être vivant unicellulaire qui peut se reproduire seul dans un milieu nutritif",
+            "C'est un micro-organisme dépourvu de noyau mais capable de fabriquer ses propres protéines",
+            "C'est un agent infectieux non cellulaire qui ne peut se multiplier qu'à l'intérieur d'une cellule hôte",
+            "C'est un champignon microscopique responsable de maladies comme la grippe"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un virus n'est pas une cellule : il est incapable de se reproduire seul et doit obligatoirement parasiter une cellule hôte pour utiliser sa machinerie cellulaire. Il ne s'agit ni d'une bactérie ni d'un champignon."
+        },
+        {
+          "question": "Lors d'une blessure légère, la peau rougit, gonfle et chauffe autour de la plaie. Comment appelle-t-on cette réaction ?",
+          "choices": [
+            "La phagocytose",
+            "La réaction inflammatoire",
+            "La séroconversion",
+            "L'allergie systémique"
+          ],
+          "correctIndex": 1,
+          "explanation": "La réaction inflammatoire est la réponse immédiate de l'organisme à une agression (blessure, infection). Elle se manifeste par rougeur, chaleur, gonflement et douleur, et prépare le terrain pour les défenses immunitaires."
+        },
+        {
+          "question": "La phagocytose est un mécanisme de défense qui consiste à :",
+          "choices": [
+            "Produire des anticorps spécifiques contre un antigène",
+            "Détruire les microbes en les englobant et en les digérant",
+            "Mémoriser un pathogène pour une infection ultérieure",
+            "Former une barrière cutanée contre les agents infectieux"
+          ],
+          "correctIndex": 1,
+          "explanation": "La phagocytose est réalisée par des globules blancs appelés phagocytes (notamment les macrophages et les polynucléaires neutrophiles) : ils englobent le microbe dans une vacuole digestive et le détruisent grâce à des enzymes."
+        },
+        {
+          "question": "Les anticorps fabriqués par les lymphocytes B sont dits « spécifiques ». Que signifie ce terme ?",
+          "choices": [
+            "Ils peuvent neutraliser tous les types de microbes en même temps",
+            "Ils n'agissent que contre les bactéries, pas contre les virus",
+            "Chaque anticorps ne reconnaît et ne se fixe que sur un seul type d'antigène",
+            "Ils sont produits uniquement lors d'une deuxième infection"
+          ],
+          "correctIndex": 2,
+          "explanation": "La spécificité des anticorps signifie que chaque anticorps possède un site de fixation complémentaire d'un antigène particulier. Un anticorps dirigé contre le virus de la grippe, par exemple, ne reconnaît pas le tétanos."
+        },
+        {
+          "question": "Quelle est la différence entre contamination et infection ?",
+          "choices": [
+            "La contamination désigne la guérison, l'infection désigne l'entrée du microbe",
+            "La contamination est le passage du microbe dans l'organisme, l'infection est sa multiplication dans les tissus",
+            "La contamination ne concerne que les virus, l'infection ne concerne que les bactéries",
+            "La contamination et l'infection sont deux mots synonymes"
+          ],
+          "correctIndex": 1,
+          "explanation": "La contamination est le moment où le micro-organisme pénètre dans l'organisme (contact, inhalation…). L'infection correspond à l'étape suivante : le microbe se multiplie dans les tissus et provoque des troubles."
+        },
+        {
+          "question": "Pourquoi les antibiotiques ne doivent-ils pas être utilisés pour traiter une grippe ?",
+          "choices": [
+            "Parce que les antibiotiques ne peuvent pas traverser la barrière intestinale",
+            "Parce que la grippe est due à un virus et que les antibiotiques n'ont aucune action sur les virus",
+            "Parce que les antibiotiques détruisent les lymphocytes et affaiblissent l'immunité",
+            "Parce que les antibiotiques sont réservés aux maladies chroniques"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les antibiotiques agissent uniquement sur les bactéries (en bloquant leur croissance ou en les détruisant). La grippe est causée par un virus ; administrer un antibiotique est donc inefficace et contribue à l'antibiorésistance."
+        },
+        {
+          "question": "La vaccination contre le tétanos repose sur l'injection d'une toxine atténuée. Quel est le mécanisme immunitaire principalement visé ?",
+          "choices": [
+            "Apporter directement des anticorps anti-tétanos pour une protection immédiate",
+            "Stimuler la production d'anticorps et créer une mémoire immunitaire sans déclencher la maladie",
+            "Augmenter le nombre de phagocytes circulant dans le sang",
+            "Détruire les bactéries du tétanos déjà présentes dans l'organisme"
+          ],
+          "correctIndex": 1,
+          "explanation": "La vaccination introduit un antigène inoffensif (toxine atténuée ou tué) pour entraîner le système immunitaire à produire des anticorps spécifiques et des lymphocytes mémoire, sans causer la maladie. En cas de vraie infection ultérieure, la réponse sera rapide et efficace."
+        },
+        {
+          "question": "Un patient est mordu par un serpent venimeux. On lui injecte un sérum contenant des anticorps anti-venin. Cette technique s'appelle :",
+          "choices": [
+            "La vaccination préventive",
+            "La sérothérapie",
+            "La phagocytose artificielle",
+            "L'immunothérapie allergique"
+          ],
+          "correctIndex": 1,
+          "explanation": "La sérothérapie consiste à injecter directement des anticorps (contenus dans un sérum) à un patient pour le protéger immédiatement. Contrairement à la vaccination, elle est curative : elle agit sur une menace déjà présente."
+        },
+        {
+          "question": "Lequel de ces énoncés concernant la mémoire immunitaire est correct ?",
+          "choices": [
+            "Lors d'un second contact avec le même antigène, la réponse immunitaire est plus lente qu'au premier contact",
+            "La mémoire immunitaire est assurée uniquement par les phagocytes",
+            "Des lymphocytes mémoire persistent longtemps dans l'organisme après une première infection et permettent une réponse plus rapide lors d'un second contact",
+            "La mémoire immunitaire disparaît complètement après la guérison"
+          ],
+          "correctIndex": 2,
+          "explanation": "Après une première réponse immunitaire, des lymphocytes mémoire (B et T) subsistent pendant des années. Lors d'un second contact avec le même antigène, ces cellules permettent une réponse beaucoup plus rapide et plus intense, évitant souvent la maladie."
+        },
+        {
+          "question": "Le VIH est dangereux principalement parce qu'il :",
+          "choices": [
+            "Produit une toxine qui détruit directement les neurones",
+            "Se multiplie dans les globules rouges et réduit le transport de l'oxygène",
+            "Détruit les lymphocytes T4 (CD4), affaiblissant progressivement le système immunitaire",
+            "Provoque une réaction inflammatoire si intense qu'elle détruit les poumons"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le VIH (virus de l'immunodéficience humaine) cible spécifiquement les lymphocytes T4 (LT4 ou CD4), des cellules clés de l'immunité. Leur destruction progressive conduit au SIDA, stade où l'organisme ne peut plus se défendre contre des infections opportunistes."
+        },
+        {
+          "question": "Quelle est la première ligne de défense de l'organisme contre les micro-organismes ?",
+          "choices": [
+            "Les lymphocytes B circulant dans le sang",
+            "La peau et les muqueuses, qui constituent des barrières physiques et chimiques",
+            "Les anticorps produits en permanence par la moelle osseuse",
+            "La fièvre, qui tue les bactéries avant qu'elles pénètrent"
+          ],
+          "correctIndex": 1,
+          "explanation": "La peau intacte et les muqueuses (voies respiratoires, digestives…) forment des barrières mécaniques et chimiques (mucus, acidité, enzymes) qui empêchent la majorité des micro-organismes de pénétrer dans l'organisme."
+        },
+        {
+          "question": "Une personne allergique au pollen réagit fortement à cette substance inoffensive. Pourquoi parle-t-on de dérèglement du système immunitaire ?",
+          "choices": [
+            "Parce que les phagocytes confondent le pollen avec des cellules du corps",
+            "Parce que le système immunitaire produit une réponse exagérée contre un antigène non dangereux",
+            "Parce que les bactéries du pollen envahissent les voies respiratoires",
+            "Parce que les lymphocytes T attaquent directement les muqueuses nasales"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'allergie est un dérèglement : le système immunitaire reconnaît un substance normalement inoffensive (comme le pollen) comme une menace et déclenche une réaction immunitaire exagérée, provoquant des symptômes comme le rhume des foins ou l'asthme."
+        },
+        {
+          "question": "Quel rôle jouent les lymphocytes T dans la réponse immunitaire spécifique ?",
+          "choices": [
+            "Ils produisent des anticorps qui se fixent sur les antigènes",
+            "Ils englobent et digèrent les microbes par phagocytose",
+            "Ils coordonnent et amplifient la réponse immunitaire, et certains détruisent directement les cellules infectées",
+            "Ils forment la barrière cutanée contre les agents pathogènes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les lymphocytes T ont plusieurs rôles : les lymphocytes T4 (auxiliaires) coordonnent la réponse immunitaire en activant les lymphocytes B et d'autres cellules, tandis que les lymphocytes T8 (cytotoxiques) détruisent directement les cellules infectées par un virus."
         }
       ]
     },
@@ -1417,6 +1846,149 @@
           ],
           "correctIndex": 0,
           "explanation": "Les gamètes (spermatozoïdes et ovules) contiennent 23 chromosomes, soit la moitié des chromosomes d'une cellule normale."
+        },
+        {
+          "question": "Dans quelle structure de la cellule sont regroupés les chromosomes ?",
+          "choices": [
+            "Dans les mitochondries",
+            "Dans le noyau",
+            "Dans le cytoplasme",
+            "Dans la membrane cellulaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les chromosomes sont localisés dans le noyau de la cellule. C'est dans le noyau que se trouve l'ensemble de l'information génétique de l'organisme."
+        },
+        {
+          "question": "Quelle est la composition chimique d'un chromosome ?",
+          "choices": [
+            "Protéines uniquement",
+            "ARN et protéines",
+            "ADN et protéines",
+            "Lipides et glucides"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un chromosome est constitué d'une longue molécule d'ADN associée à des protéines appelées histones, qui permettent l'enroulement et la compaction de l'ADN."
+        },
+        {
+          "question": "Un gène est un segment d'ADN qui porte l'information nécessaire à la fabrication :",
+          "choices": [
+            "D'un chromosome entier",
+            "D'une protéine ou d'une molécule fonctionnelle",
+            "D'une cellule entière",
+            "D'un noyau"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un gène est une séquence précise d'ADN qui code pour la fabrication d'une protéine ou d'une molécule ARN fonctionnelle participant au fonctionnement de l'organisme."
+        },
+        {
+          "question": "Deux allèles d'un même gène sont :",
+          "choices": [
+            "Deux gènes situés sur des chromosomes différents",
+            "Deux versions différentes d'un même gène",
+            "Deux chromosomes identiques",
+            "Deux brins d'une même molécule d'ADN"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les allèles sont les différentes versions d'un même gène. Par exemple, le gène de la couleur des yeux peut exister sous la forme d'un allèle 'yeux bleus' ou 'yeux marrons'."
+        },
+        {
+          "question": "Quel est le nombre de paires de chromosomes dans une cellule humaine ordinaire (somatique) ?",
+          "choices": [
+            "46 paires",
+            "23 paires",
+            "44 paires",
+            "48 paires"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une cellule humaine somatique (non reproductrice) possède 23 paires de chromosomes, soit 46 chromosomes au total. Chaque paire est constituée de deux chromosomes homologues."
+        },
+        {
+          "question": "Lors de la formation d'un spermatozoïde, chaque gamète reçoit :",
+          "choices": [
+            "46 chromosomes",
+            "23 paires de chromosomes",
+            "23 chromosomes",
+            "44 chromosomes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les gamètes (spermatozoïdes et ovules) sont produits par une division cellulaire spéciale qui divise par deux le nombre de chromosomes. Ils contiennent donc 23 chromosomes, un de chaque paire."
+        },
+        {
+          "question": "Le caryotype d'un individu permet de :",
+          "choices": [
+            "Mesurer la taille de ses gènes",
+            "Observer et classer l'ensemble de ses chromosomes",
+            "Connaître la séquence de son ADN",
+            "Déterminer le groupe sanguin"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le caryotype est la représentation photographique et ordonnée de l'ensemble des chromosomes d'une cellule. Il permet de détecter d'éventuelles anomalies chromosomiques comme la trisomie 21."
+        },
+        {
+          "question": "Quelle combinaison de chromosomes sexuels correspond à une fille ?",
+          "choices": [
+            "XY",
+            "YY",
+            "XX",
+            "XO"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le sexe féminin est déterminé par la présence de deux chromosomes X (XX). Le sexe masculin est déterminé par la présence d'un chromosome X et d'un chromosome Y (XY)."
+        },
+        {
+          "question": "Lequel de ces caractères est principalement influencé par l'environnement et non par les seuls gènes ?",
+          "choices": [
+            "Le groupe sanguin",
+            "La couleur naturelle des yeux",
+            "Le bronzage de la peau",
+            "Le nombre de doigts"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le bronzage est un caractère acquis : il dépend de l'exposition au soleil (facteur environnemental) et non de l'hérédité seule. Le groupe sanguin, la couleur des yeux et le nombre de doigts sont en revanche des caractères héréditaires."
+        },
+        {
+          "question": "Comment les gènes sont-ils transmis des parents à leurs enfants ?",
+          "choices": [
+            "Via les globules rouges du sang",
+            "Via les gamètes (ovule et spermatozoïde)",
+            "Via le lait maternel",
+            "Via les cellules cutanées"
+          ],
+          "correctIndex": 1,
+          "explanation": "La transmission de l'information génétique des parents aux enfants se fait par les gamètes : l'ovule apporté par la mère et le spermatozoïde apporté par le père. Leur fusion lors de la fécondation reconstitue un génome complet."
+        },
+        {
+          "question": "Qu'est-ce qu'une mutation génétique ?",
+          "choices": [
+            "Un changement de la forme du noyau cellulaire",
+            "Une modification de la séquence d'ADN",
+            "La disparition d'un chromosome entier",
+            "Le remplacement d'un gène par un autre gène"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une mutation est une modification de la séquence des nucléotides de l'ADN. Elle peut être spontanée ou provoquée par des agents mutagènes comme les rayons UV ou certaines substances chimiques."
+        },
+        {
+          "question": "La trisomie 21 est due à la présence :",
+          "choices": [
+            "D'un chromosome 21 manquant",
+            "De trois chromosomes 21 au lieu de deux",
+            "D'une mutation sur le chromosome 21",
+            "De deux chromosomes X supplémentaires"
+          ],
+          "correctIndex": 1,
+          "explanation": "La trisomie 21 (syndrome de Down) résulte d'une anomalie chromosomique : la présence de trois chromosomes 21 au lieu de deux, ce qui donne un total de 47 chromosomes dans les cellules."
+        },
+        {
+          "question": "Quelle affirmation concernant l'ADN est correcte ?",
+          "choices": [
+            "L'ADN est identique dans toutes les espèces vivantes",
+            "L'ADN est la même molécule dans toutes les cellules d'un individu",
+            "L'ADN change au cours de la vie d'une cellule",
+            "L'ADN se trouve uniquement dans les cellules reproductrices"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toutes les cellules d'un même individu (sauf exceptions comme les globules rouges matures) contiennent le même ADN, car elles sont issues de la même cellule-œuf par divisions cellulaires successives."
         }
       ]
     },
@@ -1478,6 +2050,149 @@
           ],
           "correctIndex": 1,
           "explanation": "Une mutation est une modification de la séquence d'ADN. Elle constitue une source de diversité génétique et un moteur de l'évolution."
+        },
+        {
+          "question": "Dans quel ouvrage Charles Darwin a-t-il publié sa théorie de l'évolution en 1859 ?",
+          "choices": [
+            "L'Origine des espèces",
+            "La Philosophie zoologique",
+            "Le Gène égoïste",
+            "Systema Naturae"
+          ],
+          "correctIndex": 0,
+          "explanation": "Darwin a publié 'De l'origine des espèces au moyen de la sélection naturelle' en 1859, ouvrage fondateur de la théorie de l'évolution. Les autres ouvrages sont de Lamarck, Dawkins et Linné."
+        },
+        {
+          "question": "Qu'est-ce que la sélection naturelle ?",
+          "choices": [
+            "Un choix conscient fait par les animaux pour s'adapter à leur milieu",
+            "Un mécanisme par lequel les individus les mieux adaptés survivent et se reproduisent davantage",
+            "La transformation volontaire d'une espèce en une autre",
+            "L'apparition de nouvelles espèces uniquement par mutation"
+          ],
+          "correctIndex": 1,
+          "explanation": "La sélection naturelle est le processus par lequel les individus possédant des caractéristiques favorables à leur environnement survivent mieux et transmettent davantage leurs gènes à la génération suivante. Ce n'est pas un processus volontaire ou conscient."
+        },
+        {
+          "question": "Pourquoi les fossiles sont-ils importants pour comprendre l'évolution des espèces ?",
+          "choices": [
+            "Ils permettent de fabriquer des médicaments contre les maladies actuelles",
+            "Ils montrent que la Terre a toujours eu les mêmes espèces qu'aujourd'hui",
+            "Ils témoignent de l'existence d'êtres vivants du passé et permettent de reconstituer leur histoire",
+            "Ils servent uniquement à dater l'âge des roches volcaniques"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les fossiles sont les traces ou restes d'organismes ayant vécu dans le passé ; ils permettent de reconstituer l'histoire de la vie sur Terre et de comparer des espèces disparues avec des espèces actuelles."
+        },
+        {
+          "question": "Deux espèces qui partagent un ancêtre commun récent ont un lien de parenté :",
+          "choices": [
+            "Très éloigné",
+            "Inexistant",
+            "Étroit",
+            "Uniquement si elles vivent dans le même milieu"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plus l'ancêtre commun entre deux espèces est récent, plus leur lien de parenté est étroit. Cela se traduit par de nombreuses caractéristiques anatomiques ou génétiques partagées."
+        },
+        {
+          "question": "Qu'appelle-t-on la biodiversité ?",
+          "choices": [
+            "La diversité des milieux géographiques sur Terre",
+            "La diversité du vivant à tous les niveaux : espèces, gènes et écosystèmes",
+            "Le nombre total d'individus d'une même espèce",
+            "La capacité d'une espèce à survivre en milieu hostile"
+          ],
+          "correctIndex": 1,
+          "explanation": "La biodiversité désigne la variété du vivant à trois niveaux : la diversité des espèces, la diversité génétique au sein de chaque espèce, et la diversité des écosystèmes."
+        },
+        {
+          "question": "Comment définit-on une espèce en biologie ?",
+          "choices": [
+            "Un groupe d'individus vivant dans le même milieu géographique",
+            "Un groupe d'individus ayant exactement le même aspect physique",
+            "Un groupe d'individus capables de se reproduire entre eux et de donner une descendance fertile",
+            "Un groupe d'individus ayant le même régime alimentaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "En biologie, une espèce est définie comme un groupe d'individus interféconds, c'est-à-dire capables de se reproduire entre eux et d'engendrer une descendance elle-même fertile."
+        },
+        {
+          "question": "Quel exemple illustre le mieux une adaptation au milieu par sélection naturelle ?",
+          "choices": [
+            "Des oiseaux qui décident de changer de couleur de plumage pour se camoufler",
+            "Des bactéries résistant à un antibiotique deviennent majoritaires après traitement",
+            "Un chat qui apprend à chasser en observant sa mère",
+            "Une plante qui pousse vers la lumière"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les bactéries naturellement résistantes à un antibiotique survivent au traitement et se reproduisent davantage, transmettant leur résistance : c'est un exemple réel de sélection naturelle agissant sur une population."
+        },
+        {
+          "question": "Quel est le rôle des mutations dans l'évolution des espèces ?",
+          "choices": [
+            "Elles diminuent la diversité génétique d'une population",
+            "Elles introduisent de nouvelles variations héréditaires dans une population, matière première de l'évolution",
+            "Elles permettent à un individu de s'adapter instantanément à son milieu",
+            "Elles n'ont aucun effet sur l'évolution"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les mutations sont des modifications aléatoires de l'ADN ; transmissibles à la descendance, elles créent de nouvelles variations génétiques qui peuvent être favorables, neutres ou défavorables, fournissant ainsi la diversité sur laquelle agit la sélection naturelle."
+        },
+        {
+          "question": "À quelle grande crise biologique attribue-t-on la disparition des dinosaures non-aviens ?",
+          "choices": [
+            "La crise de l'Ordovicien-Silurien, il y a environ 445 millions d'années",
+            "La crise du Permien-Trias, il y a environ 252 millions d'années",
+            "La crise du Crétacé-Paléogène, il y a environ 66 millions d'années",
+            "La crise de la fin du Dévonien, il y a environ 375 millions d'années"
+          ],
+          "correctIndex": 2,
+          "explanation": "La crise Crétacé-Paléogène, survenue il y a environ 66 millions d'années et liée notamment à l'impact d'une météorite géante au Yucatan, a provoqué la disparition des dinosaures non-aviens et de nombreuses autres espèces."
+        },
+        {
+          "question": "Parmi les propositions suivantes, laquelle décrit correctement la lignée humaine ?",
+          "choices": [
+            "L'Homme descend directement du chimpanzé actuel",
+            "L'Homme et les grands singes partagent des ancêtres communs et ont évolué séparément",
+            "L'Homo sapiens est apparu en Europe il y a plus de 5 millions d'années",
+            "La lignée humaine n'a connu qu'une seule espèce depuis son origine"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'Homme et les grands singes (chimpanzé, gorille…) ont des ancêtres communs ; leurs lignées se sont séparées au cours de l'évolution. L'Homo sapiens est apparu en Afrique il y a environ 300 000 ans, et la lignée humaine a compté de nombreuses espèces comme Homo habilis ou Homo erectus."
+        },
+        {
+          "question": "Quel fossile, découvert en Éthiopie, est l'un des plus célèbres représentants des Australopithèques ?",
+          "choices": [
+            "Toumaï",
+            "Lucy",
+            "Cro-Magnon",
+            "Homo heidelbergensis"
+          ],
+          "correctIndex": 1,
+          "explanation": "Lucy (Australopithecus afarensis), découverte en Éthiopie en 1974, est l'un des fossiles d'hominidés les plus célèbres ; elle date d'environ 3,2 millions d'années et présente des caractéristiques à la fois simiennes et humaines."
+        },
+        {
+          "question": "Qu'indique la présence de membres antérieurs similaires (même structure osseuse) chez la baleine, la chauve-souris et l'Homme ?",
+          "choices": [
+            "Ces espèces vivent toutes dans des milieux aquatiques",
+            "Ces espèces ont un ancêtre commun dont elles ont hérité ce plan de construction",
+            "Ces espèces se sont nourries des mêmes aliments au cours de l'évolution",
+            "Ces ressemblances sont dues au hasard et n'ont aucune signification évolutive"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les membres antérieurs de ces espèces présentent la même organisation osseuse (humérus, radius, cubitus, os du carpe…) car ils ont hérité ce plan de base d'un ancêtre commun : on parle d'homologie, preuve des liens de parenté."
+        },
+        {
+          "question": "Qu'est-ce qu'une extinction de masse ?",
+          "choices": [
+            "La disparition progressive d'une seule espèce sur une longue période",
+            "La disparition d'espèces uniquement dans les océans",
+            "La disparition rapide d'une grande proportion des espèces à l'échelle planétaire sur une courte période géologique",
+            "L'apparition brutale de nombreuses nouvelles espèces"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une extinction de masse se caractérise par la disparition d'une fraction importante des espèces vivantes (souvent plus de 75 %) sur une période géologiquement très courte ; cinq grandes extinctions de masse ont été identifiées dans l'histoire de la vie sur Terre."
         }
       ]
     },
@@ -2757,6 +3472,149 @@
           ],
           "correctIndex": 1,
           "explanation": "Une variable est un espace dans la mémoire de l'ordinateur identifié par un nom, qui permet de stocker une valeur pouvant changer."
+        },
+        {
+          "question": "Dans un algorithme, une séquence d'instructions désigne :",
+          "choices": [
+            "Un ensemble d'instructions exécutées dans un ordre précis, l'une après l'autre",
+            "Un groupe d'instructions exécutées en même temps, en parallèle",
+            "Une liste d'instructions choisies au hasard par le programme",
+            "Une instruction unique répétée indéfiniment"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une séquence est la structure de base d'un algorithme : chaque instruction est exécutée dans l'ordre, de haut en bas, l'une après l'autre."
+        },
+        {
+          "question": "Dans Scratch, à quoi sert le bloc « quand le drapeau vert est cliqué » ?",
+          "choices": [
+            "Il arrête définitivement tous les scripts du programme",
+            "Il répète le script en boucle tant que la touche espace est pressée",
+            "Il déclenche l'exécution du script auquel il est attaché lorsque l'utilisateur clique sur le drapeau vert",
+            "Il efface tous les blocs du script sans les exécuter"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ce bloc est un événement déclencheur dans Scratch : il lance le script qui lui est associé dès que l'utilisateur clique sur le drapeau vert pour démarrer le programme."
+        },
+        {
+          "question": "Dans Scratch, quelle est la différence entre la boucle « répéter 10 fois » et la boucle « répéter jusqu'à » ?",
+          "choices": [
+            "Il n'y a aucune différence, elles fonctionnent exactement de la même façon",
+            "« Répéter 10 fois » exécute les instructions un nombre fixe de fois ; « répéter jusqu'à » les exécute jusqu'à ce qu'une condition soit vraie",
+            "« Répéter 10 fois » fonctionne uniquement avec des nombres ; « répéter jusqu'à » fonctionne uniquement avec du texte",
+            "« Répéter jusqu'à » exécute les instructions exactement 10 fois, puis s'arrête"
+          ],
+          "correctIndex": 1,
+          "explanation": "La boucle « répéter N fois » s'exécute un nombre déterminé de fois ; la boucle « répéter jusqu'à » continue tant que la condition de sortie n'est pas atteinte."
+        },
+        {
+          "question": "On écrit le code Scratch suivant : « si <score > 10> alors [dire \"Bravo\" pendant 2 secondes] sinon [dire \"Essaie encore\" pendant 2 secondes] ». Que se passe-t-il si le score vaut 10 ?",
+          "choices": [
+            "Le lutin dit « Bravo » car 10 est supérieur ou égal à 10",
+            "Le lutin ne dit rien car la condition est indéfinie pour la valeur exacte 10",
+            "Le lutin dit « Essaie encore » car 10 n'est pas strictement supérieur à 10",
+            "Le programme plante car on ne peut pas comparer un score à 10"
+          ],
+          "correctIndex": 2,
+          "explanation": "La condition « score > 10 » est strictement supérieure : pour score = 10 elle est fausse, donc le bloc « sinon » s'exécute et le lutin dit « Essaie encore »."
+        },
+        {
+          "question": "Dans un programme Scratch, à quoi sert une variable ?",
+          "choices": [
+            "À dessiner des formes géométriques à l'écran",
+            "À stocker et mémoriser une valeur qui peut changer au cours du programme",
+            "À dupliquer un lutin en plusieurs copies identiques",
+            "À modifier la couleur de fond de la scène"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une variable est une case mémoire qui porte un nom et peut contenir une valeur (nombre, texte) susceptible d'évoluer pendant l'exécution du programme."
+        },
+        {
+          "question": "Un élève exécute ce pseudo-code : « x ← 5 ; x ← x + 3 ; afficher x ». Quelle valeur est affichée ?",
+          "choices": [
+            "5",
+            "3",
+            "53",
+            "8"
+          ],
+          "correctIndex": 3,
+          "explanation": "La variable x reçoit d'abord la valeur 5, puis on lui ajoute 3 : x vaut donc 8, c'est cette valeur qui est affichée."
+        },
+        {
+          "question": "Qu'est-ce qu'un organigramme en informatique ?",
+          "choices": [
+            "Un tableau listant tous les blocs disponibles dans Scratch",
+            "Une représentation graphique des étapes et décisions d'un algorithme à l'aide de symboles reliés par des flèches",
+            "Un graphique montrant la vitesse d'exécution d'un programme",
+            "Un outil permettant de colorier les blocs Scratch selon leur catégorie"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un organigramme représente visuellement le déroulement d'un algorithme : les rectangles indiquent des actions, les losanges des conditions, et les flèches montrent l'ordre d'exécution."
+        },
+        {
+          "question": "Dans Scratch, que fait le bloc « répéter indéfiniment » ?",
+          "choices": [
+            "Il exécute les instructions une seule fois puis s'arrête automatiquement",
+            "Il exécute les instructions en boucle sans jamais s'arrêter, jusqu'à ce que le programme soit stoppé",
+            "Il répète les instructions exactement 100 fois",
+            "Il attend que l'utilisateur appuie sur une touche avant de répéter"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le bloc « répéter indéfiniment » crée une boucle infinie : les instructions qu'il contient s'exécutent en continu jusqu'à ce que l'on arrête le programme (carré rouge)."
+        },
+        {
+          "question": "Le débogage d'un programme consiste à :",
+          "choices": [
+            "Supprimer tous les blocs du programme pour en créer un nouveau",
+            "Ajouter de nouveaux lutins dans le projet Scratch",
+            "Identifier et corriger les erreurs (bugs) qui empêchent le programme de fonctionner correctement",
+            "Accélérer la vitesse d'exécution du programme"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le débogage (de l'anglais « debugging ») est le processus qui consiste à trouver et corriger les erreurs dans un programme pour qu'il produise le résultat attendu."
+        },
+        {
+          "question": "Dans un programme qui pilote un robot, lequel de ces composants est un actionneur ?",
+          "choices": [
+            "Un capteur de luminosité qui mesure l'intensité de la lumière",
+            "Un microphone qui détecte les sons de l'environnement",
+            "Un moteur électrique qui fait tourner les roues du robot",
+            "Un capteur de distance à ultrasons qui détecte les obstacles"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un actionneur est un composant qui reçoit des ordres du programme et produit une action physique ; le moteur transforme l'énergie électrique en mouvement, c'est bien un actionneur."
+        },
+        {
+          "question": "Dans Scratch, l'opérateur « ET » entre deux conditions renvoie « vrai » :",
+          "choices": [
+            "Dès qu'au moins l'une des deux conditions est vraie",
+            "Uniquement si les deux conditions sont vraies en même temps",
+            "Uniquement si les deux conditions sont fausses",
+            "Toujours, quelle que soit la valeur des conditions"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'opérateur logique ET (and) exige que toutes les conditions soient vraies simultanément pour que le résultat soit vrai ; si l'une est fausse, le résultat est faux."
+        },
+        {
+          "question": "Un élève écrit un script Scratch mais son lutin ne bouge pas. En examinant le code, il s'aperçoit que le bloc de déplacement est en dehors de toute boucle et n'est relié à aucun bloc déclencheur. Quel est le problème ?",
+          "choices": [
+            "Le lutin est trop grand pour se déplacer sur la scène",
+            "Le bloc de déplacement ne peut fonctionner qu'avec un fond coloré",
+            "Le script n'a pas de bloc déclencheur (événement) qui le démarre, il ne s'exécute donc jamais",
+            "Scratch ne permet pas les déplacements sans connexion Internet"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans Scratch, tout script doit commencer par un bloc déclencheur (comme « quand le drapeau vert est cliqué ») ; sans lui, les blocs en dessous ne s'exécutent jamais."
+        },
+        {
+          "question": "Dans un algorithme exprimé en pseudo-code, que signifie « tant que <condition> faire … fin tant que » ?",
+          "choices": [
+            "Les instructions s'exécutent une seule fois si la condition est vraie",
+            "Les instructions s'exécutent un nombre fixe de fois défini avant la boucle",
+            "Les instructions s'exécutent en boucle aussi longtemps que la condition reste vraie, et s'arrêtent dès qu'elle devient fausse",
+            "Les instructions s'exécutent une seule fois si la condition est fausse"
+          ],
+          "correctIndex": 2,
+          "explanation": "La boucle « tant que » (while) vérifie la condition avant chaque itération : si elle est vraie, le bloc d'instructions s'exécute ; dès qu'elle devient fausse, la boucle s'arrête."
         }
       ]
     },
@@ -2807,6 +3665,149 @@
           ],
           "correctIndex": 1,
           "explanation": "L'actionneur (moteur, lampe, vérin...) est le composant qui exécute une action physique en réponse à une commande du système."
+        },
+        {
+          "question": "Dans un système domotique, quel est le rôle d'un capteur de luminosité ?",
+          "choices": [
+            "Allumer ou éteindre les lumières de la maison",
+            "Mesurer l'intensité lumineuse ambiante et transmettre cette information",
+            "Envoyer des commandes au réseau Wi-Fi",
+            "Régler automatiquement la température de la pièce"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un capteur acquiert une information sur son environnement (ici la lumière) et la transmet au système de contrôle. C'est l'actionneur (la lampe, le volet) qui réalise ensuite l'action."
+        },
+        {
+          "question": "Un thermostat connecté commande la chaudière pour maintenir une température choisie. Comment appelle-t-on la chaudière dans ce système automatisé ?",
+          "choices": [
+            "Un capteur",
+            "Un microcontrôleur",
+            "Un actionneur",
+            "Un routeur"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un actionneur est le composant qui réalise une action physique (ici produire de la chaleur). La chaudière reçoit l'ordre du thermostat et agit sur l'environnement."
+        },
+        {
+          "question": "Lequel de ces appareils est un exemple d'objet connecté (IoT) ?",
+          "choices": [
+            "Un four à micro-ondes sans écran ni réseau",
+            "Une ampoule pilotable via une application smartphone",
+            "Un interrupteur mural classique",
+            "Un câble HDMI"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un objet connecté (IoT – Internet of Things) est relié à un réseau (Wi-Fi, Bluetooth, etc.) et peut être contrôlé ou supervisé à distance. Une ampoule pilotable via smartphone remplit cette définition."
+        },
+        {
+          "question": "Quelle est la principale différence entre un capteur de fumée et une sirène d'alarme dans une installation domotique ?",
+          "choices": [
+            "Le capteur de fumée émet un son, la sirène détecte la fumée",
+            "Le capteur de fumée acquiert une information, la sirène réalise une action",
+            "Le capteur de fumée coupe l'électricité, la sirène envoie un SMS",
+            "Ils ont exactement le même rôle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le capteur détecte (acquiert de l'information) tandis que la sirène agit (produit un son d'alerte) : elle est donc un actionneur. Cette distinction capteur/actionneur est fondamentale en automatisme."
+        },
+        {
+          "question": "Quel composant joue le rôle de « cerveau » dans un système domotique en traitant les données des capteurs et en envoyant des ordres aux actionneurs ?",
+          "choices": [
+            "Le câble Ethernet",
+            "Le microcontrôleur (ou unité de traitement)",
+            "Le capteur de température",
+            "Le panneau solaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le microcontrôleur exécute le programme qui analyse les informations reçues des capteurs et décide des actions à envoyer aux actionneurs. C'est lui qui automatise le comportement du système."
+        },
+        {
+          "question": "Un propriétaire ouvre ses volets roulants depuis son téléphone en étant au bureau. Quel avantage de la domotique illustre principalement cette situation ?",
+          "choices": [
+            "La réduction de la consommation d'eau",
+            "Le pilotage à distance",
+            "La détection d'intrusion",
+            "La gestion des déchets"
+          ],
+          "correctIndex": 1,
+          "explanation": "Piloter ses équipements depuis un smartphone, où qu'on se trouve, est précisément le pilotage à distance, l'un des grands avantages de la domotique."
+        },
+        {
+          "question": "Dans une maison connectée, un capteur de présence détecte qu'il n'y a personne dans une pièce et éteint automatiquement la lumière. Quel avantage met-on en avant ici ?",
+          "choices": [
+            "La sécurité contre les incendies",
+            "Le confort acoustique",
+            "Les économies d'énergie",
+            "L'accessibilité pour les personnes âgées"
+          ],
+          "correctIndex": 2,
+          "explanation": "Éteindre les lumières dans les pièces vides réduit la consommation électrique inutile, ce qui correspond à l'avantage « économies d'énergie » de la domotique."
+        },
+        {
+          "question": "Pourquoi la collecte de données par les objets connectés peut-elle poser un problème de vie privée ?",
+          "choices": [
+            "Parce qu'elle consomme trop d'électricité",
+            "Parce que les objets connectés ne fonctionnent pas sans Internet",
+            "Parce que des informations personnelles sur les habitudes des occupants peuvent être enregistrées et transmises",
+            "Parce que les capteurs tombent souvent en panne"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les objets connectés collectent en permanence des données (présence, horaires, températures…) qui peuvent révéler les habitudes de vie des occupants et être transmises à des tiers sans leur consentement explicite."
+        },
+        {
+          "question": "Parmi ces protocoles de communication, lequel est couramment utilisé pour relier des objets connectés à courte portée dans une maison ?",
+          "choices": [
+            "4G LTE",
+            "Bluetooth",
+            "FM (fréquence modulée)",
+            "ADSL"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Bluetooth est un protocole de communication sans fil à courte portée (environ 10 m) largement utilisé pour connecter des objets domotiques entre eux ou à un smartphone."
+        },
+        {
+          "question": "Quel capteur serait le plus adapté pour détecter une fuite d'eau sous un évier dans une installation domotique ?",
+          "choices": [
+            "Un capteur de luminosité",
+            "Un capteur de présence infrarouge",
+            "Un capteur d'humidité ou d'inondation",
+            "Un capteur de CO2"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un capteur d'humidité ou d'inondation est conçu pour détecter la présence d'eau et peut déclencher une alerte ou fermer automatiquement une vanne d'arrêt d'eau."
+        },
+        {
+          "question": "Dans un programme de gestion domotique, on écrit : « SI température > 25 °C ALORS activer le climatiseur ». Quel concept informatique ce programme illustre-t-il ?",
+          "choices": [
+            "Une boucle infinie",
+            "Une structure conditionnelle (SI… ALORS…)",
+            "Une déclaration de variable",
+            "Un tri par ordre alphabétique"
+          ],
+          "correctIndex": 1,
+          "explanation": "La structure « SI condition ALORS action » est une instruction conditionnelle : le programme vérifie une condition (température trop élevée) et déclenche une action uniquement si elle est vraie."
+        },
+        {
+          "question": "La domotique peut améliorer l'accessibilité du logement. Pour quelle catégorie de personnes cet avantage est-il particulièrement important ?",
+          "choices": [
+            "Les enfants en bas âge uniquement",
+            "Les personnes en situation de handicap ou à mobilité réduite",
+            "Les propriétaires de grandes villas seulement",
+            "Les techniciens informatiques"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'automatisation des volets, des portes, de l'éclairage ou des appareils électroménagers permet aux personnes à mobilité réduite ou en situation de handicap d'agir sur leur environnement sans effort physique."
+        },
+        {
+          "question": "Un système d'alarme domotique envoie automatiquement un SMS au propriétaire dès qu'un capteur de mouvement est déclenché la nuit. Quelle chaîne fonctionnelle complète décrit ce système ?",
+          "choices": [
+            "Actionneur → microcontrôleur → capteur",
+            "Capteur → microcontrôleur → actionneur (smartphone)",
+            "Microcontrôleur → capteur → réseau",
+            "Réseau → actionneur → capteur"
+          ],
+          "correctIndex": 1,
+          "explanation": "La chaîne logique d'un système automatisé va toujours du capteur (acquisition) vers le microcontrôleur (traitement) puis vers l'actionneur (action), ici l'envoi d'un SMS via le réseau téléphonique."
         }
       ]
     },
@@ -2857,6 +3858,149 @@
           ],
           "correctIndex": 1,
           "explanation": "Le microcontrôleur est le cerveau du système : il reçoit les informations des capteurs, les traite selon son programme et commande les actionneurs."
+        },
+        {
+          "question": "Dans une chaîne d'énergie, quelle est la fonction de la batterie d'un vélo à assistance électrique ?",
+          "choices": [
+            "Convertir l'énergie électrique en énergie mécanique",
+            "Transmettre l'énergie aux roues",
+            "Alimenter le système en énergie électrique",
+            "Distribuer l'énergie vers le moteur ou les freins"
+          ],
+          "correctIndex": 2,
+          "explanation": "La batterie est la source d'énergie du vélo à assistance électrique : elle remplit la fonction ALIMENTER en fournissant l'énergie électrique nécessaire au fonctionnement du système."
+        },
+        {
+          "question": "Dans la chaîne d'énergie, quel bloc assure la fonction CONVERTIR ?",
+          "choices": [
+            "Le disjoncteur",
+            "Le câble électrique",
+            "La prise secteur",
+            "Le moteur électrique"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le moteur électrique convertit l'énergie électrique en énergie mécanique : il remplit donc la fonction CONVERTIR dans la chaîne d'énergie."
+        },
+        {
+          "question": "Dans la chaîne d'information d'une porte automatique, quel composant remplit la fonction ACQUÉRIR ?",
+          "choices": [
+            "Le microcontrôleur",
+            "Le détecteur infrarouge",
+            "Le moteur d'ouverture",
+            "L'afficheur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le détecteur infrarouge est un capteur qui détecte la présence d'une personne : il acquiert une information de l'environnement, remplissant ainsi la fonction ACQUÉRIR de la chaîne d'information."
+        },
+        {
+          "question": "Quelle est la fonction TRAITER dans la chaîne d'information d'un store automatique ?",
+          "choices": [
+            "Mesurer l'ensoleillement grâce à un capteur de luminosité",
+            "Dérouler ou enrouler la toile du store",
+            "Analyser les données du capteur et décider d'actionner le store",
+            "Alimenter le moteur en électricité"
+          ],
+          "correctIndex": 2,
+          "explanation": "La fonction TRAITER est assurée par le microcontrôleur qui analyse les informations reçues (ex. niveau de luminosité) et prend la décision de commander l'actionneur (moteur du store)."
+        },
+        {
+          "question": "Dans quelle chaîne se situe un haut-parleur qui transforme un signal électrique en son ?",
+          "choices": [
+            "Dans la chaîne d'information, fonction COMMUNIQUER",
+            "Dans la chaîne d'énergie, fonction CONVERTIR",
+            "Dans la chaîne d'information, fonction TRAITER",
+            "Dans la chaîne d'énergie, fonction ALIMENTER"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le haut-parleur est un actionneur qui convertit l'énergie électrique en énergie sonore : il appartient à la chaîne d'énergie et remplit la fonction CONVERTIR."
+        },
+        {
+          "question": "Dans un robot programmable, quel composant assure le lien entre la chaîne d'information et la chaîne d'énergie ?",
+          "choices": [
+            "La pile qui alimente le robot",
+            "Le capteur ultrason qui mesure les distances",
+            "Le microcontrôleur qui traite les informations et commande les actionneurs",
+            "Les roues qui permettent le déplacement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le microcontrôleur reçoit les informations des capteurs (chaîne d'information) et envoie des ordres aux actionneurs (chaîne d'énergie) : il est le composant central qui relie les deux chaînes."
+        },
+        {
+          "question": "Dans la chaîne d'énergie d'un store motorisé, quelle est la fonction du câble électrique reliant l'interrupteur au moteur ?",
+          "choices": [
+            "ALIMENTER",
+            "CONVERTIR",
+            "TRANSMETTRE",
+            "DISTRIBUER"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le câble électrique achemine l'énergie de l'interrupteur vers le moteur : il remplit la fonction DISTRIBUER, qui consiste à répartir et conduire l'énergie jusqu'aux actionneurs."
+        },
+        {
+          "question": "Lequel de ces éléments est un actionneur ?",
+          "choices": [
+            "Un thermostat",
+            "Un microprocesseur",
+            "Un vérin pneumatique",
+            "Une photorésistance"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le vérin pneumatique est un actionneur car il convertit une énergie (pneumatique) en mouvement mécanique pour agir sur le système. Les autres éléments sont des capteurs ou des unités de traitement."
+        },
+        {
+          "question": "Dans la chaîne d'information, quelle est la fonction assurée par l'envoi d'un signal Bluetooth d'un smartphone vers une enceinte connectée ?",
+          "choices": [
+            "ACQUÉRIR",
+            "TRAITER",
+            "COMMUNIQUER",
+            "CONVERTIR"
+          ],
+          "correctIndex": 2,
+          "explanation": "La transmission d'un signal sans fil (Bluetooth) entre deux appareils correspond à la fonction COMMUNIQUER de la chaîne d'information, qui consiste à transférer l'information d'un point à un autre."
+        },
+        {
+          "question": "Dans un vélo à assistance électrique, que réalise le moteur électrique placé dans le moyeu de la roue ?",
+          "choices": [
+            "Il stocke l'énergie électrique pour la restituer plus tard",
+            "Il mesure la vitesse de pédalage du cycliste",
+            "Il convertit l'énergie électrique en énergie mécanique pour aider à la propulsion",
+            "Il distribue l'énergie vers les différents organes du vélo"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le moteur du moyeu est l'actionneur du vélo électrique : il convertit l'énergie électrique fournie par la batterie en énergie mécanique (rotation), assurant la fonction CONVERTIR de la chaîne d'énergie."
+        },
+        {
+          "question": "Quel est le rôle d'un capteur de température dans la chaîne d'information d'un radiateur programmable ?",
+          "choices": [
+            "Chauffer l'air de la pièce en convertissant l'énergie électrique",
+            "Transmettre la consigne de température à l'utilisateur",
+            "Acquérir l'information sur la température ambiante",
+            "Distribuer l'énergie électrique vers les résistances chauffantes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le capteur de température mesure la température de la pièce et fournit cette information au système de contrôle : il remplit la fonction ACQUÉRIR de la chaîne d'information."
+        },
+        {
+          "question": "Dans la chaîne d'énergie, quelle est la différence entre TRANSMETTRE et DISTRIBUER ?",
+          "choices": [
+            "TRANSMETTRE concerne uniquement l'énergie électrique, DISTRIBUER concerne l'énergie mécanique",
+            "TRANSMETTRE achemine l'énergie mécanique (ex. courroie, engrenage), DISTRIBUER répartit l'énergie vers différents organes",
+            "TRANSMETTRE et DISTRIBUER sont deux mots pour désigner la même fonction",
+            "TRANSMETTRE produit l'énergie, DISTRIBUER la consomme"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans la chaîne d'énergie, TRANSMETTRE désigne le transfert d'énergie mécanique par des organes mécaniques (courroie, engrenage, arbre), tandis que DISTRIBUER consiste à acheminer et répartir l'énergie (souvent électrique) vers les différents actionneurs du système."
+        },
+        {
+          "question": "Une porte automatique de supermarché s'ouvre dès qu'une personne s'approche. Quel est l'ordre correct des fonctions mises en jeu ?",
+          "choices": [
+            "CONVERTIR → ACQUÉRIR → TRAITER → COMMUNIQUER",
+            "ACQUÉRIR → COMMUNIQUER → ALIMENTER → CONVERTIR",
+            "ACQUÉRIR (détecteur) → TRAITER (microcontrôleur) → COMMUNIQUER (ordre moteur) → CONVERTIR (moteur ouvre la porte)",
+            "TRAITER → ACQUÉRIR → DISTRIBUER → ALIMENTER"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le détecteur acquiert la présence d'une personne, le microcontrôleur traite cette information, il communique un ordre au moteur, et le moteur convertit l'énergie électrique en mouvement pour ouvrir la porte : c'est la séquence complète des deux chaînes travaillant ensemble."
         }
       ]
     }
