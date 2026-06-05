@@ -1,0 +1,446 @@
+{
+  "decolonisation-guerre-froide": [
+    {
+      "question": "Pourquoi dit-on que la Guerre froide est un affrontement « indirect » entre les États-Unis et l'URSS ?",
+      "choices": [
+        "Parce que les deux pays n'ont aucun désaccord idéologique",
+        "Parce que les combats se déroulaient uniquement en mer",
+        "Parce que les deux superpuissances ne se sont jamais combattues directement, mais par pays interposés",
+        "Parce qu'aucun pays n'a jamais utilisé d'armée"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Guerre froide (1947-1991) est un affrontement indirect car les deux superpuissances, possédant l'arme nucléaire, évitent le combat direct et s'opposent par pays interposés (Corée, Vietnam, Afghanistan) pour ne pas risquer une guerre totale."
+    },
+    {
+      "question": "Qu'est-ce que « l'équilibre de la terreur » entre les deux blocs ?",
+      "choices": [
+        "Le fait que chaque bloc possède assez d'armes nucléaires pour détruire l'autre, ce qui dissuade d'attaquer",
+        "Une peur partagée des catastrophes naturelles",
+        "L'égalité du nombre de soldats des deux côtés",
+        "La terreur exercée par la police politique sur les citoyens"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'équilibre de la terreur désigne la situation où USA et URSS possèdent chacun assez d'armes nucléaires pour anéantir l'adversaire. Cette dissuasion réciproque explique qu'aucune guerre directe n'ait éclaté entre les deux blocs."
+    },
+    {
+      "question": "Quelle est la principale opposition idéologique entre le bloc de l'Ouest et le bloc de l'Est ?",
+      "choices": [
+        "Monarchie contre république",
+        "Religion contre athéisme uniquement",
+        "Industrie contre agriculture",
+        "Capitalisme et démocratie libérale contre communisme et parti unique"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le bloc de l'Ouest, mené par les USA, défend le capitalisme et la démocratie libérale ; le bloc de l'Est, mené par l'URSS, impose le communisme avec un parti unique et une économie planifiée. Cette opposition de modèles est au cœur de la Guerre froide."
+    },
+    {
+      "question": "Pourquoi l'URSS et ses satellites refusent-ils le plan Marshall en 1947 ?",
+      "choices": [
+        "Parce qu'ils craignent que cette aide américaine ne place leurs pays sous l'influence des États-Unis",
+        "Parce que l'aide était trop faible",
+        "Parce que l'Europe de l'Est était déjà reconstruite",
+        "Parce que le plan était réservé à l'Asie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Staline refuse le plan Marshall (1947) et l'impose à ses satellites car il y voit un moyen pour les États-Unis d'étendre leur influence économique et politique à l'Est. Ce refus accentue la coupure de l'Europe en deux blocs."
+    },
+    {
+      "question": "Quelle est la conséquence directe du blocus de Berlin (1948-1949) ?",
+      "choices": [
+        "La réunification de l'Allemagne",
+        "La construction immédiate du mur de Berlin",
+        "La division de l'Allemagne en deux États : la RFA à l'Ouest et la RDA à l'Est",
+        "Le départ des Alliés de Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'échec du blocus soviétique de Berlin (1948-1949), déjoué par le pont aérien allié, conduit en 1949 à la division de l'Allemagne en deux États : la RFA (capitaliste, à l'Ouest) et la RDA (communiste, à l'Est)."
+    },
+    {
+      "question": "Pourquoi la RDA construit-elle le mur de Berlin en 1961 ?",
+      "choices": [
+        "Pour empêcher la fuite massive de ses habitants vers Berlin-Ouest plus prospère",
+        "Pour protéger Berlin-Est des bombardements",
+        "Pour faciliter le commerce entre les deux Allemagnes",
+        "Pour répondre à une attaque américaine"
+      ],
+      "correctIndex": 0,
+      "explanation": "La RDA construit le mur de Berlin en août 1961 pour stopper l'exode de sa population : des milliers d'Allemands de l'Est fuyaient vers Berlin-Ouest, plus libre et plus prospère. Le mur devient le symbole de la division du monde."
+    },
+    {
+      "question": "Qu'est-ce qui distingue une décolonisation pacifique d'une guerre d'indépendance ?",
+      "choices": [
+        "La décolonisation pacifique concerne l'Afrique, la guerre l'Asie",
+        "La décolonisation pacifique se fait par négociation, la guerre par un conflit armé",
+        "Il n'y a aucune différence",
+        "La décolonisation pacifique est plus rapide mais toujours violente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une décolonisation pacifique s'obtient par la négociation (comme l'Inde en 1947 ou l'Afrique noire française en 1960), tandis qu'une guerre d'indépendance passe par un long conflit armé (Indochine 1946-1954, Algérie 1954-1962)."
+    },
+    {
+      "question": "Quelle cause profonde explique l'accélération de la décolonisation après 1945 ?",
+      "choices": [
+        "L'enrichissement des métropoles grâce à la guerre",
+        "L'interdiction des colonies par les États-Unis seuls",
+        "L'affaiblissement des métropoles européennes par la Seconde Guerre mondiale et la montée des mouvements nationalistes",
+        "La fin de la Guerre froide"
+      ],
+      "correctIndex": 2,
+      "explanation": "Après 1945, les métropoles européennes sont affaiblies et ruinées par la guerre, tandis que les peuples colonisés, qui ont participé au conflit, réclament leur liberté. Cette montée des nationalismes accélère la décolonisation."
+    },
+    {
+      "question": "Par quelle méthode Gandhi mène-t-il la lutte pour l'indépendance de l'Inde ?",
+      "choices": [
+        "La guérilla armée",
+        "Le terrorisme",
+        "L'alliance militaire avec l'URSS",
+        "La non-violence et la désobéissance civile"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gandhi mène la lutte pour l'indépendance de l'Inde par la non-violence et la désobéissance civile (boycott, marche du sel). Cette méthode pacifique aboutit à l'indépendance en 1947, faisant de lui une figure mondiale."
+    },
+    {
+      "question": "Pourquoi les pays du tiers-monde réunis à Bandung en 1955 choisissent-ils le non-alignement ?",
+      "choices": [
+        "Pour rejoindre le bloc soviétique",
+        "Pour entrer dans l'OTAN",
+        "Pour reconstituer leurs anciens empires",
+        "Pour refuser de se ranger derrière l'un des deux blocs et affirmer leur indépendance"
+      ],
+      "correctIndex": 3,
+      "explanation": "À Bandung (1955), des pays récemment décolonisés d'Asie et d'Afrique condamnent le colonialisme et choisissent le non-alignement : ils refusent de se soumettre au bloc américain comme au bloc soviétique pour préserver leur indépendance."
+    },
+    {
+      "question": "Classe dans l'ordre chronologique : plan Marshall, mur de Berlin, crise de Cuba.",
+      "choices": [
+        "Crise de Cuba, plan Marshall, mur de Berlin",
+        "Plan Marshall (1947), mur de Berlin (1961), crise de Cuba (1962)",
+        "Mur de Berlin, plan Marshall, crise de Cuba",
+        "Plan Marshall, crise de Cuba, mur de Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'ordre correct est : plan Marshall (1947), au début de la Guerre froide, puis la construction du mur de Berlin (1961), et enfin la crise des missiles de Cuba (octobre 1962), point culminant des tensions."
+    },
+    {
+      "question": "Classe dans l'ordre chronologique ces étapes de la fin de la Guerre froide : indépendance de l'Inde, chute du mur de Berlin, disparition de l'URSS.",
+      "choices": [
+        "Indépendance de l'Inde (1947), chute du mur (1989), disparition de l'URSS (1991)",
+        "Chute du mur, disparition de l'URSS, indépendance de l'Inde",
+        "Disparition de l'URSS, chute du mur, indépendance de l'Inde",
+        "Indépendance de l'Inde, disparition de l'URSS, chute du mur"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'ordre est : indépendance de l'Inde (1947), puis chute du mur de Berlin (9 novembre 1989), enfin disparition de l'URSS (décembre 1991), qui met un terme définitif à la Guerre froide."
+    },
+    {
+      "question": "Pourquoi la crise de Cuba (1962) est-elle considérée comme le moment le plus dangereux de la Guerre froide ?",
+      "choices": [
+        "Parce qu'elle a duré plusieurs années",
+        "Parce que le monde a frôlé une guerre nucléaire directe entre les deux superpuissances",
+        "Parce qu'elle a entraîné la fin de l'URSS",
+        "Parce qu'elle a déclenché la guerre du Vietnam"
+      ],
+      "correctIndex": 1,
+      "explanation": "La crise de Cuba (octobre 1962) est le moment le plus dangereux car l'installation de missiles soviétiques près des USA a placé Kennedy et Khrouchtchev au bord d'une guerre nucléaire directe. Le retrait des missiles évite la catastrophe."
+    },
+    {
+      "question": "Que désigne le terme « bipolaire » pour qualifier le monde de la Guerre froide ?",
+      "choices": [
+        "Un monde dominé par un seul pays",
+        "Un monde sans aucune puissance dominante",
+        "Un monde organisé autour de deux pôles de puissance opposés : les USA et l'URSS",
+        "Un monde partagé entre l'Europe et l'Asie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un monde bipolaire est organisé autour de deux pôles de puissance rivaux : le bloc de l'Ouest mené par les USA et le bloc de l'Est mené par l'URSS. Cette bipolarisation structure les relations internationales de 1947 à 1991."
+    },
+    {
+      "question": "Quelle est la conséquence de l'arme nucléaire sur la manière de mener la Guerre froide ?",
+      "choices": [
+        "Elle pousse les deux blocs à s'affronter directement plus souvent",
+        "Elle met fin immédiatement à toute rivalité",
+        "Elle n'a aucune influence sur la stratégie",
+        "Elle dissuade tout affrontement militaire direct entre USA et URSS par peur de la destruction mutuelle"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'arme nucléaire, possédée par les deux camps, dissuade tout affrontement direct par crainte d'une destruction mutuelle. C'est pourquoi la Guerre froide reste « froide » et se joue par conflits indirects, course aux armements et espionnage."
+    },
+    {
+      "question": "Pourquoi la guerre d'Indochine (1946-1954) est-elle à la fois une guerre de décolonisation et un conflit de la Guerre froide ?",
+      "choices": [
+        "Parce qu'elle oppose deux métropoles européennes",
+        "Parce qu'elle se déroule en Europe",
+        "Parce que le Vietminh lutte pour l'indépendance tout en étant soutenu par le bloc communiste face à la France soutenue par les USA",
+        "Parce qu'elle n'oppose que des civils"
+      ],
+      "correctIndex": 2,
+      "explanation": "La guerre d'Indochine est une guerre de décolonisation (le Vietminh veut l'indépendance face à la France) mais aussi un conflit de Guerre froide : le Vietminh communiste est soutenu par l'URSS et la Chine, tandis que la France reçoit l'aide américaine."
+    },
+    {
+      "question": "Comment réagit l'URSS à la création de l'OTAN (1949) et au plan Marshall ?",
+      "choices": [
+        "Elle crée son propre bloc avec le Comecon (1949) et le Pacte de Varsovie (1955)",
+        "Elle rejoint l'OTAN",
+        "Elle accepte le plan Marshall",
+        "Elle dissout son armée"
+      ],
+      "correctIndex": 0,
+      "explanation": "Face au plan Marshall et à l'OTAN occidentale, l'URSS organise son bloc en réponse : le Comecon (1949) pour l'aide économique entre pays communistes, puis le Pacte de Varsovie (1955), alliance militaire de l'Est. Le monde est ainsi divisé en deux camps."
+    },
+    {
+      "question": "Pourquoi peut-on dire que la décolonisation a profondément modifié l'ONU ?",
+      "choices": [
+        "L'ONU a disparu après les indépendances",
+        "L'ONU a refusé tous les nouveaux États",
+        "L'ONU est devenue une alliance militaire",
+        "L'arrivée de nombreux nouveaux États indépendants a fait augmenter le nombre de pays membres"
+      ],
+      "correctIndex": 3,
+      "explanation": "La décolonisation a fait naître de nombreux nouveaux États indépendants qui ont adhéré à l'ONU. Le nombre de pays membres a fortement augmenté à partir des années 1960, donnant plus de poids aux pays du tiers-monde dans cette organisation."
+    },
+    {
+      "question": "Quel point commun rapproche la guerre de Corée et la crise de Cuba dans la logique de la Guerre froide ?",
+      "choices": [
+        "Elles se déroulent toutes deux en Europe",
+        "Ce sont des affrontements où les deux blocs s'opposent sans guerre directe entre USA et URSS",
+        "Elles aboutissent à la fin de l'URSS",
+        "Elles concernent uniquement la décolonisation"
+      ],
+      "correctIndex": 1,
+      "explanation": "La guerre de Corée (1950-1953) et la crise de Cuba (1962) illustrent la même logique : les deux blocs s'affrontent indirectement (par pays interposés ou par la menace) sans jamais déclencher de guerre directe entre les USA et l'URSS."
+    },
+    {
+      "question": "Quelle évolution la « coexistence pacifique » des années 1950-1960 marque-t-elle par rapport au début de la Guerre froide ?",
+      "choices": [
+        "La fin totale des tensions entre les blocs",
+        "Une volonté de dialoguer et d'éviter l'affrontement direct, tout en maintenant la rivalité",
+        "Le retour à la guerre directe",
+        "La fusion des deux blocs"
+      ],
+      "correctIndex": 1,
+      "explanation": "La coexistence pacifique, promue par Khrouchtchev, marque une volonté de dialoguer et d'éviter la guerre directe par rapport aux fortes tensions des débuts. La rivalité idéologique et la course aux armements se poursuivent néanmoins entre les deux blocs."
+    }
+  ],
+  "france-1945-nos-jours": [
+    {
+      "question": "Pourquoi le programme du Conseil national de la Résistance (CNR) est-il qualifié de fondateur de l'État-providence en France ?",
+      "choices": [
+        "Parce qu'il supprime tous les impôts",
+        "Parce qu'il instaure une monarchie",
+        "Parce qu'il met en place la Sécurité sociale et les nationalisations pour protéger les citoyens",
+        "Parce qu'il privatise les entreprises"
+      ],
+      "correctIndex": 2,
+      "explanation": "Appliqué à la Libération (1944-1945), le programme du CNR crée la Sécurité sociale (1945) et nationalise des secteurs clés. L'État prend en charge la protection sociale (santé, retraite, chômage) : c'est la naissance de l'État-providence en France."
+    },
+    {
+      "question": "En quoi le droit de vote des femmes en 1944 transforme-t-il la démocratie française ?",
+      "choices": [
+        "Il rend le suffrage véritablement universel en incluant enfin la moitié de la population",
+        "Il réduit le nombre d'électeurs",
+        "Il supprime le vote des hommes",
+        "Il instaure le vote indirect"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'ordonnance du 21 avril 1944 accorde le droit de vote aux femmes, qui votent pour la première fois en 1945. Le suffrage devient enfin véritablement universel en France, en intégrant la moitié de la population jusque-là exclue."
+    },
+    {
+      "question": "Quelle faiblesse principale de la Quatrième République explique sa chute en 1958 ?",
+      "choices": [
+        "Un président trop puissant",
+        "L'absence totale d'élections",
+        "La domination de l'armée",
+        "L'instabilité ministérielle, qui la rend incapable de gérer la crise algérienne"
+      ],
+      "correctIndex": 3,
+      "explanation": "La IVe République (1946-1958) souffre d'une grande instabilité ministérielle (les gouvernements se succèdent rapidement). Incapable de régler la crise de la guerre d'Algérie, elle s'effondre en 1958, ouvrant la voie au retour de De Gaulle."
+    },
+    {
+      "question": "Pourquoi la Constitution de 1958 renforce-t-elle le pouvoir du président par rapport à la Quatrième République ?",
+      "choices": [
+        "Pour assurer la stabilité de l'exécutif et éviter le retour de l'instabilité ministérielle",
+        "Pour donner tout le pouvoir au Parlement",
+        "Pour supprimer le poste de Premier ministre",
+        "Pour rétablir la monarchie"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Constitution de la Ve République (1958), voulue par De Gaulle, renforce les pouvoirs du président pour assurer la stabilité de l'exécutif, à la différence de la IVe République paralysée par l'instabilité ministérielle."
+    },
+    {
+      "question": "En quoi la réforme de 1962 (élection du président au suffrage universel direct) renforce-t-elle sa légitimité ?",
+      "choices": [
+        "Le président est désormais choisi par les seuls députés",
+        "Le président est tiré au sort",
+        "Le président tient son pouvoir directement du peuple tout entier, ce qui renforce son autorité",
+        "Le président est nommé par l'armée"
+      ],
+      "correctIndex": 2,
+      "explanation": "Depuis la réforme de 1962, le président est élu au suffrage universel direct : il tient son pouvoir directement de l'ensemble des citoyens. Cela renforce considérablement sa légitimité et son autorité dans les institutions de la Ve République."
+    },
+    {
+      "question": "Qu'est-ce qu'une « alternance » politique, illustrée par l'élection de 1981 ?",
+      "choices": [
+        "Le passage du pouvoir d'un camp politique à un autre lors d'une élection",
+        "Le partage du pouvoir entre deux présidents",
+        "Le changement de Constitution",
+        "La dissolution de l'Assemblée"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'alternance désigne le passage du pouvoir d'un camp politique à un autre par les urnes. En 1981, l'élection de François Mitterrand (gauche) après 23 ans de pouvoir de la droite réalise la première alternance de la Ve République, preuve de la solidité de la démocratie."
+    },
+    {
+      "question": "Qu'est-ce qui distingue une cohabitation d'une alternance sous la Ve République ?",
+      "choices": [
+        "Il n'y a aucune différence",
+        "L'alternance change le camp au pouvoir, la cohabitation fait coexister un président et un Premier ministre de camps opposés",
+        "La cohabitation supprime le poste de président",
+        "L'alternance ne concerne que le Sénat"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'alternance désigne le changement de majorité au pouvoir par les urnes. La cohabitation est une situation où le président et le Premier ministre appartiennent à des camps opposés, car la majorité de l'Assemblée diffère de celle du président."
+    },
+    {
+      "question": "Pourquoi l'instauration du quinquennat en 2000 a-t-elle réduit le risque de cohabitation ?",
+      "choices": [
+        "Parce qu'elle supprime les élections législatives",
+        "Parce qu'elle interdit l'opposition",
+        "Parce qu'en alignant la durée du mandat présidentiel sur celui des députés, les deux élections ont lieu rapprochées et dégagent la même majorité",
+        "Parce qu'elle allonge le mandat à sept ans"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le quinquennat (2000) aligne la durée du mandat présidentiel (5 ans) sur celle des députés. Les deux élections étant désormais rapprochées, l'électeur tend à donner au président une majorité à l'Assemblée, ce qui rend la cohabitation moins probable."
+    },
+    {
+      "question": "Quelle loi de 1967, portée par Lucien Neuwirth, marque une étape clé pour les droits des femmes ?",
+      "choices": [
+        "La loi sur la parité",
+        "La loi légalisant l'IVG",
+        "La loi sur le droit de vote",
+        "La loi autorisant la contraception (pilule)"
+      ],
+      "correctIndex": 3,
+      "explanation": "La loi Neuwirth de 1967 autorise la contraception (notamment la pilule) en France. Elle permet aux femmes de maîtriser leur fécondité et constitue une étape majeure de leur émancipation, avant la loi Veil sur l'IVG en 1975."
+    },
+    {
+      "question": "Classe dans l'ordre chronologique : droit de vote des femmes, loi Neuwirth, loi Veil.",
+      "choices": [
+        "Loi Veil (1975), loi Neuwirth (1967), droit de vote (1944)",
+        "Loi Neuwirth, droit de vote, loi Veil",
+        "Droit de vote, loi Veil, loi Neuwirth",
+        "Droit de vote des femmes (1944), loi Neuwirth (1967), loi Veil (1975)"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'ordre correct est : droit de vote des femmes (1944), loi Neuwirth autorisant la contraception (1967), puis loi Veil légalisant l'IVG (1975). Ces étapes marquent les progrès des droits des femmes au XXe siècle."
+    },
+    {
+      "question": "Comment évolue la place des femmes dans la société française des années 1950 aux années 1980 ?",
+      "choices": [
+        "Elles quittent massivement le monde du travail",
+        "Elles accèdent davantage au travail salarié, à la maîtrise de la fécondité et à de nouveaux droits",
+        "Elles perdent le droit de vote",
+        "Leur situation reste totalement inchangée"
+      ],
+      "correctIndex": 1,
+      "explanation": "Des années 1950 aux années 1980, les femmes accèdent de plus en plus au travail salarié, obtiennent la maîtrise de leur fécondité (loi Neuwirth 1967, loi Veil 1975) et de nouveaux droits. Leur place dans la société se transforme profondément."
+    },
+    {
+      "question": "Au-delà de la contestation étudiante, que révèle Mai 68 sur la société française ?",
+      "choices": [
+        "Une volonté de changement social et culturel et un rejet de l'autorité traditionnelle",
+        "Une simple grève sans portée",
+        "Un soutien massif au régime gaulliste",
+        "Un mouvement uniquement religieux"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mai 68 dépasse la contestation étudiante : il révèle une aspiration profonde à plus de liberté, une remise en cause de l'autorité (famille, école, patron) et des transformations culturelles de la société française des Trente Glorieuses."
+    },
+    {
+      "question": "Quel rôle l'immigration joue-t-elle dans la société française des Trente Glorieuses ?",
+      "choices": [
+        "Elle est totalement inexistante",
+        "Elle fournit une main-d'œuvre nécessaire à la croissance et à la reconstruction du pays",
+        "Elle concerne uniquement des touristes",
+        "Elle est réservée aux cadres supérieurs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pendant les Trente Glorieuses (1945-1975), la France fait appel à une importante immigration de travailleurs (Portugal, Maghreb, etc.) pour fournir la main-d'œuvre nécessaire à la forte croissance économique et à la reconstruction du pays."
+    },
+    {
+      "question": "Pourquoi la CECA (1951) vise-t-elle d'abord à empêcher une nouvelle guerre en Europe ?",
+      "choices": [
+        "Parce qu'elle crée une armée européenne",
+        "Parce qu'elle interdit toute industrie",
+        "Parce qu'en mettant en commun le charbon et l'acier, elle rend la guerre matériellement impossible entre la France et l'Allemagne",
+        "Parce qu'elle réunifie l'Allemagne"
+      ],
+      "correctIndex": 2,
+      "explanation": "La CECA (1951), proposée par Robert Schuman, met en commun le charbon et l'acier (matières premières de l'armement) de six pays. En liant les économies française et allemande, elle vise à rendre une nouvelle guerre matériellement impossible entre ces nations."
+    },
+    {
+      "question": "Classe dans l'ordre chronologique ces étapes de la construction européenne : CECA, traité de Rome, traité de Maastricht.",
+      "choices": [
+        "Traité de Maastricht, CECA, traité de Rome",
+        "Traité de Rome, CECA, traité de Maastricht",
+        "CECA, traité de Maastricht, traité de Rome",
+        "CECA (1951), traité de Rome (1957), traité de Maastricht (1992)"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'ordre est : CECA (1951), première étape, puis traité de Rome (1957) créant la CEE, enfin traité de Maastricht (1992) qui fonde l'Union européenne et prépare l'euro. La construction européenne se fait par étapes successives."
+    },
+    {
+      "question": "Quelle est la principale nouveauté apportée par le traité de Maastricht (1992) ?",
+      "choices": [
+        "La création de la CECA",
+        "La fin de la construction européenne",
+        "La fondation de l'Union européenne et la préparation d'une monnaie unique",
+        "La sortie de la France de l'Europe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le traité de Maastricht (1992) fonde l'Union européenne (UE), qui dépasse la simple union économique en ajoutant une dimension politique, et prépare la monnaie unique, l'euro, mis en circulation en 2002."
+    },
+    {
+      "question": "Quelle conséquence concrète l'euro (2002) a-t-il dans la vie quotidienne des Français ?",
+      "choices": [
+        "Le remplacement du franc par une monnaie commune partagée avec d'autres pays européens",
+        "Le retour au franc",
+        "La suppression de toute monnaie",
+        "L'usage du dollar"
+      ],
+      "correctIndex": 0,
+      "explanation": "En 2002, l'euro remplace le franc dans la vie quotidienne des Français (pièces et billets). Cette monnaie commune, partagée avec d'autres pays de l'UE, facilite les échanges et les voyages au sein de la zone euro."
+    },
+    {
+      "question": "Pourquoi peut-on dire que la République a été « refondée » entre 1944 et 1947 ?",
+      "choices": [
+        "Parce qu'elle revient simplement à l'avant-guerre sans changement",
+        "Parce qu'on instaure une dictature",
+        "Parce qu'on supprime les élections",
+        "Parce qu'on rétablit la démocratie et qu'on lui ajoute de nouveaux droits sociaux et le vote des femmes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Entre 1944 et 1947, la République est refondée : on rétablit la démocratie après Vichy, on accorde le vote aux femmes (1944), on crée la Sécurité sociale (1945) et le préambule de la Constitution de 1946 garantit de nouveaux droits sociaux."
+    },
+    {
+      "question": "Quel lien existe-t-il entre la prospérité des Trente Glorieuses et l'essor de la société de consommation ?",
+      "choices": [
+        "Aucun lien",
+        "La forte croissance et le plein emploi augmentent le pouvoir d'achat, ce qui développe la consommation de masse",
+        "La croissance fait baisser les salaires",
+        "La consommation diminue pendant la croissance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pendant les Trente Glorieuses (1945-1975), la forte croissance et le plein emploi augmentent le pouvoir d'achat des Français. Cela permet l'essor de la société de consommation : équipement des foyers (voiture, télévision, électroménager) et nouveaux modes de vie."
+    },
+    {
+      "question": "Pourquoi le passage de trois cohabitations à leur quasi-disparition illustre-t-il une adaptation des institutions ?",
+      "choices": [
+        "Parce que les institutions n'ont jamais changé",
+        "Parce que le quinquennat de 2000 a été adopté en partie pour réduire ces situations de pouvoir partagé jugées difficiles",
+        "Parce que la cohabitation est devenue obligatoire",
+        "Parce que le président a perdu tout pouvoir"
+      ],
+      "correctIndex": 1,
+      "explanation": "Après trois cohabitations entre 1986 et 2002, jugées sources de blocages, le quinquennat (2000) a notamment été adopté pour rapprocher les élections présidentielle et législatives. Cela illustre la capacité de la Ve République à adapter ses institutions."
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "premiere-guerre-mondiale": [
+    {
+      "question": "Pourquoi le passage à la « guerre de position » fin 1914 modifie-t-il profondément le quotidien des soldats ?",
+      "choices": [
+        "Les soldats rentrent chez eux pour l'hiver",
+        "Les combats se déplacent uniquement sur mer",
+        "Les armées s'enterrent dans des tranchées et s'usent face à face sur un front qui ne bouge presque plus",
+        "L'aviation remplace l'infanterie au sol"
+      ],
+      "correctIndex": 2,
+      "explanation": "Après l'échec de la guerre de mouvement, le front se fige fin 1914 : les soldats s'enterrent dans des tranchées (boue, rats, bombardements) et la guerre devient une longue guerre d'usure jusqu'en 1918."
+    },
+    {
+      "question": "Classe ces phases de la guerre dans l'ordre chronologique : guerre de position (tranchées), reprise de la guerre de mouvement, guerre de mouvement initiale.",
+      "choices": [
+        "Mouvement initial (1914) → position/tranchées (1915-1917) → reprise du mouvement (1918)",
+        "Tranchées (1914) → mouvement (1916) → tranchées (1918)",
+        "Reprise du mouvement (1914) → tranchées (1916) → mouvement initial (1918)",
+        "Position (1914) → mouvement (1915) → position (1917)"
+      ],
+      "correctIndex": 0,
+      "explanation": "La guerre commence par une guerre de mouvement (1914, jusqu'à la Marne), se fige en guerre de position dans les tranchées (1915-1917), puis le mouvement reprend en 1918 avec l'arrivée des Américains et les offensives finales."
+    },
+    {
+      "question": "Pourquoi les États mobilisent-ils massivement la propagande pendant la Première Guerre mondiale ?",
+      "choices": [
+        "Pour informer objectivement les populations des défaites",
+        "Pour soutenir le moral de l'arrière, justifier les sacrifices et entretenir la haine de l'ennemi",
+        "Pour négocier la paix plus rapidement",
+        "Pour réduire la production d'armement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dans une guerre totale, le moral des civils compte autant que celui des soldats : la propagande (affiches, journaux, le « bourrage de crâne ») entretient l'union nationale, justifie les sacrifices et diabolise l'ennemi."
+    },
+    {
+      "question": "À quoi servent principalement les « emprunts de guerre » lancés auprès de la population ?",
+      "choices": [
+        "À nourrir gratuitement les soldats",
+        "À reconstruire les villes détruites pendant la guerre",
+        "À financer l'énorme coût de la guerre en demandant aux civils de prêter leur argent à l'État",
+        "À payer les réparations à l'Allemagne"
+      ],
+      "correctIndex": 2,
+      "explanation": "La guerre coûte des sommes colossales : les États lancent des emprunts, demandant aux civils de prêter leur argent (« souscrivez à l'emprunt ! »). C'est une forme de mobilisation financière typique de la guerre totale."
+    },
+    {
+      "question": "Quel surnom donne-t-on aux femmes qui fabriquent des obus dans les usines d'armement pendant la guerre ?",
+      "choices": [
+        "Les munitionnettes",
+        "Les marraines de guerre",
+        "Les pétroleuses",
+        "Les cantinières"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les femmes qui remplacent les hommes dans les usines d'armement sont surnommées les « munitionnettes ». Leur travail à l'arrière est essentiel à l'effort de guerre et illustre la mobilisation des civils."
+    },
+    {
+      "question": "Pourquoi la bataille de Verdun (1916) est-elle considérée comme un symbole de la « violence de masse » ?",
+      "choices": [
+        "Parce qu'elle s'est déroulée en une seule journée",
+        "Parce qu'aucun soldat n'y a été tué",
+        "Parce que des bombardements d'artillerie ininterrompus pendant des mois ont tué des centaines de milliers d'hommes sur un espace réduit",
+        "Parce qu'elle opposait des civils entre eux"
+      ],
+      "correctIndex": 2,
+      "explanation": "À Verdun (février-décembre 1916), un déluge d'obus pilonne un front minuscule pendant dix mois, causant environ 300 000 morts. Cette violence industrielle et anonyme incarne la brutalisation de la guerre."
+    },
+    {
+      "question": "L'année 1917 est qualifiée d'« année de rupture ». Lequel de ces événements ne s'y rattache PAS ?",
+      "choices": [
+        "Les révolutions russes",
+        "L'entrée en guerre des États-Unis",
+        "Les mutineries dans l'armée française",
+        "L'assassinat de l'archiduc François-Ferdinand"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'assassinat de François-Ferdinand a lieu en 1914, pas en 1917. L'année 1917 est marquée par les révolutions russes, l'entrée des États-Unis et les mutineries, qui rebattent les cartes du conflit."
+    },
+    {
+      "question": "En quoi l'entrée des États-Unis et la sortie de la Russie en 1917 ont-elles des effets opposés pour les Alliés ?",
+      "choices": [
+        "Les deux affaiblissent les Alliés",
+        "Les deux renforcent les Alliés",
+        "La Russie quitte le conflit (perte d'un allié à l'Est) mais les États-Unis arrivent avec hommes et matériel (renfort à l'Ouest)",
+        "Aucun des deux événements n'a d'effet militaire"
+      ],
+      "correctIndex": 2,
+      "explanation": "En 1917, la révolution russe entraîne le retrait de la Russie (traité de Brest-Litovsk, 1918), privant les Alliés du front oriental, tandis que l'entrée des États-Unis apporte un renfort décisif à l'Ouest en 1918."
+    },
+    {
+      "question": "Qu'est-ce qui caractérise un génocide et le distingue d'une bataille meurtrière ?",
+      "choices": [
+        "Le nombre de soldats tués au combat",
+        "La durée des combats",
+        "L'utilisation d'armes chimiques",
+        "La volonté planifiée d'exterminer tout un groupe humain en raison de ses origines, y compris des civils"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un génocide n'est pas une bataille : c'est l'extermination volontaire et organisée de tout un peuple (hommes, femmes, enfants) en raison de son appartenance. Le génocide arménien (1915-1916) en est un exemple."
+    },
+    {
+      "question": "Le génocide arménien de 1915-1916 illustre surtout :",
+      "choices": [
+        "Une victoire militaire ottomane",
+        "La violence de masse dirigée contre des populations civiles pendant la guerre",
+        "Un affrontement entre deux armées régulières",
+        "Une révolte de soldats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le génocide arménien, perpétré par l'Empire ottoman, vise des civils désarmés (massacres, déportations dans le désert). Il montre que la Première Guerre mondiale s'accompagne d'une violence extrême contre les civils."
+    },
+    {
+      "question": "Pourquoi les soldats des colonies françaises et britanniques sont-ils envoyés combattre en Europe ?",
+      "choices": [
+        "Parce que la guerre totale pousse les métropoles à mobiliser toutes les ressources humaines de leurs empires",
+        "Parce qu'ils s'étaient révoltés contre la métropole",
+        "Parce qu'ils refusaient de rester dans les colonies",
+        "Parce qu'ils étaient mieux payés qu'en métropole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dans la guerre totale, les empires coloniaux deviennent un réservoir d'hommes : tirailleurs sénégalais, soldats indiens ou nord-africains sont mobilisés. Cela montre l'ampleur planétaire de la mobilisation."
+    },
+    {
+      "question": "Que désigne le terme « brutalisation » appliqué à la Première Guerre mondiale ?",
+      "choices": [
+        "La discipline très dure imposée aux nouvelles recrues",
+        "L'accoutumance des sociétés à une violence extrême, qui marque durablement les esprits après la guerre",
+        "La brutalité des conditions climatiques au front",
+        "Le rationnement imposé aux civils"
+      ],
+      "correctIndex": 1,
+      "explanation": "La « brutalisation » désigne la banalisation d'une violence de masse inédite (gaz, obus, génocide) qui marque durablement les sociétés et contribue à la violence politique de l'entre-deux-guerres."
+    },
+    {
+      "question": "Pourquoi l'armistice du 11 novembre 1918 n'est-il PAS la même chose que la paix définitive ?",
+      "choices": [
+        "Parce qu'il ne fait que suspendre les combats, la paix étant scellée plus tard par le traité de Versailles",
+        "Parce qu'il a été signé par erreur",
+        "Parce qu'il ne concerne que la France",
+        "Parce qu'il déclenche au contraire la guerre"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un armistice arrête seulement les combats. La paix proprement dite est négociée ensuite : c'est le traité de Versailles, signé le 28 juin 1919, qui règle officiellement le sort de l'Allemagne."
+    },
+    {
+      "question": "Pourquoi les Allemands ressentent-ils le traité de Versailles comme un « diktat » ?",
+      "choices": [
+        "Parce qu'ils l'ont rédigé eux-mêmes",
+        "Parce qu'il leur rendait toutes leurs colonies",
+        "Parce qu'il leur a été imposé sans négociation, avec de lourdes pertes et l'accusation d'être seuls responsables de la guerre",
+        "Parce qu'il supprimait les réparations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le traité est imposé à l'Allemagne sans négociation (« diktat ») : pertes territoriales, désarmement, réparations énormes et article 231 la déclarant seule responsable. Ce ressentiment nourrira le nationalisme et le nazisme."
+    },
+    {
+      "question": "Quelle conséquence à long terme du traité de Versailles a contribué à fragiliser la paix en Europe ?",
+      "choices": [
+        "Il a rendu l'Allemagne plus riche que jamais",
+        "Il a supprimé toutes les frontières en Europe",
+        "Il a réconcilié durablement la France et l'Allemagne",
+        "Il a créé un fort ressentiment allemand, exploité plus tard par les nationalistes et Hitler"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jugé humiliant, le traité de Versailles nourrit un profond ressentiment en Allemagne. Hitler s'en servira dans les années 1930 pour mobiliser les Allemands et justifier sa politique d'expansion : la paix de 1919 porte en germe de nouveaux conflits."
+    },
+    {
+      "question": "Pourquoi l'expression « der des ders » est-elle employée après 1918 ?",
+      "choices": [
+        "Pour désigner le dernier soldat tombé au front",
+        "Pour nommer le dernier traité signé",
+        "Parce que les contemporains espèrent que ce conflit si terrible soit « la dernière des dernières » guerres",
+        "Pour désigner la dernière bataille de 1918"
+      ],
+      "correctIndex": 2,
+      "explanation": "Devant l'horreur du bilan (10 millions de morts), les contemporains veulent croire qu'une telle guerre ne se reproduira jamais : la « der des ders ». L'espoir sera déçu vingt ans plus tard."
+    },
+    {
+      "question": "Comment appelle-t-on les soldats gravement défigurés et mutilés revenus du front ?",
+      "choices": [
+        "Les gueules cassées",
+        "Les poilus",
+        "Les sammies",
+        "Les munitionnettes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les « gueules cassées » sont les soldats revenus du front avec le visage défiguré par les éclats d'obus. Leur image rappelle la violence physique extrême de la guerre et le coût humain au-delà des morts."
+    },
+    {
+      "question": "Pourquoi peut-on dire que les civils sont devenus une « cible » pendant la Première Guerre mondiale ?",
+      "choices": [
+        "Parce qu'ils étaient tous envoyés au front",
+        "Parce qu'ils subissent restrictions, propagande, bombardements et, dans certains cas, déportations et génocide",
+        "Parce qu'ils refusaient de travailler",
+        "Parce qu'ils dirigeaient les armées"
+      ],
+      "correctIndex": 1,
+      "explanation": "La frontière entre civils et militaires s'efface : rationnement, mobilisation du travail, propagande, bombardements de villes, voire violences extrêmes comme le génocide arménien. La guerre totale touche toute la société."
+    },
+    {
+      "question": "Quelle faiblesse de la Société des Nations (SDN) explique en partie son échec futur ?",
+      "choices": [
+        "Elle disposait d'une armée trop puissante",
+        "Elle regroupait trop de pays",
+        "Les États-Unis, pourtant à l'origine du projet, n'y adhèrent pas, et elle n'a pas de moyens de contrainte",
+        "Elle siégeait à Berlin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proposée par le président américain Wilson, la SDN est paradoxalement affaiblie par l'absence des États-Unis et par son incapacité à imposer ses décisions par la force. Elle échouera à empêcher la Seconde Guerre mondiale."
+    },
+    {
+      "question": "Parmi ces éléments, lequel ne fait PAS partie de la « mobilisation totale » des sociétés en guerre ?",
+      "choices": [
+        "La mobilisation de l'industrie et de la science (armes, gaz, avions)",
+        "Le travail des femmes et des colonies à l'arrière",
+        "La propagande et les emprunts de guerre",
+        "L'organisation d'élections libres pluralistes pendant le conflit"
+      ],
+      "correctIndex": 3,
+      "explanation": "La guerre totale mobilise l'économie, la science, les civils, la propagande et les finances. L'organisation d'élections libres n'en fait pas partie : au contraire, l'effort de guerre passe souvent par une union nationale et des restrictions."
+    }
+  ],
+  "entre-deux-guerres-totalitarismes": [
+    {
+      "question": "Pourquoi la crise économique de 1929 a-t-elle des conséquences politiques aussi graves dans les démocraties européennes ?",
+      "choices": [
+        "Parce que le chômage de masse et la misère poussent une partie des populations vers des partis extrémistes qui promettent l'ordre et le travail",
+        "Parce qu'elle enrichit brutalement les ouvriers",
+        "Parce qu'elle supprime les impôts",
+        "Parce qu'elle renforce immédiatement la SDN"
+      ],
+      "correctIndex": 0,
+      "explanation": "La crise de 1929 provoque faillites, chômage et misère. Désespérées, des populations se tournent vers des partis extrémistes (nazis en Allemagne) qui promettent emploi et grandeur : les démocraties fragilisées vacillent."
+    },
+    {
+      "question": "Qu'est-ce qui distingue une « dictature » classique d'un régime « totalitaire » ?",
+      "choices": [
+        "La dictature autorise plusieurs partis",
+        "Le totalitarisme ne se contente pas de confisquer le pouvoir : il veut contrôler la société entière et façonner un « homme nouveau » par l'idéologie",
+        "La dictature contrôle la vie privée des citoyens, pas le totalitarisme",
+        "Il n'y a aucune différence entre les deux"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une simple dictature confisque le pouvoir politique. Un régime totalitaire va plus loin : parti unique, idéologie obligatoire, embrigadement, terreur et volonté de contrôler jusqu'aux pensées pour créer un « homme nouveau »."
+    },
+    {
+      "question": "Pourquoi peut-on dire que la planification de l'économie soviétique sous Staline est « autoritaire » ?",
+      "choices": [
+        "Parce que l'État laisse le marché fixer librement les prix",
+        "Parce que les entreprises restent privées",
+        "Parce que l'État fixe par des plans (plans quinquennaux) toute la production, sans liberté économique pour les individus",
+        "Parce qu'elle repose sur le commerce avec l'étranger"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'URSS de Staline planifie toute l'économie par des « plans quinquennaux » qui fixent autoritairement les objectifs de production. L'État contrôle tout : il n'y a ni propriété privée des moyens de production ni marché libre."
+    },
+    {
+      "question": "Qui sont les « koulaks » victimes de la politique de Staline ?",
+      "choices": [
+        "Les ouvriers des grandes villes",
+        "Les anciens nobles tsaristes",
+        "Les officiers de l'Armée rouge",
+        "Les paysans aisés, accusés de résister à la collectivisation et déportés ou exécutés"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les koulaks sont les paysans considérés comme « riches ». Accusés de freiner la collectivisation des terres (1929), ils sont « liquidés en tant que classe » : déportés au goulag ou exécutés par milliers."
+    },
+    {
+      "question": "Pourquoi l'Holodomor de 1932-1933 est-il souvent présenté comme une conséquence directe de la politique stalinienne ?",
+      "choices": [
+        "Parce qu'il résulte d'une sécheresse naturelle imprévisible",
+        "Parce que la collectivisation forcée et les réquisitions de récoltes ont organisé la famine, qui frappe surtout l'Ukraine",
+        "Parce qu'il a été causé par une invasion étrangère",
+        "Parce qu'il a touché uniquement les villes"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'Holodomor n'est pas une simple catastrophe naturelle : la collectivisation brutale et les réquisitions massives de grain par l'État soviétique provoquent une famine qui tue des millions d'Ukrainiens en 1932-1933."
+    },
+    {
+      "question": "À quoi servent les grands « procès de Moscou » (1936-1938) pour Staline ?",
+      "choices": [
+        "À éliminer ses rivaux et anciens compagnons par des aveux extorqués, et à terroriser toute la société",
+        "À juger équitablement les criminels de droit commun",
+        "À rétablir la liberté de la presse",
+        "À récompenser les héros de la révolution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Au cœur des Grandes Purges, les procès de Moscou font condamner d'anciens dirigeants bolcheviks après des aveux extorqués. Ils permettent à Staline d'écraser toute opposition et d'instaurer un climat de terreur permanente."
+    },
+    {
+      "question": "Comment se manifeste le « culte de la personnalité » de Staline en URSS ?",
+      "choices": [
+        "Par des élections libres en sa faveur",
+        "Par sa modestie et son refus des honneurs",
+        "Par une glorification permanente (portraits, statues, surnom de « Petit Père des peuples ») le présentant comme un guide infaillible",
+        "Par la critique ouverte de son action dans la presse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Staline est célébré partout : portraits géants, statues, poèmes, surnom de « Petit Père des peuples ». Ce culte de la personnalité, relayé par la propagande, le présente comme un chef génial et infaillible."
+    },
+    {
+      "question": "Pourquoi Hitler arrive-t-il au pouvoir en 1933 de manière en partie légale ?",
+      "choices": [
+        "Parce qu'il a remporté une guerre civile",
+        "Parce qu'il est nommé chancelier après les succès électoraux de son parti, avant de détruire la démocratie de l'intérieur",
+        "Parce qu'il a été désigné par la SDN",
+        "Parce qu'il a organisé un coup d'État militaire réussi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le parti nazi devient le premier parti au Reichstag grâce à la crise. Hitler est nommé chancelier le 30 janvier 1933, puis profite de cette légalité pour supprimer les libertés et instaurer une dictature totalitaire."
+    },
+    {
+      "question": "Sur quelle idée raciste repose principalement l'idéologie nazie ?",
+      "choices": [
+        "L'égalité de tous les peuples",
+        "L'union des travailleurs du monde entier",
+        "Le respect des minorités",
+        "La prétendue supériorité de la « race aryenne » et la hiérarchie des races, avec une haine particulière des Juifs"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le nazisme repose sur un racisme : la prétendue supériorité de la « race aryenne », une hiérarchie des peuples et un antisémitisme virulent. Cette idéologie justifie la persécution des Juifs et la conquête d'un espace vital."
+    },
+    {
+      "question": "Quelle est la conséquence concrète des lois de Nuremberg (1935) pour les Juifs d'Allemagne ?",
+      "choices": [
+        "Ils obtiennent de nouveaux droits civiques",
+        "Ils perdent la citoyenneté allemande et sont exclus de la communauté nationale, premier pas vers la persécution systématique",
+        "Ils sont autorisés à voter pour la première fois",
+        "Ils sont nommés dans l'administration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les lois de Nuremberg (1935) privent les Juifs de la citoyenneté allemande et interdisent les unions avec les non-Juifs. Elles institutionnalisent l'antisémitisme et préparent une persécution de plus en plus violente."
+    },
+    {
+      "question": "Pourquoi l'économie de l'Allemagne nazie est-elle qualifiée d'« économie de réarmement » ?",
+      "choices": [
+        "Parce qu'elle se concentre sur l'agriculture biologique",
+        "Parce qu'elle interdit toute industrie",
+        "Parce que l'État relance l'activité et l'emploi en finançant massivement l'armée et la production d'armes",
+        "Parce qu'elle repose uniquement sur le commerce extérieur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le régime nazi résorbe le chômage en investissant massivement dans l'armement et les grands travaux. Cette économie tournée vers la guerre prépare l'expansion militaire et la conquête de l'« espace vital »."
+    },
+    {
+      "question": "Quel rôle joue la Gestapo dans l'Allemagne nazie ?",
+      "choices": [
+        "C'est l'armée régulière allemande",
+        "C'est un parti d'opposition autorisé",
+        "C'est un syndicat ouvrier",
+        "C'est la police politique qui traque les opposants et fait régner la terreur par les arrestations et les camps"
+      ],
+      "correctIndex": 3,
+      "explanation": "La Gestapo est la police politique du régime nazi. Avec les camps de concentration, elle fait régner la terreur en traquant opposants, Juifs et tous ceux jugés « ennemis » du Reich. La terreur est un pilier du totalitarisme."
+    },
+    {
+      "question": "Comment le régime nazi cherche-t-il à « embrigader » la population dès l'enfance ?",
+      "choices": [
+        "En encadrant les jeunes dans des organisations comme les Jeunesses hitlériennes et en contrôlant l'école pour diffuser l'idéologie",
+        "En supprimant l'école et les loisirs",
+        "En interdisant tout rassemblement de jeunes",
+        "En laissant les familles totalement libres d'éduquer leurs enfants"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'embrigadement encadre toute la société : les jeunes sont intégrés aux Jeunesses hitlériennes, l'école et la propagande diffusent l'idéologie nazie. Le but est de former une génération dévouée au chef et au Reich."
+    },
+    {
+      "question": "Quelle « marche » de 1922 permet à Mussolini d'accéder au pouvoir en Italie ?",
+      "choices": [
+        "La Marche sur Rome",
+        "La Longue Marche",
+        "La Marche sur Berlin",
+        "La Marche du sel"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Marche sur Rome d'octobre 1922 est un coup de force des fascistes (les « Chemises noires ») qui pousse le roi à confier le pouvoir à Mussolini. C'est le point de départ du régime fasciste italien."
+    },
+    {
+      "question": "Quel point commun rapproche le fascisme italien des autres régimes totalitaires ?",
+      "choices": [
+        "Le respect du multipartisme",
+        "La défense des libertés individuelles",
+        "L'existence d'un parti unique, d'un chef glorifié (le Duce) et d'une propagande encadrant la société",
+        "L'organisation d'élections libres"
+      ],
+      "correctIndex": 2,
+      "explanation": "Comme les régimes de Hitler et Staline, le fascisme de Mussolini repose sur un parti unique, le culte du chef (le Duce), la propagande et l'encadrement de la population. Ce sont des traits communs aux totalitarismes."
+    },
+    {
+      "question": "Malgré leurs points communs, qu'est-ce qui distingue fondamentalement l'idéologie du nazisme de celle du communisme stalinien ?",
+      "choices": [
+        "Le nazisme défend l'égalité des peuples, le communisme la hiérarchie des races",
+        "Le nazisme repose sur le racisme et la hiérarchie des races, le communisme sur la lutte des classes et l'égalité affichée",
+        "Les deux ont exactement la même idéologie",
+        "Le communisme prône l'expansion raciale, le nazisme l'union des ouvriers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les méthodes (parti unique, terreur, propagande) se ressemblent, mais les idéologies s'opposent : le nazisme est fondé sur le racisme et l'inégalité des races, le stalinisme sur la lutte des classes et une égalité proclamée."
+    },
+    {
+      "question": "Pourquoi le contrôle de l'information est-il essentiel dans un régime totalitaire ?",
+      "choices": [
+        "Pour garantir une presse libre et critique",
+        "Pour favoriser le débat démocratique",
+        "Pour limiter l'influence du chef",
+        "Pour empêcher toute opinion contraire et imposer une seule vérité, celle de l'État et du parti"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dans un régime totalitaire, médias et culture sont mis au service de l'idéologie : la censure supprime toute voix discordante et la propagande impose une seule vérité officielle, celle du parti et du chef."
+    },
+    {
+      "question": "Pourquoi le Front populaire de 1936 en France peut-il être vu comme une réponse démocratique à la montée des extrémismes ?",
+      "choices": [
+        "Parce que cette coalition de gauche arrive au pouvoir par les élections et répond à la crise par des réformes sociales, sans renoncer à la démocratie",
+        "Parce qu'il instaure une dictature de gauche",
+        "Parce qu'il supprime le Parlement",
+        "Parce qu'il s'allie avec les régimes fascistes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Face à la crise et à la poussée des ligues d'extrême droite, le Front populaire (Léon Blum) accède au pouvoir par les urnes en 1936 et répond par des réformes (congés payés, 40 heures) tout en préservant la démocratie."
+    },
+    {
+      "question": "Comment les démocraties européennes réagissent-elles globalement face à la crise de 1929, par rapport aux régimes totalitaires ?",
+      "choices": [
+        "Elles deviennent toutes totalitaires",
+        "Elles refusent toute intervention de l'État",
+        "Elles cherchent des réponses dans le cadre démocratique (réformes, débats), mais en sortent fragilisées et divisées",
+        "Elles suppriment les élections"
+      ],
+      "correctIndex": 2,
+      "explanation": "Contrairement aux régimes totalitaires qui imposent leurs solutions par la force, les démocraties cherchent des réponses dans le débat et les réformes. Mais la crise les fragilise et alimente la contestation et les extrémismes."
+    },
+    {
+      "question": "Parmi ces caractéristiques, laquelle n'appartient PAS à un régime totalitaire des années 1930 ?",
+      "choices": [
+        "Un parti unique et un chef tout-puissant",
+        "Une police politique et la terreur contre les opposants",
+        "Une propagande et l'embrigadement de la jeunesse",
+        "Le respect du pluralisme et la garantie des libertés individuelles"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le respect du pluralisme et des libertés caractérise une démocratie, pas un totalitarisme. Les régimes totalitaires reposent au contraire sur le parti unique, le culte du chef, la terreur, la propagande et l'embrigadement."
+    }
+  ]
+}

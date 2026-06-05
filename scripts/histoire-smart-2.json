@@ -1,0 +1,444 @@
+{
+  "seconde-guerre-mondiale": [
+    {
+      "question": "Pourquoi parle-t-on de la Seconde Guerre mondiale comme d'une « guerre d'anéantissement » ?",
+      "choices": [
+        "Parce qu'elle vise à détruire totalement l'adversaire, y compris les populations civiles",
+        "Parce qu'elle a duré plus longtemps que la Première Guerre mondiale",
+        "Parce qu'elle s'est déroulée uniquement en Europe",
+        "Parce qu'elle a été menée seulement avec des armes nouvelles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Une guerre d'anéantissement cherche à détruire totalement l'adversaire, militaires comme civils, au nom d'une idéologie. Massacres de populations, génocides et bombardements de villes en sont les manifestations entre 1939 et 1945."
+    },
+    {
+      "question": "Quelle différence essentielle distingue un camp de concentration d'un camp d'extermination ?",
+      "choices": [
+        "Le camp de concentration accueille des civils, le camp d'extermination des soldats",
+        "Le camp d'extermination est destiné à la mise à mort massive et immédiate, le camp de concentration au travail forcé",
+        "Le camp de concentration est en Allemagne, le camp d'extermination en France",
+        "Il n'y a aucune différence, ce sont deux mots pour la même chose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le camp d'extermination (comme Treblinka ou Auschwitz-Birkenau) est conçu pour tuer massivement et immédiatement, surtout par chambres à gaz. Le camp de concentration (comme Dachau) exploite les détenus par le travail forcé, où beaucoup meurent d'épuisement."
+    },
+    {
+      "question": "Qu'appelle-t-on la « Shoah par balles » ?",
+      "choices": [
+        "Les combats entre soldats juifs et nazis",
+        "Le bombardement des ghettos juifs",
+        "Les exécutions de masse de Juifs par les Einsatzgruppen à l'Est, près des fosses",
+        "Les fusillades de résistants français"
+      ],
+      "correctIndex": 2,
+      "explanation": "La « Shoah par balles » désigne l'assassinat massif des Juifs d'Europe de l'Est par les Einsatzgruppen (groupes mobiles de tuerie) à partir de 1941, fusillés au bord de fosses communes, avant la généralisation des chambres à gaz."
+    },
+    {
+      "question": "Le génocide des nazis a visé les Juifs, mais aussi un autre peuple en raison de son origine. Lequel ?",
+      "choices": [
+        "Les Polonais",
+        "Les Russes",
+        "Les Italiens",
+        "Les Tsiganes (Roms et Sintis)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Outre les Juifs, les nazis ont mené un génocide contre les Tsiganes (Roms et Sintis), eux aussi déportés et exterminés dans les camps, notamment à Auschwitz, en raison de leur origine."
+    },
+    {
+      "question": "Pourquoi la bataille de Stalingrad (1942-1943) est-elle considérée comme un tournant de la guerre ?",
+      "choices": [
+        "Elle stoppe l'avancée allemande et fait passer l'URSS à l'offensive",
+        "Elle marque l'entrée en guerre des États-Unis",
+        "Elle provoque la capitulation du Japon",
+        "Elle déclenche le débarquement de Normandie"
+      ],
+      "correctIndex": 0,
+      "explanation": "À Stalingrad, la 6e armée allemande capitule en février 1943. C'est un tournant : l'Allemagne recule désormais à l'Est, et l'URSS lance la reconquête de son territoire puis avance vers Berlin."
+    },
+    {
+      "question": "En 1942, trois batailles marquent le tournant de la guerre sur trois fronts différents. Laquelle se déroule dans le Pacifique ?",
+      "choices": [
+        "El-Alamein",
+        "Midway",
+        "Stalingrad",
+        "Koursk"
+      ],
+      "correctIndex": 1,
+      "explanation": "La bataille de Midway (juin 1942) stoppe l'expansion japonaise dans le Pacifique. Au même moment, El-Alamein (Afrique du Nord) et Stalingrad (front de l'Est) marquent aussi le tournant de 1942-1943."
+    },
+    {
+      "question": "Qu'est-ce qui montre que la Seconde Guerre mondiale est une guerre véritablement mondiale, contrairement à un simple conflit européen ?",
+      "choices": [
+        "Elle se limite aux pays voisins de l'Allemagne",
+        "Elle se déroule uniquement sur mer",
+        "Elle oppose des armées sur les fronts européen, africain et asiatique-pacifique",
+        "Elle ne concerne que les grandes puissances coloniales"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le conflit s'étend sur plusieurs continents : front européen, Afrique du Nord, et théâtre asiatique-pacifique (après Pearl Harbor en 1941). Des soldats du monde entier, dont des colonies, y participent."
+    },
+    {
+      "question": "Pourquoi l'attaque de Pearl Harbor (décembre 1941) est-elle un événement décisif ?",
+      "choices": [
+        "Elle entraîne la capitulation de l'Allemagne",
+        "Elle marque la fin de la guerre dans le Pacifique",
+        "Elle déclenche la guerre en Europe",
+        "Elle provoque l'entrée en guerre des États-Unis aux côtés des Alliés"
+      ],
+      "correctIndex": 3,
+      "explanation": "En attaquant la base américaine de Pearl Harbor le 7 décembre 1941, le Japon provoque l'entrée en guerre des États-Unis. Leur puissance industrielle bascule alors du côté des Alliés."
+    },
+    {
+      "question": "Lors de la conférence de Wannsee (janvier 1942), que décident les responsables nazis ?",
+      "choices": [
+        "L'organisation industrielle et systématique de l'extermination des Juifs d'Europe",
+        "Le partage de l'Europe entre l'Allemagne et l'URSS",
+        "Le débarquement allié en Normandie",
+        "La création de l'ONU"
+      ],
+      "correctIndex": 0,
+      "explanation": "La conférence de Wannsee (20 janvier 1942) coordonne la mise en œuvre de la « solution finale » : déportation et extermination industrielle des Juifs d'Europe dans les camps de la mort."
+    },
+    {
+      "question": "Qu'est-ce qu'un ghetto dans le contexte de la Shoah ?",
+      "choices": [
+        "Un camp de travail en Allemagne",
+        "Un quartier fermé où les nazis enferment les Juifs dans des conditions terribles",
+        "Une zone de combat sur le front de l'Est",
+        "Un centre de tri des déportés"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le ghetto est un quartier fermé et surpeuplé où les nazis entassent les Juifs (comme le ghetto de Varsovie), avant les déportations vers les camps. Beaucoup y meurent de faim et de maladie."
+    },
+    {
+      "question": "Pourquoi les bombardements atomiques d'Hiroshima et Nagasaki (août 1945) illustrent-ils la guerre d'anéantissement ?",
+      "choices": [
+        "Ils visent uniquement des bases militaires japonaises",
+        "Ils sont menés par l'Allemagne nazie",
+        "Ils détruisent des villes entières et tuent massivement des civils en quelques instants",
+        "Ils marquent le début de la guerre dans le Pacifique"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les bombes atomiques sur Hiroshima (6 août) et Nagasaki (9 août 1945) rasent deux villes et tuent instantanément des dizaines de milliers de civils. Elles précipitent la capitulation du Japon et inaugurent l'ère nucléaire."
+    },
+    {
+      "question": "Quelle conséquence majeure les bombardements atomiques de 1945 ont-ils eue immédiatement ?",
+      "choices": [
+        "La capitulation de l'Allemagne",
+        "Le début de la guerre froide entre la France et le Japon",
+        "L'invasion de l'URSS",
+        "La capitulation du Japon et la fin de la Seconde Guerre mondiale"
+      ],
+      "correctIndex": 3,
+      "explanation": "Après Hiroshima et Nagasaki, le Japon capitule (2 septembre 1945), mettant fin à la Seconde Guerre mondiale. C'était déjà près de quatre mois après la capitulation allemande du 8 mai 1945."
+    },
+    {
+      "question": "Pourquoi le sort des prisonniers de guerre soviétiques illustre-t-il la guerre d'anéantissement à l'Est ?",
+      "choices": [
+        "Ils sont massivement laissés mourir de faim et de mauvais traitements par millions",
+        "Ils sont rapidement libérés par les nazis",
+        "Ils sont envoyés combattre aux côtés de l'Allemagne",
+        "Ils sont échangés contre des prisonniers allemands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sur le front de l'Est, considéré par les nazis comme une guerre raciale, des millions de prisonniers soviétiques sont volontairement laissés mourir de faim, de froid ou de mauvais traitements, sans respect des lois de la guerre."
+    },
+    {
+      "question": "Quel procès, en 1945-1946, juge pour la première fois les dirigeants nazis pour « crimes contre l'humanité » ?",
+      "choices": [
+        "Le procès de Vichy",
+        "Le procès de Nuremberg",
+        "Le procès de Tokyo uniquement",
+        "Le procès de Wannsee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le procès de Nuremberg (1945-1946) juge les principaux dirigeants nazis. Il crée la notion de « crime contre l'humanité », imprescriptible, fondant ainsi une justice internationale après la guerre."
+    },
+    {
+      "question": "Pourquoi dit-on que le bilan de la Seconde Guerre mondiale est « inédit » ?",
+      "choices": [
+        "Parce qu'il n'y a eu aucune victime civile",
+        "Parce qu'elle a duré moins longtemps que les guerres précédentes",
+        "Parce qu'avec environ 50 à 60 millions de morts, surtout des civils, et des génocides, son ampleur est sans précédent",
+        "Parce qu'elle n'a touché que les militaires"
+      ],
+      "correctIndex": 2,
+      "explanation": "Avec environ 50 à 60 millions de morts, en majorité des civils, et des génocides organisés, le bilan humain et moral est sans précédent. Il pousse les nations à créer l'ONU en 1945 pour préserver la paix."
+    },
+    {
+      "question": "Dans quel but principal l'ONU est-elle créée en 1945 ?",
+      "choices": [
+        "Reconstruire l'économie de l'Allemagne",
+        "Organiser la décolonisation",
+        "Diriger le procès de Nuremberg",
+        "Maintenir la paix et la sécurité dans le monde après la guerre"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'Organisation des Nations unies (ONU) est créée en 1945 pour maintenir la paix et éviter qu'une telle guerre se reproduise. Elle remplace la Société des Nations (SDN), jugée trop faible."
+    },
+    {
+      "question": "Quelle phase de la guerre correspond à la période 1939-1942 ?",
+      "choices": [
+        "Les victoires de l'Axe grâce à la guerre éclair (Blitzkrieg)",
+        "La victoire des Alliés",
+        "Le tournant de la guerre",
+        "La libération de l'Europe"
+      ],
+      "correctIndex": 0,
+      "explanation": "De 1939 à 1942, l'Axe (Allemagne, Italie, Japon) accumule les victoires grâce à la Blitzkrieg, qui combine chars et aviation. L'Allemagne domine l'Europe et le Japon s'étend dans le Pacifique."
+    },
+    {
+      "question": "Pourquoi peut-on dire que la chambre à gaz et le crématoire montrent le caractère « industriel » du génocide ?",
+      "choices": [
+        "Parce qu'ils utilisent beaucoup d'ouvriers volontaires",
+        "Parce qu'ils permettent de tuer et d'éliminer les corps de façon massive, organisée et rationnelle",
+        "Parce qu'ils servent à produire des armes",
+        "Parce qu'ils sont situés dans des usines allemandes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dans les camps d'extermination, les nazis tuent à la chaîne par gaz puis brûlent les corps dans des crématoires. Ce processus mécanique et planifié donne au génocide un caractère industriel inédit dans l'histoire."
+    },
+    {
+      "question": "Quel terme, créé après la guerre, désigne l'extermination programmée d'un groupe humain en raison de ses origines ?",
+      "choices": [
+        "Massacre",
+        "Bombardement",
+        "Génocide",
+        "Déportation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le mot « génocide » est créé en 1944 pour qualifier l'extermination programmée d'un groupe humain en raison de son origine, sa religion ou son ethnie. La Shoah en est l'exemple central."
+    },
+    {
+      "question": "Quelle phase succède aux victoires de l'Axe et précède la victoire finale des Alliés ?",
+      "choices": [
+        "La drôle de guerre (1939-1940)",
+        "La libération de Paris (1944)",
+        "Le procès de Nuremberg (1945)",
+        "Le tournant de 1942-1943 (Stalingrad, Midway, El-Alamein)"
+      ],
+      "correctIndex": 3,
+      "explanation": "Entre les victoires de l'Axe (1939-1942) et la victoire alliée (1943-1945) se situe le tournant de 1942-1943, marqué par les défaites de l'Axe à Stalingrad, Midway et El-Alamein, après lesquelles les Alliés reprennent l'initiative."
+    },
+    {
+      "question": "Pourquoi la défaite française de 1940 est-elle qualifiée de « débâcle » ?",
+      "choices": [
+        "Parce que l'armée française s'effondre en six semaines face à la Blitzkrieg, provoquant la fuite de millions de civils (l'exode)",
+        "Parce que l'armée française résiste plusieurs années",
+        "Parce que la France gagne la guerre",
+        "Parce que Paris n'est jamais occupée"
+      ],
+      "correctIndex": 0,
+      "explanation": "En mai-juin 1940, l'armée française est balayée en six semaines par la guerre éclair allemande. Des millions de civils fuient sur les routes (l'exode) : c'est la débâcle, qui mène à l'armistice du 22 juin 1940."
+    },
+    {
+      "question": "Quelle conséquence directe l'armistice du 22 juin 1940 a-t-il sur le territoire français ?",
+      "choices": [
+        "La France entière reste libre",
+        "La France est divisée en une zone occupée au nord et une zone libre au sud",
+        "La France est annexée à l'Allemagne",
+        "La France est partagée entre l'Italie et l'Espagne"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'armistice du 22 juin 1940 coupe la France en deux : une zone nord occupée par l'Allemagne et une zone sud dite « libre », administrée par le régime de Vichy jusqu'à son invasion en novembre 1942."
+    },
+    {
+      "question": "Qu'est-ce qui distingue fondamentalement la France libre de De Gaulle du régime de Vichy de Pétain ?",
+      "choices": [
+        "La France libre collabore, Vichy résiste",
+        "Les deux soutiennent les Alliés",
+        "La France libre poursuit le combat contre l'Allemagne, Vichy collabore avec elle",
+        "Les deux sont dirigés depuis Londres"
+      ],
+      "correctIndex": 2,
+      "explanation": "La France libre, fondée à Londres par de Gaulle après l'appel du 18 juin 1940, continue la guerre aux côtés des Alliés. Vichy, dirigé par Pétain, choisit au contraire l'armistice puis la collaboration avec l'Allemagne nazie."
+    },
+    {
+      "question": "Que proclame le maréchal Pétain en juillet 1940 en prenant les pleins pouvoirs ?",
+      "choices": [
+        "Le maintien de la République",
+        "L'entrée en guerre contre l'Allemagne",
+        "Le rétablissement de la démocratie",
+        "La fin de la République et l'instauration de « l'État français »"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le 10 juillet 1940, les pleins pouvoirs sont votés à Pétain : c'est la fin de la IIIe République. Il instaure « l'État français », régime autoritaire dont la devise devient « Travail, Famille, Patrie »."
+    },
+    {
+      "question": "Que désigne la « Révolution nationale » du régime de Vichy ?",
+      "choices": [
+        "Un projet politique conservateur et autoritaire fondé sur « Travail, Famille, Patrie »",
+        "Un programme révolutionnaire de gauche",
+        "La nationalisation des entreprises",
+        "Une alliance avec l'URSS"
+      ],
+      "correctIndex": 0,
+      "explanation": "La « Révolution nationale » est l'idéologie de Vichy : un projet conservateur, autoritaire et antirépublicain, glorifiant le travail, la famille et la patrie, et rejetant les valeurs de la démocratie et de la République."
+    },
+    {
+      "question": "La rencontre de Montoire (octobre 1940) entre Pétain et Hitler symbolise quel choix politique ?",
+      "choices": [
+        "L'entrée de la France dans la Résistance",
+        "L'engagement officiel de Vichy dans la collaboration d'État avec l'Allemagne",
+        "La déclaration de guerre à l'Allemagne",
+        "La libération de la France"
+      ],
+      "correctIndex": 1,
+      "explanation": "À Montoire, le 24 octobre 1940, Pétain serre la main de Hitler et engage officiellement la France dans la voie de la collaboration d'État avec l'Allemagne nazie."
+    },
+    {
+      "question": "Pourquoi le « statut des Juifs » d'octobre 1940 montre-t-il que Vichy mène sa propre politique antisémite ?",
+      "choices": [
+        "Parce qu'il a été imposé par l'Allemagne",
+        "Parce qu'il protège les Juifs français",
+        "Parce que Vichy l'a adopté de sa propre initiative, sans demande allemande, pour exclure les Juifs de nombreux métiers",
+        "Parce qu'il n'a jamais été appliqué"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dès octobre 1940, Vichy adopte de sa propre initiative un « statut des Juifs » excluant ceux-ci de nombreuses professions. Cela prouve un antisémitisme d'État français, distinct des exigences nazies."
+    },
+    {
+      "question": "Pourquoi la rafle du Vél d'Hiv (juillet 1942) est-elle un symbole de la responsabilité de l'État français dans la Shoah ?",
+      "choices": [
+        "Parce qu'elle a été menée par l'armée allemande seule",
+        "Parce qu'elle a permis de sauver des Juifs",
+        "Parce qu'elle s'est déroulée en zone libre",
+        "Parce que c'est la police française elle-même qui a arrêté plus de 13 000 Juifs pour les livrer aux nazis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lors de la rafle du Vél d'Hiv des 16-17 juillet 1942, c'est la police française qui arrête plus de 13 000 Juifs, dont des enfants, livrés ensuite aux nazis. Cela engage directement la responsabilité de l'État français."
+    },
+    {
+      "question": "Pourquoi le STO (Service du travail obligatoire), instauré en 1943, a-t-il renforcé la Résistance ?",
+      "choices": [
+        "Parce que de nombreux jeunes, refusant de partir travailler en Allemagne, rejoignirent les maquis",
+        "Parce qu'il libérait les résistants emprisonnés",
+        "Parce qu'il était soutenu par les Alliés",
+        "Parce qu'il armait directement les résistants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le STO oblige les jeunes Français à travailler en Allemagne. Pour y échapper, beaucoup rejoignent les maquis de la Résistance en 1943, ce qui grossit ses rangs et radicalise l'opposition à Vichy."
+    },
+    {
+      "question": "Quel rôle Jean Moulin a-t-il joué dans la Résistance ?",
+      "choices": [
+        "Il dirigeait le régime de Vichy",
+        "Il a unifié les mouvements de la Résistance intérieure en créant le CNR en 1943, au nom de De Gaulle",
+        "Il commandait l'armée allemande en France",
+        "Il a signé l'armistice de 1940"
+      ],
+      "correctIndex": 1,
+      "explanation": "Envoyé par de Gaulle, Jean Moulin unifie les mouvements de la Résistance intérieure en fondant le Conseil national de la Résistance (CNR) le 27 mai 1943. Arrêté et torturé, il meurt peu après."
+    },
+    {
+      "question": "Quelle différence y a-t-il entre la Résistance intérieure et la Résistance extérieure ?",
+      "choices": [
+        "L'intérieure est dirigée par Pétain, l'extérieure par Hitler",
+        "Il n'y a aucune différence",
+        "L'intérieure agit sur le sol français occupé, l'extérieure depuis Londres avec la France libre",
+        "L'extérieure agit en France, l'intérieure à l'étranger"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Résistance intérieure (réseaux, maquis, presse clandestine) agit en France occupée. La Résistance extérieure, c'est la France libre de De Gaulle organisée depuis Londres. Le CNR de 1943 unit les deux sous l'autorité de De Gaulle."
+    },
+    {
+      "question": "Quelles formes pouvaient prendre les actions de la Résistance intérieure ?",
+      "choices": [
+        "Uniquement des combats de grande armée",
+        "Seulement la collaboration avec Vichy",
+        "Des manifestations autorisées par l'occupant",
+        "Sabotages, renseignement, presse clandestine et aide aux personnes pourchassées"
+      ],
+      "correctIndex": 3,
+      "explanation": "La Résistance intérieure agit par le sabotage de voies ferrées, le renseignement transmis aux Alliés, la presse clandestine et l'aide aux Juifs ou aux réfractaires au STO, malgré le risque d'arrestation et de mort."
+    },
+    {
+      "question": "Quel acte fondateur de la France libre De Gaulle accomplit-il le 18 juin 1940 ?",
+      "choices": [
+        "Il lance un appel à la radio de Londres (BBC) pour poursuivre le combat",
+        "Il signe l'armistice avec l'Allemagne",
+        "Il devient chef du gouvernement de Vichy",
+        "Il libère Paris"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le 18 juin 1940, depuis Londres, le général de Gaulle appelle les Français à continuer le combat sur les ondes de la BBC. Cet appel fonde la France libre et le refus de la défaite."
+    },
+    {
+      "question": "Pourquoi le régime de Vichy peut-il être qualifié de régime autoritaire et non de démocratie ?",
+      "choices": [
+        "Parce qu'il organise des élections libres",
+        "Parce qu'il supprime les libertés, concentre le pouvoir sur Pétain et persécute ses opposants",
+        "Parce qu'il respecte la Constitution républicaine",
+        "Parce qu'il garantit la liberté de la presse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vichy supprime les élections, censure la presse, interdit les partis et syndicats, persécute Juifs, communistes et résistants. Le pouvoir est concentré sur le maréchal Pétain : c'est un régime autoritaire, l'opposé d'une démocratie."
+    },
+    {
+      "question": "Qu'est-ce que la Milice, créée par Vichy en 1943 ?",
+      "choices": [
+        "Un mouvement de résistance",
+        "L'armée régulière française",
+        "Une organisation française qui traque les résistants et les Juifs aux côtés des nazis",
+        "Une organisation de défense des civils"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Milice, créée par Vichy en janvier 1943, est une organisation paramilitaire française qui pourchasse les résistants, les Juifs et les réfractaires au STO, en collaboration directe avec la Gestapo nazie."
+    },
+    {
+      "question": "Comment la République est-elle rétablie en France à la Libération en 1944 ?",
+      "choices": [
+        "Pétain proclame la République",
+        "Les Allemands rétablissent la République",
+        "La monarchie est restaurée",
+        "Le Gouvernement provisoire dirigé par De Gaulle rétablit la légalité républicaine"
+      ],
+      "correctIndex": 3,
+      "explanation": "À la Libération de 1944, le Gouvernement provisoire de la République française (GPRF), présidé par de Gaulle, rétablit la République et les libertés, effaçant le régime de Vichy."
+    },
+    {
+      "question": "Quelle avancée majeure pour les femmes accompagne le rétablissement de la République à la Libération ?",
+      "choices": [
+        "Le droit de vote accordé aux femmes en 1944",
+        "L'interdiction du travail des femmes",
+        "Le retour à la devise de Vichy",
+        "La création de la Milice"
+      ],
+      "correctIndex": 0,
+      "explanation": "En 1944, une ordonnance du Gouvernement provisoire dirigé par de Gaulle accorde le droit de vote aux femmes. Elles votent pour la première fois en 1945, marquant un progrès démocratique de la République restaurée."
+    },
+    {
+      "question": "Pourquoi peut-on dire que tous les Français n'ont été ni résistants, ni collaborateurs pendant l'Occupation ?",
+      "choices": [
+        "Parce que tout le monde a résisté",
+        "Parce que la majorité de la population, par peur ou résignation, a surtout cherché à survivre (attentisme)",
+        "Parce que tous collaboraient ouvertement",
+        "Parce que la France n'était pas occupée"
+      ],
+      "correctIndex": 1,
+      "explanation": "Entre résistants et collaborateurs, qui étaient des minorités, la plus grande partie de la population a adopté une attitude d'attentisme : préoccupée par les difficultés du quotidien (rationnement, peur), elle cherchait surtout à survivre."
+    },
+    {
+      "question": "Quelle conséquence morale et juridique durable la découverte des camps en 1945 a-t-elle eue ?",
+      "choices": [
+        "L'oubli rapide des crimes commis",
+        "La libération des dirigeants nazis",
+        "La reconnaissance du crime contre l'humanité, imprescriptible, au procès de Nuremberg",
+        "La fin de toute justice internationale"
+      ],
+      "correctIndex": 2,
+      "explanation": "La découverte des camps a révélé l'ampleur des crimes nazis. Le procès de Nuremberg (1945-1946) a alors défini le « crime contre l'humanité », imprescriptible, fondant une justice internationale durable."
+    },
+    {
+      "question": "Pourquoi l'appel du 18 juin 1940 marque-t-il symboliquement le début de la Résistance française ?",
+      "choices": [
+        "Parce qu'il appelle à accepter la défaite",
+        "Parce qu'il soutient le régime de Vichy",
+        "Parce qu'il déclare la guerre à l'Angleterre",
+        "Parce qu'il refuse l'armistice et invite les Français à continuer le combat malgré la défaite"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'appel du 18 juin 1940 affirme que « la France a perdu une bataille, mais n'a pas perdu la guerre ». En refusant l'armistice et la défaite, de Gaulle pose l'acte fondateur de la Résistance et de la France libre."
+    }
+  ]
+}

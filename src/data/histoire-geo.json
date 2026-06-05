@@ -1565,6 +1565,226 @@
           ],
           "correctIndex": 1,
           "explanation": "On parle de guerre totale car les États mobilisent l'ensemble de leurs ressources : soldats, industrie, agriculture, finances, propagande et populations civiles. Rien n'échappe à l'effort de guerre."
+        },
+        {
+          "question": "Pourquoi le passage à la « guerre de position » fin 1914 modifie-t-il profondément le quotidien des soldats ?",
+          "choices": [
+            "Les soldats rentrent chez eux pour l'hiver",
+            "Les combats se déplacent uniquement sur mer",
+            "Les armées s'enterrent dans des tranchées et s'usent face à face sur un front qui ne bouge presque plus",
+            "L'aviation remplace l'infanterie au sol"
+          ],
+          "correctIndex": 2,
+          "explanation": "Après l'échec de la guerre de mouvement, le front se fige fin 1914 : les soldats s'enterrent dans des tranchées (boue, rats, bombardements) et la guerre devient une longue guerre d'usure jusqu'en 1918."
+        },
+        {
+          "question": "Classe ces phases de la guerre dans l'ordre chronologique : guerre de position (tranchées), reprise de la guerre de mouvement, guerre de mouvement initiale.",
+          "choices": [
+            "Mouvement initial (1914) → position/tranchées (1915-1917) → reprise du mouvement (1918)",
+            "Tranchées (1914) → mouvement (1916) → tranchées (1918)",
+            "Reprise du mouvement (1914) → tranchées (1916) → mouvement initial (1918)",
+            "Position (1914) → mouvement (1915) → position (1917)"
+          ],
+          "correctIndex": 0,
+          "explanation": "La guerre commence par une guerre de mouvement (1914, jusqu'à la Marne), se fige en guerre de position dans les tranchées (1915-1917), puis le mouvement reprend en 1918 avec l'arrivée des Américains et les offensives finales."
+        },
+        {
+          "question": "Pourquoi les États mobilisent-ils massivement la propagande pendant la Première Guerre mondiale ?",
+          "choices": [
+            "Pour informer objectivement les populations des défaites",
+            "Pour soutenir le moral de l'arrière, justifier les sacrifices et entretenir la haine de l'ennemi",
+            "Pour négocier la paix plus rapidement",
+            "Pour réduire la production d'armement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans une guerre totale, le moral des civils compte autant que celui des soldats : la propagande (affiches, journaux, le « bourrage de crâne ») entretient l'union nationale, justifie les sacrifices et diabolise l'ennemi."
+        },
+        {
+          "question": "À quoi servent principalement les « emprunts de guerre » lancés auprès de la population ?",
+          "choices": [
+            "À nourrir gratuitement les soldats",
+            "À reconstruire les villes détruites pendant la guerre",
+            "À financer l'énorme coût de la guerre en demandant aux civils de prêter leur argent à l'État",
+            "À payer les réparations à l'Allemagne"
+          ],
+          "correctIndex": 2,
+          "explanation": "La guerre coûte des sommes colossales : les États lancent des emprunts, demandant aux civils de prêter leur argent (« souscrivez à l'emprunt ! »). C'est une forme de mobilisation financière typique de la guerre totale."
+        },
+        {
+          "question": "Quel surnom donne-t-on aux femmes qui fabriquent des obus dans les usines d'armement pendant la guerre ?",
+          "choices": [
+            "Les munitionnettes",
+            "Les marraines de guerre",
+            "Les pétroleuses",
+            "Les cantinières"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les femmes qui remplacent les hommes dans les usines d'armement sont surnommées les « munitionnettes ». Leur travail à l'arrière est essentiel à l'effort de guerre et illustre la mobilisation des civils."
+        },
+        {
+          "question": "Pourquoi la bataille de Verdun (1916) est-elle considérée comme un symbole de la « violence de masse » ?",
+          "choices": [
+            "Parce qu'elle s'est déroulée en une seule journée",
+            "Parce qu'aucun soldat n'y a été tué",
+            "Parce que des bombardements d'artillerie ininterrompus pendant des mois ont tué des centaines de milliers d'hommes sur un espace réduit",
+            "Parce qu'elle opposait des civils entre eux"
+          ],
+          "correctIndex": 2,
+          "explanation": "À Verdun (février-décembre 1916), un déluge d'obus pilonne un front minuscule pendant dix mois, causant environ 300 000 morts. Cette violence industrielle et anonyme incarne la brutalisation de la guerre."
+        },
+        {
+          "question": "L'année 1917 est qualifiée d'« année de rupture ». Lequel de ces événements ne s'y rattache PAS ?",
+          "choices": [
+            "Les révolutions russes",
+            "L'entrée en guerre des États-Unis",
+            "Les mutineries dans l'armée française",
+            "L'assassinat de l'archiduc François-Ferdinand"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'assassinat de François-Ferdinand a lieu en 1914, pas en 1917. L'année 1917 est marquée par les révolutions russes, l'entrée des États-Unis et les mutineries, qui rebattent les cartes du conflit."
+        },
+        {
+          "question": "En quoi l'entrée des États-Unis et la sortie de la Russie en 1917 ont-elles des effets opposés pour les Alliés ?",
+          "choices": [
+            "Les deux affaiblissent les Alliés",
+            "Les deux renforcent les Alliés",
+            "La Russie quitte le conflit (perte d'un allié à l'Est) mais les États-Unis arrivent avec hommes et matériel (renfort à l'Ouest)",
+            "Aucun des deux événements n'a d'effet militaire"
+          ],
+          "correctIndex": 2,
+          "explanation": "En 1917, la révolution russe entraîne le retrait de la Russie (traité de Brest-Litovsk, 1918), privant les Alliés du front oriental, tandis que l'entrée des États-Unis apporte un renfort décisif à l'Ouest en 1918."
+        },
+        {
+          "question": "Qu'est-ce qui caractérise un génocide et le distingue d'une bataille meurtrière ?",
+          "choices": [
+            "Le nombre de soldats tués au combat",
+            "La durée des combats",
+            "L'utilisation d'armes chimiques",
+            "La volonté planifiée d'exterminer tout un groupe humain en raison de ses origines, y compris des civils"
+          ],
+          "correctIndex": 3,
+          "explanation": "Un génocide n'est pas une bataille : c'est l'extermination volontaire et organisée de tout un peuple (hommes, femmes, enfants) en raison de son appartenance. Le génocide arménien (1915-1916) en est un exemple."
+        },
+        {
+          "question": "Le génocide arménien de 1915-1916 illustre surtout :",
+          "choices": [
+            "Une victoire militaire ottomane",
+            "La violence de masse dirigée contre des populations civiles pendant la guerre",
+            "Un affrontement entre deux armées régulières",
+            "Une révolte de soldats"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le génocide arménien, perpétré par l'Empire ottoman, vise des civils désarmés (massacres, déportations dans le désert). Il montre que la Première Guerre mondiale s'accompagne d'une violence extrême contre les civils."
+        },
+        {
+          "question": "Pourquoi les soldats des colonies françaises et britanniques sont-ils envoyés combattre en Europe ?",
+          "choices": [
+            "Parce que la guerre totale pousse les métropoles à mobiliser toutes les ressources humaines de leurs empires",
+            "Parce qu'ils s'étaient révoltés contre la métropole",
+            "Parce qu'ils refusaient de rester dans les colonies",
+            "Parce qu'ils étaient mieux payés qu'en métropole"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans la guerre totale, les empires coloniaux deviennent un réservoir d'hommes : tirailleurs sénégalais, soldats indiens ou nord-africains sont mobilisés. Cela montre l'ampleur planétaire de la mobilisation."
+        },
+        {
+          "question": "Que désigne le terme « brutalisation » appliqué à la Première Guerre mondiale ?",
+          "choices": [
+            "La discipline très dure imposée aux nouvelles recrues",
+            "L'accoutumance des sociétés à une violence extrême, qui marque durablement les esprits après la guerre",
+            "La brutalité des conditions climatiques au front",
+            "Le rationnement imposé aux civils"
+          ],
+          "correctIndex": 1,
+          "explanation": "La « brutalisation » désigne la banalisation d'une violence de masse inédite (gaz, obus, génocide) qui marque durablement les sociétés et contribue à la violence politique de l'entre-deux-guerres."
+        },
+        {
+          "question": "Pourquoi l'armistice du 11 novembre 1918 n'est-il PAS la même chose que la paix définitive ?",
+          "choices": [
+            "Parce qu'il ne fait que suspendre les combats, la paix étant scellée plus tard par le traité de Versailles",
+            "Parce qu'il a été signé par erreur",
+            "Parce qu'il ne concerne que la France",
+            "Parce qu'il déclenche au contraire la guerre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un armistice arrête seulement les combats. La paix proprement dite est négociée ensuite : c'est le traité de Versailles, signé le 28 juin 1919, qui règle officiellement le sort de l'Allemagne."
+        },
+        {
+          "question": "Pourquoi les Allemands ressentent-ils le traité de Versailles comme un « diktat » ?",
+          "choices": [
+            "Parce qu'ils l'ont rédigé eux-mêmes",
+            "Parce qu'il leur rendait toutes leurs colonies",
+            "Parce qu'il leur a été imposé sans négociation, avec de lourdes pertes et l'accusation d'être seuls responsables de la guerre",
+            "Parce qu'il supprimait les réparations"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le traité est imposé à l'Allemagne sans négociation (« diktat ») : pertes territoriales, désarmement, réparations énormes et article 231 la déclarant seule responsable. Ce ressentiment nourrira le nationalisme et le nazisme."
+        },
+        {
+          "question": "Quelle conséquence à long terme du traité de Versailles a contribué à fragiliser la paix en Europe ?",
+          "choices": [
+            "Il a rendu l'Allemagne plus riche que jamais",
+            "Il a supprimé toutes les frontières en Europe",
+            "Il a réconcilié durablement la France et l'Allemagne",
+            "Il a créé un fort ressentiment allemand, exploité plus tard par les nationalistes et Hitler"
+          ],
+          "correctIndex": 3,
+          "explanation": "Jugé humiliant, le traité de Versailles nourrit un profond ressentiment en Allemagne. Hitler s'en servira dans les années 1930 pour mobiliser les Allemands et justifier sa politique d'expansion : la paix de 1919 porte en germe de nouveaux conflits."
+        },
+        {
+          "question": "Pourquoi l'expression « der des ders » est-elle employée après 1918 ?",
+          "choices": [
+            "Pour désigner le dernier soldat tombé au front",
+            "Pour nommer le dernier traité signé",
+            "Parce que les contemporains espèrent que ce conflit si terrible soit « la dernière des dernières » guerres",
+            "Pour désigner la dernière bataille de 1918"
+          ],
+          "correctIndex": 2,
+          "explanation": "Devant l'horreur du bilan (10 millions de morts), les contemporains veulent croire qu'une telle guerre ne se reproduira jamais : la « der des ders ». L'espoir sera déçu vingt ans plus tard."
+        },
+        {
+          "question": "Comment appelle-t-on les soldats gravement défigurés et mutilés revenus du front ?",
+          "choices": [
+            "Les gueules cassées",
+            "Les poilus",
+            "Les sammies",
+            "Les munitionnettes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les « gueules cassées » sont les soldats revenus du front avec le visage défiguré par les éclats d'obus. Leur image rappelle la violence physique extrême de la guerre et le coût humain au-delà des morts."
+        },
+        {
+          "question": "Pourquoi peut-on dire que les civils sont devenus une « cible » pendant la Première Guerre mondiale ?",
+          "choices": [
+            "Parce qu'ils étaient tous envoyés au front",
+            "Parce qu'ils subissent restrictions, propagande, bombardements et, dans certains cas, déportations et génocide",
+            "Parce qu'ils refusaient de travailler",
+            "Parce qu'ils dirigeaient les armées"
+          ],
+          "correctIndex": 1,
+          "explanation": "La frontière entre civils et militaires s'efface : rationnement, mobilisation du travail, propagande, bombardements de villes, voire violences extrêmes comme le génocide arménien. La guerre totale touche toute la société."
+        },
+        {
+          "question": "Quelle faiblesse de la Société des Nations (SDN) explique en partie son échec futur ?",
+          "choices": [
+            "Elle disposait d'une armée trop puissante",
+            "Elle regroupait trop de pays",
+            "Les États-Unis, pourtant à l'origine du projet, n'y adhèrent pas, et elle n'a pas de moyens de contrainte",
+            "Elle siégeait à Berlin"
+          ],
+          "correctIndex": 2,
+          "explanation": "Proposée par le président américain Wilson, la SDN est paradoxalement affaiblie par l'absence des États-Unis et par son incapacité à imposer ses décisions par la force. Elle échouera à empêcher la Seconde Guerre mondiale."
+        },
+        {
+          "question": "Parmi ces éléments, lequel ne fait PAS partie de la « mobilisation totale » des sociétés en guerre ?",
+          "choices": [
+            "La mobilisation de l'industrie et de la science (armes, gaz, avions)",
+            "Le travail des femmes et des colonies à l'arrière",
+            "La propagande et les emprunts de guerre",
+            "L'organisation d'élections libres pluralistes pendant le conflit"
+          ],
+          "correctIndex": 3,
+          "explanation": "La guerre totale mobilise l'économie, la science, les civils, la propagande et les finances. L'organisation d'élections libres n'en fait pas partie : au contraire, l'effort de guerre passe souvent par une union nationale et des restrictions."
         }
       ]
     },
@@ -1802,6 +2022,226 @@
           ],
           "correctIndex": 3,
           "explanation": "Malgré des idéologies différentes (communisme pour Staline, fascisme pour Mussolini, nazisme pour Hitler), ces trois régimes sont totalitaires : parti unique, culte du chef, propagande, terreur et contrôle total de la société."
+        },
+        {
+          "question": "Pourquoi la crise économique de 1929 a-t-elle des conséquences politiques aussi graves dans les démocraties européennes ?",
+          "choices": [
+            "Parce que le chômage de masse et la misère poussent une partie des populations vers des partis extrémistes qui promettent l'ordre et le travail",
+            "Parce qu'elle enrichit brutalement les ouvriers",
+            "Parce qu'elle supprime les impôts",
+            "Parce qu'elle renforce immédiatement la SDN"
+          ],
+          "correctIndex": 0,
+          "explanation": "La crise de 1929 provoque faillites, chômage et misère. Désespérées, des populations se tournent vers des partis extrémistes (nazis en Allemagne) qui promettent emploi et grandeur : les démocraties fragilisées vacillent."
+        },
+        {
+          "question": "Qu'est-ce qui distingue une « dictature » classique d'un régime « totalitaire » ?",
+          "choices": [
+            "La dictature autorise plusieurs partis",
+            "Le totalitarisme ne se contente pas de confisquer le pouvoir : il veut contrôler la société entière et façonner un « homme nouveau » par l'idéologie",
+            "La dictature contrôle la vie privée des citoyens, pas le totalitarisme",
+            "Il n'y a aucune différence entre les deux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une simple dictature confisque le pouvoir politique. Un régime totalitaire va plus loin : parti unique, idéologie obligatoire, embrigadement, terreur et volonté de contrôler jusqu'aux pensées pour créer un « homme nouveau »."
+        },
+        {
+          "question": "Pourquoi peut-on dire que la planification de l'économie soviétique sous Staline est « autoritaire » ?",
+          "choices": [
+            "Parce que l'État laisse le marché fixer librement les prix",
+            "Parce que les entreprises restent privées",
+            "Parce que l'État fixe par des plans (plans quinquennaux) toute la production, sans liberté économique pour les individus",
+            "Parce qu'elle repose sur le commerce avec l'étranger"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'URSS de Staline planifie toute l'économie par des « plans quinquennaux » qui fixent autoritairement les objectifs de production. L'État contrôle tout : il n'y a ni propriété privée des moyens de production ni marché libre."
+        },
+        {
+          "question": "Qui sont les « koulaks » victimes de la politique de Staline ?",
+          "choices": [
+            "Les ouvriers des grandes villes",
+            "Les anciens nobles tsaristes",
+            "Les officiers de l'Armée rouge",
+            "Les paysans aisés, accusés de résister à la collectivisation et déportés ou exécutés"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les koulaks sont les paysans considérés comme « riches ». Accusés de freiner la collectivisation des terres (1929), ils sont « liquidés en tant que classe » : déportés au goulag ou exécutés par milliers."
+        },
+        {
+          "question": "Pourquoi l'Holodomor de 1932-1933 est-il souvent présenté comme une conséquence directe de la politique stalinienne ?",
+          "choices": [
+            "Parce qu'il résulte d'une sécheresse naturelle imprévisible",
+            "Parce que la collectivisation forcée et les réquisitions de récoltes ont organisé la famine, qui frappe surtout l'Ukraine",
+            "Parce qu'il a été causé par une invasion étrangère",
+            "Parce qu'il a touché uniquement les villes"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'Holodomor n'est pas une simple catastrophe naturelle : la collectivisation brutale et les réquisitions massives de grain par l'État soviétique provoquent une famine qui tue des millions d'Ukrainiens en 1932-1933."
+        },
+        {
+          "question": "À quoi servent les grands « procès de Moscou » (1936-1938) pour Staline ?",
+          "choices": [
+            "À éliminer ses rivaux et anciens compagnons par des aveux extorqués, et à terroriser toute la société",
+            "À juger équitablement les criminels de droit commun",
+            "À rétablir la liberté de la presse",
+            "À récompenser les héros de la révolution"
+          ],
+          "correctIndex": 0,
+          "explanation": "Au cœur des Grandes Purges, les procès de Moscou font condamner d'anciens dirigeants bolcheviks après des aveux extorqués. Ils permettent à Staline d'écraser toute opposition et d'instaurer un climat de terreur permanente."
+        },
+        {
+          "question": "Comment se manifeste le « culte de la personnalité » de Staline en URSS ?",
+          "choices": [
+            "Par des élections libres en sa faveur",
+            "Par sa modestie et son refus des honneurs",
+            "Par une glorification permanente (portraits, statues, surnom de « Petit Père des peuples ») le présentant comme un guide infaillible",
+            "Par la critique ouverte de son action dans la presse"
+          ],
+          "correctIndex": 2,
+          "explanation": "Staline est célébré partout : portraits géants, statues, poèmes, surnom de « Petit Père des peuples ». Ce culte de la personnalité, relayé par la propagande, le présente comme un chef génial et infaillible."
+        },
+        {
+          "question": "Pourquoi Hitler arrive-t-il au pouvoir en 1933 de manière en partie légale ?",
+          "choices": [
+            "Parce qu'il a remporté une guerre civile",
+            "Parce qu'il est nommé chancelier après les succès électoraux de son parti, avant de détruire la démocratie de l'intérieur",
+            "Parce qu'il a été désigné par la SDN",
+            "Parce qu'il a organisé un coup d'État militaire réussi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le parti nazi devient le premier parti au Reichstag grâce à la crise. Hitler est nommé chancelier le 30 janvier 1933, puis profite de cette légalité pour supprimer les libertés et instaurer une dictature totalitaire."
+        },
+        {
+          "question": "Sur quelle idée raciste repose principalement l'idéologie nazie ?",
+          "choices": [
+            "L'égalité de tous les peuples",
+            "L'union des travailleurs du monde entier",
+            "Le respect des minorités",
+            "La prétendue supériorité de la « race aryenne » et la hiérarchie des races, avec une haine particulière des Juifs"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le nazisme repose sur un racisme : la prétendue supériorité de la « race aryenne », une hiérarchie des peuples et un antisémitisme virulent. Cette idéologie justifie la persécution des Juifs et la conquête d'un espace vital."
+        },
+        {
+          "question": "Quelle est la conséquence concrète des lois de Nuremberg (1935) pour les Juifs d'Allemagne ?",
+          "choices": [
+            "Ils obtiennent de nouveaux droits civiques",
+            "Ils perdent la citoyenneté allemande et sont exclus de la communauté nationale, premier pas vers la persécution systématique",
+            "Ils sont autorisés à voter pour la première fois",
+            "Ils sont nommés dans l'administration"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les lois de Nuremberg (1935) privent les Juifs de la citoyenneté allemande et interdisent les unions avec les non-Juifs. Elles institutionnalisent l'antisémitisme et préparent une persécution de plus en plus violente."
+        },
+        {
+          "question": "Pourquoi l'économie de l'Allemagne nazie est-elle qualifiée d'« économie de réarmement » ?",
+          "choices": [
+            "Parce qu'elle se concentre sur l'agriculture biologique",
+            "Parce qu'elle interdit toute industrie",
+            "Parce que l'État relance l'activité et l'emploi en finançant massivement l'armée et la production d'armes",
+            "Parce qu'elle repose uniquement sur le commerce extérieur"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le régime nazi résorbe le chômage en investissant massivement dans l'armement et les grands travaux. Cette économie tournée vers la guerre prépare l'expansion militaire et la conquête de l'« espace vital »."
+        },
+        {
+          "question": "Quel rôle joue la Gestapo dans l'Allemagne nazie ?",
+          "choices": [
+            "C'est l'armée régulière allemande",
+            "C'est un parti d'opposition autorisé",
+            "C'est un syndicat ouvrier",
+            "C'est la police politique qui traque les opposants et fait régner la terreur par les arrestations et les camps"
+          ],
+          "correctIndex": 3,
+          "explanation": "La Gestapo est la police politique du régime nazi. Avec les camps de concentration, elle fait régner la terreur en traquant opposants, Juifs et tous ceux jugés « ennemis » du Reich. La terreur est un pilier du totalitarisme."
+        },
+        {
+          "question": "Comment le régime nazi cherche-t-il à « embrigader » la population dès l'enfance ?",
+          "choices": [
+            "En encadrant les jeunes dans des organisations comme les Jeunesses hitlériennes et en contrôlant l'école pour diffuser l'idéologie",
+            "En supprimant l'école et les loisirs",
+            "En interdisant tout rassemblement de jeunes",
+            "En laissant les familles totalement libres d'éduquer leurs enfants"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'embrigadement encadre toute la société : les jeunes sont intégrés aux Jeunesses hitlériennes, l'école et la propagande diffusent l'idéologie nazie. Le but est de former une génération dévouée au chef et au Reich."
+        },
+        {
+          "question": "Quelle « marche » de 1922 permet à Mussolini d'accéder au pouvoir en Italie ?",
+          "choices": [
+            "La Marche sur Rome",
+            "La Longue Marche",
+            "La Marche sur Berlin",
+            "La Marche du sel"
+          ],
+          "correctIndex": 0,
+          "explanation": "La Marche sur Rome d'octobre 1922 est un coup de force des fascistes (les « Chemises noires ») qui pousse le roi à confier le pouvoir à Mussolini. C'est le point de départ du régime fasciste italien."
+        },
+        {
+          "question": "Quel point commun rapproche le fascisme italien des autres régimes totalitaires ?",
+          "choices": [
+            "Le respect du multipartisme",
+            "La défense des libertés individuelles",
+            "L'existence d'un parti unique, d'un chef glorifié (le Duce) et d'une propagande encadrant la société",
+            "L'organisation d'élections libres"
+          ],
+          "correctIndex": 2,
+          "explanation": "Comme les régimes de Hitler et Staline, le fascisme de Mussolini repose sur un parti unique, le culte du chef (le Duce), la propagande et l'encadrement de la population. Ce sont des traits communs aux totalitarismes."
+        },
+        {
+          "question": "Malgré leurs points communs, qu'est-ce qui distingue fondamentalement l'idéologie du nazisme de celle du communisme stalinien ?",
+          "choices": [
+            "Le nazisme défend l'égalité des peuples, le communisme la hiérarchie des races",
+            "Le nazisme repose sur le racisme et la hiérarchie des races, le communisme sur la lutte des classes et l'égalité affichée",
+            "Les deux ont exactement la même idéologie",
+            "Le communisme prône l'expansion raciale, le nazisme l'union des ouvriers"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les méthodes (parti unique, terreur, propagande) se ressemblent, mais les idéologies s'opposent : le nazisme est fondé sur le racisme et l'inégalité des races, le stalinisme sur la lutte des classes et une égalité proclamée."
+        },
+        {
+          "question": "Pourquoi le contrôle de l'information est-il essentiel dans un régime totalitaire ?",
+          "choices": [
+            "Pour garantir une presse libre et critique",
+            "Pour favoriser le débat démocratique",
+            "Pour limiter l'influence du chef",
+            "Pour empêcher toute opinion contraire et imposer une seule vérité, celle de l'État et du parti"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dans un régime totalitaire, médias et culture sont mis au service de l'idéologie : la censure supprime toute voix discordante et la propagande impose une seule vérité officielle, celle du parti et du chef."
+        },
+        {
+          "question": "Pourquoi le Front populaire de 1936 en France peut-il être vu comme une réponse démocratique à la montée des extrémismes ?",
+          "choices": [
+            "Parce que cette coalition de gauche arrive au pouvoir par les élections et répond à la crise par des réformes sociales, sans renoncer à la démocratie",
+            "Parce qu'il instaure une dictature de gauche",
+            "Parce qu'il supprime le Parlement",
+            "Parce qu'il s'allie avec les régimes fascistes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Face à la crise et à la poussée des ligues d'extrême droite, le Front populaire (Léon Blum) accède au pouvoir par les urnes en 1936 et répond par des réformes (congés payés, 40 heures) tout en préservant la démocratie."
+        },
+        {
+          "question": "Comment les démocraties européennes réagissent-elles globalement face à la crise de 1929, par rapport aux régimes totalitaires ?",
+          "choices": [
+            "Elles deviennent toutes totalitaires",
+            "Elles refusent toute intervention de l'État",
+            "Elles cherchent des réponses dans le cadre démocratique (réformes, débats), mais en sortent fragilisées et divisées",
+            "Elles suppriment les élections"
+          ],
+          "correctIndex": 2,
+          "explanation": "Contrairement aux régimes totalitaires qui imposent leurs solutions par la force, les démocraties cherchent des réponses dans le débat et les réformes. Mais la crise les fragilise et alimente la contestation et les extrémismes."
+        },
+        {
+          "question": "Parmi ces caractéristiques, laquelle n'appartient PAS à un régime totalitaire des années 1930 ?",
+          "choices": [
+            "Un parti unique et un chef tout-puissant",
+            "Une police politique et la terreur contre les opposants",
+            "Une propagande et l'embrigadement de la jeunesse",
+            "Le respect du pluralisme et la garantie des libertés individuelles"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le respect du pluralisme et des libertés caractérise une démocratie, pas un totalitarisme. Les régimes totalitaires reposent au contraire sur le parti unique, le culte du chef, la terreur, la propagande et l'embrigadement."
         }
       ]
     },
@@ -2050,6 +2490,446 @@
           ],
           "correctIndex": 1,
           "explanation": "La Shoah a causé la mort d'environ 6 millions de Juifs européens, exterminés par balles (Shoah par balles à l'Est) et dans les chambres à gaz des camps d'extermination comme Auschwitz-Birkenau."
+        },
+        {
+          "question": "Pourquoi parle-t-on de la Seconde Guerre mondiale comme d'une « guerre d'anéantissement » ?",
+          "choices": [
+            "Parce qu'elle vise à détruire totalement l'adversaire, y compris les populations civiles",
+            "Parce qu'elle a duré plus longtemps que la Première Guerre mondiale",
+            "Parce qu'elle s'est déroulée uniquement en Europe",
+            "Parce qu'elle a été menée seulement avec des armes nouvelles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une guerre d'anéantissement cherche à détruire totalement l'adversaire, militaires comme civils, au nom d'une idéologie. Massacres de populations, génocides et bombardements de villes en sont les manifestations entre 1939 et 1945."
+        },
+        {
+          "question": "Quelle différence essentielle distingue un camp de concentration d'un camp d'extermination ?",
+          "choices": [
+            "Le camp de concentration accueille des civils, le camp d'extermination des soldats",
+            "Le camp d'extermination est destiné à la mise à mort massive et immédiate, le camp de concentration au travail forcé",
+            "Le camp de concentration est en Allemagne, le camp d'extermination en France",
+            "Il n'y a aucune différence, ce sont deux mots pour la même chose"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le camp d'extermination (comme Treblinka ou Auschwitz-Birkenau) est conçu pour tuer massivement et immédiatement, surtout par chambres à gaz. Le camp de concentration (comme Dachau) exploite les détenus par le travail forcé, où beaucoup meurent d'épuisement."
+        },
+        {
+          "question": "Qu'appelle-t-on la « Shoah par balles » ?",
+          "choices": [
+            "Les combats entre soldats juifs et nazis",
+            "Le bombardement des ghettos juifs",
+            "Les exécutions de masse de Juifs par les Einsatzgruppen à l'Est, près des fosses",
+            "Les fusillades de résistants français"
+          ],
+          "correctIndex": 2,
+          "explanation": "La « Shoah par balles » désigne l'assassinat massif des Juifs d'Europe de l'Est par les Einsatzgruppen (groupes mobiles de tuerie) à partir de 1941, fusillés au bord de fosses communes, avant la généralisation des chambres à gaz."
+        },
+        {
+          "question": "Le génocide des nazis a visé les Juifs, mais aussi un autre peuple en raison de son origine. Lequel ?",
+          "choices": [
+            "Les Polonais",
+            "Les Russes",
+            "Les Italiens",
+            "Les Tsiganes (Roms et Sintis)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Outre les Juifs, les nazis ont mené un génocide contre les Tsiganes (Roms et Sintis), eux aussi déportés et exterminés dans les camps, notamment à Auschwitz, en raison de leur origine."
+        },
+        {
+          "question": "Pourquoi la bataille de Stalingrad (1942-1943) est-elle considérée comme un tournant de la guerre ?",
+          "choices": [
+            "Elle stoppe l'avancée allemande et fait passer l'URSS à l'offensive",
+            "Elle marque l'entrée en guerre des États-Unis",
+            "Elle provoque la capitulation du Japon",
+            "Elle déclenche le débarquement de Normandie"
+          ],
+          "correctIndex": 0,
+          "explanation": "À Stalingrad, la 6e armée allemande capitule en février 1943. C'est un tournant : l'Allemagne recule désormais à l'Est, et l'URSS lance la reconquête de son territoire puis avance vers Berlin."
+        },
+        {
+          "question": "En 1942, trois batailles marquent le tournant de la guerre sur trois fronts différents. Laquelle se déroule dans le Pacifique ?",
+          "choices": [
+            "El-Alamein",
+            "Midway",
+            "Stalingrad",
+            "Koursk"
+          ],
+          "correctIndex": 1,
+          "explanation": "La bataille de Midway (juin 1942) stoppe l'expansion japonaise dans le Pacifique. Au même moment, El-Alamein (Afrique du Nord) et Stalingrad (front de l'Est) marquent aussi le tournant de 1942-1943."
+        },
+        {
+          "question": "Qu'est-ce qui montre que la Seconde Guerre mondiale est une guerre véritablement mondiale, contrairement à un simple conflit européen ?",
+          "choices": [
+            "Elle se limite aux pays voisins de l'Allemagne",
+            "Elle se déroule uniquement sur mer",
+            "Elle oppose des armées sur les fronts européen, africain et asiatique-pacifique",
+            "Elle ne concerne que les grandes puissances coloniales"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le conflit s'étend sur plusieurs continents : front européen, Afrique du Nord, et théâtre asiatique-pacifique (après Pearl Harbor en 1941). Des soldats du monde entier, dont des colonies, y participent."
+        },
+        {
+          "question": "Pourquoi l'attaque de Pearl Harbor (décembre 1941) est-elle un événement décisif ?",
+          "choices": [
+            "Elle entraîne la capitulation de l'Allemagne",
+            "Elle marque la fin de la guerre dans le Pacifique",
+            "Elle déclenche la guerre en Europe",
+            "Elle provoque l'entrée en guerre des États-Unis aux côtés des Alliés"
+          ],
+          "correctIndex": 3,
+          "explanation": "En attaquant la base américaine de Pearl Harbor le 7 décembre 1941, le Japon provoque l'entrée en guerre des États-Unis. Leur puissance industrielle bascule alors du côté des Alliés."
+        },
+        {
+          "question": "Lors de la conférence de Wannsee (janvier 1942), que décident les responsables nazis ?",
+          "choices": [
+            "L'organisation industrielle et systématique de l'extermination des Juifs d'Europe",
+            "Le partage de l'Europe entre l'Allemagne et l'URSS",
+            "Le débarquement allié en Normandie",
+            "La création de l'ONU"
+          ],
+          "correctIndex": 0,
+          "explanation": "La conférence de Wannsee (20 janvier 1942) coordonne la mise en œuvre de la « solution finale » : déportation et extermination industrielle des Juifs d'Europe dans les camps de la mort."
+        },
+        {
+          "question": "Qu'est-ce qu'un ghetto dans le contexte de la Shoah ?",
+          "choices": [
+            "Un camp de travail en Allemagne",
+            "Un quartier fermé où les nazis enferment les Juifs dans des conditions terribles",
+            "Une zone de combat sur le front de l'Est",
+            "Un centre de tri des déportés"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le ghetto est un quartier fermé et surpeuplé où les nazis entassent les Juifs (comme le ghetto de Varsovie), avant les déportations vers les camps. Beaucoup y meurent de faim et de maladie."
+        },
+        {
+          "question": "Pourquoi les bombardements atomiques d'Hiroshima et Nagasaki (août 1945) illustrent-ils la guerre d'anéantissement ?",
+          "choices": [
+            "Ils visent uniquement des bases militaires japonaises",
+            "Ils sont menés par l'Allemagne nazie",
+            "Ils détruisent des villes entières et tuent massivement des civils en quelques instants",
+            "Ils marquent le début de la guerre dans le Pacifique"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les bombes atomiques sur Hiroshima (6 août) et Nagasaki (9 août 1945) rasent deux villes et tuent instantanément des dizaines de milliers de civils. Elles précipitent la capitulation du Japon et inaugurent l'ère nucléaire."
+        },
+        {
+          "question": "Quelle conséquence majeure les bombardements atomiques de 1945 ont-ils eue immédiatement ?",
+          "choices": [
+            "La capitulation de l'Allemagne",
+            "Le début de la guerre froide entre la France et le Japon",
+            "L'invasion de l'URSS",
+            "La capitulation du Japon et la fin de la Seconde Guerre mondiale"
+          ],
+          "correctIndex": 3,
+          "explanation": "Après Hiroshima et Nagasaki, le Japon capitule (2 septembre 1945), mettant fin à la Seconde Guerre mondiale. C'était déjà près de quatre mois après la capitulation allemande du 8 mai 1945."
+        },
+        {
+          "question": "Pourquoi le sort des prisonniers de guerre soviétiques illustre-t-il la guerre d'anéantissement à l'Est ?",
+          "choices": [
+            "Ils sont massivement laissés mourir de faim et de mauvais traitements par millions",
+            "Ils sont rapidement libérés par les nazis",
+            "Ils sont envoyés combattre aux côtés de l'Allemagne",
+            "Ils sont échangés contre des prisonniers allemands"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sur le front de l'Est, considéré par les nazis comme une guerre raciale, des millions de prisonniers soviétiques sont volontairement laissés mourir de faim, de froid ou de mauvais traitements, sans respect des lois de la guerre."
+        },
+        {
+          "question": "Quel procès, en 1945-1946, juge pour la première fois les dirigeants nazis pour « crimes contre l'humanité » ?",
+          "choices": [
+            "Le procès de Vichy",
+            "Le procès de Nuremberg",
+            "Le procès de Tokyo uniquement",
+            "Le procès de Wannsee"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le procès de Nuremberg (1945-1946) juge les principaux dirigeants nazis. Il crée la notion de « crime contre l'humanité », imprescriptible, fondant ainsi une justice internationale après la guerre."
+        },
+        {
+          "question": "Pourquoi dit-on que le bilan de la Seconde Guerre mondiale est « inédit » ?",
+          "choices": [
+            "Parce qu'il n'y a eu aucune victime civile",
+            "Parce qu'elle a duré moins longtemps que les guerres précédentes",
+            "Parce qu'avec environ 50 à 60 millions de morts, surtout des civils, et des génocides, son ampleur est sans précédent",
+            "Parce qu'elle n'a touché que les militaires"
+          ],
+          "correctIndex": 2,
+          "explanation": "Avec environ 50 à 60 millions de morts, en majorité des civils, et des génocides organisés, le bilan humain et moral est sans précédent. Il pousse les nations à créer l'ONU en 1945 pour préserver la paix."
+        },
+        {
+          "question": "Dans quel but principal l'ONU est-elle créée en 1945 ?",
+          "choices": [
+            "Reconstruire l'économie de l'Allemagne",
+            "Organiser la décolonisation",
+            "Diriger le procès de Nuremberg",
+            "Maintenir la paix et la sécurité dans le monde après la guerre"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'Organisation des Nations unies (ONU) est créée en 1945 pour maintenir la paix et éviter qu'une telle guerre se reproduise. Elle remplace la Société des Nations (SDN), jugée trop faible."
+        },
+        {
+          "question": "Quelle phase de la guerre correspond à la période 1939-1942 ?",
+          "choices": [
+            "Les victoires de l'Axe grâce à la guerre éclair (Blitzkrieg)",
+            "La victoire des Alliés",
+            "Le tournant de la guerre",
+            "La libération de l'Europe"
+          ],
+          "correctIndex": 0,
+          "explanation": "De 1939 à 1942, l'Axe (Allemagne, Italie, Japon) accumule les victoires grâce à la Blitzkrieg, qui combine chars et aviation. L'Allemagne domine l'Europe et le Japon s'étend dans le Pacifique."
+        },
+        {
+          "question": "Pourquoi peut-on dire que la chambre à gaz et le crématoire montrent le caractère « industriel » du génocide ?",
+          "choices": [
+            "Parce qu'ils utilisent beaucoup d'ouvriers volontaires",
+            "Parce qu'ils permettent de tuer et d'éliminer les corps de façon massive, organisée et rationnelle",
+            "Parce qu'ils servent à produire des armes",
+            "Parce qu'ils sont situés dans des usines allemandes"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans les camps d'extermination, les nazis tuent à la chaîne par gaz puis brûlent les corps dans des crématoires. Ce processus mécanique et planifié donne au génocide un caractère industriel inédit dans l'histoire."
+        },
+        {
+          "question": "Quel terme, créé après la guerre, désigne l'extermination programmée d'un groupe humain en raison de ses origines ?",
+          "choices": [
+            "Massacre",
+            "Bombardement",
+            "Génocide",
+            "Déportation"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le mot « génocide » est créé en 1944 pour qualifier l'extermination programmée d'un groupe humain en raison de son origine, sa religion ou son ethnie. La Shoah en est l'exemple central."
+        },
+        {
+          "question": "Quelle phase succède aux victoires de l'Axe et précède la victoire finale des Alliés ?",
+          "choices": [
+            "La drôle de guerre (1939-1940)",
+            "La libération de Paris (1944)",
+            "Le procès de Nuremberg (1945)",
+            "Le tournant de 1942-1943 (Stalingrad, Midway, El-Alamein)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Entre les victoires de l'Axe (1939-1942) et la victoire alliée (1943-1945) se situe le tournant de 1942-1943, marqué par les défaites de l'Axe à Stalingrad, Midway et El-Alamein, après lesquelles les Alliés reprennent l'initiative."
+        },
+        {
+          "question": "Pourquoi la défaite française de 1940 est-elle qualifiée de « débâcle » ?",
+          "choices": [
+            "Parce que l'armée française s'effondre en six semaines face à la Blitzkrieg, provoquant la fuite de millions de civils (l'exode)",
+            "Parce que l'armée française résiste plusieurs années",
+            "Parce que la France gagne la guerre",
+            "Parce que Paris n'est jamais occupée"
+          ],
+          "correctIndex": 0,
+          "explanation": "En mai-juin 1940, l'armée française est balayée en six semaines par la guerre éclair allemande. Des millions de civils fuient sur les routes (l'exode) : c'est la débâcle, qui mène à l'armistice du 22 juin 1940."
+        },
+        {
+          "question": "Quelle conséquence directe l'armistice du 22 juin 1940 a-t-il sur le territoire français ?",
+          "choices": [
+            "La France entière reste libre",
+            "La France est divisée en une zone occupée au nord et une zone libre au sud",
+            "La France est annexée à l'Allemagne",
+            "La France est partagée entre l'Italie et l'Espagne"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'armistice du 22 juin 1940 coupe la France en deux : une zone nord occupée par l'Allemagne et une zone sud dite « libre », administrée par le régime de Vichy jusqu'à son invasion en novembre 1942."
+        },
+        {
+          "question": "Qu'est-ce qui distingue fondamentalement la France libre de De Gaulle du régime de Vichy de Pétain ?",
+          "choices": [
+            "La France libre collabore, Vichy résiste",
+            "Les deux soutiennent les Alliés",
+            "La France libre poursuit le combat contre l'Allemagne, Vichy collabore avec elle",
+            "Les deux sont dirigés depuis Londres"
+          ],
+          "correctIndex": 2,
+          "explanation": "La France libre, fondée à Londres par de Gaulle après l'appel du 18 juin 1940, continue la guerre aux côtés des Alliés. Vichy, dirigé par Pétain, choisit au contraire l'armistice puis la collaboration avec l'Allemagne nazie."
+        },
+        {
+          "question": "Que proclame le maréchal Pétain en juillet 1940 en prenant les pleins pouvoirs ?",
+          "choices": [
+            "Le maintien de la République",
+            "L'entrée en guerre contre l'Allemagne",
+            "Le rétablissement de la démocratie",
+            "La fin de la République et l'instauration de « l'État français »"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le 10 juillet 1940, les pleins pouvoirs sont votés à Pétain : c'est la fin de la IIIe République. Il instaure « l'État français », régime autoritaire dont la devise devient « Travail, Famille, Patrie »."
+        },
+        {
+          "question": "Que désigne la « Révolution nationale » du régime de Vichy ?",
+          "choices": [
+            "Un projet politique conservateur et autoritaire fondé sur « Travail, Famille, Patrie »",
+            "Un programme révolutionnaire de gauche",
+            "La nationalisation des entreprises",
+            "Une alliance avec l'URSS"
+          ],
+          "correctIndex": 0,
+          "explanation": "La « Révolution nationale » est l'idéologie de Vichy : un projet conservateur, autoritaire et antirépublicain, glorifiant le travail, la famille et la patrie, et rejetant les valeurs de la démocratie et de la République."
+        },
+        {
+          "question": "La rencontre de Montoire (octobre 1940) entre Pétain et Hitler symbolise quel choix politique ?",
+          "choices": [
+            "L'entrée de la France dans la Résistance",
+            "L'engagement officiel de Vichy dans la collaboration d'État avec l'Allemagne",
+            "La déclaration de guerre à l'Allemagne",
+            "La libération de la France"
+          ],
+          "correctIndex": 1,
+          "explanation": "À Montoire, le 24 octobre 1940, Pétain serre la main de Hitler et engage officiellement la France dans la voie de la collaboration d'État avec l'Allemagne nazie."
+        },
+        {
+          "question": "Pourquoi le « statut des Juifs » d'octobre 1940 montre-t-il que Vichy mène sa propre politique antisémite ?",
+          "choices": [
+            "Parce qu'il a été imposé par l'Allemagne",
+            "Parce qu'il protège les Juifs français",
+            "Parce que Vichy l'a adopté de sa propre initiative, sans demande allemande, pour exclure les Juifs de nombreux métiers",
+            "Parce qu'il n'a jamais été appliqué"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dès octobre 1940, Vichy adopte de sa propre initiative un « statut des Juifs » excluant ceux-ci de nombreuses professions. Cela prouve un antisémitisme d'État français, distinct des exigences nazies."
+        },
+        {
+          "question": "Pourquoi la rafle du Vél d'Hiv (juillet 1942) est-elle un symbole de la responsabilité de l'État français dans la Shoah ?",
+          "choices": [
+            "Parce qu'elle a été menée par l'armée allemande seule",
+            "Parce qu'elle a permis de sauver des Juifs",
+            "Parce qu'elle s'est déroulée en zone libre",
+            "Parce que c'est la police française elle-même qui a arrêté plus de 13 000 Juifs pour les livrer aux nazis"
+          ],
+          "correctIndex": 3,
+          "explanation": "Lors de la rafle du Vél d'Hiv des 16-17 juillet 1942, c'est la police française qui arrête plus de 13 000 Juifs, dont des enfants, livrés ensuite aux nazis. Cela engage directement la responsabilité de l'État français."
+        },
+        {
+          "question": "Pourquoi le STO (Service du travail obligatoire), instauré en 1943, a-t-il renforcé la Résistance ?",
+          "choices": [
+            "Parce que de nombreux jeunes, refusant de partir travailler en Allemagne, rejoignirent les maquis",
+            "Parce qu'il libérait les résistants emprisonnés",
+            "Parce qu'il était soutenu par les Alliés",
+            "Parce qu'il armait directement les résistants"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le STO oblige les jeunes Français à travailler en Allemagne. Pour y échapper, beaucoup rejoignent les maquis de la Résistance en 1943, ce qui grossit ses rangs et radicalise l'opposition à Vichy."
+        },
+        {
+          "question": "Quel rôle Jean Moulin a-t-il joué dans la Résistance ?",
+          "choices": [
+            "Il dirigeait le régime de Vichy",
+            "Il a unifié les mouvements de la Résistance intérieure en créant le CNR en 1943, au nom de De Gaulle",
+            "Il commandait l'armée allemande en France",
+            "Il a signé l'armistice de 1940"
+          ],
+          "correctIndex": 1,
+          "explanation": "Envoyé par de Gaulle, Jean Moulin unifie les mouvements de la Résistance intérieure en fondant le Conseil national de la Résistance (CNR) le 27 mai 1943. Arrêté et torturé, il meurt peu après."
+        },
+        {
+          "question": "Quelle différence y a-t-il entre la Résistance intérieure et la Résistance extérieure ?",
+          "choices": [
+            "L'intérieure est dirigée par Pétain, l'extérieure par Hitler",
+            "Il n'y a aucune différence",
+            "L'intérieure agit sur le sol français occupé, l'extérieure depuis Londres avec la France libre",
+            "L'extérieure agit en France, l'intérieure à l'étranger"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Résistance intérieure (réseaux, maquis, presse clandestine) agit en France occupée. La Résistance extérieure, c'est la France libre de De Gaulle organisée depuis Londres. Le CNR de 1943 unit les deux sous l'autorité de De Gaulle."
+        },
+        {
+          "question": "Quelles formes pouvaient prendre les actions de la Résistance intérieure ?",
+          "choices": [
+            "Uniquement des combats de grande armée",
+            "Seulement la collaboration avec Vichy",
+            "Des manifestations autorisées par l'occupant",
+            "Sabotages, renseignement, presse clandestine et aide aux personnes pourchassées"
+          ],
+          "correctIndex": 3,
+          "explanation": "La Résistance intérieure agit par le sabotage de voies ferrées, le renseignement transmis aux Alliés, la presse clandestine et l'aide aux Juifs ou aux réfractaires au STO, malgré le risque d'arrestation et de mort."
+        },
+        {
+          "question": "Quel acte fondateur de la France libre De Gaulle accomplit-il le 18 juin 1940 ?",
+          "choices": [
+            "Il lance un appel à la radio de Londres (BBC) pour poursuivre le combat",
+            "Il signe l'armistice avec l'Allemagne",
+            "Il devient chef du gouvernement de Vichy",
+            "Il libère Paris"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le 18 juin 1940, depuis Londres, le général de Gaulle appelle les Français à continuer le combat sur les ondes de la BBC. Cet appel fonde la France libre et le refus de la défaite."
+        },
+        {
+          "question": "Pourquoi le régime de Vichy peut-il être qualifié de régime autoritaire et non de démocratie ?",
+          "choices": [
+            "Parce qu'il organise des élections libres",
+            "Parce qu'il supprime les libertés, concentre le pouvoir sur Pétain et persécute ses opposants",
+            "Parce qu'il respecte la Constitution républicaine",
+            "Parce qu'il garantit la liberté de la presse"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vichy supprime les élections, censure la presse, interdit les partis et syndicats, persécute Juifs, communistes et résistants. Le pouvoir est concentré sur le maréchal Pétain : c'est un régime autoritaire, l'opposé d'une démocratie."
+        },
+        {
+          "question": "Qu'est-ce que la Milice, créée par Vichy en 1943 ?",
+          "choices": [
+            "Un mouvement de résistance",
+            "L'armée régulière française",
+            "Une organisation française qui traque les résistants et les Juifs aux côtés des nazis",
+            "Une organisation de défense des civils"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Milice, créée par Vichy en janvier 1943, est une organisation paramilitaire française qui pourchasse les résistants, les Juifs et les réfractaires au STO, en collaboration directe avec la Gestapo nazie."
+        },
+        {
+          "question": "Comment la République est-elle rétablie en France à la Libération en 1944 ?",
+          "choices": [
+            "Pétain proclame la République",
+            "Les Allemands rétablissent la République",
+            "La monarchie est restaurée",
+            "Le Gouvernement provisoire dirigé par De Gaulle rétablit la légalité républicaine"
+          ],
+          "correctIndex": 3,
+          "explanation": "À la Libération de 1944, le Gouvernement provisoire de la République française (GPRF), présidé par de Gaulle, rétablit la République et les libertés, effaçant le régime de Vichy."
+        },
+        {
+          "question": "Quelle avancée majeure pour les femmes accompagne le rétablissement de la République à la Libération ?",
+          "choices": [
+            "Le droit de vote accordé aux femmes en 1944",
+            "L'interdiction du travail des femmes",
+            "Le retour à la devise de Vichy",
+            "La création de la Milice"
+          ],
+          "correctIndex": 0,
+          "explanation": "En 1944, une ordonnance du Gouvernement provisoire dirigé par de Gaulle accorde le droit de vote aux femmes. Elles votent pour la première fois en 1945, marquant un progrès démocratique de la République restaurée."
+        },
+        {
+          "question": "Pourquoi peut-on dire que tous les Français n'ont été ni résistants, ni collaborateurs pendant l'Occupation ?",
+          "choices": [
+            "Parce que tout le monde a résisté",
+            "Parce que la majorité de la population, par peur ou résignation, a surtout cherché à survivre (attentisme)",
+            "Parce que tous collaboraient ouvertement",
+            "Parce que la France n'était pas occupée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Entre résistants et collaborateurs, qui étaient des minorités, la plus grande partie de la population a adopté une attitude d'attentisme : préoccupée par les difficultés du quotidien (rationnement, peur), elle cherchait surtout à survivre."
+        },
+        {
+          "question": "Quelle conséquence morale et juridique durable la découverte des camps en 1945 a-t-elle eue ?",
+          "choices": [
+            "L'oubli rapide des crimes commis",
+            "La libération des dirigeants nazis",
+            "La reconnaissance du crime contre l'humanité, imprescriptible, au procès de Nuremberg",
+            "La fin de toute justice internationale"
+          ],
+          "correctIndex": 2,
+          "explanation": "La découverte des camps a révélé l'ampleur des crimes nazis. Le procès de Nuremberg (1945-1946) a alors défini le « crime contre l'humanité », imprescriptible, fondant une justice internationale durable."
+        },
+        {
+          "question": "Pourquoi l'appel du 18 juin 1940 marque-t-il symboliquement le début de la Résistance française ?",
+          "choices": [
+            "Parce qu'il appelle à accepter la défaite",
+            "Parce qu'il soutient le régime de Vichy",
+            "Parce qu'il déclare la guerre à l'Angleterre",
+            "Parce qu'il refuse l'armistice et invite les Français à continuer le combat malgré la défaite"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'appel du 18 juin 1940 affirme que « la France a perdu une bataille, mais n'a pas perdu la guerre ». En refusant l'armistice et la défaite, de Gaulle pose l'acte fondateur de la Résistance et de la France libre."
         }
       ]
     },
@@ -2287,6 +3167,226 @@
           ],
           "correctIndex": 1,
           "explanation": "Le service militaire obligatoire est suspendu à la fin des années 1990 (décision de Jacques Chirac en 1996-1997, dernier appel en 2001), au profit d'une armée professionnelle. La Journée défense remplace le service."
+        },
+        {
+          "question": "Pourquoi le programme du Conseil national de la Résistance (CNR) est-il qualifié de fondateur de l'État-providence en France ?",
+          "choices": [
+            "Parce qu'il supprime tous les impôts",
+            "Parce qu'il instaure une monarchie",
+            "Parce qu'il met en place la Sécurité sociale et les nationalisations pour protéger les citoyens",
+            "Parce qu'il privatise les entreprises"
+          ],
+          "correctIndex": 2,
+          "explanation": "Appliqué à la Libération (1944-1945), le programme du CNR crée la Sécurité sociale (1945) et nationalise des secteurs clés. L'État prend en charge la protection sociale (santé, retraite, chômage) : c'est la naissance de l'État-providence en France."
+        },
+        {
+          "question": "En quoi le droit de vote des femmes en 1944 transforme-t-il la démocratie française ?",
+          "choices": [
+            "Il rend le suffrage véritablement universel en incluant enfin la moitié de la population",
+            "Il réduit le nombre d'électeurs",
+            "Il supprime le vote des hommes",
+            "Il instaure le vote indirect"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'ordonnance du 21 avril 1944 accorde le droit de vote aux femmes, qui votent pour la première fois en 1945. Le suffrage devient enfin véritablement universel en France, en intégrant la moitié de la population jusque-là exclue."
+        },
+        {
+          "question": "Quelle faiblesse principale de la Quatrième République explique sa chute en 1958 ?",
+          "choices": [
+            "Un président trop puissant",
+            "L'absence totale d'élections",
+            "La domination de l'armée",
+            "L'instabilité ministérielle, qui la rend incapable de gérer la crise algérienne"
+          ],
+          "correctIndex": 3,
+          "explanation": "La IVe République (1946-1958) souffre d'une grande instabilité ministérielle (les gouvernements se succèdent rapidement). Incapable de régler la crise de la guerre d'Algérie, elle s'effondre en 1958, ouvrant la voie au retour de De Gaulle."
+        },
+        {
+          "question": "Pourquoi la Constitution de 1958 renforce-t-elle le pouvoir du président par rapport à la Quatrième République ?",
+          "choices": [
+            "Pour assurer la stabilité de l'exécutif et éviter le retour de l'instabilité ministérielle",
+            "Pour donner tout le pouvoir au Parlement",
+            "Pour supprimer le poste de Premier ministre",
+            "Pour rétablir la monarchie"
+          ],
+          "correctIndex": 0,
+          "explanation": "La Constitution de la Ve République (1958), voulue par De Gaulle, renforce les pouvoirs du président pour assurer la stabilité de l'exécutif, à la différence de la IVe République paralysée par l'instabilité ministérielle."
+        },
+        {
+          "question": "En quoi la réforme de 1962 (élection du président au suffrage universel direct) renforce-t-elle sa légitimité ?",
+          "choices": [
+            "Le président est désormais choisi par les seuls députés",
+            "Le président est tiré au sort",
+            "Le président tient son pouvoir directement du peuple tout entier, ce qui renforce son autorité",
+            "Le président est nommé par l'armée"
+          ],
+          "correctIndex": 2,
+          "explanation": "Depuis la réforme de 1962, le président est élu au suffrage universel direct : il tient son pouvoir directement de l'ensemble des citoyens. Cela renforce considérablement sa légitimité et son autorité dans les institutions de la Ve République."
+        },
+        {
+          "question": "Qu'est-ce qu'une « alternance » politique, illustrée par l'élection de 1981 ?",
+          "choices": [
+            "Le passage du pouvoir d'un camp politique à un autre lors d'une élection",
+            "Le partage du pouvoir entre deux présidents",
+            "Le changement de Constitution",
+            "La dissolution de l'Assemblée"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'alternance désigne le passage du pouvoir d'un camp politique à un autre par les urnes. En 1981, l'élection de François Mitterrand (gauche) après 23 ans de pouvoir de la droite réalise la première alternance de la Ve République, preuve de la solidité de la démocratie."
+        },
+        {
+          "question": "Qu'est-ce qui distingue une cohabitation d'une alternance sous la Ve République ?",
+          "choices": [
+            "Il n'y a aucune différence",
+            "L'alternance change le camp au pouvoir, la cohabitation fait coexister un président et un Premier ministre de camps opposés",
+            "La cohabitation supprime le poste de président",
+            "L'alternance ne concerne que le Sénat"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'alternance désigne le changement de majorité au pouvoir par les urnes. La cohabitation est une situation où le président et le Premier ministre appartiennent à des camps opposés, car la majorité de l'Assemblée diffère de celle du président."
+        },
+        {
+          "question": "Pourquoi l'instauration du quinquennat en 2000 a-t-elle réduit le risque de cohabitation ?",
+          "choices": [
+            "Parce qu'elle supprime les élections législatives",
+            "Parce qu'elle interdit l'opposition",
+            "Parce qu'en alignant la durée du mandat présidentiel sur celui des députés, les deux élections ont lieu rapprochées et dégagent la même majorité",
+            "Parce qu'elle allonge le mandat à sept ans"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le quinquennat (2000) aligne la durée du mandat présidentiel (5 ans) sur celle des députés. Les deux élections étant désormais rapprochées, l'électeur tend à donner au président une majorité à l'Assemblée, ce qui rend la cohabitation moins probable."
+        },
+        {
+          "question": "Quelle loi de 1967, portée par Lucien Neuwirth, marque une étape clé pour les droits des femmes ?",
+          "choices": [
+            "La loi sur la parité",
+            "La loi légalisant l'IVG",
+            "La loi sur le droit de vote",
+            "La loi autorisant la contraception (pilule)"
+          ],
+          "correctIndex": 3,
+          "explanation": "La loi Neuwirth de 1967 autorise la contraception (notamment la pilule) en France. Elle permet aux femmes de maîtriser leur fécondité et constitue une étape majeure de leur émancipation, avant la loi Veil sur l'IVG en 1975."
+        },
+        {
+          "question": "Classe dans l'ordre chronologique : droit de vote des femmes, loi Neuwirth, loi Veil.",
+          "choices": [
+            "Loi Veil (1975), loi Neuwirth (1967), droit de vote (1944)",
+            "Loi Neuwirth, droit de vote, loi Veil",
+            "Droit de vote, loi Veil, loi Neuwirth",
+            "Droit de vote des femmes (1944), loi Neuwirth (1967), loi Veil (1975)"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'ordre correct est : droit de vote des femmes (1944), loi Neuwirth autorisant la contraception (1967), puis loi Veil légalisant l'IVG (1975). Ces étapes marquent les progrès des droits des femmes au XXe siècle."
+        },
+        {
+          "question": "Comment évolue la place des femmes dans la société française des années 1950 aux années 1980 ?",
+          "choices": [
+            "Elles quittent massivement le monde du travail",
+            "Elles accèdent davantage au travail salarié, à la maîtrise de la fécondité et à de nouveaux droits",
+            "Elles perdent le droit de vote",
+            "Leur situation reste totalement inchangée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Des années 1950 aux années 1980, les femmes accèdent de plus en plus au travail salarié, obtiennent la maîtrise de leur fécondité (loi Neuwirth 1967, loi Veil 1975) et de nouveaux droits. Leur place dans la société se transforme profondément."
+        },
+        {
+          "question": "Au-delà de la contestation étudiante, que révèle Mai 68 sur la société française ?",
+          "choices": [
+            "Une volonté de changement social et culturel et un rejet de l'autorité traditionnelle",
+            "Une simple grève sans portée",
+            "Un soutien massif au régime gaulliste",
+            "Un mouvement uniquement religieux"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mai 68 dépasse la contestation étudiante : il révèle une aspiration profonde à plus de liberté, une remise en cause de l'autorité (famille, école, patron) et des transformations culturelles de la société française des Trente Glorieuses."
+        },
+        {
+          "question": "Quel rôle l'immigration joue-t-elle dans la société française des Trente Glorieuses ?",
+          "choices": [
+            "Elle est totalement inexistante",
+            "Elle fournit une main-d'œuvre nécessaire à la croissance et à la reconstruction du pays",
+            "Elle concerne uniquement des touristes",
+            "Elle est réservée aux cadres supérieurs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pendant les Trente Glorieuses (1945-1975), la France fait appel à une importante immigration de travailleurs (Portugal, Maghreb, etc.) pour fournir la main-d'œuvre nécessaire à la forte croissance économique et à la reconstruction du pays."
+        },
+        {
+          "question": "Pourquoi la CECA (1951) vise-t-elle d'abord à empêcher une nouvelle guerre en Europe ?",
+          "choices": [
+            "Parce qu'elle crée une armée européenne",
+            "Parce qu'elle interdit toute industrie",
+            "Parce qu'en mettant en commun le charbon et l'acier, elle rend la guerre matériellement impossible entre la France et l'Allemagne",
+            "Parce qu'elle réunifie l'Allemagne"
+          ],
+          "correctIndex": 2,
+          "explanation": "La CECA (1951), proposée par Robert Schuman, met en commun le charbon et l'acier (matières premières de l'armement) de six pays. En liant les économies française et allemande, elle vise à rendre une nouvelle guerre matériellement impossible entre ces nations."
+        },
+        {
+          "question": "Classe dans l'ordre chronologique ces étapes de la construction européenne : CECA, traité de Rome, traité de Maastricht.",
+          "choices": [
+            "Traité de Maastricht, CECA, traité de Rome",
+            "Traité de Rome, CECA, traité de Maastricht",
+            "CECA, traité de Maastricht, traité de Rome",
+            "CECA (1951), traité de Rome (1957), traité de Maastricht (1992)"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'ordre est : CECA (1951), première étape, puis traité de Rome (1957) créant la CEE, enfin traité de Maastricht (1992) qui fonde l'Union européenne et prépare l'euro. La construction européenne se fait par étapes successives."
+        },
+        {
+          "question": "Quelle est la principale nouveauté apportée par le traité de Maastricht (1992) ?",
+          "choices": [
+            "La création de la CECA",
+            "La fin de la construction européenne",
+            "La fondation de l'Union européenne et la préparation d'une monnaie unique",
+            "La sortie de la France de l'Europe"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le traité de Maastricht (1992) fonde l'Union européenne (UE), qui dépasse la simple union économique en ajoutant une dimension politique, et prépare la monnaie unique, l'euro, mis en circulation en 2002."
+        },
+        {
+          "question": "Quelle conséquence concrète l'euro (2002) a-t-il dans la vie quotidienne des Français ?",
+          "choices": [
+            "Le remplacement du franc par une monnaie commune partagée avec d'autres pays européens",
+            "Le retour au franc",
+            "La suppression de toute monnaie",
+            "L'usage du dollar"
+          ],
+          "correctIndex": 0,
+          "explanation": "En 2002, l'euro remplace le franc dans la vie quotidienne des Français (pièces et billets). Cette monnaie commune, partagée avec d'autres pays de l'UE, facilite les échanges et les voyages au sein de la zone euro."
+        },
+        {
+          "question": "Pourquoi peut-on dire que la République a été « refondée » entre 1944 et 1947 ?",
+          "choices": [
+            "Parce qu'elle revient simplement à l'avant-guerre sans changement",
+            "Parce qu'on instaure une dictature",
+            "Parce qu'on supprime les élections",
+            "Parce qu'on rétablit la démocratie et qu'on lui ajoute de nouveaux droits sociaux et le vote des femmes"
+          ],
+          "correctIndex": 3,
+          "explanation": "Entre 1944 et 1947, la République est refondée : on rétablit la démocratie après Vichy, on accorde le vote aux femmes (1944), on crée la Sécurité sociale (1945) et le préambule de la Constitution de 1946 garantit de nouveaux droits sociaux."
+        },
+        {
+          "question": "Quel lien existe-t-il entre la prospérité des Trente Glorieuses et l'essor de la société de consommation ?",
+          "choices": [
+            "Aucun lien",
+            "La forte croissance et le plein emploi augmentent le pouvoir d'achat, ce qui développe la consommation de masse",
+            "La croissance fait baisser les salaires",
+            "La consommation diminue pendant la croissance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pendant les Trente Glorieuses (1945-1975), la forte croissance et le plein emploi augmentent le pouvoir d'achat des Français. Cela permet l'essor de la société de consommation : équipement des foyers (voiture, télévision, électroménager) et nouveaux modes de vie."
+        },
+        {
+          "question": "Pourquoi le passage de trois cohabitations à leur quasi-disparition illustre-t-il une adaptation des institutions ?",
+          "choices": [
+            "Parce que les institutions n'ont jamais changé",
+            "Parce que le quinquennat de 2000 a été adopté en partie pour réduire ces situations de pouvoir partagé jugées difficiles",
+            "Parce que la cohabitation est devenue obligatoire",
+            "Parce que le président a perdu tout pouvoir"
+          ],
+          "correctIndex": 1,
+          "explanation": "Après trois cohabitations entre 1986 et 2002, jugées sources de blocages, le quinquennat (2000) a notamment été adopté pour rapprocher les élections présidentielle et législatives. Cela illustre la capacité de la Ve République à adapter ses institutions."
         }
       ]
     },
@@ -2513,6 +3613,226 @@
           ],
           "correctIndex": 0,
           "explanation": "Le non-alignement est le choix de pays du tiers-monde (Inde, Égypte, Yougoslavie...) de ne s'allier ni au bloc américain ni au bloc soviétique. Ce mouvement s'affirme après la conférence de Bandung de 1955."
+        },
+        {
+          "question": "Pourquoi dit-on que la Guerre froide est un affrontement « indirect » entre les États-Unis et l'URSS ?",
+          "choices": [
+            "Parce que les deux pays n'ont aucun désaccord idéologique",
+            "Parce que les combats se déroulaient uniquement en mer",
+            "Parce que les deux superpuissances ne se sont jamais combattues directement, mais par pays interposés",
+            "Parce qu'aucun pays n'a jamais utilisé d'armée"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Guerre froide (1947-1991) est un affrontement indirect car les deux superpuissances, possédant l'arme nucléaire, évitent le combat direct et s'opposent par pays interposés (Corée, Vietnam, Afghanistan) pour ne pas risquer une guerre totale."
+        },
+        {
+          "question": "Qu'est-ce que « l'équilibre de la terreur » entre les deux blocs ?",
+          "choices": [
+            "Le fait que chaque bloc possède assez d'armes nucléaires pour détruire l'autre, ce qui dissuade d'attaquer",
+            "Une peur partagée des catastrophes naturelles",
+            "L'égalité du nombre de soldats des deux côtés",
+            "La terreur exercée par la police politique sur les citoyens"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'équilibre de la terreur désigne la situation où USA et URSS possèdent chacun assez d'armes nucléaires pour anéantir l'adversaire. Cette dissuasion réciproque explique qu'aucune guerre directe n'ait éclaté entre les deux blocs."
+        },
+        {
+          "question": "Quelle est la principale opposition idéologique entre le bloc de l'Ouest et le bloc de l'Est ?",
+          "choices": [
+            "Monarchie contre république",
+            "Religion contre athéisme uniquement",
+            "Industrie contre agriculture",
+            "Capitalisme et démocratie libérale contre communisme et parti unique"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le bloc de l'Ouest, mené par les USA, défend le capitalisme et la démocratie libérale ; le bloc de l'Est, mené par l'URSS, impose le communisme avec un parti unique et une économie planifiée. Cette opposition de modèles est au cœur de la Guerre froide."
+        },
+        {
+          "question": "Pourquoi l'URSS et ses satellites refusent-ils le plan Marshall en 1947 ?",
+          "choices": [
+            "Parce qu'ils craignent que cette aide américaine ne place leurs pays sous l'influence des États-Unis",
+            "Parce que l'aide était trop faible",
+            "Parce que l'Europe de l'Est était déjà reconstruite",
+            "Parce que le plan était réservé à l'Asie"
+          ],
+          "correctIndex": 0,
+          "explanation": "Staline refuse le plan Marshall (1947) et l'impose à ses satellites car il y voit un moyen pour les États-Unis d'étendre leur influence économique et politique à l'Est. Ce refus accentue la coupure de l'Europe en deux blocs."
+        },
+        {
+          "question": "Quelle est la conséquence directe du blocus de Berlin (1948-1949) ?",
+          "choices": [
+            "La réunification de l'Allemagne",
+            "La construction immédiate du mur de Berlin",
+            "La division de l'Allemagne en deux États : la RFA à l'Ouest et la RDA à l'Est",
+            "Le départ des Alliés de Berlin"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'échec du blocus soviétique de Berlin (1948-1949), déjoué par le pont aérien allié, conduit en 1949 à la division de l'Allemagne en deux États : la RFA (capitaliste, à l'Ouest) et la RDA (communiste, à l'Est)."
+        },
+        {
+          "question": "Pourquoi la RDA construit-elle le mur de Berlin en 1961 ?",
+          "choices": [
+            "Pour empêcher la fuite massive de ses habitants vers Berlin-Ouest plus prospère",
+            "Pour protéger Berlin-Est des bombardements",
+            "Pour faciliter le commerce entre les deux Allemagnes",
+            "Pour répondre à une attaque américaine"
+          ],
+          "correctIndex": 0,
+          "explanation": "La RDA construit le mur de Berlin en août 1961 pour stopper l'exode de sa population : des milliers d'Allemands de l'Est fuyaient vers Berlin-Ouest, plus libre et plus prospère. Le mur devient le symbole de la division du monde."
+        },
+        {
+          "question": "Qu'est-ce qui distingue une décolonisation pacifique d'une guerre d'indépendance ?",
+          "choices": [
+            "La décolonisation pacifique concerne l'Afrique, la guerre l'Asie",
+            "La décolonisation pacifique se fait par négociation, la guerre par un conflit armé",
+            "Il n'y a aucune différence",
+            "La décolonisation pacifique est plus rapide mais toujours violente"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une décolonisation pacifique s'obtient par la négociation (comme l'Inde en 1947 ou l'Afrique noire française en 1960), tandis qu'une guerre d'indépendance passe par un long conflit armé (Indochine 1946-1954, Algérie 1954-1962)."
+        },
+        {
+          "question": "Quelle cause profonde explique l'accélération de la décolonisation après 1945 ?",
+          "choices": [
+            "L'enrichissement des métropoles grâce à la guerre",
+            "L'interdiction des colonies par les États-Unis seuls",
+            "L'affaiblissement des métropoles européennes par la Seconde Guerre mondiale et la montée des mouvements nationalistes",
+            "La fin de la Guerre froide"
+          ],
+          "correctIndex": 2,
+          "explanation": "Après 1945, les métropoles européennes sont affaiblies et ruinées par la guerre, tandis que les peuples colonisés, qui ont participé au conflit, réclament leur liberté. Cette montée des nationalismes accélère la décolonisation."
+        },
+        {
+          "question": "Par quelle méthode Gandhi mène-t-il la lutte pour l'indépendance de l'Inde ?",
+          "choices": [
+            "La guérilla armée",
+            "Le terrorisme",
+            "L'alliance militaire avec l'URSS",
+            "La non-violence et la désobéissance civile"
+          ],
+          "correctIndex": 3,
+          "explanation": "Gandhi mène la lutte pour l'indépendance de l'Inde par la non-violence et la désobéissance civile (boycott, marche du sel). Cette méthode pacifique aboutit à l'indépendance en 1947, faisant de lui une figure mondiale."
+        },
+        {
+          "question": "Pourquoi les pays du tiers-monde réunis à Bandung en 1955 choisissent-ils le non-alignement ?",
+          "choices": [
+            "Pour rejoindre le bloc soviétique",
+            "Pour entrer dans l'OTAN",
+            "Pour reconstituer leurs anciens empires",
+            "Pour refuser de se ranger derrière l'un des deux blocs et affirmer leur indépendance"
+          ],
+          "correctIndex": 3,
+          "explanation": "À Bandung (1955), des pays récemment décolonisés d'Asie et d'Afrique condamnent le colonialisme et choisissent le non-alignement : ils refusent de se soumettre au bloc américain comme au bloc soviétique pour préserver leur indépendance."
+        },
+        {
+          "question": "Classe dans l'ordre chronologique : plan Marshall, mur de Berlin, crise de Cuba.",
+          "choices": [
+            "Crise de Cuba, plan Marshall, mur de Berlin",
+            "Plan Marshall (1947), mur de Berlin (1961), crise de Cuba (1962)",
+            "Mur de Berlin, plan Marshall, crise de Cuba",
+            "Plan Marshall, crise de Cuba, mur de Berlin"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'ordre correct est : plan Marshall (1947), au début de la Guerre froide, puis la construction du mur de Berlin (1961), et enfin la crise des missiles de Cuba (octobre 1962), point culminant des tensions."
+        },
+        {
+          "question": "Classe dans l'ordre chronologique ces étapes de la fin de la Guerre froide : indépendance de l'Inde, chute du mur de Berlin, disparition de l'URSS.",
+          "choices": [
+            "Indépendance de l'Inde (1947), chute du mur (1989), disparition de l'URSS (1991)",
+            "Chute du mur, disparition de l'URSS, indépendance de l'Inde",
+            "Disparition de l'URSS, chute du mur, indépendance de l'Inde",
+            "Indépendance de l'Inde, disparition de l'URSS, chute du mur"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'ordre est : indépendance de l'Inde (1947), puis chute du mur de Berlin (9 novembre 1989), enfin disparition de l'URSS (décembre 1991), qui met un terme définitif à la Guerre froide."
+        },
+        {
+          "question": "Pourquoi la crise de Cuba (1962) est-elle considérée comme le moment le plus dangereux de la Guerre froide ?",
+          "choices": [
+            "Parce qu'elle a duré plusieurs années",
+            "Parce que le monde a frôlé une guerre nucléaire directe entre les deux superpuissances",
+            "Parce qu'elle a entraîné la fin de l'URSS",
+            "Parce qu'elle a déclenché la guerre du Vietnam"
+          ],
+          "correctIndex": 1,
+          "explanation": "La crise de Cuba (octobre 1962) est le moment le plus dangereux car l'installation de missiles soviétiques près des USA a placé Kennedy et Khrouchtchev au bord d'une guerre nucléaire directe. Le retrait des missiles évite la catastrophe."
+        },
+        {
+          "question": "Que désigne le terme « bipolaire » pour qualifier le monde de la Guerre froide ?",
+          "choices": [
+            "Un monde dominé par un seul pays",
+            "Un monde sans aucune puissance dominante",
+            "Un monde organisé autour de deux pôles de puissance opposés : les USA et l'URSS",
+            "Un monde partagé entre l'Europe et l'Asie"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un monde bipolaire est organisé autour de deux pôles de puissance rivaux : le bloc de l'Ouest mené par les USA et le bloc de l'Est mené par l'URSS. Cette bipolarisation structure les relations internationales de 1947 à 1991."
+        },
+        {
+          "question": "Quelle est la conséquence de l'arme nucléaire sur la manière de mener la Guerre froide ?",
+          "choices": [
+            "Elle pousse les deux blocs à s'affronter directement plus souvent",
+            "Elle met fin immédiatement à toute rivalité",
+            "Elle n'a aucune influence sur la stratégie",
+            "Elle dissuade tout affrontement militaire direct entre USA et URSS par peur de la destruction mutuelle"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'arme nucléaire, possédée par les deux camps, dissuade tout affrontement direct par crainte d'une destruction mutuelle. C'est pourquoi la Guerre froide reste « froide » et se joue par conflits indirects, course aux armements et espionnage."
+        },
+        {
+          "question": "Pourquoi la guerre d'Indochine (1946-1954) est-elle à la fois une guerre de décolonisation et un conflit de la Guerre froide ?",
+          "choices": [
+            "Parce qu'elle oppose deux métropoles européennes",
+            "Parce qu'elle se déroule en Europe",
+            "Parce que le Vietminh lutte pour l'indépendance tout en étant soutenu par le bloc communiste face à la France soutenue par les USA",
+            "Parce qu'elle n'oppose que des civils"
+          ],
+          "correctIndex": 2,
+          "explanation": "La guerre d'Indochine est une guerre de décolonisation (le Vietminh veut l'indépendance face à la France) mais aussi un conflit de Guerre froide : le Vietminh communiste est soutenu par l'URSS et la Chine, tandis que la France reçoit l'aide américaine."
+        },
+        {
+          "question": "Comment réagit l'URSS à la création de l'OTAN (1949) et au plan Marshall ?",
+          "choices": [
+            "Elle crée son propre bloc avec le Comecon (1949) et le Pacte de Varsovie (1955)",
+            "Elle rejoint l'OTAN",
+            "Elle accepte le plan Marshall",
+            "Elle dissout son armée"
+          ],
+          "correctIndex": 0,
+          "explanation": "Face au plan Marshall et à l'OTAN occidentale, l'URSS organise son bloc en réponse : le Comecon (1949) pour l'aide économique entre pays communistes, puis le Pacte de Varsovie (1955), alliance militaire de l'Est. Le monde est ainsi divisé en deux camps."
+        },
+        {
+          "question": "Pourquoi peut-on dire que la décolonisation a profondément modifié l'ONU ?",
+          "choices": [
+            "L'ONU a disparu après les indépendances",
+            "L'ONU a refusé tous les nouveaux États",
+            "L'ONU est devenue une alliance militaire",
+            "L'arrivée de nombreux nouveaux États indépendants a fait augmenter le nombre de pays membres"
+          ],
+          "correctIndex": 3,
+          "explanation": "La décolonisation a fait naître de nombreux nouveaux États indépendants qui ont adhéré à l'ONU. Le nombre de pays membres a fortement augmenté à partir des années 1960, donnant plus de poids aux pays du tiers-monde dans cette organisation."
+        },
+        {
+          "question": "Quel point commun rapproche la guerre de Corée et la crise de Cuba dans la logique de la Guerre froide ?",
+          "choices": [
+            "Elles se déroulent toutes deux en Europe",
+            "Ce sont des affrontements où les deux blocs s'opposent sans guerre directe entre USA et URSS",
+            "Elles aboutissent à la fin de l'URSS",
+            "Elles concernent uniquement la décolonisation"
+          ],
+          "correctIndex": 1,
+          "explanation": "La guerre de Corée (1950-1953) et la crise de Cuba (1962) illustrent la même logique : les deux blocs s'affrontent indirectement (par pays interposés ou par la menace) sans jamais déclencher de guerre directe entre les USA et l'URSS."
+        },
+        {
+          "question": "Quelle évolution la « coexistence pacifique » des années 1950-1960 marque-t-elle par rapport au début de la Guerre froide ?",
+          "choices": [
+            "La fin totale des tensions entre les blocs",
+            "Une volonté de dialoguer et d'éviter l'affrontement direct, tout en maintenant la rivalité",
+            "Le retour à la guerre directe",
+            "La fusion des deux blocs"
+          ],
+          "correctIndex": 1,
+          "explanation": "La coexistence pacifique, promue par Khrouchtchev, marque une volonté de dialoguer et d'éviter la guerre directe par rapport aux fortes tensions des débuts. La rivalité idéologique et la course aux armements se poursuivent néanmoins entre les deux blocs."
         }
       ]
     },
