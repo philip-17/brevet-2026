@@ -752,6 +752,94 @@
           ],
           "correctIndex": 0,
           "explanation": "La force d'attraction gravitationnelle est proportionnelle au produit des masses."
+        },
+        {
+          "question": "Un passager assis dans un train qui roule regarde un autre passager assis à côté de lui. Par rapport à ce voyageur, son voisin est :",
+          "choices": [
+            "Immobile",
+            "En mouvement rapide",
+            "En mouvement accéléré",
+            "En chute libre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans le référentiel du voyageur (le train), son voisin assis ne change pas de position : il est immobile. Le mouvement est relatif au référentiel choisi."
+        },
+        {
+          "question": "Ce même passager assis dans le train est observé par une personne immobile sur le quai. Pour cet observateur, le passager est :",
+          "choices": [
+            "En mouvement",
+            "Immobile",
+            "Sans masse",
+            "En équilibre des forces"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans le référentiel terrestre (le quai), le passager se déplace avec le train : il est en mouvement. Un même objet peut être immobile ou en mouvement selon l'observateur."
+        },
+        {
+          "question": "Un footballeur tape dans un ballon posé au sol, qui part alors en l'air. Quel effet la force a-t-elle produit ?",
+          "choices": [
+            "Elle a mis le ballon en mouvement",
+            "Elle a augmenté sa masse",
+            "Elle a changé sa couleur",
+            "Elle a diminué son poids"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une force peut mettre un objet en mouvement, modifier sa vitesse, modifier sa trajectoire ou le déformer. Ici, le ballon immobile est mis en mouvement."
+        },
+        {
+          "question": "Quelle situation illustre une force qui déforme un objet sans le mettre en mouvement ?",
+          "choices": [
+            "Écraser une pâte à modeler avec la main",
+            "Lancer une balle vers le haut",
+            "Freiner une voiture",
+            "Faire dévier une bille avec un aimant"
+          ],
+          "correctIndex": 0,
+          "explanation": "Parmi les effets d'une force, la déformation modifie la forme de l'objet : écraser la pâte à modeler la déforme sans la déplacer."
+        },
+        {
+          "question": "Un objet est soumis à deux forces qui se compensent (forces égales et opposées). Que peut-on dire de son mouvement ?",
+          "choices": [
+            "Il reste immobile ou se déplace en ligne droite à vitesse constante",
+            "Il accélère forcément",
+            "Il s'arrête toujours instantanément",
+            "Sa trajectoire devient circulaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "Quand les forces se compensent, l'objet est en équilibre : il reste immobile ou poursuit un mouvement rectiligne uniforme (ligne droite, vitesse constante)."
+        },
+        {
+          "question": "Sur une chronophotographie d'une bille, les positions successives sont séparées par des écarts tous égaux. Quel est le mouvement de la bille ?",
+          "choices": [
+            "Rectiligne uniforme",
+            "Accéléré",
+            "Ralenti (décéléré)",
+            "Circulaire"
+          ],
+          "correctIndex": 0,
+          "explanation": "Sur une chronophotographie, les images sont prises à intervalles de temps égaux : des écarts égaux signifient une distance parcourue identique à chaque intervalle, donc une vitesse constante (mouvement uniforme)."
+        },
+        {
+          "question": "Sur une piste droite, un robot parcourt 720 m en 1 min. Quelle est sa vitesse moyenne en m/s ?",
+          "choices": [
+            "12 m/s",
+            "720 m/s",
+            "60 m/s",
+            "0,083 m/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "1 min = 60 s, donc v = d ÷ t = 720 ÷ 60 = 12 m/s."
+        },
+        {
+          "question": "Sur un diagramme objet-interactions, comment représente-t-on l'objet étudié et chacune des actions qu'il subit ?",
+          "choices": [
+            "L'objet au centre, relié par une flèche à chaque autre objet qui agit sur lui",
+            "Une seule grande flèche partant de l'objet vers le sol",
+            "Un tableau de valeurs de vitesses",
+            "Un cercle vide sans aucun lien"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans un diagramme objet-interactions, le système étudié est placé au centre et chaque interaction est figurée par un trait (ou une double flèche) le reliant à l'objet avec lequel il interagit."
         }
       ]
     },
@@ -979,6 +1067,116 @@
           ],
           "correctIndex": 0,
           "explanation": "Combustion -> chaleur -> vapeur d'eau qui fait tourner une turbine (mecanique) -> alternateur (electrique)."
+        },
+        {
+          "question": "Dans un circuit électrique simple, quel composant fournit l'énergie électrique au circuit ?",
+          "choices": [
+            "L'interrupteur",
+            "Le générateur",
+            "La lampe",
+            "Le fil de connexion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le générateur (pile, batterie...) est le dipôle qui fournit l'énergie électrique au circuit. L'interrupteur sert seulement à ouvrir ou fermer le circuit."
+        },
+        {
+          "question": "Comment doit-on brancher un voltmètre pour mesurer la tension aux bornes d'une lampe ?",
+          "choices": [
+            "En série avec la lampe",
+            "En dérivation (en parallèle) aux bornes de la lampe",
+            "À la place du générateur",
+            "En série avec le générateur uniquement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le voltmètre se branche toujours en dérivation, c'est-à-dire en parallèle aux bornes du dipôle dont on mesure la tension. La tension se mesure en volts (V)."
+        },
+        {
+          "question": "Comment doit-on brancher un ampèremètre pour mesurer l'intensité du courant traversant une lampe ?",
+          "choices": [
+            "En dérivation aux bornes de la lampe",
+            "En série dans le circuit",
+            "En parallèle avec le générateur",
+            "Directement aux deux bornes de la pile"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'ampèremètre se branche toujours en série dans le circuit, car le courant qu'on mesure doit le traverser. L'intensité se mesure en ampères (A)."
+        },
+        {
+          "question": "D'après la loi d'Ohm U = R × I, quelle est la tension aux bornes d'une résistance de R = 10 Ω parcourue par un courant d'intensité I = 0,5 A ?",
+          "choices": [
+            "20 V",
+            "5 V",
+            "0,05 V",
+            "10,5 V"
+          ],
+          "correctIndex": 1,
+          "explanation": "On applique U = R × I = 10 × 0,5 = 5 V. La loi d'Ohm relie la tension (V), la résistance (Ω) et l'intensité (A)."
+        },
+        {
+          "question": "La puissance électrique se calcule par P = U × I. Quelle est la puissance d'un appareil sous U = 12 V parcouru par I = 2 A ?",
+          "choices": [
+            "6 W",
+            "14 W",
+            "24 W",
+            "10 W"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique P = U × I = 12 × 2 = 24 W. La puissance électrique s'exprime en watts (W)."
+        },
+        {
+          "question": "Dans un circuit en série comportant une pile et deux lampes identiques, que se passe-t-il si on dévisse l'une des deux lampes ?",
+          "choices": [
+            "L'autre lampe brille plus fort",
+            "L'autre lampe continue de briller normalement",
+            "L'autre lampe s'éteint aussi",
+            "Rien ne change"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans un montage en série, les dipôles forment une seule boucle : si l'un est dévissé, le circuit est ouvert et toutes les lampes s'éteignent."
+        },
+        {
+          "question": "D'après la loi d'Ohm, quelle est la valeur de la résistance R d'un conducteur ohmique soumis à U = 6 V et parcouru par I = 0,2 A ?",
+          "choices": [
+            "1,2 Ω",
+            "12 Ω",
+            "30 Ω",
+            "3 Ω"
+          ],
+          "correctIndex": 2,
+          "explanation": "On utilise R = U ÷ I = 6 ÷ 0,2 = 30 Ω. La résistance s'exprime en ohms (Ω)."
+        },
+        {
+          "question": "Qu'appelle-t-on un court-circuit dans un circuit électrique ?",
+          "choices": [
+            "Un circuit où le fil relie directement les deux bornes du générateur sans dipôle, faisant passer une très forte intensité",
+            "Un circuit trop long pour fonctionner",
+            "Un circuit où la lampe brille faiblement",
+            "Un circuit ouvert par l'interrupteur"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un court-circuit se produit quand un fil relie directement les bornes du générateur (ou court-circuite un dipôle) : l'intensité devient très grande, ce qui peut provoquer un échauffement dangereux."
+        },
+        {
+          "question": "Parmi ces matériaux, lequel est un isolant électrique ?",
+          "choices": [
+            "Le cuivre",
+            "Le fer",
+            "Le plastique",
+            "L'aluminium"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le plastique est un isolant : il ne laisse pas passer le courant électrique. Les métaux comme le cuivre, le fer et l'aluminium sont des conducteurs."
+        },
+        {
+          "question": "Dans un montage en dérivation (en parallèle), comment est la tension aux bornes de chaque lampe par rapport à celle du générateur ?",
+          "choices": [
+            "Elle est divisée également entre les lampes",
+            "Elle est la même que celle du générateur pour chaque lampe",
+            "Elle est nulle aux bornes des lampes",
+            "Elle est deux fois plus grande que celle du générateur"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dans un montage en dérivation, chaque branche est soumise à la même tension que celle aux bornes du générateur (loi d'unicité des tensions en dérivation). La loi d'additivité des tensions, elle, s'applique au montage en série."
         }
       ]
     },
@@ -1129,6 +1327,160 @@
           ],
           "correctIndex": 0,
           "explanation": "La frequence est l'inverse de la periode. Si T = 0,01 s alors f = 100 Hz."
+        },
+        {
+          "question": "Lorsqu'un faisceau laser traverse une pièce remplie d'un peu de fumée, on voit que la lumière suit une ligne droite. Cette observation illustre :",
+          "choices": [
+            "la propagation rectiligne de la lumière dans un milieu homogène",
+            "la décomposition de la lumière par la fumée",
+            "la diffusion qui dévie le faisceau en zigzag",
+            "la transformation de la lumière en son"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans un milieu transparent et homogène, la lumière se propage en ligne droite : c'est la propagation rectiligne, modélisée par le rayon lumineux."
+        },
+        {
+          "question": "Un objet opaque éclairé par une lampe forme une ombre nette derrière lui. Quel principe explique l'existence et la forme de cette ombre ?",
+          "choices": [
+            "la propagation rectiligne de la lumière",
+            "la réfraction de la lumière dans l'air",
+            "la fréquence élevée de la lumière",
+            "la diffusion de la lumière par l'objet"
+          ],
+          "correctIndex": 0,
+          "explanation": "La lumière se propageant en ligne droite, elle ne peut pas contourner l'objet opaque : la zone non éclairée derrière l'objet forme l'ombre portée."
+        },
+        {
+          "question": "Parmi ces éléments, lequel est un objet diffusant (et non une source primaire de lumière) ?",
+          "choices": [
+            "Un mur blanc éclairé par une lampe",
+            "Une flamme de bougie",
+            "Un écran de téléphone allumé",
+            "Une étoile"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un objet diffusant ne produit pas sa propre lumière : il renvoie la lumière qu'il reçoit. Le mur blanc éclairé diffuse la lumière de la lampe, contrairement à une flamme, un écran ou une étoile qui sont des sources primaires."
+        },
+        {
+          "question": "En synthèse additive des lumières colorées, quelle couleur obtient-on en superposant les lumières rouge, verte et bleue à intensités égales ?",
+          "choices": [
+            "Du blanc",
+            "Du noir",
+            "Du jaune",
+            "Du marron"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le rouge, le vert et le bleu sont les trois lumières primaires. Leur superposition à intensités égales redonne de la lumière blanche : c'est la synthèse additive utilisée par les écrans."
+        },
+        {
+          "question": "On éclaire un objet qui apparaît rouge en lumière blanche avec une lumière purement bleue (dans le noir). De quelle couleur l'objet apparaît-il alors ?",
+          "choices": [
+            "Noir",
+            "Rouge",
+            "Bleu",
+            "Blanc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un objet rouge ne diffuse que la lumière rouge et absorbe les autres. Éclairé uniquement en bleu, il n'a aucune lumière rouge à renvoyer : il absorbe le bleu et paraît noir."
+        },
+        {
+          "question": "On place un filtre vert devant une source de lumière blanche. Quelle lumière colorée obtient-on après le filtre ?",
+          "choices": [
+            "De la lumière verte",
+            "De la lumière blanche",
+            "De la lumière rouge",
+            "Aucune lumière"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un filtre coloré ne laisse passer que la lumière de sa propre couleur et absorbe les autres. Un filtre vert ne transmet donc que la lumière verte."
+        },
+        {
+          "question": "Dans le spectre de la lumière blanche obtenu avec un prisme, quelle couleur est la plus déviée et se trouve à l'extrémité du côté du violet ?",
+          "choices": [
+            "Le violet",
+            "Le rouge",
+            "Le jaune",
+            "Le blanc"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le prisme dévie davantage le violet que le rouge : le spectre s'étend du rouge (le moins dévié) au violet (le plus dévié), en passant par orange, jaune, vert, bleu et indigo."
+        },
+        {
+          "question": "On compare deux sons enregistrés. Le son A a une plus grande amplitude que le son B, mais les deux ont la même fréquence. Que peut-on dire ?",
+          "choices": [
+            "Le son A est plus fort que le son B",
+            "Le son A est plus aigu que le son B",
+            "Le son A est plus grave que le son B",
+            "Le son A se propage plus vite que le son B"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'amplitude est liée à l'intensité (le volume) du son : à fréquence égale, une plus grande amplitude signifie un son plus fort. La fréquence, identique ici, fixe la hauteur (grave/aigu)."
+        },
+        {
+          "question": "Le niveau sonore d'une conversation normale est d'environ 60 dB, celui d'un concert d'environ 100 dB. Que traduit cette différence de décibels ?",
+          "choices": [
+            "Le concert produit un son beaucoup plus intense (plus fort)",
+            "Le concert produit un son plus aigu",
+            "Le concert produit un son plus grave",
+            "Le son du concert se propage plus vite"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le décibel (dB) mesure l'intensité sonore, c'est-à-dire la force du son. Un niveau de 100 dB correspond à un son bien plus intense que 60 dB ; il ne renseigne pas sur la hauteur (grave/aigu)."
+        },
+        {
+          "question": "Pour protéger son audition lors d'un concert très bruyant, quelle est la mesure la plus efficace recommandée ?",
+          "choices": [
+            "Porter des bouchons d'oreille ou un casque antibruit",
+            "S'approcher des enceintes pour s'habituer au son",
+            "Augmenter la durée d'exposition pour s'adapter",
+            "Fermer les yeux pendant le concert"
+          ],
+          "correctIndex": 0,
+          "explanation": "Au-delà d'environ 85 dB, une exposition prolongée endommage l'oreille interne de façon irréversible. Porter des protections auditives réduit le niveau sonore reçu et préserve l'audition."
+        },
+        {
+          "question": "Un signal sonore est périodique : son motif se répète toutes les 0,02 s. Quelle est sa période T et sa fréquence f ?",
+          "choices": [
+            "T = 0,02 s et f = 50 Hz",
+            "T = 50 s et f = 0,02 Hz",
+            "T = 0,02 s et f = 20 Hz",
+            "T = 2 s et f = 0,5 Hz"
+          ],
+          "correctIndex": 0,
+          "explanation": "La période est la durée d'un motif : T = 0,02 s. La fréquence est son inverse : f = 1 ÷ T = 1 ÷ 0,02 = 50 Hz."
+        },
+        {
+          "question": "Un signal périodique a une période T = 0,004 s. Quelle est sa fréquence ?",
+          "choices": [
+            "250 Hz",
+            "4 Hz",
+            "0,004 Hz",
+            "40 Hz"
+          ],
+          "correctIndex": 0,
+          "explanation": "On applique f = 1 ÷ T = 1 ÷ 0,004 = 250 Hz."
+        },
+        {
+          "question": "Un diapason vibre à la fréquence f = 200 Hz. Quelle est la période T de ce signal périodique ?",
+          "choices": [
+            "T = 0,005 s",
+            "T = 200 s",
+            "T = 5 s",
+            "T = 0,02 s"
+          ],
+          "correctIndex": 0,
+          "explanation": "La période est l'inverse de la fréquence : T = 1 ÷ f = 1 ÷ 200 = 0,005 s, soit 5 ms."
+        },
+        {
+          "question": "Quelle est la principale différence entre un signal analogique et un signal numérique ?",
+          "choices": [
+            "Le signal analogique varie de façon continue, le signal numérique est codé par une suite de 0 et de 1",
+            "Le signal analogique est toujours plus rapide que le signal numérique",
+            "Le signal numérique ne peut transporter que du son, pas de l'image",
+            "Le signal analogique ne peut pas être transmis par un câble"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un signal analogique varie de manière continue dans le temps, tandis qu'un signal numérique correspond à une succession de valeurs discrètes codées en binaire (0 et 1), ce qui le rend plus robuste à la transmission."
         }
       ]
     },
