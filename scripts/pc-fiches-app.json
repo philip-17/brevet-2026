@@ -69,7 +69,8 @@
           ],
           "astuce": "Pense au triangle m / rho / V : place m en haut, rho et V en bas. On cache la grandeur cherchée : cacher m donne m = rho × V ; cacher rho donne rho = m / V ; cacher V donne V = m / rho. Pour les unités : 1 mL = 1 cm3, le liquide (mL) et le cube (cm3) sont jumeaux.",
           "piege": "L'erreur classique est de mélanger les unités avant de calculer. Si la masse est en grammes, le volume doit être en mL ou cm3 (jamais en m3). Convertis toujours d'abord, sinon le résultat de rho = m / V est faux."
-        }
+        },
+        "pdf": "/cours-pc/masse-volumique.pdf"
       },
       "questions": [
         {
@@ -381,7 +382,8 @@
           ],
           "astuce": "Pour ne pas confondre Z et A : Z c'est Ze protons, donc seulement les protons (le plus petit nombre). A c'est le nombre de m-A-sse, donc tous les nucléons (le plus grand). On retrouve toujours les neutrons en faisant A moins Z, le grand moins le petit.",
           "piege": "Ne confonds pas Z et A : Z compte seulement les protons, tandis que A compte tous les nucléons (protons plus neutrons). Pour trouver le nombre de neutrons il faut faire N = A − Z, jamais A + Z."
-        }
+        },
+        "pdf": "/cours-pc/atome.pdf"
       },
       "questions": [
         {
@@ -675,7 +677,8 @@
           ],
           "astuce": "Cation / Anion : le catiON est posiTIF. Pense au chat (cat) qui monte sur le toit = vers le HAUT = le +. Donc l'anion est le - (négatif). Autre repère : le cation a perdu des électrons (-), donc il devient + ; perdre du négatif rend positif.",
           "piege": "Ne crois pas que l'ion gagne ou perd des protons : le nombre de protons ne change jamais ! Seul le nombre d'électrons change. Et attention, un atome qui PERD des électrons devient POSITIF (cation), pas négatif."
-        }
+        },
+        "pdf": "/cours-pc/ions.pdf"
       },
       "questions": [
         {
@@ -969,7 +972,8 @@
           ],
           "astuce": "Acide = A comme Avant 7 : un pH acide est avant 7, en dessous, donc basique est après. Et beaucoup d'ions H+ = pH petit (acide). Les ions spectateurs Na+ et Cl- sont comme au stade : ils regardent mais ne jouent pas, ils ne participent pas à la réaction.",
           "piege": "Ne confonds pas le sens de l'échelle : un pH qui augmente vers 14 rend la solution plus basique, pas plus acide. Et quand on dilue un acide avec de l'eau, son pH augmente (il se rapproche de 7), il ne diminue pas."
-        }
+        },
+        "pdf": "/cours-pc/ph.pdf"
       },
       "questions": [
         {
@@ -1263,7 +1267,8 @@
           ],
           "astuce": "Ma masse est fidèle, mon poids est voyageur : la masse (kg, balance) ne change jamais, même sur la Lune, alors que le poids (N, dynamomètre) change selon où tu es. Pour les 4 caractéristiques d'une force, pense PDSV : Point d'application, Direction, Sens, Valeur.",
           "piege": "Ne confonds jamais masse et poids : la masse en kilogrammes ne change pas de lieu, le poids en newtons varie. Sur la Lune, un objet garde sa masse mais son poids diminue. Et dans P = m × g, la masse doit être en kilogrammes, pas en grammes."
-        }
+        },
+        "pdf": "/cours-pc/mouvement.pdf"
       },
       "questions": [
         {
@@ -1579,7 +1584,8 @@
           ],
           "astuce": "Pour l'énergie cinétique, pense un demi M V deux : le 2 de la vitesse est un exposant (au carré), pas un facteur. Pour la conservation en chute, imagine une balance : Ep descend, Ec monte, et le total Em ne bouge pas.",
           "piege": "Ne mets jamais la vitesse au carré seulement à moitié : c'est Ec = 1/2 × m × v², donc on élève d'abord v au carré, PUIS on multiplie. Et n'oublie pas de convertir les vitesses en mètres par seconde et les masses en kilogrammes avant tout calcul."
-        }
+        },
+        "pdf": "/cours-pc/energie-mecanique.pdf"
       },
       "questions": [
         {
@@ -1895,7 +1901,8 @@
           ],
           "astuce": "Pour la loi d'Ohm, utilise le triangle U / R I : U est en haut, R et I sont en bas. On cache la grandeur cherchée : tu caches U il reste R × I, tu caches R il reste U / I, tu caches I il reste U / R. Même astuce pour la puissance avec le triangle P / U I : P = U × I, U = P / I, I = P / U.",
           "piege": "Ne pas oublier de convertir les unités avant de calculer : une intensité donnée en mA doit passer en ampères (24 mA = 0,024 A) et une puissance en W doit passer en kW pour obtenir des kWh. Oublier la conversion fausse complètement le résultat au brevet."
-        }
+        },
+        "pdf": "/cours-pc/energie-electrique.pdf"
       },
       "questions": [
         {

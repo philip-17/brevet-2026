@@ -64,6 +64,9 @@ export interface Lesson {
   sections: LessonSection[]
   keyPoints: string[]
   revision?: LessonRevision
+  /** Lien optionnel vers le PDF du cours d'origine (séquence du prof),
+   * affiché tout en bas de la leçon. Chemin servi depuis /public. */
+  pdf?: string
 }
 
 export interface SubjectLessons {
