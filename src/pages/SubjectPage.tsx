@@ -209,4 +209,9 @@ const SECTION_META: Record<string, SectionMeta> = {
     title: 'Automatismes — DNB 2026',
     cssClass: 'banner-automatismes',
   },
+  'fiches-pc': {
+    emoji: '📘',
+    title: 'Mes fiches PC (3e)',
+    cssClass: 'banner-fiches-pc',
+  },
 }

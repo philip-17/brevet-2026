@@ -1,0 +1,2153 @@
+{
+  "chapters": [
+    {
+      "id": "fiche-pc-masse-volumique",
+      "title": "La masse volumique",
+      "emoji": "⚖️",
+      "lesson": {
+        "title": "La masse volumique",
+        "intro": "Prends un morceau de plomb et un morceau de bois de la même taille : le plomb pèse beaucoup plus lourd. Pourtant ils ont le même volume. Ce qui les différencie, c'est la masse volumique. C'est elle qui explique pourquoi un caillou coule alors qu'un ballon flotte, et c'est une vraie carte d'identité des matériaux. Apprends-la bien : au brevet, c'est un classique des exercices de calcul.",
+        "sections": [
+          {
+            "title": "1. Reconnaître un métal et ses propriétés",
+            "content": "Un métal est un matériau brillant lorsqu'on le décape : c'est un bon conducteur du courant électrique et de la chaleur. Les principaux métaux sont le fer, le zinc, l'aluminium, le cuivre, l'or et l'argent. Pour reconnaître un métal, on observe ses propriétés physiques comme la conduction et la brillance, mais aussi sa couleur et sa masse volumique. Un repère pratique : parmi ces métaux, seul le fer est attiré par un aimant, ce qui permet de le distinguer rapidement des autres métaux gris."
+          },
+          {
+            "title": "2. La masse volumique et sa formule",
+            "content": "La masse volumique, notée rho, est la masse d'un matériau par unité de volume. Pour un même volume, plus un matériau est lourd, plus rho est grande : on dit qu'il est plus dense. La formule est rho = m / V. Si la masse m est en grammes et le volume V en millilitres ou en centimètres cubes, alors rho est en g/mL (égal à g/cm3). Si m est en kilogrammes et V en mètres cubes, rho est en kg/m3, l'unité officielle. Par produit en croix on retrouve aussi m = rho × V et V = m / rho."
+          },
+          {
+            "title": "3. Identifier un matériau et gérer les unités",
+            "content": "Chaque matériau possède une masse volumique différente : rho permet donc de caractériser et d'identifier un matériau. Par exemple, une mesure de rho égale à 2300 kg/m3 correspond au béton. Attention aux unités, c'est le piège du brevet : 1 mL = 1 cm3, et 1 L = 1000 mL = 1 dm3. L'eau a une masse volumique de 1 g/mL : un objet plus léger que l'eau flotte, un objet plus lourd coule. Comparer la rho d'un objet à 1 g/mL permet donc de prévoir s'il flotte."
+          },
+          {
+            "title": "4. Mesurer la masse et le volume",
+            "content": "La masse se mesure avec une balance : on pense à tarer, c'est-à-dire mettre la balance à zéro avec le récipient vide. Le volume d'un solide de forme simple se calcule avec les formules de géométrie. Pour un solide de forme quelconque, on utilise le déplacement d'eau : on plonge l'objet dans une éprouvette graduée et on calcule V = V2 moins V1, où V1 est le volume d'eau avant et V2 le volume après immersion. On peut alors calculer rho = m / V pour identifier le matériau."
+          }
+        ],
+        "keyPoints": [
+          "La masse volumique rho est la masse par unité de volume : rho = m / V.",
+          "Unités : m en g et V en mL ou cm3 donnent rho en g/mL (= g/cm3) ; m en kg et V en m3 donnent rho en kg/m3 (unité officielle).",
+          "Chaque matériau a sa propre rho : elle sert à caractériser et identifier un matériau (exemple : 2300 kg/m3 pour le béton).",
+          "Conversions à connaître : 1 mL = 1 cm3, et 1 L = 1000 mL = 1 dm3.",
+          "La masse se mesure à la balance (penser à tarer) ; le volume d'un solide se calcule ou se mesure par déplacement d'eau avec V = V2 moins V1.",
+          "L'eau vaut 1 g/mL : plus léger que l'eau, l'objet flotte ; plus lourd, il coule. Seul le fer parmi les métaux courants est attiré par l'aimant."
+        ],
+        "revision": {
+          "flash": [
+            "rho = m / V : la masse volumique est la masse divisée par le volume.",
+            "1 mL = 1 cm3 et 1 L = 1000 mL = 1 dm3 : convertis toujours avant de calculer.",
+            "rho caractérise un matériau : même rho, même matériau.",
+            "L'eau vaut 1 g/mL : plus dense que l'eau, ça coule ; moins dense, ça flotte.",
+            "Seul le fer est attiré par l'aimant parmi les métaux courants."
+          ],
+          "reperes": [
+            {
+              "label": "Masse volumique",
+              "value": "rho = m / V ; rho en g/mL (= g/cm3) si m en g et V en mL, ou rho en kg/m3 si m en kg et V en m3"
+            },
+            {
+              "label": "Calcul de la masse",
+              "value": "m = rho × V ; m en g, rho en g/mL, V en mL (ou m en kg, rho en kg/m3, V en m3)"
+            },
+            {
+              "label": "Calcul du volume",
+              "value": "V = m / rho ; V en mL, m en g, rho en g/mL (ou V en m3, m en kg, rho en kg/m3)"
+            },
+            {
+              "label": "Volume par déplacement",
+              "value": "V = V2 - V1 ; V2 volume d'eau après immersion, V1 volume d'eau avant, en mL ou cm3"
+            },
+            {
+              "label": "Conversions",
+              "value": "1 mL = 1 cm3 ; 1 L = 1000 mL = 1 dm3"
+            },
+            {
+              "label": "Référence eau",
+              "value": "rho de l'eau = 1 g/mL = 1000 kg/m3 ; au-dessus ça coule, en-dessous ça flotte"
+            }
+          ],
+          "astuce": "Pense au triangle m / rho / V : place m en haut, rho et V en bas. On cache la grandeur cherchée : cacher m donne m = rho × V ; cacher rho donne rho = m / V ; cacher V donne V = m / rho. Pour les unités : 1 mL = 1 cm3, le liquide (mL) et le cube (cm3) sont jumeaux.",
+          "piege": "L'erreur classique est de mélanger les unités avant de calculer. Si la masse est en grammes, le volume doit être en mL ou cm3 (jamais en m3). Convertis toujours d'abord, sinon le résultat de rho = m / V est faux."
+        },
+        "pdf": "/cours-pc/masse-volumique.pdf"
+      },
+      "questions": [
+        {
+          "question": "Que représente la masse volumique rho d'un matériau ?",
+          "choices": [
+            "Sa masse totale en kilogrammes",
+            "Sa masse par unité de volume",
+            "Son volume par unité de masse",
+            "Sa température de fusion"
+          ],
+          "correctIndex": 1,
+          "explanation": "La masse volumique rho est la masse par unité de volume du matériau : rho = m / V. Plus un matériau est dense, plus rho est grande."
+        },
+        {
+          "question": "Quelle est la formule correcte de la masse volumique ?",
+          "choices": [
+            "rho = V / m",
+            "rho = m × V",
+            "rho = m / V",
+            "rho = m + V"
+          ],
+          "correctIndex": 2,
+          "explanation": "La masse volumique vaut rho = m / V (masse divisée par volume). Le triangle m / rho / V aide à retrouver aussi m = rho × V et V = m / rho."
+        },
+        {
+          "question": "Un objet a une masse de 240 g et un volume de 30 mL. Quelle est sa masse volumique ?",
+          "choices": [
+            "8 g/mL",
+            "0,125 g/mL",
+            "270 g/mL",
+            "210 g/mL"
+          ],
+          "correctIndex": 0,
+          "explanation": "rho = m / V = 240 / 30 = 8 g/mL. On divise bien la masse par le volume."
+        },
+        {
+          "question": "Quelle égalité entre unités est correcte ?",
+          "choices": [
+            "1 L = 1 mL",
+            "1 mL = 1 m3",
+            "1 L = 10 mL",
+            "1 mL = 1 cm3"
+          ],
+          "correctIndex": 3,
+          "explanation": "On retient que 1 mL = 1 cm3, et aussi que 1 L = 1000 mL = 1 dm3. Ces conversions sont indispensables avant tout calcul."
+        },
+        {
+          "question": "Un ballon a une masse de 400 g et un volume de 6000 mL. Que peut-on dire de lui par rapport à l'eau (rho de l'eau = 1 g/mL) ?",
+          "choices": [
+            "Il coule car rho vaut environ 15 g/mL",
+            "Il a la même densité que l'eau",
+            "Il flotte car rho vaut environ 0,07 g/mL",
+            "On ne peut pas savoir sans la température"
+          ],
+          "correctIndex": 2,
+          "explanation": "rho = m / V = 400 / 6000 = environ 0,07 g/mL. C'est inférieur à 1 g/mL (l'eau), donc le ballon flotte."
+        },
+        {
+          "question": "Comment mesure-t-on le volume d'un solide de forme quelconque ?",
+          "choices": [
+            "Avec une balance en pensant à tarer",
+            "Par déplacement d'eau dans une éprouvette : V = V2 - V1",
+            "En le pesant deux fois",
+            "Avec un dynamomètre"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pour un solide de forme quelconque, on le plonge dans une éprouvette graduée et on calcule V = V2 - V1 (volume après immersion moins volume avant)."
+        },
+        {
+          "question": "Parmi ces métaux courants, lequel est attiré par un aimant ?",
+          "choices": [
+            "Le cuivre",
+            "L'aluminium",
+            "Le fer",
+            "L'or"
+          ],
+          "correctIndex": 2,
+          "explanation": "Seul le fer (Fe) est attiré par l'aimant parmi les métaux courants : c'est un moyen rapide de le distinguer des autres métaux gris."
+        },
+        {
+          "question": "On veut calculer la masse d'un bloc de volume 2 m3 et de masse volumique 2300 kg/m3 (béton). Quelle est sa masse ?",
+          "choices": [
+            "1150 kg",
+            "4600 kg",
+            "2302 kg",
+            "0,00087 kg"
+          ],
+          "correctIndex": 1,
+          "explanation": "On utilise m = rho × V = 2300 × 2 = 4600 kg. Les unités sont cohérentes : rho en kg/m3 et V en m3 donnent m en kg."
+        },
+        {
+          "question": "Quelle est la propriété d'un métal qui permet de le reconnaître ?",
+          "choices": [
+            "Il est toujours liquide à température ambiante",
+            "Il est transparent quand on le décape",
+            "Il est un bon conducteur du courant électrique et de la chaleur",
+            "Il flotte toujours sur l'eau"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un métal est brillant lorsqu'on le décape et c'est un bon conducteur du courant électrique et de la chaleur : ce sont des propriétés physiques qui aident à le reconnaître."
+        },
+        {
+          "question": "Quelle formule permet de calculer le volume V quand on connaît la masse m et la masse volumique rho ?",
+          "choices": [
+            "V = m × rho",
+            "V = rho / m",
+            "V = m / rho",
+            "V = m - rho"
+          ],
+          "correctIndex": 2,
+          "explanation": "À partir de rho = m / V, le produit en croix donne V = m / rho. Le triangle m / rho / V : on cache V, il reste m divisé par rho."
+        },
+        {
+          "question": "Un cube d'aluminium a un volume de 50 cm3 et une masse de 135 g. Quelle est sa masse volumique ?",
+          "choices": [
+            "0,37 g/cm3",
+            "2,7 g/cm3",
+            "85 g/cm3",
+            "6750 g/cm3"
+          ],
+          "correctIndex": 1,
+          "explanation": "rho = m / V = 135 / 50 = 2,7 g/cm3, ce qui correspond bien à l'aluminium d'après le tableau des métaux."
+        },
+        {
+          "question": "Un volume de 250 mL est égal à combien de litres ?",
+          "choices": [
+            "2,5 L",
+            "25 L",
+            "0,25 L",
+            "2500 L"
+          ],
+          "correctIndex": 2,
+          "explanation": "Comme 1 L = 1000 mL, on divise par 1000 : 250 / 1000 = 0,25 L."
+        },
+        {
+          "question": "On mesure rho = 2,7 g/cm3 pour un métal gris. D'après le tableau, de quel métal s'agit-il ?",
+          "choices": [
+            "Le fer",
+            "Le cuivre",
+            "L'argent",
+            "L'aluminium"
+          ],
+          "correctIndex": 3,
+          "explanation": "La masse volumique caractérise le matériau : 2,7 g/cm3 correspond à l'aluminium (le fer vaut 7,87, le cuivre 9 et l'argent 10,5 g/cm3)."
+        },
+        {
+          "question": "Pourquoi tare-t-on la balance avant de mesurer la masse d'un liquide dans un récipient ?",
+          "choices": [
+            "Pour mesurer seulement la masse du liquide, sans celle du récipient",
+            "Pour augmenter la masse affichée",
+            "Pour mesurer le volume du liquide",
+            "Pour rendre le liquide plus dense"
+          ],
+          "correctIndex": 0,
+          "explanation": "Tarer, c'est mettre la balance à zéro avec le récipient vide : on ne mesure ainsi que la masse du liquide ajouté, pas celle du récipient."
+        },
+        {
+          "question": "On plonge un caillou dans une éprouvette : l'eau passe de 40 mL à 65 mL. Quel est le volume du caillou ?",
+          "choices": [
+            "105 mL",
+            "65 mL",
+            "25 mL",
+            "40 mL"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le volume se trouve par déplacement d'eau : V = V2 - V1 = 65 - 40 = 25 mL."
+        },
+        {
+          "question": "Un liquide a une masse volumique rho = 0,8 g/mL. Que se passe-t-il si on le verse dans l'eau (rho de l'eau = 1 g/mL) ?",
+          "choices": [
+            "Il coule car il est plus dense que l'eau",
+            "Il flotte car il est moins dense que l'eau",
+            "Il se transforme en gaz",
+            "Il reste exactement au milieu"
+          ],
+          "correctIndex": 1,
+          "explanation": "Avec rho = 0,8 g/mL, le liquide est moins dense que l'eau (1 g/mL) : un matériau plus léger que l'eau flotte."
+        },
+        {
+          "question": "Un bijou en or a un volume de 5 cm3. Sachant que rho de l'or vaut environ 19,6 g/cm3, quelle est sa masse ?",
+          "choices": [
+            "24,6 g",
+            "3,92 g",
+            "98 g",
+            "0,26 g"
+          ],
+          "correctIndex": 2,
+          "explanation": "On utilise m = rho × V = 19,6 × 5 = 98 g. La masse s'obtient en multipliant la masse volumique par le volume."
+        },
+        {
+          "question": "Pourquoi la masse volumique sert-elle à identifier un matériau ?",
+          "choices": [
+            "Parce que tous les matériaux ont la même masse volumique",
+            "Parce que chaque matériau possède une masse volumique différente qui lui est propre",
+            "Parce qu'elle dépend de la forme de l'objet",
+            "Parce qu'elle change avec la couleur de l'objet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Chaque matériau a sa propre masse volumique : c'est comme une carte d'identité qui permet de le caractériser et de l'identifier (exemple : 2300 kg/m3 pour le béton)."
+        },
+        {
+          "question": "Pour calculer rho avec rho = m / V, la masse est en grammes. Dans quelle unité le volume doit-il être pour rester cohérent ?",
+          "choices": [
+            "En mètres cubes (m3)",
+            "En kilogrammes (kg)",
+            "En millilitres (mL) ou centimètres cubes (cm3)",
+            "En litres (L) uniquement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Si la masse est en grammes, le volume doit être en mL ou cm3 (jamais en m3), ce qui donne rho en g/mL. Mélanger les unités est l'erreur classique du brevet."
+        },
+        {
+          "question": "Parmi ces métaux, lequel est le plus dense (plus grande masse volumique) ?",
+          "choices": [
+            "L'aluminium (2,7 g/cm3)",
+            "Le zinc (7,1 g/cm3)",
+            "Le fer (7,87 g/cm3)",
+            "L'or (19,6 g/cm3)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plus la masse volumique est grande, plus le métal est dense. L'or, avec 19,6 g/cm3, est le plus dense de cette liste : ordre croissant Al < Zn < Fe < Cu < Ag < Au."
+        },
+        {
+          "question": "L'unité officielle (système international) de la masse volumique est :",
+          "choices": [
+            "Le kilogramme par mètre cube (kg/m3)",
+            "Le gramme (g)",
+            "Le litre (L)",
+            "Le newton (N)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dans le système international, rho s'exprime en kg/m3 (masse en kg divisée par volume en m3). En classe on utilise souvent le g/mL (= g/cm3), plus pratique."
+        },
+        {
+          "question": "Deux objets ont le même volume. L'objet A est plus lourd que l'objet B. Que peut-on dire de leurs masses volumiques ?",
+          "choices": [
+            "Elles sont égales",
+            "L'objet A a une masse volumique plus grande que B",
+            "L'objet B a une masse volumique plus grande que A",
+            "On ne peut rien dire"
+          ],
+          "correctIndex": 1,
+          "explanation": "À volume égal, rho = m / V : l'objet le plus lourd (plus grande masse m) a la plus grande masse volumique. Donc A est plus dense que B."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-atome",
+      "title": "L'atome et le tableau périodique",
+      "emoji": "⚛️",
+      "lesson": {
+        "title": "L'atome et le tableau périodique",
+        "intro": "Tout ce qui t'entoure, ton stylo, l'air que tu respires, ton propre corps, est fait de minuscules briques invisibles appelées atomes. Ils sont si petits qu'on en mettrait des millions sur la largeur d'un cheveu. Apprends à voir l'intérieur d'un atome et tu comprendras de quoi est faite toute la matière de l'Univers.",
+        "sections": [
+          {
+            "title": "1. De quoi est fait un atome",
+            "content": "Un atome est extrêmement petit et il est constitué de deux parties. Au centre se trouve le noyau, et autour gravite un nuage d'électrons. Le noyau contient des particules appelées nucléons, qui sont de deux types. Les protons portent une charge positive notée plus, et les neutrons n'ont aucune charge, ils sont neutres. Les électrons, eux, tournent autour du noyau et portent une charge négative notée moins. C'est dans le noyau que se concentre presque toute la masse de l'atome."
+          },
+          {
+            "title": "2. Z et A : la carte d'identité de l'atome",
+            "content": "Chaque atome est défini par deux nombres. Le numéro atomique Z est le nombre de protons du noyau. Le nombre de masse A est le nombre total de nucléons, donc protons plus neutrons. On retrouve le nombre de neutrons N avec la formule N égale A moins Z. Par exemple, le fer a pour numéro atomique Z égale 26 et pour nombre de masse A égale 56 : il possède donc 26 protons et N égale 56 moins 26, soit 30 neutrons. Ce sont des nombres entiers, sans unité."
+          },
+          {
+            "title": "3. Un atome est électriquement neutre",
+            "content": "Bien qu'il contienne des charges positives et négatives, un atome est globalement neutre. Cela vient du fait qu'il possède exactement autant de protons que d'électrons : le nombre d'électrons est égal au nombre de protons, c'est-à-dire à Z. Les charges plus des protons et les charges moins des électrons se compensent parfaitement. Pour le fer, on a donc 26 protons et 26 électrons, ce qui rend l'atome neutre."
+          },
+          {
+            "title": "4. Le tableau périodique des éléments",
+            "content": "Tous les atomes connus sont rangés dans le tableau périodique, aussi appelé classification périodique des éléments. Chaque élément y possède un symbole, comme Fe pour le fer ou Zn pour le zinc. On note un atome en écrivant son nombre de masse A en haut à gauche du symbole et son numéro atomique Z en bas à gauche. Les noyaux les plus légers, comme l'hydrogène, l'hélium et le lithium, se sont formés dès les premières minutes après le Big Bang, grâce à des températures très élevées."
+          }
+        ],
+        "keyPoints": [
+          "Un atome est formé d'un noyau central entouré d'un nuage d'électrons ; il est extrêmement petit.",
+          "Le noyau contient les nucléons : protons (charge positive) et neutrons (sans charge) ; l'essentiel de la masse est dans le noyau.",
+          "Les électrons tournent autour du noyau et portent une charge négative ; leur masse est négligeable.",
+          "Le numéro atomique Z est le nombre de protons et le nombre de masse A est le nombre de nucléons : A = Z + N (que des nombres, sans unité).",
+          "Un atome est électriquement neutre car il a autant de protons que d'électrons : nombre d'électrons = Z.",
+          "Tous les éléments sont rangés dans le tableau périodique ; chacun a un symbole, par exemple Fe pour le fer et Zn pour le zinc."
+        ],
+        "revision": {
+          "flash": [
+            "Le noyau concentre presque toute la masse de l'atome ; les électrons ont une masse négligeable.",
+            "Proton = charge positive, neutron = neutre, électron = charge négative.",
+            "Z = nombre de protons ; A = nombre de nucléons ; N = A − Z.",
+            "Atome neutre : autant de protons que d'électrons, donc nombre d'électrons = Z.",
+            "Chaque élément du tableau périodique a un symbole, par exemple Fe (fer) ou Zn (zinc)."
+          ],
+          "reperes": [
+            {
+              "label": "Nombre de masse",
+              "value": "A = Z + N ; A = nombre de nucléons, Z = numéro atomique (protons), N = nombre de neutrons ; ce sont des nombres, sans unité"
+            },
+            {
+              "label": "Nombre de neutrons",
+              "value": "N = A − Z ; N = nombre de neutrons, A = nombre de masse, Z = numéro atomique ; nombres entiers, sans unité"
+            },
+            {
+              "label": "Neutralité électrique",
+              "value": "nombre d'électrons = nombre de protons = Z ; l'atome est neutre car charges + et − se compensent (Z est un nombre)"
+            },
+            {
+              "label": "Les trois particules",
+              "value": "proton (noyau, charge +), neutron (noyau, neutre), électron (nuage autour, charge −)"
+            },
+            {
+              "label": "Notation d'un atome",
+              "value": "A en haut à gauche et Z en bas à gauche du symbole X ; exemple fer : Z = 26 et A = 56"
+            }
+          ],
+          "astuce": "Pour ne pas confondre Z et A : Z c'est Ze protons, donc seulement les protons (le plus petit nombre). A c'est le nombre de m-A-sse, donc tous les nucléons (le plus grand). On retrouve toujours les neutrons en faisant A moins Z, le grand moins le petit.",
+          "piege": "Ne confonds pas Z et A : Z compte seulement les protons, tandis que A compte tous les nucléons (protons plus neutrons). Pour trouver le nombre de neutrons il faut faire N = A − Z, jamais A + Z."
+        },
+        "pdf": "/cours-pc/atome.pdf"
+      },
+      "questions": [
+        {
+          "question": "Que contient le noyau d'un atome ?",
+          "choices": [
+            "Uniquement des électrons",
+            "Des protons et des neutrons",
+            "Des protons et des électrons",
+            "Uniquement des neutrons"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le noyau est formé de nucléons : les protons (charge positive) et les neutrons (neutres). Les électrons, eux, tournent autour du noyau."
+        },
+        {
+          "question": "Quelle particule porte une charge électrique négative ?",
+          "choices": [
+            "Le proton",
+            "Le neutron",
+            "L'électron",
+            "Le nucléon"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'électron porte une charge négative. Le proton est positif et le neutron est neutre, c'est-à-dire sans charge."
+        },
+        {
+          "question": "Que représente le numéro atomique Z ?",
+          "choices": [
+            "Le nombre de neutrons",
+            "Le nombre total de nucléons",
+            "Le nombre de protons",
+            "La masse de l'atome en grammes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le numéro atomique Z est le nombre de protons du noyau. Le nombre total de nucléons est le nombre de masse A."
+        },
+        {
+          "question": "Le fer a Z = 26 et A = 56. Combien possède-t-il de neutrons ?",
+          "choices": [
+            "30",
+            "26",
+            "56",
+            "82"
+          ],
+          "correctIndex": 0,
+          "explanation": "On utilise N = A − Z, soit N = 56 − 26 = 30 neutrons."
+        },
+        {
+          "question": "Pourquoi un atome est-il électriquement neutre ?",
+          "choices": [
+            "Parce qu'il n'a aucune charge à l'intérieur",
+            "Parce qu'il a autant de protons que d'électrons",
+            "Parce que les neutrons annulent les protons",
+            "Parce qu'il a plus d'électrons que de protons"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'atome possède autant de protons (charges +) que d'électrons (charges −), donc les charges se compensent et l'ensemble est neutre."
+        },
+        {
+          "question": "Dans quelle partie de l'atome se concentre l'essentiel de la masse ?",
+          "choices": [
+            "Dans le nuage d'électrons",
+            "Répartie également partout",
+            "Dans le noyau",
+            "Dans les neutrons situés autour du noyau"
+          ],
+          "correctIndex": 2,
+          "explanation": "Presque toute la masse de l'atome est concentrée dans le noyau, car la masse des électrons est négligeable."
+        },
+        {
+          "question": "Un atome a A = 23 et compte 11 protons. Combien a-t-il d'électrons et de neutrons ?",
+          "choices": [
+            "11 électrons et 12 neutrons",
+            "12 électrons et 11 neutrons",
+            "11 électrons et 23 neutrons",
+            "23 électrons et 11 neutrons"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'atome est neutre donc il a autant d'électrons que de protons, soit 11 électrons. Pour les neutrons : N = A − Z = 23 − 11 = 12."
+        },
+        {
+          "question": "Quel est le symbole de l'élément fer dans le tableau périodique ?",
+          "choices": [
+            "Zn",
+            "F",
+            "Fe",
+            "Fr"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le symbole du fer est Fe. Zn est le zinc, et chaque élément du tableau périodique possède son propre symbole."
+        },
+        {
+          "question": "Comment appelle-t-on l'ensemble des particules présentes dans le noyau (protons et neutrons) ?",
+          "choices": [
+            "Les nucléons",
+            "Les électrons",
+            "Les nuages",
+            "Les éléments"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les protons et les neutrons, qui se trouvent dans le noyau, sont appelés les nucléons. Le nombre de masse A compte justement tous les nucléons."
+        },
+        {
+          "question": "Que représente le nombre de masse A d'un atome ?",
+          "choices": [
+            "Le nombre de neutrons seulement",
+            "Le nombre de protons seulement",
+            "Le nombre total de nucléons (protons + neutrons)",
+            "Le nombre d'électrons"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le nombre de masse A est le nombre total de nucléons, c'est-à-dire la somme des protons et des neutrons : A = Z + N."
+        },
+        {
+          "question": "Quelle est la formule qui relie A, Z et le nombre de neutrons N ?",
+          "choices": [
+            "N = A + Z",
+            "A = Z + N",
+            "Z = A + N",
+            "N = Z − A"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le nombre de masse est la somme des protons et des neutrons : A = Z + N. On en déduit le nombre de neutrons par N = A − Z."
+        },
+        {
+          "question": "Un atome a un numéro atomique Z = 8 et un nombre de masse A = 16. Combien de neutrons contient-il ?",
+          "choices": [
+            "24",
+            "16",
+            "8",
+            "6"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique N = A − Z = 16 − 8 = 8 neutrons."
+        },
+        {
+          "question": "Un atome possède 17 protons et 18 neutrons. Quel est son nombre de masse A ?",
+          "choices": [
+            "1",
+            "17",
+            "18",
+            "35"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le nombre de masse est la somme des nucléons : A = Z + N = 17 + 18 = 35."
+        },
+        {
+          "question": "Quelle particule de l'atome possède une charge électrique positive ?",
+          "choices": [
+            "Le proton",
+            "L'électron",
+            "Le neutron",
+            "Aucune particule de l'atome"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le proton, situé dans le noyau, porte une charge positive. L'électron est négatif et le neutron est neutre."
+        },
+        {
+          "question": "Où se situent les électrons dans un atome ?",
+          "choices": [
+            "À l'intérieur du noyau, collés aux protons",
+            "Dans un nuage qui entoure le noyau",
+            "Au centre exact de l'atome",
+            "Mélangés avec les neutrons"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les électrons tournent autour du noyau et forment le nuage électronique. Seuls les protons et les neutrons sont dans le noyau."
+        },
+        {
+          "question": "Comment s'appelle aussi le tableau périodique des éléments ?",
+          "choices": [
+            "Le tableau des masses volumiques",
+            "La classification périodique des éléments",
+            "Le tableau de conversion des unités",
+            "La liste des nucléons"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le tableau périodique est aussi appelé classification périodique des éléments ; il range tous les atomes connus, chacun avec son symbole."
+        },
+        {
+          "question": "Pour la notation symbolique d'un atome, où écrit-on le nombre de masse A par rapport au symbole X ?",
+          "choices": [
+            "En haut à droite",
+            "En bas à droite",
+            "En haut à gauche",
+            "Au-dessus, centré"
+          ],
+          "correctIndex": 2,
+          "explanation": "On écrit le nombre de masse A en haut à gauche du symbole et le numéro atomique Z en bas à gauche (exemple : fer avec A = 56 et Z = 26)."
+        },
+        {
+          "question": "Le symbole Zn correspond à quel élément chimique ?",
+          "choices": [
+            "Le zirconium",
+            "Le zinc",
+            "Le xénon",
+            "Le fer"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le symbole Zn désigne le zinc. Le symbole du fer est Fe : chaque élément du tableau périodique a son propre symbole."
+        },
+        {
+          "question": "Quels noyaux légers se sont formés dès les premières minutes après le Big Bang ?",
+          "choices": [
+            "Le fer, le cuivre et le zinc",
+            "Le carbone, l'azote et l'oxygène",
+            "L'hydrogène, l'hélium et le lithium",
+            "L'or, l'argent et le plomb"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les noyaux les plus légers (hydrogène, hélium et lithium) se sont formés dès les premières minutes après le Big Bang, grâce à des températures très élevées."
+        },
+        {
+          "question": "Un atome neutre possède 6 protons. Combien d'électrons possède-t-il ?",
+          "choices": [
+            "3 électrons",
+            "12 électrons",
+            "0 électron",
+            "6 électrons"
+          ],
+          "correctIndex": 3,
+          "explanation": "Un atome est électriquement neutre : il a autant d'électrons que de protons. Avec 6 protons, il possède donc 6 électrons (nombre d'électrons = Z)."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-ions",
+      "title": "Les ions",
+      "emoji": "🔋",
+      "lesson": {
+        "title": "Les ions",
+        "intro": "Quand tu dissous du sel dans l'eau, tu libères des ions sans les voir ! Ces minuscules particules chargées expliquent pourquoi l'eau salée conduit le courant, comment fonctionne ta pile et même la couleur de certains liquides au labo. Comprendre les ions, c'est plonger au cœur de la chimie de 3ème.",
+        "sections": [
+          {
+            "title": "1. Qu'est-ce qu'un ion ?",
+            "content": "Un ion est un atome, ou un groupe d'atomes, qui a perdu ou gagné un ou plusieurs électrons. Il porte donc une charge électrique. Au départ l'atome est neutre : il a autant de protons (charges +) que d'électrons (charges -). En gagnant ou en perdant des électrons, le nombre de protons ne change jamais ; seul le nombre d'électrons varie. C'est ce déséquilibre entre charges + et - qui transforme un atome neutre en ion chargé."
+          },
+          {
+            "title": "2. Cations et anions",
+            "content": "Un atome qui perd des électrons se retrouve avec plus de protons (+) que d'électrons (-) : il devient un ion positif appelé cation, comme Na+ ou Ca2+. Un atome qui gagne des électrons a plus d'électrons (-) que de protons (+) : il devient un ion négatif appelé anion, comme Cl- ou SO4 2-. Astuce : le cation est positif, l'anion est négatif. Perdre du négatif (des électrons) rend l'ion positif."
+          },
+          {
+            "title": "3. Lire la formule d'un ion",
+            "content": "Dans la formule d'un ion, l'exposant indique la charge globale et l'indice écrit en bas indique le nombre d'atomes. Par exemple SO4 2- contient 1 atome de soufre et 4 atomes d'oxygène, soit 5 atomes, avec une charge totale de -2. Un ion formé d'un seul atome est monoatomique (Na+, Cl-, Fe2+). Un ion formé de plusieurs atomes portant une charge globale est polyatomique, comme le sulfate SO4 2- ou l'hydroxyde HO-."
+          },
+          {
+            "title": "4. Reconnaître les ions par des tests",
+            "content": "Pour identifier un ion en solution, on ajoute un réactif et on observe la formation d'un précipité, un solide qui apparaît dans le liquide, de couleur caractéristique. Avec l'hydroxyde de sodium (soude) : le cuivre II donne un précipité bleu, le fer II un précipité vert, le fer III un précipité rouille, le zinc II un précipité blanc. L'ion chlorure Cl- forme avec le nitrate d'argent un précipité blanc qui noircit à la lumière, et le sulfate SO4 2- forme avec le chlorure de baryum un précipité blanc."
+          }
+        ],
+        "keyPoints": [
+          "Un ion est un atome (ou groupe d'atomes) qui a perdu ou gagné des électrons et porte donc une charge électrique.",
+          "Cation = ion positif (a perdu des électrons), exemples Na+ et Ca2+ ; anion = ion négatif (a gagné des électrons), exemples Cl- et SO4 2-.",
+          "Le nombre de protons ne change jamais : seuls les électrons sont gagnés ou perdus pour former un ion.",
+          "Dans une formule d'ion, l'exposant donne la charge globale et l'indice en bas donne le nombre d'atomes (ex : SO4 2- = 5 atomes, charge -2).",
+          "Ion monoatomique = un seul atome (Na+, Cl-, Fe2+) ; ion polyatomique = plusieurs atomes avec une charge globale (SO4 2-, HO-).",
+          "On identifie les ions par des tests : ajout d'un réactif puis observation d'un précipité de couleur caractéristique (Cu2+ bleu, Fe2+ vert, Fe3+ rouille, Zn2+ et Cl- blanc, SO4 2- blanc)."
+        ],
+        "revision": {
+          "flash": [
+            "Cation = positif (a perdu des électrons) ; anion = négatif (a gagné des électrons).",
+            "Le nombre de protons ne change JAMAIS : seul le nombre d'électrons change pour former un ion.",
+            "L'exposant = la charge de l'ion ; l'indice en bas = le nombre d'atomes.",
+            "Ion chlorure Cl- + nitrate d'argent = précipité blanc qui noircit à la lumière.",
+            "À la soude : Cu2+ bleu, Fe2+ vert, Fe3+ rouille, Zn2+ blanc."
+          ],
+          "reperes": [
+            {
+              "label": "Ion",
+              "value": "atome ayant perdu ou gagné des électrons ; il porte alors une charge électrique"
+            },
+            {
+              "label": "Cation",
+              "value": "ion positif (+), a PERDU des électrons ; exemples Na+, Ca2+"
+            },
+            {
+              "label": "Anion",
+              "value": "ion négatif (-), a GAGNÉ des électrons ; exemples Cl-, SO4 2-"
+            },
+            {
+              "label": "Charge d'un ion",
+              "value": "charge = (protons) - (électrons) en charges élémentaires ; +1 se note +, -2 se note 2-"
+            },
+            {
+              "label": "Lecture d'une formule",
+              "value": "exposant = charge globale ; indice en bas = nombre d'atomes (SO4 2- = 5 atomes, charge -2)"
+            },
+            {
+              "label": "Tests des ions",
+              "value": "Cu2+ bleu, Fe2+ vert, Fe3+ rouille, Zn2+ blanc (soude) ; Cl- blanc noircissant (nitrate d'argent) ; SO4 2- blanc (chlorure de baryum)"
+            }
+          ],
+          "astuce": "Cation / Anion : le catiON est posiTIF. Pense au chat (cat) qui monte sur le toit = vers le HAUT = le +. Donc l'anion est le - (négatif). Autre repère : le cation a perdu des électrons (-), donc il devient + ; perdre du négatif rend positif.",
+          "piege": "Ne crois pas que l'ion gagne ou perd des protons : le nombre de protons ne change jamais ! Seul le nombre d'électrons change. Et attention, un atome qui PERD des électrons devient POSITIF (cation), pas négatif."
+        },
+        "pdf": "/cours-pc/ions.pdf"
+      },
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un ion ?",
+          "choices": [
+            "Un atome qui a gagné ou perdu des électrons et porte une charge",
+            "Un atome qui a gagné ou perdu des protons",
+            "Un atome qui a gagné ou perdu des neutrons",
+            "Un atome toujours électriquement neutre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un ion est un atome, ou un groupe d'atomes, qui a perdu ou gagné un ou plusieurs électrons : il porte alors une charge électrique. Le nombre de protons, lui, ne change jamais."
+        },
+        {
+          "question": "Un atome qui PERD des électrons devient :",
+          "choices": [
+            "un anion (ion négatif)",
+            "un atome neutre",
+            "un cation (ion positif)",
+            "un neutron"
+          ],
+          "correctIndex": 2,
+          "explanation": "En perdant des électrons (-), l'atome se retrouve avec plus de protons (+) que d'électrons : il devient un ion positif, appelé cation, comme Na+ ou Ca2+."
+        },
+        {
+          "question": "Parmi ces ions, lequel est un anion (ion négatif) ?",
+          "choices": [
+            "Na+",
+            "Ca2+",
+            "Cl-",
+            "Fe2+"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cl- porte une charge négative : c'est un anion (il a gagné un électron). Na+, Ca2+ et Fe2+ portent une charge positive, ce sont des cations."
+        },
+        {
+          "question": "L'atome de calcium possède 20 électrons. Sachant que l'ion calcium s'écrit Ca2+, qu'a fait l'atome ?",
+          "choices": [
+            "Il a gagné 2 électrons",
+            "Il a perdu 2 électrons",
+            "Il a perdu 2 protons",
+            "Il n'a rien perdu ni gagné"
+          ],
+          "correctIndex": 1,
+          "explanation": "La charge +2 montre qu'il manque 2 charges négatives : l'atome a perdu 2 électrons (il lui en reste 18) pour toujours 20 protons, d'où la charge +2."
+        },
+        {
+          "question": "Dans la formule de l'ion sulfate SO4 2-, combien d'atomes y a-t-il et quelle est la charge globale ?",
+          "choices": [
+            "4 atomes, charge -2",
+            "2 atomes, charge -4",
+            "5 atomes, charge -2",
+            "5 atomes, charge +2"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'indice indique le nombre d'atomes : 1 soufre + 4 oxygènes = 5 atomes. L'exposant 2- indique une charge globale de -2 : c'est un ion polyatomique négatif (anion)."
+        },
+        {
+          "question": "Quel réactif et quelle observation permettent d'identifier l'ion chlorure Cl- ?",
+          "choices": [
+            "La soude, précipité vert",
+            "Le chlorure de baryum, précipité blanc",
+            "Le nitrate d'argent, précipité blanc qui noircit à la lumière",
+            "La soude, précipité bleu"
+          ],
+          "correctIndex": 2,
+          "explanation": "On ajoute du nitrate d'argent à la solution : la formation d'un précipité blanc qui noircit à la lumière révèle la présence de l'ion chlorure Cl-."
+        },
+        {
+          "question": "On ajoute de la soude (hydroxyde de sodium) à une solution et un précipité BLEU se forme. Quel ion est présent ?",
+          "choices": [
+            "L'ion fer II (Fe2+)",
+            "L'ion cuivre II (Cu2+)",
+            "L'ion zinc II (Zn2+)",
+            "L'ion fer III (Fe3+)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Avec la soude, un précipité bleu est caractéristique de l'ion cuivre II (Cu2+). Le fer II donne du vert, le fer III du rouille, et le zinc II du blanc."
+        },
+        {
+          "question": "Lorsqu'un atome devient un ion, qu'est-ce qui NE change JAMAIS ?",
+          "choices": [
+            "Le nombre d'électrons",
+            "La charge électrique",
+            "Le nombre de protons",
+            "Le fait d'être un cation ou un anion"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pour former un ion, seul le nombre d'électrons change (gagnés ou perdus). Le nombre de protons reste toujours le même : c'est lui qui définit l'élément chimique."
+        },
+        {
+          "question": "Comment appelle-t-on un ion positif ?",
+          "choices": [
+            "Un anion",
+            "Un cation",
+            "Un nucléon",
+            "Un isotope"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un ion positif s'appelle un cation : il s'est formé en perdant des électrons. Un ion négatif, lui, s'appelle un anion."
+        },
+        {
+          "question": "L'atome de sodium a 11 protons et 11 électrons. Il perd 1 électron pour devenir l'ion sodium. Quelle est sa formule ?",
+          "choices": [
+            "Na+",
+            "Na2+",
+            "Na-",
+            "Na2-"
+          ],
+          "correctIndex": 0,
+          "explanation": "En perdant 1 électron, le sodium se retrouve avec 11 protons (+) et 10 électrons (-), soit une charge globale de +1 : on écrit Na+."
+        },
+        {
+          "question": "Dans la formule d'un ion, que représente le nombre écrit en exposant (en haut) ?",
+          "choices": [
+            "Le nombre d'atomes",
+            "La charge globale de l'ion",
+            "Le nombre de neutrons",
+            "La masse de l'ion"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'exposant indique la charge globale de l'ion (par exemple 2- ou +). C'est l'indice, écrit en bas, qui indique le nombre d'atomes."
+        },
+        {
+          "question": "Quel ion parmi ceux-ci est un ion polyatomique (formé de plusieurs atomes) ?",
+          "choices": [
+            "Na+",
+            "Cl-",
+            "Fe2+",
+            "SO4 2-"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'ion sulfate SO4 2- est formé de plusieurs atomes (1 soufre + 4 oxygènes) : c'est un ion polyatomique. Na+, Cl- et Fe2+ ne contiennent qu'un seul atome (monoatomiques)."
+        },
+        {
+          "question": "Un atome qui GAGNE des électrons devient :",
+          "choices": [
+            "un cation, car il devient positif",
+            "un anion, car il devient négatif",
+            "un atome neutre, car rien ne change",
+            "un proton supplémentaire"
+          ],
+          "correctIndex": 1,
+          "explanation": "En gagnant des électrons (-), l'atome se retrouve avec plus d'électrons que de protons : il devient un ion négatif, appelé anion, comme Cl- ou SO4 2-."
+        },
+        {
+          "question": "On ajoute de la soude à une solution et un précipité ROUILLE apparaît. Quel ion est présent ?",
+          "choices": [
+            "L'ion fer III (Fe3+)",
+            "L'ion cuivre II (Cu2+)",
+            "L'ion zinc II (Zn2+)",
+            "L'ion fer II (Fe2+)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Avec la soude, un précipité de couleur rouille est caractéristique de l'ion fer III (Fe3+). Le fer II donne du vert, le cuivre II du bleu et le zinc II du blanc."
+        },
+        {
+          "question": "L'atome d'aluminium a 13 protons. L'ion aluminium s'écrit Al3+. Combien d'électrons possède cet ion ?",
+          "choices": [
+            "16 électrons",
+            "13 électrons",
+            "10 électrons",
+            "3 électrons"
+          ],
+          "correctIndex": 2,
+          "explanation": "La charge +3 signifie que l'atome a perdu 3 électrons. Comme il avait 13 électrons (autant que de protons), il lui en reste 13 - 3 = 10."
+        },
+        {
+          "question": "Quel réactif utilise-t-on pour identifier l'ion sulfate SO4 2- ?",
+          "choices": [
+            "Le chlorure de baryum",
+            "La soude (hydroxyde de sodium)",
+            "Le nitrate d'argent",
+            "Le papier pH"
+          ],
+          "correctIndex": 0,
+          "explanation": "On ajoute du chlorure de baryum : la formation d'un précipité blanc révèle la présence de l'ion sulfate SO4 2-."
+        },
+        {
+          "question": "Pourquoi un atome est-il électriquement neutre avant de devenir un ion ?",
+          "choices": [
+            "Parce qu'il n'a aucune charge à l'intérieur",
+            "Parce qu'il a autant de protons (+) que d'électrons (-)",
+            "Parce que les neutrons annulent toutes les charges",
+            "Parce qu'il a plus de protons que d'électrons"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un atome neutre possède autant de protons (charges +) que d'électrons (charges -) : les charges se compensent exactement, l'ensemble est donc neutre."
+        },
+        {
+          "question": "On ajoute de la soude à une solution et un précipité VERT se forme. Quel ion est présent ?",
+          "choices": [
+            "L'ion zinc II (Zn2+)",
+            "L'ion fer III (Fe3+)",
+            "L'ion fer II (Fe2+)",
+            "L'ion cuivre II (Cu2+)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Avec la soude, un précipité vert est caractéristique de l'ion fer II (Fe2+). Le fer III donne du rouille, le cuivre II du bleu et le zinc II du blanc."
+        },
+        {
+          "question": "Qu'observe-t-on lors d'un test d'identification d'un ion en solution ?",
+          "choices": [
+            "Une ébullition du liquide",
+            "La formation d'un précipité (solide) de couleur caractéristique",
+            "Un changement de masse de la solution",
+            "Une variation de la température de 7 degrés"
+          ],
+          "correctIndex": 1,
+          "explanation": "On ajoute un réactif puis on observe l'apparition d'un précipité, un solide qui se forme dans le liquide, dont la couleur permet d'identifier l'ion présent."
+        },
+        {
+          "question": "On teste deux solutions à la soude : l'une donne un précipité blanc, l'autre un précipité bleu. Quels ions sont identifiés ?",
+          "choices": [
+            "Fer II (Fe2+) pour le blanc et fer III (Fe3+) pour le bleu",
+            "Chlorure (Cl-) pour le blanc et fer II (Fe2+) pour le bleu",
+            "Cuivre II (Cu2+) pour le blanc et zinc II (Zn2+) pour le bleu",
+            "Zinc II (Zn2+) pour le blanc et cuivre II (Cu2+) pour le bleu"
+          ],
+          "correctIndex": 3,
+          "explanation": "À la soude, le précipité blanc correspond à l'ion zinc II (Zn2+) et le précipité bleu à l'ion cuivre II (Cu2+)."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-ph",
+      "title": "Le pH et les réactions acide-base",
+      "emoji": "🧪",
+      "lesson": {
+        "title": "Le pH et les réactions acide-base",
+        "intro": "Quand tu presses un citron sur du poisson ou que tu nettoies l'évier avec un produit qui pique, tu manipules des acides et des bases ! Pour savoir si une solution est acide, neutre ou basique, les chimistes utilisent un seul nombre magique : le pH. Comprends-le et tu sauras lire l'étiquette d'un shampooing comme un vrai scientifique.",
+        "sections": [
+          {
+            "title": "1. Le pH, la mesure de l'acidité",
+            "content": "Le pH (potentiel Hydrogène) mesure l'acidité d'une solution. C'est un nombre sans unité, compris entre 0 et 14, qu'on lit avec un pH-mètre ou du papier pH (papier indicateur). La règle est simple : si le pH est inférieur à 7, la solution est acide ; si le pH = 7, elle est neutre comme l'eau pure ; si le pH est supérieur à 7, elle est basique. Le vinaigre est acide, la soude est basique, l'eau pure est neutre."
+          },
+          {
+            "title": "2. Les ions responsables du pH",
+            "content": "Toute solution aqueuse contient des molécules d'eau H2O, des ions hydrogène H+ et des ions hydroxyde OH-. C'est leur proportion qui fixe le pH. Dans une solution acide, il y a plus d'ions H+ que d'ions OH- : ce sont les H+ qui causent l'acidité. Dans une solution basique, il y a plus d'ions OH- que d'ions H+. Dans une solution neutre, il y a autant de H+ que de OH-. Diluer avec de l'eau rapproche toujours le pH de 7."
+          },
+          {
+            "title": "3. La réaction acide + base",
+            "content": "Quand on mélange un acide et une base, par exemple de l'acide chlorhydrique et de la soude, les ions H+ et OH- réagissent pour former de l'eau. L'équation est : H+ + OH- = H2O. Cette réaction est exothermique : elle dégage de la chaleur, donc la température augmente, et le pH se rapproche de 7. Attention, les solutions concentrées provoquent des brûlures graves : on porte toujours blouse, lunettes et gants."
+          },
+          {
+            "title": "4. La réaction métal + acide",
+            "content": "Quand un métal comme le fer réagit avec un acide comme l'acide chlorhydrique, il se forme un gaz : le dihydrogène H2, reconnu par une petite détonation, le fameux pop, quand on approche une flamme. Il apparaît aussi des ions fer II Fe2+. L'équation est : Fe + 2 H+ = Fe2+ + H2. Le pH augmente car les ions H+ disparaissent. On teste le Fe2+ avec la soude qui donne un précipité vert."
+          }
+        ],
+        "keyPoints": [
+          "Le pH mesure l'acidité, n'a pas d'unité, va de 0 à 14, et se lit au pH-mètre ou au papier pH.",
+          "pH inférieur à 7 = solution acide ; pH = 7 = solution neutre ; pH supérieur à 7 = solution basique.",
+          "Acide = plus d'ions H+ que de OH- ; basique = plus de OH- que de H+ ; neutre = autant de H+ que de OH-.",
+          "Diluer avec de l'eau rapproche le pH de 7 : un acide devient moins acide, une base devient moins basique.",
+          "Acide + base : H+ + OH- = H2O, réaction exothermique (la température augmente, le pH tend vers 7).",
+          "Fer + acide : Fe + 2 H+ = Fe2+ + H2 ; le gaz dihydrogène H2 fait pop à la flamme et le Fe2+ donne un précipité vert à la soude."
+        ],
+        "revision": {
+          "flash": [
+            "Le pH va de 0 à 14 et n'a aucune unité.",
+            "pH inférieur à 7 acide, pH = 7 neutre, pH supérieur à 7 basique.",
+            "Beaucoup d'ions H+ = solution acide = pH petit.",
+            "Acide + base donne de l'eau : H+ + OH- = H2O, et ça chauffe (exothermique).",
+            "Fer + acide donne du dihydrogène H2 qui fait pop à la flamme."
+          ],
+          "reperes": [
+            {
+              "label": "Échelle de pH",
+              "value": "0 ≤ pH ≤ 14 ; pH sans unité ; pH < 7 acide, pH = 7 neutre, pH > 7 basique"
+            },
+            {
+              "label": "Réaction acide + base",
+              "value": "H+ + OH- = H2O ; un ion hydrogène et un ion hydroxyde forment une molécule d'eau (exothermique)"
+            },
+            {
+              "label": "Réaction fer + acide",
+              "value": "Fe + 2 H+ = Fe2+ + H2 ; le fer donne un ion fer II et du dihydrogène gazeux"
+            },
+            {
+              "label": "Ions d'une solution",
+              "value": "H2O, ions hydrogène H+ et ions hydroxyde OH- ; leur proportion fixe le pH"
+            },
+            {
+              "label": "Test ion fer II",
+              "value": "ajout de soude = précipité vert = ion fer II (Fe2+)"
+            },
+            {
+              "label": "Test du dihydrogène",
+              "value": "flamme près du gaz = détonation pop = dihydrogène (H2)"
+            }
+          ],
+          "astuce": "Acide = A comme Avant 7 : un pH acide est avant 7, en dessous, donc basique est après. Et beaucoup d'ions H+ = pH petit (acide). Les ions spectateurs Na+ et Cl- sont comme au stade : ils regardent mais ne jouent pas, ils ne participent pas à la réaction.",
+          "piege": "Ne confonds pas le sens de l'échelle : un pH qui augmente vers 14 rend la solution plus basique, pas plus acide. Et quand on dilue un acide avec de l'eau, son pH augmente (il se rapproche de 7), il ne diminue pas."
+        },
+        "pdf": "/cours-pc/ph.pdf"
+      },
+      "questions": [
+        {
+          "question": "Que mesure le pH et avec quel instrument peut-on le déterminer ?",
+          "choices": [
+            "La masse d'une solution, avec une balance",
+            "La température d'une solution, avec un thermomètre",
+            "Le volume d'une solution, avec une éprouvette graduée",
+            "L'acidité d'une solution, avec un pH-mètre ou du papier pH"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le pH mesure l'acidité d'une solution. On le détermine avec un pH-mètre ou du papier pH (papier indicateur), et c'est un nombre sans unité."
+        },
+        {
+          "question": "Une solution a un pH de 3. Comment est-elle ?",
+          "choices": [
+            "Basique",
+            "Neutre",
+            "Acide",
+            "Sans acidité définie"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un pH inférieur à 7 correspond à une solution acide. Comme 3 est inférieur à 7, la solution est acide."
+        },
+        {
+          "question": "Dans une solution acide, quels ions sont les plus nombreux ?",
+          "choices": [
+            "Les ions hydrogène H⁺",
+            "Les ions hydroxyde OH⁻",
+            "Autant de H⁺ que de OH⁻",
+            "Les molécules d'eau H₂O uniquement"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une solution est acide quand elle contient plus d'ions hydrogène H⁺ que d'ions hydroxyde OH⁻ : ce sont les H⁺ qui sont responsables de l'acidité."
+        },
+        {
+          "question": "Quelle est l'équation de la réaction entre un acide et une base ?",
+          "choices": [
+            "H₂O → H⁺ + OH⁻",
+            "Fe + 2 H⁺ → Fe²⁺ + H₂",
+            "H⁺ + OH⁻ → H₂O",
+            "H⁺ + H⁺ → H₂"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lors d'une réaction acide-base, un ion hydrogène H⁺ réagit avec un ion hydroxyde OH⁻ pour former une molécule d'eau : H⁺ + OH⁻ → H₂O."
+        },
+        {
+          "question": "Que se passe-t-il pour la température lorsqu'on mélange de l'acide chlorhydrique et de la soude ?",
+          "choices": [
+            "La température diminue, la réaction absorbe de la chaleur",
+            "La température ne change pas",
+            "La température augmente, la réaction dégage de la chaleur",
+            "La température devient égale à 7"
+          ],
+          "correctIndex": 2,
+          "explanation": "La réaction acide-base est exothermique : elle dégage de la chaleur, donc la température augmente et le pH se rapproche de 7."
+        },
+        {
+          "question": "On fait réagir du fer avec de l'acide chlorhydrique. Quel gaz se forme et comment le reconnaît-on ?",
+          "choices": [
+            "Du dioxygène, reconnu par une bûchette qui se rallume",
+            "Du dihydrogène, reconnu par une détonation \"pop\" à la flamme",
+            "Du dioxyde de carbone, reconnu par l'eau de chaux qui se trouble",
+            "De la vapeur d'eau, reconnue par sa couleur bleue"
+          ],
+          "correctIndex": 1,
+          "explanation": "La réaction fer + acide produit du dihydrogène H₂, que l'on reconnaît par une petite détonation, le \"pop\", quand on approche une flamme."
+        },
+        {
+          "question": "Que devient le pH d'une solution acide quand on la dilue en ajoutant de l'eau ?",
+          "choices": [
+            "Il diminue, la solution devient plus acide",
+            "Il augmente et se rapproche de 7, la solution devient moins acide",
+            "Il ne change pas du tout",
+            "Il dépasse 14"
+          ],
+          "correctIndex": 1,
+          "explanation": "Diluer avec de l'eau rapproche le pH de 7. Pour une solution acide, le pH augmente car la concentration en ions H⁺ diminue : elle devient moins acide."
+        },
+        {
+          "question": "Après la réaction du fer avec l'acide, on ajoute de la soude au liquide et un précipité vert apparaît. Quel ion est identifié ?",
+          "choices": [
+            "L'ion chlorure Cl⁻",
+            "L'ion hydroxyde OH⁻",
+            "L'ion fer II Fe²⁺",
+            "L'ion hydrogène H⁺"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le test à la soude donnant un précipité vert identifie l'ion fer II (Fe²⁺), formé lors de la réaction Fe + 2 H⁺ → Fe²⁺ + H₂."
+        },
+        {
+          "question": "Que signifie le sigle pH ?",
+          "choices": [
+            "Pouvoir Hydraulique",
+            "Potentiel Hydrogène",
+            "Pression Haute",
+            "Poids de l'Hydrogène"
+          ],
+          "correctIndex": 1,
+          "explanation": "pH signifie potentiel Hydrogène : il mesure l'acidité d'une solution, liée à la quantité d'ions hydrogène H⁺ qu'elle contient."
+        },
+        {
+          "question": "Entre quelles valeurs est compris le pH d'une solution aqueuse ?",
+          "choices": [
+            "Entre 0 et 7",
+            "Entre 1 et 10",
+            "Entre 7 et 14",
+            "Entre 0 et 14"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'échelle de pH va de 0 à 14 : pH < 7 acide, pH = 7 neutre, pH > 7 basique. Le pH n'a pas d'unité."
+        },
+        {
+          "question": "Quel est le pH de l'eau pure, et comment qualifie-t-on cette solution ?",
+          "choices": [
+            "pH = 7, solution neutre",
+            "pH = 0, solution acide",
+            "pH = 14, solution basique",
+            "pH = 1, solution neutre"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'eau pure a un pH égal à 7 : c'est une solution neutre, qui contient autant d'ions H⁺ que d'ions OH⁻."
+        },
+        {
+          "question": "Une solution a un pH de 11. Comment est-elle et quels ions y sont majoritaires ?",
+          "choices": [
+            "Acide, plus d'ions H⁺ que d'ions OH⁻",
+            "Neutre, autant d'ions H⁺ que d'ions OH⁻",
+            "Basique, plus d'ions OH⁻ que d'ions H⁺",
+            "Acide, plus d'ions OH⁻ que d'ions H⁺"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un pH de 11 est supérieur à 7 : la solution est basique. Elle contient plus d'ions hydroxyde OH⁻ que d'ions hydrogène H⁺."
+        },
+        {
+          "question": "Dans une solution neutre, quelle relation existe entre les ions H⁺ et OH⁻ ?",
+          "choices": [
+            "Il y a beaucoup plus de H⁺ que de OH⁻",
+            "Il y a autant de H⁺ que de OH⁻",
+            "Il y a beaucoup plus de OH⁻ que de H⁺",
+            "Il n'y a aucun de ces deux ions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une solution neutre (pH = 7) contient autant d'ions hydrogène H⁺ que d'ions hydroxyde OH⁻ : leurs quantités s'équilibrent."
+        },
+        {
+          "question": "Parmi ces équipements de protection, lesquels faut-il porter pour manipuler des solutions acides ou basiques concentrées ?",
+          "choices": [
+            "Un casque, des écouteurs et un tablier",
+            "Seulement des chaussures fermées",
+            "Aucun, ces solutions sont sans danger",
+            "Une blouse, des lunettes et des gants"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les solutions acides ou basiques concentrées provoquent des brûlures graves : il faut se protéger avec une blouse, des lunettes et des gants."
+        },
+        {
+          "question": "Quelle solution du quotidien est un exemple de solution basique ?",
+          "choices": [
+            "Le vinaigre",
+            "Le jus de citron",
+            "La soude (hydroxyde de sodium)",
+            "L'eau pure"
+          ],
+          "correctIndex": 2,
+          "explanation": "La soude (hydroxyde de sodium) a un pH supérieur à 7 : c'est une solution basique. Le vinaigre et le jus de citron sont acides, l'eau pure est neutre."
+        },
+        {
+          "question": "Dans l'équation Fe + 2 H⁺ → Fe²⁺ + H₂, combien d'ions hydrogène H⁺ réagissent avec un atome de fer ?",
+          "choices": [
+            "1 ion H⁺",
+            "2 ions H⁺",
+            "3 ions H⁺",
+            "4 ions H⁺"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'équation montre le coefficient 2 devant H⁺ : un atome de fer réagit avec 2 ions hydrogène H⁺ pour donner un ion fer II et une molécule de dihydrogène."
+        },
+        {
+          "question": "Pendant la réaction du fer avec l'acide chlorhydrique, les ions H⁺ disparaissent peu à peu. Que devient le pH de la solution ?",
+          "choices": [
+            "Il augmente",
+            "Il diminue",
+            "Il reste exactement à 0",
+            "Il devient négatif"
+          ],
+          "correctIndex": 0,
+          "explanation": "Comme les ions H⁺ responsables de l'acidité sont consommés, leur quantité baisse : la solution devient moins acide et le pH augmente."
+        },
+        {
+          "question": "On verse de l'eau pure dans une solution basique de pH 12. Dans quel sens varie le pH ?",
+          "choices": [
+            "Il augmente vers 14",
+            "Il diminue et se rapproche de 7",
+            "Il reste bloqué à 12",
+            "Il devient brusquement acide"
+          ],
+          "correctIndex": 1,
+          "explanation": "La dilution rapproche toujours le pH de 7. Pour une solution basique, le pH diminue : la solution devient moins basique."
+        },
+        {
+          "question": "Parmi ces ions, lesquels sont présents dans toute solution aqueuse ?",
+          "choices": [
+            "Les ions fer Fe²⁺ et chlorure Cl⁻",
+            "Uniquement les ions sodium Na⁺",
+            "Aucun ion, seulement des molécules d'eau",
+            "Les ions hydrogène H⁺ et hydroxyde OH⁻"
+          ],
+          "correctIndex": 3,
+          "explanation": "Toute solution aqueuse contient des molécules d'eau H₂O, des ions hydrogène H⁺ et des ions hydroxyde OH⁻. C'est leur proportion qui fixe le pH."
+        },
+        {
+          "question": "Lors d'une réaction acide + base, on dit que les ions sodium Na⁺ et chlorure Cl⁻ sont des ions \"spectateurs\". Pourquoi ?",
+          "choices": [
+            "Parce qu'ils forment l'eau à la place des H⁺",
+            "Parce qu'ils ne participent pas à la réaction et restent dans la solution",
+            "Parce qu'ils donnent la couleur verte au mélange",
+            "Parce qu'ils provoquent la détonation \"pop\""
+          ],
+          "correctIndex": 1,
+          "explanation": "Seuls les ions H⁺ et OH⁻ réagissent pour former de l'eau. Les ions Na⁺ et Cl⁻ ne participent pas à la réaction : ce sont des ions spectateurs qui restent en solution."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-mouvement",
+      "title": "Mouvement et interactions",
+      "emoji": "🏃",
+      "lesson": {
+        "title": "Mouvement et interactions",
+        "intro": "Quand tu shootes dans un ballon, ton pied exerce une action qui le met en mouvement. Quand tu sautes, la Terre te rattrape toujours. Forces, poids, gravitation : ce chapitre explique pourquoi les objets bougent, tombent ou tournent en orbite. Comprends-le une bonne fois et tu sauras lire les mouvements de tout l'Univers, du ballon de foot à la Lune.",
+        "sections": [
+          {
+            "title": "1. Actions mécaniques et interactions",
+            "content": "Une action mécanique est exercée par un objet acteur sur un objet receveur. Elle peut modifier le mouvement (mettre en route, arrêter, accélérer, ralentir, dévier) ou déformer l'objet. Quand le mouvement de deux corps dépend l'un de l'autre, on parle d'interaction : les actions sont toujours réciproques, A agit sur B et B agit sur A. Une action de contact suppose un contact, localisée comme un pied qui tape un ballon ou répartie comme le vent dans une voile. Une action à distance se fait sans contact, comme un aimant ou la gravitation."
+          },
+          {
+            "title": "2. Les forces et leurs 4 caractéristiques",
+            "content": "Une force modélise une action : on la représente par un segment fléché, un vecteur. Elle est définie par 4 caractéristiques : son point d'application, sa direction, son sens et sa valeur (l'intensité, en newtons N). On la note F(A/B), force de A sur B, et on la mesure avec un dynamomètre. Pense au moyen PDSV : Point d'application, Direction, Sens, Valeur. Un mouvement se décrit toujours par rapport à un référentiel : on précise sa trajectoire (rectiligne ou circulaire) et sa vitesse (uniforme, accélérée ou ralentie), avec v = d / t."
+          },
+          {
+            "title": "3. Masse et poids : ne pas confondre",
+            "content": "La masse est la quantité de matière d'un objet : elle se mesure en kilogrammes (kg) avec une balance et ne dépend PAS du lieu. Le poids est la force d'attraction d'un astre sur l'objet : il se mesure en newtons (N) avec un dynamomètre et VARIE selon le lieu. Le poids est vertical, dirigé vers le centre de la Terre. On les relie par P = m × g, avec g l'intensité de la pesanteur valant environ 10 N/kg sur Terre. Un sac de riz de 400 g garde sa masse sur la Lune mais y pèse bien moins lourd."
+          },
+          {
+            "title": "4. La gravitation universelle",
+            "content": "Deux corps de masses mA et mB s'attirent mutuellement par des forces de même valeur, attractives, agissant à distance, dirigées selon la droite reliant leurs centres. Cette gravitation universelle gouverne tout l'Univers : la chute des corps, la Lune autour de la Terre, les planètes autour du Soleil. On la calcule avec F = G × (mA × mB) / d², où G vaut 6,67 × 10⁻¹¹ N.m².kg⁻². La Lune ne tombe pas sur la Terre car, bien qu'attirée par elle, sa vitesse la maintient en orbite."
+          }
+        ],
+        "keyPoints": [
+          "Une action mécanique modifie le mouvement ou déforme un objet ; les interactions sont toujours réciproques (A sur B et B sur A).",
+          "Une force se représente par un vecteur (segment fléché) et a 4 caractéristiques : point d'application, direction, sens et valeur en newtons (N), mesurée au dynamomètre.",
+          "La masse (en kg, mesurée à la balance) ne change pas avec le lieu ; le poids (en N, mesuré au dynamomètre) varie selon l'astre et l'altitude.",
+          "Relation poids-masse : P = m × g, avec P en newtons (N), m en kilogrammes (kg), g en N/kg et g ≈ 10 N/kg sur Terre.",
+          "Gravitation universelle : F = G × (mA × mB) / d² ; deux masses s'attirent, force d'autant plus grande que les masses sont grandes et la distance d petite.",
+          "La Lune reste en orbite grâce à sa vitesse ; vitesse : v = d / t, avec v en m/s, d en mètres (m) et t en secondes (s)."
+        ],
+        "revision": {
+          "flash": [
+            "Une force a 4 caractéristiques : point d'application, direction, sens et valeur (en N).",
+            "La masse ne change jamais de lieu, le poids oui : ma masse est fidèle, mon poids est voyageur.",
+            "Le poids est toujours vertical, dirigé vers le centre de la Terre.",
+            "P = m × g avec g ≈ 10 N/kg sur Terre : un objet de 70 kg pèse 700 N.",
+            "La Lune ne tombe pas car sa vitesse la maintient en orbite, alors qu'elle est bien attirée par la Terre."
+          ],
+          "reperes": [
+            {
+              "label": "Poids-masse",
+              "value": "P = m × g ; P en newtons (N), m en kilogrammes (kg), g en N/kg, g ≈ 10 N/kg sur Terre"
+            },
+            {
+              "label": "Gravitation universelle",
+              "value": "F = G × (mA × mB) / d² ; F en newtons (N), mA et mB en kilogrammes (kg), d en mètres (m), G = 6,67 × 10⁻¹¹ N.m².kg⁻²"
+            },
+            {
+              "label": "Vitesse",
+              "value": "v = d / t ; v en mètres par seconde (m/s), d en mètres (m), t en secondes (s)"
+            },
+            {
+              "label": "Caractéristiques d'une force",
+              "value": "Point d'application, direction, sens, valeur (intensité en N), notée F(A/B), mesurée au dynamomètre"
+            },
+            {
+              "label": "Masse",
+              "value": "Quantité de matière ; symbole m, unité kilogramme (kg), mesurée à la balance, ne dépend pas du lieu"
+            },
+            {
+              "label": "Poids",
+              "value": "Force d'attraction de l'astre ; symbole P, unité newton (N), mesuré au dynamomètre, varie selon le lieu"
+            }
+          ],
+          "astuce": "Ma masse est fidèle, mon poids est voyageur : la masse (kg, balance) ne change jamais, même sur la Lune, alors que le poids (N, dynamomètre) change selon où tu es. Pour les 4 caractéristiques d'une force, pense PDSV : Point d'application, Direction, Sens, Valeur.",
+          "piege": "Ne confonds jamais masse et poids : la masse en kilogrammes ne change pas de lieu, le poids en newtons varie. Sur la Lune, un objet garde sa masse mais son poids diminue. Et dans P = m × g, la masse doit être en kilogrammes, pas en grammes."
+        },
+        "pdf": "/cours-pc/mouvement.pdf"
+      },
+      "questions": [
+        {
+          "question": "Quelles sont les 4 caractéristiques qui définissent une force ?",
+          "choices": [
+            "La masse, le volume, la couleur et la température",
+            "Le point d'application, la direction, le sens et la valeur",
+            "La vitesse, le temps, la distance et l'accélération",
+            "La longueur, la largeur, la hauteur et le poids"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une force est modélisée par un vecteur défini par son point d'application, sa direction, son sens et sa valeur (l'intensité en newtons). Moyen mnémo : PDSV."
+        },
+        {
+          "question": "Un astronaute a une masse de 70 kg. Quel est son poids sur Terre (g ≈ 10 N/kg) ?",
+          "choices": [
+            "70 N",
+            "7 N",
+            "700 N",
+            "7000 N"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique P = m × g = 70 × 10 = 700 N. Le poids s'exprime en newtons, la masse en kilogrammes."
+        },
+        {
+          "question": "Quelle affirmation est correcte concernant la masse et le poids ?",
+          "choices": [
+            "La masse varie selon le lieu, le poids reste constant",
+            "La masse et le poids changent tous les deux selon l'astre",
+            "La masse reste constante, le poids varie selon le lieu",
+            "La masse et le poids sont constants partout"
+          ],
+          "correctIndex": 2,
+          "explanation": "La masse (en kg, mesurée à la balance) est une quantité de matière qui ne dépend pas du lieu, tandis que le poids (en N) est une force d'attraction qui varie selon l'astre et l'altitude."
+        },
+        {
+          "question": "Quel instrument utilise-t-on pour mesurer le poids d'un objet ?",
+          "choices": [
+            "Le dynamomètre (newtonmètre)",
+            "La balance",
+            "Le chronomètre",
+            "L'éprouvette graduée"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le poids étant une force, on le mesure avec un dynamomètre, en newtons. La balance, elle, sert à mesurer la masse en kilogrammes."
+        },
+        {
+          "question": "Pourquoi la Lune ne tombe-t-elle pas sur la Terre alors qu'elle est attirée par elle ?",
+          "choices": [
+            "Parce que la Terre ne l'attire pas vraiment",
+            "Parce qu'elle est trop légère pour tomber",
+            "Parce qu'un aimant la repousse",
+            "Parce que sa vitesse la maintient en orbite"
+          ],
+          "correctIndex": 3,
+          "explanation": "La Lune est bien attirée par la Terre via la gravitation, mais sa vitesse la maintient en orbite au lieu de la faire tomber."
+        },
+        {
+          "question": "Dans la loi de gravitation universelle F = G × (mA × mB) / d², que représente d ?",
+          "choices": [
+            "La distance entre les centres des deux corps, en mètres",
+            "La durée du mouvement, en secondes",
+            "La densité du plus gros corps",
+            "Le diamètre de la plus grosse planète"
+          ],
+          "correctIndex": 0,
+          "explanation": "d est la distance entre les centres des deux corps, exprimée en mètres. Plus d est grande, plus la force d'attraction diminue."
+        },
+        {
+          "question": "Comment est dirigé le poids d'un objet posé sur Terre ?",
+          "choices": [
+            "Horizontalement, vers l'est",
+            "Verticalement, vers le centre de la Terre",
+            "Verticalement, vers le haut",
+            "Dans le sens du mouvement de l'objet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le poids est une force verticale dirigée vers le bas, c'est-à-dire vers le centre de la Terre, comme l'indique un fil à plomb."
+        },
+        {
+          "question": "Une voiture parcourt 100 m en 5 s. Quelle est sa vitesse moyenne (v = d / t) ?",
+          "choices": [
+            "500 m/s",
+            "5 m/s",
+            "20 m/s",
+            "0,05 m/s"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique v = d / t = 100 / 5 = 20 m/s. La vitesse s'exprime en mètres par seconde quand d est en mètres et t en secondes."
+        },
+        {
+          "question": "Qu'appelle-t-on une action mécanique ?",
+          "choices": [
+            "Une action exercée par un objet acteur sur un objet receveur",
+            "La quantité de matière contenue dans un objet",
+            "La vitesse d'un objet par rapport au sol",
+            "Une mesure de la température d'un objet"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une action mécanique est exercée par un objet acteur sur un objet receveur : elle peut modifier le mouvement (mettre en route, arrêter, accélérer, ralentir, dévier) ou déformer l'objet."
+        },
+        {
+          "question": "Parmi ces situations, laquelle est une action à distance ?",
+          "choices": [
+            "Un pied qui tape dans un ballon",
+            "Une main qui pousse une table",
+            "L'attraction d'un aimant sur un clou sans le toucher",
+            "Le vent qui gonfle une voile"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une action à distance se fait sans contact, comme l'aimant qui attire un clou ou la gravitation. Taper un ballon, pousser une table ou le vent dans une voile sont des actions de contact."
+        },
+        {
+          "question": "Un sac de courses a une masse de 5 kg. Quel est son poids sur Terre (g ≈ 10 N/kg) ?",
+          "choices": [
+            "0,5 N",
+            "50 N",
+            "500 N",
+            "15 N"
+          ],
+          "correctIndex": 1,
+          "explanation": "On applique P = m × g = 5 × 10 = 50 N. La masse est déjà en kilogrammes, donc le poids vaut bien 50 newtons."
+        },
+        {
+          "question": "Que signifie le fait que deux corps sont en interaction ?",
+          "choices": [
+            "Un seul des deux corps agit sur l'autre",
+            "Les deux corps ont la même masse",
+            "Les deux corps se touchent obligatoirement",
+            "Chaque corps agit sur l'autre : les actions sont réciproques"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dans une interaction, les actions sont toujours réciproques : si A agit sur B, alors B agit aussi sur A. Cela n'impose pas qu'ils aient la même masse ni qu'ils se touchent."
+        },
+        {
+          "question": "Avec quelle grandeur et quelle unité exprime-t-on la valeur (intensité) d'une force ?",
+          "choices": [
+            "Une force, en newtons (N)",
+            "Une masse, en kilogrammes (kg)",
+            "Une énergie, en joules (J)",
+            "Une longueur, en mètres (m)"
+          ],
+          "correctIndex": 0,
+          "explanation": "La valeur d'une force est son intensité, exprimée en newtons (N) et mesurée avec un dynamomètre. Le kilogramme sert pour la masse, le joule pour l'énergie."
+        },
+        {
+          "question": "Sur la Lune, l'intensité de la pesanteur vaut environ 1,6 N/kg. Quel est le poids d'un objet de 10 kg sur la Lune ?",
+          "choices": [
+            "100 N",
+            "10 N",
+            "16 N",
+            "1,6 N"
+          ],
+          "correctIndex": 2,
+          "explanation": "On applique P = m × g = 10 × 1,6 = 16 N. Sa masse reste 10 kg, mais son poids est bien plus faible que les 100 N qu'il aurait sur Terre."
+        },
+        {
+          "question": "Comment note-t-on la force exercée par un objet A sur un objet B ?",
+          "choices": [
+            "P(A × B)",
+            "F(A/B)",
+            "G(B/A)",
+            "m(A+B)"
+          ],
+          "correctIndex": 1,
+          "explanation": "On note F(A/B) la force exercée par A sur B. Une force est représentée par un segment fléché (un vecteur)."
+        },
+        {
+          "question": "Par rapport à quoi doit-on toujours décrire le mouvement d'un objet ?",
+          "choices": [
+            "Par rapport à un référentiel",
+            "Par rapport à sa masse",
+            "Par rapport à sa couleur",
+            "Par rapport à sa température"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un mouvement se décrit toujours par rapport à un référentiel. On précise ensuite sa trajectoire (rectiligne ou circulaire) et sa vitesse (uniforme, accélérée ou ralentie)."
+        },
+        {
+          "question": "Un objet a une masse de 2000 g. Quel est son poids sur Terre (g ≈ 10 N/kg) ?",
+          "choices": [
+            "20000 N",
+            "200 N",
+            "2 N",
+            "20 N"
+          ],
+          "correctIndex": 3,
+          "explanation": "Il faut d'abord convertir : 2000 g = 2 kg. Ensuite P = m × g = 2 × 10 = 20 N. Oublier la conversion en kilogrammes est l'erreur classique."
+        },
+        {
+          "question": "Comment qualifie-t-on une trajectoire qui suit une ligne droite ?",
+          "choices": [
+            "Circulaire",
+            "Rectiligne",
+            "Uniforme",
+            "Accélérée"
+          ],
+          "correctIndex": 1,
+          "explanation": "Une trajectoire en ligne droite est dite rectiligne ; si elle suit un cercle, elle est circulaire. Uniforme et accélérée décrivent la vitesse, pas la forme de la trajectoire."
+        },
+        {
+          "question": "D'après la loi de gravitation universelle, comment varie la force d'attraction quand la distance d entre deux corps augmente ?",
+          "choices": [
+            "Elle augmente",
+            "Elle reste exactement la même",
+            "Elle diminue",
+            "Elle devient nulle immédiatement"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans F = G × (mA × mB) / d², la distance d est au dénominateur (et au carré) : plus d augmente, plus la force d'attraction diminue."
+        },
+        {
+          "question": "Un coureur parcourt 60 m en 8 s. Quelle est sa vitesse moyenne (v = d / t), arrondie ?",
+          "choices": [
+            "7,5 m/s",
+            "480 m/s",
+            "68 m/s",
+            "0,13 m/s"
+          ],
+          "correctIndex": 0,
+          "explanation": "On applique v = d / t = 60 / 8 = 7,5 m/s. On divise bien la distance par la durée, avec d en mètres et t en secondes."
+        },
+        {
+          "question": "Quelle est la différence entre une action de contact et une action à distance ?",
+          "choices": [
+            "L'action de contact nécessite un contact, l'action à distance non",
+            "L'action de contact est toujours plus forte",
+            "L'action à distance ne concerne que les liquides",
+            "Il n'y a aucune différence entre les deux"
+          ],
+          "correctIndex": 0,
+          "explanation": "Une action de contact suppose que l'objet acteur touche le receveur (pied sur ballon, vent sur voile), tandis qu'une action à distance s'exerce sans contact (aimant, gravitation)."
+        },
+        {
+          "question": "Quelle est la valeur approximative de l'intensité de la pesanteur g sur Terre, utilisée au brevet ?",
+          "choices": [
+            "1 N/kg",
+            "10 N/kg",
+            "100 N/kg",
+            "0,1 N/kg"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sur Terre, on prend g ≈ 10 N/kg pour les calculs au brevet. C'est cette valeur que l'on utilise dans la relation P = m × g."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-energie-mecanique",
+      "title": "L'énergie mécanique",
+      "emoji": "🎢",
+      "lesson": {
+        "title": "L'énergie mécanique",
+        "intro": "Imagine un wagon de montagnes russes tout en haut de la pente : il est immobile mais plein d'énergie cachée. Dès qu'il plonge, cette énergie se transforme en vitesse vertigineuse. C'est exactement ce que décrit l'énergie mécanique. Comprends ce mécanisme et tu sauras expliquer pourquoi une balle qui tombe accélère, et pourquoi rouler vite double les dégâts.",
+        "sections": [
+          {
+            "title": "1. L'énergie cinétique : l'énergie du mouvement",
+            "content": "Toute énergie se mesure en joules (symbole J). L'énergie cinétique Ec est l'énergie que possède un objet parce qu'il est en mouvement. Elle se calcule avec la formule Ec = 1/2 × m × v² : Ec en joules (J), m la masse en kilogrammes (kg) et v la vitesse en mètres par seconde (m/s). Plus un objet est lourd et plus il va vite, plus son énergie cinétique est grande. Attention, la vitesse est au carré : un scooter de 100 kg roulant à 10 m/s a Ec = 1/2 × 100 × 10² = 5000 J."
+          },
+          {
+            "title": "2. L'énergie potentielle de position : l'énergie de la hauteur",
+            "content": "L'énergie potentielle de position Ep est l'énergie que possède un objet parce qu'il est situé en hauteur. Elle se calcule avec Ep = m × g × h : Ep en joules (J), m la masse en kilogrammes (kg), g l'intensité de la pesanteur valant environ 9,8 N/kg (on prend souvent 10 N/kg au brevet) et h la hauteur en mètres (m) par rapport au sol. Plus l'objet est lourd et plus il est haut, plus son Ep est grande. Un livre posé sur une étagère a une énergie potentielle prête à se libérer s'il tombe."
+          },
+          {
+            "title": "3. L'énergie mécanique et sa conservation",
+            "content": "L'énergie mécanique Em est l'énergie totale d'un objet : Em = Ec + Ep, le tout en joules (J). Elle additionne l'énergie du mouvement et celle de la hauteur. En chute libre, c'est-à-dire sans frottements, l'énergie mécanique se conserve : Em reste constante. Quand l'objet descend, son altitude baisse donc Ep diminue, mais sa vitesse augmente donc Ec augmente d'autant. Ce que Ep perd, Ec le gagne exactement, et le total Em ne bouge pas."
+          },
+          {
+            "title": "4. Conséquences pratiques : vitesse et freinage",
+            "content": "Comme la vitesse est au carré dans Ec = 1/2 × m × v², doubler la vitesse multiplie l'énergie cinétique par 4. C'est pour cela qu'un véhicule rapide est beaucoup plus dangereux et met bien plus de distance à s'arrêter. Au freinage, l'énergie cinétique ne disparaît pas : elle se transforme surtout en énergie thermique, c'est-à-dire en chaleur dans les freins, qui chauffent. L'énergie change de forme mais ne se perd jamais."
+          }
+        ],
+        "keyPoints": [
+          "Toute énergie se mesure en joules (J). L'énergie cinétique Ec est l'énergie d'un objet en mouvement.",
+          "Énergie cinétique : Ec = 1/2 × m × v², avec Ec en joules (J), m en kilogrammes (kg) et v en mètres par seconde (m/s).",
+          "Énergie potentielle de position : Ep = m × g × h, avec Ep en joules (J), m en kg, g environ 10 N/kg au brevet et h en mètres (m).",
+          "Énergie mécanique : Em = Ec + Ep, exprimée en joules (J) ; elle additionne mouvement et altitude.",
+          "En chute libre sans frottements, Em reste constante : ce que Ep perd, Ec le gagne (conservation de l'énergie).",
+          "Doubler la vitesse quadruple Ec car v est au carré ; au freinage, Ec se transforme surtout en énergie thermique (chaleur des freins)."
+        ],
+        "revision": {
+          "flash": [
+            "Énergie cinétique : Ec = 1/2 × m × v², elle dépend de la masse et du carré de la vitesse.",
+            "Énergie potentielle de position : Ep = m × g × h, elle augmente avec la masse et la hauteur.",
+            "Énergie mécanique : Em = Ec + Ep, toujours en joules.",
+            "En chute libre sans frottements, Em se conserve : Ep diminue, Ec augmente, le total ne change pas.",
+            "Doubler la vitesse multiplie l'énergie cinétique par 4."
+          ],
+          "reperes": [
+            {
+              "label": "Énergie cinétique",
+              "value": "Ec = 1/2 × m × v² ; Ec en joules (J), m en kilogrammes (kg), v en mètres par seconde (m/s)"
+            },
+            {
+              "label": "Énergie potentielle de position",
+              "value": "Ep = m × g × h ; Ep en joules (J), m en kilogrammes (kg), g ≈ 10 N/kg au brevet, h hauteur en mètres (m)"
+            },
+            {
+              "label": "Énergie mécanique",
+              "value": "Em = Ec + Ep ; toutes les énergies en joules (J)"
+            },
+            {
+              "label": "Conservation (chute libre)",
+              "value": "Em = Ec + Ep = constante sans frottements ; en joules (J)"
+            },
+            {
+              "label": "Effet de la vitesse",
+              "value": "Doubler v multiplie Ec par 4 car v est au carré"
+            },
+            {
+              "label": "Unité de l'énergie",
+              "value": "Le joule (J) ; toute énergie transférée ou convertie se mesure en joules"
+            }
+          ],
+          "astuce": "Pour l'énergie cinétique, pense un demi M V deux : le 2 de la vitesse est un exposant (au carré), pas un facteur. Pour la conservation en chute, imagine une balance : Ep descend, Ec monte, et le total Em ne bouge pas.",
+          "piege": "Ne mets jamais la vitesse au carré seulement à moitié : c'est Ec = 1/2 × m × v², donc on élève d'abord v au carré, PUIS on multiplie. Et n'oublie pas de convertir les vitesses en mètres par seconde et les masses en kilogrammes avant tout calcul."
+        },
+        "pdf": "/cours-pc/energie-mecanique.pdf"
+      },
+      "questions": [
+        {
+          "question": "En quelle unité mesure-t-on toute forme d'énergie ?",
+          "choices": [
+            "Le watt (W)",
+            "Le joule (J)",
+            "Le newton (N)",
+            "Le mètre par seconde (m/s)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Toute énergie, qu'elle soit transférée ou convertie, se mesure en joules (J)."
+        },
+        {
+          "question": "Quelle est la formule de l'énergie cinétique d'un objet en mouvement ?",
+          "choices": [
+            "Ec = m × g × h",
+            "Ec = m × v",
+            "Ec = 1/2 × m × v²",
+            "Ec = Ec + Ep"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'énergie cinétique vaut Ec = 1/2 × m × v² : elle dépend de la masse et du carré de la vitesse."
+        },
+        {
+          "question": "Un scooter de masse m = 100 kg roule à v = 10 m/s. Quelle est son énergie cinétique ?",
+          "choices": [
+            "5000 J",
+            "1000 J",
+            "500 J",
+            "10000 J"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ec = 1/2 × m × v² = 1/2 × 100 × 10² = 1/2 × 100 × 100 = 5000 J."
+        },
+        {
+          "question": "De quoi dépend l'énergie potentielle de position Ep = m × g × h ?",
+          "choices": [
+            "De la masse et de l'altitude",
+            "De la vitesse seulement",
+            "De la masse et de la vitesse",
+            "De la couleur de l'objet"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'énergie potentielle de position augmente avec la masse et avec la hauteur (altitude) de l'objet par rapport au sol."
+        },
+        {
+          "question": "Comment calcule-t-on l'énergie mécanique d'un objet ?",
+          "choices": [
+            "Em = Ec − Ep",
+            "Em = Ec × Ep",
+            "Em = Ep / Ec",
+            "Em = Ec + Ep"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'énergie mécanique est l'énergie totale : Em = Ec + Ep, soit la somme du mouvement et de l'altitude, en joules."
+        },
+        {
+          "question": "Que devient l'énergie mécanique d'une balle en chute libre, sans frottements ?",
+          "choices": [
+            "Elle augmente sans cesse",
+            "Elle se conserve (reste constante)",
+            "Elle diminue jusqu'à zéro",
+            "Elle double à chaque seconde"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sans frottements, Em reste constante : la baisse de Ep est exactement compensée par la hausse de Ec."
+        },
+        {
+          "question": "Si on double la vitesse d'un objet, comment varie son énergie cinétique ?",
+          "choices": [
+            "Elle est multipliée par 2",
+            "Elle reste identique",
+            "Elle est multipliée par 4",
+            "Elle est divisée par 2"
+          ],
+          "correctIndex": 2,
+          "explanation": "Comme la vitesse est au carré dans Ec = 1/2 × m × v², doubler v multiplie l'énergie cinétique par 2² = 4."
+        },
+        {
+          "question": "Lors du freinage d'un véhicule, en quoi se transforme principalement l'énergie cinétique ?",
+          "choices": [
+            "En énergie potentielle de position",
+            "En énergie thermique (chaleur des freins)",
+            "En énergie lumineuse",
+            "Elle disparaît totalement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Au freinage, l'énergie cinétique se transforme surtout en énergie thermique : les freins chauffent."
+        },
+        {
+          "question": "À quoi correspond l'énergie cinétique d'un objet ?",
+          "choices": [
+            "À l'énergie qu'il possède parce qu'il est en mouvement",
+            "À l'énergie qu'il possède parce qu'il est en hauteur",
+            "À l'énergie de sa température",
+            "À sa masse exprimée en joules"
+          ],
+          "correctIndex": 0,
+          "explanation": "L'énergie cinétique Ec est l'énergie que possède un objet du fait de son mouvement ; elle se calcule par Ec = 1/2 × m × v²."
+        },
+        {
+          "question": "Quelle est la bonne formule de l'énergie potentielle de position ?",
+          "choices": [
+            "Ep = 1/2 × m × v²",
+            "Ep = m / (g × h)",
+            "Ep = m × g × h",
+            "Ep = m + g + h"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'énergie potentielle de position vaut Ep = m × g × h, avec m en kg, g en N/kg et h la hauteur en mètres."
+        },
+        {
+          "question": "Un livre de masse m = 2 kg est posé sur une étagère à h = 3 m du sol (g = 10 N/kg). Quelle est son énergie potentielle de position ?",
+          "choices": [
+            "6 J",
+            "15 J",
+            "60 J",
+            "600 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ep = m × g × h = 2 × 10 × 3 = 60 J."
+        },
+        {
+          "question": "Une voiture de masse m = 800 kg roule à v = 20 m/s. Quelle est son énergie cinétique ?",
+          "choices": [
+            "8000 J",
+            "16000 J",
+            "160000 J",
+            "320000 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ec = 1/2 × m × v² = 1/2 × 800 × 20² = 1/2 × 800 × 400 = 160000 J."
+        },
+        {
+          "question": "Un objet possède Ec = 300 J et Ep = 500 J. Quelle est son énergie mécanique ?",
+          "choices": [
+            "800 J",
+            "200 J",
+            "150000 J",
+            "1,67 J"
+          ],
+          "correctIndex": 0,
+          "explanation": "Em = Ec + Ep = 300 + 500 = 800 J : on additionne simplement les deux énergies."
+        },
+        {
+          "question": "En chute libre sans frottements, que se passe-t-il quand un objet descend ?",
+          "choices": [
+            "Ep et Ec diminuent toutes les deux",
+            "Ep augmente et Ec diminue",
+            "Ep diminue et Ec augmente d'autant",
+            "Em augmente petit à petit"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pendant la descente, l'altitude baisse donc Ep diminue, mais la vitesse augmente donc Ec augmente exactement d'autant : Em reste constante."
+        },
+        {
+          "question": "Une vitesse de 72 km/h correspond à 20 m/s. Une moto de m = 150 kg roulant à cette vitesse a quelle énergie cinétique ?",
+          "choices": [
+            "3000 J",
+            "30000 J",
+            "60000 J",
+            "108000 J"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ec = 1/2 × m × v² = 1/2 × 150 × 20² = 1/2 × 150 × 400 = 30000 J."
+        },
+        {
+          "question": "Dans la formule Ec = 1/2 × m × v², le chiffre 2 placé sur la vitesse signifie que :",
+          "choices": [
+            "la vitesse est multipliée par 2",
+            "la vitesse est élevée au carré",
+            "on divise la vitesse par 2",
+            "on ajoute 2 à la vitesse"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le 2 est un exposant : v² signifie que la vitesse est élevée au carré (v × v), ce n'est pas un facteur."
+        },
+        {
+          "question": "Si on multiplie la vitesse d'un objet par 3, par combien son énergie cinétique est-elle multipliée ?",
+          "choices": [
+            "Par 3",
+            "Par 6",
+            "Par 9",
+            "Par 12"
+          ],
+          "correctIndex": 2,
+          "explanation": "Comme v est au carré dans Ec = 1/2 × m × v², multiplier v par 3 multiplie Ec par 3² = 9."
+        },
+        {
+          "question": "Tout en haut d'une pente de montagnes russes, le wagon est immobile. Quelle énergie possède-t-il essentiellement ?",
+          "choices": [
+            "Surtout de l'énergie potentielle de position",
+            "Surtout de l'énergie cinétique",
+            "Aucune énergie",
+            "Uniquement de l'énergie thermique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Immobile mais situé en hauteur, le wagon a une énergie cinétique quasi nulle (v = 0) et une grande énergie potentielle de position."
+        },
+        {
+          "question": "Un objet est lâché sans vitesse. En chute libre sans frottements, son énergie mécanique de départ vaut 250 J. Au moment où il atteint le sol (Ep = 0), quelle est son énergie cinétique ?",
+          "choices": [
+            "0 J",
+            "125 J",
+            "250 J",
+            "500 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "Em se conserve : Em = Ec + Ep = 250 J. Quand Ep = 0, toute l'énergie mécanique est devenue cinétique, donc Ec = 250 J."
+        },
+        {
+          "question": "Pourquoi l'énergie cinétique au freinage ne disparaît-elle jamais vraiment ?",
+          "choices": [
+            "Parce qu'elle reste stockée dans la vitesse",
+            "Parce qu'elle change de forme (en chaleur), sans se perdre",
+            "Parce qu'elle redevient de l'énergie potentielle",
+            "Parce qu'elle s'annule complètement"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'énergie ne se perd pas : au freinage, l'énergie cinétique se transforme surtout en énergie thermique (chaleur des freins), elle change de forme."
+        },
+        {
+          "question": "Avec quel instrument mesure-t-on la masse m utilisée dans le calcul de l'énergie cinétique ?",
+          "choices": [
+            "Un dynamomètre",
+            "Une balance",
+            "Un chronomètre",
+            "Un voltmètre"
+          ],
+          "correctIndex": 1,
+          "explanation": "La masse m, en kilogrammes (kg), se mesure avec une balance. Le dynamomètre, lui, sert à mesurer une force (en newtons)."
+        },
+        {
+          "question": "Un grimpeur de masse m = 60 kg monte au sommet d'un mur de h = 5 m (g = 10 N/kg). De combien augmente son énergie potentielle de position ?",
+          "choices": [
+            "300 J",
+            "650 J",
+            "1200 J",
+            "3000 J"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ep = m × g × h = 60 × 10 × 5 = 3000 J : son énergie potentielle de position augmente de 3000 J."
+        }
+      ]
+    },
+    {
+      "id": "fiche-pc-energie-electrique",
+      "title": "L'énergie électrique",
+      "emoji": "🔌",
+      "lesson": {
+        "title": "L'énergie électrique",
+        "intro": "Quand tu branches un radiateur ou que tu charges ton téléphone, tu utilises de l'énergie électrique. Mais pourquoi une lampe brille moins quand on ajoute une résistance ? Pourquoi les freins ou un grille-pain chauffent ? Et combien coûte un appareil qui tourne 2 heures ? La loi d'Ohm, la puissance et l'énergie vont te donner toutes les réponses. C'est l'un des chapitres les plus utiles pour le brevet, alors accroche-toi.",
+        "sections": [
+          {
+            "title": "1. La résistance et l'effet Joule",
+            "content": "Une résistance, aussi appelée conducteur ohmique, est un dipôle non polarisé qui s'oppose plus ou moins au passage du courant. Sa grandeur se note R et s'exprime en ohms, de symbole oméga (Ω). On la mesure avec un ohmmètre branché aux bornes du dipôle isolé, c'est-à-dire hors du circuit, sur les bornes VΩ et COM. Ajouter une résistance en série diminue l'intensité I : plus R est grande, plus I est faible, et la lampe brille moins. Quand le courant traverse une résistance, de l'énergie électrique se transforme en énergie thermique : c'est l'effet Joule, qui fait chauffer l'appareil."
+          },
+          {
+            "title": "2. La loi d'Ohm",
+            "content": "Pour un conducteur ohmique, la tension U à ses bornes et l'intensité I qui le traverse sont proportionnelles. C'est la loi d'Ohm : U = R × I, avec U en volts, R en ohms et I en ampères. On peut aussi écrire R = U / I ou I = U / R. Sur un graphique, la caractéristique d'une résistance, c'est-à-dire U en fonction de I, est une droite qui passe par l'origine : le rapport U / I est constant et vaut justement R. Attention à toujours convertir les milliampères en ampères avant de calculer, par exemple 24 mA = 0,024 A."
+          },
+          {
+            "title": "3. Puissance et énergie électrique",
+            "content": "La puissance électrique P, en watts (W), est l'énergie consommée chaque seconde. Elle se calcule avec P = U × I, où U est en volts et I en ampères. L'énergie électrique E dépend de la puissance et de la durée de fonctionnement : E = P × t, avec E en joules, P en watts et t en secondes. On peut aussi exprimer E en kilowattheures (kWh) si P est en kilowatts et t en heures. Pour une résistance, on a aussi P = R × I². La plaque signalétique d'un appareil indique sa tension nominale et sa puissance nominale, par exemple 230 V – 1500 W."
+          },
+          {
+            "title": "4. Sécurité électrique",
+            "content": "Quand un courant trop fort circule, l'appareil ou le fil chauffe par effet Joule et peut surchauffer : c'est un risque d'incendie. Pour éviter cela, on utilise un disjoncteur qui coupe le courant si l'intensité dépasse une valeur maximale, et on choisit un câble de diamètre adapté. Moins un matériau est conducteur, plus sa résistance est grande et plus il chauffe : c'est pour cela qu'un radiateur ou un grille-pain utilise volontairement l'effet Joule, mais qu'un fil d'alimentation, lui, doit rester froid et bien dimensionné."
+          }
+        ],
+        "keyPoints": [
+          "Une résistance (conducteur ohmique) s'oppose au passage du courant ; on la note R en ohms (Ω) et on la mesure à l'ohmmètre, dipôle isolé hors circuit.",
+          "Loi d'Ohm : U = R × I, avec U en volts (V), R en ohms (Ω) et I en ampères (A) ; on en déduit R = U / I et I = U / R.",
+          "La caractéristique d'un conducteur ohmique (U en fonction de I) est une droite passant par l'origine : U et I sont proportionnels, et le rapport U/I vaut R.",
+          "Effet Joule : une résistance traversée par un courant convertit l'énergie électrique en énergie thermique (chaleur) et s'échauffe.",
+          "Puissance : P = U × I, en watts (W), avec U en volts et I en ampères ; pour une résistance aussi P = R × I².",
+          "Énergie : E = P × t, en joules (J) avec P en watts et t en secondes, ou en kWh avec P en kW et t en heures ; ne pas oublier de convertir les mA en A."
+        ],
+        "revision": {
+          "flash": [
+            "Loi d'Ohm : U = R × I, valable seulement pour un conducteur ohmique.",
+            "Caractéristique d'une résistance = droite qui passe par l'origine ; U et I sont proportionnels.",
+            "Effet Joule = énergie électrique transformée en chaleur dans une résistance.",
+            "Puissance en watts : P = U × I ; énergie en joules ou kWh : E = P × t.",
+            "Toujours convertir : 24 mA = 0,024 A et 1500 W = 1,5 kW avant de calculer."
+          ],
+          "reperes": [
+            {
+              "label": "Loi d'Ohm",
+              "value": "U = R × I ; U en volts, R en ohms, I en ampères"
+            },
+            {
+              "label": "Résistance",
+              "value": "R = U / I ; R en ohms (Ω), U en volts, I en ampères"
+            },
+            {
+              "label": "Intensité",
+              "value": "I = U / R ; I en ampères, U en volts, R en ohms"
+            },
+            {
+              "label": "Puissance électrique",
+              "value": "P = U × I ; P en watts (W), U en volts, I en ampères"
+            },
+            {
+              "label": "Énergie électrique",
+              "value": "E = P × t ; E en joules (J), P en watts, t en secondes (ou E en kWh, P en kW, t en heures)"
+            },
+            {
+              "label": "Puissance d'une résistance",
+              "value": "P = R × I² ; P en watts, R en ohms, I en ampères"
+            }
+          ],
+          "astuce": "Pour la loi d'Ohm, utilise le triangle U / R I : U est en haut, R et I sont en bas. On cache la grandeur cherchée : tu caches U il reste R × I, tu caches R il reste U / I, tu caches I il reste U / R. Même astuce pour la puissance avec le triangle P / U I : P = U × I, U = P / I, I = P / U.",
+          "piege": "Ne pas oublier de convertir les unités avant de calculer : une intensité donnée en mA doit passer en ampères (24 mA = 0,024 A) et une puissance en W doit passer en kW pour obtenir des kWh. Oublier la conversion fausse complètement le résultat au brevet."
+        },
+        "pdf": "/cours-pc/energie-electrique.pdf"
+      },
+      "questions": [
+        {
+          "question": "Quelle est l'unité de la résistance R et avec quel appareil la mesure-t-on ?",
+          "choices": [
+            "Le volt, mesuré avec un voltmètre",
+            "L'ohm (Ω), mesuré avec un ohmmètre sur le dipôle isolé",
+            "L'ampère, mesuré avec un ampèremètre en série",
+            "Le watt, mesuré avec un wattmètre"
+          ],
+          "correctIndex": 1,
+          "explanation": "La résistance R s'exprime en ohms (Ω) et se mesure avec un ohmmètre branché aux bornes du dipôle isolé, hors du circuit."
+        },
+        {
+          "question": "Quelle relation traduit la loi d'Ohm pour un conducteur ohmique ?",
+          "choices": [
+            "U = R × I",
+            "P = U × I",
+            "E = P × t",
+            "U = R / I"
+          ],
+          "correctIndex": 0,
+          "explanation": "La loi d'Ohm s'écrit U = R × I : la tension est proportionnelle à l'intensité, avec U en volts, R en ohms et I en ampères."
+        },
+        {
+          "question": "Une résistance de 230 Ω est traversée par un courant de 24 mA. Quelle est la tension à ses bornes ?",
+          "choices": [
+            "552 V",
+            "0,1 V",
+            "5,52 V",
+            "9,58 V"
+          ],
+          "correctIndex": 2,
+          "explanation": "Il faut convertir 24 mA = 0,024 A, puis U = R × I = 230 × 0,024 = 5,52 V."
+        },
+        {
+          "question": "Sur un graphique, comment reconnaît-on qu'un dipôle est un conducteur ohmique ?",
+          "choices": [
+            "Sa caractéristique est une courbe qui monte de plus en plus vite",
+            "Sa caractéristique est une droite qui ne passe pas par l'origine",
+            "Sa caractéristique est une droite qui passe par l'origine",
+            "Sa caractéristique est une ligne horizontale"
+          ],
+          "correctIndex": 2,
+          "explanation": "La caractéristique U en fonction de I d'un conducteur ohmique est une droite passant par l'origine, car U et I sont proportionnels."
+        },
+        {
+          "question": "Comment appelle-t-on la transformation de l'énergie électrique en chaleur dans une résistance ?",
+          "choices": [
+            "L'effet Joule",
+            "La loi d'Ohm",
+            "La conduction parfaite",
+            "L'effet photovoltaïque"
+          ],
+          "correctIndex": 0,
+          "explanation": "Quand un courant traverse une résistance, l'énergie électrique est convertie en énergie thermique : c'est l'effet Joule, qui fait chauffer le dipôle."
+        },
+        {
+          "question": "Quelle formule permet de calculer la puissance électrique d'un appareil ?",
+          "choices": [
+            "P = U / I",
+            "P = U × I",
+            "P = R / I",
+            "P = E / R"
+          ],
+          "correctIndex": 1,
+          "explanation": "La puissance électrique vaut P = U × I, avec P en watts, U en volts et I en ampères ; elle représente l'énergie consommée chaque seconde."
+        },
+        {
+          "question": "Un radiateur de 1500 W fonctionne pendant 2 h. Quelle énergie consomme-t-il en kWh ?",
+          "choices": [
+            "3000 kWh",
+            "750 kWh",
+            "3 kWh",
+            "0,75 kWh"
+          ],
+          "correctIndex": 2,
+          "explanation": "On convertit 1500 W = 1,5 kW, puis E = P × t = 1,5 kW × 2 h = 3 kWh."
+        },
+        {
+          "question": "Que se passe-t-il quand on ajoute une résistance en série dans un circuit avec une lampe ?",
+          "choices": [
+            "L'intensité augmente et la lampe brille plus fort",
+            "L'intensité diminue et la lampe brille moins fort",
+            "L'intensité ne change pas du tout",
+            "La tension du générateur double"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ajouter une résistance en série diminue l'intensité I du courant : plus R est grande, plus I est faible, donc la lampe brille moins."
+        },
+        {
+          "question": "À partir de la loi d'Ohm, quelle formule donne directement la résistance R ?",
+          "choices": [
+            "R = U × I",
+            "R = U / I",
+            "R = I / U",
+            "R = U + I"
+          ],
+          "correctIndex": 1,
+          "explanation": "En isolant R dans U = R × I, on obtient R = U / I : le rapport de la tension par l'intensité, constant pour un conducteur ohmique."
+        },
+        {
+          "question": "Une tension de 6 V est appliquée aux bornes d'une résistance de 300 Ω. Quelle est l'intensité du courant qui la traverse ?",
+          "choices": [
+            "0,02 A",
+            "1800 A",
+            "50 A",
+            "0,2 A"
+          ],
+          "correctIndex": 0,
+          "explanation": "On utilise I = U / R = 6 / 300 = 0,02 A (soit 20 mA)."
+        },
+        {
+          "question": "Aux bornes d'une résistance, on mesure U = 4,4 V quand I = 20 mA. Quelle est la valeur de cette résistance ?",
+          "choices": [
+            "88 Ω",
+            "0,088 Ω",
+            "220 Ω",
+            "440 Ω"
+          ],
+          "correctIndex": 2,
+          "explanation": "On convertit 20 mA = 0,020 A, puis R = U / I = 4,4 / 0,020 = 220 Ω."
+        },
+        {
+          "question": "Un appareil branché sous 230 V est traversé par un courant de 5 A. Quelle est sa puissance électrique ?",
+          "choices": [
+            "46 W",
+            "1150 W",
+            "235 W",
+            "225 W"
+          ],
+          "correctIndex": 1,
+          "explanation": "P = U × I = 230 × 5 = 1150 W. La puissance est le produit de la tension par l'intensité."
+        },
+        {
+          "question": "Quelle est la formule qui relie l'énergie électrique E à la puissance P et à la durée t ?",
+          "choices": [
+            "E = P / t",
+            "E = P − t",
+            "E = P × t",
+            "E = t / P"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'énergie électrique se calcule avec E = P × t : E en joules (J) si P est en watts et t en secondes, ou E en kWh si P est en kW et t en heures."
+        },
+        {
+          "question": "Une ampoule de 60 W reste allumée pendant 30 secondes. Quelle énergie consomme-t-elle en joules ?",
+          "choices": [
+            "2 J",
+            "90 J",
+            "1800 J",
+            "0,5 J"
+          ],
+          "correctIndex": 2,
+          "explanation": "E = P × t = 60 × 30 = 1800 J. La durée est déjà en secondes, donc l'énergie est directement en joules."
+        },
+        {
+          "question": "Une résistance de 50 Ω est parcourue par un courant de 2 A. Quelle est la puissance reçue par effet Joule (P = R × I²) ?",
+          "choices": [
+            "100 W",
+            "200 W",
+            "25 W",
+            "5000 W"
+          ],
+          "correctIndex": 1,
+          "explanation": "P = R × I² = 50 × 2² = 50 × 4 = 200 W. On élève d'abord l'intensité au carré, puis on multiplie par R."
+        },
+        {
+          "question": "Une plaque signalétique indique « 230 V – 2000 W ». Que signifient ces deux valeurs ?",
+          "choices": [
+            "La résistance et l'énergie de l'appareil",
+            "La tension nominale et la puissance nominale de l'appareil",
+            "L'intensité nominale et la durée de fonctionnement",
+            "La tension maximale et la masse de l'appareil"
+          ],
+          "correctIndex": 1,
+          "explanation": "La plaque signalétique d'un appareil indique sa tension nominale (230 V) et sa puissance nominale (2000 W), c'est-à-dire les valeurs prévues pour son fonctionnement normal."
+        },
+        {
+          "question": "Quel composant coupe automatiquement le courant si l'intensité devient trop forte et risque de provoquer un incendie ?",
+          "choices": [
+            "Le voltmètre",
+            "Le générateur",
+            "Le disjoncteur",
+            "L'interrupteur simple"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le disjoncteur coupe le courant lorsque l'intensité dépasse une valeur maximale, ce qui protège l'installation contre la surchauffe et l'incendie."
+        },
+        {
+          "question": "Comment convertit-on 75 mA en ampères ?",
+          "choices": [
+            "75 mA = 0,075 A",
+            "75 mA = 7,5 A",
+            "75 mA = 750 A",
+            "75 mA = 75 000 A"
+          ],
+          "correctIndex": 0,
+          "explanation": "Un milliampère vaut un millième d'ampère : on divise par 1000, donc 75 mA = 0,075 A. Cette conversion est indispensable avant tout calcul."
+        },
+        {
+          "question": "Pour deux résistances soumises à la même tension, laquelle laisse passer le courant le plus faible ?",
+          "choices": [
+            "Celle de 33 Ω",
+            "Les deux laissent passer le même courant",
+            "Cela dépend uniquement de la durée",
+            "Celle de 220 Ω"
+          ],
+          "correctIndex": 3,
+          "explanation": "D'après I = U / R, plus R est grande, plus I est faible. La résistance de 220 Ω laisse donc passer un courant plus faible que celle de 33 Ω."
+        },
+        {
+          "question": "Pourquoi un grille-pain utilise-t-il volontairement l'effet Joule, alors qu'un fil d'alimentation doit rester froid ?",
+          "choices": [
+            "Parce que sa résistance est grande, ce qui le fait chauffer pour griller le pain",
+            "Parce qu'il ne contient aucune résistance",
+            "Parce qu'il fonctionne sans courant électrique",
+            "Parce que sa puissance est nulle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le grille-pain a une grande résistance : par effet Joule, il convertit beaucoup d'énergie électrique en chaleur. Un fil d'alimentation, bien dimensionné, a une faible résistance et reste froid."
+        },
+        {
+          "question": "Quel appareil mesure la tension U et comment doit-il être branché dans le circuit ?",
+          "choices": [
+            "L'ampèremètre, branché en série",
+            "L'ohmmètre, branché sur le dipôle isolé",
+            "Le voltmètre, branché en dérivation aux bornes du dipôle",
+            "Le wattmètre, branché en série"
+          ],
+          "correctIndex": 2,
+          "explanation": "La tension U se mesure en volts (V) avec un voltmètre, branché en dérivation, c'est-à-dire aux bornes du dipôle dont on veut connaître la tension."
+        },
+        {
+          "question": "Un sèche-cheveux de 1000 W fonctionne pendant 3 minutes. Quelle énergie consomme-t-il en joules ?",
+          "choices": [
+            "3000 J",
+            "1000 J",
+            "60 000 J",
+            "180 000 J"
+          ],
+          "correctIndex": 3,
+          "explanation": "Pour obtenir des joules, on convertit 3 min = 180 s, puis E = P × t = 1000 × 180 = 180 000 J."
+        }
+      ]
+    }
+  ]
+}

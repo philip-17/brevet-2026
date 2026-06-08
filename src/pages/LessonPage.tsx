@@ -353,6 +353,25 @@ export default function LessonPage() {
             🎴 Réviser en flashcards
           </Link>
         </div>
+
+        {lesson.pdf && (
+          <a
+            className="lesson-pdf"
+            href={lesson.pdf}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => speech.stop()}
+          >
+            <span className="lesson-pdf-icon">📄</span>
+            <span className="lesson-pdf-text">
+              <span className="lesson-pdf-title">Cours d'origine (PDF)</span>
+              <span className="lesson-pdf-sub">
+                La séquence complète distribuée en classe
+              </span>
+            </span>
+            <span className="lesson-pdf-arrow">↗</span>
+          </a>
+        )}
       </article>
     </>
   )

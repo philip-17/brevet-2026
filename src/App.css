@@ -1339,6 +1339,74 @@
   color: #a5f3fc;
 }
 
+/* ====== Section "Mes fiches PC" (bannière émeraude) ====== */
+
+.section-banner.banner-fiches-pc {
+  background: linear-gradient(
+    135deg,
+    rgba(52, 211, 153, 0.22) 0%,
+    rgba(16, 185, 129, 0.2) 50%,
+    rgba(6, 182, 212, 0.22) 100%
+  );
+  background-size: 250% 250%;
+  border: 1.5px solid transparent;
+  animation: autoGradientShift 6s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.22);
+}
+
+.section-banner.banner-fiches-pc::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #34d399, #10b981, #06b6d4, #34d399);
+  background-size: 300% 300%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: autoGradientShift 6s ease-in-out infinite;
+}
+
+.section-banner.banner-fiches-pc::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -30%;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  pointer-events: none;
+  animation: flashSweep 6s ease-in-out infinite;
+}
+
+.section-banner.banner-fiches-pc .section-banner-emoji {
+  font-size: 42px;
+  animation: autoTarget 3s ease-in-out infinite;
+}
+
+.section-banner.banner-fiches-pc .section-banner-title {
+  background: linear-gradient(135deg, #34d399, #2dd4bf, #22d3ee);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: autoGradientShift 6s ease-in-out infinite;
+  font-size: 22px;
+}
+
+.section-banner.banner-fiches-pc .section-banner-subtitle {
+  color: #a7f3d0;
+}
+
 /* ====== Chapitre FLASH (calcul mental — bannière feu) ====== */
 
 .chapter-item.is-flash {
@@ -2493,6 +2561,52 @@
 .lesson-cta .btn-primary,
 .lesson-cta .btn-secondary {
   text-align: center;
+}
+
+/* Lien vers le PDF du cours d'origine (tout en bas de la leçon) */
+.lesson-pdf {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1.5px solid #fecaca;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.lesson-pdf:active {
+  transform: scale(0.99);
+}
+
+.lesson-pdf-icon {
+  font-size: 26px;
+  line-height: 1;
+}
+
+.lesson-pdf-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.lesson-pdf-title {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.lesson-pdf-sub {
+  font-size: 12.5px;
+  color: #9a3b3b;
+  opacity: 0.85;
+}
+
+.lesson-pdf-arrow {
+  font-size: 18px;
+  opacity: 0.7;
 }
 
 /* Mode sélecteur étendu (3 boutons) */
