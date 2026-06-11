@@ -1522,8 +1522,8 @@
         {
           "question": "Quel pays a le plus de frontières terrestres ?",
           "choices": [
-            "Russie",
-            "Chine",
+            "Inde",
+            "Allemagne",
             "Brésil",
             "Russie et Chine ex-aequo"
           ],
@@ -2658,9 +2658,9 @@
         {
           "question": "Quel scientifique a démontré la transmission microbienne des maladies ?",
           "choices": [
-            "Pasteur",
+            "Jenner",
             "Fleming",
-            "Koch",
+            "Lister",
             "Pasteur et Koch"
           ],
           "correctIndex": 3,
@@ -4595,7 +4595,7 @@
             "Adèle Haenel"
           ],
           "correctIndex": 1,
-          "explanation": "Palme d'or 2013 partagée avec Léa Seydoux et Abdellatif Kechiche."
+          "explanation": "Adèle Exarchopoulos a reçu le César du meilleur espoir féminin 2014 pour « La Vie d'Adèle » (film également Palme d'or 2013)."
         },
         {
           "question": "Quel film français a remporté l'Oscar du meilleur film international en 2024 ?",
@@ -4820,7 +4820,7 @@
         {
           "question": "Quel cinéaste danois a fondé le Dogme95 ?",
           "choices": [
-            "von Trier",
+            "Dreyer",
             "Bier",
             "Refn",
             "Vinterberg et von Trier"
@@ -5413,7 +5413,7 @@
             "Burzum",
             "Mayhem",
             "Emperor",
-            "Mayhem (référence)"
+            "Immortal"
           ],
           "correctIndex": 1,
           "explanation": "Mayhem est considéré comme la formation pionnière du black metal."
@@ -5948,9 +5948,9 @@
             "Brücke",
             "Blaue Reiter",
             "Bauhaus",
-            "Blaue Reiter (et il enseigna au Bauhaus)"
+            "Fauvisme"
           ],
-          "correctIndex": 3,
+          "correctIndex": 1,
           "explanation": "Le Cavalier bleu (Blaue Reiter) en 1911, puis enseignement au Bauhaus."
         },
         {
@@ -5978,8 +5978,8 @@
         {
           "question": "Quel peintre baroque français a peint pour la cour de Louis XIV ?",
           "choices": [
-            "Le Brun",
-            "Mignard",
+            "Watteau",
+            "Fragonard",
             "Poussin",
             "Le Brun et Mignard"
           ],
@@ -6502,8 +6502,8 @@
         {
           "question": "Quel pilote a remporté 7 titres mondiaux en F1 (record co-détenu) ?",
           "choices": [
-            "Schumacher",
-            "Hamilton",
+            "Senna",
+            "Prost",
             "Vettel",
             "Schumacher et Hamilton"
           ],
@@ -6590,8 +6590,8 @@
         {
           "question": "Quelle équipe NFL a remporté le plus de Super Bowls (record co-détenu) ?",
           "choices": [
-            "Patriots",
-            "Steelers",
+            "Cowboys",
+            "Packers",
             "49ers",
             "Patriots et Steelers à 6"
           ],
@@ -8990,8 +8990,8 @@
         {
           "question": "Quelle langue parle-t-on principalement en Inde (officiellement) ?",
           "choices": [
-            "Anglais",
-            "Hindi",
+            "Ourdou",
+            "Bengali",
             "Tamoul",
             "Hindi et Anglais"
           ],
@@ -9146,10 +9146,10 @@
           "choices": [
             "Anglais",
             "Français",
-            "Français (officielle)",
+            "Inuktitut",
             "Bilingue"
           ],
-          "correctIndex": 2,
+          "correctIndex": 1,
           "explanation": "Le français est la seule langue officielle de la province."
         },
         {
@@ -9213,7 +9213,7 @@
             "Yiddish",
             "Hébreu",
             "Arabe",
-            "Hébreu (et historiquement arabe)"
+            "Araméen"
           ],
           "correctIndex": 1,
           "explanation": "L'hébreu est officiel ; l'arabe a un statut spécial depuis 2018."
@@ -9724,23 +9724,23 @@
           "question": "Qui a inventé la télévision électronique ?",
           "choices": [
             "Baird",
-            "Farnsworth",
-            "Zworykin",
+            "Edison",
+            "Tesla",
             "Farnsworth et Zworykin"
           ],
           "correctIndex": 3,
           "explanation": "Philo Farnsworth et Vladimir Zworykin, années 1920-1930."
         },
         {
-          "question": "Qui a inventé la calculatrice mécanique ?",
+          "question": "Qui a conçu la « Pascaline », une des premières calculatrices mécaniques ?",
           "choices": [
             "Pascal",
             "Leibniz",
             "Babbage",
-            "Pascal puis Leibniz"
+            "Newton"
           ],
-          "correctIndex": 3,
-          "explanation": "Pascaline (1642), puis machine de Leibniz (1673)."
+          "correctIndex": 0,
+          "explanation": "La Pascaline, conçue par Blaise Pascal en 1642 ; Leibniz l'améliora ensuite."
         },
         {
           "question": "Qui a inventé le moteur à explosion à 4 temps ?",
@@ -9770,9 +9770,9 @@
             "Crick et Watson",
             "Franklin",
             "Pauling",
-            "Crick, Watson (avec données de Franklin)"
+            "Mendel"
           ],
-          "correctIndex": 3,
+          "correctIndex": 0,
           "explanation": "Publication en 1953 ; Franklin a fourni les clichés clés (cliché 51)."
         },
         {
