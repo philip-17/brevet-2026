@@ -10,6 +10,7 @@ import LessonPage from './pages/LessonPage'
 import ExamPage from './pages/ExamPage'
 import RevisionPage from './pages/RevisionPage'
 import AdminPage from './pages/AdminPage'
+import TutorAssistant from './components/TutorAssistant'
 import './App.css'
 
 // Remonte QuizPage à chaque changement de matière/chapitre, pour repartir d'un
@@ -33,6 +34,7 @@ export default function App() {
   }, [])
 
   return (
+    <>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route
@@ -95,5 +97,7 @@ export default function App() {
       <Route path="/admin" element={<AdminPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
+    <TutorAssistant />
+    </>
   )
 }
