@@ -19,7 +19,11 @@ export default function LessonPage() {
     const parts = [
       lesson.title + '.',
       lesson.intro,
-      ...lesson.sections.flatMap((s) => [s.title + '.', s.content]),
+      ...lesson.sections.flatMap((s) => [
+        s.title + '.',
+        s.content,
+        ...(s.terms?.map((t) => `${t.term} : ${t.def}`) ?? []),
+      ]),
       'Points clés à retenir :',
       ...lesson.keyPoints.map((p, i) => `${i + 1}. ${p}.`),
     ]
@@ -234,7 +238,13 @@ export default function LessonPage() {
               {speech.supported && (
                 <button
                   className="speak-section"
-                  onClick={() => speakSection(`${s.title}. ${s.content}`)}
+                  onClick={() =>
+                    speakSection(
+                      `${s.title}. ${s.content} ${(s.terms ?? [])
+                        .map((t) => `${t.term} : ${t.def}.`)
+                        .join(' ')}`,
+                    )
+                  }
                   aria-label={`Écouter : ${s.title}`}
                   title="Écouter cette section"
                 >
@@ -249,6 +259,16 @@ export default function LessonPage() {
                 aria-label={`Schéma : ${s.title}`}
                 dangerouslySetInnerHTML={{ __html: s.svg }}
               />
+            )}
+            {s.terms && s.terms.length > 0 && (
+              <dl className="terms-list">
+                {s.terms.map((t, j) => (
+                  <div className="term-item" key={j}>
+                    <dt>{t.term}</dt>
+                    <dd>{t.def}</dd>
+                  </div>
+                ))}
+              </dl>
             )}
           </section>
         ))}

@@ -2322,6 +2322,37 @@
   color: var(--text);
 }
 
+/* ====== Liste de définitions (cours de vocabulaire) ====== */
+
+.terms-list {
+  margin: 18px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.term-item {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 3px solid var(--accent, var(--primary));
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.term-item dt {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.term-item dd {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
 /* À retenir */
 /* ════════════════════════════════════════════════════════════════
    FICHE DE RÉVISION (fin de cours)

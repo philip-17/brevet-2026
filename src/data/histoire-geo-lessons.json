@@ -833,6 +833,601 @@
         "astuce": "Pense à une balance : d'un côté les DROITS, de l'autre les DEVOIRS ; l'équilibre fait le bon citoyen.",
         "piege": "La laïcité n'interdit pas de croire : l'État est neutre, mais chacun garde sa liberté de conscience et de culte."
       }
+    },
+    "vocab-hg-3e": {
+      "title": "📚 Vocabulaire d’histoire-géo — 120 termes officiels",
+      "intro": "Voici toutes les définitions à connaître pour le brevet d'histoire-géo, classées par grand thème. Chaque mot que tu retrouveras dans le quiz est ici expliqué clairement. Lis une section, fais le quiz du chapitre pour vérifier — et reviens ici dès qu'un mot te résiste.",
+      "sections": [
+        {
+          "title": "1. Première Guerre mondiale (1914-1918)",
+          "content": "Les mots-clés du premier grand conflit mondial : la nature des combats, l'expérience des soldats, l'horreur de la violence de masse.",
+          "terms": [
+            {
+              "term": "Guerre totale",
+              "def": "Une guerre qui mobilise toutes les ressources (humaines, économiques, idéologiques) d'un pays"
+            },
+            {
+              "term": "Poilu",
+              "def": "Un soldat français de la Première Guerre mondiale"
+            },
+            {
+              "term": "Armistice",
+              "def": "Un accord pour suspendre les combats"
+            },
+            {
+              "term": "Génocide",
+              "def": "L'extermination programmée et systématique d'un peuple"
+            },
+            {
+              "term": "Le génocide arménien a eu lieu sous quel empire",
+              "def": "L'Empire ottoman"
+            },
+            {
+              "term": "Guerre de position",
+              "def": "Une guerre où les armées se font face dans des tranchées sans grand mouvement"
+            }
+          ]
+        },
+        {
+          "title": "2. Entre-deux-guerres et régimes totalitaires",
+          "content": "Après 1918, des régimes nouveaux contrôlent toute la société par la propagande, la terreur et le culte du chef. Les démocraties, fragilisées, cherchent à résister.",
+          "terms": [
+            {
+              "term": "Régime totalitaire",
+              "def": "Un régime qui contrôle tous les aspects de la vie et impose une idéologie unique"
+            },
+            {
+              "term": "Propagande",
+              "def": "L'ensemble des moyens utilisés pour influencer l'opinion publique"
+            },
+            {
+              "term": "Culte de la personnalité",
+              "def": "La glorification organisée et exagérée d'un chef d'État"
+            },
+            {
+              "term": "Antisémitisme",
+              "def": "L'hostilité envers les Juifs"
+            },
+            {
+              "term": "Nazisme",
+              "def": "L'idéologie nationaliste, raciste et antisémite de Hitler"
+            },
+            {
+              "term": "Kolkhoze",
+              "def": "Une exploitation agricole collective en URSS"
+            },
+            {
+              "term": "Goulag",
+              "def": "Le système de camps de travail forcé en URSS"
+            },
+            {
+              "term": "Front populaire (1936)",
+              "def": "Une coalition de partis de gauche arrivée au pouvoir en France"
+            },
+            {
+              "term": "Démocratie",
+              "def": "Un régime politique dans lequel le peuple détient le pouvoir"
+            }
+          ]
+        },
+        {
+          "title": "3. Seconde Guerre mondiale, Vichy et Shoah",
+          "content": "Le conflit le plus meurtrier de l'histoire (1939-1945) : guerre éclair, occupation, collaboration, Résistance, génocides industrialisés. La justice internationale naît de ses ruines.",
+          "terms": [
+            {
+              "term": "Blitzkrieg",
+              "def": "Une guerre éclair fondée sur la rapidité des chars et de l'aviation"
+            },
+            {
+              "term": "Shoah",
+              "def": "L'extermination des Juifs d'Europe par les nazis"
+            },
+            {
+              "term": "Camp d'extermination",
+              "def": "Un camp destiné à la mise à mort massive et industrielle de déportés"
+            },
+            {
+              "term": "Collaboration",
+              "def": "La coopération volontaire du régime de Vichy avec l'Allemagne nazie"
+            },
+            {
+              "term": "Résistance",
+              "def": "L'ensemble des actions menées contre l'occupant nazi et le régime de Vichy"
+            },
+            {
+              "term": "France libre (chef)",
+              "def": "Charles de Gaulle"
+            },
+            {
+              "term": "STO (Service du Travail Obligatoire)",
+              "def": "Une obligation pour les Français d'aller travailler en Allemagne"
+            },
+            {
+              "term": "Rafle",
+              "def": "Une arrestation massive et soudaine de personnes"
+            },
+            {
+              "term": "Crime contre l'humanité",
+              "def": "Un acte inhumain commis de façon systématique contre des civils, imprescriptible"
+            },
+            {
+              "term": "Épuration",
+              "def": "Le jugement et la sanction des collaborateurs"
+            },
+            {
+              "term": "Débarquement",
+              "def": "Une opération militaire par laquelle des troupes débarquent sur une côte ennemie"
+            },
+            {
+              "term": "ONU",
+              "def": "L'Organisation des Nations Unies, créée en 1945 pour maintenir la paix"
+            },
+            {
+              "term": "Procès de Nuremberg (1945-46)",
+              "def": "Le procès des dirigeants nazis pour crimes de guerre et contre l'humanité"
+            },
+            {
+              "term": "Déporté",
+              "def": "Une personne arrêtée et transférée de force dans un camp"
+            },
+            {
+              "term": "Solution finale",
+              "def": "Le plan nazi d'extermination systématique des Juifs d'Europe"
+            },
+            {
+              "term": "E conurbation",
+              "def": "Un ensemble urbain continu formé par plusieurs villes proches qui se rejoignent"
+            }
+          ]
+        },
+        {
+          "title": "4. Guerre froide et décolonisation",
+          "content": "De 1947 à 1991, le monde est coupé en deux blocs. Pendant que les superpuissances s'affrontent, les peuples colonisés arrachent leur indépendance.",
+          "terms": [
+            {
+              "term": "Guerre froide",
+              "def": "Une période de tensions entre les États-Unis et l'URSS sans affrontement direct"
+            },
+            {
+              "term": "Bloc",
+              "def": "Un ensemble d'États regroupés autour d'une superpuissance"
+            },
+            {
+              "term": "Rideau de fer",
+              "def": "La frontière idéologique séparant l'Europe de l'Ouest du bloc soviétique"
+            },
+            {
+              "term": "OTAN",
+              "def": "Une alliance militaire des pays occidentaux contre l'URSS"
+            },
+            {
+              "term": "Décolonisation",
+              "def": "Le processus d'accession à l'indépendance des anciennes colonies"
+            },
+            {
+              "term": "E métropole (au sens colonial)",
+              "def": "L'État qui possède des colonies"
+            },
+            {
+              "term": "Tiers-monde",
+              "def": "Les pays nouvellement indépendants et en développement, non alignés sur un bloc"
+            },
+            {
+              "term": "Guerre d'Algérie (1954-1962)",
+              "def": "Une guerre d'indépendance contre la colonisation française"
+            },
+            {
+              "term": "CECA (1951)",
+              "def": "La Communauté Européenne du Charbon et de l'Acier, première étape de la construction européenne"
+            },
+            {
+              "term": "Traités de Rome (1957)",
+              "def": "Les traités créant la Communauté Économique Européenne (CEE)"
+            }
+          ]
+        },
+        {
+          "title": "5. République, institutions et EMC",
+          "content": "Comment fonctionne la France ? République, démocratie, droit de vote, laïcité, État-providence : les principes que tu dois connaître pour le brevet d'EMC.",
+          "terms": [
+            {
+              "term": "E république",
+              "def": "Un régime politique où le pouvoir n'est pas détenu par une seule personne et où les dirigeants sont élus"
+            },
+            {
+              "term": "E constitution",
+              "def": "Le texte fondamental qui définit l'organisation des pouvoirs d'un État"
+            },
+            {
+              "term": "Suffrage universel",
+              "def": "Le droit de vote accordé à tous les citoyens majeurs"
+            },
+            {
+              "term": "Référendum",
+              "def": "Une consultation directe des citoyens par oui ou non sur une question"
+            },
+            {
+              "term": "Cohabitation",
+              "def": "Une situation où le président et le Premier ministre sont de tendances politiques opposées"
+            },
+            {
+              "term": "Laïcité",
+              "def": "Le principe de séparation des Églises et de l'État, garantissant la liberté de conscience"
+            },
+            {
+              "term": "Trente Glorieuses",
+              "def": "La période de forte croissance économique de 1945 à 1975"
+            },
+            {
+              "term": "État-providence",
+              "def": "Un État qui prend en charge la protection sociale (santé, retraite, chômage)"
+            },
+            {
+              "term": "Parité (en politique)",
+              "def": "L'égalité du nombre de femmes et d'hommes dans les fonctions politiques"
+            },
+            {
+              "term": "Média",
+              "def": "Un moyen de diffusion de l'information vers un large public"
+            }
+          ]
+        },
+        {
+          "title": "6. Mondialisation et France dans le monde",
+          "content": "Le monde est connecté comme jamais : marchandises, capitaux, informations, personnes circulent en permanence. Quelques mots-clés pour décrypter ces flux.",
+          "terms": [
+            {
+              "term": "Mondialisation",
+              "def": "La mise en relation des différentes parties du monde par l'intensification des échanges"
+            },
+            {
+              "term": "E FTN (Firme Transnationale)",
+              "def": "Une entreprise qui possède des activités dans plusieurs pays"
+            },
+            {
+              "term": "Flux",
+              "def": "Un déplacement (de marchandises, de personnes, d'informations, de capitaux)"
+            },
+            {
+              "term": "Hub",
+              "def": "Une plateforme de correspondance pour les flux (aérien, portuaire...)"
+            },
+            {
+              "term": "Conteneur",
+              "def": "Une caisse métallique standardisée servant au transport de marchandises"
+            },
+            {
+              "term": "Façade maritime",
+              "def": "Un littoral concentrant de grands ports et des activités économiques importantes"
+            },
+            {
+              "term": "E métropole mondiale",
+              "def": "Une grande ville qui concentre des fonctions de commandement à l'échelle mondiale"
+            },
+            {
+              "term": "E mégalopole",
+              "def": "Un vaste ensemble urbain formé par plusieurs métropoles reliées entre elles"
+            },
+            {
+              "term": "Pays émergents",
+              "def": "Des pays connaissant une forte croissance économique et s'intégrant à la mondialisation"
+            },
+            {
+              "term": "PMA",
+              "def": "Un Pays les Moins Avancés, pays les plus pauvres du monde"
+            },
+            {
+              "term": "E délocalisation",
+              "def": "Le déplacement d'une entreprise vers un pays où les coûts sont plus faibles"
+            },
+            {
+              "term": "E ZIP (Zone Industrialo-Portuaire)",
+              "def": "Un vaste espace combinant port, industries et entrepôts"
+            },
+            {
+              "term": "Paradis fiscal",
+              "def": "Un territoire à fiscalité très faible attirant les capitaux étrangers"
+            },
+            {
+              "term": "E migration",
+              "def": "Le déplacement durable de personnes d'un lieu à un autre"
+            },
+            {
+              "term": "Fracture numérique",
+              "def": "Les inégalités d'accès aux technologies numériques entre territoires ou populations"
+            },
+            {
+              "term": "E frontière",
+              "def": "Une limite qui sépare deux États"
+            },
+            {
+              "term": "Francophonie",
+              "def": "L'ensemble des pays et populations qui utilisent le français"
+            },
+            {
+              "term": "ZEE (Zone Économique Exclusive)",
+              "def": "Un espace maritime sur lequel un État a des droits exclusifs d'exploitation"
+            },
+            {
+              "term": "État",
+              "def": "Une autorité politique souveraine qui s'exerce sur un territoire et une population"
+            },
+            {
+              "term": "Souveraineté",
+              "def": "Le pouvoir suprême d'un État de décider sur son territoire"
+            },
+            {
+              "term": "E superpuissance",
+              "def": "Un État dominant le monde par sa puissance économique, militaire et culturelle"
+            },
+            {
+              "term": "Soft power",
+              "def": "La capacité d'influence d'un État par sa culture, ses idées, son mode de vie"
+            },
+            {
+              "term": "BRICS",
+              "def": "Un groupe de pays émergents (Brésil, Russie, Inde, Chine, Afrique du Sud)"
+            },
+            {
+              "term": "E migration pendulaire (ou navette)",
+              "def": "Le déplacement quotidien des habitants entre leur domicile et leur lieu de travail"
+            }
+          ]
+        },
+        {
+          "title": "7. France, Union européenne et territoires",
+          "content": "La France est inscrite dans l'Union européenne et organise ses territoires entre métropole, outre-mer et grandes régions.",
+          "terms": [
+            {
+              "term": "E banlieue",
+              "def": "L'espace urbanisé qui entoure une ville-centre"
+            },
+            {
+              "term": "Aménagement du territoire",
+              "def": "L'ensemble des actions menées pour organiser un territoire et réduire les inégalités"
+            },
+            {
+              "term": "E collectivité territoriale",
+              "def": "Une circonscription administrative (commune, département, région) qui s'administre librement"
+            },
+            {
+              "term": "Décentralisation",
+              "def": "Le transfert de compétences de l'État vers les collectivités territoriales"
+            },
+            {
+              "term": "Région",
+              "def": "Une collectivité territoriale regroupant plusieurs départements"
+            },
+            {
+              "term": "Union européenne (UE)",
+              "def": "Une union politique et économique regroupant 27 États européens"
+            },
+            {
+              "term": "Espace Schengen",
+              "def": "Une zone de libre circulation des personnes entre pays européens membres"
+            },
+            {
+              "term": "Zone euro",
+              "def": "L'ensemble des pays de l'UE ayant adopté l'euro comme monnaie"
+            },
+            {
+              "term": "E eurorégion",
+              "def": "Un espace de coopération transfrontalière entre régions de plusieurs pays européens"
+            },
+            {
+              "term": "DROM (Département et Région d'Outre-mer)",
+              "def": "Un territoire français situé en dehors de la métropole, avec statut de département"
+            },
+            {
+              "term": "Risque naturel",
+              "def": "La menace que représente un phénomène naturel (séisme, inondation...) pour les populations"
+            },
+            {
+              "term": "E zone commerciale périphérique",
+              "def": "Un espace concentrant grandes surfaces et magasins, situé en périphérie de la ville"
+            }
+          ]
+        },
+        {
+          "title": "8. Espaces français : villes, ruralité, productions",
+          "content": "Aires urbaines, périurbanisation, espaces productifs, faibles densités : comment l'espace français est organisé et transformé.",
+          "terms": [
+            {
+              "term": "E aire urbaine (ou aire d'attraction des villes)",
+              "def": "Un ensemble formé par une ville-centre et les communes sous son influence"
+            },
+            {
+              "term": "Périurbanisation",
+              "def": "L'extension de la ville vers ses périphéries, sous forme de lotissements"
+            },
+            {
+              "term": "Étalement urbain",
+              "def": "L'extension spatiale de la ville, qui consomme beaucoup d'espace"
+            },
+            {
+              "term": "Diagonale du vide",
+              "def": "Une zone allant des Ardennes aux Landes peu peuplée et peu dynamique"
+            },
+            {
+              "term": "Espace productif",
+              "def": "Un espace aménagé pour une activité économique (agricole, industrielle, de services...)"
+            },
+            {
+              "term": "Agriculture productiviste",
+              "def": "Une agriculture intensive cherchant un rendement maximal"
+            },
+            {
+              "term": "Technopôle",
+              "def": "Un pôle regroupant entreprises, centres de recherche et universités liés aux hautes technologies"
+            },
+            {
+              "term": "Espace de faible densité",
+              "def": "Un espace où la population est faible par km² (moins de 30 hab/km²)"
+            }
+          ]
+        },
+        {
+          "title": "9. Villes et notions générales de géographie",
+          "content": "Le vocabulaire commun de la géographie : population, ressources, environnement, organisation des villes.",
+          "terms": [
+            {
+              "term": "Développement durable",
+              "def": "Un développement qui répond aux besoins présents sans compromettre ceux des générations futures"
+            },
+            {
+              "term": "Biodiversité",
+              "def": "L'ensemble des espèces vivantes et de leurs interactions sur Terre"
+            },
+            {
+              "term": "E ressource",
+              "def": "Un élément naturel ou matériel utilisé pour satisfaire un besoin (eau, énergie, minerai...)"
+            },
+            {
+              "term": "Densité de population",
+              "def": "Le nombre d'habitants par kilomètre carré"
+            },
+            {
+              "term": "Exode rural",
+              "def": "Le départ massif des habitants des campagnes vers les villes"
+            },
+            {
+              "term": "Urbanisation",
+              "def": "L'augmentation de la part de la population vivant en ville"
+            },
+            {
+              "term": "Littoral",
+              "def": "Une zone de contact entre la terre et la mer"
+            },
+            {
+              "term": "Territoire",
+              "def": "Un espace approprié, organisé et aménagé par une société"
+            },
+            {
+              "term": "Ville-centre",
+              "def": "La commune principale d'une agglomération, généralement la plus peuplée et ancienne"
+            },
+            {
+              "term": "Couronne périurbaine",
+              "def": "L'espace situé autour des banlieues, mêlant lotissements pavillonnaires et espaces ruraux sous influence urbaine"
+            },
+            {
+              "term": "E agglomération",
+              "def": "L'ensemble formé par une ville-centre et ses banlieues"
+            },
+            {
+              "term": "Pôle urbain",
+              "def": "Une ville-centre et ses banlieues offrant beaucoup d'emplois"
+            },
+            {
+              "term": "CBD (Central Business District)",
+              "def": "Le quartier central des affaires d'une grande ville, concentrant gratte-ciels et sièges sociaux"
+            },
+            {
+              "term": "Gentrification",
+              "def": "Le processus par lequel des quartiers populaires sont investis par des habitants plus aisés"
+            },
+            {
+              "term": "Ségrégation socio-spatiale",
+              "def": "La séparation dans l'espace urbain des populations selon leur catégorie sociale"
+            },
+            {
+              "term": "E ville nouvelle",
+              "def": "Une ville créée à partir des années 1960 pour désengorger les grandes agglomérations"
+            },
+            {
+              "term": "E friche urbaine",
+              "def": "Un terrain ou bâtiment abandonné en ville (souvent ancienne usine)"
+            },
+            {
+              "term": "Rénovation urbaine",
+              "def": "L'ensemble des opérations de transformation d'un quartier ancien ou dégradé"
+            },
+            {
+              "term": "E zone pavillonnaire",
+              "def": "Un quartier composé majoritairement de maisons individuelles avec jardin"
+            },
+            {
+              "term": "Grand ensemble (HLM)",
+              "def": "Un ensemble de grands immeubles de logements sociaux construits surtout entre 1950 et 1975"
+            },
+            {
+              "term": "Bidonville",
+              "def": "Un quartier d'habitat précaire construit avec des matériaux de récupération, souvent en périphérie des villes du Sud"
+            },
+            {
+              "term": "Éco-quartier",
+              "def": "Un quartier urbain conçu selon les principes du développement durable"
+            },
+            {
+              "term": "Métropolisation",
+              "def": "La concentration croissante des hommes, activités et richesses dans les grandes métropoles"
+            },
+            {
+              "term": "Mixité sociale",
+              "def": "La cohabitation, dans un même quartier, d'habitants de catégories sociales différentes"
+            },
+            {
+              "term": "Intercommunalité",
+              "def": "Le regroupement de communes voisines pour gérer ensemble certains services (transports, déchets, eau...)"
+            }
+          ]
+        }
+      ],
+      "keyPoints": [
+        "Le vocabulaire d'histoire-géo n'est pas du « par cœur » pur : chaque mot raconte une époque ou un espace.",
+        "Première Guerre mondiale : tranchées, guerre totale, génocide arménien. Mots-clés de la violence de masse moderne.",
+        "Entre-deux-guerres : régimes totalitaires (nazisme, stalinisme) qui contrôlent tout par propagande et terreur.",
+        "Seconde Guerre mondiale : Shoah, Résistance, débarquement, ONU — la justice internationale naît à Nuremberg.",
+        "Après 1945 : monde bipolaire (Guerre froide) et fin des empires coloniaux. La France se reconstruit (Trente Glorieuses, Ve République).",
+        "Mondialisation : FTN, hubs, conteneurs, métropoles mondiales — un monde de flux, mais aussi d'inégalités (PMA, fracture numérique).",
+        "Territoires français : métropolisation, périurbanisation, faibles densités, DROM, intégration dans l'UE."
+      ],
+      "revision": {
+        "flash": [
+          "Un terme = une définition courte + un exemple. Sois précis, le correcteur attend du vocabulaire exact.",
+          "Distingue armistice (cesser le feu) et traité de paix (règle officielle du conflit).",
+          "Un génocide est une extermination programmée : Arméniens (1915), Juifs et Tsiganes (Shoah), Tutsis (1994).",
+          "Régime totalitaire = parti unique + idéologie unique + propagande + terreur + culte du chef.",
+          "Décolonisation = indépendance des anciennes colonies (Inde 1947, Algérie 1962…).",
+          "Mondialisation = mise en relation des territoires par les flux ; FTN = entreprise présente dans plusieurs pays."
+        ],
+        "reperes": [
+          {
+            "label": "Première Guerre mondiale",
+            "value": "1914-1918"
+          },
+          {
+            "label": "Seconde Guerre mondiale",
+            "value": "1939-1945"
+          },
+          {
+            "label": "Armistice du 11 novembre",
+            "value": "1918"
+          },
+          {
+            "label": "Création de l’ONU",
+            "value": "1945"
+          },
+          {
+            "label": "Décolonisation",
+            "value": "années 1945-1970"
+          },
+          {
+            "label": "Chute du mur de Berlin",
+            "value": "1989"
+          },
+          {
+            "label": "Traité de Maastricht (UE)",
+            "value": "1992"
+          },
+          {
+            "label": "Naissance de l'euro",
+            "value": "2002"
+          }
+        ],
+        "astuce": "Construis ta propre fiche : 1 ligne par mot, en français simple. Plus tu reformules avec tes mots, mieux tu retiens.",
+        "piege": "Ne confonds pas démocratie (peuple décide) et république (sans roi) : un pays peut être l'une sans l'autre."
+      }
     }
   }
 }

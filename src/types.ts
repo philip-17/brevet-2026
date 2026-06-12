@@ -47,6 +47,10 @@ export interface LessonSection {
   /** Schéma illustratif optionnel : markup SVG inline (contrôlé par l'app,
    * affiché tel quel). Sert à illustrer la notion (triangle, atome, frise…). */
   svg?: string
+  /** Liste de définitions affichée après le contenu de la section
+   * (terme en gras, définition en dessous). Utilisé pour les leçons
+   * de vocabulaire / glossaire. */
+  terms?: { term: string; def: string }[]
 }
 
 /** Fiche de révision synthétique affichée à la fin d'un cours :
