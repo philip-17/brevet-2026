@@ -5,6 +5,11 @@ export interface Question {
   choices: string[]
   correctIndex: number
   explanation: string
+  /** Niveau de difficulté (calcul mental) :
+   * 1 = facile 🟢, 2 = moyen 🟠, 3 = difficile 🔴.
+   * Si présent sur les questions d'un chapitre, un écran de choix du
+   * niveau est proposé avant le quiz / les flashcards. */
+  difficulty?: 1 | 2 | 3
 }
 
 export interface Chapter {

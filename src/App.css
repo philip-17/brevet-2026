@@ -1560,6 +1560,114 @@
   font-weight: 400;
 }
 
+/* ====== Choix du niveau (calcul mental) ====== */
+
+.level-picker {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+.level-picker h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.level-picker-sub {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-bottom: 18px;
+}
+
+.level-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.level-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.level-btn:hover:not(:disabled) {
+  background: var(--bg-elev-2);
+  transform: translateY(-2px);
+}
+
+.level-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.level-btn:disabled {
+  opacity: 0.4;
+}
+
+/* Liseré coloré selon le niveau */
+.level-btn.level-1 {
+  border-left: 4px solid #22c55e;
+}
+.level-btn.level-2 {
+  border-left: 4px solid #f59e0b;
+}
+.level-btn.level-3 {
+  border-left: 4px solid #ef4444;
+}
+.level-btn.level-all {
+  border-left: 4px solid;
+  border-left-color: var(--accent, var(--primary));
+}
+
+.level-emoji {
+  font-size: 26px;
+}
+
+.level-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.level-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.level-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.level-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 99px;
+  padding: 4px 10px;
+  white-space: nowrap;
+}
+
+/* Badge du niveau choisi (en-tête du quiz) */
+.level-badge {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
 /* ====== Quiz / Flashcards ====== */
 
 .quiz-card {
