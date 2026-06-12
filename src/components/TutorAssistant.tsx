@@ -285,7 +285,7 @@ const styles = `
 .bbai-chip:hover{background:rgba(255,255,255,.14);border-color:rgba(45,212,191,.5);transform:translateY(-1px)}
 
 .bbai-bar{display:flex;gap:9px;align-items:center;padding:12px;border-top:1px solid rgba(255,255,255,.12)}
-.bbai-input{flex:1;box-sizing:border-box;padding:13px 15px;color:#f5f6ff;font:inherit;font-size:15px;
+.bbai-input{flex:1;box-sizing:border-box;padding:13px 15px;color:#f5f6ff;font:inherit;font-size:16px;
   background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;outline:none}
 .bbai-input::placeholder{color:rgba(245,246,255,.45)}
 .bbai-input:focus{border-color:rgba(45,212,191,.55);background:rgba(255,255,255,.13)}
