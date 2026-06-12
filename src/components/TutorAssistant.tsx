@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
-import { useLocation } from 'react-router-dom'
+import { Fragment, useEffect, useRef, useState, type ReactNode } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { getSubject, getChapter } from '../data'
+import { findChapterForQuery, type ChapterMatch } from '../utils/chapterSearch'
 
 /**
  * « Coach BB » — assistant IA flottant présent sur toutes les pages.
@@ -15,7 +16,7 @@ import { getSubject, getChapter } from '../data'
 const HISTORY_KEY = 'bb_tutor_history'
 const ENDPOINT = '/api/tutor'
 
-type Msg = { role: 'user' | 'assistant'; content: string }
+type Msg = { role: 'user' | 'assistant'; content: string; nav?: ChapterMatch }
 
 // Décrit la page courante en une phrase, pour guider l'IA.
 function describeContext(pathname: string): string {
@@ -98,6 +99,7 @@ function renderRich(content: string): ReactNode {
 
 export default function TutorAssistant() {
   const location = useLocation()
+  const navigate = useNavigate()
   const [open, setOpen] = useState(false)
   const [messages, setMessages] = useState<Msg[]>(loadHistory)
   const [input, setInput] = useState('')
@@ -148,7 +150,10 @@ export default function TutorAssistant() {
       })
       const data = res.ok ? await res.json() : null
       const reply = data?.reply || "Oups, je n'ai pas pu répondre. Réessaie dans un instant 🙏"
-      setMessages((m) => [...m, { role: 'assistant', content: reply }])
+      // Détecte (côté client, 0 token) si la question vise un chapitre précis,
+      // pour proposer un raccourci « Réviser ce chapitre ».
+      const nav = findChapterForQuery(text) || undefined
+      setMessages((m) => [...m, { role: 'assistant', content: reply, nav }])
     } catch {
       setMessages((m) => [...m, { role: 'assistant', content: "Connexion impossible. Vérifie ta connexion et réessaie 🙏" }])
     } finally {
@@ -163,6 +168,13 @@ export default function TutorAssistant() {
     } catch {
       /* ignore */
     }
+  }
+
+  // Redirige vers la matière + chapitre suggéré et ferme le panneau pour voir la
+  // page (la carte du chapitre s'illumine à l'arrivée — cf. ?focus= côté SubjectPage).
+  const goToChapter = (nav: ChapterMatch) => {
+    setOpen(false)
+    navigate(`/subject/${nav.subjectId}?focus=${nav.chapterId}`)
   }
 
   return (
@@ -224,9 +236,21 @@ export default function TutorAssistant() {
             )}
 
             {messages.map((m, i) => (
-              <div key={i} className={'bbai-msg ' + (m.role === 'user' ? 'me' : 'bot')}>
-                {m.role === 'user' ? m.content : renderRich(m.content)}
-              </div>
+              <Fragment key={i}>
+                <div className={'bbai-msg ' + (m.role === 'user' ? 'me' : 'bot')}>
+                  {m.role === 'user' ? m.content : renderRich(m.content)}
+                </div>
+                {m.nav && (
+                  <button className="bbai-nav" onClick={() => m.nav && goToChapter(m.nav)}>
+                    <span className="bbai-nav-ico">{m.nav.subjectEmoji}</span>
+                    <span className="bbai-nav-txt">
+                      Réviser « {m.nav.chapterTitle} »
+                      <small>{m.nav.subjectLabel}</small>
+                    </span>
+                    <span className="bbai-nav-arrow">→</span>
+                  </button>
+                )}
+              </Fragment>
             ))}
             {typing && (
               <div className="bbai-msg bot bbai-typing">
@@ -307,6 +331,22 @@ const styles = `
 .bbai-typing span:nth-child(2){animation-delay:.2s}
 .bbai-typing span:nth-child(3){animation-delay:.4s}
 @keyframes bbai-blink{0%,60%,100%{opacity:.25}30%{opacity:1}}
+
+/* Bouton « Réviser ce chapitre » sous une réponse — animé pour attirer l'œil */
+.bbai-nav{align-self:flex-start;max-width:90%;display:flex;align-items:center;gap:10px;margin:-2px 0 2px;
+  padding:10px 13px;border-radius:14px;cursor:pointer;color:#f5f6ff;font:inherit;text-align:left;
+  border:1px solid rgba(94,234,212,.55);
+  background:linear-gradient(120deg,rgba(45,212,191,.22),rgba(124,58,237,.30));
+  animation:bbai-navpulse 2s ease-in-out infinite}
+.bbai-nav:hover{transform:translateY(-1px);border-color:rgba(94,234,212,.95);background:linear-gradient(120deg,rgba(45,212,191,.32),rgba(124,58,237,.42))}
+.bbai-nav:active{transform:translateY(0) scale(.99)}
+.bbai-nav-ico{font-size:18px;flex:0 0 auto;line-height:1}
+.bbai-nav-txt{display:flex;flex-direction:column;line-height:1.25;font-size:13.5px;font-weight:600}
+.bbai-nav-txt small{font-weight:500;opacity:.68;font-size:11px;margin-top:1px}
+.bbai-nav-arrow{margin-left:auto;font-size:17px;animation:bbai-navarrow 1.3s ease-in-out infinite}
+@keyframes bbai-navpulse{0%,100%{box-shadow:0 0 0 0 rgba(94,234,212,0)}50%{box-shadow:0 0 0 4px rgba(94,234,212,.16)}}
+@keyframes bbai-navarrow{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+@media (prefers-reduced-motion:reduce){.bbai-nav,.bbai-nav-arrow{animation:none}}
 
 .bbai-welcome{margin:auto 0;text-align:center;padding:8px 6px}
 .bbai-welcome-big{font-size:42px;margin-bottom:6px}

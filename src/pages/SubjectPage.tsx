@@ -1,23 +1,46 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useParams, useNavigate } from 'react-router-dom'
+import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { getSubject, hasLesson } from '../data'
 import {
   loadProgress,
   getChapterProgress,
 } from '../storage/progress'
 
+const focusStyles = `
+.chapter-focus{animation:bbChapFocus 1.3s ease-in-out 2;position:relative;z-index:2}
+@keyframes bbChapFocus{
+  0%,100%{box-shadow:0 0 0 0 rgba(94,234,212,0);transform:none}
+  35%{box-shadow:0 0 0 4px rgba(94,234,212,.6),0 10px 30px rgba(45,212,191,.45);transform:scale(1.025)}
+}
+@media (prefers-reduced-motion:reduce){.chapter-focus{animation:none;box-shadow:0 0 0 3px rgba(94,234,212,.6)}}
+`
+
 export default function SubjectPage() {
   const { subjectId } = useParams()
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
+  const focus = searchParams.get('focus')
   const subject = subjectId ? getSubject(subjectId) : undefined
   const progress = useMemo(() => loadProgress(), [])
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null)
 
-  // On arrive toujours en haut de la matière (évite d'atterrir en bas
-  // à cause de la position de scroll de la page précédente)
+  // On arrive en haut de la matière, SAUF si on cible un chapitre précis
+  // (?focus=…) : dans ce cas on le scrolle au centre et on l'illumine.
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [subjectId])
+    if (!focus) window.scrollTo(0, 0)
+  }, [subjectId, focus])
+
+  useEffect(() => {
+    if (!focus || !subject) return
+    const t = window.setTimeout(() => {
+      const el = document.getElementById(`chap-${focus}`)
+      if (!el) return
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+      el.classList.add('chapter-focus')
+      window.setTimeout(() => el.classList.remove('chapter-focus'), 2800)
+    }, 200)
+    return () => window.clearTimeout(t)
+  }, [focus, subjectId, subject])
 
   if (!subject) {
     return (
@@ -41,6 +64,7 @@ export default function SubjectPage() {
 
   return (
     <>
+      <style>{focusStyles}</style>
       <header className="page-header">
         <Link to="/" className="back-btn">
           ←
@@ -95,6 +119,7 @@ export default function SubjectPage() {
                   return (
                     <button
                       key={chap.id}
+                      id={`chap-${chap.id}`}
                       className={`chapter-item ${accentClass}`}
                       onClick={() => setSelectedChapter(chap.id)}
                     >
