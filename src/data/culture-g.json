@@ -558,6 +558,94 @@
           ],
           "correctIndex": 2,
           "explanation": "Yalta organise le partage des zones d'influence d'après-guerre en Europe."
+        },
+        {
+          "question": "L'intrus : parmi ces quatre événements, lequel n'est PAS une conséquence directe de la Révolution française de 1789 ?",
+          "choices": [
+            "L'abolition des privilèges seigneuriaux la nuit du 4 août 1789",
+            "La Déclaration des droits de l'homme et du citoyen",
+            "La Réforme protestante en Europe du Nord",
+            "L'exécution du roi Louis XVI en 1793"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Réforme protestante est lancée par Martin Luther en 1517, soit près de trois siècles avant la Révolution française. Les trois autres événements en sont des conséquences directes dès 1789-1793."
+        },
+        {
+          "question": "Chronologie à déduire : lequel de ces empires est apparu le PLUS RÉCEMMENT dans l'histoire mondiale ?",
+          "choices": [
+            "L'Empire mongol de Gengis Khan",
+            "L'Empire romain d'Occident",
+            "L'Empire perse achéménide de Cyrus",
+            "L'Empire britannique à son apogée"
+          ],
+          "correctIndex": 3,
+          "explanation": "L'Empire britannique atteint son apogée au XIXe-début XXe siècle, bien après l'Empire perse (VIe s. av. J.-C.), Rome (Ier-Ve s. ap. J.-C.) et l'Empire mongol (XIIIe s.). La chronologie suffit à éliminer les trois autres."
+        },
+        {
+          "question": "Cause → conséquence : la découverte des Amériques par les Européens au XVe siècle entraîne, quelques décennies plus tard, une grave crise économique en Europe. Laquelle ?",
+          "choices": [
+            "Une déflation brutale due à la disparition des routes commerciales asiatiques",
+            "Une hyperinflation causée par l'afflux massif d'or et d'argent d'Amérique",
+            "Un effondrement agricole lié à l'introduction de maladies tropicales en Europe",
+            "Une crise bancaire provoquée par le monopole espagnol sur les épices"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'afflux d'argent (surtout de Potosí) et d'or des Amériques vers l'Europe au XVIe siècle provoque la « révolution des prix » : une inflation sévère qui bouleverse les économies européennes. C'est un mécanisme monétaire classique, non agricole ou déflationniste."
+        },
+        {
+          "question": "Point commun : qu'ont en commun la Déclaration d'indépendance américaine (1776), la Révolution française (1789) et la Révolution haïtienne (1791) ?",
+          "choices": [
+            "Elles ont toutes immédiatement aboli l'esclavage dans leur territoire",
+            "Elles sont toutes directement inspirées des idées des Lumières",
+            "Elles ont toutes engendré un régime républicain durable dès leur première année",
+            "Elles ont toutes reçu le soutien militaire de la Grande-Bretagne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois révolutions puisent dans la philosophie des Lumières (droits naturels, liberté, égalité). En revanche, les États-Unis n'abolissent l'esclavage qu'en 1865, la France le rétablit en 1802, et les républiques ne sont pas toutes stables dès le départ."
+        },
+        {
+          "question": "Idée reçue à déjouer : contrairement à une croyance répandue, la Première Guerre mondiale n'éclate pas uniquement à cause de l'assassinat de François-Ferdinand. Quel facteur structurel rendait l'Europe déjà au bord de la guerre en 1914 ?",
+          "choices": [
+            "La rivalité commerciale directe entre la France et l'Allemagne pour les marchés africains",
+            "L'absence totale d'alliances militaires entre grandes puissances avant 1914",
+            "Un système d'alliances rigides qui transformait tout conflit local en embrasement continental",
+            "La volonté de revanche de l'Empire ottoman après la guerre russo-turque de 1877"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Triple-Entente et la Triple-Alliance créaient un mécanisme d'entraînement automatique : un incident localisé suffisait à mobiliser l'ensemble des grandes puissances. L'assassinat n'est que l'étincelle ; la poudrière, c'est ce réseau d'alliances."
+        },
+        {
+          "question": "Attribution : quel mouvement de libération nationale est associé à la doctrine de la « non-violence » (ahimsa) comme stratégie politique principale ?",
+          "choices": [
+            "La révolution cubaine de Fidel Castro",
+            "L'indépendance algérienne du FLN",
+            "Le mouvement pour l'indépendance de l'Inde mené par Gandhi",
+            "La lutte armée de Mao Zedong en Chine"
+          ],
+          "correctIndex": 2,
+          "explanation": "Gandhi théorise et applique le satyagraha (résistance par la vérité) et l'ahimsa (non-violence) pour contester la domination britannique en Inde. Les trois autres mouvements recourent explicitement à la lutte armée."
+        },
+        {
+          "question": "L'intrus géographique : parmi ces quatre capitales, laquelle n'a JAMAIS été, à aucune époque, la capitale d'un empire qui dominait une large partie de l'Asie ?",
+          "choices": [
+            "Pékin (Khanbalik sous les Mongols)",
+            "Samarkand (Empire timouride)",
+            "Constantinople (Empire ottoman en Asie Mineure)",
+            "Lisbonne (Empire portugais)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Lisbonne est la capitale d'un empire maritime et colonial (Brésil, côtes africaines, comptoirs en Asie), mais pas d'un empire dominant une large partie du continent asiatique. Pékin, Samarkand et Constantinople ont chacune été le centre de puissances continentales asiatiques majeures."
+        },
+        {
+          "question": "Cause → conséquence : après la Seconde Guerre mondiale, le plan Marshall (1948) est mis en place par les États-Unis envers l'Europe occidentale. Quelle est sa conséquence géopolitique la plus significative, au-delà de la reconstruction économique ?",
+          "choices": [
+            "Il pousse les pays bénéficiaires à rejoindre l'URSS pour contrebalancer l'influence américaine",
+            "Il ancre les pays bénéficiaires dans le camp occidental et renforce la division du monde en deux blocs",
+            "Il conduit immédiatement à la création de l'Union européenne en 1948",
+            "Il provoque le retrait militaire américain d'Europe pour éviter toute présence permanente"
+          ],
+          "correctIndex": 1,
+          "explanation": "En liant l'aide économique à une coopération politique et économique avec Washington, le plan Marshall consolide le bloc occidental face à l'URSS et approfondit la Guerre froide. L'UE ne sera fondée qu'en 1992 (Maastricht), même si le plan contribue à l'intégration européenne initiée dans les années 1950."
         }
       ]
     },
@@ -1115,6 +1203,72 @@
           ],
           "correctIndex": 1,
           "explanation": "Bodin y définit la souveraineté absolue, indivisible et perpétuelle."
+        },
+        {
+          "question": "Parmi ces quatre régimes politiques français, lequel est chronologiquement le plus ancien ?",
+          "choices": [
+            "Le Directoire",
+            "Le Consulat",
+            "La Convention nationale",
+            "Le Directoire de l'An III"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Convention nationale (1792-1795) précède le Directoire (1795-1799), lui-même suivi du Consulat (1799-1804). Ces trois formes républicaines se succèdent dans l'ordre chronologique après la chute de la monarchie."
+        },
+        {
+          "question": "On dit souvent que Napoléon a « perdu » à Waterloo à cause de la météo. Quelle est la cause militaire la plus déterminante de sa défaite ?",
+          "choices": [
+            "L'arrivée tardive du maréchal Grouchy, qui n'a pas intercepté les Prussiens",
+            "La désertion massive de la Garde impériale au cœur de la bataille",
+            "Une épidémie de dysenterie qui avait décimé son état-major la veille",
+            "Le refus de Wellington d'accepter une trêve proposée par Napoléon"
+          ],
+          "correctIndex": 0,
+          "explanation": "Grouchy, chargé de poursuivre les Prussiens après Ligny, ne les empêcha pas de rejoindre Wellington à Waterloo. L'arrivée du corps de Blücher en fin d'après-midi retourna le sort de la bataille, et c'est là la cause militaire principale de la défaite napoléonienne."
+        },
+        {
+          "question": "Quelle idée reçue est fausse concernant la Révolution française ?",
+          "choices": [
+            "La Bastille abritait très peu de prisonniers le jour de sa prise",
+            "La guillotine a été utilisée pour la première fois pendant la Terreur",
+            "Louis XVI a tenté de fuir la France avant d'être arrêté à Varennes",
+            "L'abolition des privilèges a été votée dans la nuit du 4 août 1789"
+          ],
+          "correctIndex": 1,
+          "explanation": "La guillotine a été adoptée par l'Assemblée dès 1791 et utilisée dès 1792, bien avant la Terreur (1793-1794). C'est une idée reçue de croire qu'elle fut inventée pour la Terreur : elle fut au contraire introduite comme méthode d'exécution plus égalitaire et humaine."
+        },
+        {
+          "question": "Si l'on classe ces quatre traités du plus récent au plus ancien, lequel arrive en DERNIER (le plus vieux) ?",
+          "choices": [
+            "Le traité de Westphalie (1648)",
+            "Le traité de Verdun (843)",
+            "Le traité d'Utrecht (1713)",
+            "Le traité de Francfort (1871)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le traité de Verdun (843) est le plus ancien : il partage l'Empire carolingien entre les trois fils de Louis le Pieux, préfigurant les futures nations européennes. Viennent ensuite Westphalie (1648), Utrecht (1713) et Francfort (1871)."
+        },
+        {
+          "question": "Quel point commun réunit Hugues Capet, Bertrand du Guesclin et Jeanne d'Arc dans l'histoire de France ?",
+          "choices": [
+            "Tous trois ont été canonisés par l'Église catholique",
+            "Tous trois ont joué un rôle décisif dans la lutte contre les Anglais",
+            "Tous trois sont associés à des moments de résistance ou de reconquête du territoire français",
+            "Tous trois sont originaires de la région parisienne"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hugues Capet fonde la dynastie capétienne face aux prétentions étrangères, du Guesclin reconquiert la France des Anglais pendant la guerre de Cent Ans, et Jeanne d'Arc libère Orléans. Le fil conducteur est bien la défense ou la reconquête du territoire. Seule Jeanne d'Arc a été canonisée."
+        },
+        {
+          "question": "En 1962, de Gaulle fait approuver par référendum l'élection du président de la République au suffrage universel direct. Pourquoi cette méthode est-elle controversée sur le plan constitutionnel ?",
+          "choices": [
+            "La Constitution de 1958 interdisait tout référendum sur les institutions",
+            "De Gaulle avait utilisé l'article 11, contournant ainsi l'article 89 qui requiert l'accord du Parlement pour réviser la Constitution",
+            "Le Conseil constitutionnel avait rendu un avis négatif mais de Gaulle l'avait ignoré",
+            "Le référendum n'avait pas atteint le quorum de participation prévu par la loi"
+          ],
+          "correctIndex": 1,
+          "explanation": "De Gaulle a utilisé l'article 11 (référendum législatif) pour contourner l'article 89 (révision constitutionnelle), qui aurait exigé un vote du Parlement. Cette procédure fut jugée inconstitutionnelle par le Conseil d'État et le Sénat, mais le résultat du référendum fut accepté en pratique."
         }
       ]
     },
@@ -1672,6 +1826,83 @@
           ],
           "correctIndex": 1,
           "explanation": "Le Canada a plus de 200 000 km de côtes en comptant les îles arctiques."
+        },
+        {
+          "question": "En voyageant en ligne droite vers l'est depuis le Portugal, quel est le premier pays que l'on traverse après l'Espagne ?",
+          "choices": [
+            "France",
+            "Maroc",
+            "Algérie",
+            "Andorre"
+          ],
+          "correctIndex": 0,
+          "explanation": "À la latitude centrale du Portugal, après avoir traversé l'Espagne vers l'est, on entre directement en France. Le Maroc est au sud, l'Algérie encore plus à l'est, et Andorre est un micro-État enclavé entre l'Espagne et la France."
+        },
+        {
+          "question": "Lequel de ces quatre pays N'EST PAS enclavé (sans accès à la mer) ?",
+          "choices": [
+            "Paraguay",
+            "Bolivie",
+            "Équateur",
+            "Luxembourg"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'Équateur possède une façade sur l'océan Pacifique — il n'est donc pas enclavé. Paraguay, Bolivie et Luxembourg sont tous trois des pays sans accès direct à la mer."
+        },
+        {
+          "question": "Lequel de ces pays possède le territoire habité le plus au nord ?",
+          "choices": [
+            "Islande",
+            "Norvège",
+            "Finlande",
+            "Canada"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Norvège administre Svalbard, dont les terres atteignent environ 80° N. C'est plus au nord que l'Islande (~66° N), la Finlande (~70° N) ou le point le plus septentrional habité du Canada."
+        },
+        {
+          "question": "Dans quelle étendue d'eau le fleuve Nil se déverse-t-il ?",
+          "choices": [
+            "Océan Atlantique",
+            "Océan Indien",
+            "Mer Rouge",
+            "Mer Méditerranée"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le Nil se jette dans la mer Méditerranée via son vaste delta en Égypte. C'est un piège classique : on pense parfois à la mer Rouge en raison de la géographie égyptienne, mais le delta est bien sur la côte nord du pays."
+        },
+        {
+          "question": "Quelle idée reçue est fausse concernant les capitales africaines ?",
+          "choices": [
+            "Le Caire est la capitale de l'Égypte",
+            "Pretoria est la capitale exécutive de l'Afrique du Sud",
+            "Alger est la capitale de l'Algérie",
+            "Lagos est la capitale du Nigéria"
+          ],
+          "correctIndex": 3,
+          "explanation": "Lagos est la plus grande ville et métropole économique du Nigéria, mais la capitale fédérale est Abuja depuis 1991. Confondre la grande ville avec la capitale est une erreur très répandue pour ce pays."
+        },
+        {
+          "question": "Lequel de ces quatre pays est le plus peuplé en 2025 ?",
+          "choices": [
+            "Brésil",
+            "Pakistan",
+            "Nigéria",
+            "Bangladesh"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le Pakistan dépasse 240 millions d'habitants en 2025, ce qui le place devant le Nigéria (~220 M), le Brésil (~215 M) et le Bangladesh (~175 M). Beaucoup sous-estiment la démographie pakistanaise."
+        },
+        {
+          "question": "Quelle est la principale cause de l'extrême aridité du désert d'Atacama, sur la côte Pacifique de l'Amérique du Sud ?",
+          "choices": [
+            "La cordillère des Andes bloque les vents humides venant de l'Atlantique",
+            "L'Amazonie capte toute l'humidité tropicale avant qu'elle atteigne la côte",
+            "Le courant froid de Humboldt refroidit l'air maritime et limite les précipitations",
+            "L'altitude élevée du plateau côtier provoque un assèchement adiabatique"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le courant de Humboldt longe la côte chilienne et péruvienne : en refroidissant l'air marin, il stabilise l'atmosphère et empêche la formation de nuages de pluie. Les Andes jouent aussi un rôle en bloquant l'humidité atlantique, mais c'est le courant de Humboldt qui est le facteur déterminant pour l'Atacama côtier."
         }
       ]
     },
@@ -2229,6 +2460,94 @@
           ],
           "correctIndex": 2,
           "explanation": "Environ 24 100 ans : enjeu majeur de la gestion des déchets nucléaires."
+        },
+        {
+          "question": "On plonge un glaçon dans un verre d'eau rempli à ras bord. Que se passe-t-il quand le glaçon fond complètement ?",
+          "choices": [
+            "Le verre déborde : l'eau liquide occupe plus de place que la glace",
+            "Rien ne déborde : la glace flottait donc son volume immergé déplaçait exactement la masse d'eau qu'elle va devenir",
+            "Le niveau baisse légèrement : la glace contient de l'air qui s'échappe en fondant",
+            "Le verre déborde légèrement : la fonte libère de la chaleur qui dilate l'eau"
+          ],
+          "correctIndex": 1,
+          "explanation": "Un solide flottant déplace exactement son propre poids en liquide. Quand la glace fond, elle produit exactement la même masse d'eau, qui occupe le volume déjà déplacé — le niveau ne change donc pas."
+        },
+        {
+          "question": "Pourquoi le ciel est-il bleu en pleine journée et rouge-orangé au lever et coucher du soleil ?",
+          "choices": [
+            "L'atmosphère filtre les longueurs d'onde selon la température de l'air : chaud → rouge, froid → bleu",
+            "La diffusion de Rayleigh disperse davantage la lumière bleue (courte longueur d'onde) ; au crépuscule, l'épaisseur d'atmosphère traversée est bien plus grande et seul le rouge subsiste",
+            "L'ozone absorbe le bleu au zénith ; à l'horizon, sans ozone, toutes les couleurs passent, mais le rouge domine car il est émis en dernier par le Soleil",
+            "L'œil humain est plus sensible au bleu sous forte lumière et au rouge sous faible lumière, c'est donc une illusion perceptive"
+          ],
+          "correctIndex": 1,
+          "explanation": "La diffusion de Rayleigh est proportionnelle à 1/λ⁴ : les courtes longueurs d'onde (bleu) sont diffusées ~10 fois plus que les longues (rouge). Au crépuscule, la lumière traverse une couche d'atmosphère bien plus épaisse, le bleu est entièrement diffusé latéralement et seules les couleurs chaudes atteignent nos yeux."
+        },
+        {
+          "question": "Un cycliste roule à vitesse constante sur du plat. Quelle affirmation est correcte sur le plan des forces ?",
+          "choices": [
+            "La force de pédalage est supérieure aux frottements, sinon il ralentirait",
+            "Il n'existe aucune force sur le cycliste puisqu'il ne change pas de vitesse",
+            "La résultante des forces est nulle : la force motrice compense exactement les résistances (air, roulement)",
+            "La gravité est compensée par la force de pédalage ; les frottements sont négligeables sur du plat"
+          ],
+          "correctIndex": 2,
+          "explanation": "La première loi de Newton stipule qu'un objet à vitesse constante a une résultante nulle. Sur le plat, la force motrice (pédalage → roue arrière → sol) compense précisément la traînée aérodynamique et les frottements de roulement."
+        },
+        {
+          "question": "On chauffe un ballon de baudruche gonflé dans une pièce chaude, puis on le sort dans le froid hivernal. Que se passe-t-il et pourquoi ?",
+          "choices": [
+            "Il gonfle davantage : le froid comprime l'air extérieur, ce qui crée une surpression à l'intérieur",
+            "Il se dégonfle partiellement : à pression quasi constante, un gaz refroidit et son volume diminue (loi de Charles)",
+            "Rien ne change : le caoutchouc est imperméable, le volume est fixé par l'élasticité du ballon",
+            "Il éclate : l'air froid devient liquide à l'intérieur, créant un vide soudain qui aspire les parois"
+          ],
+          "correctIndex": 1,
+          "explanation": "La loi de Charles (V ∝ T à pression constante) prédit que le volume d'un gaz diminue quand la température baisse. Passer de 20 °C (293 K) à −10 °C (263 K) réduit le volume d'environ 10 %, d'où le ballon qui se ratatine visiblement."
+        },
+        {
+          "question": "Lequel de ces objets tombant en chute libre depuis 10 m touche le sol en premier (on néglige l'air) ?",
+          "choices": [
+            "Une bille d'acier de 100 g",
+            "Une plume d'oie",
+            "Un ballon de football dégonflé",
+            "Tous tombent en même temps"
+          ],
+          "correctIndex": 3,
+          "explanation": "Sans résistance de l'air, tous les objets subissent la même accélération gravitationnelle g ≈ 9,8 m/s². La masse n'intervient pas (principe de Galilée, confirmé par Newton). En conditions réelles, l'air avantage les objets denses et compacts."
+        },
+        {
+          "question": "On croit souvent qu'un métal froid est « plus froid » qu'un morceau de bois à la même température ambiante. Quelle est la vraie explication ?",
+          "choices": [
+            "Le métal absorbe la chaleur corporelle bien plus vite car sa conductivité thermique est élevée, ce qui crée une sensation de froid intense",
+            "Le métal est effectivement plus froid : il stocke le froid ambiant grâce à sa forte densité",
+            "Le bois reflète mieux les infrarouges, donc il nous renvoie notre chaleur corporelle et paraît plus chaud",
+            "Le métal contient des électrons libres qui absorbent l'énergie thermique de nos doigts avant de la dissiper dans l'air"
+          ],
+          "correctIndex": 0,
+          "explanation": "C'est une illusion sensorielle : métal et bois sont bien à la même température. Mais la conductivité thermique du métal (~200 W·m⁻¹·K⁻¹ pour l'aluminium) est des centaines de fois supérieure à celle du bois (~0,15 W·m⁻¹·K⁻¹), donc il prélève la chaleur de nos doigts beaucoup plus vite, ce qui est perçu comme « froid »."
+        },
+        {
+          "question": "Deux athlètes de même masse font le même trajet à la nage dans l'eau salée et dans l'eau douce. Lequel est le plus rapide à masse et technique égales ?",
+          "choices": [
+            "L'eau douce : moins dense, donc moins de résistance hydrodynamique à franchir",
+            "L'eau salée : plus dense, donc la poussée d'Archimède est plus forte et le corps flotte plus haut, réduisant la traînée",
+            "Cela dépend uniquement de la température, pas de la salinité",
+            "L'eau douce : les ions du sel créent une viscosité bien supérieure qui freine davantage le nageur"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'eau de mer (ρ ≈ 1 025 kg/m³) est plus dense que l'eau douce (ρ = 1 000 kg/m³). La poussée d'Archimède plus forte soulève légèrement le corps, réduisant la surface frontale et la traînée. C'est pourquoi les records mondiaux en eau salée sont légèrement plus rapides."
+        },
+        {
+          "question": "Un four à micro-ondes chauffe les aliments en faisant vibrer les molécules d'eau. Que se passe-t-il si vous y mettez un aliment complètement sec (sans eau) ?",
+          "choices": [
+            "Il chauffe quand même très vite : les micro-ondes excitent tous les types de molécules organiques",
+            "Il reste froid ou chauffe très peu : sans molécules dipolaires (eau, graisses) capables d'absorber les micro-ondes, l'énergie est peu absorbée",
+            "Il brûle instantanément : sans eau pour absorber l'énergie, les micro-ondes se concentrent et carbonisent directement",
+            "Le four s'arrête automatiquement : les capteurs détectent l'absence d'humidité"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les micro-ondes (2,45 GHz) couplent leur énergie principalement aux molécules dipolaires comme l'eau et les graisses. Un aliment vraiment sec (ex. : sucre anhydre, céramique) absorbe très peu de rayonnement et reste quasiment froid. L'énergie non absorbée peut endommager le magnétron du four."
         }
       ]
     },
@@ -2786,6 +3105,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Le baobab, surnommé « arbre bouteille », stocke l'eau dans son tronc."
+        },
+        {
+          "question": "Parmi ces idées reçues sur les animaux, laquelle est réellement vraie ?",
+          "choices": [
+            "Le poisson rouge a une mémoire de trois secondes",
+            "Les autruches enfouissent leur tête dans le sable quand elles ont peur",
+            "Les chauves-souris sont totalement aveugles",
+            "Les pieuvres possèdent trois cœurs"
+          ],
+          "correctIndex": 3,
+          "explanation": "Les pieuvres ont effectivement trois cœurs : deux pompent le sang vers les branchies, un troisième vers le reste du corps. Les trois autres affirmations sont des mythes populaires sans fondement scientifique."
+        },
+        {
+          "question": "Lequel de ces animaux n'est PAS un insecte ?",
+          "choices": [
+            "Le criquet",
+            "La luciole",
+            "L'araignée",
+            "La libellule"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'araignée est un arachnide : elle possède huit pattes et deux parties corporelles (céphalothorax + abdomen). Les insectes ont six pattes et trois parties corporelles. Les autres exemples cités sont de vrais insectes."
+        },
+        {
+          "question": "Dans une chaîne alimentaire marine, le phytoplancton est mangé par le zooplancton, lui-même mangé par de petits poissons, puis par des thons. Si une marée noire détruit le phytoplancton d'une zone, quelle conséquence directe est la plus probable à court terme ?",
+          "choices": [
+            "Les thons migrent vers une zone plus chaude",
+            "Le zooplancton prolifère faute de compétiteur",
+            "Le zooplancton s'effondre par manque de nourriture",
+            "Les petits poissons deviennent herbivores"
+          ],
+          "correctIndex": 2,
+          "explanation": "En supprimant la base de la chaîne (le phytoplancton), la ressource alimentaire du zooplancton disparaît : sa population chute rapidement, entraînant ensuite l'effondrement des niveaux supérieurs. Les espèces ne peuvent pas changer de régime alimentaire ni de comportement aussi soudainement."
+        },
+        {
+          "question": "Quel point commun partagent la baleine bleue, la chauve-souris et le dauphin ?",
+          "choices": [
+            "Ils sont tous vertébrés ET à sang froid",
+            "Ils allaitent tous leurs petits avec du lait",
+            "Ils se déplacent tous en formant des bancs",
+            "Ils hibernent tous en hiver"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tous trois sont des mammifères, et la caractéristique unificatrice des mammifères est la lactation : les femelles nourrissent leurs petits avec du lait produit par des glandes mammaires. Les baleines et dauphins sont à sang chaud, pas froid."
+        },
+        {
+          "question": "Parmi ces végétaux, lequel a le génome le plus grand (en nombre de paires de bases) ?",
+          "choices": [
+            "L'être humain",
+            "Le riz",
+            "La tulipe",
+            "Le bananier"
+          ],
+          "correctIndex": 2,
+          "explanation": "La tulipe possède un génome colossal d'environ 34 milliards de paires de bases, soit plus de dix fois celui de l'humain (~3 Gb). La taille du génome est indépendante de la complexité de l'organisme — c'est ce qu'on appelle le paradoxe de la valeur C."
+        },
+        {
+          "question": "Un ours polaire plonge dans l'eau glaciale sans hypothermie. Quelle adaptation explique principalement cela ?",
+          "choices": [
+            "Sa fourrure est creuse et piège l'air comme un isolant",
+            "Il produit de la chaleur uniquement grâce à ses muscles",
+            "Ses poils sont translucides et conduisent la chaleur solaire vers la peau",
+            "Il ralentit son rythme cardiaque de moitié en entrant dans l'eau"
+          ],
+          "correctIndex": 0,
+          "explanation": "Les poils de l'ours polaire sont creux, ce qui emprisonne l'air et constitue un excellent isolant thermique, complété par une épaisse couche de graisse sous-cutanée. L'idée qu'ils agissent comme des fibres optiques pour canaliser la lumière UV est un mythe réfuté scientifiquement."
+        },
+        {
+          "question": "Lequel de ces organismes N'EST PAS un champignon ?",
+          "choices": [
+            "La truffe",
+            "La levure de bière",
+            "La moisissure verte du pain",
+            "La spiruline"
+          ],
+          "correctIndex": 3,
+          "explanation": "La spiruline est une cyanobactérie, c'est-à-dire un organisme procaryote photosynthétique. Les truffes, levures et moisissures vertes sont toutes des champignons (eumycètes), même si leur apparence diffère radicalement."
+        },
+        {
+          "question": "Parmi ces affirmations sur la migration, laquelle est vraie ?",
+          "choices": [
+            "Les hirondelles hibernent sous l'eau en hiver",
+            "La sterne arctique effectue le plus long voyage migratoire connu",
+            "Les monarques naviguent grâce à leur odorat",
+            "Les anguilles naissent en mer Méditerranée"
+          ],
+          "correctIndex": 1,
+          "explanation": "La sterne arctique parcourt jusqu'à 90 000 km par an entre l'Arctique et l'Antarctique, la plus longue migration animale documentée. Les hirondelles migrent vers l'Afrique (elles n'hibernent pas dans l'eau — vieille croyance médiévale). Les monarques utilisent une boussole solaire, et les anguilles naissent dans la mer des Sargasses."
         }
       ]
     },
@@ -3343,6 +3750,94 @@
           ],
           "correctIndex": 2,
           "explanation": "Quand la pression de radiation n'équilibre plus la gravité."
+        },
+        {
+          "question": "Si on pouvait aligner Mercure, Vénus, Terre et Mars du plus petit au plus grand, quel serait l'ordre correct ?",
+          "choices": [
+            "Mercure, Mars, Vénus, Terre",
+            "Mercure, Vénus, Mars, Terre",
+            "Mercure, Mars, Terre, Vénus",
+            "Mars, Mercure, Vénus, Terre"
+          ],
+          "correctIndex": 0,
+          "explanation": "Mercure est la plus petite, Mars est légèrement plus petite que Vénus, et Vénus est presque identique à la Terre mais un tout petit peu plus petite. L'ordre croissant est donc : Mercure < Mars < Vénus < Terre."
+        },
+        {
+          "question": "Sur la Lune, un astronaute pèse environ 6 fois moins que sur Terre. Que se passe-t-il si la même balance de salle de bain (non numérique) l'indique à 12 kg sur la Lune — quel était son poids réel sur Terre ?",
+          "choices": [
+            "12 kg",
+            "2 kg",
+            "72 kg",
+            "120 kg"
+          ],
+          "correctIndex": 2,
+          "explanation": "Une balance à ressort mesure la force de gravité locale : 12 kg sur la Lune équivaut à 12 × 6 = 72 kg sur Terre. La masse de l'astronaute reste 72 kg partout, seul son poids change."
+        },
+        {
+          "question": "On entend souvent parler de la « face cachée de la Lune ». Quelle affirmation est exactement vraie ?",
+          "choices": [
+            "La face cachée est toujours dans l'obscurité totale",
+            "La face cachée ne reçoit jamais la lumière du Soleil",
+            "La face cachée reçoit autant de lumière solaire que la face visible, mais n'est jamais vue depuis la Terre",
+            "La face cachée est plus froide car elle est plus éloignée du Soleil"
+          ],
+          "correctIndex": 2,
+          "explanation": "La Lune est en rotation synchrone avec la Terre : on voit toujours la même face, mais la face cachée est éclairée par le Soleil exactement autant que l'autre moitié, lors du cycle lunaire. Elle n'est pas « nuit permanente »."
+        },
+        {
+          "question": "La Terre est plus proche du Soleil en janvier qu'en juillet. Pourtant, l'hiver sévit dans l'hémisphère nord en janvier. Quelle est la vraie cause des saisons ?",
+          "choices": [
+            "La distance variable Terre-Soleil au cours de l'année",
+            "L'inclinaison de l'axe terrestre qui modifie l'angle des rayons solaires",
+            "Les nuages qui bloquent davantage la chaleur en hiver",
+            "Le ralentissement de la rotation terrestre en hiver"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les saisons sont causées par l'inclinaison de l'axe terrestre (~23,5°) : en hiver, les rayons frappent en biais et sur une surface plus grande, donc moins concentrés. La distance Terre-Soleil joue un rôle négligeable."
+        },
+        {
+          "question": "Lequel de ces objets célestes n'est PAS à sa place parmi les autres ?",
+          "choices": [
+            "Titan",
+            "Europe",
+            "Ganymède",
+            "Phobos"
+          ],
+          "correctIndex": 3,
+          "explanation": "Titan (Saturne), Europe (Jupiter) et Ganymède (Jupiter) sont des lunes de planètes géantes. Phobos est une lune de Mars, une planète rocheuse du système interne — c'est l'intrus par nature différente de son environnement."
+        },
+        {
+          "question": "Un astronaute en orbite sur la Station spatiale internationale semble « en apesanteur ». Quelle est la vraie raison physique ?",
+          "choices": [
+            "Il est trop loin de la Terre pour que la gravité l'atteigne",
+            "La station neutralise la gravité grâce à ses panneaux solaires",
+            "Il est en chute libre permanente autour de la Terre, comme la station",
+            "Le vide de l'espace annule la force gravitationnelle"
+          ],
+          "correctIndex": 2,
+          "explanation": "La station et l'astronaute tombent ensemble en permanence vers la Terre, mais leur vitesse horizontale est suffisante pour que la Terre « se courbe » sous eux. C'est une chute libre continue : il n'y a pas de surface pour ressentir le poids."
+        },
+        {
+          "question": "Classer ces étoiles de la plus chaude à la plus froide à leur surface : Soleil (jaune), Bételgeuse (rouge), Rigel (bleue).",
+          "choices": [
+            "Bételgeuse → Soleil → Rigel",
+            "Rigel → Soleil → Bételgeuse",
+            "Soleil → Rigel → Bételgeuse",
+            "Rigel → Bételgeuse → Soleil"
+          ],
+          "correctIndex": 1,
+          "explanation": "La couleur d'une étoile indique sa température de surface : bleu = très chaud (~10 000 K et plus), jaune = intermédiaire (~5 500 K pour le Soleil), rouge = plus froid (~3 500 K pour Bételgeuse). Rigel brille en bleu, donc elle est la plus chaude."
+        },
+        {
+          "question": "Si Mercure est la planète la plus proche du Soleil, pourquoi n'est-elle pas la plus chaude du système solaire ?",
+          "choices": [
+            "Parce que Mercure est trop petite pour retenir la chaleur",
+            "Parce que Vénus possède un effet de serre intense qui dépasse même la chaleur solaire reçue par Mercure",
+            "Parce que Mercure réfléchit toute la lumière solaire comme un miroir",
+            "Parce que Mercure tourne trop vite pour chauffer suffisamment"
+          ],
+          "correctIndex": 1,
+          "explanation": "Vénus, bien que plus éloignée du Soleil, possède une atmosphère épaisse composée principalement de CO₂ qui provoque un effet de serre extrême : sa température dépasse 460 °C, contre ~430 °C côté jour de Mercure. Sans atmosphère, Mercure ne retient pas la chaleur."
         }
       ]
     },
@@ -3900,6 +4395,94 @@
           ],
           "correctIndex": 1,
           "explanation": "René Descartes, en annexe du « Discours de la méthode »."
+        },
+        {
+          "question": "Parmi ces quatre nombres, lequel n'est PAS un nombre premier ?",
+          "choices": [
+            "97",
+            "83",
+            "91",
+            "79"
+          ],
+          "correctIndex": 2,
+          "explanation": "91 = 7 × 13, donc il est composé. Les trois autres (79, 83, 97) ne sont divisibles par aucun entier autre que 1 et eux-mêmes."
+        },
+        {
+          "question": "Quelle est la prochaine valeur logique dans la suite : 1, 1, 2, 3, 5, 8, 13, … ?",
+          "choices": [
+            "18",
+            "20",
+            "21",
+            "24"
+          ],
+          "correctIndex": 2,
+          "explanation": "C'est la suite de Fibonacci : chaque terme est la somme des deux précédents. 8 + 13 = 21."
+        },
+        {
+          "question": "Un marchand vend un article 120 €, réalisant un bénéfice de 20 % sur son prix d'achat. Combien l'a-t-il acheté ?",
+          "choices": [
+            "96 €",
+            "100 €",
+            "102 €",
+            "104 €"
+          ],
+          "correctIndex": 1,
+          "explanation": "Prix d'achat × 1,20 = 120 €, donc prix d'achat = 120 / 1,20 = 100 €. Attention : 20 % de bénéfice se calcule sur le prix d'achat, pas sur le prix de vente."
+        },
+        {
+          "question": "Un train part à 14 h 40 et arrive à 17 h 10. À quelle vitesse moyenne (km/h) roule-t-il s'il parcourt 200 km ?",
+          "choices": [
+            "70 km/h",
+            "75 km/h",
+            "80 km/h",
+            "85 km/h"
+          ],
+          "correctIndex": 2,
+          "explanation": "La durée est 2 h 30 min = 2,5 h. Vitesse = 200 / 2,5 = 80 km/h."
+        },
+        {
+          "question": "Quel est l'intrus parmi ces figures géométriques planes ? Carré, Losange, Trapèze, Parallélogramme.",
+          "choices": [
+            "Carré",
+            "Losange",
+            "Trapèze",
+            "Parallélogramme"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le carré, le losange et le parallélogramme ont tous leurs deux paires de côtés opposés parallèles. Le trapèze n'en possède qu'une seule paire : c'est l'intrus."
+        },
+        {
+          "question": "À quoi sert le théorème de Bayes en mathématiques ?",
+          "choices": [
+            "Calculer l'aire sous une courbe",
+            "Mettre à jour une probabilité à la lumière d'une nouvelle information",
+            "Démontrer qu'un polynôme admet une racine réelle",
+            "Trouver le plus court chemin dans un graphe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bayes permet de réviser une probabilité initiale (a priori) en tenant compte d'une observation : P(A|B) = P(B|A)·P(A)/P(B). C'est le fondement de l'inférence bayésienne."
+        },
+        {
+          "question": "On double la longueur du côté d'un carré. Par quel facteur son aire est-elle multipliée ?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'aire = côté². Si le côté est multiplié par 2, l'aire est multipliée par 2² = 4. Par exemple, côté 3 → aire 9 ; côté 6 → aire 36 (×4)."
+        },
+        {
+          "question": "Quel mathématicien du XVIIIe siècle a introduit la notation f(x) pour une fonction et le symbole Σ pour une somme ?",
+          "choices": [
+            "Carl Friedrich Gauss",
+            "Leonhard Euler",
+            "Joseph-Louis Lagrange",
+            "Pierre-Simon Laplace"
+          ],
+          "correctIndex": 1,
+          "explanation": "Leonhard Euler est l'un des mathématiciens les plus prolifiques de l'histoire : on lui doit notamment les notations f(x), Σ, e, i et π dans leurs usages modernes."
         }
       ]
     },
@@ -4457,6 +5040,94 @@
           ],
           "correctIndex": 2,
           "explanation": "Romain Gary (1956) puis sous le pseudo Émile Ajar (1975) avec « La Vie devant soi »."
+        },
+        {
+          "question": "Ces trois romans partagent un point commun : « L'Assommoir », « Germinal », « Nana ». Lequel de ces titres N'appartient PAS au cycle des Rougon-Macquart ?",
+          "choices": [
+            "Nana",
+            "Thérèse Raquin",
+            "L'Assommoir",
+            "Germinal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thérèse Raquin (1867) est un roman naturaliste de Zola, mais il est antérieur à la saga des Rougon-Macquart et n'en fait pas partie. Les trois autres appartiennent bien au cycle des vingt romans."
+        },
+        {
+          "question": "« Longtemps, je me suis couché de bonne heure. » Quel écrivain a commencé son œuvre monumentale par cet incipit ?",
+          "choices": [
+            "Gustave Flaubert",
+            "Marcel Proust",
+            "André Gide",
+            "Anatole France"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cet incipit ouvre « Du côté de chez Swann » (1913), premier tome d'« À la recherche du temps perdu » de Marcel Proust. C'est l'une des premières phrases les plus célèbres de la littérature française."
+        },
+        {
+          "question": "Quel mouvement littéraire du XVIIe siècle regroupe Racine, Corneille et Molière, fondé sur l'imitation des Anciens et les règles des trois unités ?",
+          "choices": [
+            "Le Baroque",
+            "Le Romantisme",
+            "Le Classicisme",
+            "L'Humanisme"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le Classicisme (≈ 1660–1685) prône l'imitation de l'Antiquité, la raison, la bienséance et les trois unités (temps, lieu, action). Le Baroque lui est contemporain mais oppose fantaisie et excès là où le Classicisme impose ordre et mesure."
+        },
+        {
+          "question": "Un auteur a publié sous le pseudonyme « Romain Gary » puis, sous un autre nom, a remporté une deuxième fois le prix Goncourt — ce qui est normalement interdit. Quel était ce second pseudonyme ?",
+          "choices": [
+            "Émile Ajar",
+            "Paul Nizan",
+            "Boris Vian",
+            "Raymond Queneau"
+          ],
+          "correctIndex": 0,
+          "explanation": "Romain Gary avait déjà reçu le Goncourt en 1956. En 1975, il publie « La Vie devant soi » sous le nom d'Émile Ajar et remporte un second Goncourt, révélant la supercherie dans son testament posthume."
+        },
+        {
+          "question": "Lequel de ces personnages de fiction est le héros d'un roman de Stendhal, et non de Balzac ?",
+          "choices": [
+            "Eugène de Rastignac",
+            "Père Goriot",
+            "Julien Sorel",
+            "Lucien de Rubempré"
+          ],
+          "correctIndex": 2,
+          "explanation": "Julien Sorel est le protagoniste du « Rouge et le Noir » (1830) de Stendhal. Rastignac, le Père Goriot et Lucien de Rubempré sont tous des personnages récurrents de « La Comédie humaine » de Balzac."
+        },
+        {
+          "question": "Parmi ces quatre auteurs, lequel est chronologiquement le plus ancien ?",
+          "choices": [
+            "Victor Hugo",
+            "François Rabelais",
+            "Voltaire",
+            "Jean-Baptiste Molière"
+          ],
+          "correctIndex": 1,
+          "explanation": "François Rabelais (≈ 1494–1553) appartient à la Renaissance, bien avant Molière (1622–1673), Voltaire (1694–1778) et Victor Hugo (1802–1885). « Gargantua » paraît en 1534."
+        },
+        {
+          "question": "Quel roman épistolaire du XVIIIe siècle, sulfureux à sa parution, met en scène la marquise de Merteuil et le vicomte de Valmont ?",
+          "choices": [
+            "La Nouvelle Héloïse — Jean-Jacques Rousseau",
+            "Les Liaisons dangereuses — Pierre Choderlos de Laclos",
+            "Manon Lescaut — l'abbé Prévost",
+            "Paul et Virginie — Bernardin de Saint-Pierre"
+          ],
+          "correctIndex": 1,
+          "explanation": "« Les Liaisons dangereuses » (1782) de Laclos est un roman entièrement composé de lettres échangées par ses personnages. Il scandalisa la société de l'Ancien Régime par son cynisme et sa peinture de la séduction comme stratégie de pouvoir."
+        },
+        {
+          "question": "« La Nausée », « Huis clos », « Les Mots » : ces trois œuvres sont du même auteur. Lequel ?",
+          "choices": [
+            "Albert Camus",
+            "Simone de Beauvoir",
+            "Jean-Paul Sartre",
+            "André Malraux"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les trois œuvres sont de Jean-Paul Sartre : « La Nausée » (roman, 1938), « Huis clos » (pièce, 1944) et « Les Mots » (autobiographie, 1963). Sartre a refusé le Nobel de littérature en 1964, ce qui reste unique."
         }
       ]
     },
@@ -5014,6 +5685,83 @@
           ],
           "correctIndex": 1,
           "explanation": "« Triangle of Sadness » de Ruben Östlund, identique à « Sans filtre » (titre VF)."
+        },
+        {
+          "question": "Ces trois films ont le même réalisateur : « Mulholland Drive », « Elephant Man » et « Blue Velvet ». De qui s'agit-il ?",
+          "choices": [
+            "David Fincher",
+            "David Lynch",
+            "Joel Coen",
+            "Tim Burton"
+          ],
+          "correctIndex": 1,
+          "explanation": "David Lynch a réalisé ces trois œuvres aux univers oniriques et perturbants. David Fincher, les frères Coen et Tim Burton ont des styles distincts mais n'ont signé aucun de ces films."
+        },
+        {
+          "question": "Parmi ces quatre films, lequel est sorti en premier ?",
+          "choices": [
+            "Blade Runner",
+            "Apocalypse Now",
+            "Star Wars : Un nouvel espoir",
+            "Alien"
+          ],
+          "correctIndex": 2,
+          "explanation": "« Star Wars : Un nouvel espoir » est sorti en mai 1977, devançant « Alien » et « Apocalypse Now » (tous deux 1979) ainsi que « Blade Runner » (1982)."
+        },
+        {
+          "question": "Quel est le point commun entre « Whiplash », « La La Land » et « Babylon » ?",
+          "choices": [
+            "Ils ont tous remporté la Palme d'or à Cannes",
+            "Ils sont tous réalisés par Damien Chazelle",
+            "Ils mettent tous en vedette Ryan Gosling",
+            "Ils sont tous produits par A24"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois films sont signés Damien Chazelle. Ryan Gosling apparaît dans « La La Land » et « Babylon » mais pas dans « Whiplash », et aucun n'a remporté la Palme d'or."
+        },
+        {
+          "question": "Lequel de ces films n'appartient PAS au genre « film de samouraï » (jidaigeki) ?",
+          "choices": [
+            "Rashōmon (Kurosawa, 1950)",
+            "Les Sept Samouraïs (Kurosawa, 1954)",
+            "Ran (Kurosawa, 1985)",
+            "Ringu (Nakata, 1998)"
+          ],
+          "correctIndex": 3,
+          "explanation": "« Ringu » (1998) est un film d'horreur contemporain sur une cassette vidéo maudite, sans rapport avec le monde des samouraïs. Les trois autres sont des jidaigeki emblématiques de Kurosawa."
+        },
+        {
+          "question": "On croit souvent que « La Nouvelle Vague » française désigne un genre cinématographique précis, mais c'est en réalité :",
+          "choices": [
+            "Un style visuel imposé par le CNC dans les années 60",
+            "Un mouvement critique et artistique né autour des Cahiers du Cinéma",
+            "Une loi de financement du cinéma français votée en 1958",
+            "Une association de producteurs indépendants parisiens"
+          ],
+          "correctIndex": 1,
+          "explanation": "La Nouvelle Vague est d'abord un mouvement critique : des jeunes rédacteurs des Cahiers du Cinéma (Godard, Truffaut, Chabrol, Rohmer, Rivette) ont théorisé puis mis en pratique une rupture avec le cinéma de qualité traditionnel."
+        },
+        {
+          "question": "Dans le cinéma américain des années 40-50, le terme « système des studios » (studio system) désigne principalement :",
+          "choices": [
+            "La technique de tournage en studios intérieurs plutôt qu'en extérieurs",
+            "Le contrôle total exercé par quelques grands studios sur acteurs, réalisateurs et distribution",
+            "Un accord fiscal permettant aux studios d'amortir leurs décors",
+            "L'utilisation de la pellicule Technicolor réservée aux grands studios"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le studio system désigne la domination des « Big Five » (MGM, Warner, Paramount, RKO, Fox) qui employaient acteurs et réalisateurs sous contrat exclusif et contrôlaient la production, la distribution et l'exploitation des salles."
+        },
+        {
+          "question": "Parmi ces quatre cinéastes, lequel n'a JAMAIS remporté l'Oscar du meilleur réalisateur malgré plusieurs nominations ?",
+          "choices": [
+            "Steven Spielberg",
+            "Martin Scorsese",
+            "Alfred Hitchcock",
+            "Clint Eastwood"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alfred Hitchcock n'a jamais obtenu l'Oscar de la mise en scène, malgré cinq nominations. Spielberg en a deux (Schindler's List, Saving Private Ryan), Scorsese un (Les Infiltrés) et Eastwood deux (Impitoyable, Million Dollar Baby)."
         }
       ]
     },
@@ -5571,6 +6319,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Sigur Rós, album post-rock culte chanté en islandais."
+        },
+        {
+          "question": "Ces trois œuvres ont un point commun : « Le Clavier bien tempéré », « La Passion selon saint Jean », « L'Art de la fugue ». Quel compositeur les a écrites ?",
+          "choices": [
+            "Georg Friedrich Haendel",
+            "Johann Sebastian Bach",
+            "Joseph Haydn",
+            "Antonio Vivaldi"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois œuvres majeures sont toutes de J.S. Bach : le Clavier bien tempéré explore les 24 tonalités, la Passion selon saint Jean est un oratorio, et L'Art de la fugue un traité contrapuntique inachevé."
+        },
+        {
+          "question": "Parmi ces quatre albums, lequel a été publié en premier ?",
+          "choices": [
+            "« Nevermind » de Nirvana (1991)",
+            "« OK Computer » de Radiohead (1997)",
+            "« Purple Rain » de Prince (1984)",
+            "« The Bends » de Radiohead (1995)"
+          ],
+          "correctIndex": 2,
+          "explanation": "« Purple Rain » de Prince est sorti en 1984, soit sept ans avant « Nevermind » (1991). C'est la bande originale du film éponyme, qui a propulsé Prince au rang de superstar mondiale."
+        },
+        {
+          "question": "Quel est l'intrus dans cette liste d'instruments à cordes frottées ?",
+          "choices": [
+            "Alto",
+            "Violoncelle",
+            "Contrebasse",
+            "Luth"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le luth est un instrument à cordes pincées (comme la guitare), tandis que l'alto, le violoncelle et la contrebasse appartiennent tous à la famille des cordes frottées à l'archet."
+        },
+        {
+          "question": "Le terme « sonate » désignait à l'origine quelque chose de précis. Lequel ?",
+          "choices": [
+            "Une pièce destinée à la voix accompagnée d'orchestre",
+            "Une pièce instrumentale, par opposition à la « cantate » vocale",
+            "Une improvisation libre sans structure fixe",
+            "Un recueil de danses de cour destiné au clavecin"
+          ],
+          "correctIndex": 1,
+          "explanation": "« Sonata » signifie littéralement « ce qui est sonné » (joué) par opposition à « cantata » (ce qui est chanté). À l'époque baroque, toute pièce instrumentale pouvait être appelée sonate."
+        },
+        {
+          "question": "Quel groupe partage un lien direct avec ces trois noms de scène : Ziggy Stardust, Aladdin Sane, The Thin White Duke ?",
+          "choices": [
+            "Queen",
+            "The Rolling Stones",
+            "David Bowie",
+            "Roxy Music"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ces trois personnages sont des alter ego successifs inventés par David Bowie lui-même, illustrant sa démarche de transformations d'image tout au long des années 1970."
+        },
+        {
+          "question": "On dit souvent que le rap est né à New York dans les années 1970. Quelle affirmation nuance le plus justement cette idée ?",
+          "choices": [
+            "Le rap est en réalité né à Los Angeles avec les gangs de Compton",
+            "Le rap découle directement du spoken word jamaïcain et du toasting, apportés par des immigrés caribéens",
+            "Le rap a été inventé par des producteurs de maisons de disques cherchant un genre rentable",
+            "Le rap est une variation du blues du Mississippi transplantée en milieu urbain"
+          ],
+          "correctIndex": 1,
+          "explanation": "DJ Kool Herc, considéré comme le père fondateur du hip-hop, est né en Jamaïque. Il a importé à New York la pratique du toasting (chanter ou parler sur un riddim), technique centrale du reggae/dancehall qui est devenue le rap."
+        },
+        {
+          "question": "Quel point commun relie « La Traviata » (Verdi), « La Bohème » (Puccini) et « Manon » (Massenet) ?",
+          "choices": [
+            "Les trois opéras se déroulent à Rome au XVIIIe siècle",
+            "Les trois héroïnes sont des courtisanes ou des femmes de mœurs légères condamnées par la société",
+            "Les trois œuvres ont été créées au même opéra, la Scala de Milan",
+            "Les trois compositeurs ont collaboré sur les livrets de ces opéras"
+          ],
+          "correctIndex": 1,
+          "explanation": "Violetta (Traviata), Mimì et Musetta (Bohème), Manon : ces héroïnes incarnent des femmes marginalisant par leurs amours irréguliers, rejetées par une société bourgeoise hypocrite. C'est un thème récurrent du vérisme et du romantisme opératique."
+        },
+        {
+          "question": "En musique électronique, que désigne le terme « sample » utilisé de façon créative dans le hip-hop et la house des années 1980-90 ?",
+          "choices": [
+            "Un logiciel de composition automatique générant des mélodies aléatoires",
+            "Un fragment audio extrait d'un enregistrement existant et réutilisé dans un nouveau morceau",
+            "Un synthétiseur analogique produisant des sons imitant les instruments acoustiques",
+            "Une technique de mixage qui accélère progressivement le tempo d'un titre"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le sampling consiste à prélever un extrait (boucle rythmique, ligne de basse, riff) d'un disque existant pour le réintégrer dans une nouvelle composition. Cette pratique, popularisée par des producteurs comme J Dilla ou Pete Rock, est au cœur du hip-hop et de la house."
         }
       ]
     },
@@ -6128,6 +6964,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Gustave Courbet, 1866, conservé au musée d'Orsay."
+        },
+        {
+          "question": "Ces trois œuvres appartiennent au même mouvement : « La Persistance de la mémoire », « Le Chien andalou » (affiche), « La Trahison des images ». Quel mouvement ?",
+          "choices": [
+            "Expressionnisme",
+            "Dadaïsme",
+            "Surréalisme",
+            "Art déco"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ces trois œuvres (Dalí, Buñuel, Magritte) illustrent le surréalisme, qui explore l'inconscient et le rêve. Le dadaïsme est son prédécesseur, l'expressionnisme privilégie l'émotion brute."
+        },
+        {
+          "question": "Lequel de ces deux mouvements est chronologiquement antérieur : le cubisme ou l'impressionnisme ?",
+          "choices": [
+            "Le cubisme (1907)",
+            "L'impressionnisme (1874)",
+            "Ils sont nés la même année",
+            "Le fauvisme, qui est entre les deux"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'impressionnisme naît en 1874 avec la première exposition du groupe autour de Monet ; le cubisme émerge vers 1907 avec Picasso et Braque, soit plus de trente ans après."
+        },
+        {
+          "question": "Parmi ces quatre techniques, laquelle n'est PAS utilisée en sculpture traditionnelle ?",
+          "choices": [
+            "La taille directe",
+            "Le modelage",
+            "La lithographie",
+            "Le moulage"
+          ],
+          "correctIndex": 2,
+          "explanation": "La lithographie est une technique d'impression sur pierre, relevant des arts graphiques et non de la sculpture. La taille, le modelage et le moulage sont trois procédés sculptés classiques."
+        },
+        {
+          "question": "Ces trois bâtiments ont en commun d'avoir été conçus par le même architecte : le musée Guggenheim de Bilbao, le Walt Disney Concert Hall à Los Angeles, la Fondation Louis Vuitton à Paris. Qui est cet architecte ?",
+          "choices": [
+            "Renzo Piano",
+            "Frank Gehry",
+            "Zaha Hadid",
+            "Norman Foster"
+          ],
+          "correctIndex": 1,
+          "explanation": "Frank Gehry est l'auteur de ces trois édifices déconstructivistes reconnaissables à leurs coques de titane ou de verre aux formes organiques sculptées."
+        },
+        {
+          "question": "Quelle idée reçue est fausse concernant la photographie en noir et blanc ?",
+          "choices": [
+            "Elle peut exprimer autant de profondeur émotionnelle que la couleur",
+            "Elle est apparue avant la photographie en couleur",
+            "Elle est toujours moins informative qu'une photo en couleur",
+            "Ansel Adams en a fait un art à part entière"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le noir et blanc n'est pas nécessairement moins informatif : le contraste, la texture et la composition révèlent des détails que la couleur peut masquer. C'est un choix esthétique, non un appauvrissement."
+        },
+        {
+          "question": "Quel point commun partagent la fresque, la mosaïque et la tapisserie en tant que formes d'expression artistique ?",
+          "choices": [
+            "Toutes trois utilisent des pigments à l'huile",
+            "Toutes trois sont des arts de l'image intégrés à l'architecture ou à l'espace",
+            "Toutes trois ont été inventées à la Renaissance",
+            "Toutes trois sont considérées comme des arts mineurs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Fresque (mur), mosaïque (sol, paroi) et tapisserie (cloison, décoration murale) sont toutes des images conçues pour s'intégrer dans un espace architectural, souvent à grande échelle."
+        },
+        {
+          "question": "Un critique décrit une œuvre : « aplats de couleurs vives, contours noirs épais, sujets polynésiens ». À quel peintre pense-t-il ?",
+          "choices": [
+            "Paul Gauguin",
+            "Henri Matisse",
+            "Pablo Picasso",
+            "Émile Bernard"
+          ],
+          "correctIndex": 0,
+          "explanation": "Gauguin a développé à Tahiti et en Polynésie un style fait d'aplats colorés intenses et de cernes noirs inspirés du cloisonnisme, représentant des scènes et personnages locaux."
+        },
+        {
+          "question": "L'architecture Art nouveau se distingue surtout par : ",
+          "choices": [
+            "Ses formes géométriques rigides et ses façades lisses",
+            "Ses ornements inspirés des formes organiques de la nature (plantes, courbes)",
+            "Son usage exclusif du béton armé non revêtu",
+            "Ses références directes à l'architecture grecque antique"
+          ],
+          "correctIndex": 1,
+          "explanation": "L'Art nouveau (fin XIXe - début XXe) se définit par un ornement végétal et curviligne : tiges, fleurs, vagues. Le style de Hector Guimard (bouches de métro parisiennes) en est un exemple emblématique."
         }
       ]
     },
@@ -6685,6 +7609,83 @@
           ],
           "correctIndex": 2,
           "explanation": "Alekseï Yagudin, or olympique en simple messieurs."
+        },
+        {
+          "question": "Au tennis, un joueur remporte un set 7-5. Quel est le score minimum de jeux que son adversaire a pu gagner dans ce set ?",
+          "choices": [
+            "0",
+            "3",
+            "5",
+            "4"
+          ],
+          "correctIndex": 2,
+          "explanation": "Pour que le score soit 7-5, l'adversaire a obligatoirement remporté 5 jeux dans ce set. C'est la logique du décompte tennis : 7-5 signifie 7 jeux pour l'un, 5 pour l'autre."
+        },
+        {
+          "question": "Lequel de ces sports n'est PAS un sport collectif aux Jeux olympiques ?",
+          "choices": [
+            "Volleyball de plage",
+            "Waterpolo",
+            "Tir à l'arc par équipes",
+            "Pentathlon moderne"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le pentathlon moderne est une discipline individuelle (escrime, natation, équitation, tir, course à pied). Les trois autres peuvent être disputés en format collectif ou par équipes aux JO."
+        },
+        {
+          "question": "Quel point commun partagent le biathlon, le pentathlon moderne et le triathlon ?",
+          "choices": [
+            "Ce sont tous des sports d'hiver",
+            "Ils combinent tous au moins deux disciplines différentes",
+            "Ils sont tous apparus aux JO avant 1950",
+            "Ils nécessitent tous l'usage d'une arme"
+          ],
+          "correctIndex": 1,
+          "explanation": "Biathlon (ski + tir), pentathlon moderne (5 disciplines), triathlon (natation + vélo + course) : tous trois combinent plusieurs disciplines distinctes en une seule épreuve."
+        },
+        {
+          "question": "En rugby à XV, qu'est-ce qu'un drop (drop goal) vaut en points ?",
+          "choices": [
+            "2 points",
+            "5 points",
+            "3 points",
+            "4 points"
+          ],
+          "correctIndex": 2,
+          "explanation": "Un drop goal vaut 3 points en rugby à XV, comme une pénalité. Seul l'essai (5 pts) et la transformation (2 pts) sont différents. Savoir distinguer les valeurs est essentiel pour comprendre la tactique du jeu."
+        },
+        {
+          "question": "Laquelle de ces affirmations sur les Jeux olympiques est une idée reçue FAUSSE ?",
+          "choices": [
+            "Les JO antiques avaient lieu à Olympie en Grèce",
+            "Les JO modernes ont été relancés en 1896",
+            "Les JO d'hiver et d'été ont toujours eu lieu la même année",
+            "L'athlétisme est présent depuis les premiers JO modernes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Jusqu'en 1992, JO d'été et d'hiver se tenaient la même année. Depuis 1994, ils alternent tous les deux ans (Lillehammer 1994 a brisé cette tradition), donc l'affirmation est fausse."
+        },
+        {
+          "question": "Dans lequel de ces sports le chronomètre s'arrête à chaque interruption de jeu, rendant le temps officiel très différent du temps réel ?",
+          "choices": [
+            "Football",
+            "Rugby à XV",
+            "Basketball",
+            "Hockey sur gazon"
+          ],
+          "correctIndex": 2,
+          "explanation": "Au basketball, le chronomètre est stoppé à chaque faute, sortie de balle, temps mort et panier marqué. Un quart-temps de 12 min peut donc durer plus de 30 min en temps réel, contrairement au football ou au rugby."
+        },
+        {
+          "question": "Quel point commun ont le judo, le taekwondo et la lutte aux Jeux olympiques ?",
+          "choices": [
+            "Ce sont tous des sports de combat au corps à corps sans arme",
+            "Ils sont tous originaires d'Asie",
+            "Ils sont tous apparus aux JO après 1970",
+            "Ils se pratiquent tous sur un tatami"
+          ],
+          "correctIndex": 0,
+          "explanation": "Judo, taekwondo et lutte sont tous des sports de combat olympiques disputés sans arme et au corps à corps. La lutte est d'origine gréco-romaine et non asiatique, et tous ne se pratiquent pas sur tatami."
         }
       ]
     },
@@ -7242,6 +8243,94 @@
           ],
           "correctIndex": 0,
           "explanation": "Le Kalevala, recueil de poèmes oraux finlandais (1835)."
+        },
+        {
+          "question": "Poséidon, dieu grec des mers, possède le trident. Quel autre attribut lui est associé, souvent oublié au profit de la mer ?",
+          "choices": [
+            "La lyre d'or",
+            "Les tremblements de terre",
+            "La foudre dorée",
+            "Le casque d'invisibilité"
+          ],
+          "correctIndex": 1,
+          "explanation": "Poséidon est aussi l'Ébranleur de la Terre (Ennosigaios) : il provoque les séismes en frappant le sol de son trident. La foudre appartient à Zeus, la lyre à Apollon, le casque à Hadès."
+        },
+        {
+          "question": "Parmi ces quatre héros, lequel n'a PAS tué un monstre en utilisant la ruse ou un objet magique — mais par la seule force physique directe ?",
+          "choices": [
+            "Persée face à Méduse",
+            "Ulysse face au Cyclope",
+            "Héraclès face au lion de Némée",
+            "Thésée face au Minotaure"
+          ],
+          "correctIndex": 2,
+          "explanation": "Héraclès étrangla le lion de Némée à mains nues, car aucune arme ne pouvait percer sa peau. Persée utilisa le bouclier-miroir d'Athéna, Ulysse le pieu aiguisé, Thésée son épée."
+        },
+        {
+          "question": "Dans la mythologie romaine, quel dieu correspond au grec Arès — dieu de la guerre — et occupe une place bien plus importante dans le panthéon romain que son équivalent grec ?",
+          "choices": [
+            "Jupiter",
+            "Vulcain",
+            "Mars",
+            "Janus"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mars équivaut à Arès, mais les Romains l'élevaient au rang de père fondateur (père de Romulus) et de deuxième dieu après Jupiter, tandis qu'Arès était peu estimé des Grecs."
+        },
+        {
+          "question": "La déesse Héra persécuta longuement Héraclès. Parmi ces épreuves, laquelle n'est PAS l'un de ses douze travaux officiels ?",
+          "choices": [
+            "Capturer la biche de Cérynie",
+            "Nettoyer les écuries d'Augias",
+            "Tuer le Sphinx de Thèbes",
+            "Voler les pommes des Hespérides"
+          ],
+          "correctIndex": 2,
+          "explanation": "C'est Œdipe, non Héraclès, qui vainquit le Sphinx en résolvant son énigme. La biche de Cérynie (4ᵉ travail), les écuries d'Augias (5ᵉ) et les pommes des Hespérides (11ᵉ) font bien partie des douze travaux."
+        },
+        {
+          "question": "Dans la mythologie nordique, Loki est le père de plusieurs êtres monstrueux. Mais il est aussi, sous forme de jument, la MÈRE d'un célèbre animal. Lequel ?",
+          "choices": [
+            "Fenrir, le loup géant",
+            "Sleipnir, le cheval à huit pattes d'Odin",
+            "Jörmungandr, le serpent du Monde",
+            "Ratatoskr, l'écureuil de l'Yggdrasil"
+          ],
+          "correctIndex": 1,
+          "explanation": "Loki se transforma en jument pour détourner l'étalon Svaðilfari ; il donna naissance à Sleipnir, le cheval à huit pattes qui devint la monture d'Odin. Fenrir et Jörmungandr sont ses enfants sous forme masculine."
+        },
+        {
+          "question": "Osiris, Isis, Seth et Nephthys sont frères et sœurs dans la mythologie égyptienne. Quel lien généalogique les unit — et quel couple INATTENDU partagent-ils ?",
+          "choices": [
+            "Osiris et Nephthys sont mariés, Seth et Isis sont mariés",
+            "Isis et Seth sont jumeaux, Osiris et Nephthys sont cousins",
+            "Osiris et Isis sont mariés, Seth et Nephthys sont mariés",
+            "Ils sont tous les quatre fils d'Amon-Rê, sans lien conjugal"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les quatre sont enfants de Geb (terre) et Nout (ciel) : Osiris épouse sa sœur Isis, Seth épouse sa sœur Nephthys. Ce mariage entre frères et sœurs est courant dans les panthéons royaux égyptiens."
+        },
+        {
+          "question": "Quel point commun réunit Achille, Siegfried (héros germanique) et Baldr (dieu nordique) — en dépit de leurs origines mythologiques très différentes ?",
+          "choices": [
+            "Tous trois descendent d'un dieu forgeron",
+            "Tous trois sont invulnérables sauf en un point précis de leur corps",
+            "Tous trois ont été tués par une flèche empoisonnée",
+            "Tous trois ont séjourné aux Enfers et en sont revenus"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois héros partagent le motif de l'invulnérabilité incomplète : le talon d'Achille, l'épaule de Siegfried (non couverte de sang de dragon), et la faiblesse de Baldr face au gui. Un archétype narratif répandu dans les mythologies indo-européennes."
+        },
+        {
+          "question": "On confond souvent Prométhée et Épiméthée. Quelle affirmation décrit correctement leur rôle respectif dans la création de l'humanité ?",
+          "choices": [
+            "Prométhée modela les humains en argile, Épiméthée leur vola le feu",
+            "Épiméthée créa les animaux en leur donnant des dons, épuisant les ressources avant l'humain ; Prométhée compensa en donnant le feu aux hommes",
+            "Prométhée et Épiméthée créèrent les humains ensemble, puis Zeus les punit tous deux",
+            "Épiméthée donna la sagesse aux humains, Prométhée leur donna la force physique"
+          ],
+          "correctIndex": 1,
+          "explanation": "Épiméthée (« celui qui réfléchit après ») distribua fourrure, vitesse et griffes aux animaux, ne laissant rien pour les humains. Prométhée (« celui qui réfléchit avant ») répara cette erreur en dérobant le feu à Héphaïstos pour le donner aux hommes."
         }
       ]
     },
@@ -7799,6 +8888,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Hans-Georg Gadamer, 1960."
+        },
+        {
+          "question": "Lequel de ces penseurs est antérieur aux trois autres ?",
+          "choices": [
+            "Thomas d'Aquin",
+            "Averroès (Ibn Rushd)",
+            "Épicure",
+            "René Descartes"
+          ],
+          "correctIndex": 2,
+          "explanation": "Épicure vécut au IVe-IIIe siècle av. J.-C., soit bien avant Thomas d'Aquin (XIIIe s.), Averroès (XIIe s.) et Descartes (XVIIe s.)."
+        },
+        {
+          "question": "Parmi ces quatre religions, laquelle n'appartient PAS au groupe des religions dites « abrahamiques » ?",
+          "choices": [
+            "L'islam",
+            "Le christianisme",
+            "Le bouddhisme",
+            "Le judaïsme"
+          ],
+          "correctIndex": 2,
+          "explanation": "Les religions abrahamiques (islam, christianisme, judaïsme) partagent la figure d'Abraham comme ancêtre spirituel ; le bouddhisme est né en Inde sans lien avec cette tradition."
+        },
+        {
+          "question": "À quel philosophe associe-t-on l'expression « l'opium du peuple » pour qualifier la religion ?",
+          "choices": [
+            "Friedrich Nietzsche",
+            "Auguste Comte",
+            "Karl Marx",
+            "Ludwig Feuerbach"
+          ],
+          "correctIndex": 2,
+          "explanation": "C'est Karl Marx qui écrit en 1844 que « la religion est l'opium du peuple », dans sa Contribution à la critique de la philosophie du droit de Hegel."
+        },
+        {
+          "question": "Quel concept philosophique désigne le fait de remettre en doute toutes ses certitudes pour n'accepter que ce qui est indubitablement vrai ?",
+          "choices": [
+            "L'épochè stoïcienne",
+            "Le doute méthodique cartésien",
+            "La maïeutique socratique",
+            "La réduction phénoménologique husserlienne"
+          ],
+          "correctIndex": 1,
+          "explanation": "Descartes appelle « doute méthodique » sa démarche consistant à rejeter provisoirement toute croyance non certaine, afin de reconstruire le savoir sur des bases solides."
+        },
+        {
+          "question": "Dans la philosophie de Platon, lequel de ces termes désigne le monde des formes idéales et immuables, par opposition au monde sensible ?",
+          "choices": [
+            "Le logos",
+            "Le noûs",
+            "Le monde intelligible",
+            "L'apeiron"
+          ],
+          "correctIndex": 2,
+          "explanation": "Platon oppose le monde sensible (changeant, perceptible) au monde intelligible (immuable, accessible par la raison), où résident les Idées ou Formes."
+        },
+        {
+          "question": "Quelle idée reçue est FAUSSE à propos du Bouddha historique (Siddhārtha Gautama) ?",
+          "choices": [
+            "Il est né dans une famille aristocratique de l'Inde du Nord",
+            "Il a prêché une doctrine de libération de la souffrance",
+            "Il est considéré comme une divinité créatrice dans le bouddhisme theravāda",
+            "Il a vécu au Ve-IVe siècle av. J.-C."
+          ],
+          "correctIndex": 2,
+          "explanation": "Dans le bouddhisme theravāda (bouddhisme des origines), le Bouddha est un être humain éveillé, non un dieu créateur ; la notion de divinité créatrice est étrangère à cette tradition."
+        },
+        {
+          "question": "Quel est le point commun entre l'épicurisme, le stoïcisme et le scepticisme antiques ?",
+          "choices": [
+            "Ils sont tous fondés par des disciples directs de Platon",
+            "Ils cherchent tous à définir la voie vers le bonheur ou la tranquillité de l'âme",
+            "Ils partagent tous la même conception du destin (fatum)",
+            "Ils rejettent tous l'existence des dieux"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois courants hellénistiques, bien que divergents sur leurs méthodes, se rejoignent sur un objectif éthique commun : atteindre l'ataraxie, c'est-à-dire la paix de l'âme et l'absence de trouble."
+        },
+        {
+          "question": "Quel philosophe du XXe siècle a développé la notion de « surhomme » (Übermensch) comme idéal d'un être qui crée ses propres valeurs ?",
+          "choices": [
+            "Arthur Schopenhauer",
+            "Martin Heidegger",
+            "Friedrich Nietzsche",
+            "Jean-Paul Sartre"
+          ],
+          "correctIndex": 2,
+          "explanation": "Le surhomme (Übermensch) est un concept central de Nietzsche, notamment dans Ainsi parlait Zarathoustra (1883) : il désigne celui qui dépasse la morale traditionnelle pour forger ses propres valeurs."
         }
       ]
     },
@@ -8356,6 +9533,94 @@
           ],
           "correctIndex": 1,
           "explanation": "Le « backpropagation » est la base de l'entraînement des réseaux profonds."
+        },
+        {
+          "question": "Lequel de ces éléments est apparu en premier dans l'histoire ?",
+          "choices": [
+            "Le World Wide Web",
+            "Internet (ARPANET)",
+            "Le courrier électronique (e-mail)",
+            "Le navigateur graphique Mosaic"
+          ],
+          "correctIndex": 1,
+          "explanation": "ARPANET, précurseur d'Internet, date de 1969. L'e-mail est apparu vers 1971, le Web en 1991 et Mosaic en 1993."
+        },
+        {
+          "question": "Un fichier MP3 de 3 minutes pèse environ 3 Mo. Quel est l'ordre de grandeur correspondant en octets ?",
+          "choices": [
+            "3 000 octets",
+            "3 000 000 octets",
+            "3 000 000 000 octets",
+            "3 000 000 000 000 octets"
+          ],
+          "correctIndex": 1,
+          "explanation": "1 Mo (mégaoctet) = 1 000 000 octets environ. Trois mégas font donc près de 3 millions d'octets, soit l'ordre du million."
+        },
+        {
+          "question": "Parmi ces quatre éléments, lequel est l'intrus ? IPv4, IPv6, TCP, HTTP",
+          "choices": [
+            "IPv4",
+            "IPv6",
+            "TCP",
+            "HTTP"
+          ],
+          "correctIndex": 3,
+          "explanation": "IPv4, IPv6 et TCP sont des protocoles de la couche réseau/transport (modèle TCP/IP). HTTP est un protocole de la couche application, situé au-dessus."
+        },
+        {
+          "question": "Un ordinateur effectue 1 milliard d'opérations par seconde. Comment s'appelle cette unité de mesure ?",
+          "choices": [
+            "1 mégahertz",
+            "1 gigahertz",
+            "1 térahertz",
+            "1 pétaflops"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le hertz mesure des cycles par seconde : 1 gigahertz (GHz) = 1 milliard de cycles/seconde. Le térahertz en vaudrait 1 000 fois plus."
+        },
+        {
+          "question": "Quelle affirmation sur le Web et Internet est correcte ?",
+          "choices": [
+            "Le Web et Internet sont deux noms pour la même chose",
+            "Internet est un service parmi d'autres qui utilise le Web",
+            "Le Web est un service (pages HTML) qui utilise Internet comme réseau",
+            "Internet a été inventé après le Web pour le faire fonctionner"
+          ],
+          "correctIndex": 2,
+          "explanation": "Internet est l'infrastructure réseau mondiale ; le Web (HTTP/HTML) est l'un des services qui l'utilise, au même titre que l'e-mail ou FTP."
+        },
+        {
+          "question": "Quel est le point commun entre PNG, JPEG et SVG ?",
+          "choices": [
+            "Ce sont tous des formats de fichiers audio",
+            "Ce sont tous des formats de fichiers image",
+            "Ce sont tous des formats de compression sans perte",
+            "Ce sont tous des langages de programmation"
+          ],
+          "correctIndex": 1,
+          "explanation": "PNG, JPEG et SVG sont trois formats d'image. Ils diffèrent en revanche : PNG et SVG sont sans perte, JPEG est avec perte, et SVG est vectoriel."
+        },
+        {
+          "question": "Si un programme plante à cause d'un « dépassement de pile » (stack overflow), quelle en est la cause la plus fréquente ?",
+          "choices": [
+            "Un fichier trop volumineux chargé en mémoire",
+            "Une connexion réseau perdue",
+            "Une récursion infinie sans condition d'arrêt",
+            "Un disque dur plein"
+          ],
+          "correctIndex": 2,
+          "explanation": "La pile d'appels (call stack) grandit à chaque appel de fonction. Une récursion sans fin la remplit jusqu'au débordement, provoquant un stack overflow."
+        },
+        {
+          "question": "Quel est le point commun entre Bluetooth, Wi-Fi et NFC ?",
+          "choices": [
+            "Ce sont tous des protocoles filaires",
+            "Ce sont tous des technologies de communication sans fil",
+            "Ils utilisent tous la même fréquence radio",
+            "Ils nécessitent tous une connexion Internet"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bluetooth, Wi-Fi et NFC sont trois technologies de communication sans fil (radio ou champ proche). Leurs fréquences et portées diffèrent : NFC fonctionne à quelques centimètres, Bluetooth à quelques mètres, Wi-Fi jusqu'à des dizaines de mètres."
         }
       ]
     },
@@ -8913,6 +10178,94 @@
           ],
           "correctIndex": 0,
           "explanation": "El Bulli de Ferran Adrià, Roses (Catalogne)."
+        },
+        {
+          "question": "La vraie recette des pâtes carbonara (selon la tradition romaine) exclut absolument quel ingrédient souvent ajouté en dehors d'Italie ?",
+          "choices": [
+            "Le guanciale (joue de porc)",
+            "La crème fraîche",
+            "Le pecorino romano",
+            "Le jaune d'œuf"
+          ],
+          "correctIndex": 1,
+          "explanation": "La carbonara authentique romaine ne contient ni crème ni ail : la sauce crémeuse vient uniquement des jaunes d'œufs émulsionnés avec le gras du guanciale. La crème est une erreur répandue à l'international."
+        },
+        {
+          "question": "Lequel de ces quatre fromages N'appartient PAS à la famille des fromages à pâte molle et croûte fleurie ?",
+          "choices": [
+            "Brie de Meaux",
+            "Camembert de Normandie",
+            "Coulommiers",
+            "Roquefort"
+          ],
+          "correctIndex": 3,
+          "explanation": "Le Roquefort est un fromage à pâte persillée (bleu), affiné dans les caves naturelles de Combalou. Les trois autres appartiennent bien à la famille pâte molle / croûte blanche fleurie."
+        },
+        {
+          "question": "Quel est le point commun entre le beurre blanc nantais, la sauce hollandaise et la sauce béarnaise ?",
+          "choices": [
+            "Elles contiennent toutes du vinaigre d'estragon",
+            "Elles sont toutes émulsionnées à partir de beurre clarifié ou fondu",
+            "Elles appartiennent aux « sauces mères » de la cuisine classique",
+            "Elles nécessitent toutes une réduction au vin blanc"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ces trois sauces reposent sur une émulsion chaude du beurre. Ni le beurre blanc ni la hollandaise ne contiennent d'estragon, et aucune des trois n'est une sauce mère au sens d'Escoffier."
+        },
+        {
+          "question": "Le « umami », cinquième saveur fondamentale, a été isolé scientifiquement en 1908 par un chercheur japonais à partir de quel ingrédient ?",
+          "choices": [
+            "La sauce soja fermentée",
+            "Le bouillon de champignons shiitake",
+            "Les algues kombu",
+            "La pâte de miso"
+          ],
+          "correctIndex": 2,
+          "explanation": "Kikunae Ikeda a isolé le glutamate de sodium à partir du bouillon de kombu (algue). C'est cet acide aminé qui produit la sensation de rondeur et de profondeur caractéristique de l'umami."
+        },
+        {
+          "question": "La technique de « brunoise » désigne quelle taille de coupe en cuisine professionnelle ?",
+          "choices": [
+            "Des tranches fines de 2 à 3 mm d'épaisseur",
+            "Des petits dés de 1 à 2 mm de côté",
+            "Des bâtonnets de 5 cm de longueur",
+            "Des rondelles obliques de légumes"
+          ],
+          "correctIndex": 1,
+          "explanation": "La brunoise est une coupe en très petits dés réguliers d'environ 1 à 2 mm de côté, obtenue en empilant des tranches puis des bâtonnets avant de les couper transversalement. Elle est utilisée pour les garnitures fines."
+        },
+        {
+          "question": "De quel pays provient originellement le plat appelé « moussaka » avant d'être associé à la cuisine grecque moderne ?",
+          "choices": [
+            "La Turquie ottomane et le monde arabe",
+            "La Bulgarie médiévale",
+            "La Perse sassanide",
+            "L'Égypte copte"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le terme « moussaka » vient de l'arabe musaqqa'a (« refroidi »). Le plat existait dans l'Empire ottoman et la cuisine arabe bien avant la version grecque gratinée à la béchamel, codifiée seulement au XXe siècle."
+        },
+        {
+          "question": "Si vous voyez « AOC Époisses » sur un fromage, quelle affirmation est INCORRECTE ?",
+          "choices": [
+            "Il s'agit d'un fromage bourguignon à croûte lavée",
+            "Sa croûte est rincée à l'eau-de-vie de marc de Bourgogne",
+            "Il ne peut pas être fabriqué au lait pasteurisé",
+            "Son odeur puissante est due aux bactéries de surface"
+          ],
+          "correctIndex": 2,
+          "explanation": "Contrairement à une idée répandue, le cahier des charges AOC Époisses autorise le lait pasteurisé pour la production industrielle — seul le fermier utilise du lait cru. L'AOC ne l'interdit donc pas."
+        },
+        {
+          "question": "Un chef prépare un fond de veau « lié ». Quelle différence fondamentale le distingue d'un fond de veau « brun » classique ?",
+          "choices": [
+            "Il est réalisé avec des os blanchis plutôt que rôtis",
+            "Il est réduit puis épaissi avec un amidon ou du roux",
+            "Il contient du vin rouge contrairement au fond brun",
+            "Il est filtré à travers un torchon pour le clarifier"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le fond lié est un fond brun réduit auquel on ajoute un agent liant (fécule, arrow-root ou roux) pour lui donner une consistance nappante. Le fond brun classique, lui, est simplement réduit par évaporation sans ajout d'épaississant."
         }
       ]
     },
@@ -9470,6 +10823,94 @@
           ],
           "correctIndex": 0,
           "explanation": "Swahili, parlé du Kenya à la RDC orientale."
+        },
+        {
+          "question": "Le mot français « salaire » vient du latin « salarium ». Quelle déduction logique peut-on tirer de cette étymologie ?",
+          "choices": [
+            "Les Romains payaient leurs soldats en monnaies d'or frappées",
+            "Une partie de la solde romaine était versée en sel, denrée précieuse",
+            "Le mot désignait à l'origine le chemin parcouru pour travailler",
+            "Les esclaves romains étaient achetés contre du sel"
+          ],
+          "correctIndex": 1,
+          "explanation": "« Salarium » dérive de « sal » (sel). Une partie de la paie des soldats romains était versée en sel, produit rare et précieux servant notamment à conserver les aliments."
+        },
+        {
+          "question": "Parmi ces quatre mots, lequel est un FAUX ami entre le français et l'anglais ?",
+          "choices": [
+            "Catastrophe / catastrophe",
+            "Library / librairie",
+            "Agenda / agenda",
+            "Banque / bank"
+          ],
+          "correctIndex": 1,
+          "explanation": "« Library » signifie « bibliothèque » en anglais, et non « librairie » (qui se dit « bookshop »). Les autres paires partagent le même sens dans les deux langues."
+        },
+        {
+          "question": "Le préfixe grec « hypo- » s'oppose à « hyper- ». Si « hypertension » désigne une tension trop élevée, que signifie logiquement « hypoglycémie » ?",
+          "choices": [
+            "Absence totale de sucre dans l'organisme",
+            "Variation anormale du taux de sucre",
+            "Taux de sucre sanguin trop élevé",
+            "Taux de sucre sanguin trop bas"
+          ],
+          "correctIndex": 3,
+          "explanation": "« Hypo- » signifie « en dessous de la normale » et « glykys » = sucre. L'hypoglycémie désigne donc un taux de glucose sanguin anormalement bas, à l'inverse de l'hyperglycémie."
+        },
+        {
+          "question": "Laquelle de ces langues N'appartient PAS à la famille indo-européenne ?",
+          "choices": [
+            "Le turc",
+            "Le bengali",
+            "L'arménien",
+            "Le persan (farsi)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Le turc appartient à la famille turco-altaïque, sans lien génétique avec l'indo-européen. Le persan, le bengali et l'arménien sont tous des langues indo-européennes."
+        },
+        {
+          "question": "Le mot « catastrophe » vient du grec « katastrephein » (kata = vers le bas, strephein = tourner). Quel était son sens premier ?",
+          "choices": [
+            "Un désastre naturel soudain",
+            "La chute d'un tyran",
+            "Une guerre dévastatrice entre cités",
+            "Le dénouement final d'une tragédie grecque"
+          ],
+          "correctIndex": 3,
+          "explanation": "Étymologiquement, « catastrophe » désigne le retournement final, le dénouement d'une pièce de théâtre grec — souvent fatal. C'est par extension que le mot a pris le sens de désastre."
+        },
+        {
+          "question": "Le roumain, contrairement aux autres langues romanes, a conservé certains cas latins. Qu'est-ce que cela révèle sur son évolution ?",
+          "choices": [
+            "Il descend directement du grec ancien et non du latin",
+            "Il a subi une réforme grammaticale artificielle au XIXe siècle",
+            "Il a évolué de manière plus isolée, préservant des traits latins archaïques",
+            "Il est plus récent que le français et l'espagnol"
+          ],
+          "correctIndex": 2,
+          "explanation": "Isolé géographiquement des autres langues romanes, le roumain a conservé des traits du latin tardif que le français, l'espagnol et l'italien ont perdus, notamment une déclinaison nominale partielle."
+        },
+        {
+          "question": "Quel point commun étymologique partagent les mots « lunettes », « lundi » et « lunaison » ?",
+          "choices": [
+            "Ils dérivent tous du grec « leukos » (blanc)",
+            "Ils dérivent tous du latin « luna » (Lune)",
+            "Ils dérivent tous du latin « lux » (lumière)",
+            "Ils dérivent tous du gaulois « lugus » (lumière)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les trois mots partagent la racine latine « luna » : les lunettes (en verre rond comme la Lune), lundi (jour de la Lune, « dies Lunae ») et lunaison (cycle lunaire) en témoignent."
+        },
+        {
+          "question": "En français, « décimer » signifie couramment « détruire en grande partie ». Mais que désignait ce mot dans la Rome antique ?",
+          "choices": [
+            "Exécuter la totalité d'une unité militaire défaillante",
+            "Exiler les généraux vaincus hors de Rome",
+            "Réduire les rations de nourriture de moitié",
+            "Tuer un soldat sur dix comme châtiment collectif"
+          ],
+          "correctIndex": 3,
+          "explanation": "Du latin « decimus » (dixième) : « décimer » désignait la pratique romaine d'exécuter par tirage au sort un légionnaire sur dix pour punir une cohorte de lâcheté. Le sens actuel de « destruction massive » est donc un glissement."
         }
       ]
     },
@@ -10027,6 +11468,94 @@
           ],
           "correctIndex": 0,
           "explanation": "Jennifer Doudna et Emmanuelle Charpentier, prix Nobel de chimie 2020."
+        },
+        {
+          "question": "Parmi ces trois inventions chinoises majeures, laquelle est apparue en PREMIER dans l'histoire ?",
+          "choices": [
+            "La boussole magnétique",
+            "Le papier",
+            "L'imprimerie à caractères mobiles",
+            "La poudre à canon"
+          ],
+          "correctIndex": 1,
+          "explanation": "Le papier a été inventé en Chine dès le IIe siècle av. J.-C. (Cai Lun l'améliore vers 105 apr. J.-C.), bien avant la boussole (IXe s.), la poudre (IXe s.) et l'imprimerie à caractères mobiles (XIe s. avec Bi Sheng)."
+        },
+        {
+          "question": "L'invention de la machine à vapeur est souvent attribuée à James Watt. Quelle affirmation est plus exacte ?",
+          "choices": [
+            "Watt a inventé la toute première machine à vapeur vers 1769",
+            "Watt a perfectionné une machine à vapeur déjà existante en y ajoutant le condenseur séparé",
+            "Watt a copié les plans de Thomas Newcomen sans rien y ajouter",
+            "Denis Papin avait construit une machine à vapeur fonctionnelle identique à celle de Watt"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thomas Newcomen avait déjà construit une machine atmosphérique en 1712. Watt l'a transformée en 1769 en ajoutant un condenseur séparé, ce qui multiplia son rendement et en fit le moteur de la Révolution industrielle."
+        },
+        {
+          "question": "Quel point commun unit Archimède, Galilée et Newton dans l'histoire des sciences ?",
+          "choices": [
+            "Tous trois ont fondé une académie scientifique officielle",
+            "Tous trois ont formulé des lois fondamentales à partir d'une observation fortuite du quotidien",
+            "Tous trois ont été condamnés par l'Église catholique",
+            "Tous trois ont inventé un instrument de mesure du temps"
+          ],
+          "correctIndex": 1,
+          "explanation": "La légende attribue à chacun une eurêka du quotidien : le bain pour Archimède (poussée), le lustre de cathédrale pour Galilée (pendule), la pomme pour Newton (gravitation). Ces anecdotes illustrent comment l'observation ordinaire a déclenché des lois universelles."
+        },
+        {
+          "question": "Quelle invention du XIXe siècle a rendu possible la construction des gratte-ciel modernes, en éliminant la principale crainte des utilisateurs ?",
+          "choices": [
+            "Le béton armé",
+            "L'ascenseur à sécurité automatique d'Elisha Otis",
+            "La charpente métallique en acier",
+            "Le verre trempé pour grandes façades"
+          ],
+          "correctIndex": 1,
+          "explanation": "Les ascenseurs existaient déjà, mais la peur de la chute libre freinait leur adoption. En 1854, Elisha Otis démontra publiquement son frein de sécurité automatique en se faisant couper le câble en pleine ascension — ce qui leva le verrou psychologique et permit la course vers les hauteurs."
+        },
+        {
+          "question": "La découverte de l'Amérique par Colomb en 1492 a eu une conséquence biologique majeure involontaire : laquelle est la plus dévastatrice pour les populations amérindiennes ?",
+          "choices": [
+            "L'introduction du cheval qui modifia leurs modes de guerre",
+            "L'importation de cultures comme le blé qui supplanta le maïs local",
+            "La transmission de maladies européennes (variole, rougeole) contre lesquelles ils n'avaient aucune immunité",
+            "L'apport du fer qui déséquilibra les rapports de force entre tribus"
+          ],
+          "correctIndex": 2,
+          "explanation": "L'échange colombien a apporté des maladies infectieuses inconnues en Amérique. La variole et la rougeole ont tué entre 50 % et 90 % de certaines populations amérindiennes, beaucoup avant même tout contact direct avec des Européens — un désastre démographique sans précédent."
+        },
+        {
+          "question": "Parmi ces technologies, laquelle a été développée INITIALEMENT pour un usage militaire avant d'être adoptée par le grand public ?",
+          "choices": [
+            "Le four à micro-ondes",
+            "Le téléviseur couleur",
+            "Le magnétophone à cassette",
+            "La machine à laver électrique"
+          ],
+          "correctIndex": 0,
+          "explanation": "Percy Spencer découvrit par accident l'effet des micro-ondes sur les aliments en 1945 en travaillant sur un radar militaire : un chocolat fondit dans sa poche. Le premier four commercial (Radarange) fut vendu en 1947, d'abord aux cuisines militaires et hôtels."
+        },
+        {
+          "question": "Quel est l'intrus parmi ces inventeurs qui ont donné leur nom à une unité de mesure physique toujours utilisée ?",
+          "choices": [
+            "Alessandro Volta (le volt)",
+            "André-Marie Ampère (l'ampère)",
+            "Nikola Tesla (le tesla)",
+            "Thomas Edison (l'edison)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Volta, Ampère et Tesla ont tous une unité du Système international à leur nom. Il n'existe pas d'unité SI appelée « l'edison » : malgré l'immensité de son œuvre, Thomas Edison n'a pas été honoré de cette façon par la communauté scientifique internationale."
+        },
+        {
+          "question": "La technique de l'imprimerie à caractères mobiles métalliques attribuée à Gutenberg (vers 1450 en Europe) avait déjà été inventée en Asie. Quel élément explique que l'impact en Europe soit bien plus grand ?",
+          "choices": [
+            "L'Europe utilisait du papier de meilleure qualité que l'Asie",
+            "L'alphabet latin (26 lettres) rend l'impression à caractères mobiles bien plus efficace qu'un système à milliers de sinogrammes",
+            "Gutenberg avait un réseau commercial supérieur à celui des inventeurs asiatiques",
+            "L'Église catholique a subventionné massivement la diffusion des presses en Europe"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bi Sheng (Chine, XIe s.) et Choe Yun-ui (Corée, XIIIe s.) avaient précédé Gutenberg, mais les écritures idéographiques nécessitent des milliers de caractères distincts, rendant la composition lente et coûteuse. L'alphabet latin, avec ses 26 lettres, décuple la productivité de la presse et explique la révolution de l'information en Europe."
         }
       ]
     }
