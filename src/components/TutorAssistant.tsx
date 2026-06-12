@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { useLocation } from 'react-router-dom'
 import { getSubject, getChapter } from '../data'
 
@@ -65,6 +65,35 @@ function loadHistory(): Msg[] {
   } catch {
     return []
   }
+}
+
+// Rendu « markdown léger » et SÛR des réponses de l'IA (DeepSeek émet parfois
+// du **gras**, des listes, du `code`). On construit des nœuds React — JAMAIS de
+// HTML brut injecté — donc aucun risque de XSS : tout texte reste échappé.
+function renderInline(text: string, key: string): ReactNode[] {
+  const out: ReactNode[] = []
+  const re = /(\*\*([^*]+)\*\*|`([^`]+)`|\*([^*]+)\*)/g
+  let last = 0
+  let m: RegExpExecArray | null
+  let i = 0
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index))
+    if (m[2] != null) out.push(<strong key={`${key}-b${i}`}>{m[2]}</strong>)
+    else if (m[3] != null) out.push(<code key={`${key}-c${i}`} className="bbai-code">{m[3]}</code>)
+    else if (m[4] != null) out.push(<em key={`${key}-i${i}`}>{m[4]}</em>)
+    last = m.index + m[0].length
+    i++
+  }
+  if (last < text.length) out.push(text.slice(last))
+  return out
+}
+
+function renderRich(content: string): ReactNode {
+  return content.split('\n').map((line, i) => (
+    <span key={i} className="bbai-line">
+      {renderInline(line, `l${i}`)}
+    </span>
+  ))
 }
 
 export default function TutorAssistant() {
@@ -196,7 +225,7 @@ export default function TutorAssistant() {
 
             {messages.map((m, i) => (
               <div key={i} className={'bbai-msg ' + (m.role === 'user' ? 'me' : 'bot')}>
-                {m.content}
+                {m.role === 'user' ? m.content : renderRich(m.content)}
               </div>
             ))}
             {typing && (
@@ -269,6 +298,10 @@ const styles = `
 .bbai-msg.bot{align-self:flex-start;background:rgba(255,255,255,.09);border-radius:16px 16px 16px 5px}
 .bbai-msg.me{align-self:flex-end;border-radius:16px 16px 5px 16px;border-color:rgba(255,255,255,.28);
   background:linear-gradient(180deg,rgba(124,58,237,.88),rgba(236,72,153,.72))}
+.bbai-line{display:block}
+.bbai-line:empty{height:.5em}
+.bbai-code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.92em;background:rgba(255,255,255,.16);padding:1px 5px;border-radius:5px}
+.bbai-msg.bot strong{font-weight:700}
 .bbai-typing{display:flex;gap:4px;align-items:center}
 .bbai-typing span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.6);animation:bbai-blink 1.2s infinite}
 .bbai-typing span:nth-child(2){animation-delay:.2s}
