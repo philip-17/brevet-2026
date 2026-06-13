@@ -309,7 +309,7 @@ const styles = `
   font-size:21px;background:linear-gradient(135deg,#2dd4bf,#7c3aed);box-shadow:0 4px 12px rgba(0,0,0,.3)}
 .bbai-head-txt{display:flex;flex-direction:column;min-width:0}
 .bbai-head-txt strong{font-size:15.5px;letter-spacing:-.01em}
-.bbai-name{background:linear-gradient(90deg,#fbbf24,#f472b6,#a78bfa,#22d3ee);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;font-weight:800;animation:bbai-namehue 6s linear infinite}
+.bbai-name{background:linear-gradient(90deg,#fbbf24,#f472b6,#a78bfa,#22d3ee);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;font-weight:800;font-size:1.32em;letter-spacing:.3px;animation:bbai-namehue 6s linear infinite}
 @keyframes bbai-namehue{to{background-position:200% center}}
 @media (prefers-reduced-motion:reduce){.bbai-name{animation:none}}
 .bbai-head-txt span{font-size:11.5px;opacity:.66}
