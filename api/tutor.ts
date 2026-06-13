@@ -1,4 +1,4 @@
-// Fonction serverless Vercel : l'assistant IA « Phifou » (tuteur brevet).
+// Fonction serverless Vercel : l'assistant IA « Coach Phifou » (tuteur brevet).
 // Répond aux questions des élèves (cours, méthode, aide sur un quiz, motivation,
 // navigation dans l'appli). Clé DeepSeek côté serveur uniquement.
 //
@@ -66,7 +66,7 @@ function sanitizeMessages(raw: unknown): ChatMessage[] {
   return out
 }
 
-const SYSTEM = `Tu es « Phifou », l'assistant IA de BrevetBoost, une appli de révision du brevet des collèges (3e, France). Tu aides un·e élève de ~14-15 ans. Tutoie-le, reste chaleureux, clair et encourageant.
+const SYSTEM = `Tu es « Coach Phifou », l'assistant IA de BrevetBoost, une appli de révision du brevet des collèges (3e, France). Tu aides un·e élève de ~14-15 ans. Tutoie-le, reste chaleureux, clair et encourageant.
 
 CE QUE TU FAIS :
 - Expliquer une notion ou répondre à une question de cours : maths, français, histoire-géo, sciences (physique-chimie, SVT, techno) et culture générale.

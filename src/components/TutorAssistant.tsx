@@ -4,7 +4,7 @@ import { getSubject, getChapter } from '../data'
 import { findChapterForQuery, type ChapterMatch } from '../utils/chapterSearch'
 
 /**
- * « Phifou » — assistant IA flottant présent sur toutes les pages.
+ * « Coach Phifou » — assistant IA flottant présent sur toutes les pages.
  * - Bulle en bas à droite ; clic → panneau de discussion.
  * - Sait sur quelle page se trouve l'élève (matière / chapitre) et le transmet
  *   à l'IA comme contexte, pour des réponses pertinentes.
@@ -183,7 +183,7 @@ export default function TutorAssistant() {
 
       {/* Bulle flottante */}
       {!open && (
-        <button className="bbai-fab" onClick={() => setOpen(true)} aria-label="Ouvrir l'assistant Phifou">
+        <button className="bbai-fab" onClick={() => setOpen(true)} aria-label="Ouvrir l'assistant Coach Phifou">
           <span className="bbai-fab-ico">🎓</span>
           <span className="bbai-fab-pulse" />
         </button>
@@ -191,12 +191,12 @@ export default function TutorAssistant() {
 
       {/* Panneau de discussion */}
       {open && (
-        <div className="bbai-panel" role="dialog" aria-modal="false" aria-label="Assistant Phifou">
+        <div className="bbai-panel" role="dialog" aria-modal="false" aria-label="Assistant Coach Phifou">
           <div className="bbai-head">
             <div className="bbai-head-id">
               <span className="bbai-avatar">🎓</span>
               <div className="bbai-head-txt">
-                <strong>Phifou</strong>
+                <strong>Coach <span className="bbai-name">Phifou</span></strong>
                 <span>Ton assistant brevet · IA</span>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function TutorAssistant() {
             {messages.length === 0 && (
               <div className="bbai-welcome">
                 <div className="bbai-welcome-big">👋</div>
-                <p className="bbai-welcome-h">Salut ! Je suis Phifou.</p>
+                <p className="bbai-welcome-h">Salut ! Je suis Coach <span className="bbai-name">Phifou</span>.</p>
                 <p className="bbai-welcome-p">
                   Une question de cours, un exercice qui bloque, une méthode à réviser&nbsp;? Demande-moi tout, je suis là
                   pour t'aider à décrocher ton brevet 💪
@@ -309,6 +309,9 @@ const styles = `
   font-size:21px;background:linear-gradient(135deg,#2dd4bf,#7c3aed);box-shadow:0 4px 12px rgba(0,0,0,.3)}
 .bbai-head-txt{display:flex;flex-direction:column;min-width:0}
 .bbai-head-txt strong{font-size:15.5px;letter-spacing:-.01em}
+.bbai-name{background:linear-gradient(90deg,#fbbf24,#f472b6,#a78bfa,#22d3ee);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;font-weight:800;animation:bbai-namehue 6s linear infinite}
+@keyframes bbai-namehue{to{background-position:200% center}}
+@media (prefers-reduced-motion:reduce){.bbai-name{animation:none}}
 .bbai-head-txt span{font-size:11.5px;opacity:.66}
 .bbai-head-actions{display:flex;gap:6px}
 .bbai-icobtn{width:32px;height:32px;border-radius:50%;border:1px solid rgba(255,255,255,.18);cursor:pointer;
