@@ -4,7 +4,7 @@ import { getSubject, getChapter } from '../data'
 import { findChapterForQuery, type ChapterMatch } from '../utils/chapterSearch'
 
 /**
- * « Coach BB » — assistant IA flottant présent sur toutes les pages.
+ * « Phifou » — assistant IA flottant présent sur toutes les pages.
  * - Bulle en bas à droite ; clic → panneau de discussion.
  * - Sait sur quelle page se trouve l'élève (matière / chapitre) et le transmet
  *   à l'IA comme contexte, pour des réponses pertinentes.
@@ -183,7 +183,7 @@ export default function TutorAssistant() {
 
       {/* Bulle flottante */}
       {!open && (
-        <button className="bbai-fab" onClick={() => setOpen(true)} aria-label="Ouvrir l'assistant Coach BB">
+        <button className="bbai-fab" onClick={() => setOpen(true)} aria-label="Ouvrir l'assistant Phifou">
           <span className="bbai-fab-ico">🎓</span>
           <span className="bbai-fab-pulse" />
         </button>
@@ -191,12 +191,12 @@ export default function TutorAssistant() {
 
       {/* Panneau de discussion */}
       {open && (
-        <div className="bbai-panel" role="dialog" aria-modal="false" aria-label="Assistant Coach BB">
+        <div className="bbai-panel" role="dialog" aria-modal="false" aria-label="Assistant Phifou">
           <div className="bbai-head">
             <div className="bbai-head-id">
               <span className="bbai-avatar">🎓</span>
               <div className="bbai-head-txt">
-                <strong>Coach BB</strong>
+                <strong>Phifou</strong>
                 <span>Ton assistant brevet · IA</span>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function TutorAssistant() {
             {messages.length === 0 && (
               <div className="bbai-welcome">
                 <div className="bbai-welcome-big">👋</div>
-                <p className="bbai-welcome-h">Salut ! Je suis Coach BB.</p>
+                <p className="bbai-welcome-h">Salut ! Je suis Phifou.</p>
                 <p className="bbai-welcome-p">
                   Une question de cours, un exercice qui bloque, une méthode à réviser&nbsp;? Demande-moi tout, je suis là
                   pour t'aider à décrocher ton brevet 💪

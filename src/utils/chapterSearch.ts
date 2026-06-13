@@ -3,7 +3,7 @@ import { SUBJECTS } from '../data'
 /**
  * Relie une question libre (« explique-moi le théorème de Thalès ») au chapitre
  * le plus pertinent de l'appli — 100 % côté client, zéro token IA.
- * Sert à proposer un raccourci « Réviser ce chapitre » dans l'assistant Coach BB.
+ * Sert à proposer un raccourci « Réviser ce chapitre » dans l'assistant Phifou.
  */
 
 export interface ChapterMatch {

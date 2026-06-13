@@ -1,6 +1,6 @@
-# n8n — workflow « Coach BB - Tuteur »
+# n8n — workflow « Phifou - Tuteur »
 
-Workflow prêt à importer pour faire passer l'assistant **Coach BB** par ton n8n
+Workflow prêt à importer pour faire passer l'assistant **Phifou** par ton n8n
 (au lieu de l'appel DeepSeek direct). Tant que tu ne l'actives pas + ne définis
 pas `N8N_TUTOR_WEBHOOK` côté Vercel, le site continue d'utiliser DeepSeek direct
 (robuste, toujours en ligne) — aucun risque.
