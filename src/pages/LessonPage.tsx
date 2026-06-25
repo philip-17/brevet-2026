@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import { getSubject, getLesson } from '../data'
 import { useSpeech } from '../hooks/useSpeech'
+import RawHtmlLesson from '../components/RawHtmlLesson'
 
 export default function LessonPage() {
   const { subjectId, chapterId } = useParams()
@@ -122,8 +123,30 @@ export default function LessonPage() {
         </h1>
       </header>
 
+      {/* Cours importé en HTML brut : on l'affiche tel quel dans un iframe
+          (pas de lecture orale ni de fiche de révision) */}
+      {lesson.rawHtml && (
+        <div className="lesson" style={{ display: 'block', width: '100%' }}>
+          <RawHtmlLesson html={lesson.rawHtml} />
+          <div className="lesson-cta" style={{ marginTop: 24 }}>
+            <Link
+              to={`/quiz/${subject.id}/${chapterId}`}
+              className="btn-primary"
+            >
+              ✅ Je passe au quiz
+            </Link>
+            <Link
+              to={`/flashcards/${subject.id}/${chapterId}`}
+              className="btn-secondary"
+            >
+              🎴 Réviser en flashcards
+            </Link>
+          </div>
+        </div>
+      )}
+
       {/* Barre de lecture sticky */}
-      {speech.supported && (
+      {!lesson.rawHtml && speech.supported && (
         <div className="audio-bar">
           <button
             className={`audio-play ${speech.speaking ? 'playing' : ''}`}
@@ -178,14 +201,14 @@ export default function LessonPage() {
         </div>
       )}
 
-      {!speech.supported && (
+      {!lesson.rawHtml && !speech.supported && (
         <div className="empty" style={{ marginBottom: 16 }}>
           ℹ️ La lecture à voix haute n'est pas disponible sur ce navigateur.
         </div>
       )}
 
       {/* Panneau de réglages */}
-      {showVoices && speech.supported && (
+      {!lesson.rawHtml && showVoices && speech.supported && (
         <div className="voice-panel">
           <div className="voice-row">
             <label>Vitesse</label>
@@ -228,6 +251,7 @@ export default function LessonPage() {
       )}
 
       {/* Contenu du cours */}
+      {!lesson.rawHtml && (
       <article className="lesson" style={{ ['--accent' as never]: subject.color } as React.CSSProperties}>
         <div className="lesson-intro">{lesson.intro}</div>
 
@@ -393,6 +417,7 @@ export default function LessonPage() {
           </a>
         )}
       </article>
+      )}
     </>
   )
 }

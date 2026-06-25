@@ -76,6 +76,11 @@ export interface Lesson {
   /** Lien optionnel vers le PDF du cours d'origine (séquence du prof),
    * affiché tout en bas de la leçon. Chemin servi depuis /public. */
   pdf?: string
+  /** HTML brut du cours, affiché tel quel dans un iframe isolé.
+   * Si présent, remplace l'affichage standard (intro/sections/keyPoints)
+   * par le document HTML d'origine — utile pour intégrer un cours
+   * importé sans toucher à sa mise en page. */
+  rawHtml?: string
 }
 
 export interface SubjectLessons {
