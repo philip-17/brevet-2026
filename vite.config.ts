@@ -31,6 +31,11 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,ico,json}'],
+        // Les cours HTML autonomes (servis depuis /cours/ et embarqués dans
+        // un iframe) ne doivent jamais être remplacés par index.html par le
+        // fallback SPA du service worker : sinon l'app se rechargerait à la
+        // place du cours dans le cadre.
+        navigateFallbackDenylist: [/^\/cours\//],
       },
     }),
   ],

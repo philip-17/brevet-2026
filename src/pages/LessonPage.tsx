@@ -123,11 +123,11 @@ export default function LessonPage() {
         </h1>
       </header>
 
-      {/* Cours importé en HTML brut : on l'affiche tel quel dans un iframe
-          (pas de lecture orale ni de fiche de révision) */}
-      {lesson.rawHtml && (
+      {/* Cours autonome embarqué (HTML servi depuis /public) : on l'affiche
+          tel quel dans un iframe (pas de lecture orale ni de fiche de révision) */}
+      {lesson.embedUrl && (
         <div className="lesson" style={{ display: 'block', width: '100%' }}>
-          <RawHtmlLesson html={lesson.rawHtml} />
+          <RawHtmlLesson url={lesson.embedUrl} />
           <div className="lesson-cta" style={{ marginTop: 24 }}>
             <Link
               to={`/quiz/${subject.id}/${chapterId}`}
@@ -146,7 +146,7 @@ export default function LessonPage() {
       )}
 
       {/* Barre de lecture sticky */}
-      {!lesson.rawHtml && speech.supported && (
+      {!lesson.embedUrl && speech.supported && (
         <div className="audio-bar">
           <button
             className={`audio-play ${speech.speaking ? 'playing' : ''}`}
@@ -201,14 +201,14 @@ export default function LessonPage() {
         </div>
       )}
 
-      {!lesson.rawHtml && !speech.supported && (
+      {!lesson.embedUrl && !speech.supported && (
         <div className="empty" style={{ marginBottom: 16 }}>
           ℹ️ La lecture à voix haute n'est pas disponible sur ce navigateur.
         </div>
       )}
 
       {/* Panneau de réglages */}
-      {!lesson.rawHtml && showVoices && speech.supported && (
+      {!lesson.embedUrl && showVoices && speech.supported && (
         <div className="voice-panel">
           <div className="voice-row">
             <label>Vitesse</label>
@@ -251,7 +251,7 @@ export default function LessonPage() {
       )}
 
       {/* Contenu du cours */}
-      {!lesson.rawHtml && (
+      {!lesson.embedUrl && (
       <article className="lesson" style={{ ['--accent' as never]: subject.color } as React.CSSProperties}>
         <div className="lesson-intro">{lesson.intro}</div>
 

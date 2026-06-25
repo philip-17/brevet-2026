@@ -1,17 +1,45 @@
 import { useEffect, useRef, useState } from 'react'
 
-// Affiche le HTML d'un cours importé tel quel, isolé dans un iframe.
-// La hauteur de l'iframe est ajustée au contenu (mesure au chargement
-// + recalcul sur clic, évite la boucle de croissance qu'aurait
-// déclenchée un ResizeObserver sur documentElement).
+// Affiche un cours HTML autonome (servi depuis /public) tel quel, isolé
+// dans un iframe. On charge un VRAI fichier via `src` (et non `srcdoc`) :
+// c'est indispensable pour que les liens d'ancrage du sommaire (#sujet,
+// #cod…) défilent À L'INTÉRIEUR du cours. Avec `srcdoc`, ces ancres se
+// résolvent sur l'URL de l'app et rechargent toute l'application dans le
+// cadre — ce qui cassait la navigation par sujet.
+//
+// Règle de hauteur :
+// - si le cours tient dans l'écran → hauteur exacte du contenu ;
+// - sinon → on plafonne à la hauteur visible : le cours défile dans son
+//   cadre, ce qui fait fonctionner le sommaire collant, les ancres et la
+//   surbrillance de section, comme si on ouvrait le fichier directement.
 
 interface Props {
-  html: string
+  /** URL du cours (ex. /cours/fonctions-dans-la-phrase.html). */
+  url: string
 }
 
-export default function RawHtmlLesson({ html }: Props) {
+function computeAvailable(): number {
+  if (typeof window === 'undefined') return 700
+  // window.innerHeight reflète déjà la zone visible (barres mobiles incluses).
+  // On retire l'en-tête de l'app (bouton retour + titre ≈ 84px).
+  return Math.max(420, window.innerHeight - 84)
+}
+
+export default function RawHtmlLesson({ url }: Props) {
   const ref = useRef<HTMLIFrameElement>(null)
-  const [height, setHeight] = useState(800)
+  const [contentHeight, setContentHeight] = useState(0)
+  const [available, setAvailable] = useState(computeAvailable)
+
+  // Hauteur disponible recalculée au redimensionnement / rotation
+  useEffect(() => {
+    const onResize = () => setAvailable(computeAvailable())
+    window.addEventListener('resize', onResize)
+    window.addEventListener('orientationchange', onResize)
+    return () => {
+      window.removeEventListener('resize', onResize)
+      window.removeEventListener('orientationchange', onResize)
+    }
+  }, [])
 
   useEffect(() => {
     const iframe = ref.current
@@ -20,10 +48,7 @@ export default function RawHtmlLesson({ html }: Props) {
     const measure = () => {
       const doc = iframe.contentDocument
       if (!doc?.body) return
-      // body.scrollHeight = hauteur réelle du contenu (évite la
-      // boucle où documentElement grandit avec l'iframe)
-      const h = doc.body.scrollHeight
-      if (h) setHeight(h)
+      setContentHeight(doc.body.scrollHeight)
     }
 
     const handleLoad = () => {
@@ -31,25 +56,23 @@ export default function RawHtmlLesson({ html }: Props) {
       // Re-mesure après le chargement des polices web et des images
       setTimeout(measure, 300)
       setTimeout(measure, 1000)
-
-      // Re-mesure quand l'utilisateur clique sur « voir l'analyse »
-      const doc = iframe.contentDocument
-      if (!doc) return
-      const buttons = doc.querySelectorAll('.reveal-btn')
-      buttons.forEach((b) => {
-        b.addEventListener('click', () => setTimeout(measure, 50))
-      })
+      // Re-mesure quand l'utilisateur révèle une analyse (le contenu grandit)
+      iframe.contentDocument
+        ?.querySelectorAll('.reveal-btn')
+        .forEach((b) => b.addEventListener('click', () => setTimeout(measure, 60)))
     }
 
     iframe.addEventListener('load', handleLoad)
     return () => iframe.removeEventListener('load', handleLoad)
-  }, [html])
+  }, [url])
+
+  const height = contentHeight ? Math.min(contentHeight, available) : available
 
   return (
     <iframe
       ref={ref}
       title="Cours"
-      srcDoc={html}
+      src={url}
       style={{
         width: '100%',
         height,

@@ -76,11 +76,13 @@ export interface Lesson {
   /** Lien optionnel vers le PDF du cours d'origine (séquence du prof),
    * affiché tout en bas de la leçon. Chemin servi depuis /public. */
   pdf?: string
-  /** HTML brut du cours, affiché tel quel dans un iframe isolé.
-   * Si présent, remplace l'affichage standard (intro/sections/keyPoints)
-   * par le document HTML d'origine — utile pour intégrer un cours
-   * importé sans toucher à sa mise en page. */
-  rawHtml?: string
+  /** URL d'un cours HTML autonome (servi depuis /public), affiché tel quel
+   * dans un iframe isolé. Si présent, remplace l'affichage standard
+   * (intro/sections/keyPoints) par le document HTML d'origine — sans
+   * toucher à sa mise en page. On charge un VRAI fichier (src), pas du
+   * `srcdoc`, pour que les liens d'ancrage internes (#section) défilent
+   * dans le cours au lieu de recharger l'app. */
+  embedUrl?: string
 }
 
 export interface SubjectLessons {

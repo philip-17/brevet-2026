@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les fonctions dans la phrase — Cours complet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF9F4;
+    --card:#FFFFFF;
+    --ink:#1C3A5E;
+    --ink-soft:#46607D;
+    --muted:#6E7A86;
+    --red:#C0392B;
+    --red-tint:#FBEDEB;
+    --green:#2E6B4F;
+    --green-tint:#E8F2EC;
+    --seyes:#E7ECF6;
+    --line:#ECE6DA;
+    /* couleurs « crayons » des fonctions */
+    --c-sujet:#2666B0;     --c-sujet-bg:#E8F0FA;
+    --c-cod:#2E8B57;       --c-cod-bg:#E7F4EC;
+    --c-coi:#0E8A8F;       --c-coi-bg:#E2F2F2;
+    --c-att:#7A4FB0;       --c-att-bg:#F0EAF8;
+    --c-cc:#C2761F;        --c-cc-bg:#FBF0E1;
+    --c-ag:#C0392B;        --c-ag-bg:#FBEAE8;
+    --c-ep:#C03B7E;        --c-ep-bg:#FBE9F1;
+    --c-cdn:#8A5A2B;       --c-cdn-bg:#F4ECE2;
+    --c-ap:#5C7A35;        --c-ap-bg:#EDF2E2;
+    --serif:"Fraunces",Georgia,"Times New Roman",serif;
+    --hand:"Caveat","Segoe Script",cursive;
+    --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.62;font-size:16px;
+    -webkit-font-smoothing:antialiased;padding:20px 16px 80px;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+
+  /* En-tête cahier Seyès */
+  .header{
+    position:relative;background:var(--card);
+    background-image:repeating-linear-gradient(180deg,transparent 0 32px,var(--seyes) 32px 33px);
+    border:1px solid var(--line);border-radius:14px;
+    padding:26px 26px 24px 54px;overflow:hidden;
+  }
+  .header::before{content:"";position:absolute;top:0;bottom:0;left:32px;width:2px;background:var(--red);opacity:.5}
+  .header .kicker{font-size:11.5px;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--red);margin-bottom:6px}
+  .header h1{font-family:var(--serif);font-weight:700;font-size:33px;line-height:1.08;margin:0;letter-spacing:-.6px}
+  .header p{margin:8px 0 0;color:var(--ink-soft);font-size:14.5px;max-width:46ch}
+  .print-btn{margin-top:14px;font-family:var(--sans);font-size:13px;font-weight:600;cursor:pointer;
+    background:transparent;border:1.5px solid var(--ink);color:var(--ink);border-radius:8px;padding:7px 14px;transition:all .15s}
+  .print-btn:hover{background:var(--ink);color:#fff}
+
+  /* Navigation collante */
+  .nav{position:sticky;top:0;z-index:20;background:rgba(251,249,244,.92);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);margin:14px 0 8px;padding:9px 0;
+    display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin}
+  .nav a{flex:0 0 auto;font-size:13px;font-weight:600;color:var(--ink-soft);text-decoration:none;
+    padding:6px 12px;border-radius:999px;border:1.5px solid transparent;white-space:nowrap;transition:all .14s}
+  .nav a:hover{color:var(--ink);border-color:var(--line)}
+  .nav a.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  /* Colonne de contenu avec marge rouge */
+  .content{position:relative;padding-left:24px;margin-top:8px}
+  .content::before{content:"";position:absolute;left:6px;top:6px;bottom:0;width:2px;background:var(--red);opacity:.32}
+
+  section{scroll-margin-top:64px;margin-top:40px}
+  section:first-of-type{margin-top:26px}
+
+  .sec-head{display:flex;align-items:baseline;gap:13px;margin-bottom:14px}
+  .sec-num{font-family:var(--serif);font-weight:700;font-size:19px;color:#fff;background:var(--ink);
+    min-width:34px;height:34px;border-radius:9px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto}
+  h2{font-family:var(--serif);font-weight:600;font-size:25px;line-height:1.15;margin:0;letter-spacing:-.3px}
+  h3{font-family:var(--serif);font-weight:600;font-size:19px;margin:26px 0 8px;color:var(--ink)}
+  h3 .pin{font-size:13px;font-weight:700;color:#fff;padding:2px 9px;border-radius:6px;vertical-align:3px;margin-right:9px;font-family:var(--sans);letter-spacing:.3px}
+  p{margin:10px 0}
+  .lead{color:var(--ink-soft);font-size:16.5px}
+  strong{color:var(--ink);font-weight:600}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:5px 0}
+  em{font-style:italic}
+
+  /* Mots colorés selon leur fonction (soulignement crayon) */
+  .fx{font-weight:600;border-bottom:2.5px solid currentColor;padding-bottom:1px}
+  .s{color:var(--c-sujet)} .cod{color:var(--c-cod)} .coi{color:var(--c-coi)}
+  .att{color:var(--c-att)} .cc{color:var(--c-cc)} .ag{color:var(--c-ag)}
+  .ep{color:var(--c-ep)} .cdn{color:var(--c-cdn)} .ap{color:var(--c-ap)}
+
+  /* Légende couleurs */
+  .legend{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-top:18px}
+  .legend h4{margin:0 0 10px;font-family:var(--serif);font-size:16px;font-weight:600}
+  .legend-grid{display:flex;flex-wrap:wrap;gap:8px}
+  .tag{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:999px;display:inline-flex;align-items:center;gap:6px}
+  .tag::before{content:"";width:10px;height:10px;border-radius:3px;background:currentColor}
+  .t-s{color:var(--c-sujet);background:var(--c-sujet-bg)} .t-cod{color:var(--c-cod);background:var(--c-cod-bg)}
+  .t-coi{color:var(--c-coi);background:var(--c-coi-bg)} .t-att{color:var(--c-att);background:var(--c-att-bg)}
+  .t-cc{color:var(--c-cc);background:var(--c-cc-bg)} .t-ag{color:var(--c-ag);background:var(--c-ag-bg)}
+  .t-ep{color:var(--c-ep);background:var(--c-ep-bg)} .t-cdn{color:var(--c-cdn);background:var(--c-cdn-bg)}
+  .t-ap{color:var(--c-ap);background:var(--c-ap-bg)}
+
+  /* Définition encadrée */
+  .def{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--ink);
+    border-radius:10px;padding:13px 17px;margin:14px 0}
+  .def .label{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--ink-soft);margin-bottom:3px}
+
+  /* Exemple en retrait */
+  .ex{font-family:var(--serif);font-size:18px;background:#FCFBF7;border:1px dashed #DDD5C6;border-radius:9px;
+    padding:11px 16px;margin:12px 0}
+  .ex .arrow{font-family:var(--sans);font-size:14px;color:var(--muted);font-style:normal}
+
+  /* Callouts piège / astuce */
+  .callout{border-radius:10px;padding:13px 16px 14px;margin:16px 0;font-size:15px;line-height:1.55}
+  .callout .head{font-weight:700;font-size:13.5px;letter-spacing:.3px;display:block;margin-bottom:4px}
+  .piege{background:var(--red-tint);border:1px solid #EFCFCB}
+  .piege .head{color:var(--red)}
+  .astuce{background:var(--green-tint);border:1px solid #CBE4D5}
+  .astuce .head{color:var(--green)}
+
+  /* Note manuscrite */
+  .note-hand{font-family:var(--hand);font-size:20px;color:var(--red);line-height:1.3;margin:14px 0;padding-left:6px}
+
+  /* Carte « à toi d'analyser » */
+  .check{background:#FFFDF8;border:1.5px solid var(--ink);border-radius:11px;padding:15px 17px;margin:18px 0}
+  .check .ct{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--ink);margin-bottom:8px;display:flex;align-items:center;gap:7px}
+  .check .ct::before{content:"✎";font-size:15px}
+  .check .q{font-family:var(--serif);font-size:18px;margin:0 0 12px}
+  .reveal-btn{font-family:var(--sans);font-size:14px;font-weight:600;cursor:pointer;background:var(--ink);color:#fff;
+    border:none;border-radius:8px;padding:9px 16px;transition:transform .14s,background .14s}
+  .reveal-btn:hover{transform:translateY(-1px);background:#16314f}
+  .reveal-btn:focus-visible{outline:3px solid #B9CBE6;outline-offset:2px}
+  .check-a{margin-top:13px;padding-top:13px;border-top:1px dashed #D8CFBE;font-size:15px;line-height:1.6}
+  .check-a b{color:var(--ink)}
+
+  /* Tableau récap */
+  .table-scroll{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:11px}
+  table{border-collapse:collapse;width:100%;min-width:560px;background:var(--card);font-size:14.5px}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#F3EFE7;font-family:var(--sans);font-weight:700;font-size:12.5px;letter-spacing:.4px;text-transform:uppercase;color:var(--ink-soft)}
+  tr:last-child td{border-bottom:none}
+  td .fname{font-weight:700}
+  td em{font-family:var(--serif);font-style:italic}
+
+  .hidden{display:none}
+  .footer{text-align:center;font-size:12.5px;color:#9a948a;margin-top:46px}
+
+  @media (max-width:560px){
+    body{font-size:15.5px}
+    .header h1{font-size:27px}
+    h2{font-size:22px}
+    .ex,.check .q{font-size:16.5px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    *{transition:none!important}
+  }
+  @media print{
+    .nav,.print-btn,.reveal-btn{display:none!important}
+    body{background:#fff;padding:0}
+    .check-a{display:block!important}
+    .header,.def,.legend,.check,.callout,.ex,.table-scroll{box-shadow:none}
+    section{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="header">
+    <div class="kicker">Français · DNB · Grammaire</div>
+    <h1>Les fonctions dans la phrase</h1>
+    <p>Cours complet : repérer le rôle de chaque mot ou groupe de mots, avec la méthode, les exemples et les pièges du Brevet.</p>
+    <button class="print-btn" onclick="window.print()">Imprimer / Enregistrer en PDF</button>
+  </header>
+
+  <nav class="nav" aria-label="Sommaire">
+    <a href="#intro">Nature ≠ Fonction</a>
+    <a href="#methode">Méthode</a>
+    <a href="#sujet">Le sujet</a>
+    <a href="#objet">COD · COI · COS</a>
+    <a href="#attribut">Attributs</a>
+    <a href="#cc">C. circonstanciels</a>
+    <a href="#agent">C. d'agent</a>
+    <a href="#nom">Fonctions du nom</a>
+    <a href="#recap">Récapitulatif</a>
+    <a href="#pieges">Pièges</a>
+    <a href="#jour-j">Le jour J</a>
+  </nav>
+
+  <div class="content">
+
+  <!-- 1 -->
+  <section id="intro">
+    <div class="sec-head"><span class="sec-num">1</span><h2>La distinction de départ : nature ≠ fonction</h2></div>
+    <p class="lead">C'est la base de toute analyse grammaticale, et l'erreur n°1 au Brevet. Il faut bien séparer deux notions.</p>
+
+    <div class="def">
+      <div class="label">La nature (classe grammaticale)</div>
+      C'est ce qu'<strong>est</strong> un mot en lui-même. Elle ne change jamais : un nom reste un nom, un adjectif reste un adjectif. (nom, déterminant, adjectif, pronom, verbe, adverbe, préposition, conjonction, interjection)
+    </div>
+    <div class="def">
+      <div class="label">La fonction</div>
+      C'est le <strong>rôle</strong> qu'un mot ou un groupe joue <strong>dans une phrase précise</strong>. Elle dépend de la phrase et peut changer d'une phrase à l'autre.
+    </div>
+
+    <p>Un même mot, de même nature, peut occuper des fonctions différentes. Prends l'adjectif « rouge » :</p>
+    <div class="ex">Une voiture <span class="fx ep">rouge</span>. <span class="arrow">→ nature : adjectif · fonction : <b>épithète</b> du nom « voiture »</span></div>
+    <div class="ex">Cette voiture est <span class="fx att">rouge</span>. <span class="arrow">→ nature : adjectif (toujours) · fonction : <b>attribut du sujet</b> « voiture »</span></div>
+
+    <div class="note-hand">La nature, c'est ta carte d'identité (tu es toujours toi). La fonction, c'est ton rôle du moment : élève, fils, joueur…</div>
+
+    <div class="callout piege">
+      <span class="head">⚠ Lis bien la consigne</span>
+      Si on te demande la <b>nature</b>, réponds « adjectif », « nom », « pronom »… Si on te demande la <b>fonction</b>, réponds « sujet », « COD », « épithète »… Confondre les deux fait perdre des points faciles.
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="methode">
+    <div class="sec-head"><span class="sec-num">2</span><h2>La méthode générale pour trouver une fonction</h2></div>
+    <p>La quasi-totalité des fonctions se repère à partir du <strong>verbe</strong>. Procède toujours dans cet ordre :</p>
+    <ul>
+      <li><strong>1. Repère le verbe conjugué</strong> : c'est le noyau de la phrase.</li>
+      <li><strong>2. Pose les bonnes questions</strong> à partir de ce verbe :
+        <ul>
+          <li>« Qui est-ce qui + verbe ? » → le <span class="fx s">sujet</span></li>
+          <li>« verbe + qui ? / quoi ? » (sans préposition) → le <span class="fx cod">COD</span></li>
+          <li>« verbe + à qui ? / de quoi ? » (avec préposition) → le <span class="fx coi">COI</span></li>
+          <li>« quand ? où ? comment ? pourquoi ? » → un <span class="fx cc">complément circonstanciel</span></li>
+        </ul>
+      </li>
+      <li><strong>3. Teste la manipulation</strong> : un complément circonstanciel se <b>déplace</b> et se <b>supprime</b> facilement. Un COD/COI, non.</li>
+    </ul>
+
+    <div class="legend">
+      <h4>Code couleur des fonctions (utilisé dans tout le cours)</h4>
+      <div class="legend-grid">
+        <span class="tag t-s">Sujet</span>
+        <span class="tag t-cod">COD</span>
+        <span class="tag t-coi">COI / COS</span>
+        <span class="tag t-att">Attribut</span>
+        <span class="tag t-cc">C. circonstanciel</span>
+        <span class="tag t-ag">C. d'agent</span>
+        <span class="tag t-ep">Épithète</span>
+        <span class="tag t-cdn">C. du nom</span>
+        <span class="tag t-ap">Apposition</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section id="sujet">
+    <div class="sec-head"><span class="sec-num">3</span><h2>Le sujet</h2></div>
+    <div class="def">
+      <div class="label">Définition</div>
+      Le sujet désigne <strong>qui fait l'action</strong> (verbe d'action) ou <strong>de qui / de quoi l'on parle</strong> (verbe d'état). C'est lui qui <strong>commande l'accord du verbe</strong>.
+    </div>
+    <p><strong>Comment le trouver :</strong> pose « Qui est-ce qui…? » ou « Qu'est-ce qui…? » devant le verbe.</p>
+    <div class="ex"><span class="fx s">Les élèves</span> travaillent en silence. <span class="arrow">→ Qui est-ce qui travaille ? → « les élèves »</span></div>
+
+    <p><strong>Sa nature peut varier :</strong></p>
+    <ul>
+      <li>un nom / groupe nominal : <em><span class="fx s">Le chat</span> dort.</em></li>
+      <li>un pronom : <em><span class="fx s">Il</span> dort.</em></li>
+      <li>un verbe à l'infinitif : <em><span class="fx s">Mentir</span> est inutile.</em></li>
+      <li>une proposition subordonnée : <em><span class="fx s">Qu'il soit en retard</span> m'agace.</em></li>
+    </ul>
+
+    <p><strong>À retenir :</strong></p>
+    <ul>
+      <li>Le sujet est en général <b>avant</b> le verbe, mais il peut être <b>inversé</b> : <em>Où vas-<span class="fx s">tu</span> ?</em> · <em>Sur la table reposait <span class="fx s">un livre</span>.</em></li>
+      <li>Plusieurs sujets → accord au pluriel : <em><span class="fx s">Paul et Marie</span> viennent.</em></li>
+    </ul>
+
+    <div class="callout piege">
+      <span class="head">⚠ Le mot en tête de phrase n'est pas toujours le sujet</span>
+      <em>Le matin, <span class="fx s">les oiseaux</span> chantent.</em> → le sujet est « les oiseaux » (qui est-ce qui chante ?), pas « le matin », qui est un <span class="fx cc">complément circonstanciel de temps</span>.
+    </div>
+
+    <div class="check">
+      <div class="ct">À toi d'analyser</div>
+      <p class="q">Quel est le sujet ? <em>Dans le ciel d'été brillaient des milliers d'étoiles.</em></p>
+      <button class="reveal-btn">Voir l'analyse</button>
+      <div class="check-a hidden">
+        Le sujet est <b>« des milliers d'étoiles »</b>. On pose la question : <em>qu'est-ce qui brillait ?</em> → « des milliers d'étoiles ». Le sujet est ici <b>inversé</b> (placé après le verbe) ; « dans le ciel d'été » est seulement un <span class="fx cc">CC de lieu</span> placé en tête.
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section id="objet">
+    <div class="sec-head"><span class="sec-num">4</span><h2>Les compléments d'objet : COD, COI, COS</h2></div>
+    <p class="lead">Ils complètent un <strong>verbe d'action</strong> et sont <strong>essentiels</strong> : on ne peut ni les déplacer ni les supprimer librement sans casser le sens.</p>
+
+    <h3><span class="pin" style="background:var(--c-cod)">COD</span>Complément d'objet direct</h3>
+    <ul>
+      <li>Construit <b>directement</b>, sans préposition.</li>
+      <li>Question : « <b>qui ?</b> » ou « <b>quoi ?</b> » après le verbe.</li>
+    </ul>
+    <div class="ex">Le chat attrape <span class="fx cod">une souris</span>. <span class="arrow">→ attrape quoi ? → « une souris »</span></div>
+    <p>Nature possible : GN (<em>je mange <span class="fx cod">une pomme</span></em>), pronom (<em>je <span class="fx cod">la</span> mange</em>), infinitif (<em>j'aime <span class="fx cod">lire</span></em>), proposition (<em>je crois <span class="fx cod">qu'il viendra</span></em>).</p>
+
+    <h3><span class="pin" style="background:var(--c-coi)">COI</span>Complément d'objet indirect</h3>
+    <ul>
+      <li>Construit <b>indirectement</b>, avec une <b>préposition</b> (le plus souvent <em>à</em> ou <em>de</em>).</li>
+      <li>Question : « <b>à qui ? à quoi ? de qui ? de quoi ?</b> »</li>
+    </ul>
+    <div class="ex">Je téléphone <span class="fx coi">à mon ami</span>. <span class="arrow">→ téléphone à qui ? → « à mon ami »</span></div>
+    <div class="ex">Il se souvient <span class="fx coi">de ses vacances</span>. <span class="arrow">→ se souvient de quoi ?</span></div>
+
+    <h3><span class="pin" style="background:var(--c-coi)">COS</span>Complément d'objet second</h3>
+    <p>C'est un <b>deuxième</b> complément d'objet (souvent indirect) quand il y a déjà un COD.</p>
+    <div class="ex">J'offre <span class="fx cod">un cadeau</span> <span class="fx coi">à ma mère</span>. <span class="arrow">→ offre quoi ? (COD) / à qui ? (COS)</span></div>
+
+    <div class="callout astuce">
+      <span class="head">✓ Le réflexe COD / COI</span>
+      Regarde s'il y a une <b>préposition</b> juste avant le complément. Préposition (à, de…) → <b>COI</b>. Pas de préposition → <b>COD</b>. Attention aux verbes qui imposent une préposition : <em>penser <u>à</u></em>, <em>parler <u>de</u></em>, <em>obéir <u>à</u></em> → COI.
+    </div>
+
+    <div class="check">
+      <div class="ct">À toi d'analyser</div>
+      <p class="q">Donne la fonction des deux groupes : <em>Le professeur explique <u>la leçon</u> <u>aux élèves</u>.</em></p>
+      <button class="reveal-btn">Voir l'analyse</button>
+      <div class="check-a hidden">
+        « la leçon » = <b>COD</b> (explique <b>quoi</b> ? sans préposition). « aux élèves » = <b>COS</b> (explique <b>à qui</b> ? avec la préposition « à », et il y a déjà un COD).
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 -->
+  <section id="attribut">
+    <div class="sec-head"><span class="sec-num">5</span><h2>Les attributs</h2></div>
+    <p class="lead">L'attribut exprime une <strong>qualité, un état ou une identité</strong> que l'on rapporte au sujet (ou au COD) <strong>par l'intermédiaire d'un verbe</strong>.</p>
+
+    <h3><span class="pin" style="background:var(--c-att)">ATT. DU SUJET</span>Attribut du sujet</h3>
+    <ul>
+      <li>Relié au sujet par un <b>verbe d'état</b> : <em>être, paraître, sembler, devenir, rester, demeurer, avoir l'air, passer pour, se nommer…</em></li>
+      <li>Il s'<b>accorde</b> avec le sujet quand c'est un adjectif.</li>
+    </ul>
+    <div class="ex">Mon frère est <span class="fx att">pompier</span>. <span class="arrow">→ nom attribut</span></div>
+    <div class="ex">Elles semblent <span class="fx att">fatiguées</span>. <span class="arrow">→ adjectif attribut, accordé : fatiguées</span></div>
+
+    <div class="callout piege">
+      <span class="head">⚠ COD ou attribut du sujet ?</span>
+      <em>Il regarde <span class="fx cod">un médecin</span>.</em> → deux personnes différentes, verbe d'action → <b>COD</b>.<br>
+      <em>Il est <span class="fx att">médecin</span>.</em> → « il » = « médecin », verbe d'état → <b>attribut du sujet</b>.
+    </div>
+
+    <h3><span class="pin" style="background:var(--c-att)">ATT. DU COD</span>Attribut du COD</h3>
+    <p>Il exprime une qualité du <b>COD</b>, avec des verbes comme <em>trouver, juger, croire, estimer, rendre, nommer, élire, appeler…</em></p>
+    <div class="ex">Je trouve <span class="fx cod">ce film</span> <span class="fx att">passionnant</span>. <span class="arrow">→ « passionnant » qualifie le COD « ce film »</span></div>
+    <div class="ex">On l'a élu <span class="fx att">président</span>.</div>
+  </section>
+
+  <!-- 6 -->
+  <section id="cc">
+    <div class="sec-head"><span class="sec-num">6</span><h2>Les compléments circonstanciels</h2></div>
+    <div class="def">
+      <div class="label">Définition</div>
+      Ils précisent les <strong>circonstances</strong> de l'action (temps, lieu, manière…). Leur signe distinctif : ils sont <strong>déplaçables</strong> et le plus souvent <strong>supprimables</strong>.
+    </div>
+    <p><strong>Le test qui ne trompe pas :</strong></p>
+    <div class="ex">
+      <span class="fx cc">Hier</span>, il a plu. = Il a plu <span class="fx cc">hier</span>. = Il a plu.<br>
+      <span class="arrow">→ on peut le déplacer ET le supprimer : c'est bien un complément circonstanciel.</span>
+    </div>
+
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Complément circonstanciel de…</th><th>Question</th><th>Exemple</th></tr></thead>
+        <tbody>
+          <tr><td class="fname">Temps</td><td>quand ?</td><td><em>Il partira <span class="fx cc">demain</span>.</em></td></tr>
+          <tr><td class="fname">Lieu</td><td>où ?</td><td><em>Elle attend <span class="fx cc">devant la gare</span>.</em></td></tr>
+          <tr><td class="fname">Manière</td><td>comment ?</td><td><em>Il répond <span class="fx cc">calmement</span>.</em></td></tr>
+          <tr><td class="fname">Moyen</td><td>avec quoi ?</td><td><em>Il écrit <span class="fx cc">avec un stylo</span>.</em></td></tr>
+          <tr><td class="fname">Cause</td><td>pourquoi ?</td><td><em>Il tremble <span class="fx cc">de froid</span>.</em></td></tr>
+          <tr><td class="fname">But</td><td>dans quel but ?</td><td><em>Il travaille <span class="fx cc">pour réussir</span>.</em></td></tr>
+          <tr><td class="fname">Accompagnement</td><td>avec qui ?</td><td><em>Il sort <span class="fx cc">avec ses amis</span>.</em></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><strong>Nature d'un CC :</strong> groupe nominal (<em>ce matin</em>), adverbe (<em>lentement</em>), groupe prépositionnel (<em>sur la table</em>), proposition subordonnée (<em>quand il pleut</em>), gérondif (<em>en courant</em>).</p>
+
+    <div class="callout astuce">
+      <span class="head">✓ Essentiel ou circonstanciel ?</span>
+      Certains compléments de lieu sont <b>essentiels</b> (impossibles à supprimer) : <em>Je vais <u>à Paris</u></em> — on ne peut pas dire « je vais ». On les distingue alors des CC de lieu, eux supprimables. Au Brevet, retiens surtout : si on peut le supprimer, c'est un CC.
+    </div>
+
+    <div class="check">
+      <div class="ct">À toi d'analyser</div>
+      <p class="q">Identifie la fonction (et le type) : <em>Le soir, les enfants rentraient <u>à la maison</u> <u>en chantant</u>.</em></p>
+      <button class="reveal-btn">Voir l'analyse</button>
+      <div class="check-a hidden">
+        « à la maison » = <b>CC de lieu</b> (rentraient <b>où</b> ?). « en chantant » = <b>CC de manière</b> (rentraient <b>comment</b> ? — c'est un gérondif). Et « Le soir » en tête est un <b>CC de temps</b>.
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 -->
+  <section id="agent">
+    <div class="sec-head"><span class="sec-num">7</span><h2>Le complément d'agent</h2></div>
+    <div class="def">
+      <div class="label">Définition</div>
+      Il apparaît <strong>uniquement à la voix passive</strong> et désigne <strong>celui qui fait réellement l'action</strong> (alors que le sujet, lui, la subit). Il est introduit par <strong>« par »</strong> (parfois <strong>« de »</strong>).
+    </div>
+    <div class="ex">La maison a été construite <span class="fx ag">par les ouvriers</span>. <span class="arrow">→ ce sont les ouvriers qui agissent</span></div>
+    <div class="ex">Ce professeur est respecté <span class="fx ag">de tous</span>. <span class="arrow">→ « de » possible avec certains verbes (aimer, respecter…)</span></div>
+
+    <p><strong>Lien avec la voix :</strong> à la voix active, le complément d'agent redevient le sujet.</p>
+    <div class="ex">
+      Passif : Le rat est mangé <span class="fx ag">par le chat</span>.<br>
+      Actif : <span class="fx s">Le chat</span> mange le rat.
+    </div>
+
+    <div class="callout piege">
+      <span class="head">⚠ Ne confonds pas « par » du C. d'agent et « par » d'un CC</span>
+      <em>Il est puni <span class="fx ag">par son père</span></em> (voix passive → complément d'agent) ≠ <em>Il passe <span class="fx cc">par la forêt</span></em> (voix active → CC de lieu).
+    </div>
+  </section>
+
+  <!-- 8 -->
+  <section id="nom">
+    <div class="sec-head"><span class="sec-num">8</span><h2>Les fonctions liées au nom</h2></div>
+    <p class="lead">Ces fonctions complètent un <strong>nom</strong> (à l'intérieur du groupe nominal), et non le verbe.</p>
+
+    <h3><span class="pin" style="background:var(--c-ep)">ÉPITHÈTE</span>L'épithète</h3>
+    <ul>
+      <li>Un <b>adjectif</b> (ou participe employé comme adjectif) relié <b>directement</b> à un nom, <b>sans verbe d'état</b>.</li>
+      <li><b>Épithète liée</b> (collée au nom) : <em>un ciel <span class="fx ep">bleu</span></em>, <em>une <span class="fx ep">longue</span> route</em>.</li>
+      <li><b>Épithète détachée</b> (séparée par une virgule) : <em><span class="fx ep">Fatigués</span>, les enfants se sont endormis.</em></li>
+    </ul>
+    <div class="callout piege">
+      <span class="head">⚠ Épithète ou attribut ?</span>
+      <em>une voiture <span class="fx ep">rouge</span></em> → pas de verbe, dans le GN → <b>épithète</b>.<br>
+      <em>la voiture est <span class="fx att">rouge</span></em> → relié par le verbe « est » → <b>attribut du sujet</b>.
+    </div>
+
+    <h3><span class="pin" style="background:var(--c-cdn)">C. DU NOM</span>Le complément du nom</h3>
+    <ul>
+      <li>Un nom (ou GN, infinitif…) qui complète un <b>autre nom</b>, introduit par une <b>préposition</b> (<em>de, à, en, pour…</em>).</li>
+    </ul>
+    <div class="ex">le vélo <span class="fx cdn">de mon voisin</span> · une tasse <span class="fx cdn">à café</span> · une statue <span class="fx cdn">en bronze</span></div>
+    <div class="callout astuce">
+      <span class="head">✓ Épithète vs complément du nom</span>
+      Épithète = un <b>adjectif</b> (<em>un homme <span class="fx ep">riche</span></em>). Complément du nom = un <b>nom</b> introduit par une préposition (<em>un homme <span class="fx cdn">de pouvoir</span></em>).
+    </div>
+
+    <h3><span class="pin" style="background:var(--c-ap)">APPOSITION</span>L'apposition</h3>
+    <ul>
+      <li>Un nom ou GN qui désigne <b>la même réalité</b> que le nom qu'il complète, le plus souvent <b>encadré de virgules</b> (ou après deux points).</li>
+    </ul>
+    <div class="ex">Paris, <span class="fx ap">la capitale de la France</span>, est magnifique. <span class="arrow">→ « la capitale… » = Paris (équivalence)</span></div>
+    <div class="ex">Mon oncle, <span class="fx ap">médecin</span>, habite ici.</div>
+
+    <p style="margin-top:18px"><strong>Rappel — la subordonnée relative</strong> (vue en cours sur les propositions) complète aussi un nom, son <em>antécédent</em>, à la manière d'une épithète : <em>L'homme <span class="fx ep">qui parle</span> est mon père.</em></p>
+
+    <div class="check">
+      <div class="ct">À toi d'analyser</div>
+      <p class="q">Distingue les fonctions : <em>Le château <u>fort</u>, <u>une ruine médiévale</u>, dominait la vallée <u>de la Loire</u>.</em></p>
+      <button class="reveal-btn">Voir l'analyse</button>
+      <div class="check-a hidden">
+        « fort » = <b>épithète</b> du nom « château » (adjectif collé au nom). « une ruine médiévale » = <b>apposition</b> (= le château, entre virgules). « de la Loire » = <b>complément du nom</b> « vallée » (nom introduit par « de »).
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 -->
+  <section id="recap">
+    <div class="sec-head"><span class="sec-num">9</span><h2>Tableau récapitulatif</h2></div>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Fonction</th><th>Se rattache à</th><th>Repère / question</th><th>Exemple</th></tr></thead>
+        <tbody>
+          <tr><td class="fname" style="color:var(--c-sujet)">Sujet</td><td>le verbe</td><td>qui est-ce qui ?</td><td><em><span class="fx s">Le chat</span> dort</em></td></tr>
+          <tr><td class="fname" style="color:var(--c-cod)">COD</td><td>le verbe</td><td>quoi ? qui ? (sans prép.)</td><td><em>Je mange <span class="fx cod">une pomme</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-coi)">COI</td><td>le verbe</td><td>à/de qui ? à/de quoi ?</td><td><em>Je parle <span class="fx coi">à Paul</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-coi)">COS</td><td>le verbe (avec un COD)</td><td>2ᵉ complément d'objet</td><td><em>Je donne un livre <span class="fx coi">à Léa</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-att)">Attribut du sujet</td><td>le sujet (via verbe d'état)</td><td>être, sembler, devenir…</td><td><em>Il est <span class="fx att">heureux</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-att)">Attribut du COD</td><td>le COD (via le verbe)</td><td>trouver, rendre, élire…</td><td><em>Je le trouve <span class="fx att">drôle</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-cc)">C. circonstanciel</td><td>le verbe (mobile/supprimable)</td><td>quand ? où ? comment ?…</td><td><em>Il dort <span class="fx cc">le jour</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-ag)">C. d'agent</td><td>le verbe (voix passive)</td><td>par / de</td><td><em>détruit <span class="fx ag">par le feu</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-ep)">Épithète</td><td>un nom</td><td>adjectif collé au nom</td><td><em>un mur <span class="fx ep">blanc</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-cdn)">C. du nom</td><td>un nom (via préposition)</td><td>de, à, en…</td><td><em>le toit <span class="fx cdn">de la maison</span></em></td></tr>
+          <tr><td class="fname" style="color:var(--c-ap)">Apposition</td><td>un nom (= équivalence)</td><td>encadrée de virgules</td><td><em>Rome, <span class="fx ap">la ville éternelle</span></em></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 10 -->
+  <section id="pieges">
+    <div class="sec-head"><span class="sec-num">10</span><h2>Les pièges classiques du Brevet</h2></div>
+    <div class="callout piege"><span class="head">1 · Nature vs fonction</span> La question « nature » attend « adjectif » ; la question « fonction » attend « épithète / attribut ». Vérifie ce qu'on te demande.</div>
+    <div class="callout piege"><span class="head">2 · COD vs attribut du sujet</span> Verbe d'action + objet <u>différent</u> = COD. Verbe d'état + <u>même</u> référent = attribut. <em>Il appelle un ami</em> (COD) ≠ <em>Il est un ami</em> (attribut).</div>
+    <div class="callout piege"><span class="head">3 · COD vs COI</span> Une préposition (à, de) signale le COI. <em>Il pense à toi</em> = COI, jamais COD.</div>
+    <div class="callout piege"><span class="head">4 · Le sujet inversé ou éloigné</span> <em>Sur la table reposait <span class="fx s">un livre</span></em> → le sujet est « un livre », pas « la table ».</div>
+    <div class="callout piege"><span class="head">5 · Épithète vs complément du nom</span> Épithète = adjectif (<em>un homme <span class="fx ep">riche</span></em>). Complément du nom = nom + préposition (<em>un homme <span class="fx cdn">de pouvoir</span></em>).</div>
+    <div class="callout piege"><span class="head">6 · Le 1ᵉʳ mot n'est pas forcément le sujet</span> En tête de phrase, c'est souvent un CC : <em><span class="fx cc">Demain</span>, je pars.</em></div>
+  </section>
+
+  <!-- 11 -->
+  <section id="jour-j">
+    <div class="sec-head"><span class="sec-num">11</span><h2>La méthode pour le jour J</h2></div>
+    <ul>
+      <li><strong>Repère d'abord le verbe conjugué.</strong> Toute l'analyse part de là.</li>
+      <li><strong>Pose la question</strong> correspondante pour chaque groupe (qui ? quoi ? à qui ? quand ?…).</li>
+      <li><strong>Teste le déplacement / la suppression</strong> pour repérer un complément circonstanciel.</li>
+      <li><strong>Vérifie la préposition</strong> pour trancher entre COD et COI.</li>
+      <li><strong>Pour un adjectif</strong>, demande-toi s'il y a un verbe d'état (→ attribut) ou non (→ épithète).</li>
+      <li><strong>Rédige précisément :</strong> ne dis pas seulement « COD », dis « <em>une souris</em> est <b>COD du verbe</b> <em>attrape</em> » — donne la fonction <u>et</u> le mot auquel elle se rattache.</li>
+    </ul>
+    <div class="note-hand">Le verbe d'abord, toujours. Une fois que tu le tiens, tout le reste se débloque.</div>
+  </section>
+
+  </div><!-- /content -->
+
+  <p class="footer">Cours de grammaire — Les fonctions dans la phrase · Révision DNB</p>
+
+</div>
+
+<script>
+  // Révéler les analyses
+  document.querySelectorAll('.reveal-btn').forEach(b=>{
+    b.addEventListener('click',()=>{
+      const a=b.nextElementSibling;
+      const isOpen=!a.classList.contains('hidden');
+      a.classList.toggle('hidden');
+      b.textContent=isOpen ? "Voir l'analyse" : "Masquer l'analyse";
+    });
+  });
+
+  // Surlignage de la section active dans la navigation
+  const links=[...document.querySelectorAll('.nav a')];
+  const map={};
+  links.forEach(a=>{ map[a.getAttribute('href').slice(1)]=a; });
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        links.forEach(l=>l.classList.remove('active'));
+        const a=map[e.target.id];
+        if(a){
+          a.classList.add('active');
+          a.scrollIntoView({block:'nearest',inline:'center'});
+        }
+      }
+    });
+  },{rootMargin:'-45% 0px -50% 0px',threshold:0});
+  document.querySelectorAll('section[id]').forEach(s=>observer.observe(s));
+</script>
+</body>
+</html>
