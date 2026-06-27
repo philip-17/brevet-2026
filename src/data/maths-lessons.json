@@ -558,6 +558,13 @@
         "astuce": "Méthode en quatre temps : reconnais le solide, repère les données (rayon, hauteur, longueurs), applique la bonne formule, convertis si besoin.",
         "piege": "Oublier le facteur un tiers pour la pyramide et le cône, ou calculer r fois 3 au lieu de r au cube pour la sphère."
       }
+    },
+    "revision-maths": {
+      "title": "Tout à savoir en maths",
+      "intro": "",
+      "sections": [],
+      "keyPoints": [],
+      "embedUrl": "/cours/cours-maths-brevet.html"
     }
   }
 }

@@ -287,6 +287,7 @@ const MUST_SEE_BANNERS: Record<string, MustSeeBanner> = {
   maths: {
     icon: '⏰',
     title: 'Tout à savoir en maths — dernière minute',
-    sub: 'Les formules et méthodes à revoir juste avant l’épreuve',
+    sub: 'Cours approfondi interactif · tout le programme de 3ᵉ',
+    to: '/lesson/maths/revision-maths',
   },
 }

@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathématiques — Cours approfondi · Brevet</title>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\\[','\\]']]
+  },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] },
+  chtml: { scale: 1.02 }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#13151b;
+  --ink-2:#191c24;
+  --ink-3:#20242e;
+  --line:#2c313d;
+  --paper:#ECE7DD;
+  --paper-dim:#c6c2b8;
+  --muted:#8f8b80;
+  --gold:#E0A23B;
+  --gold-soft:rgba(224,162,59,.12);
+  --blue:#6296D6;
+  --blue-soft:rgba(98,150,214,.12);
+  --green:#74BC95;
+  --green-soft:rgba(116,188,149,.12);
+  --red:#DD6E63;
+  --red-soft:rgba(221,110,99,.12);
+  --violet:#A689CE;
+  --violet-soft:rgba(166,137,206,.12);
+  --r:14px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    linear-gradient(var(--line) 1px, transparent 1px) 0 0 / 100% 30px,
+    linear-gradient(90deg, rgba(44,49,61,.45) 1px, transparent 1px) 0 0 / 30px 100%,
+    var(--ink);
+  background-blend-mode:soft-light, soft-light, normal;
+  color:var(--paper);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:16.5px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- Top bar ---------- */
+.topbar{
+  position:sticky; top:0; z-index:50;
+  background:rgba(19,21,27,.82);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{
+  max-width:960px; margin:0 auto; padding:11px 20px;
+  display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+}
+.brand{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:.95rem; letter-spacing:.04em; white-space:nowrap}
+.brand .x{color:var(--gold)}
+.nav{display:flex; gap:6px; flex-wrap:wrap; margin-left:auto}
+.chip{
+  font-family:'JetBrains Mono',monospace; font-size:.72rem; font-weight:500;
+  color:var(--paper-dim); text-decoration:none;
+  border:1px solid var(--line); border-radius:8px;
+  padding:5px 9px; transition:.18s;
+}
+.chip:hover,.chip.active{color:var(--ink); background:var(--gold); border-color:var(--gold)}
+.expand-btn{
+  font-family:'JetBrains Mono',monospace; font-size:.7rem;
+  background:transparent; color:var(--muted); border:1px solid var(--line);
+  border-radius:8px; padding:5px 9px; cursor:pointer; transition:.18s;
+}
+.expand-btn:hover{color:var(--paper); border-color:var(--paper-dim)}
+
+/* ---------- Layout ---------- */
+main{max-width:960px; margin:0 auto; padding:0 20px 90px}
+
+/* ---------- Hero ---------- */
+.hero{padding:64px 0 38px; border-bottom:1px solid var(--line)}
+.kicker{font-family:'JetBrains Mono',monospace; font-size:.78rem; letter-spacing:.18em; color:var(--gold); text-transform:uppercase}
+.hero h1{
+  font-family:'Space Grotesk',sans-serif; font-weight:700;
+  font-size:clamp(2.6rem,9vw,4.8rem); line-height:.96; margin:.18em 0 .1em;
+  letter-spacing:-.02em;
+}
+.hero h1 em{font-style:normal; display:block; color:var(--gold)}
+.hero-lead{font-size:1.05rem; color:var(--paper-dim); max-width:54ch; margin:.4em 0 1.6em}
+.theme-index{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px}
+.ti{display:flex; gap:11px; align-items:flex-start; text-decoration:none; color:var(--paper);
+  background:var(--ink-2); border:1px solid var(--line); border-radius:12px; padding:13px 14px; transition:.18s}
+.ti:hover{border-color:var(--gold); transform:translateY(-2px)}
+.ti .n{font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--gold); font-size:.85rem}
+.ti .t{font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:.92rem; line-height:1.2}
+.ti .s{display:block; font-size:.78rem; color:var(--muted); margin-top:2px; font-family:'Inter',sans-serif; font-weight:400}
+
+/* ---------- How to ---------- */
+.howto{padding:26px 0; border-bottom:1px solid var(--line); color:var(--paper-dim); font-size:.95rem}
+.howto b{color:var(--paper)}
+.legend{display:flex; gap:8px 16px; flex-wrap:wrap; margin-top:12px; font-family:'JetBrains Mono',monospace; font-size:.74rem}
+.legend span{display:inline-flex; align-items:center; gap:6px; color:var(--muted)}
+.dot{width:10px; height:10px; border-radius:3px; display:inline-block}
+
+/* ---------- Theme section ---------- */
+.theme{padding:46px 0 8px; scroll-margin-top:72px}
+.theme-head{margin-bottom:18px; padding-bottom:14px; border-bottom:2px solid var(--gold)}
+.theme-tag{font-family:'JetBrains Mono',monospace; font-weight:700; color:var(--gold); font-size:.8rem; letter-spacing:.05em}
+.theme-head h2{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:clamp(1.7rem,5vw,2.3rem); margin:.12em 0 .1em; letter-spacing:-.01em}
+.theme-sub{color:var(--muted); font-size:.92rem; margin:0}
+
+/* ---------- Chapter ---------- */
+.chap{border:1px solid var(--line); border-radius:var(--r); margin:12px 0; background:var(--ink-2); overflow:hidden}
+.chap[open]{border-color:#3a4150}
+.chap>summary{
+  cursor:pointer; list-style:none; padding:16px 18px;
+  display:flex; align-items:center; gap:12px;
+  font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:1.08rem;
+  transition:background .18s;
+}
+.chap>summary::-webkit-details-marker{display:none}
+.chap>summary:hover{background:var(--ink-3)}
+.chap>summary .cn{font-family:'JetBrains Mono',monospace; color:var(--gold); font-size:.85rem; font-weight:700; min-width:1.6em}
+.chap>summary .arrow{margin-left:auto; color:var(--muted); transition:transform .22s; font-size:.9rem}
+.chap[open]>summary .arrow{transform:rotate(90deg)}
+.chap-body{padding:4px 20px 22px; border-top:1px solid var(--line)}
+.chap-body h4{font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:1.05rem; color:var(--paper); margin:24px 0 6px}
+.chap-body h4:first-child{margin-top:16px}
+.chap-body p{margin:8px 0}
+.chap-body ul{margin:8px 0; padding-left:20px}
+.chap-body li{margin:4px 0}
+.chap-body strong{color:#fff}
+hr.soft{border:none; border-top:1px dashed var(--line); margin:20px 0}
+
+/* ---------- Callout boxes ---------- */
+.box{border-radius:11px; padding:14px 16px 14px; margin:14px 0; border:1px solid var(--line); position:relative}
+.box .lab{font-family:'JetBrains Mono',monospace; font-size:.7rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; display:block; margin-bottom:7px}
+.box p:last-child{margin-bottom:0}
+.box p:first-of-type{margin-top:0}
+
+.theoreme{background:var(--blue-soft); border-color:rgba(98,150,214,.4); border-left:3px solid var(--blue)}
+.theoreme .lab{color:var(--blue)}
+.methode{background:var(--green-soft); border-color:rgba(116,188,149,.35); border-left:3px solid var(--green)}
+.methode .lab{color:var(--green)}
+.piege{background:var(--red-soft); border-color:rgba(221,110,99,.35); border-left:3px solid var(--red)}
+.piege .lab{color:var(--red)}
+.plus{background:var(--violet-soft); border-color:rgba(166,137,206,.35); border-left:3px solid var(--violet)}
+.plus .lab{color:var(--violet)}
+
+.exemple{background:var(--ink-3); border:1px solid var(--line); border-radius:11px; padding:14px 16px; margin:14px 0}
+.exemple .lab{font-family:'JetBrains Mono',monospace; font-size:.7rem; font-weight:700; color:var(--gold); letter-spacing:.08em; text-transform:uppercase; display:block; margin-bottom:7px}
+
+/* ---------- Exercise ---------- */
+.exo{border:1px dashed #3a4150; border-radius:11px; padding:0; margin:16px 0; background:var(--ink-2)}
+.exo>summary{cursor:pointer; list-style:none; padding:13px 16px; font-weight:500; display:flex; gap:10px; align-items:baseline}
+.exo>summary::-webkit-details-marker{display:none}
+.exo>summary .tag{font-family:'JetBrains Mono',monospace; font-size:.68rem; color:var(--gold); font-weight:700; letter-spacing:.06em; flex-shrink:0}
+.exo>summary .reveal{margin-left:auto; font-family:'JetBrains Mono',monospace; font-size:.68rem; color:var(--muted)}
+.exo[open]>summary .reveal::after{content:' ▾'}
+.exo:not([open])>summary .reveal::after{content:' ▸'}
+.exo-sol{padding:2px 16px 16px; border-top:1px dashed var(--line); color:var(--paper-dim); font-size:.95rem}
+.exo-sol strong{color:var(--green)}
+
+/* ---------- Formula emphasis / tables ---------- */
+.formula{background:var(--ink); border:1px solid var(--line); border-left:3px solid var(--gold); border-radius:8px; padding:4px 14px; margin:12px 0; overflow-x:auto}
+table{width:100%; border-collapse:collapse; margin:12px 0; font-size:.9rem}
+th,td{border:1px solid var(--line); padding:7px 10px; text-align:left}
+th{background:var(--ink-3); font-family:'Space Grotesk',sans-serif; font-weight:600; color:var(--paper)}
+td{color:var(--paper-dim)}
+code{font-family:'JetBrains Mono',monospace; font-size:.86em; background:var(--ink); padding:1px 5px; border-radius:4px; color:var(--gold)}
+pre{background:var(--ink); border:1px solid var(--line); border-radius:10px; padding:14px; overflow-x:auto; font-family:'JetBrains Mono',monospace; font-size:.82rem; line-height:1.7; color:var(--paper-dim)}
+pre .kw{color:var(--blue)} pre .var{color:var(--green)} pre .num{color:var(--gold)}
+
+mjx-container{overflow-x:auto; overflow-y:hidden; max-width:100%}
+
+/* ---------- Footer ---------- */
+footer{margin-top:60px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; text-align:center}
+footer .big{font-family:'Space Grotesk',sans-serif; font-weight:600; color:var(--paper-dim); font-size:1rem; margin-bottom:6px}
+
+@media (max-width:560px){
+  body{font-size:15.5px}
+  .topbar-inner{padding:10px 14px}
+  .brand{font-size:.85rem}
+  main{padding:0 14px 70px}
+  .nav{width:100%; margin-left:0; order:3}
+  .expand-btn{order:2}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+}
+@media print{
+  body{background:#fff; color:#000}
+  .topbar,.expand-btn,.exo>summary .reveal{display:none}
+  .chap-body,.exo-sol{display:block!important}
+  .box,.exemple,.chap{break-inside:avoid; border:1px solid #bbb}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">MATHS<span class="x">/</span>BREVET</div>
+    <button class="expand-btn" id="toggleAll">⊕ Tout déplier</button>
+    <nav class="nav">
+      <a class="chip" href="#t1">T1 · Nombres</a>
+      <a class="chip" href="#t2">T2 · Données</a>
+      <a class="chip" href="#t3">T3 · Grandeurs</a>
+      <a class="chip" href="#t4">T4 · Géométrie</a>
+      <a class="chip" href="#t5">T5 · Algo</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="kicker">Cours approfondi · niveau visé : 18+ / 20</span>
+    <h1>Mathématiques<em>tout le programme de 3ᵉ</em></h1>
+    <p class="hero-lead">Les cinq grands thèmes du Brevet, traités en profondeur : pas seulement les formules, mais <strong>pourquoi</strong> elles fonctionnent. Théorèmes démontrés, méthodes pas-à-pas, pièges qui coûtent des points, et exercices auto-corrigés.</p>
+    <div class="theme-index">
+      <a class="ti" href="#t1"><span class="n">T1</span><span><span class="t">Nombres &amp; calculs</span><span class="s">Arithmétique, calcul littéral, puissances, racines</span></span></a>
+      <a class="ti" href="#t2"><span class="n">T2</span><span><span class="t">Données &amp; fonctions</span><span class="s">Proportionnalité, stats, probas, fonctions</span></span></a>
+      <a class="ti" href="#t3"><span class="n">T3</span><span><span class="t">Grandeurs &amp; mesures</span><span class="s">Volumes, vitesse, agrandissement</span></span></a>
+      <a class="ti" href="#t4"><span class="n">T4</span><span><span class="t">Espace &amp; géométrie</span><span class="s">Pythagore, Thalès, trigo, transformations</span></span></a>
+      <a class="ti" href="#t5"><span class="n">T5</span><span><span class="t">Algorithmique</span><span class="s">Programmation, variables, boucles</span></span></a>
+    </div>
+  </section>
+
+  <!-- HOW TO -->
+  <section class="howto">
+    <p>Chaque chapitre se déplie. Lis le cours, puis teste-toi : les exercices ont une <b>solution cachée</b> — cherche d'abord, clique ensuite. Repère les encadrés :</p>
+    <div class="legend">
+      <span><i class="dot" style="background:var(--blue)"></i>Théorème / définition</span>
+      <span><i class="dot" style="background:var(--green)"></i>Méthode</span>
+      <span><i class="dot" style="background:var(--red)"></i>Piège fréquent</span>
+      <span><i class="dot" style="background:var(--violet)"></i>Pour aller plus loin</span>
+      <span><i class="dot" style="background:var(--gold)"></i>Exemple résolu</span>
+    </div>
+  </section>
+
+  <!-- =================== THÈME 1 =================== -->
+  <section class="theme" id="t1">
+    <div class="theme-head">
+      <span class="theme-tag">THÈME 1</span>
+      <h2>Nombres et calculs</h2>
+      <p class="theme-sub">Le socle algébrique : tout le reste s'appuie dessus.</p>
+    </div>
+
+    <!-- 1. Arithmétique -->
+    <details class="chap" open>
+      <summary><span class="cn">1</span>Arithmétique · divisibilité, premiers, PGCD <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+
+        <h4>Diviseurs, multiples, divisibilité</h4>
+        <p>\(b\) <strong>divise</strong> \(a\) s'il existe un entier \(k\) tel que \(a = b\times k\). On dit aussi que \(a\) est un <strong>multiple</strong> de \(b\), ou que \(b\) est un <strong>diviseur</strong> de \(a\).</p>
+        <table>
+          <tr><th>Divisible par</th><th>Critère</th></tr>
+          <tr><td>2</td><td>se termine par 0, 2, 4, 6, 8</td></tr>
+          <tr><td>3</td><td>somme des chiffres divisible par 3</td></tr>
+          <tr><td>4</td><td>les deux derniers chiffres forment un multiple de 4</td></tr>
+          <tr><td>5</td><td>se termine par 0 ou 5</td></tr>
+          <tr><td>9</td><td>somme des chiffres divisible par 9</td></tr>
+          <tr><td>10</td><td>se termine par 0</td></tr>
+        </table>
+
+        <h4>Nombres premiers</h4>
+        <p>Un nombre <strong>premier</strong> a exactement <strong>deux</strong> diviseurs : 1 et lui-même. Les premiers : \(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31\dots\)</p>
+        <div class="box piege">
+          <span class="lab">Piège</span>
+          <p><strong>1 n'est pas premier</strong> (un seul diviseur). <strong>2 est le seul premier pair.</strong></p>
+        </div>
+
+        <h4>Décomposition en facteurs premiers</h4>
+        <p>Tout entier \(>1\) s'écrit de façon unique comme produit de premiers. On divise par les premiers croissants :</p>
+        <div class="exemple"><span class="lab">Exemple — décomposer 360</span>
+          <p>\(360 = 2\times180 = 2^2\times90 = 2^3\times45 = 2^3\times3^2\times5\).</p>
+          <p>Donc \(360 = 2^3\times3^2\times5\).</p>
+        </div>
+
+        <h4>PGCD — Plus Grand Commun Diviseur</h4>
+        <p>Le PGCD de \(a\) et \(b\) est le plus grand entier qui divise à la fois \(a\) et \(b\). Deux méthodes au programme :</p>
+        <div class="box methode">
+          <span class="lab">Méthode 1 — Algorithme d'Euclide</span>
+          <p>On remplace le couple \((a,b)\) par \((b,\, r)\) où \(r\) est le <strong>reste</strong> de la division de \(a\) par \(b\). On recommence jusqu'à un reste nul : le PGCD est le <strong>dernier reste non nul</strong>.</p>
+        </div>
+        <div class="exemple"><span class="lab">Exemple — PGCD(360, 84)</span>
+          <p>\(360 = 4\times84 + 24\) &nbsp;→&nbsp; reste 24<br>
+          \(84 = 3\times24 + 12\) &nbsp;→&nbsp; reste 12<br>
+          \(24 = 2\times12 + 0\) &nbsp;→&nbsp; reste 0</p>
+          <p>Dernier reste non nul : \(\boxed{\text{PGCD}(360,84)=12}\).</p>
+        </div>
+        <div class="box methode">
+          <span class="lab">Méthode 2 — Facteurs premiers</span>
+          <p>On prend les facteurs <strong>communs</strong> avec leur <strong>plus petit exposant</strong>. \(360=2^3\!\cdot\!3^2\!\cdot\!5\), \(84=2^2\!\cdot\!3\!\cdot\!7\) → communs : \(2^2\) et \(3\) → \(\text{PGCD}=2^2\times3=12\).</p>
+        </div>
+
+        <h4>Nombres premiers entre eux & fraction irréductible</h4>
+        <p>\(a\) et \(b\) sont <strong>premiers entre eux</strong> si \(\text{PGCD}(a,b)=1\). Une fraction est <strong>irréductible</strong> quand numérateur et dénominateur sont premiers entre eux. Pour la rendre irréductible : on <strong>divise les deux par leur PGCD</strong>.</p>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>\(\dfrac{360}{84}=\dfrac{360\div12}{84\div12}=\dfrac{30}{7}\). &nbsp; 30 et 7 premiers entre eux → irréductible.</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — pourquoi l'algorithme d'Euclide marche</span>
+          <p>Si \(a = b\,q + r\), alors tout diviseur commun de \(a\) et \(b\) divise \(r = a - bq\) ; et réciproquement tout diviseur commun de \(b\) et \(r\) divise \(a\). Les deux couples ont donc <strong>exactement les mêmes diviseurs communs</strong>, donc le même PGCD : \(\text{PGCD}(a,b)=\text{PGCD}(b,r)\). Comme les restes décroissent strictement, on tombe sur 0, et juste avant on lit le PGCD.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Rendre \(\dfrac{546}{210}\) irréductible. <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Euclide : \(546=2\times210+126\) ; \(210=1\times126+84\) ; \(126=1\times84+42\) ; \(84=2\times42+0\). PGCD \(=42\).</p>
+            <p><strong>\(\dfrac{546}{210}=\dfrac{546\div42}{210\div42}=\dfrac{13}{5}\).</strong></p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 2. Calcul littéral -->
+    <details class="chap">
+      <summary><span class="cn">2</span>Calcul littéral · développer &amp; factoriser <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+
+        <h4>Développer (enlever les parenthèses)</h4>
+        <p><strong>Simple distributivité :</strong> \(k(a+b)=ka+kb\).<br>
+        <strong>Double distributivité :</strong> \((a+b)(c+d)=ac+ad+bc+bd\).</p>
+
+        <h4>Les 3 identités remarquables</h4>
+        <div class="box theoreme">
+          <span class="lab">Théorème — identités remarquables</span>
+          $$(a+b)^2 = a^2 + 2ab + b^2$$
+          $$(a-b)^2 = a^2 - 2ab + b^2$$
+          $$(a+b)(a-b) = a^2 - b^2$$
+        </div>
+        <div class="box piege">
+          <span class="lab">Piège — le double produit</span>
+          <p>\((a+b)^2 \neq a^2+b^2\). Il <strong>manque \(2ab\)</strong>. C'est l'erreur la plus fréquente du Brevet.</p>
+        </div>
+
+        <h4>Factoriser (faire apparaître un produit)</h4>
+        <ul>
+          <li><strong>Facteur commun :</strong> \(ka+kb=k(a+b)\). Exemple : \(15x^2+10x = 5x(3x+2)\).</li>
+          <li><strong>Avec une identité :</strong> reconnaître une forme \(a^2-b^2\) ou \(a^2\pm2ab+b^2\).</li>
+        </ul>
+        <div class="exemple"><span class="lab">Exemple — repérer \(a^2-b^2\)</span>
+          <p>\(9x^2-25 = (3x)^2-5^2 = (3x-5)(3x+5)\).</p>
+          <p>\(x^2-6x+9 = x^2-2\cdot x\cdot3+3^2=(x-3)^2\).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — démontrer \((a+b)^2=a^2+2ab+b^2\)</span>
+          <p><strong>Par le calcul :</strong> \((a+b)^2=(a+b)(a+b)=a^2+ab+ba+b^2=a^2+2ab+b^2\).</p>
+          <p><strong>Par la géométrie :</strong> un carré de côté \(a+b\) a pour aire \((a+b)^2\). On le découpe en un carré \(a^2\), un carré \(b^2\), et deux rectangles \(a\times b\). D'où \((a+b)^2=a^2+b^2+2ab\).</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Factoriser \(E=(2x+1)^2-(2x+1)(x-3)\). <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Facteur commun \((2x+1)\) : \(E=(2x+1)\big[(2x+1)-(x-3)\big]=(2x+1)(2x+1-x+3)\).</p>
+            <p><strong>\(E=(2x+1)(x+4)\).</strong></p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 3. Équations -->
+    <details class="chap">
+      <summary><span class="cn">3</span>Équations <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Équation du premier degré</h4>
+        <p>On isole \(x\) en faisant les <strong>mêmes opérations des deux côtés</strong>.</p>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>\(5x-7=2x+8 \Rightarrow 5x-2x=8+7 \Rightarrow 3x=15 \Rightarrow x=5.\)</p>
+        </div>
+
+        <h4>Équation produit nul</h4>
+        <div class="box theoreme">
+          <span class="lab">Théorème — produit nul</span>
+          <p>Un produit de facteurs est nul <strong>si et seulement si</strong> au moins un des facteurs est nul :</p>
+          $$A\times B = 0 \iff A=0 \ \text{ou}\ B=0$$
+        </div>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>\((2x-6)(x+4)=0\) → \(2x-6=0\) ou \(x+4=0\) → \(x=3\) ou \(x=-4\).</p>
+        </div>
+
+        <h4>Équation \(x^2=a\)</h4>
+        <ul>
+          <li>Si \(a>0\) : deux solutions \(x=\sqrt a\) et \(x=-\sqrt a\).</li>
+          <li>Si \(a=0\) : une solution \(x=0\).</li>
+          <li>Si \(a<0\) : <strong>aucune solution</strong> (un carré n'est jamais négatif).</li>
+        </ul>
+        <div class="box piege">
+          <span class="lab">Piège</span>
+          <p>\(x^2=49\) a <strong>deux</strong> solutions \(x=7\) ou \(x=-7\), pas seulement 7.</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — résoudre par factorisation</span>
+          <p>Pour \(x^2-6x+9=0\) : on factorise → \((x-3)^2=0\) → \(x-3=0\) → \(x=3\) (solution double). Au Brevet, une équation « impossible » au premier degré devient souvent résoluble après <strong>factorisation puis produit nul</strong>.</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- 4. Puissances -->
+    <details class="chap">
+      <summary><span class="cn">4</span>Puissances &amp; notation scientifique <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Définitions</h4>
+        <p>\(a^n = \underbrace{a\times a\times\dots\times a}_{n \text{ facteurs}}\), &nbsp; \(a^{-n}=\dfrac{1}{a^n}\), &nbsp; \(a^0=1\) (avec \(a\neq0\)).</p>
+
+        <h4>Règles de calcul</h4>
+        <div class="box theoreme">
+          <span class="lab">Théorème — opérations sur les puissances</span>
+          $$a^m\times a^n = a^{m+n} \qquad \frac{a^m}{a^n}=a^{m-n}$$
+          $$(a^m)^n = a^{m\times n} \qquad (a\times b)^n = a^n\times b^n$$
+        </div>
+        <div class="box piege">
+          <span class="lab">Piège</span>
+          <p>\(a^m\times a^n = a^{m+n}\) (on <strong>ajoute</strong>), pas \(a^{m\times n}\). Et \(2^3\times5^3=(2\times5)^3\) marche seulement parce que <strong>l'exposant est le même</strong>.</p>
+        </div>
+
+        <h4>Notation scientifique</h4>
+        <p>Écriture \(a\times10^n\) avec \(1\leqslant |a| <10\) et \(n\) entier relatif.</p>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>\(47\,200 = 4{,}72\times10^4\) &nbsp;;&nbsp; \(0{,}000\,38 = 3{,}8\times10^{-4}\).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — d'où vient \(a^0=1\) ?</span>
+          <p>La règle \(\dfrac{a^m}{a^n}=a^{m-n}\) donne, pour \(m=n\) : \(\dfrac{a^n}{a^n}=a^{n-n}=a^0\). Or \(\dfrac{a^n}{a^n}=1\). Donc \(a^0=1\) : ce n'est pas une convention arbitraire, c'est imposé par la cohérence des règles.</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- 5. Racines -->
+    <details class="chap">
+      <summary><span class="cn">5</span>Racines carrées <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Définition</h4>
+        <p>Pour \(a\geqslant0\), \(\sqrt a\) est le <strong>nombre positif</strong> dont le carré vaut \(a\). Donc \((\sqrt a)^2 = a\) et \(\sqrt{a^2}=|a|\).</p>
+
+        <h4>Règles de calcul</h4>
+        <div class="box theoreme">
+          <span class="lab">Théorème — produit et quotient</span>
+          $$\sqrt{a\times b}=\sqrt a\times\sqrt b \qquad \sqrt{\frac{a}{b}}=\frac{\sqrt a}{\sqrt b}\ \ (b\neq0)$$
+        </div>
+        <div class="box piege">
+          <span class="lab">Piège majeur</span>
+          <p>\(\sqrt{a+b}\neq\sqrt a+\sqrt b\) ! Vérifie : \(\sqrt{9+16}=\sqrt{25}=5\), mais \(\sqrt9+\sqrt{16}=3+4=7\). La racine ne « passe pas » dans une somme.</p>
+        </div>
+
+        <h4>Simplifier une racine</h4>
+        <p>On sort les carrés parfaits : \(\sqrt{50}=\sqrt{25\times2}=\sqrt{25}\times\sqrt2=5\sqrt2\).</p>
+        <div class="exemple"><span class="lab">Exemple — réduire une somme</span>
+          <p>\(\sqrt{12}+\sqrt{27}=2\sqrt3+3\sqrt3=5\sqrt3\) &nbsp;(on simplifie d'abord, puis on additionne les « \(\sqrt3\) » comme des termes semblables).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — \(\sqrt2\) est irrationnel</span>
+          <p>Supposons \(\sqrt2=\dfrac p q\) <strong>irréductible</strong>. Alors \(2=\dfrac{p^2}{q^2}\), donc \(p^2=2q^2\) : \(p^2\) est pair, donc \(p\) est pair, \(p=2k\). Alors \(4k^2=2q^2\), soit \(q^2=2k^2\) : \(q\) est pair aussi. Mais \(p\) et \(q\) pairs contredit « irréductible ». Donc \(\sqrt2\) ne peut pas s'écrire comme fraction : c'est un nombre <strong>irrationnel</strong>. (Raisonnement par l'absurde — un classique.)</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Écrire \(A=\sqrt{45}-\sqrt{20}+\sqrt5\) sous la forme \(b\sqrt5\). <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>\(\sqrt{45}=3\sqrt5\), \(\sqrt{20}=2\sqrt5\). Donc \(A=3\sqrt5-2\sqrt5+\sqrt5\).</p>
+            <p><strong>\(A=2\sqrt5\).</strong></p>
+          </div>
+        </details>
+      </div>
+    </details>
+  </section>
+
+  <!-- =================== THÈME 2 =================== -->
+  <section class="theme" id="t2">
+    <div class="theme-head">
+      <span class="theme-tag">THÈME 2</span>
+      <h2>Données et fonctions</h2>
+      <p class="theme-sub">Lire, traiter et modéliser de l'information chiffrée.</p>
+    </div>
+
+    <!-- 6. Proportionnalité -->
+    <details class="chap" open>
+      <summary><span class="cn">6</span>Proportionnalité &amp; pourcentages <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Reconnaître la proportionnalité</h4>
+        <p>Deux grandeurs sont proportionnelles si on passe de l'une à l'autre par un <strong>coefficient constant</strong> \(k\). Dans un tableau : tous les rapports \(\frac{\text{ligne 2}}{\text{ligne 1}}\) sont égaux.</p>
+
+        <h4>Quatrième proportionnelle — produit en croix</h4>
+        <p>Si \(\dfrac{a}{b}=\dfrac{c}{d}\), alors \(a\times d = b\times c\). On en déduit la valeur manquante.</p>
+
+        <h4>Pourcentages</h4>
+        <ul>
+          <li><strong>Appliquer</strong> \(t\%\) : multiplier par \(\dfrac{t}{100}\).</li>
+          <li><strong>Augmenter</strong> de \(t\%\) : multiplier par \(\Big(1+\dfrac{t}{100}\Big)\). &nbsp;Ex. +20 % → ×1,20.</li>
+          <li><strong>Diminuer</strong> de \(t\%\) : multiplier par \(\Big(1-\dfrac{t}{100}\Big)\). &nbsp;Ex. −15 % → ×0,85.</li>
+        </ul>
+
+        <div class="box piege">
+          <span class="lab">Piège — les évolutions successives ne s'additionnent pas</span>
+          <p>Deux hausses de 10 % ne font <strong>pas</strong> +20 %. On <strong>multiplie</strong> les coefficients : \(1{,}10\times1{,}10=1{,}21\), soit <strong>+21 %</strong>.</p>
+        </div>
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — hausse puis baisse identique</span>
+          <p>+20 % puis −20 % : \(1{,}20\times0{,}80=0{,}96\) → on perd 4 %. On ne revient <strong>jamais</strong> au prix de départ : c'est contre-intuitif mais c'est du calcul de coefficients.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Un article à 80 € augmente de 25 %, puis est soldé à −40 %. Prix final ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>\(80\times1{,}25\times0{,}60 = 80\times0{,}75 = 60\) €. <strong>60 €</strong> (soit −25 % au global, coefficient 0,75).</p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 7. Statistiques -->
+    <details class="chap">
+      <summary><span class="cn">7</span>Statistiques <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Indicateurs de position</h4>
+        <div class="box theoreme">
+          <span class="lab">Définitions</span>
+          <p><strong>Moyenne</strong> (pondérée) : \(\bar x=\dfrac{n_1x_1+n_2x_2+\dots}{n_1+n_2+\dots}=\dfrac{\sum n_i x_i}{\sum n_i}\).</p>
+          <p><strong>Médiane</strong> : valeur qui partage la série ordonnée en <strong>deux moitiés</strong> (autant de valeurs au-dessus qu'en dessous).</p>
+        </div>
+
+        <h4>Indicateurs de dispersion</h4>
+        <ul>
+          <li><strong>Étendue</strong> = valeur max − valeur min.</li>
+          <li><strong>Premier quartile \(Q_1\)</strong> : au moins 25 % des valeurs lui sont ≤. <strong>\(Q_3\)</strong> : au moins 75 %.</li>
+        </ul>
+
+        <div class="box piege">
+          <span class="lab">Piège — médiane ≠ moyenne</span>
+          <p>La <strong>moyenne</strong> est sensible aux valeurs extrêmes ; la <strong>médiane</strong> ne l'est pas. Sur les salaires 1500, 1600, 1700, 1800, 20000 : moyenne ≈ 5320 (tirée par 20000), médiane = 1700 (bien plus représentative).</p>
+        </div>
+
+        <div class="exemple"><span class="lab">Exemple — médiane sur 8 valeurs</span>
+          <p>Série ordonnée : 4, 6, 7, 9, 11, 12, 15, 18 (8 valeurs, nombre pair). La médiane est la <strong>moyenne des 2 valeurs centrales</strong> (4ᵉ et 5ᵉ) : \(\dfrac{9+11}{2}=10\).</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- 8. Probabilités -->
+    <details class="chap">
+      <summary><span class="cn">8</span>Probabilités <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Vocabulaire</h4>
+        <p>Une <strong>expérience aléatoire</strong> a plusieurs <strong>issues</strong>. Un <strong>événement</strong> est un ensemble d'issues. La probabilité est un nombre entre <strong>0 et 1</strong>.</p>
+
+        <div class="box theoreme">
+          <span class="lab">Théorème — équiprobabilité</span>
+          <p>Si toutes les issues ont la même probabilité :</p>
+          $$p(A)=\frac{\text{nombre d'issues favorables à } A}{\text{nombre total d'issues}}$$
+          <p>Événement contraire : \(\ p(\bar A)=1-p(A)\).</p>
+        </div>
+
+        <div class="exemple"><span class="lab">Exemple — dé à 6 faces</span>
+          <p>\(p(\text{obtenir un nombre pair})=\dfrac{3}{6}=\dfrac12\). \(p(\text{« pas un 6 »})=1-\dfrac16=\dfrac56\).</p>
+        </div>
+
+        <h4>Expériences à deux épreuves</h4>
+        <p>On utilise un <strong>arbre</strong> (ou un tableau). On <strong>multiplie</strong> les probabilités le long d'une branche, on <strong>additionne</strong> les branches qui mènent au résultat cherché.</p>
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — arbre pondéré</span>
+          <p>Une urne contient 3 boules rouges et 2 vertes. On tire 2 boules <strong>avec remise</strong>. \(p(\text{2 rouges})=\dfrac35\times\dfrac35=\dfrac{9}{25}\). Le « avec / sans remise » change tout : sans remise, la 2ᵉ proba devient \(\dfrac24\).</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> On lance deux dés. Probabilité que la somme fasse 7 ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>36 issues équiprobables. Sommes = 7 : (1,6)(2,5)(3,4)(4,3)(5,2)(6,1) → 6 cas.</p>
+            <p><strong>\(p=\dfrac{6}{36}=\dfrac16\).</strong></p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 9. Fonctions -->
+    <details class="chap">
+      <summary><span class="cn">9</span>Fonctions linéaires &amp; affines <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Notion de fonction</h4>
+        <p>Une fonction \(f\) associe à un nombre \(x\) un seul nombre noté \(f(x)\), son <strong>image</strong>. Si \(f(x)=y\), alors \(x\) est un <strong>antécédent</strong> de \(y\).</p>
+        <div class="box piege">
+          <span class="lab">Piège — image vs antécédent</span>
+          <p>« Image de 3 » → on calcule \(f(3)\) (on connaît \(x\)). « Antécédent de 3 » → on résout \(f(x)=3\) (on cherche \(x\)). Sens inverses.</p>
+        </div>
+
+        <h4>Fonction linéaire</h4>
+        <div class="box theoreme">
+          <span class="lab">Définition — linéaire</span>
+          <p>\(f(x)=a x\). Modélise la <strong>proportionnalité</strong>. Représentation : une <strong>droite passant par l'origine</strong>. \(a\) est le coefficient directeur.</p>
+        </div>
+
+        <h4>Fonction affine</h4>
+        <div class="box theoreme">
+          <span class="lab">Définition — affine</span>
+          <p>\(f(x)=a x + b\). Représentation : une <strong>droite</strong>. \(a\) = coefficient directeur (pente), \(b\) = ordonnée à l'origine (où la droite coupe l'axe des \(y\)).</p>
+        </div>
+
+        <div class="box methode">
+          <span class="lab">Méthode — trouver \(a\) et \(b\) à partir de 2 points</span>
+          <p>Avec \(A(x_A;y_A)\) et \(B(x_B;y_B)\) :</p>
+          $$a=\frac{y_B-y_A}{x_B-x_A}\quad\text{puis on remplace dans } y=ax+b \text{ pour trouver } b.$$
+        </div>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>Droite passant par \(A(1;5)\) et \(B(3;11)\). \(a=\dfrac{11-5}{3-1}=\dfrac{6}{2}=3\). Puis \(5=3\times1+b\) → \(b=2\). Donc \(f(x)=3x+2\).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — résoudre \(f(x)=g(x)\)</span>
+          <p>Graphiquement : l'abscisse du <strong>point d'intersection</strong> des deux droites. Par le calcul : on résout l'équation. Très fréquent dans les problèmes « à partir de combien d'unités l'offre A devient plus chère que l'offre B ».</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> \(f(x)=2x+3\). Antécédent de 11 ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>On résout \(2x+3=11\) → \(2x=8\) → \(x=4\). <strong>L'antécédent de 11 est 4.</strong></p>
+          </div>
+        </details>
+      </div>
+    </details>
+  </section>
+
+  <!-- =================== THÈME 3 =================== -->
+  <section class="theme" id="t3">
+    <div class="theme-head">
+      <span class="theme-tag">THÈME 3</span>
+      <h2>Grandeurs et mesures</h2>
+      <p class="theme-sub">Volumes, unités composées, et l'effet d'un agrandissement.</p>
+    </div>
+
+    <!-- 10. Aires volumes -->
+    <details class="chap" open>
+      <summary><span class="cn">10</span>Aires, volumes &amp; conversions <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Formulaire des solides</h4>
+        <table>
+          <tr><th>Solide</th><th>Volume</th></tr>
+          <tr><td>Pavé droit</td><td>\(L\times l\times h\)</td></tr>
+          <tr><td>Cube</td><td>\(a^3\)</td></tr>
+          <tr><td>Cylindre</td><td>\(\pi r^2\times h\)</td></tr>
+          <tr><td>Prisme droit</td><td>aire de la base \(\times\) hauteur</td></tr>
+          <tr><td>Pyramide</td><td>\(\dfrac13\times\) aire base \(\times h\)</td></tr>
+          <tr><td>Cône</td><td>\(\dfrac13\times\pi r^2\times h\)</td></tr>
+          <tr><td>Boule</td><td>\(\dfrac43\pi r^3\)</td></tr>
+          <tr><td>Sphère (aire)</td><td>\(4\pi r^2\)</td></tr>
+        </table>
+        <div class="box piege">
+          <span class="lab">Piège — sphère vs boule</span>
+          <p>La <strong>sphère</strong> est la surface (on calcule une aire \(4\pi r^2\)). La <strong>boule</strong> est l'intérieur plein (on calcule un volume \(\frac43\pi r^3\)).</p>
+        </div>
+
+        <h4>Conversions</h4>
+        <ul>
+          <li><strong>Longueurs</strong> : ×10 à chaque rang (km, hm, dam, m, dm, cm, mm).</li>
+          <li><strong>Aires</strong> : ×100 à chaque rang (deux dimensions).</li>
+          <li><strong>Volumes</strong> : ×1000 à chaque rang (trois dimensions). &nbsp;Et \(1\,\text{L}=1\,\text{dm}^3\), \(1\,\text{mL}=1\,\text{cm}^3\).</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- 11. Grandeurs composées -->
+    <details class="chap">
+      <summary><span class="cn">11</span>Grandeurs composées · vitesse, débit <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Vitesse</h4>
+        <div class="box theoreme">
+          <span class="lab">Formule</span>
+          $$v=\frac{d}{t}\qquad d=v\times t\qquad t=\frac{d}{v}$$
+        </div>
+        <div class="box methode">
+          <span class="lab">Méthode — convertir m/s ↔ km/h</span>
+          <p>m/s &nbsp;→&nbsp; km/h : <strong>×3,6</strong>. &nbsp;&nbsp; km/h &nbsp;→&nbsp; m/s : <strong>÷3,6</strong>.</p>
+          <p>(Car 1 m/s = \(\frac{0{,}001\,\text{km}}{1/3600\,\text{h}}=3{,}6\) km/h.)</p>
+        </div>
+
+        <h4>Autres grandeurs composées</h4>
+        <ul>
+          <li><strong>Débit</strong> : volume / temps (L/min, m³/h).</li>
+          <li><strong>Masse volumique</strong> : \(\rho=\dfrac{m}{V}\) (g/cm³, kg/m³).</li>
+        </ul>
+        <div class="box piege">
+          <span class="lab">Piège — cohérence des unités</span>
+          <p>Avant d'appliquer \(v=d/t\), vérifie que distance et temps sont dans des unités compatibles (km avec h, ou m avec s). Mélanger km et secondes donne un résultat absurde.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Un TGV parcourt 300 km en 1 h 30. Vitesse moyenne en km/h, puis en m/s ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>1 h 30 = 1,5 h. \(v=\dfrac{300}{1{,}5}=200\) km/h. En m/s : \(200\div3{,}6\approx55{,}6\) m/s.</p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 12. Agrandissement -->
+    <details class="chap">
+      <summary><span class="cn">12</span>Agrandissement &amp; réduction <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Effet d'un coefficient \(k\)</h4>
+        <div class="box theoreme">
+          <span class="lab">Théorème — l'effet selon la dimension</span>
+          <p>Si on multiplie les <strong>longueurs</strong> par \(k\) :</p>
+          <ul>
+            <li>les <strong>longueurs</strong> sont multipliées par \(k\) ;</li>
+            <li>les <strong>aires</strong> par \(k^2\) ;</li>
+            <li>les <strong>volumes</strong> par \(k^3\).</li>
+          </ul>
+        </div>
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — pourquoi \(k^2\) et \(k^3\) ?</span>
+          <p>Une aire est un produit de deux longueurs : \((k\ell_1)\times(k\ell_2)=k^2(\ell_1\ell_2)\). Un volume est un produit de trois longueurs → \(k^3\). C'est pour ça qu'un agrandissement ×2 multiplie le volume par 8 (et la masse aussi !).</p>
+        </div>
+        <div class="exemple"><span class="lab">Exemple</span>
+          <p>Une maquette à l'échelle \(\frac{1}{50}\) d'une cuve. Le volume réel est \(50^3 = 125\,000\) fois celui de la maquette.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Un cube voit son arête ×3. Par combien son volume est-il multiplié ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Volume ×\(3^3\) = <strong>×27</strong>.</p>
+          </div>
+        </details>
+      </div>
+    </details>
+  </section>
+
+  <!-- =================== THÈME 4 =================== -->
+  <section class="theme" id="t4">
+    <div class="theme-head">
+      <span class="theme-tag">THÈME 4</span>
+      <h2>Espace et géométrie</h2>
+      <p class="theme-sub">Les théorèmes-clés — et surtout savoir <em>lequel</em> utiliser.</p>
+    </div>
+
+    <!-- 13. Pythagore -->
+    <details class="chap" open>
+      <summary><span class="cn">13</span>Théorème de Pythagore <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <div class="box theoreme">
+          <span class="lab">Théorème — Pythagore</span>
+          <p>Si le triangle \(ABC\) est <strong>rectangle en \(A\)</strong>, alors :</p>
+          $$BC^2 = AB^2 + AC^2$$
+          <p>(\(BC\) = hypoténuse = le plus grand côté, en face de l'angle droit.)</p>
+        </div>
+        <div class="box methode">
+          <span class="lab">Méthode — à quoi sert chaque forme ?</span>
+          <p><strong>Calculer une longueur</strong> dans un triangle déjà rectangle → théorème direct.</p>
+          <p><strong>Montrer qu'un triangle EST rectangle</strong> → réciproque.</p>
+          <p><strong>Montrer qu'il N'EST PAS rectangle</strong> → contraposée.</p>
+        </div>
+
+        <div class="box theoreme">
+          <span class="lab">Réciproque &amp; contraposée</span>
+          <p><strong>Réciproque :</strong> si \(BC^2 = AB^2+AC^2\) (avec \(BC\) le plus grand côté), alors \(ABC\) est rectangle en \(A\).</p>
+          <p><strong>Contraposée :</strong> si \(BC^2 \neq AB^2+AC^2\), alors \(ABC\) n'est <strong>pas</strong> rectangle en \(A\).</p>
+        </div>
+
+        <div class="exemple"><span class="lab">Exemple — la réciproque, rédaction type</span>
+          <p>\(AB=6\), \(AC=8\), \(BC=10\). D'un côté \(BC^2=100\). De l'autre \(AB^2+AC^2=36+64=100\). Les deux sont <strong>égaux</strong>, donc d'après la réciproque, \(ABC\) est rectangle en \(A\).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — une démonstration de Pythagore</span>
+          <p>On place 4 triangles rectangles identiques (côtés \(a\), \(b\), hypoténuse \(c\)) dans un grand carré de côté \(a+b\). Aire totale : \((a+b)^2\). On la calcule autrement : 4 triangles \(\big(4\times\frac{ab}{2}=2ab\big)\) + un carré intérieur de côté \(c\) \((c^2)\). D'où \((a+b)^2=2ab+c^2\), soit \(a^2+2ab+b^2=2ab+c^2\), donc \(a^2+b^2=c^2\).</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Triangle de côtés 5, 6, 8. Est-il rectangle ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Plus grand côté : 8, donc \(8^2=64\). Et \(5^2+6^2=25+36=61\). \(64\neq61\) → d'après la contraposée, le triangle <strong>n'est pas rectangle</strong>.</p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 14. Thalès -->
+    <details class="chap">
+      <summary><span class="cn">14</span>Théorème de Thalès <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <div class="box theoreme">
+          <span class="lab">Théorème — Thalès</span>
+          <p>\(M\in(AB)\), \(N\in(AC)\). Si <strong>\((MN)\parallel(BC)\)</strong>, alors :</p>
+          $$\frac{AM}{AB}=\frac{AN}{AC}=\frac{MN}{BC}$$
+        </div>
+        <div class="box methode">
+          <span class="lab">Méthode — quel usage ?</span>
+          <p><strong>Calculer une longueur</strong> quand on sait que deux droites sont parallèles → théorème direct.</p>
+          <p><strong>Démontrer que deux droites sont parallèles</strong> → réciproque.</p>
+        </div>
+        <div class="box theoreme">
+          <span class="lab">Réciproque de Thalès</span>
+          <p>Si \(\dfrac{AM}{AB}=\dfrac{AN}{AC}\) <strong>et</strong> si les points sont <strong>alignés dans le même ordre</strong> (\(A,M,B\) et \(A,N,C\)), alors \((MN)\parallel(BC)\).</p>
+        </div>
+        <div class="box piege">
+          <span class="lab">Piège — l'ordre des points</span>
+          <p>La réciproque exige les deux rapports égaux <strong>ET</strong> le bon ordre d'alignement. Sans la condition d'alignement, conclure au parallélisme est faux.</p>
+        </div>
+
+        <div class="exemple"><span class="lab">Exemple — calcul de longueur</span>
+          <p>\((MN)\parallel(BC)\), \(AM=3\), \(AB=5\), \(BC=8\). On veut \(MN\). \(\dfrac{AM}{AB}=\dfrac{MN}{BC}\) → \(\dfrac{3}{5}=\dfrac{MN}{8}\) → \(MN=\dfrac{3\times8}{5}=4{,}8\).</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — Thalès, c'est un agrandissement</span>
+          <p>Le triangle \(AMN\) est une <strong>réduction</strong> du triangle \(ABC\) de rapport \(k=\frac{AM}{AB}\). C'est exactement pour ça que tous les rapports de longueurs sont égaux : c'est le même triangle, à l'échelle près. La configuration « papillon » (le point \(A\) entre les deux droites parallèles) suit la même logique.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> \(AM=4\), \(AB=6\), \(AN=6\), \(AC=9\). Les droites \((MN)\) et \((BC)\) sont-elles parallèles ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>\(\dfrac{AM}{AB}=\dfrac46=\dfrac23\) et \(\dfrac{AN}{AC}=\dfrac69=\dfrac23\). Rapports égaux + points alignés dans le même ordre → d'après la réciproque de Thalès, <strong>\((MN)\parallel(BC)\)</strong>.</p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 15. Trigo -->
+    <details class="chap">
+      <summary><span class="cn">15</span>Trigonométrie <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Dans le triangle rectangle — SOH·CAH·TOA</h4>
+        <div class="box theoreme">
+          <span class="lab">Définitions</span>
+          $$\cos\widehat{x}=\frac{\text{adjacent}}{\text{hypoténuse}}\quad \sin\widehat{x}=\frac{\text{opposé}}{\text{hypoténuse}}\quad \tan\widehat{x}=\frac{\text{opposé}}{\text{adjacent}}$$
+          <p><strong>S</strong>OH · <strong>C</strong>AH · <strong>T</strong>OA : Sin=Opp/Hyp, Cos=Adj/Hyp, Tan=Opp/Adj.</p>
+        </div>
+        <div class="box methode">
+          <span class="lab">Méthode — longueur ou angle ?</span>
+          <p><strong>Trouver une longueur</strong> : on connaît un angle + un côté → on choisit la formule qui les relie, on isole l'inconnue.</p>
+          <p><strong>Trouver un angle</strong> : on connaît deux côtés → on calcule le rapport, puis touche <code>cos⁻¹</code> / <code>sin⁻¹</code> / <code>tan⁻¹</code> de la calculatrice.</p>
+        </div>
+        <div class="exemple"><span class="lab">Exemple — calculer un angle</span>
+          <p>Côté opposé 3, hypoténuse 5. On a \(\sin\widehat{x}=\frac35=0{,}6\), donc \(\widehat{x}=\sin^{-1}(0{,}6)\approx36{,}9^\circ\).</p>
+        </div>
+        <div class="box piege">
+          <span class="lab">Piège — mode de la calculatrice</span>
+          <p>Vérifie que la calculatrice est en <strong>degrés (DEG)</strong>, pas en radians. Sinon les angles sont faux.</p>
+        </div>
+
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — relations à connaître</span>
+          $$\cos^2\widehat{x}+\sin^2\widehat{x}=1 \qquad \tan\widehat{x}=\frac{\sin\widehat{x}}{\cos\widehat{x}}$$
+          <p><strong>Démonstration de la première :</strong> dans un triangle rectangle d'hypoténuse \(h\), côtés \(a\) (adjacent) et \(o\) (opposé), on a \(\cos=\frac ah\), \(\sin=\frac oh\). Donc \(\cos^2+\sin^2=\frac{a^2+o^2}{h^2}\). Or Pythagore donne \(a^2+o^2=h^2\). Le quotient vaut donc \(\frac{h^2}{h^2}=1\). La trigo et Pythagore sont deux facettes de la même chose.</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Triangle rectangle en \(A\), \(\widehat{B}=30^\circ\), \(AB=10\). Calculer \(AC\). <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Par rapport à \(\widehat{B}\) : \(AC\) est l'opposé, \(AB\) l'adjacent → \(\tan30^\circ=\dfrac{AC}{AB}\).</p>
+            <p>\(AC=AB\times\tan30^\circ=10\times\tan30^\circ\approx5{,}8\).</p>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <!-- 16. Transformations -->
+    <details class="chap">
+      <summary><span class="cn">16</span>Transformations <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <table>
+          <tr><th>Transformation</th><th>Définie par</th><th>Ce qu'elle fait</th></tr>
+          <tr><td>Translation</td><td>un vecteur (direction, sens, longueur)</td><td>« glisse » la figure</td></tr>
+          <tr><td>Symétrie axiale</td><td>une droite (l'axe)</td><td>effet miroir par rapport à l'axe</td></tr>
+          <tr><td>Symétrie centrale</td><td>un point (le centre)</td><td>demi-tour autour du point</td></tr>
+          <tr><td>Rotation</td><td>centre + angle + sens</td><td>tourne la figure</td></tr>
+          <tr><td>Homothétie</td><td>centre + rapport \(k\)</td><td>agrandit / réduit</td></tr>
+        </table>
+        <div class="box theoreme">
+          <span class="lab">Propriétés conservées</span>
+          <p>Translations, symétries et rotations conservent les <strong>longueurs, angles et aires</strong> (figures superposables). L'<strong>homothétie</strong> conserve les angles mais multiplie les longueurs par \(|k|\) et les aires par \(k^2\).</p>
+        </div>
+        <div class="box plus">
+          <span class="lab">Pour aller plus loin — homothétie de rapport négatif</span>
+          <p>Si \(k<0\), la figure image est <strong>de l'autre côté du centre</strong> et « retournée ». Une homothétie de rapport \(-1\) équivaut exactement à une symétrie centrale.</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- 17. Espace -->
+    <details class="chap">
+      <summary><span class="cn">17</span>Géométrie dans l'espace <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Solides &amp; sections</h4>
+        <p>Au programme : prisme, cylindre, pyramide, cône, sphère et boule. Une <strong>section plane</strong> est l'intersection du solide avec un plan :</p>
+        <ul>
+          <li>section d'un <strong>cylindre</strong> par un plan parallèle à l'axe → rectangle ; perpendiculaire → disque.</li>
+          <li>section d'une <strong>pyramide / d'un cône</strong> par un plan parallèle à la base → figure <strong>réduite</strong> de la base (lien avec l'agrandissement, coefficient \(k\)).</li>
+          <li>section d'une <strong>boule</strong> par un plan → un disque.</li>
+        </ul>
+
+        <h4>Repérage sur la sphère</h4>
+        <p>Un point sur la Terre est repéré par sa <strong>latitude</strong> (Nord/Sud, par rapport à l'équateur) et sa <strong>longitude</strong> (Est/Ouest, par rapport au méridien de Greenwich).</p>
+
+        <div class="box methode">
+          <span class="lab">Méthode — section de cône/pyramide</span>
+          <p>La petite figure est une réduction de rapport \(k=\dfrac{\text{hauteur réduite}}{\text{hauteur totale}}\). Les longueurs ×\(k\), les aires ×\(k^2\), les volumes ×\(k^3\). Indispensable pour les exercices de cône tronqué.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- =================== THÈME 5 =================== -->
+  <section class="theme" id="t5">
+    <div class="theme-head">
+      <span class="theme-tag">THÈME 5</span>
+      <h2>Algorithmique &amp; programmation</h2>
+      <p class="theme-sub">Lire et écrire un programme — souvent en style Scratch.</p>
+    </div>
+
+    <details class="chap" open>
+      <summary><span class="cn">18</span>Programmation · variables, boucles, conditions <span class="arrow">▸</span></summary>
+      <div class="chap-body">
+        <h4>Les briques de base</h4>
+        <ul>
+          <li><strong>Variable</strong> : une « boîte » qui stocke une valeur, qu'on peut lire et modifier.</li>
+          <li><strong>Boucle bornée</strong> : <code>répéter n fois</code> — on connaît le nombre de tours.</li>
+          <li><strong>Boucle conditionnelle</strong> : <code>répéter jusqu'à ce que…</code> / <code>tant que…</code></li>
+          <li><strong>Test</strong> : <code>si … alors … sinon …</code> — exécute selon qu'une condition est vraie ou fausse.</li>
+        </ul>
+
+        <h4>Déplacements dans un repère</h4>
+        <p>Le lutin se déplace via des instructions du type <code>avancer de</code>, <code>tourner de</code>, ou <code>aller à (x ; y)</code>. <code>x</code> = horizontal, <code>y</code> = vertical.</p>
+
+        <div class="box methode">
+          <span class="lab">Méthode — la « trace d'exécution »</span>
+          <p>Pour comprendre un programme, fais un <strong>tableau</strong> : une colonne par variable, une ligne par tour de boucle. On remplit pas à pas. C'est la clé pour ne pas se tromper sur la valeur finale.</p>
+        </div>
+
+        <div class="exemple"><span class="lab">Exemple — que renvoie ce programme ?</span>
+<pre><span class="var">N</span> ← <span class="num">0</span>
+<span class="kw">répéter</span> <span class="num">4</span> <span class="kw">fois</span>
+   <span class="var">N</span> ← <span class="var">N</span> + <span class="num">3</span>
+<span class="kw">fin</span></pre>
+          <table>
+            <tr><th>Tour</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+            <tr><td>N</td><td>3</td><td>6</td><td>9</td><td>12</td></tr>
+          </table>
+          <p>Valeur finale : <strong>N = 12</strong> (la table de 3, jusqu'à \(4\times3\)).</p>
+        </div>
+
+        <details class="exo"><summary><span class="tag">EXO</span> Au départ \(P=1\). On répète 3 fois : \(P \leftarrow P\times2\). Valeur finale de \(P\) ? <span class="reveal">Solution</span></summary>
+          <div class="exo-sol">
+            <p>Tour 1 : 2 — Tour 2 : 4 — Tour 3 : 8. <strong>P = 8</strong> (c'est \(2^3\)).</p>
+          </div>
+        </details>
+      </div>
+    </details>
+  </section>
+
+  <footer>
+    <p class="big">Tu as tout le programme. Maintenant, entraîne-toi sur des annales.</p>
+    <p>Cours approfondi de mathématiques · cycle 4 / 3ᵉ · révisions Brevet</p>
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  // Toggle déplier / replier
+  var btn = document.getElementById('toggleAll');
+  var allChaps = function(){ return Array.prototype.slice.call(document.querySelectorAll('details.chap')); };
+  btn.addEventListener('click', function(){
+    var chaps = allChaps();
+    var anyClosed = chaps.some(function(c){ return !c.open; });
+    chaps.forEach(function(c){ c.open = anyClosed; });
+    btn.textContent = anyClosed ? '⊖ Tout replier' : '⊕ Tout déplier';
+  });
+
+  // Active chip on scroll
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var sections = chips.map(function(c){ return document.querySelector(c.getAttribute('href')); });
+  if ('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          var id = '#' + e.target.id;
+          chips.forEach(function(c){ c.classList.toggle('active', c.getAttribute('href') === id); });
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach(function(s){ if(s) obs.observe(s); });
+  }
+})();
+</script>
+
+</body>
+</html>
