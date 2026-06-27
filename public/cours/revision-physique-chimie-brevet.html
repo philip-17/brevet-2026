@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Révision Physique-Chimie · Brevet 2026</title>
+<style>
+  :root{
+    --paper:#fdfdfb;
+    --ink:#16233f;
+    --ink-soft:#46557a;
+    --seyes:#cfe1f0;
+    --seyes-strong:#a9cbe6;
+    --margin:#e9a8bd;
+    --energie:#f4791f;
+    --elec:#2f6df0;
+    --cinema:#7b4dd6;
+    --atome:#0a9d78;
+    --reac:#d6336c;
+    --hl:#ffe98a;
+    --card:#ffffff;
+    --shadow:0 1px 2px rgba(22,35,63,.06),0 8px 24px rgba(22,35,63,.07);
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:
+      linear-gradient(var(--seyes) 1px,transparent 1px) 0 0/100% 28px,
+      var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  /* ===== Layout ===== */
+  .shell{display:grid;grid-template-columns:248px 1fr;max-width:1180px;margin:0 auto;gap:0}
+  /* ===== Sidebar ===== */
+  nav.side{
+    position:sticky;top:0;align-self:start;height:100vh;overflow-y:auto;
+    padding:26px 14px 40px 18px;
+    border-right:2px solid var(--margin);
+    background:rgba(253,253,251,.86);backdrop-filter:blur(6px);
+  }
+  .brand{font-weight:800;font-size:1.05rem;letter-spacing:-.02em;margin:0 0 2px}
+  .brand .b2{color:var(--elec)}
+  .brand-sub{font-size:.72rem;color:var(--ink-soft);margin:0 0 18px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
+  nav.side a{
+    display:flex;align-items:center;gap:9px;
+    padding:7px 10px;margin:1px 0;border-radius:9px;
+    color:var(--ink-soft);text-decoration:none;font-size:.85rem;font-weight:600;
+    border-left:3px solid transparent;transition:.15s;
+  }
+  nav.side a .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+  nav.side a:hover{background:#f1f5fb;color:var(--ink)}
+  nav.side a.active{background:#eef3fc;color:var(--ink);border-left-color:currentColor}
+  .navgroup{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:#9aa6bd;margin:16px 0 4px 10px;font-weight:700}
+  .progresswrap{margin:18px 8px 0;font-size:.72rem;color:var(--ink-soft)}
+  .pbar{height:6px;background:#e7eef7;border-radius:99px;overflow:hidden;margin-top:5px}
+  .pbar>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--elec),var(--atome));transition:width .4s}
+  /* ===== Main ===== */
+  main{padding:30px 40px 120px;min-width:0}
+  header.hero{margin:8px 0 34px}
+  .hero h1{font-size:2.15rem;line-height:1.1;letter-spacing:-.03em;margin:0 0 8px}
+  .hero h1 mark{background:linear-gradient(transparent 55%,var(--hl) 55%);padding:0 .1em}
+  .hero p{color:var(--ink-soft);font-size:1.02rem;max-width:62ch;margin:0}
+  .hero .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+  .pill{font-size:.74rem;font-weight:700;padding:5px 11px;border-radius:99px;background:#eef3fc;color:var(--elec)}
+  /* ===== Section ===== */
+  section{scroll-margin-top:18px;margin-bottom:46px}
+  .sec-head{display:flex;align-items:center;gap:12px;margin:0 0 16px;padding-bottom:10px;border-bottom:2px solid #eef1f6}
+  .sec-num{
+    width:38px;height:38px;border-radius:11px;flex:0 0 auto;
+    display:grid;place-items:center;font-weight:800;color:#fff;font-size:1.05rem;
+  }
+  .sec-head h2{font-size:1.4rem;margin:0;letter-spacing:-.02em}
+  .sec-head .tag{margin-left:auto;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-soft);background:#f1f5fb;padding:4px 10px;border-radius:7px}
+  /* color theming per chapter */
+  .t-energie .sec-num,.t-energie{--c:var(--energie)}
+  .t-elec .sec-num,.t-elec{--c:var(--elec)}
+  .t-cinema .sec-num,.t-cinema{--c:var(--cinema)}
+  .t-atome .sec-num,.t-atome{--c:var(--atome)}
+  .t-reac .sec-num,.t-reac{--c:var(--reac)}
+  .sec-num{background:var(--c)}
+  /* ===== Content blocks ===== */
+  p.lead{margin:0 0 14px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid #eaeef4;border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow)}
+  .card h3{margin:0 0 8px;font-size:1rem;display:flex;align-items:center;gap:7px}
+  /* Formula box */
+  .formula{
+    border:2px solid var(--c);border-radius:var(--radius);
+    background:linear-gradient(180deg,#fff, color-mix(in srgb,var(--c) 6%,#fff));
+    padding:16px 18px;margin:14px 0;position:relative;
+  }
+  .formula .lbl{position:absolute;top:-11px;left:14px;background:var(--c);color:#fff;font-size:.68rem;font-weight:800;padding:2px 10px;border-radius:6px;text-transform:uppercase;letter-spacing:.05em}
+  .eq{font-size:1.5rem;font-weight:800;text-align:center;letter-spacing:.01em;margin:8px 0 6px;font-family:"Cambria Math","Segoe UI",serif}
+  .eq sub{font-size:.62em;font-weight:700}
+  .units{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:.82rem;color:var(--ink-soft);margin-top:6px}
+  .units b{color:var(--ink)}
+  /* Key term highlight */
+  .k{background:linear-gradient(transparent 60%,color-mix(in srgb,var(--c) 35%,#fff) 60%);font-weight:700;padding:0 1px}
+  .def b{color:var(--c)}
+  /* Calculator */
+  .calc{background:#f8fafd;border:1px dashed var(--c);border-radius:var(--radius);padding:16px 18px;margin:14px 0}
+  .calc h4{margin:0 0 12px;font-size:.92rem;display:flex;align-items:center;gap:7px}
+  .calc h4 .ico{font-size:1.1rem}
+  .crow{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end}
+  .field{display:flex;flex-direction:column;gap:4px;flex:1;min-width:90px}
+  .field label{font-size:.74rem;font-weight:700;color:var(--ink-soft)}
+  .field input,.field select{
+    padding:9px 10px;border:1.5px solid #d7e0ec;border-radius:9px;font-size:1rem;font-weight:600;
+    background:#fff;color:var(--ink);width:100%;
+  }
+  .field input:focus,.field select:focus{outline:none;border-color:var(--c)}
+  .cout{margin-top:13px;padding:11px 14px;border-radius:10px;background:color-mix(in srgb,var(--c) 12%,#fff);font-weight:700;font-size:1.02rem;color:var(--ink)}
+  .cout span{color:var(--c);font-size:1.2rem}
+  .hint{font-size:.78rem;color:var(--ink-soft);margin-top:8px}
+  /* Flashcards */
+  .fcgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:12px;margin:14px 0}
+  .fc{perspective:900px;height:120px;cursor:pointer}
+  .fc-in{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+  .fc.flip .fc-in{transform:rotateY(180deg)}
+  .fc-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:12px;padding:12px;display:grid;place-items:center;text-align:center;box-shadow:var(--shadow)}
+  .fc-front{background:#fff;border:1.5px solid var(--c);font-weight:700;font-size:.92rem}
+  .fc-front .q{color:var(--c);font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;position:absolute;top:9px;left:0;right:0;font-weight:800}
+  .fc-back{background:var(--c);color:#fff;transform:rotateY(180deg);font-size:.82rem;line-height:1.4}
+  .fc-tip{font-size:.74rem;color:var(--ink-soft);margin:-4px 0 4px}
+  /* Quiz */
+  .quiz{background:#fff;border:1px solid #eaeef4;border-radius:var(--radius);padding:16px 18px;margin:14px 0;box-shadow:var(--shadow)}
+  .quiz .q{font-weight:700;margin:0 0 10px}
+  .quiz .opt{display:block;width:100%;text-align:left;padding:10px 12px;margin:6px 0;border:1.5px solid #e2e8f1;border-radius:10px;background:#fff;font-size:.92rem;font-weight:600;cursor:pointer;transition:.12s;color:var(--ink)}
+  .quiz .opt:hover{border-color:var(--c);background:#f8fafd}
+  .quiz .opt.good{border-color:var(--atome);background:#e7f8f1;color:#06794f}
+  .quiz .opt.bad{border-color:var(--reac);background:#fdebf1;color:#a01346}
+  .quiz .opt.lock{cursor:default;opacity:.85}
+  .quiz .fb{margin-top:8px;font-size:.85rem;font-weight:600;padding:8px 11px;border-radius:8px;display:none}
+  .quiz .fb.show{display:block}
+  .quiz .fb.ok{background:#e7f8f1;color:#06794f}
+  .quiz .fb.no{background:#fdebf1;color:#a01346}
+  /* Atom diagram */
+  .atom-stage{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:center;margin:14px 0}
+  .atom{position:relative;width:190px;height:190px;flex:0 0 auto}
+  .orbit{position:absolute;inset:0;border:1.5px solid #cfe1f0;border-radius:50%}
+  .orbit.o2{inset:34px}
+  .nucleus{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:54px;height:54px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a62,var(--atome));display:grid;place-items:center;color:#fff;font-weight:800;font-size:.72rem;text-align:center;line-height:1.1;box-shadow:0 4px 12px rgba(10,157,120,.4)}
+  .elec{position:absolute;width:18px;height:18px;border-radius:50%;background:var(--elec);box-shadow:0 0 0 3px #fff,0 2px 6px rgba(47,109,240,.5);color:#fff;font-size:.6rem;display:grid;place-items:center;font-weight:800}
+  .atom-info{font-size:.86rem;max-width:240px}
+  .atom-info li{margin:3px 0}
+  /* Balancer */
+  .bal{background:#fff;border:1px solid #eaeef4;border-radius:var(--radius);padding:16px 18px;margin:14px 0;box-shadow:var(--shadow)}
+  .baleq{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:1.25rem;font-weight:800;font-family:"Cambria Math",serif;justify-content:center;margin:6px 0 12px}
+  .baleq .coef{width:46px;padding:5px;text-align:center;border:1.5px solid #d7e0ec;border-radius:8px;font-size:1rem;font-weight:800;color:var(--reac)}
+  .baleq .coef:focus{outline:none;border-color:var(--reac)}
+  .baleq sub{font-size:.6em}
+  .balbtn{padding:8px 16px;border:none;border-radius:9px;background:var(--reac);color:#fff;font-weight:700;cursor:pointer;font-size:.88rem}
+  .balbtn.ghost{background:#f1f5fb;color:var(--ink-soft);margin-left:8px}
+  .balfb{margin-top:10px;font-weight:700;font-size:.9rem;display:none;padding:8px 12px;border-radius:8px}
+  .balfb.show{display:block}
+  /* worked example */
+  .worked{border-left:4px solid var(--c);padding:4px 0 4px 16px;margin:14px 0;font-size:.92rem}
+  .worked .step{margin:6px 0}
+  .worked .step b{color:var(--c)}
+  .res{display:inline-block;background:var(--hl);padding:2px 8px;border-radius:6px;font-weight:800}
+  /* tables */
+  table.mini{width:100%;border-collapse:collapse;margin:12px 0;font-size:.86rem}
+  table.mini th,table.mini td{border:1px solid #e6ebf2;padding:7px 10px;text-align:left}
+  table.mini th{background:color-mix(in srgb,var(--c) 10%,#fff);font-weight:700}
+  /* misc */
+  .callout{display:flex;gap:10px;background:#fff8e6;border:1px solid #ffe08a;border-radius:12px;padding:12px 14px;margin:14px 0;font-size:.88rem}
+  .callout .ic{font-size:1.2rem}
+  .topbtn{position:fixed;bottom:22px;right:22px;width:46px;height:46px;border-radius:50%;border:none;background:var(--ink);color:#fff;font-size:1.2rem;cursor:pointer;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.3s;z-index:50}
+  .topbtn.show{opacity:1;pointer-events:auto}
+  footer{text-align:center;color:#9aa6bd;font-size:.8rem;padding:20px;border-top:1px solid #eef1f6;margin-top:30px}
+  @media(max-width:860px){
+    .shell{grid-template-columns:1fr}
+    nav.side{position:static;height:auto;border-right:none;border-bottom:2px solid var(--margin);display:none}
+    main{padding:22px 18px 90px}
+    .hero h1{font-size:1.7rem}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <!-- ===================== SIDEBAR ===================== -->
+  <nav class="side">
+    <p class="brand">Révision <span class="b2">Physique-Chimie</span></p>
+    <p class="brand-sub">Brevet 2026 · 3ᵉ</p>
+
+    <div class="navgroup">⚡ Énergie</div>
+    <a href="#cinetique"><span class="dot" style="background:var(--energie)"></span>Énergie cinétique</a>
+    <a href="#potentielle"><span class="dot" style="background:var(--energie)"></span>Énergie potentielle</a>
+    <a href="#mecanique"><span class="dot" style="background:var(--energie)"></span>Énergie mécanique</a>
+
+    <div class="navgroup">🔌 Électricité</div>
+    <a href="#ohm"><span class="dot" style="background:var(--elec)"></span>Loi d'Ohm</a>
+    <a href="#puissance"><span class="dot" style="background:var(--elec)"></span>Puissance & énergie</a>
+
+    <div class="navgroup">🏃 Mouvement</div>
+    <a href="#vitesse"><span class="dot" style="background:var(--cinema)"></span>Vitesse & mouvement</a>
+
+    <div class="navgroup">⚛️ Matière</div>
+    <a href="#atome"><span class="dot" style="background:var(--atome)"></span>L'atome & les ions</a>
+    <a href="#classification"><span class="dot" style="background:var(--atome)"></span>Classification</a>
+
+    <div class="navgroup">🧪 Chimie</div>
+    <a href="#reactions"><span class="dot" style="background:var(--reac)"></span>Réactions chimiques</a>
+    <a href="#equilibrage"><span class="dot" style="background:var(--reac)"></span>Équilibrage & masse</a>
+
+    <div class="progresswrap">
+      Sections vues
+      <div class="pbar"><span id="pbar"></span></div>
+    </div>
+  </nav>
+
+  <!-- ===================== MAIN ===================== -->
+  <main>
+    <header class="hero">
+      <h1>Tout pour la <mark>physique-chimie</mark> en un week-end</h1>
+      <p>Les formules, les définitions et les méthodes qui tombent au Brevet — avec des calculatrices, des cartes à retourner et des QCM pour t'entraîner en direct. Clique partout.</p>
+      <div class="meta">
+        <span class="pill">5 chapitres</span>
+        <span class="pill">7 calculatrices</span>
+        <span class="pill">QCM corrigés</span>
+        <span class="pill">Cartes mémo</span>
+      </div>
+    </header>
+
+    <!-- ============ 1. ÉNERGIE CINÉTIQUE ============ -->
+    <section id="cinetique" class="t-energie">
+      <div class="sec-head"><div class="sec-num">1</div><h2>Énergie cinétique</h2><span class="tag">Énergie · mvt</span></div>
+      <p class="lead def">L'énergie cinétique, c'est l'énergie que possède un objet <span class="k">parce qu'il est en mouvement</span>. Plus un objet est <b>lourd</b> et plus il va <b>vite</b>, plus il en a. Elle se mesure en <b>joules (J)</b>.</p>
+
+      <div class="formula">
+        <span class="lbl">Formule</span>
+        <div class="eq">E<sub>c</sub> = ½ × m × v²</div>
+        <div class="units"><span><b>E<sub>c</sub></b> en joules (J)</span><span><b>m</b> en kg</span><span><b>v</b> en m/s</span></div>
+      </div>
+      <div class="callout"><span class="ic">⚠️</span><div>Le piège classique : la vitesse est <b>au carré</b>. Si la vitesse double, l'énergie cinétique est <b>multipliée par 4</b> (pas par 2 !). C'est pour ça qu'un choc à 100 km/h est bien plus violent qu'à 50.</div></div>
+
+      <div class="calc">
+        <h4><span class="ico">🧮</span> Calculatrice — Énergie cinétique</h4>
+        <div class="crow">
+          <div class="field"><label>Masse m (kg)</label><input type="number" id="ec_m" placeholder="ex : 1200" step="any"></div>
+          <div class="field"><label>Vitesse v (m/s)</label><input type="number" id="ec_v" placeholder="ex : 20" step="any"></div>
+        </div>
+        <div class="cout" id="ec_out">Entre les valeurs → E<sub>c</sub> = <span>…</span></div>
+        <p class="hint">Astuce : si on te donne des km/h, divise d'abord par 3,6 pour avoir des m/s.</p>
+      </div>
+
+      <div class="worked t-energie">
+        <div class="step"><b>Exemple.</b> Une voiture de 1000 kg roule à 90 km/h. Calcule son énergie cinétique.</div>
+        <div class="step"><b>1.</b> Convertir la vitesse : 90 ÷ 3,6 = <b>25 m/s</b></div>
+        <div class="step"><b>2.</b> Appliquer la formule : E<sub>c</sub> = ½ × 1000 × 25² = ½ × 1000 × 625</div>
+        <div class="step"><b>3.</b> Résultat : <span class="res">E<sub>c</sub> = 312 500 J</span></div>
+      </div>
+
+      <div class="quiz t-energie" data-answer="1">
+        <p class="q">Si la masse d'un objet est multipliée par 2 (à vitesse identique), son énergie cinétique est :</p>
+        <button class="opt">Inchangée</button>
+        <button class="opt">Multipliée par 2</button>
+        <button class="opt">Multipliée par 4</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 2. ÉNERGIE POTENTIELLE ============ -->
+    <section id="potentielle" class="t-energie">
+      <div class="sec-head"><div class="sec-num">2</div><h2>Énergie potentielle de position</h2><span class="tag">Énergie · hauteur</span></div>
+      <p class="lead def">L'énergie potentielle de pesanteur, c'est l'énergie « en réserve » d'un objet <span class="k">à cause de sa hauteur</span>. Plus l'objet est <b>haut</b> et <b>lourd</b>, plus il en stocke. Un objet posé au sol (h = 0) en a zéro.</p>
+
+      <div class="formula">
+        <span class="lbl">Formule</span>
+        <div class="eq">E<sub>pp</sub> = m × g × h</div>
+        <div class="units"><span><b>E<sub>pp</sub></b> en J</span><span><b>m</b> en kg</span><span><b>g</b> ≈ 9,81 N/kg</span><span><b>h</b> en m</span></div>
+      </div>
+      <p class="hint">⚙️ <b>g</b> est l'intensité de la pesanteur. Au Brevet on prend souvent <b>g = 9,81 N/kg</b> ou arrondi à <b>10 N/kg</b> — regarde bien l'énoncé.</p>
+
+      <div class="calc">
+        <h4><span class="ico">🧮</span> Calculatrice — Énergie potentielle</h4>
+        <div class="crow">
+          <div class="field"><label>Masse m (kg)</label><input type="number" id="ep_m" placeholder="ex : 2" step="any"></div>
+          <div class="field"><label>Hauteur h (m)</label><input type="number" id="ep_h" placeholder="ex : 10" step="any"></div>
+          <div class="field"><label>g (N/kg)</label><input type="number" id="ep_g" value="9.81" step="any"></div>
+        </div>
+        <div class="cout" id="ep_out">Entre les valeurs → E<sub>pp</sub> = <span>…</span></div>
+      </div>
+
+      <div class="fcgrid" data-fc>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Unité</span>Dans quelle unité s'exprime l'énergie ?</div><div class="fc-face fc-back">Le <b>joule (J)</b>. (1 Wh = 3600 J)</div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Quand h=0</span>Que vaut E<sub>pp</sub> au sol ?</div><div class="fc-face fc-back">E<sub>pp</sub> = 0 J (rien stocké en hauteur)</div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Conversion</span>L'énergie potentielle se transforme en… ?</div><div class="fc-face fc-back">En énergie <b>cinétique</b> quand l'objet tombe.</div></div></div>
+      </div>
+      <p class="fc-tip">↑ Clique sur une carte pour voir la réponse.</p>
+    </section>
+
+    <!-- ============ 3. ÉNERGIE MÉCANIQUE ============ -->
+    <section id="mecanique" class="t-energie">
+      <div class="sec-head"><div class="sec-num">3</div><h2>Énergie mécanique & conservation</h2><span class="tag">Énergie · bilan</span></div>
+      <p class="lead def">L'énergie mécanique, c'est tout simplement <span class="k">la somme</span> de l'énergie cinétique et de l'énergie potentielle d'un objet.</p>
+
+      <div class="formula">
+        <span class="lbl">Formule</span>
+        <div class="eq">E<sub>m</sub> = E<sub>c</sub> + E<sub>pp</sub></div>
+        <div class="units"><span>Tout en <b>joules (J)</b></span></div>
+      </div>
+
+      <div class="grid2">
+        <div class="card t-energie"><h3>✅ Sans frottements</h3><p style="margin:0;font-size:.9rem">L'énergie mécanique se <b>conserve</b> : E<sub>m</sub> reste constante. Quand l'objet tombe, E<sub>pp</sub> diminue mais E<sub>c</sub> augmente d'autant. L'énergie passe de l'une à l'autre.</p></div>
+        <div class="card t-energie"><h3>❌ Avec frottements</h3><p style="margin:0;font-size:.9rem">E<sub>m</sub> <b>diminue</b> : une partie de l'énergie est « perdue » (en réalité transformée en <b>chaleur</b> à cause des frottements).</p></div>
+      </div>
+
+      <div class="worked t-energie">
+        <div class="step"><b>Exemple.</b> Une bille de 0,2 kg est lâchée d'une hauteur de 5 m (g = 10, sans frottement). Quelle est sa vitesse en arrivant au sol ?</div>
+        <div class="step"><b>1.</b> En haut : E<sub>c</sub> = 0 ; E<sub>pp</sub> = 0,2 × 10 × 5 = <b>10 J</b> → donc E<sub>m</sub> = 10 J</div>
+        <div class="step"><b>2.</b> En bas : E<sub>pp</sub> = 0 (h=0). Comme E<sub>m</sub> se conserve, toute l'énergie est devenue cinétique → E<sub>c</sub> = <b>10 J</b></div>
+        <div class="step"><b>3.</b> On isole v : 10 = ½ × 0,2 × v² → v² = 100 → <span class="res">v = 10 m/s</span></div>
+      </div>
+
+      <div class="quiz t-energie" data-answer="2">
+        <p class="q">Une luge glisse et ralentit à cause des frottements. Son énergie mécanique :</p>
+        <button class="opt">Augmente</button>
+        <button class="opt">Reste constante</button>
+        <button class="opt">Diminue (transformée en chaleur)</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 4. LOI D'OHM ============ -->
+    <section id="ohm" class="t-elec">
+      <div class="sec-head"><div class="sec-num">4</div><h2>La loi d'Ohm</h2><span class="tag">Électricité</span></div>
+      <p class="lead def">La loi d'Ohm relie trois grandeurs d'un <span class="k">conducteur ohmique</span> (une résistance) : la tension <b>U</b>, l'intensité <b>I</b> et la résistance <b>R</b>. La tension est <b>proportionnelle</b> à l'intensité.</p>
+
+      <div class="formula">
+        <span class="lbl">Les 3 formes</span>
+        <div class="eq">U = R × I&nbsp;&nbsp;|&nbsp;&nbsp;R = U ÷ I&nbsp;&nbsp;|&nbsp;&nbsp;I = U ÷ R</div>
+        <div class="units"><span><b>U</b> en volts (V)</span><span><b>R</b> en ohms (Ω)</span><span><b>I</b> en ampères (A)</span></div>
+      </div>
+
+      <div class="calc">
+        <h4><span class="ico">⚡</span> Calculatrice — Loi d'Ohm <span style="font-weight:600;font-size:.78rem;color:var(--ink-soft)">(laisse une case vide, je la calcule)</span></h4>
+        <div class="crow">
+          <div class="field"><label>Tension U (V)</label><input type="number" id="ohm_u" placeholder="?" step="any"></div>
+          <div class="field"><label>Résistance R (Ω)</label><input type="number" id="ohm_r" placeholder="?" step="any"></div>
+          <div class="field"><label>Intensité I (A)</label><input type="number" id="ohm_i" placeholder="?" step="any"></div>
+        </div>
+        <div class="cout" id="ohm_out">Remplis <b>2 cases sur 3</b> → <span>…</span></div>
+        <p class="hint">Penses-y comme un triangle : U en haut, R et I en bas. Tu caches la grandeur cherchée et tu lis l'opération.</p>
+      </div>
+
+      <table class="mini t-elec">
+        <tr><th>Grandeur</th><th>Symbole</th><th>Unité</th><th>Appareil de mesure</th></tr>
+        <tr><td>Tension</td><td>U</td><td>volt (V)</td><td>Voltmètre (en <b>dérivation</b>)</td></tr>
+        <tr><td>Intensité</td><td>I</td><td>ampère (A)</td><td>Ampèremètre (en <b>série</b>)</td></tr>
+        <tr><td>Résistance</td><td>R</td><td>ohm (Ω)</td><td>Ohmmètre</td></tr>
+      </table>
+
+      <div class="quiz t-elec" data-answer="1">
+        <p class="q">Une résistance de 100 Ω est traversée par un courant de 0,2 A. Quelle est la tension à ses bornes ?</p>
+        <button class="opt">2 V</button>
+        <button class="opt">20 V</button>
+        <button class="opt">500 V</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 5. PUISSANCE & ÉNERGIE ÉLEC ============ -->
+    <section id="puissance" class="t-elec">
+      <div class="sec-head"><div class="sec-num">5</div><h2>Puissance & énergie électrique</h2><span class="tag">Électricité</span></div>
+      <p class="lead def">La <span class="k">puissance</span> indique l'énergie consommée <b>chaque seconde</b> par un appareil. L'<span class="k">énergie</span> dépend en plus de la <b>durée</b> d'utilisation.</p>
+
+      <div class="grid2">
+        <div class="formula" style="margin:0">
+          <span class="lbl">Puissance</span>
+          <div class="eq">P = U × I</div>
+          <div class="units"><span><b>P</b> en watts (W)</span><span><b>U</b> en V</span><span><b>I</b> en A</span></div>
+        </div>
+        <div class="formula" style="margin:0">
+          <span class="lbl">Énergie</span>
+          <div class="eq">E = P × t</div>
+          <div class="units"><span><b>E</b> en J (si t en s)</span><span><b>P</b> en W</span><span><b>t</b> en s</span></div>
+        </div>
+      </div>
+
+      <div class="callout"><span class="ic">💡</span><div>Sur ta facture EDF, l'énergie est en <b>kilowattheures (kWh)</b>. Astuce : <b>E (en Wh) = P (en W) × t (en h)</b>. Il suffit que la puissance soit en watts et la durée en heures.</div></div>
+
+      <div class="calc">
+        <h4><span class="ico">⚡</span> Calculatrice — Puissance & énergie</h4>
+        <div class="crow">
+          <div class="field"><label>Tension U (V)</label><input type="number" id="p_u" placeholder="ex : 230" step="any"></div>
+          <div class="field"><label>Intensité I (A)</label><input type="number" id="p_i" placeholder="ex : 4" step="any"></div>
+          <div class="field"><label>Durée (h)</label><input type="number" id="p_t" placeholder="ex : 2" step="any"></div>
+        </div>
+        <div class="cout" id="p_out">Entre les valeurs → P = <span>…</span></div>
+      </div>
+
+      <div class="fcgrid" data-fc>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Unité P</span>Unité de la puissance ?</div><div class="fc-face fc-back">Le <b>watt (W)</b></div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">1 kWh</span>1 kWh = combien de Wh ?</div><div class="fc-face fc-back"><b>1000 Wh</b> (kilo = 1000)</div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">1 h</span>1 heure = combien de secondes ?</div><div class="fc-face fc-back"><b>3600 s</b> (60 × 60)</div></div></div>
+      </div>
+    </section>
+
+    <!-- ============ 6. VITESSE & MOUVEMENT ============ -->
+    <section id="vitesse" class="t-cinema">
+      <div class="sec-head"><div class="sec-num">6</div><h2>Vitesse & mouvement</h2><span class="tag">Cinématique</span></div>
+      <p class="lead def">La vitesse mesure <span class="k">la distance parcourue pendant une durée</span>. Le mouvement, lui, se décrit toujours <b>par rapport à un référentiel</b> (un point de vue choisi).</p>
+
+      <div class="formula">
+        <span class="lbl">Formule</span>
+        <div class="eq">v = d ÷ t</div>
+        <div class="units"><span><b>v</b> en m/s</span><span><b>d</b> en m</span><span><b>t</b> en s</span></div>
+      </div>
+
+      <div class="grid2">
+        <div class="card t-cinema"><h3>🔄 Convertir les vitesses</h3>
+          <p style="margin:0 0 4px;font-size:.9rem">• km/h → m/s : <b>÷ 3,6</b><br>• m/s → km/h : <b>× 3,6</b></p>
+          <p style="margin:6px 0 0;font-size:.82rem;color:var(--ink-soft)">Ex : 36 km/h = 10 m/s · 5 m/s = 18 km/h</p>
+        </div>
+        <div class="card t-cinema"><h3>👀 Relativité du mouvement</h3>
+          <p style="margin:0;font-size:.9rem">Un passager assis est <b>immobile</b> par rapport au train, mais <b>en mouvement</b> par rapport au quai. Tout dépend du <b>référentiel</b> choisi.</p>
+        </div>
+      </div>
+
+      <div class="calc">
+        <h4><span class="ico">🔁</span> Convertisseur de vitesse</h4>
+        <div class="crow">
+          <div class="field"><label>Valeur</label><input type="number" id="cv_val" placeholder="ex : 90" step="any"></div>
+          <div class="field"><label>De</label><select id="cv_from"><option value="kmh">km/h</option><option value="ms">m/s</option></select></div>
+        </div>
+        <div class="cout" id="cv_out">Entre une valeur → <span>…</span></div>
+      </div>
+
+      <table class="mini t-cinema">
+        <tr><th>Type de mouvement</th><th>Vitesse</th><th>Exemple</th></tr>
+        <tr><td>Uniforme</td><td>constante</td><td>voiture à vitesse stabilisée</td></tr>
+        <tr><td>Accéléré</td><td>augmente</td><td>démarrage, chute libre</td></tr>
+        <tr><td>Ralenti (décéléré)</td><td>diminue</td><td>freinage</td></tr>
+      </table>
+
+      <div class="quiz t-cinema" data-answer="0">
+        <p class="q">Un coureur parcourt 400 m en 50 s. Quelle est sa vitesse moyenne ?</p>
+        <button class="opt">8 m/s</button>
+        <button class="opt">20 m/s</button>
+        <button class="opt">0,125 m/s</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 7. L'ATOME ============ -->
+    <section id="atome" class="t-atome">
+      <div class="sec-head"><div class="sec-num">7</div><h2>L'atome & les ions</h2><span class="tag">Matière</span></div>
+      <p class="lead def">Un atome est constitué d'un <span class="k">noyau central</span> (protons + neutrons) autour duquel tournent des <span class="k">électrons</span>. L'atome est globalement <b>neutre</b> : autant de protons (+) que d'électrons (−).</p>
+
+      <div class="atom-stage">
+        <div class="atom" id="atomViz">
+          <div class="orbit"></div><div class="orbit o2"></div>
+          <div class="nucleus">noyau<br>+</div>
+        </div>
+        <ul class="atom-info">
+          <li>🔴 <b>Protons</b> : charge <b>positive (+)</b>, dans le noyau</li>
+          <li>⚪ <b>Neutrons</b> : charge <b>nulle</b>, dans le noyau</li>
+          <li>🔵 <b>Électrons</b> : charge <b>négative (−)</b>, autour</li>
+          <li><b>Numéro atomique Z</b> = nombre de protons</li>
+        </ul>
+      </div>
+
+      <div class="grid2">
+        <div class="card t-atome"><h3>➕ Cation</h3><p style="margin:0;font-size:.9rem">Un atome qui a <b>perdu</b> un ou plusieurs électrons → il devient <b>positif</b>. Ex : Na⁺, Cu²⁺.</p></div>
+        <div class="card t-atome"><h3>➖ Anion</h3><p style="margin:0;font-size:.9rem">Un atome qui a <b>gagné</b> un ou plusieurs électrons → il devient <b>négatif</b>. Ex : Cl⁻, O²⁻.</p></div>
+      </div>
+      <p class="hint">🧠 Moyen mnémo : <b>caTion</b> = posi<b>T</b>if · l'<b>aN</b>ion = <b>N</b>égatif.</p>
+
+      <div class="quiz t-atome" data-answer="1">
+        <p class="q">L'atome de sodium devient l'ion Na⁺. Cela veut dire qu'il a :</p>
+        <button class="opt">Gagné un électron</button>
+        <button class="opt">Perdu un électron</button>
+        <button class="opt">Gagné un proton</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 8. CLASSIFICATION ============ -->
+    <section id="classification" class="t-atome">
+      <div class="sec-head"><div class="sec-num">8</div><h2>Classification & molécules</h2><span class="tag">Matière</span></div>
+      <p class="lead def">Le <span class="k">tableau périodique</span> classe tous les atomes connus. Une <span class="k">molécule</span> est un assemblage d'atomes liés entre eux.</p>
+
+      <div class="grid2">
+        <div class="card t-atome"><h3>📋 Lire le tableau</h3><p style="margin:0;font-size:.9rem">Chaque case = un atome avec son <b>symbole</b> (H, O, Na…) et son <b>numéro Z</b>. Les atomes d'une même <b>colonne</b> (famille) ont des propriétés voisines.</p></div>
+        <div class="card t-atome"><h3>🔢 Lire une formule</h3><p style="margin:0;font-size:.9rem">Dans <b>H₂O</b> : 2 atomes d'hydrogène + 1 d'oxygène. L'<b>indice</b> (le petit chiffre) compte les atomes juste avant lui.</p></div>
+      </div>
+
+      <table class="mini t-atome">
+        <tr><th>Formule</th><th>Nom</th><th>Composition</th></tr>
+        <tr><td>O₂</td><td>dioxygène</td><td>2 atomes d'oxygène</td></tr>
+        <tr><td>H₂O</td><td>eau</td><td>2 H + 1 O</td></tr>
+        <tr><td>CO₂</td><td>dioxyde de carbone</td><td>1 C + 2 O</td></tr>
+        <tr><td>CH₄</td><td>méthane</td><td>1 C + 4 H</td></tr>
+      </table>
+
+      <div class="fcgrid" data-fc>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Symbole</span>Symbole de l'oxygène ?</div><div class="fc-face fc-back"><b>O</b></div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Indice</span>Combien d'atomes d'H dans CH₄ ?</div><div class="fc-face fc-back"><b>4</b> atomes d'hydrogène</div></div></div>
+        <div class="fc"><div class="fc-in"><div class="fc-face fc-front"><span class="q">Z</span>Que représente le numéro Z ?</div><div class="fc-face fc-back">Le nombre de <b>protons</b> du noyau</div></div></div>
+      </div>
+    </section>
+
+    <!-- ============ 9. RÉACTIONS CHIMIQUES ============ -->
+    <section id="reactions" class="t-reac">
+      <div class="sec-head"><div class="sec-num">9</div><h2>Réactions chimiques</h2><span class="tag">Chimie</span></div>
+      <p class="lead def">Lors d'une réaction, les <span class="k">réactifs</span> (ce qu'on a au départ) se transforment en <span class="k">produits</span> (ce qu'on obtient). Les atomes ne disparaissent pas, ils se <b>réorganisent</b>.</p>
+
+      <div class="formula">
+        <span class="lbl">Loi de Lavoisier</span>
+        <div class="eq" style="font-size:1.15rem">« Rien ne se perd, rien ne se crée, tout se transforme »</div>
+        <div class="units"><span>La <b>masse totale se conserve</b> : m(réactifs) = m(produits)</span></div>
+      </div>
+
+      <div class="worked t-reac">
+        <div class="step"><b>Exemple (Lavoisier).</b> On fait réagir 12 g de carbone avec 32 g de dioxygène. On obtient du dioxyde de carbone. Quelle masse de CO₂ ?</div>
+        <div class="step"><b>1.</b> La masse se conserve : m(CO₂) = m(C) + m(O₂)</div>
+        <div class="step"><b>2.</b> m(CO₂) = 12 + 32 = <span class="res">44 g</span></div>
+      </div>
+
+      <table class="mini t-reac">
+        <tr><th>Combustion</th><th>Équation</th></tr>
+        <tr><td>du carbone</td><td>C + O₂ → CO₂</td></tr>
+        <tr><td>du méthane</td><td>CH₄ + 2 O₂ → CO₂ + 2 H₂O</td></tr>
+      </table>
+      <div class="callout"><span class="ic">☠️</span><div>Une combustion <b>incomplète</b> (manque de dioxygène) produit du <b>monoxyde de carbone CO</b>, un gaz <b>toxique et invisible</b> — c'est ce qui rend les chauffe-eau mal réglés dangereux.</div></div>
+
+      <div class="quiz t-reac" data-answer="2">
+        <p class="q">On brûle 4 g de méthane qui consomment 16 g de dioxygène, produisant 11 g de CO₂. Quelle masse d'eau se forme ?</p>
+        <button class="opt">4 g</button>
+        <button class="opt">5 g</button>
+        <button class="opt">9 g</button>
+        <div class="fb"></div>
+      </div>
+    </section>
+
+    <!-- ============ 10. ÉQUILIBRAGE ============ -->
+    <section id="equilibrage" class="t-reac">
+      <div class="sec-head"><div class="sec-num">10</div><h2>Équilibrer une équation</h2><span class="tag">Chimie</span></div>
+      <p class="lead def">Équilibrer = mettre des <span class="k">coefficients</span> (les grands chiffres devant les molécules) pour qu'il y ait <b>autant d'atomes de chaque sorte</b> à gauche et à droite. On ne touche <b>jamais</b> aux indices (petits chiffres).</p>
+
+      <div class="card t-reac" style="margin:14px 0">
+        <h3>🧭 La méthode en 3 temps</h3>
+        <p style="margin:0;font-size:.9rem"><b>1.</b> Compte les atomes de chaque élément à gauche et à droite.<br><b>2.</b> Ajuste avec des coefficients pour égaliser (commence par les éléments qui n'apparaissent qu'une fois de chaque côté).<br><b>3.</b> Vérifie tout à la fin, élément par élément.</p>
+      </div>
+
+      <div class="bal">
+        <h4 style="margin:0 0 8px;font-size:.92rem">✏️ À toi — équilibre la combustion du méthane</h4>
+        <div class="baleq">
+          <input class="coef" id="b1" placeholder="?"> CH<sub>4</sub> +
+          <input class="coef" id="b2" placeholder="?"> O<sub>2</sub> →
+          <input class="coef" id="b3" placeholder="?"> CO<sub>2</sub> +
+          <input class="coef" id="b4" placeholder="?"> H<sub>2</sub>O
+        </div>
+        <button class="balbtn" onclick="checkBal()">Vérifier</button>
+        <button class="balbtn ghost" onclick="solveBal()">Voir la solution</button>
+        <div class="balfb" id="balfb"></div>
+        <p class="hint">Indice : il y a 4 H dans CH₄ → il faut 4 H à droite → donc 2 H₂O. Puis ajuste l'oxygène.</p>
+      </div>
+
+      <div class="quiz t-reac" data-answer="1">
+        <p class="q">Pour équilibrer une équation, on a le droit de modifier :</p>
+        <button class="opt">Les indices (petits chiffres)</button>
+        <button class="opt">Les coefficients (grands chiffres devant)</button>
+        <button class="opt">Les deux à volonté</button>
+        <div class="fb"></div>
+      </div>
+
+      <div class="callout"><span class="ic">🎯</span><div><b>Réflexe de fin de devoir :</b> recompte toujours les atomes de chaque élément des deux côtés. Si tout est égal, ton équation est juste. C'est le seul vrai contrôle.</div></div>
+    </section>
+
+    <footer>
+      Fiches de révision interactives · Physique-Chimie · DNB 2026 — bon courage Philip 💪
+    </footer>
+  </main>
+</div>
+
+<button class="topbtn" id="topbtn" onclick="window.scrollTo({top:0})">↑</button>
+
+<script>
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+const num = el => { const v = parseFloat((el.value||'').replace(',','.')); return isNaN(v) ? null : v; };
+const fmt = n => {
+  if(n===null||!isFinite(n)) return '…';
+  if(Math.abs(n)>=1000 || (Math.abs(n)<0.01 && n!==0)) return n.toLocaleString('fr-FR',{maximumSignificantDigits:5});
+  return Math.round(n*1000)/1000;
+};
+
+/* ---------- Énergie cinétique ---------- */
+function ec(){
+  const m=num($('ec_m')), v=num($('ec_v'));
+  const o=$('ec_out').querySelector('span');
+  if(m===null||v===null){o.textContent='…';return;}
+  o.textContent = fmt(0.5*m*v*v)+' J';
+}
+['ec_m','ec_v'].forEach(i=>$(i).addEventListener('input',ec));
+
+/* ---------- Énergie potentielle ---------- */
+function ep(){
+  const m=num($('ep_m')), h=num($('ep_h')), g=num($('ep_g'));
+  const o=$('ep_out').querySelector('span');
+  if(m===null||h===null||g===null){o.textContent='…';return;}
+  o.textContent = fmt(m*g*h)+' J';
+}
+['ep_m','ep_h','ep_g'].forEach(i=>$(i).addEventListener('input',ep));
+
+/* ---------- Loi d'Ohm (solve for empty) ---------- */
+function ohm(){
+  const u=num($('ohm_u')), r=num($('ohm_r')), i=num($('ohm_i'));
+  const o=$('ohm_out'); const span=o.querySelector('span');
+  const filled=[u,r,i].filter(x=>x!==null).length;
+  if(filled<2){ o.innerHTML='Remplis <b>2 cases sur 3</b> → <span>…</span>'; return; }
+  if(u===null){ o.innerHTML='Tension manquante → U = <span>'+fmt(r*i)+' V</span>'; }
+  else if(r===null){ o.innerHTML='Résistance manquante → R = <span>'+(i===0?'∞':fmt(u/i))+' Ω</span>'; }
+  else if(i===null){ o.innerHTML='Intensité manquante → I = <span>'+(r===0?'∞':fmt(u/r))+' A</span>'; }
+  else { o.innerHTML='Les 3 sont remplies — vérif : U = R×I = <span>'+fmt(r*i)+' V</span>'; }
+}
+['ohm_u','ohm_r','ohm_i'].forEach(i=>$(i).addEventListener('input',ohm));
+
+/* ---------- Puissance & énergie ---------- */
+function pw(){
+  const u=num($('p_u')), i=num($('p_i')), t=num($('p_t'));
+  const o=$('p_out');
+  if(u===null||i===null){ o.innerHTML='Entre les valeurs → P = <span>…</span>'; return; }
+  const P=u*i;
+  let html='P = U×I = <span>'+fmt(P)+' W</span>';
+  if(t!==null){
+    const Ewh=P*t, Es=P*t*3600;
+    html+=' · sur '+fmt(t)+' h → E = <span>'+fmt(Ewh)+' Wh</span> ( = '+fmt(Es)+' J )';
+  }
+  o.innerHTML=html;
+}
+['p_u','p_i','p_t'].forEach(i=>$(i).addEventListener('input',pw));
+
+/* ---------- Convertisseur vitesse ---------- */
+function cv(){
+  const val=num($('cv_val')), from=$('cv_from').value;
+  const o=$('cv_out');
+  if(val===null){ o.innerHTML='Entre une valeur → <span>…</span>'; return; }
+  if(from==='kmh') o.innerHTML='<span>'+fmt(val/3.6)+' m/s</span>';
+  else o.innerHTML='<span>'+fmt(val*3.6)+' km/h</span>';
+}
+$('cv_val').addEventListener('input',cv); $('cv_from').addEventListener('change',cv);
+
+/* ---------- Flashcards ---------- */
+document.querySelectorAll('[data-fc] .fc').forEach(c=>{
+  c.addEventListener('click',()=>c.classList.toggle('flip'));
+});
+
+/* ---------- Quiz ---------- */
+document.querySelectorAll('.quiz').forEach(q=>{
+  const ans=parseInt(q.dataset.answer,10);
+  const opts=[...q.querySelectorAll('.opt')];
+  const fb=q.querySelector('.fb');
+  opts.forEach((opt,idx)=>{
+    opt.addEventListener('click',()=>{
+      if(q.dataset.done) return;
+      q.dataset.done='1';
+      opts.forEach(o=>o.classList.add('lock'));
+      opts[ans].classList.add('good');
+      if(idx===ans){ fb.textContent='✅ Bravo, bonne réponse !'; fb.className='fb show ok'; }
+      else{ opt.classList.add('bad'); fb.textContent='❌ Pas tout à fait — la bonne réponse est surlignée en vert.'; fb.className='fb show no'; }
+      markProgress();
+    });
+  });
+});
+
+/* ---------- Équilibrage CH4 ---------- */
+function checkBal(){
+  const a=[$('b1'),$('b2'),$('b3'),$('b4')].map(e=>{const v=parseInt(e.value,10);return isNaN(v)?null:v;});
+  const fb=$('balfb');
+  if(a.some(x=>x===null)){ fb.textContent='Remplis les 4 coefficients d\'abord.'; fb.className='balfb show'; fb.style.background='#fff8e6'; fb.style.color='#8a6d1a'; return; }
+  const [c1,c2,c3,c4]=a;
+  // C: c1 = c3 | H: 4*c1 = 2*c4 | O: 2*c2 = 2*c3 + c4
+  const okC = c1===c3, okH = 4*c1===2*c4, okO = 2*c2===2*c3+c4;
+  if(okC&&okH&&okO&&c1>0){
+    fb.textContent='✅ Parfait, l\'équation est équilibrée ! ('+c1+' CH₄ + '+c2+' O₂ → '+c3+' CO₂ + '+c4+' H₂O)';
+    fb.className='balfb show'; fb.style.background='#e7f8f1'; fb.style.color='#06794f';
+  } else {
+    let msg='❌ Pas encore. ';
+    if(!okC) msg+='Carbone non équilibré. ';
+    if(!okH) msg+='Hydrogène non équilibré. ';
+    if(!okO) msg+='Oxygène non équilibré. ';
+    fb.textContent=msg; fb.className='balfb show'; fb.style.background='#fdebf1'; fb.style.color='#a01346';
+  }
+}
+function solveBal(){
+  $('b1').value=1; $('b2').value=2; $('b3').value=1; $('b4').value=2;
+  const fb=$('balfb');
+  fb.innerHTML='Solution : <b>1</b> CH₄ + <b>2</b> O₂ → <b>1</b> CO₂ + <b>2</b> H₂O. (On écrit le 1 ou on le sous-entend.) Vérif : 1 C / 4 H / 4 O des deux côtés ✔';
+  fb.className='balfb show'; fb.style.background='#eef3fc'; fb.style.color='#1d4ed8';
+}
+
+/* ---------- Atome : électrons animés ---------- */
+(function(){
+  const stage=$('atomViz'); if(!stage) return;
+  const cx=95, cy=95, r1=95, r2=61;
+  const make=(n,rad,off,speed)=>{
+    const els=[];
+    for(let k=0;k<n;k++){
+      const e=document.createElement('div'); e.className='elec'; e.textContent='–'; stage.appendChild(e);
+      els.push({e,ang:(k/n)*2*Math.PI+off,rad,speed});
+    }
+    return els;
+  };
+  const all=[...make(2,r2,0,0.018), ...make(4,r1,0.4,-0.011)];
+  function tick(){
+    all.forEach(o=>{ o.ang+=o.speed; const x=cx+o.rad*Math.cos(o.ang)-9, y=cy+o.rad*Math.sin(o.ang)-9; o.e.style.left=x+'px'; o.e.style.top=y+'px'; });
+    requestAnimationFrame(tick);
+  }
+  const reduce = matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(reduce){ all.forEach(o=>{ const x=cx+o.rad*Math.cos(o.ang)-9, y=cy+o.rad*Math.sin(o.ang)-9; o.e.style.left=x+'px'; o.e.style.top=y+'px'; }); }
+  else tick();
+})();
+
+/* ---------- Scroll-spy + progress ---------- */
+const links=[...document.querySelectorAll('nav.side a')];
+const secs=[...document.querySelectorAll('main section')];
+const seen=new Set();
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(en.isIntersecting){
+      const id=en.target.id;
+      links.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+id));
+      seen.add(id); markProgress();
+    }
+  });
+},{rootMargin:'-30% 0px -60% 0px'});
+secs.forEach(s=>io.observe(s));
+function markProgress(){
+  const pct=Math.round((seen.size/secs.length)*100);
+  $('pbar').style.width=pct+'%';
+}
+
+/* ---------- Back to top ---------- */
+addEventListener('scroll',()=>{ $('topbtn').classList.toggle('show', scrollY>500); });
+</script>
+</body>
+</html>

@@ -1471,6 +1471,13 @@
         "Fréquence (Hz) → hauteur (grave/aigu) ; amplitude → intensité (dB). Au-delà de 85 dB, danger irréversible pour l'oreille.",
         "Signal périodique : f = 1 ÷ T. Le numérique (0 et 1) se transmet sans perte, contrairement à l'analogique (continu)."
       ]
+    },
+    "revision-pc": {
+      "title": "Révision Physique-Chimie",
+      "intro": "",
+      "sections": [],
+      "keyPoints": [],
+      "embedUrl": "/cours/revision-physique-chimie-brevet.html"
     }
   }
 }

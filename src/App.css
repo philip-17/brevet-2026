@@ -1104,12 +1104,35 @@
     rgba(245, 158, 11, 0.03)
   );
   border: 1px solid rgba(245, 158, 11, 0.28);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.must-see-banner:hover {
+  transform: translateY(-2px);
+  border-color: rgba(245, 158, 11, 0.55);
+  box-shadow: 0 10px 26px rgba(245, 158, 11, 0.16);
+}
+
+.must-see-banner:active {
+  transform: scale(0.99);
 }
 
 .must-see-icon {
   font-size: 30px;
   line-height: 1;
   flex: 0 0 auto;
+}
+
+.must-see-arrow {
+  flex: 0 0 auto;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 800;
+  color: #f59e0b;
 }
 
 .must-see-title {

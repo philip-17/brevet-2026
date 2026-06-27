@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { getSubject, getLesson } from '../data'
+import { getSubject, getLesson, getChapter } from '../data'
 import { useSpeech } from '../hooks/useSpeech'
 import RawHtmlLesson from '../components/RawHtmlLesson'
 
@@ -9,6 +9,10 @@ export default function LessonPage() {
   const navigate = useNavigate()
   const subject = subjectId ? getSubject(subjectId) : undefined
   const lesson = subjectId && chapterId ? getLesson(subjectId, chapterId) : undefined
+  // Un cours peut exister sans chapitre de quiz associé (ex : cours de révision
+  // ouvert depuis une bannière). Dans ce cas on n'affiche pas les boutons
+  // « quiz / flashcards » qui mèneraient à un chapitre introuvable.
+  const hasChapter = !!(subjectId && chapterId && getChapter(subjectId, chapterId))
 
   const speech = useSpeech()
   const [showVoices, setShowVoices] = useState(false)
@@ -128,20 +132,22 @@ export default function LessonPage() {
       {lesson.embedUrl && (
         <div className="lesson" style={{ display: 'block', width: '100%' }}>
           <RawHtmlLesson url={lesson.embedUrl} />
-          <div className="lesson-cta" style={{ marginTop: 24 }}>
-            <Link
-              to={`/quiz/${subject.id}/${chapterId}`}
-              className="btn-primary"
-            >
-              ✅ Je passe au quiz
-            </Link>
-            <Link
-              to={`/flashcards/${subject.id}/${chapterId}`}
-              className="btn-secondary"
-            >
-              🎴 Réviser en flashcards
-            </Link>
-          </div>
+          {hasChapter && (
+            <div className="lesson-cta" style={{ marginTop: 24 }}>
+              <Link
+                to={`/quiz/${subject.id}/${chapterId}`}
+                className="btn-primary"
+              >
+                ✅ Je passe au quiz
+              </Link>
+              <Link
+                to={`/flashcards/${subject.id}/${chapterId}`}
+                className="btn-secondary"
+              >
+                🎴 Réviser en flashcards
+              </Link>
+            </div>
+          )}
         </div>
       )}
 

@@ -148,19 +148,21 @@ export default function SubjectPage() {
         })
       })()}
 
-      {/* Bannière « à voir absolument » — bas de la page Sciences */}
+      {/* Bannière « à voir absolument » — bas de la page Sciences.
+          Ouvre le cours interactif de révision Physique-Chimie. */}
       {subject.id === 'sciences' && (
-        <div className="must-see-banner">
+        <Link to="/lesson/sciences/revision-pc" className="must-see-banner">
           <div className="must-see-icon">👀</div>
           <div className="must-see-text">
             <div className="must-see-title">
               Choses à voir absolument avant le brevet
             </div>
             <div className="must-see-sub">
-              À revoir en priorité juste avant le jour J
+              Révision Physique-Chimie interactive · juste avant le jour J
             </div>
           </div>
-        </div>
+          <div className="must-see-arrow">→</div>
+        </Link>
       )}
 
       {/* Fenêtre de choix du mode (bottom sheet) — par-dessus la liste,
