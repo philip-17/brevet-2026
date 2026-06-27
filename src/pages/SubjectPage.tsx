@@ -148,22 +148,29 @@ export default function SubjectPage() {
         })
       })()}
 
-      {/* Bannière « à voir absolument » — bas de la page Sciences.
-          Ouvre le cours interactif de révision Physique-Chimie. */}
-      {subject.id === 'sciences' && (
-        <Link to="/lesson/sciences/revision-pc" className="must-see-banner">
-          <div className="must-see-icon">👀</div>
-          <div className="must-see-text">
-            <div className="must-see-title">
-              Choses à voir absolument avant le brevet
+      {/* Bannière « à voir avant le brevet » — bas de page (selon la matière).
+          Cliquable si un cours est rattaché (to), sinon simple bandeau. */}
+      {(() => {
+        const banner = MUST_SEE_BANNERS[subject.id]
+        if (!banner) return null
+        const inner = (
+          <>
+            <div className="must-see-icon">{banner.icon}</div>
+            <div className="must-see-text">
+              <div className="must-see-title">{banner.title}</div>
+              <div className="must-see-sub">{banner.sub}</div>
             </div>
-            <div className="must-see-sub">
-              Révision Physique-Chimie interactive · juste avant le jour J
-            </div>
-          </div>
-          <div className="must-see-arrow">→</div>
-        </Link>
-      )}
+            {banner.to && <div className="must-see-arrow">→</div>}
+          </>
+        )
+        return banner.to ? (
+          <Link to={banner.to} className="must-see-banner">
+            {inner}
+          </Link>
+        ) : (
+          <div className="must-see-banner must-see-static">{inner}</div>
+        )
+      })()}
 
       {/* Fenêtre de choix du mode (bottom sheet) — par-dessus la liste,
           aucun scroll nécessaire */}
@@ -255,5 +262,31 @@ const SECTION_META: Record<string, SectionMeta> = {
     emoji: '📘',
     title: 'Mes fiches PC (3e)',
     cssClass: 'banner-fiches-pc',
+  },
+}
+
+// ============================================================
+//  Bannière « à voir avant le brevet » (bas de matière)
+// ============================================================
+
+interface MustSeeBanner {
+  icon: string
+  title: string
+  sub: string
+  /** Si défini, la bannière est un lien cliquable vers ce cours. */
+  to?: string
+}
+
+const MUST_SEE_BANNERS: Record<string, MustSeeBanner> = {
+  sciences: {
+    icon: '👀',
+    title: 'Choses à voir absolument avant le brevet',
+    sub: 'Révision Physique-Chimie interactive · juste avant le jour J',
+    to: '/lesson/sciences/revision-pc',
+  },
+  maths: {
+    icon: '⏰',
+    title: 'Tout à savoir en maths — dernière minute',
+    sub: 'Les formules et méthodes à revoir juste avant l’épreuve',
   },
 }

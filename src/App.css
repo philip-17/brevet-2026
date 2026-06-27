@@ -1121,6 +1121,19 @@
   transform: scale(0.99);
 }
 
+/* Variante non cliquable (bannière simple, sans cours rattaché) */
+.must-see-banner.must-see-static {
+  cursor: default;
+}
+.must-see-banner.must-see-static:hover {
+  transform: none;
+  border-color: rgba(245, 158, 11, 0.28);
+  box-shadow: none;
+}
+.must-see-banner.must-see-static:active {
+  transform: none;
+}
+
 .must-see-icon {
   font-size: 30px;
   line-height: 1;
