@@ -9,7 +9,6 @@
       "title": "⚖️ La masse volumique",
       "emoji": "⚖️",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Que représente la masse volumique rho d'un matériau ?",
@@ -260,7 +259,6 @@
       "title": "⚛️ L'atome et le tableau périodique",
       "emoji": "⚛️",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Que contient le noyau d'un atome ?",
@@ -489,7 +487,6 @@
       "title": "🔋 Les ions",
       "emoji": "🔋",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Qu'est-ce qu'un ion ?",
@@ -718,7 +715,6 @@
       "title": "🧪 Le pH et les réactions acide-base",
       "emoji": "🧪",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Que mesure le pH et avec quel instrument peut-on le déterminer ?",
@@ -947,7 +943,6 @@
       "title": "🏃 Mouvement et interactions",
       "emoji": "🏃",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Quelles sont les 4 caractéristiques qui définissent une force ?",
@@ -1198,7 +1193,6 @@
       "title": "🎢 L'énergie mécanique",
       "emoji": "🎢",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "En quelle unité mesure-t-on toute forme d'énergie ?",
@@ -1449,7 +1443,6 @@
       "title": "🔌 L'énergie électrique",
       "emoji": "🔌",
       "section": "fiches-pc",
-      "accent": "new",
       "questions": [
         {
           "question": "Quelle est l'unité de la résistance R et avec quel appareil la mesure-t-on ?",
@@ -1697,8 +1690,7 @@
     },
     {
       "id": "pack-pc-matiere",
-      "title": "🆕 Pack PC — Matière (atomes, ions, pH, réactions)",
-      "isNew": true,
+      "title": "Pack PC — Matière (atomes, ions, pH, réactions)",
       "questions": [
         {
           "question": "De quoi est constitue un atome ?",
@@ -2177,8 +2169,7 @@
     },
     {
       "id": "pack-pc-mouvement",
-      "title": "🆕 Pack PC — Mouvement & interactions",
-      "isNew": true,
+      "title": "Pack PC — Mouvement & interactions",
       "questions": [
         {
           "question": "Le mouvement d'un objet depend :",
@@ -2536,8 +2527,7 @@
     },
     {
       "id": "pack-pc-energie",
-      "title": "🆕 Pack PC — Énergie & conversions",
-      "isNew": true,
+      "title": "Pack PC — Énergie & conversions",
       "questions": [
         {
           "question": "L'unite d'energie dans le Systeme International est :",
@@ -2873,8 +2863,7 @@
     },
     {
       "id": "pack-pc-signaux",
-      "title": "🆕 Pack PC — Signaux (lumière, son)",
-      "isNew": true,
+      "title": "Pack PC — Signaux (lumière, son)",
       "questions": [
         {
           "question": "La vitesse de la lumiere dans le vide est d'environ :",
