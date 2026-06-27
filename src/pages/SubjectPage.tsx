@@ -148,6 +148,21 @@ export default function SubjectPage() {
         })
       })()}
 
+      {/* Bannière « à voir absolument » — bas de la page Sciences */}
+      {subject.id === 'sciences' && (
+        <div className="must-see-banner">
+          <div className="must-see-icon">👀</div>
+          <div className="must-see-text">
+            <div className="must-see-title">
+              Choses à voir absolument avant le brevet
+            </div>
+            <div className="must-see-sub">
+              À revoir en priorité juste avant le jour J
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Fenêtre de choix du mode (bottom sheet) — par-dessus la liste,
           aucun scroll nécessaire */}
       {selectedChapter && (
