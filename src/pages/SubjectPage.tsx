@@ -290,4 +290,10 @@ const MUST_SEE_BANNERS: Record<string, MustSeeBanner> = {
     sub: 'Cours approfondi interactif · tout le programme de 3ᵉ',
     to: '/lesson/maths/revision-maths',
   },
+  'histoire-geo': {
+    icon: '📜',
+    title: 'Tout à savoir en histoire-géo — dernière minute',
+    sub: 'Cours + quiz interactif · tout le programme de 3ᵉ',
+    to: '/lesson/histoire-geo/revision-histoire',
+  },
 }

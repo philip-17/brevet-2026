@@ -1428,6 +1428,13 @@
         "astuce": "Construis ta propre fiche : 1 ligne par mot, en français simple. Plus tu reformules avec tes mots, mieux tu retiens.",
         "piege": "Ne confonds pas démocratie (peuple décide) et république (sans roi) : un pays peut être l'une sans l'autre."
       }
+    },
+    "revision-histoire": {
+      "title": "Tout à savoir en histoire-géo",
+      "intro": "",
+      "sections": [],
+      "keyPoints": [],
+      "embedUrl": "/cours/histoire-geo-brevet.html"
     }
   }
 }

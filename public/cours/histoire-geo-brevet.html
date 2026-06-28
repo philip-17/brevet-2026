@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Histoire-Géo · Brevet 2026 — Cours complet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EEEBE2;
+    --card:#FBFAF6;
+    --ink:#1A1C22;
+    --ink-soft:#4A4D57;
+    --navy:#262E3D;
+    --line:#D8D3C6;
+    --gold:#B4862C;
+    /* Histoire */
+    --t1:#A23B2C;   /* Guerres totales */
+    --t2:#2E6E8E;   /* Monde depuis 1945 */
+    --t3:#4E7A56;   /* République française */
+    /* Géographie */
+    --g1:#B5752A;   /* Dynamiques territoriales */
+    --g2:#6E5BA0;   /* Aménager le territoire */
+    --g3:#2E8E8E;   /* France & UE */
+    /* feedback quiz */
+    --ok:#3E7A52;
+    --no:#B23A2B;
+    --shadow:0 1px 0 rgba(26,28,34,.04), 0 12px 30px -18px rgba(26,28,34,.30);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Newsreader",Georgia,serif;
+    font-size:18px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  ::selection{background:var(--navy);color:#fff}
+
+  /* ---------- HEADER ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(238,235,226,.92);
+    backdrop-filter:saturate(140%) blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar{
+    max-width:980px;margin:0 auto;padding:11px 20px;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  }
+  .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .brand h1{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+    font-size:21px;letter-spacing:-.02em;line-height:1;color:var(--navy);
+  }
+  .brand .tag{
+    font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-soft);
+    border:1px solid var(--line);border-radius:999px;padding:3px 9px;
+  }
+  .modes{display:flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px}
+  .modes button{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:13px;
+    border:0;background:transparent;color:var(--ink-soft);cursor:pointer;
+    padding:7px 16px;border-radius:999px;transition:.18s;
+  }
+  .modes button.on{background:var(--navy);color:#fff}
+
+  /* ---------- NAV ROW : disciplines + thèmes ---------- */
+  .tabs-wrap{border-bottom:1px solid var(--line);background:rgba(238,235,226,.6)}
+  .navrow{max-width:980px;margin:0 auto;padding:0 12px;display:flex;align-items:stretch;gap:10px}
+  .disc{display:flex;align-items:center;gap:5px;flex:0 0 auto;padding:8px 0}
+  .disc button{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:13px;cursor:pointer;
+    border:1px solid var(--line);background:var(--card);color:var(--ink-soft);
+    padding:6px 14px;border-radius:999px;transition:.15s;white-space:nowrap;
+  }
+  .disc button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .navdiv{width:1px;align-self:stretch;background:var(--line);margin:8px 0}
+  .tabs{flex:1;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{
+    flex:0 0 auto;border:0;background:transparent;cursor:pointer;
+    padding:11px 13px 9px;border-bottom:3px solid transparent;
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:13.5px;
+    color:var(--ink-soft);white-space:nowrap;display:flex;align-items:center;gap:8px;transition:.15s;
+  }
+  .tab .dot{width:9px;height:9px;border-radius:3px;background:var(--tc)}
+  .tab.on{color:var(--ink);border-bottom-color:var(--tc)}
+  .tab:hover{color:var(--ink)}
+
+  /* ---------- HERO / FRISE ---------- */
+  .hero{max-width:980px;margin:0 auto;padding:34px 20px 6px}
+  .hero .eyebrow{
+    font-family:"Space Mono",monospace;font-size:12px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent,var(--t1));font-weight:700;margin-bottom:14px;
+  }
+  .hero h2{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+    font-size:clamp(30px,6vw,46px);line-height:1.02;letter-spacing:-.03em;color:var(--navy);
+    max-width:18ch;
+  }
+  .hero p.lede{margin-top:14px;max-width:60ch;color:var(--ink-soft);font-size:18.5px}
+  .hero p.lede em{color:var(--ink);font-style:italic}
+
+  .frise{max-width:980px;margin:26px auto 4px;padding:0 20px}
+  .frise-track{display:flex;gap:8px;align-items:stretch}
+  .era{
+    flex:1;min-width:130px;background:var(--card);border:1px solid var(--line);
+    border-top:4px solid var(--ec);border-radius:12px;padding:14px 14px 16px;box-shadow:var(--shadow);
+  }
+  .era .yr{font-family:"Space Mono",monospace;font-weight:700;font-size:13px;color:var(--ec)}
+  .era .nm{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:14.5px;margin-top:6px;line-height:1.2;color:var(--ink)}
+  .era .sub{font-size:14px;color:var(--ink-soft);margin-top:4px}
+
+  /* ---------- COURSE ---------- */
+  main{max-width:980px;margin:0 auto;padding:8px 20px 70px}
+  .theme-head{padding:30px 0 6px;display:none}
+  .theme-head.show{display:block}
+  .theme-head .kicker{
+    font-family:"Space Mono",monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--tc);font-weight:700;
+  }
+  .theme-head h2{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(24px,4.5vw,34px);
+    letter-spacing:-.025em;line-height:1.06;color:var(--navy);margin-top:8px;max-width:24ch;
+  }
+  .theme-body{display:none}
+  .theme-body.show{display:block}
+
+  .chapter{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:0;margin:22px 0;overflow:hidden;box-shadow:var(--shadow);
+  }
+  .ch-head{
+    padding:22px 24px 18px;border-bottom:1px solid var(--line);
+    display:flex;gap:16px;align-items:flex-start;
+    background:linear-gradient(180deg, color-mix(in srgb, var(--tc) 7%, transparent), transparent);
+  }
+  .ch-num{
+    flex:0 0 auto;font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
+    font-size:13px;color:#fff;background:var(--tc);border-radius:8px;
+    padding:7px 11px;letter-spacing:.02em;white-space:nowrap;
+  }
+  .ch-titles{flex:1}
+  .ch-titles h3{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:21px;
+    letter-spacing:-.02em;line-height:1.15;color:var(--ink);
+  }
+  .ch-period{font-family:"Space Mono",monospace;font-size:13px;color:var(--tc);font-weight:700;margin-top:6px}
+  .ch-body{padding:6px 24px 24px}
+
+  .block-label{
+    font-family:"Space Mono",monospace;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-soft);font-weight:700;margin:24px 0 12px;display:flex;align-items:center;gap:10px;
+  }
+  .block-label::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  /* repères / chiffres */
+  .reperes{position:relative;padding-left:22px}
+  .reperes::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line)}
+  .rep{position:relative;padding:7px 0;display:flex;gap:14px;align-items:baseline}
+  .rep::before{content:"";position:absolute;left:-21px;top:13px;width:11px;height:11px;border-radius:50%;background:var(--tc);border:2px solid var(--card)}
+  .rep .date{font-family:"Space Mono",monospace;font-weight:700;font-size:13px;color:var(--ink);flex:0 0 134px}
+  .rep .ev{font-size:16.5px;color:var(--ink-soft)}
+
+  /* notions */
+  .notions{display:grid;grid-template-columns:1fr;gap:0}
+  .notion{padding:11px 0;border-bottom:1px dashed var(--line)}
+  .notion:last-child{border-bottom:0}
+  .notion .term{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:16.5px;color:var(--ink)}
+  .notion .def{font-size:16.5px;color:var(--ink-soft);margin-top:2px}
+
+  /* personnages / exemples */
+  .persos{display:flex;flex-wrap:wrap;gap:10px}
+  .perso{flex:1 1 240px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .perso .who{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:16px;color:var(--ink)}
+  .perso .role{font-size:15.5px;color:var(--ink-soft);margin-top:3px}
+
+  /* essentiel */
+  .essentiel p{margin:0 0 13px}
+  .essentiel p:last-child{margin-bottom:0}
+  .essentiel strong{font-weight:600;color:var(--ink);background:color-mix(in srgb,var(--tc) 14%,transparent);padding:0 3px;border-radius:3px}
+
+  /* ---------- QUIZ ---------- */
+  #quiz{display:none;max-width:760px;margin:0 auto;padding:34px 20px 80px}
+  .quiz-intro{text-align:center;padding:18px 0 8px}
+  .quiz-intro .eyebrow{font-family:"Space Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:700}
+  .quiz-intro h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(26px,5vw,38px);letter-spacing:-.025em;color:var(--navy);margin-top:10px}
+  .quiz-intro p{color:var(--ink-soft);margin-top:10px;max-width:48ch;margin-left:auto;margin-right:auto}
+
+  .filters{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:22px 0 6px}
+  .filt{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:13px;cursor:pointer;
+    border:1px solid var(--line);background:var(--card);color:var(--ink-soft);
+    padding:8px 14px;border-radius:999px;transition:.15s;display:flex;align-items:center;gap:7px;
+  }
+  .filt .dot{width:8px;height:8px;border-radius:3px;background:var(--fc,#999)}
+  .filt.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+  .qcard{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:26px 24px;margin-top:18px}
+  .qprog{display:flex;justify-content:space-between;align-items:center;font-family:"Space Mono",monospace;font-size:12.5px;color:var(--ink-soft);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+  .qprog .badge{padding:3px 9px;border-radius:999px;background:var(--qc,#999);color:#fff;font-size:11px}
+  .qbar{height:5px;background:var(--line);border-radius:999px;margin:12px 0 20px;overflow:hidden}
+  .qbar i{display:block;height:100%;background:var(--gold);width:0;transition:.3s}
+  .qtext{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:20px;line-height:1.3;letter-spacing:-.015em;color:var(--ink)}
+  .choices{margin-top:18px;display:flex;flex-direction:column;gap:10px}
+  .choice{
+    text-align:left;font-family:"Newsreader",serif;font-size:17px;color:var(--ink);
+    background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:13px 16px;cursor:pointer;
+    transition:.13s;display:flex;gap:12px;align-items:center;
+  }
+  .choice .key{font-family:"Space Mono",monospace;font-weight:700;font-size:13px;color:var(--ink-soft);border:1px solid var(--line);border-radius:6px;width:26px;height:26px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .choice:hover:not(:disabled){border-color:var(--navy)}
+  .choice.correct{background:color-mix(in srgb,var(--ok) 16%,transparent);border-color:var(--ok)}
+  .choice.correct .key{background:var(--ok);color:#fff;border-color:var(--ok)}
+  .choice.wrong{background:color-mix(in srgb,var(--no) 14%,transparent);border-color:var(--no)}
+  .choice.wrong .key{background:var(--no);color:#fff;border-color:var(--no)}
+  .choice:disabled{cursor:default}
+  .explain{margin-top:16px;padding:14px 16px;background:var(--paper);border-left:3px solid var(--gold);border-radius:0 10px 10px 0;font-size:16px;color:var(--ink-soft);display:none}
+  .explain.show{display:block}
+  .explain b{color:var(--ink);font-weight:600}
+  .qnext{margin-top:18px;display:flex;justify-content:flex-end}
+  .btn{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:15px;cursor:pointer;background:var(--navy);color:#fff;border:0;border-radius:11px;padding:12px 24px;transition:.15s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy)}
+  .btn:disabled{opacity:.4;cursor:default;transform:none}
+
+  .result{text-align:center;padding:8px 0}
+  .result .score{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:64px;letter-spacing:-.03em;line-height:1;color:var(--navy)}
+  .result .score span{font-size:30px;color:var(--ink-soft)}
+  .result .verdict{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:22px;margin-top:12px}
+  .result p{color:var(--ink-soft);margin-top:8px}
+  .result .again{margin-top:24px}
+
+  footer{max-width:980px;margin:0 auto;padding:30px 20px 50px;border-top:1px solid var(--line);color:var(--ink-soft);font-size:14.5px}
+  footer b{color:var(--ink);font-family:"Bricolage Grotesque",sans-serif;font-weight:700}
+
+  @media (max-width:680px){
+    body{font-size:17px}
+    .bar{padding:8px 14px;gap:8px}
+    .brand h1{font-size:16px}
+    .brand .tag{display:none}
+    .modes{padding:2px}
+    .modes button{font-size:12px;padding:6px 13px}
+    .navrow{padding:0 8px;gap:7px}
+    .disc button{font-size:12px;padding:5px 11px}
+    .tab{padding:9px 10px 7px;font-size:12.5px}
+    .tab .dot{width:7px;height:7px}
+    .hero{padding-top:20px}
+    .hero h2{font-size:clamp(23px,7vw,34px)}
+    .hero p.lede{font-size:16.5px}
+    .frise{margin-top:18px}
+    .frise-track{flex-direction:column}
+    .era{min-width:0}
+    .ch-head{flex-direction:column;gap:10px}
+    .rep{flex-direction:column;gap:2px}
+    .rep .date{flex:none}
+    .rep .ev{font-size:16px}
+  }
+  @media print{
+    header,#hero,#frise,#quiz{display:none!important}
+    .theme-head,.theme-body{display:block!important}
+    .chapter{break-inside:avoid;box-shadow:none}
+    body{background:#fff}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">
+      <h1>Histoire-Géo — Brevet 2026</h1>
+      <span class="tag">Programme 3ᵉ complet</span>
+    </div>
+    <div class="modes">
+      <button id="mCours" class="on" onclick="setMode('cours')">Cours</button>
+      <button id="mQuiz" onclick="setMode('quiz')">Quiz</button>
+    </div>
+  </div>
+  <div class="tabs-wrap" id="tabsWrap">
+    <div class="navrow">
+      <div class="disc">
+        <button id="dHist" class="on" onclick="selectDiscipline('histoire')">Histoire</button>
+        <button id="dGeo" onclick="selectDiscipline('geo')">Géographie</button>
+      </div>
+      <span class="navdiv"></span>
+      <div class="tabs" id="tabs"></div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="eyebrow" id="heroEyebrow"></div>
+  <h2 id="heroTitle"></h2>
+  <p class="lede" id="heroLede"></p>
+</section>
+
+<div class="frise" id="frise"><div class="frise-track" id="friseTrack"></div></div>
+
+<main id="course"></main>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <div class="quiz-intro">
+    <div class="eyebrow">Mode entraînement</div>
+    <h2>Teste-toi sur le programme</h2>
+    <p>Choisis Histoire, Géo ou tout, réponds, et vois la correction immédiatement. Note finale à la fin.</p>
+  </div>
+  <div class="filters" id="filters"></div>
+  <div id="quizArea"></div>
+</section>
+
+<footer>
+  <p><b>Histoire-Géo — Brevet 2026.</b> Programme officiel de 3ᵉ. Imprime la page (mode Cours) pour avoir tes fiches au propre — l'impression reprend la discipline affichée. Bon courage pour les écrits. 💪</p>
+</footer>
+
+<script>
+/* =========================================================
+   CONTENU — HISTOIRE
+========================================================= */
+const HISTOIRE = {
+  hero:{
+    eyebrow:"Réviser autrement · les 3 thèmes d'histoire",
+    title:"Tout le programme d'histoire, dans l'ordre où ça s'est passé.",
+    lede:"Trois thèmes, dix chapitres, les <em>repères à connaître par cœur</em>, les notions, les personnages et l'essentiel à savoir rédiger le jour J. Choisis un thème, ou passe en mode <em>Quiz</em> pour te tester."
+  },
+  frise:[
+    {c:"var(--t1)", yr:"1914 → 1945", nm:"Les guerres totales", sub:"L'Europe se déchire deux fois."},
+    {c:"var(--t2)", yr:"1945 → aujourd'hui", nm:"Le monde depuis 1945", sub:"Décolonisation, guerre froide, Europe."},
+    {c:"var(--t3)", yr:"1944 → 1980s", nm:"Une République repensée", sub:"La France se reconstruit et change."},
+  ],
+  labels:{reperes:"Repères à connaître", persos:"Personnages clés"},
+  themes:[
+    {
+      id:"h1", color:"var(--t1)", kicker:"Thème 1",
+      title:"L'Europe, un théâtre majeur des guerres totales (1914-1945)",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"Civils et militaires dans la Première Guerre mondiale", period:"1914 – 1918",
+          reperes:[
+            ["28 juin 1914","Attentat de Sarajevo : déclencheur de la guerre"],
+            ["août-sept. 1914","Guerre de mouvement — bataille de la Marne"],
+            ["fév.-déc. 1916","Bataille de Verdun (guerre de position)"],
+            ["avril 1917","Entrée en guerre des États-Unis"],
+            ["oct. 1917","Révolution bolchevique en Russie (Lénine)"],
+            ["11 nov. 1918","Armistice : fin des combats"],
+            ["28 juin 1919","Traité de Versailles"],
+          ],
+          notions:[
+            ["Guerre totale","Conflit qui mobilise toutes les forces d'un pays : les soldats, mais aussi l'économie, la science, la population civile et les colonies."],
+            ["Guerre de position","Combat figé sur une ligne de front, dans des tranchées (1915-1917), opposé à la guerre de mouvement du début et de la fin du conflit."],
+            ["Génocide","Extermination programmée et totale d'un peuple. Exemple : le génocide des Arméniens par l'Empire ottoman (1915-1916)."],
+            ["Propagande","Information orientée par l'État pour soutenir le moral. Les soldats parlaient de « bourrage de crâne »."],
+            ["Armistice","Accord qui arrête les combats, sans être encore un traité de paix."],
+          ],
+          persos:[
+            ["Georges Clemenceau","Chef du gouvernement français à partir de 1917, surnommé « le Père la Victoire »."],
+            ["Le poilu","Surnom du soldat français dans les tranchées."],
+            ["Lénine","Chef des bolcheviks, prend le pouvoir en Russie en octobre 1917."],
+          ],
+          essentiel:[
+            "La guerre éclate à l'été 1914 à cause des rivalités entre grandes puissances européennes et de deux systèmes d'alliances (la Triple-Entente : France, Royaume-Uni, Russie ; la Triple-Alliance : Allemagne, Autriche-Hongrie, Italie). L'attentat de Sarajevo met le feu aux poudres. Après une <strong>guerre de mouvement</strong> en 1914, le front se fige : c'est la <strong>guerre de tranchées</strong>, longue et meurtrière, dont Verdun (1916) reste le symbole.",
+            "C'est une <strong>guerre totale</strong> : les usines tournent pour l'armée, les femmes remplacent les hommes (les « munitionnettes »), l'État emprunte de l'argent et utilise la propagande. Les colonies fournissent des soldats et des matières premières. Les armes nouvelles (artillerie lourde, mitrailleuses, gaz, chars, aviation) provoquent des violences de masse.",
+            "1917 est une année de crise : mutineries, révolution russe, mais aussi entrée des États-Unis. L'<strong>armistice</strong> est signé le 11 novembre 1918. Le bilan est terrible (environ 10 millions de morts militaires, des « gueules cassées », un traumatisme durable). Le <strong>traité de Versailles</strong> (1919) tient l'Allemagne pour responsable : elle perd des territoires, paie des réparations et doit désarmer — un « Diktat » mal vécu qui prépare les tensions futures.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"Démocraties fragilisées et expériences totalitaires dans l'Europe de l'entre-deux-guerres", period:"années 1920 – 1930",
+          reperes:[
+            ["24 oct. 1929","Krach boursier de Wall Street → crise mondiale"],
+            ["fin des années 1920","Staline impose son pouvoir en URSS"],
+            ["30 janv. 1933","Hitler devient chancelier en Allemagne"],
+            ["1935","Lois de Nuremberg contre les Juifs"],
+            ["1936","Victoire du Front populaire en France"],
+          ],
+          notions:[
+            ["Régime totalitaire","Régime où l'État contrôle tout : un parti unique, un chef tout-puissant, la propagande, la police politique et la terreur. La population est embrigadée."],
+            ["Culte de la personnalité","Adoration organisée du chef (Staline, Hitler), présenté comme un guide infaillible."],
+            ["Antisémitisme","Haine et persécution des Juifs, au cœur de l'idéologie nazie."],
+            ["Crise de 1929","Effondrement de la Bourse de New York qui provoque chômage et misère dans le monde entier."],
+            ["Front populaire","Alliance des partis de gauche victorieuse en France en 1936 (congés payés, semaine de 40 h)."],
+          ],
+          persos:[
+            ["Staline","Dirigeant de l'URSS : régime communiste totalitaire (collectivisation, Goulag, Grande Terreur)."],
+            ["Adolf Hitler","Chef du parti nazi, dictateur de l'Allemagne à partir de 1933 (racisme, antisémitisme, espace vital)."],
+            ["Léon Blum","Chef du gouvernement du Front populaire en France (1936)."],
+          ],
+          essentiel:[
+            "Au sortir de la guerre, les démocraties sont fragilisées, surtout après la <strong>crise de 1929</strong> qui jette des millions de personnes au chômage. Dans ce contexte naissent des <strong>régimes totalitaires</strong> qui suppriment les libertés.",
+            "En <strong>URSS</strong>, Staline met en place un régime communiste : collectivisation forcée des terres, industrialisation à marche forcée (plans quinquennaux), famines, parti unique, police politique et camps du <strong>Goulag</strong>. La Grande Terreur (1937-1938) élimine tout opposant réel ou supposé.",
+            "En <strong>Allemagne</strong>, Hitler instaure dès 1933 une dictature nazie fondée sur le racisme et l'<strong>antisémitisme</strong>. Parti unique, Gestapo, camps de concentration, embrigadement de la jeunesse et propagande. Les <strong>lois de Nuremberg</strong> (1935) excluent les Juifs de la société. Face à ces régimes, la France connaît en 1936 l'expérience démocratique et sociale du <strong>Front populaire</strong>.",
+          ]
+        },
+        {
+          num:"Chapitre 3", title:"La Deuxième Guerre mondiale, une guerre d'anéantissement", period:"1939 – 1945",
+          reperes:[
+            ["1ᵉʳ sept. 1939","L'Allemagne envahit la Pologne → début de la guerre"],
+            ["22 juin 1940","Armistice : défaite de la France"],
+            ["7 déc. 1941","Pearl Harbor → entrée en guerre des États-Unis"],
+            ["janv. 1942","Conférence de Wannsee : la « solution finale »"],
+            ["1942-1943","Bataille de Stalingrad : le tournant de la guerre"],
+            ["6 juin 1944","Débarquement allié en Normandie (D-Day)"],
+            ["8 mai 1945","Capitulation de l'Allemagne nazie"],
+            ["6 et 9 août 1945","Bombes atomiques sur Hiroshima puis Nagasaki"],
+          ],
+          notions:[
+            ["Guerre d'anéantissement","Guerre qui vise à détruire totalement l'adversaire, militaire comme civil, sans limite dans la violence."],
+            ["Shoah (génocide des Juifs)","Extermination planifiée des Juifs d'Europe par les nazis : environ 6 millions de morts."],
+            ["Camp d'extermination","Camp conçu pour tuer en masse (chambres à gaz), comme Auschwitz-Birkenau, à distinguer du camp de concentration (travail forcé)."],
+            ["Solution finale","Plan nazi décidé à Wannsee (1942) d'extermination systématique des Juifs d'Europe."],
+            ["Crime contre l'humanité","Notion juridique née au procès de Nuremberg (1945-1946) pour juger ces crimes."],
+          ],
+          persos:[
+            ["Adolf Hitler","Responsable de la guerre d'anéantissement et du génocide des Juifs et des Tziganes."],
+            ["Les Alliés","États-Unis, Royaume-Uni et URSS, vainqueurs de l'Axe (Allemagne, Italie, Japon)."],
+          ],
+          essentiel:[
+            "La guerre commence le 1ᵉʳ septembre 1939 avec l'invasion de la Pologne. Après une série de victoires de l'Axe (dont la défaite française de juin 1940), le conflit devient mondial avec Pearl Harbor (1941). Le tournant a lieu en 1942-1943, notamment à <strong>Stalingrad</strong>. Les Alliés débarquent en Normandie le <strong>6 juin 1944</strong> ; l'Allemagne capitule le 8 mai 1945, le Japon en septembre après les bombes atomiques.",
+            "C'est une <strong>guerre d'anéantissement</strong> : violences extrêmes, bombardements de villes entières, des dizaines de millions de morts, en majorité des civils.",
+            "Le crime majeur est le <strong>génocide des Juifs</strong> (la Shoah) et des Tziganes. Persécutions, ghettos, fusillades de masse (la « Shoah par balles »), puis extermination industrielle dans les <strong>camps d'extermination</strong> après la décision de la « solution finale » à Wannsee. Environ 6 millions de Juifs sont assassinés. À la libération des camps, le monde découvre l'horreur : le procès de Nuremberg juge alors les responsables pour <strong>crime contre l'humanité</strong>.",
+          ]
+        },
+      ]
+    },
+    {
+      id:"h2", color:"var(--t2)", kicker:"Thème 2",
+      title:"Le monde depuis 1945",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"Indépendances et construction de nouveaux États", period:"la décolonisation",
+          reperes:[
+            ["1947","Indépendance de l'Inde (Gandhi)"],
+            ["1954-1962","Guerre d'Algérie"],
+            ["1955","Conférence de Bandung (Tiers-Monde)"],
+            ["vers 1960","« Année de l'Afrique » : vague d'indépendances"],
+            ["1962","Accords d'Évian : indépendance de l'Algérie"],
+          ],
+          notions:[
+            ["Décolonisation","Processus par lequel les colonies obtiennent leur indépendance après 1945."],
+            ["Tiers-Monde","Ensemble des pays pauvres, souvent anciennement colonisés, qui refusent de s'aligner sur les deux blocs."],
+            ["Non-alignement","Refus de choisir un camp dans la guerre froide, affirmé à Bandung en 1955."],
+            ["Nationalisme","Volonté d'un peuple de former une nation indépendante et de se gouverner lui-même."],
+          ],
+          persos:[
+            ["Gandhi","Leader de l'indépendance de l'Inde, défenseur de la non-violence."],
+          ],
+          essentiel:[
+            "Affaiblies par la Seconde Guerre mondiale, les puissances coloniales (France, Royaume-Uni…) ne parviennent plus à conserver leurs empires. Partout, des mouvements <strong>nationalistes</strong> réclament l'indépendance.",
+            "Cette <strong>décolonisation</strong> prend des formes variées : négociée et relativement pacifique en <strong>Inde</strong> (1947), mais violente et longue lors de la <strong>guerre d'Algérie</strong> (1954-1962), qui se termine par les accords d'Évian. Autour de 1960, l'Afrique accède massivement à l'indépendance.",
+            "Ces nouveaux États, souvent pauvres, forment le <strong>Tiers-Monde</strong>. À la conférence de <strong>Bandung</strong> (1955), ils affirment leur volonté de <strong>non-alignement</strong> face aux deux blocs. Mais la construction de ces États reste difficile : frontières héritées de la colonisation, instabilité, sous-développement.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"Un monde bipolaire au temps de la guerre froide", period:"1947 – 1991",
+          reperes:[
+            ["1947","Plan Marshall ; doctrines Truman et Jdanov"],
+            ["1948-1949","Blocus de Berlin"],
+            ["1949","Création de l'OTAN"],
+            ["1961","Construction du mur de Berlin"],
+            ["1962","Crise des missiles de Cuba"],
+            ["9 nov. 1989","Chute du mur de Berlin"],
+            ["1991","Disparition de l'URSS"],
+          ],
+          notions:[
+            ["Guerre froide","Affrontement indirect (1947-1991) entre le bloc de l'Ouest (USA) et le bloc de l'Est (URSS), sans guerre directe entre les deux."],
+            ["Bloc de l'Ouest / de l'Est","Camp capitaliste et démocratique dirigé par les USA / camp communiste dirigé par l'URSS."],
+            ["Rideau de fer","Frontière fermée qui sépare l'Europe en deux blocs (expression de Churchill, 1946)."],
+            ["Équilibre de la terreur","Crainte réciproque de l'arme nucléaire qui empêche un affrontement direct."],
+          ],
+          persos:[
+            ["Harry Truman","Président des États-Unis, théoricien de l'endiguement du communisme (1947)."],
+            ["John F. Kennedy","Président américain lors de la crise de Cuba (1962)."],
+          ],
+          essentiel:[
+            "Dès 1947, les deux vainqueurs de 1945 s'opposent : les <strong>États-Unis</strong> (monde capitaliste et démocratique) et l'<strong>URSS</strong> (monde communiste). L'Europe est coupée en deux par un <strong>« rideau de fer »</strong>. C'est le début de la <strong>guerre froide</strong>.",
+            "Chaque camp organise son bloc : aide économique (plan Marshall), alliances militaires (OTAN contre pacte de Varsovie), propagande. <strong>Berlin</strong>, ville divisée, devient le symbole de cet affrontement (blocus de 1948-1949, puis mur en 1961).",
+            "Les deux Grands ne s'affrontent jamais directement à cause de l'<strong>équilibre de la terreur</strong> nucléaire : ils se mènent une guerre indirecte (crise de Cuba en 1962, guerres de Corée et du Vietnam). Le bloc soviétique s'effondre à la fin des années 1980 : la <strong>chute du mur de Berlin</strong> (1989) puis la disparition de l'URSS (1991) marquent la fin de la guerre froide.",
+          ]
+        },
+        {
+          num:"Chapitre 3", title:"Affirmation et mise en œuvre du projet européen", period:"depuis 1951",
+          reperes:[
+            ["1951","CECA : première communauté européenne"],
+            ["1957","Traité de Rome : création de la CEE (6 pays)"],
+            ["1992","Traité de Maastricht : naissance de l'Union européenne"],
+            ["2002","L'euro entre en circulation"],
+          ],
+          notions:[
+            ["Construction européenne","Rapprochement progressif des pays européens pour garantir la paix et la prospérité après 1945."],
+            ["CEE puis UE","Communauté économique européenne (1957), devenue Union européenne en 1992 (Maastricht)."],
+            ["Citoyenneté européenne","Droits communs aux habitants des pays de l'UE, créés par le traité de Maastricht."],
+            ["Espace Schengen","Zone de libre circulation des personnes entre les pays signataires."],
+          ],
+          persos:[
+            ["Robert Schuman","Homme politique français à l'origine de la CECA (1950-1951)."],
+            ["Jean Monnet","« Père de l'Europe », artisan de la construction européenne."],
+          ],
+          essentiel:[
+            "Au lendemain de la guerre, des dirigeants veulent rendre toute nouvelle guerre impossible, notamment par la <strong>réconciliation franco-allemande</strong>. C'est l'idée de départ de la <strong>construction européenne</strong>.",
+            "Tout commence par l'économie : la <strong>CECA</strong> en 1951, puis le <strong>traité de Rome</strong> en 1957 qui crée la <strong>CEE</strong> (Communauté économique européenne) entre six pays, avec un marché commun. La communauté s'élargit ensuite à de nombreux États.",
+            "En 1992, le <strong>traité de Maastricht</strong> transforme la CEE en <strong>Union européenne</strong> : il crée une citoyenneté européenne et prépare une monnaie unique, l'<strong>euro</strong>, mise en circulation en 2002. L'espace Schengen permet de circuler librement. Mais l'UE fait aussi débat (souveraineté, élargissements).",
+          ]
+        },
+        {
+          num:"Chapitre 4", title:"Enjeux et conflits dans le monde après 1989", period:"depuis 1989",
+          reperes:[
+            ["1991","Guerre du Golfe ; fin de l'URSS"],
+            ["1995","Massacre de Srebrenica (ex-Yougoslavie)"],
+            ["11 sept. 2001","Attentats aux États-Unis"],
+          ],
+          notions:[
+            ["Mondialisation","Mise en relation croissante des différentes parties du monde (échanges, communications, économie)."],
+            ["Hyperpuissance","Domination des États-Unis dans les années 1990, sans rival."],
+            ["Terrorisme","Usage de la violence pour terroriser les populations et atteindre des buts politiques."],
+            ["Monde multipolaire","Monde où plusieurs puissances comptent (USA, Chine, etc.), après la fin du face-à-face USA/URSS."],
+          ],
+          persos:[],
+          essentiel:[
+            "La fin de la guerre froide (1989-1991) fait disparaître l'un des deux blocs. Les <strong>États-Unis</strong> deviennent la seule superpuissance : on parle d'<strong>hyperpuissance</strong> dans les années 1990.",
+            "Mais le monde ne devient pas plus pacifique : de nouveaux conflits éclatent, comme la guerre du Golfe (1991) ou les guerres en ex-Yougoslavie (génocide à <strong>Srebrenica</strong> en 1995).",
+            "Les attentats du <strong>11 septembre 2001</strong> ouvrent une période marquée par le <strong>terrorisme</strong> international et la « guerre contre le terrorisme ». Avec la <strong>mondialisation</strong> et la montée de nouvelles puissances (notamment la Chine), le monde devient <strong>multipolaire</strong>.",
+          ]
+        },
+      ]
+    },
+    {
+      id:"h3", color:"var(--t3)", kicker:"Thème 3",
+      title:"Françaises et Français dans une République repensée",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"1944-1947 : refonder la République, redéfinir la démocratie", period:"1940 – 1947",
+          reperes:[
+            ["18 juin 1940","Appel du général de Gaulle depuis Londres"],
+            ["1940-1944","Régime de Vichy (Pétain), collaboration"],
+            ["1943","Création du CNR (Jean Moulin)"],
+            ["21 avril 1944","Droit de vote accordé aux femmes"],
+            ["1945","Création de la Sécurité sociale"],
+            ["1946","Naissance de la IVᵉ République"],
+          ],
+          notions:[
+            ["Régime de Vichy","Régime autoritaire dirigé par Pétain (1940-1944) qui collabore avec l'Allemagne nazie et abandonne la République."],
+            ["Collaboration","Coopération du régime de Vichy avec l'occupant allemand."],
+            ["Résistance","Ensemble de ceux qui luttent contre l'occupant et Vichy : Résistance intérieure (maquis, réseaux) et extérieure (de Gaulle, France libre)."],
+            ["CNR","Conseil national de la Résistance (1943), qui unifie la Résistance et prépare un programme de réformes."],
+          ],
+          persos:[
+            ["Philippe Pétain","Chef du régime de Vichy, responsable de la collaboration."],
+            ["Charles de Gaulle","Chef de la France libre, lance l'appel du 18 juin 1940 et dirige le gouvernement provisoire à la Libération."],
+            ["Jean Moulin","Unifie la Résistance intérieure au sein du CNR ; arrêté et mort en 1943."],
+          ],
+          essentiel:[
+            "Après la défaite de 1940, la France est occupée et le <strong>régime de Vichy</strong> dirigé par Pétain remplace la République : il abandonne la devise républicaine et choisit la <strong>collaboration</strong> avec l'Allemagne, participant notamment à la persécution des Juifs.",
+            "Face à cela s'organise la <strong>Résistance</strong>, intérieure (maquis, réseaux) et extérieure (de Gaulle et la France libre depuis Londres, après l'<strong>appel du 18 juin 1940</strong>). En 1943, Jean Moulin unifie les mouvements au sein du <strong>CNR</strong>, qui prépare l'après-guerre.",
+            "À la <strong>Libération</strong> (1944), le gouvernement provisoire de De Gaulle refonde la démocratie et applique le programme du CNR : <strong>droit de vote des femmes</strong> (1944), création de la <strong>Sécurité sociale</strong> (1945), nationalisations. La IVᵉ République est mise en place en 1946.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"La Vᵉ République : de la République gaullienne à l'alternance et à la cohabitation", period:"depuis 1958",
+          reperes:[
+            ["1958","Fondation de la Vᵉ République (de Gaulle)"],
+            ["1962","Élection du président au suffrage universel direct"],
+            ["mai 1968","Crise étudiante et sociale"],
+            ["1969","Départ du général de Gaulle"],
+            ["1981","Élection de François Mitterrand : 1ʳᵉ alternance"],
+            ["1986-1988","Première cohabitation"],
+          ],
+          notions:[
+            ["Vᵉ République","Régime fondé en 1958 qui renforce fortement le pouvoir du président de la République."],
+            ["Suffrage universel direct","Mode d'élection où les citoyens votent directement pour le président (depuis 1962)."],
+            ["Alternance","Passage du pouvoir d'un camp politique à un autre par les élections (1981)."],
+            ["Cohabitation","Situation où le président et le gouvernement (Premier ministre) sont de bords politiques opposés."],
+          ],
+          persos:[
+            ["Charles de Gaulle","Fondateur et premier président de la Vᵉ République (1958-1969)."],
+            ["François Mitterrand","Premier président de gauche de la Vᵉ République, élu en 1981 (alternance)."],
+          ],
+          essentiel:[
+            "Affaiblie par l'instabilité et la guerre d'Algérie, la IVᵉ République s'effondre en 1958. De Gaulle fonde alors la <strong>Vᵉ République</strong>, dotée d'une nouvelle Constitution qui renforce le rôle du <strong>président</strong>.",
+            "En 1962, une réforme instaure l'élection du président au <strong>suffrage universel direct</strong>, ce qui lui donne une grande légitimité. La période gaullienne est cependant secouée par la crise de <strong>mai 1968</strong> (contestation étudiante et sociale), avant le départ du Général en 1969.",
+            "La vie politique se structure ensuite autour de deux grands camps. En 1981, l'élection de <strong>François Mitterrand</strong> marque la première <strong>alternance</strong> gauche/droite. À partir de 1986 apparaît aussi la <strong>cohabitation</strong>, lorsque le président doit gouverner avec un Premier ministre du camp opposé.",
+          ]
+        },
+        {
+          num:"Chapitre 3", title:"Femmes et hommes dans la société des années 1950 aux années 1980", period:"1950s – 1980s",
+          reperes:[
+            ["1967","Loi Neuwirth : autorise la contraception (la pilule)"],
+            ["1975","Loi Veil : légalise l'IVG"],
+            ["1945-1975","Trente Glorieuses : forte croissance et transformations"],
+          ],
+          notions:[
+            ["Émancipation des femmes","Conquête par les femmes de nouveaux droits et d'une plus grande liberté (travail, corps, vie publique)."],
+            ["Contraception","Moyens d'éviter une grossesse, autorisés par la loi Neuwirth en 1967."],
+            ["IVG","Interruption volontaire de grossesse (avortement), légalisée par la loi Veil en 1975."],
+            ["Trente Glorieuses","Période d'environ trente ans (1945-1975) de forte croissance économique et de modernisation."],
+          ],
+          persos:[
+            ["Simone Veil","Ministre de la Santé, fait adopter la loi légalisant l'IVG en 1975."],
+            ["Lucien Neuwirth","Député à l'origine de la loi autorisant la contraception (1967)."],
+          ],
+          essentiel:[
+            "Des années 1950 aux années 1980, la société française se transforme profondément, portée par la croissance des <strong>Trente Glorieuses</strong> : consommation, urbanisation, place nouvelle de la jeunesse.",
+            "La <strong>place des femmes</strong> évolue particulièrement. Elles travaillent davantage et obtiennent la maîtrise de leur corps : la <strong>loi Neuwirth</strong> (1967) autorise la <strong>contraception</strong>, puis la <strong>loi Veil</strong> (1975) légalise l'<strong>IVG</strong>. Les mouvements féministes (comme le MLF) portent ces revendications d'<strong>émancipation</strong> et d'égalité.",
+            "Ces évolutions s'accompagnent de nouveaux engagements et de débats de société qui transforment durablement les rapports entre femmes et hommes.",
+          ]
+        },
+      ]
+    },
+  ]
+};
+
+/* =========================================================
+   CONTENU — GÉOGRAPHIE
+========================================================= */
+const GEO = {
+  hero:{
+    eyebrow:"Réviser autrement · les 3 thèmes de géo",
+    title:"Toute la géo du brevet : les territoires et leurs enjeux.",
+    lede:"Trois thèmes, toutes les <em>notions et définitions à connaître</em>, des chiffres-repères et des exemples concrets (études de cas) pour illustrer tes réponses. Choisis un thème, ou passe en mode <em>Quiz</em> pour te tester."
+  },
+  frise:[
+    {c:"var(--g1)", yr:"La France", nm:"Dynamiques territoriales", sub:"Villes, espaces productifs, faibles densités."},
+    {c:"var(--g2)", yr:"Aménager", nm:"Réduire les inégalités", sub:"Aménagement du territoire & outre-mer."},
+    {c:"var(--g3)", yr:"Europe & monde", nm:"La France et l'UE", sub:"Un territoire de référence, une puissance."},
+  ],
+  labels:{reperes:"Chiffres clés & repères", persos:"Exemples & études de cas"},
+  themes:[
+    {
+      id:"g1", color:"var(--g1)", kicker:"Thème 1",
+      title:"Dynamiques territoriales de la France contemporaine",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"Les aires urbaines, une nouvelle géographie d'une France mondialisée", period:"France urbaine",
+          reperes:[
+            ["≈ 85 %","des Français vivent dans une aire urbaine"],
+            ["pôle + couronne","une aire urbaine = ville-centre + communes périurbaines"],
+            ["Paris","1ʳᵉ aire urbaine de France (métropole de rang mondial)"],
+          ],
+          notions:[
+            ["Aire urbaine","Ville-centre (pôle urbain) et communes voisines dont une partie des habitants vient y travailler (couronne périurbaine)."],
+            ["Métropole","Grande ville qui concentre des fonctions de commandement (économiques, politiques, culturelles) et exerce une forte influence."],
+            ["Métropolisation","Concentration croissante de la population et des activités dans les grandes villes."],
+            ["Périurbanisation","Extension des villes vers les campagnes environnantes, à l'origine de l'étalement urbain."],
+            ["Mondialisation","Mise en relation des différentes parties du monde par les échanges (marchandises, capitaux, informations)."],
+          ],
+          persos:[
+            ["L'aire urbaine de Paris","Première aire urbaine française et métropole de rang mondial : elle concentre population, emplois et fonctions de commandement, et s'étale loin par la périurbanisation."],
+          ],
+          essentiel:[
+            "Aujourd'hui, près de <strong>85 % des Français vivent dans une aire urbaine</strong>, c'est-à-dire une ville-centre (le pôle urbain) et les communes autour dont les habitants viennent y travailler (la couronne périurbaine). La France est un pays très urbanisé et mondialisé.",
+            "Les grandes villes concentrent de plus en plus les populations, les emplois et les fonctions de commandement : c'est la <strong>métropolisation</strong>. Paris est une métropole de rang mondial, mais d'autres métropoles (Lyon, Marseille, Lille, Bordeaux…) structurent aussi le territoire.",
+            "Les villes s'étendent vers les campagnes voisines : c'est la <strong>périurbanisation</strong>, qui provoque un fort étalement urbain et de nombreux déplacements domicile-travail.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"Les espaces productifs et leurs évolutions", period:"produire en France",
+          reperes:[
+            ["3 types","espaces agricoles, industriels et de services (tertiaires)"],
+            ["1ʳᵉ de l'UE","la France est la 1ʳᵉ puissance agricole de l'Union européenne"],
+            ["littoralisation","les activités se concentrent de plus en plus sur les littoraux"],
+          ],
+          notions:[
+            ["Espace productif","Territoire aménagé et utilisé pour produire des biens ou des services."],
+            ["Agriculture productiviste","Agriculture intensive cherchant de hauts rendements (mécanisation, engrais, spécialisation)."],
+            ["Littoralisation","Concentration croissante des hommes et des activités sur les littoraux."],
+            ["Zone industrialo-portuaire (ZIP)","Espace littoral aménagé associant un grand port et des industries."],
+          ],
+          persos:[
+            ["Toulouse et l'aéronautique","Exemple d'espace productif industriel et technopolitain : autour d'Airbus se regroupent industrie, recherche et services de pointe."],
+          ],
+          essentiel:[
+            "Un <strong>espace productif</strong> est un territoire aménagé pour produire des biens ou des services. On distingue les espaces <strong>agricoles</strong>, <strong>industriels</strong> et <strong>de services</strong> (tertiaires), de plus en plus connectés à la mondialisation.",
+            "Ces espaces évoluent : l'agriculture devient plus <strong>productiviste</strong> et spécialisée, l'industrie se concentre dans des technopôles et sur les littoraux (<strong>littoralisation</strong>, zones industrialo-portuaires), et les services dominent désormais l'économie.",
+            "La France reste la <strong>première puissance agricole de l'Union européenne</strong> et possède des pôles de compétitivité de niveau mondial (aéronautique à Toulouse, par exemple).",
+          ]
+        },
+        {
+          num:"Chapitre 3", title:"Les espaces de faible densité et leurs atouts", period:"campagnes & montagnes",
+          reperes:[
+            ["< 30 hab/km²","seuil courant d'un espace de faible densité"],
+            ["une grande partie","les faibles densités couvrent une large part du territoire"],
+            ["atouts","tourisme, agriculture, énergies, patrimoine, cadre de vie"],
+          ],
+          notions:[
+            ["Espace de faible densité","Territoire peu peuplé (souvent moins de 30 hab/km²) : campagnes isolées, moyennes montagnes…"],
+            ["Densité de population","Nombre d'habitants par kilomètre carré (hab/km²)."],
+            ["Atout","Élément favorable au développement d'un territoire (paysage, ressource, situation…)."],
+          ],
+          persos:[
+            ["Les espaces de montagne (les Alpes)","Faible densité mais réels atouts : tourisme (stations de ski), hydroélectricité, agriculture et cadre de vie attractif."],
+          ],
+          essentiel:[
+            "Les <strong>espaces de faible densité</strong> (généralement moins de 30 habitants/km²) couvrent une grande partie du territoire : campagnes isolées, moyennes montagnes, certaines zones rurales. Ils sont souvent perçus comme en difficulté (vieillissement, manque de services).",
+            "Pourtant, ces espaces ont de réels <strong>atouts</strong> : agriculture, tourisme vert et de montagne, énergies (hydroélectricité, éolien), patrimoine et cadre de vie recherché. Ils se transforment et attirent de nouveaux habitants.",
+          ]
+        },
+      ]
+    },
+    {
+      id:"g2", color:"var(--g2)", kicker:"Thème 2",
+      title:"Pourquoi et comment aménager le territoire ?",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"Aménager pour répondre aux inégalités entre territoires", period:"toutes les échelles",
+          reperes:[
+            ["objectif","réduire les inégalités entre les territoires"],
+            ["des acteurs","État, collectivités, Union européenne, entreprises, citoyens"],
+            ["des échelles","du local au mondial"],
+          ],
+          notions:[
+            ["Aménagement du territoire","Ensemble des actions visant à organiser l'espace et à réduire les inégalités entre territoires."],
+            ["Inégalités territoriales","Différences de richesse, d'emplois ou d'équipements entre les territoires."],
+            ["Collectivité territoriale","Échelon local (commune, département, région) qui gère une partie des affaires du territoire."],
+            ["Échelle","Niveau auquel on étudie un territoire (local, régional, national, européen, mondial)."],
+          ],
+          persos:[
+            ["Le Grand Paris","Grand projet d'aménagement : nouvelles lignes de métro et logements pour mieux relier les territoires et réduire les inégalités à l'échelle de la métropole."],
+          ],
+          essentiel:[
+            "L'<strong>aménagement du territoire</strong> désigne l'ensemble des actions menées pour organiser l'espace et réduire les <strong>inégalités</strong> entre les territoires (richesse, emploi, équipements, accès aux services).",
+            "Il fait intervenir de nombreux <strong>acteurs</strong> à différentes <strong>échelles</strong> : l'État, les <strong>collectivités territoriales</strong> (régions, départements, communes), l'Union européenne, mais aussi les entreprises et les citoyens.",
+            "Les projets d'aménagement visent à mieux relier les territoires (transports), à soutenir les espaces en difficulté et à rendre le développement plus équilibré et durable.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"Les territoires ultramarins : une problématique spécifique", period:"l'outre-mer français",
+          reperes:[
+            ["5 DROM","Guadeloupe, Martinique, Guyane, La Réunion, Mayotte"],
+            ["2ᵉ ZEE mondiale","un vaste domaine maritime grâce à l'outre-mer"],
+            ["éloignement","des territoires distants de la métropole (discontinuité)"],
+          ],
+          notions:[
+            ["Territoires ultramarins","Territoires français situés outre-mer, loin de la métropole."],
+            ["DROM","Départements et régions d'outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte."],
+            ["ZEE (zone économique exclusive)","Espace maritime, jusqu'à 200 milles des côtes, où un État a des droits exclusifs d'exploitation."],
+            ["Discontinuité territoriale","Séparation entre des territoires d'un même État (ici, l'éloignement entre l'outre-mer et la métropole)."],
+          ],
+          persos:[
+            ["La Guyane","Territoire ultramarin aux atouts (forêt, base spatiale de Kourou, ZEE) mais aussi aux fortes contraintes (éloignement, inégalités, pression migratoire)."],
+          ],
+          essentiel:[
+            "Les <strong>territoires ultramarins</strong> français sont éloignés de la métropole. Les cinq <strong>DROM</strong> (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) sont des départements et régions d'outre-mer, soumis aux mêmes lois que la métropole.",
+            "Ils connaissent une <strong>problématique spécifique</strong> : éloignement (discontinuité territoriale), insularité, chômage et inégalités plus marqués, exposition aux risques naturels.",
+            "Mais ils sont aussi de véritables <strong>atouts</strong> pour la France : biodiversité, tourisme, base spatiale de Kourou en Guyane, et surtout un immense domaine maritime qui fait de la France la <strong>2ᵉ ZEE du monde</strong>.",
+          ]
+        },
+      ]
+    },
+    {
+      id:"g3", color:"var(--g3)", kicker:"Thème 3",
+      title:"La France et l'Union européenne",
+      chapters:[
+        {
+          num:"Chapitre 1", title:"L'Union européenne, un nouveau territoire de référence et d'appartenance", period:"l'UE aujourd'hui",
+          reperes:[
+            ["27 États","membres de l'UE (depuis le départ du Royaume-Uni)"],
+            ["dorsale européenne","la « banane bleue » : de Londres au nord de l'Italie"],
+            ["Schengen + euro","libre circulation des personnes et monnaie unique"],
+          ],
+          notions:[
+            ["Union européenne (UE)","Organisation regroupant 27 États européens, avec un marché unique et des politiques communes."],
+            ["Espace Schengen","Zone de libre circulation des personnes entre les pays signataires."],
+            ["Zone euro","Ensemble des pays de l'UE ayant adopté l'euro comme monnaie."],
+            ["Dorsale européenne","Vaste ensemble urbain et industriel allant de Londres au nord de l'Italie (la « banane bleue »)."],
+            ["Frontière","Limite entre deux États ; dans l'espace Schengen, beaucoup de frontières internes sont ouvertes."],
+          ],
+          persos:[
+            ["Les coopérations transfrontalières","Dans les régions frontalières, des territoires de pays voisins coopèrent (transports, emploi, projets communs) : l'UE se vit au quotidien."],
+          ],
+          essentiel:[
+            "L'<strong>Union européenne</strong> regroupe aujourd'hui <strong>27 États</strong> (après le départ du Royaume-Uni). Elle constitue un nouveau territoire de référence : marché unique, libre circulation des personnes dans l'<strong>espace Schengen</strong>, monnaie commune (l'euro) dans la <strong>zone euro</strong>.",
+            "Le cœur économique de l'UE est la <strong>dorsale européenne</strong> (la « banane bleue »), un vaste ensemble urbain et industriel qui s'étend de Londres au nord de l'Italie. De fortes <strong>inégalités</strong> de richesse subsistent toutefois entre les régions et les États.",
+            "Au quotidien, l'UE se vit aussi dans les régions frontalières, où des <strong>coopérations transfrontalières</strong> relient des territoires de pays voisins.",
+          ]
+        },
+        {
+          num:"Chapitre 2", title:"La France et l'Europe dans le monde", period:"une puissance mondiale",
+          reperes:[
+            ["1ʳᵉ mondiale","la France est la 1ʳᵉ destination touristique du monde"],
+            ["2ᵉ ZEE mondiale","une puissance maritime grâce à l'outre-mer"],
+            ["francophonie","le français parlé sur les cinq continents"],
+          ],
+          notions:[
+            ["Puissance","Capacité d'un État à exercer une influence sur le reste du monde (économie, armée, culture)."],
+            ["Soft power","Influence d'un pays par sa culture, sa langue et ses valeurs, plutôt que par la force."],
+            ["Francophonie","Ensemble des pays et populations ayant le français en partage."],
+            ["ZEE","Vaste domaine maritime ; grâce à l'outre-mer, la France possède la 2ᵉ ZEE du monde."],
+          ],
+          persos:[
+            ["L'outre-mer et la base de Kourou","Présents sur tous les océans, les territoires ultramarins donnent à la France la 2ᵉ ZEE du monde et une présence stratégique mondiale."],
+          ],
+          essentiel:[
+            "La France est une <strong>puissance</strong> qui rayonne dans le monde. Sa puissance est économique, militaire (siège permanent au Conseil de sécurité de l'ONU, arme nucléaire) et diplomatique.",
+            "Elle dispose aussi d'un important <strong>soft power</strong> : la langue française et la <strong>francophonie</strong>, la culture, le tourisme (1ʳᵉ destination touristique mondiale), les valeurs qu'elle défend.",
+            "Ses <strong>territoires ultramarins</strong>, présents sur tous les océans, lui assurent la <strong>2ᵉ ZEE du monde</strong> et une présence stratégique à l'échelle de la planète.",
+          ]
+        },
+      ]
+    },
+  ]
+};
+
+const DISC = {histoire:HISTOIRE, geo:GEO};
+let currentDisc = "histoire";
+
+/* =========================================================
+   QUIZ — banque de questions (d = H/G, t = numéro de thème)
+========================================================= */
+const QUIZ = [
+  // ---- HISTOIRE ----
+  {d:"H",t:1, q:"Quel événement déclenche la Première Guerre mondiale en 1914 ?", c:["La crise de 1929","L'attentat de Sarajevo","L'invasion de la Pologne","La révolution russe"], a:1, e:"L'attentat de Sarajevo (28 juin 1914) met le feu aux poudres dans une Europe déjà tendue."},
+  {d:"H",t:1, q:"Qu'appelle-t-on une « guerre totale » ?", c:["Une guerre qui dure plus de 4 ans","Une guerre qui mobilise toutes les ressources d'un pays","Une guerre menée uniquement dans les tranchées","Une guerre entre deux continents"], a:1, e:"La guerre totale mobilise les soldats, mais aussi l'économie, la science, les civils et les colonies."},
+  {d:"H",t:1, q:"La bataille de Verdun (1916) est le symbole de…", c:["la guerre de mouvement","la guerre de position (tranchées)","la guerre froide","la décolonisation"], a:1, e:"Verdun symbolise la guerre de position, longue et meurtrière, dans les tranchées."},
+  {d:"H",t:1, q:"En quelle année l'armistice met-il fin aux combats de la 1ʳᵉ Guerre mondiale ?", c:["1916","1917","1918","1919"], a:2, e:"L'armistice est signé le 11 novembre 1918. Le traité de Versailles, lui, date de 1919."},
+  {d:"H",t:1, q:"Quel régime totalitaire Staline dirige-t-il ?", c:["L'Allemagne nazie","L'Italie fasciste","L'URSS communiste","La France de Vichy"], a:2, e:"Staline dirige l'URSS : régime communiste totalitaire (Goulag, parti unique, Grande Terreur)."},
+  {d:"H",t:1, q:"Quelle crise économique fragilise les démocraties à partir de 1929 ?", c:["Le krach de Wall Street","La crise des subprimes","La crise de l'euro","La crise pétrolière"], a:0, e:"Le krach boursier de Wall Street (octobre 1929) provoque une crise mondiale et du chômage de masse."},
+  {d:"H",t:1, q:"En quelle année Hitler devient-il chancelier d'Allemagne ?", c:["1929","1933","1936","1939"], a:1, e:"Hitler devient chancelier le 30 janvier 1933 et installe rapidement une dictature nazie."},
+  {d:"H",t:1, q:"Quel événement marque le début de la Seconde Guerre mondiale ?", c:["Pearl Harbor","L'invasion de la Pologne","La bataille de Stalingrad","Le débarquement de Normandie"], a:1, e:"Le 1ᵉʳ septembre 1939, l'Allemagne envahit la Pologne ; la France et le Royaume-Uni déclarent la guerre."},
+  {d:"H",t:1, q:"Comment nomme-t-on l'extermination des Juifs d'Europe par les nazis ?", c:["La Grande Terreur","La Shoah","La conférence de Bandung","Le containment"], a:1, e:"La Shoah désigne le génocide des Juifs : environ 6 millions de morts."},
+  {d:"H",t:1, q:"Le débarquement allié en Normandie a lieu le…", c:["8 mai 1945","6 juin 1944","11 novembre 1918","7 décembre 1941"], a:1, e:"Le 6 juin 1944 (D-Day), les Alliés débarquent en Normandie pour libérer l'Europe de l'Ouest."},
+
+  {d:"H",t:2, q:"En quelle année l'Inde obtient-elle son indépendance ?", c:["1945","1947","1955","1962"], a:1, e:"L'Inde devient indépendante en 1947, après le combat mené notamment par Gandhi."},
+  {d:"H",t:2, q:"La guerre d'Algérie se déroule entre…", c:["1939 et 1945","1947 et 1991","1954 et 1962","1989 et 2001"], a:2, e:"La guerre d'Algérie (1954-1962) se termine par les accords d'Évian et l'indépendance."},
+  {d:"H",t:2, q:"Que désigne le « Tiers-Monde » ?", c:["Les pays communistes","Les pays riches d'Europe","Les pays pauvres souvent issus de la décolonisation","Les pays neutres d'Amérique"], a:2, e:"Le Tiers-Monde regroupe des pays pauvres, souvent anciennement colonisés, qui refusent de s'aligner."},
+  {d:"H",t:2, q:"Quels sont les deux « blocs » de la guerre froide ?", c:["France et Allemagne","États-Unis et URSS","Chine et Japon","Royaume-Uni et Italie"], a:1, e:"Le bloc de l'Ouest (USA, capitaliste) s'oppose au bloc de l'Est (URSS, communiste)."},
+  {d:"H",t:2, q:"Quelle ville devient le symbole de la division de la guerre froide ?", c:["Paris","Berlin","Moscou","Washington"], a:1, e:"Berlin, divisée puis coupée par un mur (1961), symbolise l'affrontement des deux blocs."},
+  {d:"H",t:2, q:"Pourquoi parle-t-on de guerre « froide » ?", c:["Parce qu'elle se déroule en hiver","Parce que les deux Grands ne s'affrontent jamais directement","Parce qu'elle a lieu au pôle Nord","Parce qu'aucune arme n'est utilisée"], a:1, e:"Les deux Grands ne se font jamais la guerre directement, à cause de l'équilibre de la terreur nucléaire."},
+  {d:"H",t:2, q:"La chute du mur de Berlin a lieu en…", c:["1962","1981","1989","2001"], a:2, e:"Le mur de Berlin tombe le 9 novembre 1989 ; l'URSS disparaît en 1991."},
+  {d:"H",t:2, q:"Quel traité, en 1957, crée la CEE ?", c:["Le traité de Maastricht","Le traité de Versailles","Le traité de Rome","Les accords d'Évian"], a:2, e:"Le traité de Rome (1957) crée la Communauté économique européenne entre six pays."},
+  {d:"H",t:2, q:"Quel traité transforme la CEE en Union européenne en 1992 ?", c:["Traité de Rome","Traité de Maastricht","Accord de Schengen","Traité de Nuremberg"], a:1, e:"Le traité de Maastricht (1992) crée l'Union européenne et la citoyenneté européenne."},
+  {d:"H",t:2, q:"Quel événement de 2001 ouvre la « guerre contre le terrorisme » ?", c:["La guerre du Golfe","Les attentats du 11 septembre","La chute du mur","Le massacre de Srebrenica"], a:1, e:"Les attentats du 11 septembre 2001 aux États-Unis marquent un tournant après la guerre froide."},
+
+  {d:"H",t:3, q:"Qui dirige le régime de Vichy entre 1940 et 1944 ?", c:["Charles de Gaulle","Philippe Pétain","Jean Moulin","Léon Blum"], a:1, e:"Le maréchal Pétain dirige le régime de Vichy, qui collabore avec l'Allemagne nazie."},
+  {d:"H",t:3, q:"De quand date l'appel du général de Gaulle à la Résistance ?", c:["18 juin 1940","8 mai 1945","21 avril 1944","1ᵉʳ septembre 1939"], a:0, e:"L'appel du 18 juin 1940 est lancé depuis Londres ; il fonde la France libre."},
+  {d:"H",t:3, q:"Qui unifie la Résistance intérieure au sein du CNR en 1943 ?", c:["Pétain","De Gaulle","Jean Moulin","Simone Veil"], a:2, e:"Jean Moulin unifie les mouvements de résistance dans le Conseil national de la Résistance (1943)."},
+  {d:"H",t:3, q:"En quelle année les femmes obtiennent-elles le droit de vote en France ?", c:["1936","1944","1958","1975"], a:1, e:"Le droit de vote des femmes est accordé en 1944 ; elles votent pour la première fois en 1945."},
+  {d:"H",t:3, q:"Qui fonde la Vᵉ République en 1958 ?", c:["François Mitterrand","Charles de Gaulle","Léon Blum","Simone Veil"], a:1, e:"De Gaulle fonde la Vᵉ République en 1958, avec une nouvelle Constitution renforçant le président."},
+  {d:"H",t:3, q:"Que met en place la réforme de 1962 sous la Vᵉ République ?", c:["La Sécurité sociale","L'élection du président au suffrage universel direct","Le droit de vote des femmes","La cohabitation"], a:1, e:"Depuis 1962, le président est élu au suffrage universel direct, ce qui renforce sa légitimité."},
+  {d:"H",t:3, q:"L'élection de François Mitterrand en 1981 marque…", c:["la première cohabitation","la fin de la Vᵉ République","la première alternance gauche/droite","la naissance de l'UE"], a:2, e:"En 1981, Mitterrand devient le premier président de gauche : c'est la première alternance."},
+  {d:"H",t:3, q:"Qu'est-ce qu'une « cohabitation » ?", c:["Un président et un Premier ministre de bords opposés","Deux présidents en même temps","Une alliance de partis de gauche","Un gouvernement provisoire"], a:0, e:"La cohabitation : le président et le gouvernement appartiennent à des camps politiques opposés."},
+  {d:"H",t:3, q:"Quelle loi de 1975 légalise l'IVG en France ?", c:["La loi Neuwirth","La loi Veil","La loi du CNR","La loi Schuman"], a:1, e:"La loi Veil (1975), portée par Simone Veil, légalise l'interruption volontaire de grossesse."},
+  {d:"H",t:3, q:"La loi Neuwirth (1967) autorise…", c:["l'avortement","la contraception","le droit de vote des femmes","le divorce"], a:1, e:"La loi Neuwirth (1967) autorise la contraception (la pilule), étape clé de l'émancipation des femmes."},
+
+  // ---- GÉOGRAPHIE ----
+  {d:"G",t:1, q:"Qu'est-ce qu'une aire urbaine ?", c:["Une grande ville de plus d'un million d'habitants","Une ville-centre et les communes autour dont les habitants y travaillent","Le centre historique d'une ville","Une zone industrielle en périphérie"], a:1, e:"L'aire urbaine = un pôle urbain (ville-centre) + une couronne périurbaine de communes liées à la ville."},
+  {d:"G",t:1, q:"Que désigne la métropolisation ?", c:["Le départ des habitants vers la campagne","La concentration des populations et activités dans les grandes villes","La création de nouvelles régions","La construction d'autoroutes"], a:1, e:"La métropolisation est la concentration croissante des hommes et des activités dans les métropoles."},
+  {d:"G",t:1, q:"Quels sont les trois grands types d'espaces productifs ?", c:["Urbains, ruraux et littoraux","Agricoles, industriels et de services","Publics, privés et associatifs","Riches, moyens et pauvres"], a:1, e:"On distingue les espaces agricoles, industriels et de services (tertiaires)."},
+  {d:"G",t:1, q:"La périurbanisation, c'est…", c:["l'extension des villes vers les campagnes environnantes","le retour des habitants au centre-ville","la fermeture des usines","la disparition des villages"], a:0, e:"La périurbanisation est l'extension des villes vers leurs marges, à l'origine de l'étalement urbain."},
+
+  {d:"G",t:2, q:"L'aménagement du territoire cherche surtout à…", c:["construire le plus possible","réduire les inégalités entre les territoires","supprimer les régions","augmenter les impôts"], a:1, e:"Aménager le territoire vise à organiser l'espace et à réduire les inégalités entre territoires."},
+  {d:"G",t:2, q:"Que signifie DROM ?", c:["Districts ruraux d'outre-mer","Départements et régions d'outre-mer","Domaines réservés de l'outre-mer","Directions régionales outre-mer"], a:1, e:"DROM = Départements et régions d'outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte)."},
+  {d:"G",t:2, q:"Combien la France compte-t-elle de DROM ?", c:["3","5","7","10"], a:1, e:"Il y a 5 DROM : Guadeloupe, Martinique, Guyane, La Réunion et Mayotte."},
+  {d:"G",t:2, q:"Grâce à ses territoires ultramarins, la France possède…", c:["la 1ʳᵉ population du monde","la 2ᵉ ZEE (espace maritime) du monde","le plus grand désert du monde","la plus longue frontière du monde"], a:1, e:"L'outre-mer donne à la France un immense domaine maritime : la 2ᵉ ZEE du monde."},
+
+  {d:"G",t:3, q:"Combien d'États membres compte l'Union européenne aujourd'hui ?", c:["25","27","28","30"], a:1, e:"L'UE compte 27 États membres depuis le départ du Royaume-Uni (Brexit)."},
+  {d:"G",t:3, q:"L'espace Schengen permet…", c:["d'utiliser la même monnaie","la libre circulation des personnes","de voter aux mêmes élections","d'avoir la même armée"], a:1, e:"L'espace Schengen est une zone de libre circulation des personnes entre les pays signataires."},
+  {d:"G",t:3, q:"La « dorsale européenne » (banane bleue) s'étend de…", c:["Madrid à Athènes","Londres au nord de l'Italie","Paris à Moscou","Berlin à Lisbonne"], a:1, e:"La dorsale européenne, cœur économique de l'UE, va de Londres jusqu'au nord de l'Italie."},
+  {d:"G",t:3, q:"Le soft power d'un pays désigne…", c:["sa puissance militaire","son influence par la culture, la langue et les valeurs","le nombre de ses habitants","la taille de son territoire"], a:1, e:"Le soft power est l'influence d'un pays par sa culture et ses valeurs, plutôt que par la force."},
+];
+
+/* =========================================================
+   RENDU
+========================================================= */
+const tabsEl = document.getElementById("tabs");
+const courseEl = document.getElementById("course");
+const friseEl = document.getElementById("friseTrack");
+
+function renderHero(disc){
+  const d = DISC[disc];
+  document.getElementById("heroEyebrow").innerHTML = d.hero.eyebrow;
+  document.getElementById("heroTitle").innerHTML = d.hero.title;
+  document.getElementById("heroLede").innerHTML = d.hero.lede;
+  // accent of eyebrow = first theme color
+  document.getElementById("hero").style.setProperty("--accent", d.themes[0].color);
+  friseEl.innerHTML = d.frise.map(f=>`
+    <div class="era" style="--ec:${f.c}">
+      <div class="yr">${f.yr}</div>
+      <div class="nm">${f.nm}</div>
+      <div class="sub">${f.sub}</div>
+    </div>`).join("");
+}
+
+function renderCourse(disc){
+  const d = DISC[disc];
+  const labels = d.labels;
+  tabsEl.innerHTML = "";
+  courseEl.innerHTML = "";
+
+  d.themes.forEach((th,i)=>{
+    // onglet
+    const b = document.createElement("button");
+    b.className = "tab" + (i===0?" on":"");
+    b.style.setProperty("--tc", th.color);
+    b.dataset.id = th.id;
+    b.innerHTML = `<span class="dot"></span>${th.kicker}`;
+    b.onclick = ()=>selectTheme(th.id);
+    tabsEl.appendChild(b);
+
+    // titre de thème
+    const head = document.createElement("div");
+    head.className = "theme-head" + (i===0?" show":"");
+    head.dataset.head = th.id;
+    head.style.setProperty("--tc", th.color);
+    head.innerHTML = `<div class="kicker">${th.kicker}</div><h2>${th.title}</h2>`;
+    courseEl.appendChild(head);
+
+    // corps
+    const body = document.createElement("div");
+    body.className = "theme-body" + (i===0?" show":"");
+    body.dataset.body = th.id;
+    body.style.setProperty("--tc", th.color);
+
+    th.chapters.forEach(ch=>{
+      const reperes = ch.reperes.map(r=>`<div class="rep"><span class="date">${r[0]}</span><span class="ev">${r[1]}</span></div>`).join("");
+      const notions = ch.notions.map(n=>`<div class="notion"><div class="term">${n[0]}</div><div class="def">${n[1]}</div></div>`).join("");
+      const persosBlock = ch.persos.length ? `
+        <div class="block-label">${labels.persos}</div>
+        <div class="persos">${ch.persos.map(p=>`<div class="perso"><div class="who">${p[0]}</div><div class="role">${p[1]}</div></div>`).join("")}</div>` : "";
+      const essentiel = ch.essentiel.map(p=>`<p>${p}</p>`).join("");
+
+      const c = document.createElement("article");
+      c.className = "chapter";
+      c.innerHTML = `
+        <div class="ch-head">
+          <span class="ch-num">${ch.num}</span>
+          <div class="ch-titles">
+            <h3>${ch.title}</h3>
+            <div class="ch-period">${ch.period}</div>
+          </div>
+        </div>
+        <div class="ch-body">
+          <div class="block-label">${labels.reperes}</div>
+          <div class="reperes">${reperes}</div>
+          <div class="block-label">Notions clés</div>
+          <div class="notions">${notions}</div>
+          ${persosBlock}
+          <div class="block-label">L'essentiel</div>
+          <div class="essentiel">${essentiel}</div>
+        </div>`;
+      body.appendChild(c);
+    });
+    courseEl.appendChild(body);
+  });
+}
+
+function selectTheme(id){
+  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on", t.dataset.id===id));
+  document.querySelectorAll("[data-head]").forEach(h=>h.classList.toggle("show", h.dataset.head===id));
+  document.querySelectorAll("[data-body]").forEach(b=>b.classList.toggle("show", b.dataset.body===id));
+  window.scrollTo({top: document.getElementById("hero").offsetHeight - 40, behavior:"smooth"});
+}
+
+function selectDiscipline(disc){
+  currentDisc = disc;
+  document.getElementById("dHist").classList.toggle("on", disc==="histoire");
+  document.getElementById("dGeo").classList.toggle("on", disc==="geo");
+  renderHero(disc);
+  renderCourse(disc);
+}
+
+/* =========================================================
+   MODE COURS / QUIZ
+========================================================= */
+function setMode(mode){
+  const cours = mode==="cours";
+  document.getElementById("mCours").classList.toggle("on", cours);
+  document.getElementById("mQuiz").classList.toggle("on", !cours);
+  document.getElementById("hero").style.display = cours?"":"none";
+  document.getElementById("frise").style.display = cours?"":"none";
+  document.getElementById("tabsWrap").style.display = cours?"":"none";
+  document.getElementById("course").style.display = cours?"":"none";
+  document.getElementById("quiz").style.display = cours?"none":"block";
+  window.scrollTo({top:0, behavior:"smooth"});
+  if(!cours) buildFilters();
+}
+
+/* =========================================================
+   QUIZ
+========================================================= */
+const FILTERS = [
+  {id:"all", label:"Tout le programme", color:"var(--gold)"},
+  {id:"H", label:"Histoire", color:"var(--t1)"},
+  {id:"G", label:"Géographie", color:"var(--g1)"},
+];
+let currentFilter="all";
+
+const THEME_COLOR = {H:{1:"#A23B2C",2:"#2E6E8E",3:"#4E7A56"}, G:{1:"#B5752A",2:"#6E5BA0",3:"#2E8E8E"}};
+const DISC_NAME = {H:"Histoire", G:"Géo"};
+
+function buildFilters(){
+  const fc = document.getElementById("filters");
+  if(fc.dataset.built) return;
+  FILTERS.forEach(f=>{
+    const b=document.createElement("button");
+    b.className="filt"+(f.id==="all"?" on":"");
+    b.style.setProperty("--fc", f.color);
+    b.innerHTML=`<span class="dot"></span>${f.label}`;
+    b.onclick=()=>{currentFilter=f.id; document.querySelectorAll(".filt").forEach(x=>x.classList.toggle("on",x===b)); startQuiz();};
+    fc.appendChild(b);
+  });
+  fc.dataset.built="1";
+  startQuiz();
+}
+
+let pool=[], idx=0, score=0, answered=false;
+
+function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function startQuiz(){
+  const base = currentFilter==="all" ? QUIZ : QUIZ.filter(q=>q.d===currentFilter);
+  pool = shuffle(base);
+  idx=0; score=0; answered=false;
+  renderQ();
+}
+
+function renderQ(){
+  const area=document.getElementById("quizArea");
+  if(idx>=pool.length){renderResult();return;}
+  const q=pool[idx];
+  answered=false;
+  const keys=["A","B","C","D"];
+  area.innerHTML=`
+    <div class="qcard" style="--qc:${THEME_COLOR[q.d][q.t]}">
+      <div class="qprog">
+        <span>Question ${idx+1} / ${pool.length}</span>
+        <span class="badge">${DISC_NAME[q.d]} · Thème ${q.t}</span>
+      </div>
+      <div class="qbar"><i style="width:${(idx/pool.length)*100}%"></i></div>
+      <div class="qtext">${q.q}</div>
+      <div class="choices" id="choices">
+        ${q.c.map((c,i)=>`<button class="choice" data-i="${i}"><span class="key">${keys[i]}</span><span>${c}</span></button>`).join("")}
+      </div>
+      <div class="explain" id="explain"></div>
+      <div class="qnext"><button class="btn" id="nextBtn" disabled>${idx===pool.length-1?"Voir mon score":"Question suivante →"}</button></div>
+    </div>`;
+  document.querySelectorAll("#choices .choice").forEach(btn=>{
+    btn.onclick=()=>answer(parseInt(btn.dataset.i), q);
+  });
+  document.getElementById("nextBtn").onclick=()=>{idx++; renderQ();};
+}
+
+function answer(i, q){
+  if(answered) return;
+  answered=true;
+  document.querySelectorAll("#choices .choice").forEach(b=>{
+    b.disabled=true;
+    const bi=parseInt(b.dataset.i);
+    if(bi===q.a) b.classList.add("correct");
+    if(bi===i && i!==q.a) b.classList.add("wrong");
+  });
+  if(i===q.a) score++;
+  const ex=document.getElementById("explain");
+  ex.innerHTML = (i===q.a?"<b>✓ Correct.</b> ":"<b>✗ Raté.</b> ") + q.e;
+  ex.classList.add("show");
+  document.getElementById("nextBtn").disabled=false;
+  document.querySelector(".qbar i").style.width=((idx+1)/pool.length)*100+"%";
+}
+
+function renderResult(){
+  const area=document.getElementById("quizArea");
+  const pct=Math.round((score/pool.length)*100);
+  let verdict, msg;
+  if(pct>=85){verdict="Excellent. 🏆"; msg="Tu maîtrises ce programme. Garde le rythme jusqu'aux écrits.";}
+  else if(pct>=60){verdict="Bien joué. 👍"; msg="Bonne base. Reprends les chapitres où tu as buté pour viser plus haut.";}
+  else if(pct>=40){verdict="À consolider. 📚"; msg="Le socle est là mais il faut réviser les repères et les notions. Relis les fiches Cours.";}
+  else {verdict="On reprend les bases. 💪"; msg="Pas de panique : repasse en mode Cours, fiche par fiche, puis refais le quiz.";}
+  area.innerHTML=`
+    <div class="qcard">
+      <div class="result">
+        <div class="score">${score}<span>/${pool.length}</span></div>
+        <div class="verdict">${verdict}</div>
+        <p>${msg}</p>
+        <div class="again">
+          <button class="btn" onclick="startQuiz()">Recommencer ce quiz</button>
+          <button class="btn ghost" onclick="setMode('cours')" style="margin-left:8px">Retour au cours</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ---------- INIT ---------- */
+selectDiscipline("histoire");
+</script>
+</body>
+</html>
