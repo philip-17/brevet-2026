@@ -148,11 +148,10 @@ export default function SubjectPage() {
         })
       })()}
 
-      {/* Bannière « à voir avant le brevet » — bas de page (selon la matière).
-          Cliquable si un cours est rattaché (to), sinon simple bandeau. */}
-      {(() => {
-        const banner = MUST_SEE_BANNERS[subject.id]
-        if (!banner) return null
+      {/* Bannières « à voir avant le brevet » — bas de page (selon la matière).
+          Une matière peut en avoir plusieurs ; chacune est cliquable si un
+          cours est rattaché (to), sinon c'est un simple bandeau. */}
+      {(MUST_SEE_BANNERS[subject.id] ?? []).map((banner, i) => {
         const inner = (
           <>
             <div className="must-see-icon">{banner.icon}</div>
@@ -164,13 +163,15 @@ export default function SubjectPage() {
           </>
         )
         return banner.to ? (
-          <Link to={banner.to} className="must-see-banner">
+          <Link key={i} to={banner.to} className="must-see-banner">
             {inner}
           </Link>
         ) : (
-          <div className="must-see-banner must-see-static">{inner}</div>
+          <div key={i} className="must-see-banner must-see-static">
+            {inner}
+          </div>
         )
-      })()}
+      })}
 
       {/* Fenêtre de choix du mode (bottom sheet) — par-dessus la liste,
           aucun scroll nécessaire */}
@@ -277,23 +278,35 @@ interface MustSeeBanner {
   to?: string
 }
 
-const MUST_SEE_BANNERS: Record<string, MustSeeBanner> = {
-  sciences: {
-    icon: '👀',
-    title: 'Choses à voir absolument avant le brevet',
-    sub: 'Révision Physique-Chimie interactive · juste avant le jour J',
-    to: '/lesson/sciences/revision-pc',
-  },
-  maths: {
-    icon: '⏰',
-    title: 'Tout à savoir en maths — dernière minute',
-    sub: 'Cours approfondi interactif · tout le programme de 3ᵉ',
-    to: '/lesson/maths/revision-maths',
-  },
-  'histoire-geo': {
-    icon: '📜',
-    title: 'Tout à savoir en histoire-géo — dernière minute',
-    sub: 'Cours + quiz interactif · tout le programme de 3ᵉ',
-    to: '/lesson/histoire-geo/revision-histoire',
-  },
+const MUST_SEE_BANNERS: Record<string, MustSeeBanner[]> = {
+  sciences: [
+    {
+      icon: '👀',
+      title: 'Choses à voir absolument avant le brevet',
+      sub: 'Révision Physique-Chimie interactive · juste avant le jour J',
+      to: '/lesson/sciences/revision-pc',
+    },
+  ],
+  maths: [
+    {
+      icon: '⏰',
+      title: 'Tout à savoir en maths — dernière minute',
+      sub: 'Cours approfondi interactif · tout le programme de 3ᵉ',
+      to: '/lesson/maths/revision-maths',
+    },
+    {
+      icon: '⚡',
+      title: 'Fiche express maths — la veille de l’épreuve',
+      sub: 'L’essentiel ultra-condensé : formules, méthodes, pièges',
+      to: '/lesson/maths/revision-maths-express',
+    },
+  ],
+  'histoire-geo': [
+    {
+      icon: '📜',
+      title: 'Tout à savoir en histoire-géo — dernière minute',
+      sub: 'Cours + quiz interactif · tout le programme de 3ᵉ',
+      to: '/lesson/histoire-geo/revision-histoire',
+    },
+  ],
 }

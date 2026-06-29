@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brevet Maths — Fiche express</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)']], displayMath: [['\\[','\\]']] },
+    svg: { fontCache: 'global' },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js" id="MathJax-script" async></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#14110d;
+    --bg2:#1a1611;
+    --card:#211c16;
+    --card2:#26201a;
+    --line:#3a3128;
+    --line2:#4a4034;
+    --ink:#f3ecdf;
+    --ink2:#b8ab97;
+    --ink3:#8a7e6c;
+    --gold:#f5a524;
+    --gold-soft:#3a2c12;
+    --teal:#2dd4bf;
+    --teal-soft:#103230;
+    --coral:#ff6b5b;
+    --coral-soft:#3a1c18;
+    --radius:14px;
+    --mono:'Space Mono',monospace;
+    --disp:'Space Grotesk',sans-serif;
+    --body:'Inter',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--body);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:80px;
+  }
+  ::selection{background:var(--gold);color:#14110d}
+
+  /* HEADER */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(20,17,13,.92);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+  .head-inner{
+    max-width:1080px;margin:0 auto;padding:18px 22px 0;
+  }
+  .titlebar{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  .brand{font-family:var(--disp);font-weight:700;font-size:clamp(22px,4vw,30px);letter-spacing:-.5px;line-height:1.05}
+  .brand .b{color:var(--gold)}
+  .sub{font-family:var(--mono);font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:1.5px}
+  .badge{
+    font-family:var(--mono);font-size:11px;font-weight:700;
+    color:var(--coral);border:1px solid var(--coral);
+    padding:4px 9px;border-radius:999px;text-transform:uppercase;letter-spacing:1px;
+    white-space:nowrap;
+  }
+  /* NAV PILLS */
+  nav{display:flex;gap:8px;overflow-x:auto;padding:14px 0 14px;scrollbar-width:none}
+  nav::-webkit-scrollbar{display:none}
+  .pill{
+    flex:0 0 auto;
+    font-family:var(--disp);font-weight:600;font-size:13px;
+    color:var(--ink2);background:var(--card);
+    border:1px solid var(--line);
+    padding:8px 14px;border-radius:999px;cursor:pointer;
+    transition:.15s;white-space:nowrap;
+    display:flex;align-items:center;gap:7px;
+  }
+  .pill .num{font-family:var(--mono);font-size:10px;color:var(--ink3)}
+  .pill:hover{border-color:var(--line2);color:var(--ink)}
+  .pill.active{background:var(--gold);color:#14110d;border-color:var(--gold)}
+  .pill.active .num{color:#5a3d08}
+
+  /* MAIN */
+  main{max-width:1080px;margin:0 auto;padding:30px 22px 0}
+  .panel{display:none;animation:fade .35s ease}
+  .panel.show{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  .panel-head{margin-bottom:24px}
+  .eyebrow{font-family:var(--mono);font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}
+  .panel-title{font-family:var(--disp);font-weight:700;font-size:clamp(24px,5vw,34px);letter-spacing:-.6px;line-height:1.1}
+  .panel-intro{color:var(--ink2);margin-top:10px;max-width:62ch;font-size:15px}
+
+  /* CARD */
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 22px 8px;
+    margin-bottom:18px;
+  }
+  .card-top{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+  .tag{font-family:var(--mono);font-size:10px;color:var(--ink3);text-transform:uppercase;letter-spacing:1.5px;border:1px solid var(--line);padding:2px 8px;border-radius:6px}
+  .card h3{font-family:var(--disp);font-weight:700;font-size:19px;letter-spacing:-.3px;margin:8px 0 2px;color:var(--ink)}
+  .card p{font-size:14.5px;color:var(--ink2);margin:8px 0}
+  .card p strong{color:var(--ink);font-weight:600}
+
+  /* FORMULA BLOCK */
+  .formula{
+    background:linear-gradient(135deg,var(--gold-soft),var(--bg2));
+    border:1px solid #5a4416;border-left:4px solid var(--gold);
+    border-radius:10px;padding:14px 18px;margin:14px 0;
+    overflow-x:auto;
+  }
+  .formula .lab{font-family:var(--mono);font-size:10px;color:var(--gold);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;display:block}
+  .formula mjx-container{color:var(--ink) !important}
+
+  /* METHOD STEPS */
+  .method{margin:12px 0}
+  .method .lab{font-family:var(--mono);font-size:10px;color:var(--teal);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px;display:block}
+  .method ol{list-style:none;counter-reset:step;padding:0}
+  .method li{counter-increment:step;position:relative;padding:5px 0 5px 32px;font-size:14.5px;color:var(--ink2)}
+  .method li::before{
+    content:counter(step);position:absolute;left:0;top:5px;
+    width:21px;height:21px;border-radius:6px;
+    background:var(--teal-soft);border:1px solid var(--teal);color:var(--teal);
+    font-family:var(--mono);font-size:11px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+
+  /* EXAMPLE (reveal) */
+  .ex{border:1px solid var(--line);border-radius:10px;margin:14px 0;overflow:hidden;background:var(--bg2)}
+  .ex-q{padding:13px 16px;font-size:14.5px;color:var(--ink)}
+  .ex-q .lab{font-family:var(--mono);font-size:10px;color:var(--ink3);text-transform:uppercase;letter-spacing:1.5px;display:block;margin-bottom:5px}
+  .ex-btn{
+    width:100%;text-align:left;cursor:pointer;
+    background:var(--card2);border:none;border-top:1px solid var(--line);
+    color:var(--gold);font-family:var(--disp);font-weight:600;font-size:13px;
+    padding:11px 16px;display:flex;align-items:center;gap:8px;transition:.15s;
+  }
+  .ex-btn:hover{background:#2e2820}
+  .ex-btn .chev{transition:.2s;font-family:var(--mono)}
+  .ex-btn.open .chev{transform:rotate(90deg)}
+  .ex-sol{max-height:0;overflow:hidden;transition:max-height .35s ease;background:var(--bg)}
+  .ex-sol.open{max-height:1200px}
+  .ex-sol-inner{padding:14px 16px;font-size:14px;color:var(--ink2);border-top:1px dashed var(--line2)}
+  .ex-sol-inner .step{margin:7px 0}
+  .ex-sol-inner .res{color:var(--teal);font-weight:600}
+
+  /* TRAP */
+  .trap{
+    background:var(--coral-soft);border:1px solid #6e2c24;border-left:4px solid var(--coral);
+    border-radius:10px;padding:12px 16px;margin:14px 0;
+  }
+  .trap .lab{font-family:var(--mono);font-size:10px;color:var(--coral);text-transform:uppercase;letter-spacing:1.5px;display:block;margin-bottom:5px;font-weight:700}
+  .trap p{font-size:14px;color:#f3d4cf;margin:3px 0}
+  .trap strong{color:#ffb3a8}
+
+  /* TIP */
+  .tip{
+    background:var(--teal-soft);border:1px solid #1c5450;border-left:4px solid var(--teal);
+    border-radius:10px;padding:12px 16px;margin:14px 0;
+  }
+  .tip .lab{font-family:var(--mono);font-size:10px;color:var(--teal);text-transform:uppercase;letter-spacing:1.5px;display:block;margin-bottom:5px;font-weight:700}
+  .tip p{font-size:14px;color:#cdeeea;margin:3px 0}
+
+  /* TABLE */
+  .tbl{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  .tbl th,.tbl td{border:1px solid var(--line);padding:8px 11px;text-align:left}
+  .tbl th{background:var(--card2);font-family:var(--disp);font-weight:600;color:var(--gold);font-size:13px}
+  .tbl td{color:var(--ink2)}
+
+  /* checklist */
+  .check li{list-style:none;padding:8px 0 8px 30px;position:relative;font-size:14.5px;color:var(--ink2);border-bottom:1px solid var(--line)}
+  .check li:last-child{border-bottom:none}
+  .check li::before{content:"✓";position:absolute;left:0;top:8px;color:var(--gold);font-weight:700}
+
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr}}
+
+  footer{max-width:1080px;margin:40px auto 0;padding:24px 22px;border-top:1px solid var(--line);color:var(--ink3);font-size:12.5px;font-family:var(--mono)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-inner">
+    <div class="titlebar">
+      <div>
+        <div class="brand">BREVET <span class="b">MATHS</span></div>
+        <div class="sub">Fiche express · révision de dernière minute</div>
+      </div>
+      <div class="badge">⏱ Épreuve demain</div>
+    </div>
+    <nav id="nav"></nav>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<footer>
+  Tape sur "Voir la solution" pour t'auto-tester. Énonce toujours le théorème → applique → conclus. Bon courage Philip 🔥
+</footer>
+
+<script>
+/* ============ CONTENU ============ */
+const DATA = [
+ {
+  id:"litteral", nav:"Calcul littéral & équations", num:"01",
+  eyebrow:"Domaine · Nombres et calculs",
+  title:"Calcul littéral & équations",
+  intro:"Développer, factoriser, résoudre. C'est le carburant de quasi tout le sujet : utilisé en géométrie, en fonctions, en problèmes.",
+  cards:[
+   {tag:"Développer", h:"Distributivité",
+    formula:[["simple","k(a+b)=ka+kb"],["double","(a+b)(c+d)=ac+ad+bc+bd"]],
+    method:["Multiplier chaque terme de la 1ʳᵉ parenthèse par chaque terme de la 2ᵉ","Réduire : regrouper les termes en \\(x^2\\), en \\(x\\), et les constantes"],
+    ex:{q:"Développer et réduire \\((2x+3)(x-5)\\)",
+        sol:["\\((2x+3)(x-5)=2x\\times x+2x\\times(-5)+3\\times x+3\\times(-5)\\)","\\(=2x^2-10x+3x-15\\)","<span class='res'>\\(=2x^2-7x-15\\)</span>"]},
+    trap:["<strong>Les signes.</strong> \\(-(a-b)=-a+b\\). Une erreur de signe = toute la suite fausse."]
+   },
+   {tag:"Identités remarquables", h:"Les 3 à connaître par cœur",
+    formula:[["carré d'une somme","(a+b)^2=a^2+2ab+b^2"],["carré d'une différence","(a-b)^2=a^2-2ab+b^2"],["produit somme × différence","(a+b)(a-b)=a^2-b^2"]],
+    ex:{q:"Développer \\((x+5)^2\\) puis \\((3x-2)(3x+2)\\)",
+        sol:["\\((x+5)^2=x^2+2\\times x\\times5+5^2=x^2+10x+25\\)","\\((3x-2)(3x+2)=(3x)^2-2^2\\)","<span class='res'>\\(=9x^2-4\\)</span>"]},
+    trap:["\\((a+b)^2 \\neq a^2+b^2\\). N'oublie <strong>jamais</strong> le double produit \\(2ab\\)."]
+   },
+   {tag:"Factoriser", h:"Facteur commun & identités",
+    formula:[["facteur commun","ka+kb=k(a+b)"],["différence de carrés","a^2-b^2=(a+b)(a-b)"]],
+    method:["Cherche un <strong>facteur commun</strong> visible (un nombre, un \\(x\\), une parenthèse)","Sinon, repère une <strong>différence de deux carrés</strong>","Mets le facteur commun devant, le reste entre crochets"],
+    ex:{q:"Factoriser \\((x+2)(x-3)+(x+2)(2x+1)\\)",
+        sol:["Facteur commun : \\((x+2)\\)","\\((x+2)\\big[(x-3)+(2x+1)\\big]\\)","<span class='res'>\\(=(x+2)(3x-2)\\)</span>"]},
+    tip:["Factoriser sert surtout à résoudre une <strong>équation produit nul</strong> (voir plus bas)."]
+   },
+   {tag:"Équation", h:"Équation du 1er degré",
+    method:["Regrouper les \\(x\\) d'un côté, les nombres de l'autre","Ce qui change de côté change de signe","Diviser par le coefficient de \\(x\\)","Vérifier en remplaçant"],
+    ex:{q:"Résoudre \\(3x-7=5\\)",
+        sol:["\\(3x=5+7\\)","\\(3x=12\\)","<span class='res'>\\(x=4\\)</span>","Vérif : \\(3\\times4-7=5\\) ✓"]},
+   },
+   {tag:"Équation", h:"Équation produit nul",
+    formula:[["règle du produit nul","A\\times B=0 \\iff A=0 \\text{ ou } B=0"]],
+    method:["Si besoin, <strong>factoriser</strong> pour obtenir un produit \\(=0\\)","Poser chaque facteur \\(=0\\)","Résoudre les deux petites équations"],
+    ex:{q:"Résoudre \\((x-2)(x+5)=0\\)",
+        sol:["\\(x-2=0\\) ou \\(x+5=0\\)","<span class='res'>\\(x=2\\) ou \\(x=-5\\)</span>","Deux solutions."]},
+   },
+   {tag:"Inéquation", h:"Inéquation du 1er degré",
+    method:["On résout comme une équation…","…MAIS si tu divises ou multiplies par un nombre <strong>négatif</strong>, tu inverses le sens","On peut représenter l'ensemble des solutions sur une droite graduée"],
+    ex:{q:"Résoudre \\(-2x+1<7\\)",
+        sol:["\\(-2x<6\\)","On divise par \\(-2\\) → on inverse le sens","<span class='res'>\\(x>-3\\)</span>"]},
+    trap:["Division par un négatif → <strong>le sens de l'inégalité change</strong>. C'est LE piège du chapitre."]
+   }
+  ]
+ },
+ {
+  id:"arith", nav:"Arithmétique & nombres", num:"02",
+  eyebrow:"Domaine · Nombres et calculs",
+  title:"Arithmétique & nombres",
+  intro:"PGCD, fractions irréductibles, nombres premiers, puissances, racines. Souvent un exercice entier au brevet.",
+  cards:[
+   {tag:"PGCD", h:"Algorithme d'Euclide",
+    formula:[["principe","\\text{PGCD}(a,b)=\\text{PGCD}(b,\\,r) \\text{ avec } r=\\text{reste de } a\\div b"]],
+    method:["Diviser le plus grand par le plus petit, noter le reste","Recommencer : ancien diviseur ÷ reste","Continuer jusqu'à un reste \\(=0\\)","Le <strong>dernier reste non nul</strong> est le PGCD"],
+    ex:{q:"Calculer \\(\\text{PGCD}(182\\,;\\,78)\\)",
+        sol:["\\(182=2\\times78+26\\)","\\(78=3\\times26+0\\)","Dernier reste non nul → <span class='res'>PGCD \\(=26\\)</span>"]},
+   },
+   {tag:"Fractions", h:"Rendre irréductible",
+    method:["Calculer le PGCD du numérateur et du dénominateur","Diviser les deux par ce PGCD"],
+    ex:{q:"Rendre \\(\\dfrac{182}{78}\\) irréductible",
+        sol:["PGCD\\((182;78)=26\\)","\\(\\dfrac{182}{78}=\\dfrac{182\\div26}{78\\div26}\\)","<span class='res'>\\(=\\dfrac{7}{3}\\)</span>"]},
+    tip:["Une fraction est irréductible \\(\\iff\\) numérateur et dénominateur sont <strong>premiers entre eux</strong> (PGCD = 1)."]
+   },
+   {tag:"Nombres premiers", h:"Définition & décomposition",
+    formula:[["premiers ≤ 20","2,\\,3,\\,5,\\,7,\\,11,\\,13,\\,17,\\,19"]],
+    method:["Un nombre premier n'a que <strong>2 diviseurs</strong> : 1 et lui-même (1 n'est pas premier)","Décomposer = écrire comme produit de facteurs premiers"],
+    ex:{q:"Décomposer \\(60\\) en facteurs premiers",
+        sol:["\\(60=2\\times30=2\\times2\\times15=2\\times2\\times3\\times5\\)","<span class='res'>\\(60=2^2\\times3\\times5\\)</span>"]},
+   },
+   {tag:"Calcul", h:"Fractions : les opérations",
+    formula:[["somme","\\dfrac{a}{b}+\\dfrac{c}{d}=\\dfrac{ad+cb}{bd}"],["produit","\\dfrac{a}{b}\\times\\dfrac{c}{d}=\\dfrac{ac}{bd}"],["quotient","\\dfrac{a}{b}\\div\\dfrac{c}{d}=\\dfrac{a}{b}\\times\\dfrac{d}{c}"]],
+    trap:["Pour additionner : <strong>même dénominateur obligatoire</strong>. Pour multiplier : surtout pas de dénominateur commun !"]
+   },
+   {tag:"Puissances", h:"Règles de calcul",
+    formula:[["produit","a^m\\times a^n=a^{m+n}"],["quotient","\\dfrac{a^m}{a^n}=a^{m-n}"],["puissance de puissance","(a^m)^n=a^{m\\times n}"],["négatif & zéro","a^{-n}=\\dfrac{1}{a^n}\\quad a^0=1"]],
+    ex:{q:"Calculer \\(\\dfrac{10^5\\times10^{-2}}{10^4}\\)",
+        sol:["\\(=\\dfrac{10^{5+(-2)}}{10^4}=\\dfrac{10^3}{10^4}\\)","<span class='res'>\\(=10^{-1}=0{,}1\\)</span>"]},
+   },
+   {tag:"Notation scientifique", h:"a × 10ⁿ",
+    formula:[["forme","a\\times10^n \\text{ avec } 1\\leqslant |a|<10"]],
+    ex:{q:"Écrire \\(34\\,500\\) et \\(0{,}0021\\) en notation scientifique",
+        sol:["\\(34\\,500=3{,}45\\times10^{4}\\)","<span class='res'>\\(0{,}0021=2{,}1\\times10^{-3}\\)</span>"]},
+   },
+   {tag:"Racines carrées", h:"Manipulation",
+    formula:[["produit","\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}"],["carré","(\\sqrt{a})^2=a\\quad \\sqrt{a^2}=a"]],
+    ex:{q:"Simplifier \\(\\sqrt{50}\\)",
+        sol:["\\(\\sqrt{50}=\\sqrt{25\\times2}=\\sqrt{25}\\times\\sqrt{2}\\)","<span class='res'>\\(=5\\sqrt{2}\\)</span>"]},
+    trap:["\\(\\sqrt{a+b}\\neq\\sqrt{a}+\\sqrt{b}\\). La racine ne « traverse » pas une addition."]
+   }
+  ]
+ },
+ {
+  id:"fonctions", nav:"Fonctions & proportionnalité", num:"03",
+  eyebrow:"Domaine · Fonctions · Données",
+  title:"Fonctions & proportionnalité",
+  intro:"Linéaire, affine, lecture graphique, pourcentages. Image vs antécédent : c'est la distinction qui fait gagner des points.",
+  cards:[
+   {tag:"Vocabulaire", h:"Image & antécédent",
+    formula:[["notation","f(x)=\\dots \\qquad y=f(x)"]],
+    method:["<strong>Image</strong> de \\(a\\) : on calcule \\(f(a)\\) (on connaît \\(x\\), on cherche \\(y\\))","<strong>Antécédent</strong> de \\(b\\) : on résout \\(f(x)=b\\) (on connaît \\(y\\), on cherche \\(x\\))"],
+    ex:{q:"\\(f(x)=2x+1\\). Image de 3 ? Antécédent de 9 ?",
+        sol:["Image : \\(f(3)=2\\times3+1=7\\)","Antécédent : \\(2x+1=9 \\Rightarrow 2x=8\\)","<span class='res'>\\(x=4\\)</span>"]},
+   },
+   {tag:"Fonction linéaire", h:"f(x) = ax",
+    formula:[["forme","f(x)=ax"],["coefficient","a=\\dfrac{f(x)}{x}"]],
+    method:["Représentée par une <strong>droite passant par l'origine</strong>","Modélise toute situation de <strong>proportionnalité</strong>","Le coefficient \\(a\\) = coefficient de proportionnalité"],
+    tip:["Prendre \\(t\\%\\) d'un nombre, c'est appliquer la fonction linéaire de coefficient \\(\\frac{t}{100}\\)."]
+   },
+   {tag:"Fonction affine", h:"f(x) = ax + b",
+    formula:[["forme","f(x)=ax+b"],["coeff. directeur (2 points)","a=\\dfrac{y_2-y_1}{x_2-x_1}"]],
+    method:["\\(a\\) = coefficient directeur (la pente)","\\(b\\) = ordonnée à l'origine (où la droite coupe l'axe des \\(y\\))","Pour trouver \\(b\\) : remplacer \\(x\\) et \\(y\\) par un point connu"],
+    ex:{q:"Droite passant par \\(A(1\\,;5)\\) et \\(B(3\\,;11)\\). Trouver \\(f(x)\\).",
+        sol:["\\(a=\\dfrac{11-5}{3-1}=\\dfrac{6}{2}=3\\)","\\(f(x)=3x+b\\). Avec \\(A\\) : \\(5=3\\times1+b\\Rightarrow b=2\\)","<span class='res'>\\(f(x)=3x+2\\)</span>"]},
+   },
+   {tag:"Pourcentages", h:"Coefficient multiplicateur",
+    formula:[["augmenter de t%","\\times\\left(1+\\dfrac{t}{100}\\right)"],["diminuer de t%","\\times\\left(1-\\dfrac{t}{100}\\right)"]],
+    method:["Augmentation de 20 % → \\(\\times1{,}20\\)","Diminution de 15 % → \\(\\times0{,}85\\)","Évolutions successives : on <strong>multiplie</strong> les coefficients"],
+    ex:{q:"Un prix de 80 € augmente de 25 %. Nouveau prix ?",
+        sol:["\\(80\\times1{,}25\\)","<span class='res'>\\(=100\\) €</span>"]},
+    trap:["Une hausse de 20 % suivie d'une baisse de 20 % ne ramène <strong>pas</strong> au prix de départ ! \\(1{,}2\\times0{,}8=0{,}96\\)."]
+   },
+   {tag:"Proportionnalité", h:"Quatrième proportionnelle",
+    method:["Repérer le tableau de proportionnalité","Produit en croix : \\(\\dfrac{a}{b}=\\dfrac{c}{x}\\Rightarrow x=\\dfrac{b\\times c}{a}\\)"],
+    ex:{q:"3 stylos coûtent 4,50 €. Prix de 7 stylos ?",
+        sol:["\\(x=\\dfrac{7\\times4{,}50}{3}\\)","<span class='res'>\\(=10{,}50\\) €</span>"]},
+   }
+  ]
+ },
+ {
+  id:"stats", nav:"Statistiques & probabilités", num:"04",
+  eyebrow:"Domaine · Organisation de données",
+  title:"Statistiques & probabilités",
+  intro:"Moyenne, médiane, étendue d'un côté ; probabilités de l'autre. Des points faciles si on connaît les définitions exactes.",
+  cards:[
+   {tag:"Statistiques", h:"Les indicateurs",
+    formula:[["moyenne","\\bar{x}=\\dfrac{\\text{somme des valeurs}}{\\text{effectif total}}"],["étendue","\\text{max}-\\text{min}"]],
+    method:["<strong>Moyenne pondérée</strong> : \\(\\dfrac{\\sum(\\text{valeur}\\times\\text{effectif})}{\\text{effectif total}}\\)","<strong>Médiane</strong> : on range dans l'ordre croissant, c'est la valeur qui partage la série en deux moitiés (50 %)","<strong>Étendue</strong> : différence entre la plus grande et la plus petite valeur"],
+    ex:{q:"Notes : 8, 12, 14, 9, 17. Médiane et étendue ?",
+        sol:["Rangé : 8, 9, 12, 14, 17 → 5 valeurs, la 3ᵉ est au milieu","Médiane = <span class='res'>12</span>","Étendue \\(=17-8=\\) <span class='res'>9</span>"]},
+    trap:["La médiane se calcule sur des valeurs <strong>rangées dans l'ordre</strong>. Ne jamais oublier de trier d'abord."]
+   },
+   {tag:"Probabilités", h:"Calcul d'une probabilité",
+    formula:[["équiprobabilité","P=\\dfrac{\\text{nombre de cas favorables}}{\\text{nombre de cas possibles}}"],["encadrement","0\\leqslant P\\leqslant 1"]],
+    method:["Compter les issues favorables et les issues totales","\\(P(\\text{certain})=1\\), \\(P(\\text{impossible})=0\\)","Événement contraire : \\(P(\\overline{A})=1-P(A)\\)"],
+    ex:{q:"On lance un dé à 6 faces. \\(P(\\text{obtenir un nombre pair})\\) ?",
+        sol:["Favorables : 2, 4, 6 → 3 issues","\\(P=\\dfrac{3}{6}\\)","<span class='res'>\\(=\\dfrac{1}{2}\\)</span>"]},
+    tip:["Deux épreuves successives (tirages, dés) → fais un <strong>arbre</strong> et multiplie les probabilités le long des branches."]
+   }
+  ]
+ },
+ {
+  id:"geo", nav:"Pythagore · Thalès · Trigo", num:"05",
+  eyebrow:"Domaine · Espace et géométrie",
+  title:"Pythagore · Thalès · Trigonométrie",
+  intro:"Le cœur de la géométrie du brevet. Pour chacun : il y a un sens « direct » (calculer une longueur) et une « réciproque » (prouver une propriété).",
+  cards:[
+   {tag:"Pythagore", h:"Sens direct — calculer un côté",
+    formula:[["triangle rectangle en A","BC^2=AB^2+AC^2"]],
+    method:["Vérifier que le triangle est rectangle et repérer l'<strong>hypoténuse</strong> (face à l'angle droit)","Écrire l'égalité de Pythagore","Remplacer et calculer le côté cherché"],
+    ex:{q:"Triangle rectangle en A, \\(AB=3\\), \\(AC=4\\). Calculer \\(BC\\).",
+        sol:["\\(BC^2=AB^2+AC^2=3^2+4^2\\)","\\(BC^2=9+16=25\\)","<span class='res'>\\(BC=\\sqrt{25}=5\\)</span>"]},
+   },
+   {tag:"Pythagore", h:"Réciproque — prouver l'angle droit",
+    method:["Identifier le <strong>plus grand côté</strong> (hypoténuse potentielle)","Calculer séparément : son carré, et la somme des carrés des deux autres","<strong>Si c'est égal</strong> → le triangle est rectangle. Sinon → il ne l'est pas"],
+    ex:{q:"Triangle \\(EFG\\) : \\(EF=6\\), \\(FG=8\\), \\(EG=10\\). Rectangle ?",
+        sol:["Plus grand côté : \\(EG\\). \\(EG^2=100\\)","\\(EF^2+FG^2=36+64=100\\)","Égalité vérifiée → <span class='res'>rectangle en F</span>"]},
+    trap:["Rédige les deux calculs <strong>séparément</strong> puis compare. N'écris pas l'égalité comme si elle était déjà vraie."]
+   },
+   {tag:"Thalès", h:"Sens direct — calculer une longueur",
+    formula:[["points alignés + parallèle","\\dfrac{AM}{AB}=\\dfrac{AN}{AC}=\\dfrac{MN}{BC}"]],
+    method:["Vérifier : \\(A,M,B\\) alignés et \\(A,N,C\\) alignés, avec \\((MN)\\parallel(BC)\\)","Écrire la triple égalité des quotients","Garder les deux quotients utiles → produit en croix"],
+    ex:{q:"\\((MN)\\parallel(BC)\\), \\(AM=2\\), \\(AB=5\\), \\(BC=7\\). Calculer \\(MN\\).",
+        sol:["\\(\\dfrac{AM}{AB}=\\dfrac{MN}{BC}\\Rightarrow\\dfrac{2}{5}=\\dfrac{MN}{7}\\)","\\(MN=\\dfrac{2\\times7}{5}\\)","<span class='res'>\\(MN=2{,}8\\)</span>"]},
+   },
+   {tag:"Thalès", h:"Réciproque — prouver le parallélisme",
+    method:["Vérifier que les points sont alignés <strong>dans le même ordre</strong>","Calculer les deux quotients \\(\\frac{AM}{AB}\\) et \\(\\frac{AN}{AC}\\) séparément","<strong>S'ils sont égaux</strong> → les droites sont parallèles"],
+    ex:{q:"\\(\\frac{AM}{AB}=\\frac{3}{4}\\) et \\(\\frac{AN}{AC}=\\frac{6}{8}\\). \\((MN)\\parallel(BC)\\) ?",
+        sol:["\\(\\dfrac{3}{4}=0{,}75\\) et \\(\\dfrac{6}{8}=0{,}75\\)","Quotients égaux + points alignés dans le même ordre","<span class='res'>→ \\((MN)\\parallel(BC)\\)</span>"]},
+   },
+   {tag:"Trigonométrie", h:"SOH · CAH · TOA",
+    formula:[["cosinus","\\cos(\\widehat{x})=\\dfrac{\\text{côté adjacent}}{\\text{hypoténuse}}"],["sinus","\\sin(\\widehat{x})=\\dfrac{\\text{côté opposé}}{\\text{hypoténuse}}"],["tangente","\\tan(\\widehat{x})=\\dfrac{\\text{côté opposé}}{\\text{côté adjacent}}"]],
+    method:["Triangle rectangle uniquement. Repérer hypoténuse / opposé / adjacent par rapport à l'angle","Choisir la formule selon les côtés connus (S-O-H, C-A-H, T-O-A)","Pour trouver un <strong>angle</strong> : utiliser \\(\\cos^{-1}\\), \\(\\sin^{-1}\\) ou \\(\\tan^{-1}\\) à la calculatrice"],
+    ex:{q:"Rectangle en A : \\(AB=4\\) (adjacent à \\(\\widehat{B}\\)), \\(BC=8\\) (hypoténuse). Angle \\(\\widehat{B}\\) ?",
+        sol:["\\(\\cos(\\widehat{B})=\\dfrac{AB}{BC}=\\dfrac{4}{8}=0{,}5\\)","\\(\\widehat{B}=\\cos^{-1}(0{,}5)\\)","<span class='res'>\\(\\widehat{B}=60°\\)</span>"]},
+    trap:["Vérifie que ta calculatrice est en mode <strong>degrés (DEG)</strong>, pas en radians."]
+   }
+  ]
+ },
+ {
+  id:"grandeurs", nav:"Volumes & agrandissement", num:"06",
+  eyebrow:"Domaine · Grandeurs et mesures",
+  title:"Volumes, vitesses & agrandissement",
+  intro:"Formules de volumes, vitesse, et l'effet d'un agrandissement sur les aires et les volumes — un piège classique à connaître.",
+  cards:[
+   {tag:"Volumes", h:"Les formules essentielles",
+    formula:[["pavé / cube","V=L\\times l\\times h"],["cylindre","V=\\pi\\times r^2\\times h"],["cône / pyramide","V=\\dfrac{\\text{aire base}\\times h}{3}"],["boule","V=\\dfrac{4}{3}\\pi r^3"]],
+    tip:["Cône et pyramide : même formule, et c'est <strong>÷ 3</strong> par rapport au prisme/cylindre de même base et hauteur."]
+   },
+   {tag:"Vitesse", h:"Distance, temps, vitesse",
+    formula:[["vitesse moyenne","v=\\dfrac{d}{t}"],["distance","d=v\\times t"]],
+    method:["Garder des <strong>unités cohérentes</strong> (km & h, ou m & s)","Conversion : \\(\\text{m/s}\\to\\text{km/h}\\) : \\(\\times3{,}6\\)"],
+    ex:{q:"Une voiture parcourt 150 km en 2 h. Vitesse moyenne ?",
+        sol:["\\(v=\\dfrac{d}{t}=\\dfrac{150}{2}\\)","<span class='res'>\\(=75\\) km/h</span>"]},
+   },
+   {tag:"Conversions", h:"Aires & volumes",
+    formula:[["volumes ↔ capacités","1\\,\\text{L}=1\\,\\text{dm}^3 \\qquad 1\\,\\text{mL}=1\\,\\text{cm}^3"]],
+    trap:["Pour les <strong>aires</strong> on multiplie par 100 à chaque rang ; pour les <strong>volumes</strong>, par 1000. Pas par 10 !"]
+   },
+   {tag:"Agrandissement", h:"Effet du coefficient k",
+    formula:[["longueurs","\\times k"],["aires","\\times k^2"],["volumes","\\times k^3"]],
+    method:["Si on agrandit une figure d'un facteur \\(k\\)…","…les longueurs sont \\(\\times k\\), les aires \\(\\times k^2\\), les volumes \\(\\times k^3\\)"],
+    ex:{q:"On double les dimensions d'un cube (\\(k=2\\)). Le volume est multiplié par ?",
+        sol:["Volume \\(\\times k^3=2^3\\)","<span class='res'>\\(\\times8\\)</span>"]},
+    trap:["Doubler les côtés ne double pas le volume — il est multiplié par \\(8\\). <strong>Question piège récurrente.</strong>"]
+   }
+  ]
+ },
+ {
+  id:"transfo", nav:"Transformations", num:"07",
+  eyebrow:"Domaine · Espace et géométrie",
+  title:"Transformations du plan",
+  intro:"Reconnaître et caractériser : translation, symétries, rotation, homothétie. Et savoir ce que chacune conserve.",
+  cards:[
+   {tag:"Définitions", h:"Les transformations",
+    table:{head:["Transformation","Caractérisée par"],
+     rows:[
+      ["Translation","une direction, un sens, une longueur (un vecteur)"],
+      ["Symétrie axiale","un axe (droite) — effet « miroir »"],
+      ["Symétrie centrale","un centre — demi-tour (rotation de 180°)"],
+      ["Rotation","un centre, un angle, un sens"],
+      ["Homothétie","un centre et un rapport \\(k\\) (agrandit / réduit)"]
+     ]}
+   },
+   {tag:"À retenir", h:"Ce qui est conservé",
+    method:["Translation, symétries, rotation : conservent <strong>longueurs, angles et aires</strong>","Homothétie de rapport \\(k\\) : multiplie les longueurs par \\(|k|\\) et les aires par \\(k^2\\) (conserve les angles)"],
+    tip:["L'homothétie est la seule qui <strong>change la taille</strong>. Les autres ne font que déplacer/retourner la figure."]
+   }
+  ]
+ },
+ {
+  id:"scratch", nav:"Scratch / Algo", num:"08",
+  eyebrow:"Domaine · Algorithmique et programmation",
+  title:"Scratch & algorithmique",
+  intro:"Il y a presque toujours un exercice Scratch : lire un programme, prévoir un résultat ou une position, reconnaître une figure.",
+  cards:[
+   {tag:"Lecture", h:"Comprendre un programme",
+    method:["Repérer les <strong>variables</strong> et leur valeur de départ (affectation : « mettre … à »)","Suivre les <strong>boucles</strong> « répéter \\(n\\) fois » : compter combien de fois on exécute","Évaluer les <strong>conditions</strong> « si … alors »","Suivre les déplacements et coordonnées \\((x\\,;y)\\) pas à pas"],
+    ex:{q:"Variable \\(N=0\\). On « répète 4 fois : ajouter 3 à \\(N\\) ». Valeur finale ?",
+        sol:["\\(0\\to3\\to6\\to9\\to12\\)","<span class='res'>\\(N=12\\)</span>"]},
+   },
+   {tag:"Figures", h:"Quel dessin produit le script ?",
+    formula:[["polygone régulier à n côtés","\\text{angle de rotation}=\\dfrac{360}{n}"]],
+    method:["« Répéter \\(n\\) fois : avancer / tourner de \\(\\frac{360}{n}\\)° » → polygone à \\(n\\) côtés","Carré : 4 côtés, on tourne de 90° ; triangle équilatéral : 3 côtés, 120°"],
+    ex:{q:"« Répéter 6 fois : avancer 50 ; tourner de 60° ». Quelle figure ?",
+        sol:["\\(\\dfrac{360}{60}=6\\) côtés","<span class='res'>un hexagone régulier</span>"]},
+   }
+  ]
+ },
+ {
+  id:"methodo", nav:"Méthodo épreuve", num:"09",
+  eyebrow:"Le jour J",
+  title:"Méthodo : réussir l'épreuve",
+  intro:"L'épreuve dure 2 h, calculatrice autorisée. Les exercices sont indépendants : tu n'es pas obligé de les faire dans l'ordre.",
+  cards:[
+   {tag:"Stratégie", h:"Avant de chercher",
+    check:[
+     "Lis tout le sujet 2 min, repère les exercices que tu sens le mieux et commence par eux",
+     "Les exercices sont indépendants : une question ratée ne bloque pas les autres",
+     "Surveille le temps : ~ 20 min par exercice pour ne rien laisser de vide",
+     "Calculatrice autorisée — vérifie le mode DEG pour la trigo"
+    ]
+   },
+   {tag:"Rédaction", h:"La structure qui rapporte des points",
+    method:["Pour Pythagore / Thalès : <strong>énonce le théorème</strong>, applique, conclus","Justifie chaque réponse (« car… », « donc… »)","Écris les calculs en entier, pas seulement le résultat","Encadre ou souligne ta réponse finale, avec l'unité"],
+    tip:["Le barème évalue ta <strong>démarche</strong>, pas seulement le résultat : une bonne méthode mal terminée rapporte quand même des points."]
+   },
+   {tag:"Réflexes", h:"Vérifications anti-erreurs",
+    check:[
+     "Ordre de grandeur : ton résultat est-il plausible ?",
+     "Unités cohérentes et présentes dans la réponse",
+     "Signes (le piège n°1 du calcul littéral)",
+     "Inéquation : as-tu inversé le sens en divisant par un négatif ?",
+     "Agrandissement : longueurs ×k, aires ×k², volumes ×k³",
+     "Ne laisse jamais une question blanche — écris au moins le théorème ou la formule"
+    ]
+   }
+  ]
+ }
+];
+
+/* ============ RENDU ============ */
+function buildFormula(f){
+  return `<div class="formula">${f.map(([lab,tex])=>
+    `<span class="lab">${lab}</span>\\[${tex}\\]`).join('')}</div>`;
+}
+function buildMethod(steps){
+  return `<div class="method"><span class="lab">▸ Méthode</span><ol>${steps.map(s=>`<li>${s}</li>`).join('')}</ol></div>`;
+}
+function buildEx(ex,idx){
+  return `<div class="ex">
+    <div class="ex-q"><span class="lab">Exemple résolu</span>${ex.q}</div>
+    <button class="ex-btn" data-ex="${idx}"><span class="chev">▶</span> Voir la solution</button>
+    <div class="ex-sol" id="sol-${idx}"><div class="ex-sol-inner">${ex.sol.map(s=>`<div class="step">${s}</div>`).join('')}</div></div>
+  </div>`;
+}
+function buildTrap(t){return `<div class="trap"><span class="lab">⚠ Piège à éviter</span>${t.map(p=>`<p>${p}</p>`).join('')}</div>`;}
+function buildTip(t){return `<div class="tip"><span class="lab">★ Astuce</span>${t.map(p=>`<p>${p}</p>`).join('')}</div>`;}
+function buildTable(tb){
+  return `<table class="tbl"><thead><tr>${tb.head.map(h=>`<th>${h}</th>`).join('')}</tr></thead>
+    <tbody>${tb.rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+}
+function buildCheck(items){
+  return `<ul class="check">${items.map(i=>`<li>${i}</li>`).join('')}</ul>`;
+}
+
+let exCounter=0;
+function buildCard(c){
+  let html=`<div class="card"><div class="card-top"><span class="tag">${c.tag}</span></div><h3>${c.h}</h3>`;
+  if(c.p) html+=`<p>${c.p}</p>`;
+  if(c.formula) html+=buildFormula(c.formula);
+  if(c.method) html+=buildMethod(c.method);
+  if(c.table) html+=buildTable(c.table);
+  if(c.check) html+=buildCheck(c.check);
+  if(c.ex){html+=buildEx(c.ex,exCounter);exCounter++;}
+  if(c.tip) html+=buildTip(c.tip);
+  if(c.trap) html+=buildTrap(c.trap);
+  html+=`</div>`;
+  return html;
+}
+
+const nav=document.getElementById('nav');
+const main=document.getElementById('main');
+DATA.forEach((sec,i)=>{
+  const pill=document.createElement('button');
+  pill.className='pill'+(i===0?' active':'');
+  pill.innerHTML=`<span class="num">${sec.num}</span>${sec.nav}`;
+  pill.dataset.target=sec.id;
+  nav.appendChild(pill);
+
+  const panel=document.createElement('section');
+  panel.className='panel'+(i===0?' show':'');
+  panel.id=sec.id;
+  panel.innerHTML=`<div class="panel-head">
+      <div class="eyebrow">${sec.eyebrow}</div>
+      <h2 class="panel-title">${sec.title}</h2>
+      <p class="panel-intro">${sec.intro}</p>
+    </div>${sec.cards.map(buildCard).join('')}`;
+  main.appendChild(panel);
+});
+
+/* navigation */
+nav.addEventListener('click',e=>{
+  const pill=e.target.closest('.pill');if(!pill)return;
+  document.querySelectorAll('.pill').forEach(p=>p.classList.remove('active'));
+  pill.classList.add('active');
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('show'));
+  document.getElementById(pill.dataset.target).classList.add('show');
+  window.scrollTo({top:0,behavior:'smooth'});
+});
+
+/* reveal solutions */
+main.addEventListener('click',e=>{
+  const btn=e.target.closest('.ex-btn');if(!btn)return;
+  const sol=document.getElementById('sol-'+btn.dataset.ex);
+  const open=sol.classList.toggle('open');
+  btn.classList.toggle('open',open);
+  btn.innerHTML=`<span class="chev">▶</span> ${open?'Masquer la solution':'Voir la solution'}`;
+});
+</script>
+</body>
+</html>
